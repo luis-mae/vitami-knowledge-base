@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "status": "CANDIDATE_FOR_VALIDATION_NOT_ACTIVE",
+  "candidate_count": 13,
+  "candidate_ids": [
+    "basic_b12_vegan_low_fortified",
+    "basic_vitd_low_sun_low_diet",
+    "basic_creatine_strength",
+    "basic_whey_strength_low_protein",
+    "basic_omega3_low_fish",
+    "basic_calcium_low_diet",
+    "basic_zinc_vegan",
+    "basic_vitc_low_fruitveg",
+    "basic_caffeine_performance",
+    "basic_beta_alanine_high_intensity",
+    "basic_psyllium_low_fiber",
+    "basic_electrolytes_prolonged_sweat",
+    "basic_iron_fatigue_guardrail"
+  ],
+  "activation_requirements": [
+    "Scientific source review completed",
+    "Trigger answers mapped to actual Emergent UI",
+    "Safety gates tested",
+    "User-facing ES/EN/IT copy reviewed",
+    "Dose display policy reviewed",
+    "Regression test added for the pathway",
+    "Explicit manual status change required before production"
+  ],
+  "policy": "No candidate becomes active merely by being present in this folder."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "basic_caffeine_performance",
+  "supplement_id": "caffeine_performance",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "CAFF_PERFORMANCE"
+  ],
+  "safety_rule_ids": [
+    "CAFF_SLEEP",
+    "CAFF_HIGH_BASELINE"
+  ],
+  "default_state": "B_consider",
+  "required_answers": [
+    "activity_type",
+    "goals_primary",
+    "pro_weight",
+    "lifestyle_caffeine_daily",
+    "symptom_sleep"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Cafeína: puede mejorar el rendimiento en contextos específicos",
+      "why": "Tu actividad y objetivo deportivo encajan con escenarios donde la cafeína puede mejorar rendimiento.",
+      "limit": "Si ya consumís mucha cafeína o dormís mal, la conveniencia baja. Más dosis no significa más beneficio."
+    },
+    "en": {
+      "title": "Caffeine: may improve performance in selected contexts",
+      "why": "Your activity and performance goal match settings where caffeine can improve performance.",
+      "limit": "High habitual caffeine intake or poor sleep reduces suitability. More is not necessarily better."
+    },
+    "it": {
+      "title": "Caffeina: può migliorare la prestazione in contesti specifici",
+      "why": "La tua attività e il tuo obiettivo sportivo rientrano nei contesti in cui la caffeina può migliorare la prestazione.",
+      "limit": "Un consumo abituale elevato o un sonno scarso riducono l'idoneità. Una dose maggiore non significa più beneficio."
+    }
+  },
+  "dose_display": {
+    "mode": "weight_based_supported_range",
+    "range": "2–6 mg/kg before exercise",
+    "personalized_dose": true,
+    "requires_weight": true,
+    "requires_sleep_and_baseline_caffeine_clear": true
+  },
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

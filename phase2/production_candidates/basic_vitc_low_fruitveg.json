@@ -1,0 +1,43 @@
+{
+  "id": "basic_vitc_low_fruitveg",
+  "supplement_id": "vitamin_c",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "VITC_LOW_FRUITVEG",
+    "VITC_SMOKER"
+  ],
+  "safety_rule_ids": [
+    "VITC_KIDNEY_STONES"
+  ],
+  "default_state": "C_potential_benefit",
+  "required_answers": [
+    "diet_fruit_veg_daily",
+    "lifestyle_smoking",
+    "conditions_kidney_stones"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Vitamina C: revisá primero tus fuentes alimentarias",
+      "why": "Tu consumo de frutas y verduras parece bajo; además, las personas que fuman tienen mayores requerimientos.",
+      "limit": "Vitamina C no se presenta como una estrategia general para prevenir resfríos o enfermedades."
+    },
+    "en": {
+      "title": "Vitamin C: review dietary sources first",
+      "why": "Your fruit and vegetable intake appears low; smokers also have higher requirements.",
+      "limit": "Vitamin C is not presented as a general strategy to prevent colds or disease."
+    },
+    "it": {
+      "title": "Vitamina C: prima rivedi le fonti alimentari",
+      "why": "Il consumo di frutta e verdura sembra basso; inoltre chi fuma ha un fabbisogno maggiore.",
+      "limit": "La vitamina C non viene presentata come strategia generale per prevenire raffreddori o malattie."
+    }
+  },
+  "dose_display": {
+    "mode": "reference_intake_only",
+    "smoker_increment": "+35 mg/day above the usual RDA",
+    "personalized_dose": false
+  },
+  "source_refs": [
+    "NIH_VITC_HP"
+  ]
+}

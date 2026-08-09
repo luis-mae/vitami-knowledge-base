@@ -1,0 +1,42 @@
+{
+  "id": "basic_calcium_low_diet",
+  "supplement_id": "calcium",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "CALCIUM_LOW_DIET"
+  ],
+  "safety_rule_ids": [
+    "CALCIUM_STONES"
+  ],
+  "default_state": "D_optional_limited",
+  "required_answers": [
+    "diet_dairy_calcium_sources",
+    "profile_age",
+    "profile_sex_reference",
+    "conditions_kidney_stones"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Calcio: primero revisemos cuánto aporta tu alimentación",
+      "why": "Tus fuentes habituales de calcio parecen escasas.",
+      "limit": "Vitami no debería indicar automáticamente un suplemento hasta estimar el aporte dietario total."
+    },
+    "en": {
+      "title": "Calcium: first review your dietary intake",
+      "why": "Your usual calcium-rich food sources appear limited.",
+      "limit": "Vitami should not automatically suggest a supplement before estimating total dietary calcium."
+    },
+    "it": {
+      "title": "Calcio: prima valutiamo l'apporto alimentare",
+      "why": "Le tue fonti abituali di calcio sembrano limitate.",
+      "limit": "Vitami non dovrebbe suggerire automaticamente un integratore prima di stimare il calcio totale della dieta."
+    }
+  },
+  "dose_display": {
+    "mode": "reference_intake_only",
+    "personalized_dose": false
+  },
+  "source_refs": [
+    "NIH_CALCIUM_HP"
+  ]
+}

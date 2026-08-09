@@ -1,0 +1,44 @@
+{
+  "id": "basic_electrolytes_prolonged_sweat",
+  "supplement_id": "electrolyte_mix",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "ELECTROLYTES_PROLONGED_HIGH_SWEAT"
+  ],
+  "safety_rule_ids": [
+    "ELECTROLYTES_KIDNEY_HEART"
+  ],
+  "default_state": "C_potential_benefit",
+  "required_answers": [
+    "activity_session_duration",
+    "activity_sweat_level",
+    "conditions_kidney",
+    "conditions_heart",
+    "medications_regular_use"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Electrolitos: pueden tener sentido en sesiones largas con mucha sudoración",
+      "why": "La combinación de duración y sudoración hace más relevante revisar reposición de líquidos y electrolitos.",
+      "limit": "No existe una mezcla universal: sodio, potasio, carbohidratos y concentración cambian según el producto y el contexto."
+    },
+    "en": {
+      "title": "Electrolytes: may make sense for long, high-sweat sessions",
+      "why": "Your combination of session duration and sweating makes fluid and electrolyte replacement more relevant.",
+      "limit": "There is no universal formula: sodium, potassium, carbohydrate, and concentration vary by product and context."
+    },
+    "it": {
+      "title": "Elettroliti: possono avere senso in sessioni lunghe con molta sudorazione",
+      "why": "La combinazione di durata e sudorazione rende più rilevante valutare il reintegro di liquidi ed elettroliti.",
+      "limit": "Non esiste una miscela universale: sodio, potassio, carboidrati e concentrazione variano secondo prodotto e contesto."
+    }
+  },
+  "dose_display": {
+    "mode": "product_and_context_dependent",
+    "personalized_dose": false
+  },
+  "source_refs": [
+    "NIH_EXERCISE_HP",
+    "NIH_POTASSIUM_HP"
+  ]
+}

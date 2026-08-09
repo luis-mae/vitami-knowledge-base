@@ -1,0 +1,40 @@
+{
+  "id": "basic_b12_vegan_low_fortified",
+  "supplement_id": "vitamin_b12",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "B12_VEGAN_LOW_FORTIFIED"
+  ],
+  "safety_rule_ids": [],
+  "default_state": "B_consider",
+  "required_answers": [
+    "diet_type",
+    "diet_fortified_foods",
+    "supplements_current_use"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Vitamina B12: vale la pena considerarla",
+      "why": "Tu patrón alimentario puede aportar poca vitamina B12 si no hay suficientes alimentos fortificados.",
+      "limit": "Esto no diagnostica una deficiencia. Si ya usás B12, primero hay que revisar lo que estás tomando."
+    },
+    "en": {
+      "title": "Vitamin B12: worth considering",
+      "why": "Your dietary pattern may provide little vitamin B12 if fortified foods are limited.",
+      "limit": "This does not diagnose deficiency. If you already take B12, your current intake should be reviewed first."
+    },
+    "it": {
+      "title": "Vitamina B12: da considerare",
+      "why": "Il tuo modello alimentare può fornire poca vitamina B12 se gli alimenti fortificati sono limitati.",
+      "limit": "Questo non diagnostica una carenza. Se assumi già B12, va prima valutato l'apporto attuale."
+    }
+  },
+  "dose_display": {
+    "mode": "reference_only",
+    "personalized_dose": false,
+    "note": "ODS lists common supplement presentations but does not establish one universal preventive supplement dose for all vegan users."
+  },
+  "source_refs": [
+    "NIH_B12_HP"
+  ]
+}

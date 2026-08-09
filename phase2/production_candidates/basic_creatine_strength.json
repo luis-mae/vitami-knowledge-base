@@ -1,0 +1,45 @@
+{
+  "id": "basic_creatine_strength",
+  "supplement_id": "creatine_monohydrate",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "CREATINE_STRENGTH"
+  ],
+  "safety_rule_ids": [
+    "CREATINE_KIDNEY"
+  ],
+  "default_state": "B_consider",
+  "required_answers": [
+    "activity_type",
+    "goals_primary",
+    "conditions_kidney"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Creatina monohidrato: buena candidata",
+      "why": "Tu entrenamiento de fuerza y tu objetivo encajan con uno de los contextos con mejor respaldo para creatina.",
+      "limit": "No es igual de útil para resistencia pura y puede aumentar el peso corporal por retención de agua."
+    },
+    "en": {
+      "title": "Creatine monohydrate: a strong candidate",
+      "why": "Your strength training and goal match one of the better-supported contexts for creatine.",
+      "limit": "It is less useful for pure endurance and can increase body weight through water retention."
+    },
+    "it": {
+      "title": "Creatina monoidrato: buona candidata",
+      "why": "Il tuo allenamento di forza e il tuo obiettivo rientrano tra i contesti meglio supportati per la creatina.",
+      "limit": "È meno utile per la sola endurance e può aumentare il peso corporeo per ritenzione idrica."
+    }
+  },
+  "dose_display": {
+    "mode": "supported_range",
+    "maintenance": "3–5 g/day",
+    "loading": "optional; 20 g/day divided for 5–7 days is a studied protocol, not required",
+    "no_loading": "3–6 g/day for 3–4 weeks is a studied alternative",
+    "personalized_dose": true,
+    "requires_safety_clear": true
+  },
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

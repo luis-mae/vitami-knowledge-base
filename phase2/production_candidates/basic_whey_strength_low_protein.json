@@ -1,0 +1,44 @@
+{
+  "id": "basic_whey_strength_low_protein",
+  "supplement_id": "whey_protein",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "WHEY_STRENGTH_LOW_PROTEIN"
+  ],
+  "safety_rule_ids": [
+    "WHEY_MILK_ALLERGY"
+  ],
+  "default_state": "B_consider",
+  "required_answers": [
+    "activity_type",
+    "goals_primary",
+    "diet_protein_sources",
+    "food_allergies",
+    "pro_weight"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Proteína whey: puede ser útil para cubrir un faltante",
+      "why": "Entrenás fuerza y tu alimentación parece aportar poca proteína para tu objetivo.",
+      "limit": "El suplemento es una forma práctica de completar proteína; no reemplaza la evaluación del total diario ni es obligatorio si la dieta ya cubre tus necesidades."
+    },
+    "en": {
+      "title": "Whey protein: may help close a protein gap",
+      "why": "You strength train and your diet appears low in protein for your goal.",
+      "limit": "A supplement is simply a practical way to add protein; it is not required if your diet already meets your needs."
+    },
+    "it": {
+      "title": "Proteine whey: possono aiutare a colmare un apporto basso",
+      "why": "Ti alleni con i pesi e la dieta sembra fornire poche proteine per il tuo obiettivo.",
+      "limit": "L'integratore è un modo pratico per aggiungere proteine; non è necessario se la dieta copre già il fabbisogno."
+    }
+  },
+  "dose_display": {
+    "mode": "gap_based",
+    "personalized_dose": false,
+    "note": "BASIC should not invent a scoop dose; total daily protein requires body weight, diet and training context."
+  },
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

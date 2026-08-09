@@ -1,0 +1,43 @@
+{
+  "id": "basic_zinc_vegan",
+  "supplement_id": "zinc",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "ZINC_VEGAN"
+  ],
+  "safety_rule_ids": [
+    "ZINC_ALREADY_HIGH"
+  ],
+  "default_state": "D_optional_limited",
+  "required_answers": [
+    "diet_type",
+    "diet_legumes_nuts_seeds",
+    "supplements_current_use"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Zinc: vale la pena revisar tu aporte",
+      "why": "En dietas muy basadas en plantas, la absorción de zinc puede ser menor por el contenido de fitatos.",
+      "limit": "Esto no demuestra deficiencia y no justifica dosis altas. Hay que considerar también otros suplementos con zinc."
+    },
+    "en": {
+      "title": "Zinc: your intake is worth reviewing",
+      "why": "In heavily plant-based diets, zinc absorption can be lower because of phytates.",
+      "limit": "This does not prove deficiency and does not justify high doses. Zinc from other supplements also matters."
+    },
+    "it": {
+      "title": "Zinco: vale la pena valutare l'apporto",
+      "why": "Nelle diete molto vegetali l'assorbimento dello zinco può essere inferiore a causa dei fitati.",
+      "limit": "Questo non dimostra una carenza e non giustifica dosi elevate. Va considerato anche lo zinco presente in altri integratori."
+    }
+  },
+  "dose_display": {
+    "mode": "reference_intake_only",
+    "adult_male": "11 mg/day",
+    "adult_female": "8 mg/day",
+    "personalized_dose": false
+  },
+  "source_refs": [
+    "NIH_ZINC_HP"
+  ]
+}

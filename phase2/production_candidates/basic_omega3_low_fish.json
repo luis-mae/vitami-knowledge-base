@@ -1,0 +1,42 @@
+{
+  "id": "basic_omega3_low_fish",
+  "supplement_id": "omega_3_epa_dha",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "O3_LOW_FISH"
+  ],
+  "safety_rule_ids": [
+    "O3_BLEEDING"
+  ],
+  "default_state": "D_optional_limited",
+  "required_answers": [
+    "diet_fatty_fish_weekly",
+    "diet_type",
+    "conditions_bleeding",
+    "safety_upcoming_surgery"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Omega-3 EPA/DHA: opción a revisar",
+      "why": "Tu consumo de pescado graso es bajo.",
+      "limit": "No existe una recomendación universal de EPA+DHA en forma de suplemento para todas las personas. La alimentación sigue siendo el primer contexto a revisar."
+    },
+    "en": {
+      "title": "Omega-3 EPA/DHA: worth reviewing",
+      "why": "Your fatty-fish intake is low.",
+      "limit": "There is no universal EPA+DHA supplement recommendation for everyone. Diet remains the first context to review."
+    },
+    "it": {
+      "title": "Omega-3 EPA/DHA: opzione da valutare",
+      "why": "Il consumo di pesce grasso è basso.",
+      "limit": "Non esiste una raccomandazione universale di EPA+DHA come integratore per tutti. La dieta resta il primo aspetto da valutare."
+    }
+  },
+  "dose_display": {
+    "mode": "no_universal_dose",
+    "personalized_dose": false
+  },
+  "source_refs": [
+    "NIH_OMEGA3_HP"
+  ]
+}

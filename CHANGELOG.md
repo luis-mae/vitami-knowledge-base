@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.6.0 — 2026-08-09
+- Seleccionados 13 caminos BASIC prioritarios como `candidate_for_validation`.
+- Definidos disparadores, preguntas requeridas, safety gates, texto ES/EN/IT y política de dosis para cada camino.
+- Incluidos B12, vitamina D, creatina, whey, omega-3, calcio, zinc, vitamina C, cafeína, beta-alanina, psyllium, electrolitos e hierro como guardrail.
+- Ningún candidato queda activo automáticamente.
+- Creada política de tarjetas BASIC de Francisco y snapshot de revisión de fuentes.
+- Separadas claramente dosis de suplemento, ingestas de referencia y escenarios `professional_only`.
+
 ## 2.5.0 — 2026-08-09
 - Añadidas 45 reglas determinísticas para los 20 componentes madurados en v1.4.
 - Total de reglas draft: 87.

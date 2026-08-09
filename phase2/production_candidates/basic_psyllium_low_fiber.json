@@ -1,0 +1,45 @@
+{
+  "id": "basic_psyllium_low_fiber",
+  "supplement_id": "psyllium_fiber",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "PSYLLIUM_LOW_FIBER_DIGESTIVE"
+  ],
+  "safety_rule_ids": [
+    "PSYLLIUM_SWALLOWING",
+    "PSYLLIUM_MEDICATIONS"
+  ],
+  "default_state": "C_potential_benefit",
+  "required_answers": [
+    "symptom_digestive",
+    "diet_fiber_sources",
+    "hydration_status",
+    "swallowing_difficulty",
+    "medications_regular_use"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Psyllium: una fibra soluble que puede ser útil",
+      "why": "Tu consumo de fibra parece bajo y marcaste un objetivo o problema digestivo.",
+      "limit": "Debe tomarse con líquido adecuado. Si usás medicamentos o tenés dificultad para tragar, se necesita una revisión específica."
+    },
+    "en": {
+      "title": "Psyllium: a soluble fiber that may be useful",
+      "why": "Your fiber intake appears low and you reported a digestive goal or concern.",
+      "limit": "It must be taken with adequate fluid. Medication use or swallowing difficulty requires specific review."
+    },
+    "it": {
+      "title": "Psyllium: una fibra solubile che può essere utile",
+      "why": "L'apporto di fibra sembra basso e hai indicato un obiettivo o problema digestivo.",
+      "limit": "Va assunto con liquidi adeguati. Se usi farmaci o hai difficoltà a deglutire serve una valutazione specifica."
+    }
+  },
+  "dose_display": {
+    "mode": "reference_only",
+    "personalized_dose": false,
+    "note": "Do not turn an authorized health-claim amount into a universal personalized dose."
+  },
+  "source_refs": [
+    "FDA_PSYLLIUM_CHD"
+  ]
+}

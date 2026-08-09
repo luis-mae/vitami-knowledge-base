@@ -1,0 +1,44 @@
+{
+  "id": "basic_iron_fatigue_guardrail",
+  "supplement_id": "iron",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "IRON_FATIGUE_ONLY",
+    "IRON_VEGETARIAN_CONTEXT"
+  ],
+  "safety_rule_ids": [
+    "IRON_PREGNANCY"
+  ],
+  "default_state": "D_optional_limited",
+  "required_answers": [
+    "symptom_fatigue",
+    "diet_type",
+    "pro_labs_available",
+    "pro_prior_deficiencies"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Hierro: no lo recomendamos solo por cansancio",
+      "why": "El cansancio puede tener muchas causas y no demuestra falta de hierro.",
+      "limit": "La suplementación de hierro debe apoyarse en antecedentes, laboratorio o indicación profesional; el exceso también puede ser perjudicial."
+    },
+    "en": {
+      "title": "Iron: fatigue alone is not enough to recommend it",
+      "why": "Fatigue has many possible causes and does not prove iron deficiency.",
+      "limit": "Iron supplementation should be based on history, laboratory data, or professional guidance; excess iron can also be harmful."
+    },
+    "it": {
+      "title": "Ferro: la sola stanchezza non basta per consigliarlo",
+      "why": "La stanchezza può avere molte cause e non dimostra una carenza di ferro.",
+      "limit": "L'integrazione di ferro dovrebbe basarsi su anamnesi, esami o indicazione professionale; anche l'eccesso può essere dannoso."
+    }
+  },
+  "dose_display": {
+    "mode": "professional_only",
+    "personalized_dose": false
+  },
+  "source_refs": [
+    "NIH_IRON_HP",
+    "NIH_EXERCISE_HP"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "basic_card_structure": [
+    "state_label",
+    "supplement_name",
+    "why_this_appears",
+    "evidence_strength",
+    "dose_or_reference_info",
+    "important_limit",
+    "library_link"
+  ],
+  "es": {
+    "A_high_relevance": "Alta relevancia para tu perfil",
+    "B_consider": "Vale la pena considerarlo",
+    "C_potential_benefit": "Puede aportar un beneficio",
+    "D_optional_limited": "Opción de relevancia limitada",
+    "E_no_current_indication": "No vemos una indicación actual",
+    "X_professional_review_required": "Conviene revisarlo con un profesional"
+  },
+  "rules": [
+    "Francisco explica la lógica; no diagnostica deficiencias.",
+    "Cuando dose_display.personalized_dose=false, no debe convertir referencias nutricionales en una dosis de suplemento.",
+    "Cuando existe un safety gate X, la tarjeta positiva queda sustituida por la derivación profesional.",
+    "Las fuentes deben poder abrirse desde Biblioteca, sin afirmar que NIH/FDA/NCCIH avalan Vitami."
+  ]
+}

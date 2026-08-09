@@ -1,0 +1,41 @@
+{
+  "id": "basic_beta_alanine_high_intensity",
+  "supplement_id": "beta_alanine",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "BA_HIGH_INTENSITY"
+  ],
+  "safety_rule_ids": [],
+  "default_state": "C_potential_benefit",
+  "required_answers": [
+    "activity_type",
+    "activity_intensity",
+    "goals_primary"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Beta-alanina: posible beneficio en esfuerzos intensos",
+      "why": "Tu perfil deportivo incluye esfuerzos intensos donde aumentar carnosina muscular puede ser relevante.",
+      "limit": "La evidencia no es uniforme y el efecto depende de acumularla durante semanas, no de tomarla solo antes de entrenar."
+    },
+    "en": {
+      "title": "Beta-alanine: possible benefit for intense efforts",
+      "why": "Your sport profile includes intense efforts where increasing muscle carnosine may be relevant.",
+      "limit": "Evidence is not uniform, and the effect depends on accumulation over weeks rather than only pre-workout use."
+    },
+    "it": {
+      "title": "Beta-alanina: possibile beneficio negli sforzi intensi",
+      "why": "Il tuo profilo sportivo include sforzi intensi in cui aumentare la carnosina muscolare può essere rilevante.",
+      "limit": "Le evidenze non sono uniformi e l'effetto dipende dall'accumulo per settimane, non dal solo uso pre-allenamento."
+    }
+  },
+  "dose_display": {
+    "mode": "supported_range",
+    "range": "4–6 g/day for at least 2–4 weeks",
+    "note": "Divided doses may reduce paresthesia.",
+    "personalized_dose": true
+  },
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

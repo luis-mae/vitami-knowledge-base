@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "review_date": "2026-08-09",
+  "verified_sources": [
+    {
+      "id": "NIH_B12_HP",
+      "status": "verified_current",
+      "note": "ODS health professional fact sheet updated 2025; vegan/vegetarian intake risk and supplement forms reviewed."
+    },
+    {
+      "id": "NIH_VITD_HP",
+      "status": "verified_current",
+      "note": "ODS health professional fact sheet reviewed for adult reference intakes and UL."
+    },
+    {
+      "id": "NIH_EXERCISE_HP",
+      "status": "verified_current",
+      "note": "ODS exercise/performance fact sheet reviewed for creatine, caffeine, beta-alanine, protein and iron guardrails."
+    },
+    {
+      "id": "NIH_OMEGA3_HP",
+      "status": "verified_current",
+      "note": "ODS omega-3 fact sheet reviewed; no specific IOM EPA/DHA intake recommendation for adults."
+    },
+    {
+      "id": "NIH_ZINC_HP",
+      "status": "verified_current",
+      "note": "ODS zinc fact sheet reviewed for plant-food bioavailability and adult RDAs."
+    },
+    {
+      "id": "NIH_VITC_HP",
+      "status": "verified_current",
+      "note": "ODS vitamin C fact sheet reviewed; smokers +35 mg/day requirement and limited food variety context."
+    },
+    {
+      "id": "NIH_CALCIUM_HP",
+      "status": "verified_current",
+      "note": "ODS calcium fact sheet current as of 2026."
+    },
+    {
+      "id": "NIH_IRON_HP",
+      "status": "verified_current",
+      "note": "ODS iron fact sheet current as of 2025; routine iron supplementation not justified without appropriate context."
+    }
+  ]
+}

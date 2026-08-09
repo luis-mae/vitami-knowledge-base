@@ -1,0 +1,46 @@
+{
+  "id": "basic_vitd_low_sun_low_diet",
+  "supplement_id": "vitamin_d",
+  "status": "candidate_for_validation",
+  "trigger_rule_ids": [
+    "VITD_LOW_SUN_LOW_DIET"
+  ],
+  "safety_rule_ids": [
+    "VITD_KIDNEY"
+  ],
+  "default_state": "B_consider",
+  "required_answers": [
+    "profile_age",
+    "lifestyle_sun_exposure",
+    "diet_fatty_fish_weekly",
+    "diet_fortified_foods",
+    "conditions_kidney"
+  ],
+  "user_text": {
+    "es": {
+      "title": "Vitamina D: conviene revisar tu aporte",
+      "why": "Tenés poca exposición solar y pocas fuentes alimentarias habituales de vitamina D.",
+      "limit": "La baja exposición al sol no demuestra deficiencia. El estado se evalúa clínicamente con 25(OH)D cuando corresponde."
+    },
+    "en": {
+      "title": "Vitamin D: your intake is worth reviewing",
+      "why": "You report low sun exposure and few common dietary sources of vitamin D.",
+      "limit": "Low sun exposure does not prove deficiency. Vitamin D status is clinically assessed with 25(OH)D when appropriate."
+    },
+    "it": {
+      "title": "Vitamina D: vale la pena valutare l'apporto",
+      "why": "Riferisci poca esposizione solare e poche fonti alimentari comuni di vitamina D.",
+      "limit": "La bassa esposizione al sole non dimostra una carenza. Lo stato della vitamina D si valuta clinicamente con 25(OH)D quando indicato."
+    }
+  },
+  "dose_display": {
+    "mode": "reference_intake_only",
+    "adult_19_70": "15 mcg (600 IU)/day",
+    "adult_71_plus": "20 mcg (800 IU)/day",
+    "adult_ul": "100 mcg (4,000 IU)/day",
+    "personalized_dose": false
+  },
+  "source_refs": [
+    "NIH_VITD_HP"
+  ]
+}
