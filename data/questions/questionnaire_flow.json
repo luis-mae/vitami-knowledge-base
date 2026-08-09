@@ -1,0 +1,110 @@
+{
+  "version": "0.3.0",
+  "basic_sections": [
+    {
+      "id": "welcome_language",
+      "label_es": "Bienvenida e idioma",
+      "question_ids": []
+    },
+    {
+      "id": "profile",
+      "label_es": "Tu perfil",
+      "question_ids": [
+        "profile_age",
+        "profile_sex_reference",
+        "profile_pregnancy",
+        "profile_lactation"
+      ]
+    },
+    {
+      "id": "diet",
+      "label_es": "Tu alimentación",
+      "question_ids": [
+        "diet_type",
+        "diet_fatty_fish_weekly",
+        "diet_fruit_veg_daily",
+        "diet_dairy_calcium_sources",
+        "diet_animal_products_frequency",
+        "diet_fortified_foods",
+        "diet_legumes_nuts_seeds"
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "label_es": "Hábitos y actividad",
+      "question_ids": [
+        "lifestyle_sun_exposure",
+        "lifestyle_smoking",
+        "lifestyle_alcohol",
+        "lifestyle_caffeine_daily",
+        "activity_level",
+        "activity_type"
+      ]
+    },
+    {
+      "id": "safety",
+      "label_es": "Seguridad",
+      "question_ids": [
+        "supplements_current_use",
+        "supplements_current_list",
+        "medications_regular_use",
+        "medications_list",
+        "conditions_kidney",
+        "conditions_liver",
+        "conditions_kidney_stones",
+        "conditions_bleeding",
+        "conditions_allergies",
+        "conditions_allergies_list",
+        "conditions_other_relevant"
+      ]
+    },
+    {
+      "id": "goals_symptoms",
+      "label_es": "Objetivos y cómo te sentís",
+      "question_ids": [
+        "goals_primary",
+        "symptom_fatigue",
+        "symptom_sleep",
+        "symptom_digestive",
+        "symptom_stress_mood",
+        "symptom_muscle_joint",
+        "symptom_hair_nails"
+      ]
+    }
+  ],
+  "pro_sections": [
+    {
+      "id": "advanced_profile",
+      "label_es": "Datos adicionales",
+      "question_ids": [
+        "pro_height",
+        "pro_weight"
+      ]
+    },
+    {
+      "id": "advanced_diet",
+      "label_es": "Alimentación detallada",
+      "question_ids": [
+        "pro_detailed_food_frequency"
+      ]
+    },
+    {
+      "id": "labs",
+      "label_es": "Laboratorio",
+      "question_ids": [
+        "pro_labs_available",
+        "pro_labs_details"
+      ]
+    },
+    {
+      "id": "history",
+      "label_es": "Antecedentes",
+      "question_ids": [
+        "pro_prior_deficiencies",
+        "pro_prior_deficiencies_detail",
+        "pro_adverse_reactions",
+        "pro_adverse_reactions_detail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-question.schema.json",
+  "title": "Vitami Questionnaire Item",
+  "type": "object",
+  "required": [
+    "question_id",
+    "tier",
+    "domain",
+    "text",
+    "response_type",
+    "required_for_basic",
+    "logic",
+    "used_by_rules",
+    "status",
+    "review"
+  ],
+  "properties": {
+    "question_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_\\-]+$"
+    },
+    "tier": {
+      "enum": [
+        "BASIC",
+        "PRO",
+        "BOTH"
+      ]
+    },
+    "domain": {
+      "enum": [
+        "profile",
+        "diet",
+        "lifestyle",
+        "activity",
+        "symptoms",
+        "goals",
+        "medications",
+        "conditions",
+        "supplements",
+        "labs",
+        "safety",
+        "other"
+      ]
+    },
+    "text": {
+      "type": "object",
+      "required": [
+        "es",
+        "en",
+        "it"
+      ],
+      "properties": {
+        "es": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "it": {
+          "type": "string"
+        }
+      }
+    },
+    "help_text": {
+      "type": "object",
+      "properties": {
+        "es": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "it": {
+          "type": "string"
+        }
+      }
+    },
+    "response_type": {
+      "enum": [
+        "boolean",
+        "single_choice",
+        "multi_choice",
+        "integer",
+        "decimal",
+        "text",
+        "date",
+        "frequency",
+        "quantity",
+        "lab_value"
+      ]
+    },
+    "unit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "value",
+          "label"
+        ],
+        "properties": {
+          "value": {},
+          "label": {
+            "type": "object",
+            "required": [
+              "es",
+              "en",
+              "it"
+            ],
+            "properties": {
+              "es": {
+                "type": "string"
+              },
+              "en": {
+                "type": "string"
+              },
+              "it": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "required_for_basic": {
+      "type": "boolean"
+    },
+    "required_for_safety": {
+      "type": "boolean"
+    },
+    "logic": {
+      "type": "object",
+      "required": [
+        "visibility"
+      ],
+      "properties": {
+        "visibility": {
+          "type": "object",
+          "required": [
+            "mode"
+          ],
+          "properties": {
+            "mode": {
+              "enum": [
+                "always",
+                "conditional"
+              ]
+            },
+            "conditions": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "followups": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "skip_if": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "used_by_rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_quality": {
+      "type": "object",
+      "properties": {
+        "allow_unknown": {
+          "type": "boolean"
+        },
+        "allow_skip": {
+          "type": "boolean"
+        },
+        "validation_notes": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "active",
+        "deprecated"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "version",
+        "last_reviewed"
+      ],
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "last_reviewed": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

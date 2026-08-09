@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "NIH_ODS_FACT_SHEETS",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Dietary Supplement Fact Sheets",
+      "url": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "nutrient_reference_values",
+        "supplement_evidence",
+        "safety",
+        "interactions",
+        "deficiency_risk"
+      ],
+      "notes": "Use the specific supplement fact sheet and its cited references when populating an individual claim."
+    },
+    {
+      "id": "EFSA_DRV",
+      "organization": "European Food Safety Authority",
+      "resource_name": "Dietary Reference Values",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
+      "source_class": "regulatory_scientific_authority",
+      "jurisdiction": "EU",
+      "preferred_for": [
+        "dietary_reference_values",
+        "upper_intake_levels",
+        "population_reference_values"
+      ],
+      "notes": "Prefer current EFSA opinions/tables for EU reference values."
+    },
+    {
+      "id": "EU_HEALTH_CLAIMS_REGISTER",
+      "organization": "European Commission",
+      "resource_name": "EU Register of Nutrition and Health Claims",
+      "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/nutrition-and-health-claims/eu-register-health-claims_en",
+      "source_class": "regulatory_register",
+      "jurisdiction": "EU",
+      "preferred_for": [
+        "authorized_health_claims",
+        "non_authorized_health_claims",
+        "claim_conditions"
+      ],
+      "notes": "Use to distinguish scientific discussion from health claims that may be communicated under EU rules."
+    },
+    {
+      "id": "NCCIH_SUPPLEMENTS",
+      "organization": "National Center for Complementary and Integrative Health",
+      "resource_name": "Dietary and Herbal Supplements",
+      "url": "https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "botanicals",
+        "herbal_supplements",
+        "safety",
+        "interactions",
+        "evidence_uncertainty"
+      ],
+      "notes": "Use specific NCCIH topic pages where available."
+    },
+    {
+      "id": "EMA_HERBAL_MONOGRAPHS",
+      "organization": "European Medicines Agency",
+      "resource_name": "European Union herbal monographs and list entries",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/herbal-medicinal-products/european-union-monographs-list-entries",
+      "source_class": "regulatory_scientific_monograph",
+      "jurisdiction": "EU",
+      "preferred_for": [
+        "herbal_safety",
+        "herbal_uses",
+        "herbal_posology_when_applicable"
+      ],
+      "notes": "Distinguish well-established medicinal use from traditional medicinal use."
+    },
+    {
+      "id": "USDA_FOODDATA_CENTRAL",
+      "organization": "U.S. Department of Agriculture",
+      "resource_name": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "source_class": "government_food_composition_database",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "food_composition",
+        "dietary_nutrient_estimation"
+      ],
+      "notes": "Use for food composition/exposure estimation, not as evidence that a supplement should be recommended."
+    },
+    {
+      "id": "NIH_DSLD",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Dietary Supplement Label Database",
+      "url": "https://ods.od.nih.gov/Research/Dietary_Supplement_Label_Database.aspx",
+      "source_class": "product_label_database",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "marketed_products",
+        "label_ingredients",
+        "label_amounts"
+      ],
+      "notes": "Product presence or label information is not evidence of efficacy."
+    }
+  ]
+}

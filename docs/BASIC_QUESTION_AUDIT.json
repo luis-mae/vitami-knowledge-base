@@ -1,0 +1,109 @@
+{
+  "version": "0.4.0",
+  "phase": "1D",
+  "goal": "Keep BASIC short while preserving information needed for safety and evidence-linked rules.",
+  "design_decisions": [
+    "The master question bank remains broad; the UI does not ask every question.",
+    "BASIC has a small universal core.",
+    "Many dietary/lifestyle/symptom items become rule-specific and are asked only if needed.",
+    "Medication and current supplement use remain early safety screens.",
+    "Specific safety conditions can be presented as one compact multi-item screen even though stored as separate structured variables.",
+    "PRO contains detailed diet, laboratory, anthropometric, and history questions.",
+    "Future Phase 2 rules may promote a rule-specific question into the universal core if evidence shows it is broadly necessary."
+  ],
+  "core_universal_question_ids": [
+    "profile_age",
+    "profile_sex_reference",
+    "profile_pregnancy",
+    "profile_lactation",
+    "diet_type",
+    "diet_fatty_fish_weekly",
+    "diet_fruit_veg_daily",
+    "lifestyle_sun_exposure",
+    "activity_level",
+    "supplements_current_use",
+    "medications_regular_use",
+    "goals_primary",
+    "symptom_fatigue",
+    "symptom_sleep"
+  ],
+  "conditional_basic_question_ids": [
+    "supplements_current_list",
+    "medications_list",
+    "conditions_allergies",
+    "conditions_allergies_list",
+    "conditions_other_relevant",
+    "safety_upcoming_surgery"
+  ],
+  "safety_compact_field_ids": [
+    "conditions_kidney",
+    "conditions_liver",
+    "conditions_kidney_stones",
+    "conditions_bleeding",
+    "conditions_allergies",
+    "safety_upcoming_surgery"
+  ],
+  "rule_specific_basic_question_ids": [
+    "diet_dairy_calcium_sources",
+    "diet_animal_products_frequency",
+    "diet_fortified_foods",
+    "diet_legumes_nuts_seeds",
+    "diet_iodized_salt",
+    "lifestyle_smoking",
+    "lifestyle_alcohol",
+    "lifestyle_caffeine_daily",
+    "activity_type",
+    "symptom_digestive",
+    "symptom_stress_mood",
+    "symptom_muscle_joint",
+    "symptom_hair_nails"
+  ],
+  "pro_question_ids": [
+    "pro_height",
+    "pro_weight",
+    "pro_detailed_food_frequency",
+    "pro_labs_available",
+    "pro_labs_details",
+    "pro_prior_deficiencies",
+    "pro_prior_deficiencies_detail",
+    "pro_adverse_reactions",
+    "pro_adverse_reactions_detail"
+  ],
+  "estimated_basic_experience": {
+    "universal_items": 14,
+    "note": "Pregnancy/lactation and safety fields should be hidden when not applicable; conditional follow-ups appear only when triggered.",
+    "target_ui_screens": "Approximately 10–14 compact screens/cards, depending on branching; not 44 sequential questions."
+  },
+  "removal_or_demotions": [
+    {
+      "question_id": "symptom_hair_nails",
+      "decision": "rule_specific",
+      "reason": "Nonspecific symptom; should not be a universal driver of supplement recommendation."
+    },
+    {
+      "question_id": "symptom_muscle_joint",
+      "decision": "rule_specific",
+      "reason": "Nonspecific; ask only when relevant to a validated rule or user goal."
+    },
+    {
+      "question_id": "symptom_digestive",
+      "decision": "rule_specific",
+      "reason": "Broad symptom category; better used as a branch trigger."
+    },
+    {
+      "question_id": "lifestyle_caffeine_daily",
+      "decision": "rule_specific",
+      "reason": "Useful for selected administration/sleep/performance contexts, not every supplement."
+    },
+    {
+      "question_id": "lifestyle_alcohol",
+      "decision": "rule_specific_or_safety",
+      "reason": "Retain in bank; activate for rules where alcohol materially changes relevance or safety."
+    },
+    {
+      "question_id": "diet_dairy_calcium_sources",
+      "decision": "rule_specific",
+      "reason": "Important for calcium-related rules but unnecessary for every user if those rules are not under evaluation."
+    }
+  ]
+}

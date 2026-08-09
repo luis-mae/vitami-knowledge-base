@@ -1,0 +1,239 @@
+{
+  "version": "1.1.0",
+  "purpose": "Optional marketing/onboarding entry points. They preselect exploration areas but never directly recommend supplements.",
+  "situations": [
+    {
+      "situation_id": "poor_diet",
+      "label": {
+        "es": "Sé que mi alimentación no es muy equilibrada",
+        "en": "I know my diet is not very balanced",
+        "it": "So che la mia alimentazione non è molto equilibrata"
+      },
+      "maps_to_goals": [
+        "dietary_gaps",
+        "general_wellbeing"
+      ]
+    },
+    {
+      "situation_id": "low_sun",
+      "label": {
+        "es": "Casi no tomo sol",
+        "en": "I get very little sun",
+        "it": "Prendo pochissimo sole"
+      },
+      "maps_to_goals": [
+        "general_wellbeing"
+      ]
+    },
+    {
+      "situation_id": "high_sun",
+      "label": {
+        "es": "Paso mucho tiempo al sol",
+        "en": "I spend a lot of time in the sun",
+        "it": "Passo molto tempo al sole"
+      },
+      "maps_to_goals": [
+        "skin_health",
+        "general_wellbeing"
+      ]
+    },
+    {
+      "situation_id": "vegan_vegetarian",
+      "label": {
+        "es": "Soy vegano/a o vegetariano/a",
+        "en": "I am vegan or vegetarian",
+        "it": "Sono vegano/a o vegetariano/a"
+      },
+      "maps_to_goals": [
+        "dietary_gaps",
+        "general_wellbeing"
+      ]
+    },
+    {
+      "situation_id": "high_training",
+      "label": {
+        "es": "Entreno mucho",
+        "en": "I train a lot",
+        "it": "Mi alleno molto"
+      },
+      "maps_to_goals": [
+        "sports_performance",
+        "exercise_recovery",
+        "strength_muscle"
+      ]
+    },
+    {
+      "situation_id": "low_fish",
+      "label": {
+        "es": "Como poco pescado",
+        "en": "I eat little fish",
+        "it": "Mangio poco pesce"
+      },
+      "maps_to_goals": [
+        "dietary_gaps",
+        "cardiovascular_health"
+      ]
+    },
+    {
+      "situation_id": "weight_loss_diet",
+      "label": {
+        "es": "Estoy intentando bajar de peso",
+        "en": "I am trying to lose weight",
+        "it": "Sto cercando di perdere peso"
+      },
+      "maps_to_goals": [
+        "weight_body_composition"
+      ]
+    },
+    {
+      "situation_id": "older_adult",
+      "label": {
+        "es": "Quiero cuidarme mejor a medida que pasan los años",
+        "en": "I want to take better care of myself as I age",
+        "it": "Voglio prendermi più cura di me con il passare degli anni"
+      },
+      "maps_to_goals": [
+        "healthy_aging",
+        "bone_joint_health",
+        "focus_cognition"
+      ]
+    },
+    {
+      "situation_id": "general_check",
+      "label": {
+        "es": "Quiero saber qué suplementos podrían tener sentido para mí",
+        "en": "I want to know which supplements may make sense for me",
+        "it": "Voglio sapere quali integratori potrebbero avere senso per me"
+      },
+      "maps_to_goals": [
+        "general_wellbeing",
+        "dietary_gaps"
+      ]
+    },
+    {
+      "situation_id": "exam_period",
+      "label": {
+        "es": "Estoy preparando exámenes",
+        "en": "I am preparing for exams",
+        "it": "Sto preparando degli esami"
+      },
+      "maps_to_goals": [
+        "exam_study_support",
+        "mental_stamina",
+        "sleep_rest"
+      ]
+    },
+    {
+      "situation_id": "high_mental_workload",
+      "label": {
+        "es": "Trabajo muchas horas con alta exigencia mental",
+        "en": "I work long hours with high mental demand",
+        "it": "Lavoro molte ore con un'elevata richiesta mentale"
+      },
+      "maps_to_goals": [
+        "mental_stamina",
+        "focus_cognition",
+        "sleep_rest"
+      ]
+    },
+    {
+      "situation_id": "sedentary",
+      "label": {
+        "es": "Soy bastante sedentario/a",
+        "en": "I am quite sedentary",
+        "it": "Sono piuttosto sedentario/a"
+      },
+      "maps_to_goals": [
+        "sedentary_lifestyle_support",
+        "healthy_lifestyle_restart"
+      ]
+    },
+    {
+      "situation_id": "hair_weakness",
+      "label": {
+        "es": "Siento mi pelo débil",
+        "en": "My hair feels weak",
+        "it": "Sento i miei capelli deboli"
+      },
+      "maps_to_goals": [
+        "hair_loss_concern",
+        "hair_nails"
+      ]
+    },
+    {
+      "situation_id": "hair_loss",
+      "label": {
+        "es": "Estoy notando caída del cabello",
+        "en": "I am noticing hair loss",
+        "it": "Sto notando una caduta dei capelli"
+      },
+      "maps_to_goals": [
+        "hair_loss_concern",
+        "hair_nails"
+      ]
+    },
+    {
+      "situation_id": "family_cv_history",
+      "label": {
+        "es": "En mi familia hay antecedentes cardiovasculares",
+        "en": "There is cardiovascular disease in my family",
+        "it": "Nella mia famiglia ci sono precedenti cardiovascolari"
+      },
+      "maps_to_goals": [
+        "family_history_cardiovascular",
+        "preventive_nutrition"
+      ]
+    },
+    {
+      "situation_id": "family_diabetes_history",
+      "label": {
+        "es": "En mi familia hay antecedentes de diabetes",
+        "en": "There is diabetes in my family",
+        "it": "Nella mia famiglia ci sono precedenti di diabete"
+      },
+      "maps_to_goals": [
+        "family_history_diabetes_metabolic",
+        "preventive_nutrition"
+      ]
+    },
+    {
+      "situation_id": "family_osteoporosis_history",
+      "label": {
+        "es": "En mi familia hay osteoporosis",
+        "en": "There is osteoporosis in my family",
+        "it": "Nella mia famiglia ci sono casi di osteoporosi"
+      },
+      "maps_to_goals": [
+        "family_history_bone_health",
+        "bone_joint_health",
+        "preventive_nutrition"
+      ]
+    },
+    {
+      "situation_id": "family_cognitive_history",
+      "label": {
+        "es": "En mi familia hay antecedentes de deterioro cognitivo o demencia",
+        "en": "There is cognitive decline or dementia in my family",
+        "it": "Nella mia famiglia ci sono precedenti di declino cognitivo o demenza"
+      },
+      "maps_to_goals": [
+        "family_history_cognitive_decline",
+        "focus_cognition",
+        "preventive_nutrition"
+      ]
+    },
+    {
+      "situation_id": "prevention_general",
+      "label": {
+        "es": "Me interesa prevenir y cuidarme a largo plazo",
+        "en": "I want to focus on prevention and long-term health",
+        "it": "Mi interessa prevenire e prendermi cura della salute a lungo termine"
+      },
+      "maps_to_goals": [
+        "preventive_nutrition",
+        "healthy_aging",
+        "general_wellbeing"
+      ]
+    }
+  ]
+}

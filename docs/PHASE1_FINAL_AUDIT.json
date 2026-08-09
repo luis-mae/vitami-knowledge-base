@@ -1,0 +1,39 @@
+{
+  "project": "Vitami Knowledge Base",
+  "version": "1.0.0",
+  "phase": "1",
+  "status": "CLOSED",
+  "date": "2026-08-09",
+  "completed_components": [
+    "Scientific supplement schema",
+    "Source registry and source policy",
+    "Evidence-level taxonomy",
+    "Recommendation-level taxonomy",
+    "Safety structure and stop rules",
+    "Deterministic rule schema",
+    "Question schema",
+    "BASIC/PRO architecture",
+    "Master question bank",
+    "Optimized BASIC flow",
+    "Goal bank",
+    "Marketing/situational entry points",
+    "Family-history/prevention safeguards",
+    "Special-profile architecture",
+    "Question↔rule↔evidence↔source traceability",
+    "Versioning/change-control policy"
+  ],
+  "phase2_scope": [
+    "Populate real supplement records",
+    "Attach current evidence and sources",
+    "Define evidence-backed activation/exclusion rules",
+    "Determine which draft questions become active",
+    "Validate dose/reference logic per supplement",
+    "Generate user-facing Library content from the same records"
+  ],
+  "not_done_by_design": [
+    "No supplement has yet been clinically activated",
+    "No scoring threshold is yet evidence-validated",
+    "No personalized dose formula is yet active",
+    "No marketing claim is treated as scientific evidence"
+  ]
+}

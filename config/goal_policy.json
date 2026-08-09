@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    "A selected goal can prioritize supplement rule groups but cannot add recommendation points by itself unless a future evidence-backed rule explicitly justifies that use.",
+    "A selected goal can request additional relevant questions.",
+    "Marketing entry points can preselect goals/situations but cannot preselect supplements.",
+    "The engine must be able to return 'no clear supplement indication' for any goal.",
+    "Safety blocks always override goal prioritization.",
+    "PRO AI may use goals to decide what to ask next, but recommendations must still cite evidence-backed claims."
+  ],
+  "marketing_guardrail": "Prefer language such as 'descubrí qué conviene revisar' or 'qué tiene evidencia para tu perfil' instead of 'los mejores suplementos para X'."
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "phase": "1_FINAL",
+  "hard_rules": [
+    "No active recommendation rule without at least one evidence_claim_id.",
+    "No active evidence claim without at least one identifiable source.",
+    "No personalized dose without an explicit evidence-backed dose rule.",
+    "Safety blocks are evaluated before positive recommendation scoring.",
+    "Missing required data yields insufficient_user_data, not inferred answers.",
+    "Goals and marketing entry points prioritize exploration only; they do not independently justify supplementation.",
+    "Family history prioritizes assessment but does not prove benefit from preventive supplementation.",
+    "Symptoms alone do not diagnose nutrient deficiency.",
+    "The same structured scientific record should feed both the rule engine and the public Vitami Library where appropriate.",
+    "Every active item carries review/version metadata."
+  ],
+  "allowed_result_states": [
+    "high_relevance",
+    "consider",
+    "potential_benefit",
+    "optional_limited",
+    "no_current_indication",
+    "professional_review_required",
+    "insufficient_user_data"
+  ],
+  "phase2_gate": "Only after Phase 1 v1.0 is frozen should real supplement evidence and rules be populated."
+}

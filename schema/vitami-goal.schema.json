@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-goal.schema.json",
+  "title": "Vitami Goal",
+  "type": "object",
+  "required": [
+    "goal_id",
+    "category",
+    "label",
+    "goal_role"
+  ],
+  "properties": {
+    "goal_id": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "label": {
+      "type": "object",
+      "required": [
+        "es",
+        "en",
+        "it"
+      ],
+      "properties": {
+        "es": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "it": {
+          "type": "string"
+        }
+      }
+    },
+    "promo_examples": {
+      "type": "object"
+    },
+    "goal_role": {
+      "enum": [
+        "prioritization_only"
+      ]
+    },
+    "candidate_rule_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidate_question_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-supplement.schema.json",
+  "title": "Vitami Supplement Knowledge Record",
+  "type": "object",
+  "required": [
+    "id",
+    "identity",
+    "evidence_claims",
+    "safety",
+    "library",
+    "review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_\\-]+$"
+    },
+    "identity": {
+      "type": "object",
+      "required": [
+        "name",
+        "category"
+      ],
+      "properties": {
+        "name": {
+          "type": "object",
+          "required": [
+            "es",
+            "en",
+            "it"
+          ],
+          "properties": {
+            "es": {
+              "type": "string"
+            },
+            "en": {
+              "type": "string"
+            },
+            "it": {
+              "type": "string"
+            }
+          }
+        },
+        "category": {
+          "type": "string"
+        },
+        "synonyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "forms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "evidence_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_id",
+          "claim_type",
+          "statement_internal",
+          "evidence_level",
+          "source_refs",
+          "status"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "claim_type": {
+            "enum": [
+              "function",
+              "deficiency_risk",
+              "population_risk",
+              "benefit",
+              "lack_of_benefit",
+              "dose_reference",
+              "upper_limit",
+              "safety",
+              "interaction",
+              "administration",
+              "other"
+            ]
+          },
+          "statement_internal": {
+            "type": "string"
+          },
+          "user_facing_text": {
+            "type": "object",
+            "properties": {
+              "es": {
+                "type": "string"
+              },
+              "en": {
+                "type": "string"
+              },
+              "it": {
+                "type": "string"
+              }
+            }
+          },
+          "context": {
+            "type": "object"
+          },
+          "evidence_level": {
+            "enum": [
+              "high",
+              "moderate",
+              "low",
+              "insufficient",
+              "not_assessed"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "source_id",
+                "supports"
+              ],
+              "properties": {
+                "source_id": {
+                  "type": "string"
+                },
+                "specific_citation": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "doi": {
+                  "type": "string"
+                },
+                "supports": {
+                  "type": "string"
+                },
+                "publication_or_update_date": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "accessed_date": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "reviewed",
+              "active",
+              "deprecated"
+            ]
+          }
+        }
+      }
+    },
+    "reference_intakes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "population",
+          "value",
+          "unit",
+          "source_refs"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "RDA",
+              "AI",
+              "PRI",
+              "DRV",
+              "UL",
+              "other"
+            ]
+          },
+          "population": {
+            "type": "object"
+          },
+          "value": {},
+          "unit": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "contraindications",
+        "interactions",
+        "stop_rules"
+      ],
+      "properties": {
+        "contraindications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourcedSafetyItem"
+          }
+        },
+        "interactions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourcedSafetyItem"
+          }
+        },
+        "adverse_effects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourcedSafetyItem"
+          }
+        },
+        "stop_rules": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourcedSafetyItem"
+          }
+        }
+      }
+    },
+    "regulatory": {
+      "type": "object",
+      "properties": {
+        "eu_health_claims": {
+          "type": "array"
+        },
+        "jurisdiction_notes": {
+          "type": "array"
+        }
+      }
+    },
+    "library": {
+      "type": "object",
+      "required": [
+        "summary",
+        "what_it_is",
+        "evidence_summary",
+        "safety_summary"
+      ],
+      "properties": {
+        "summary": {
+          "$ref": "#/$defs/i18n"
+        },
+        "what_it_is": {
+          "$ref": "#/$defs/i18n"
+        },
+        "evidence_summary": {
+          "$ref": "#/$defs/i18n"
+        },
+        "safety_summary": {
+          "$ref": "#/$defs/i18n"
+        },
+        "how_vitami_may_use_it": {
+          "$ref": "#/$defs/i18n"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "version",
+        "status",
+        "last_reviewed"
+      ],
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "reviewed",
+            "active",
+            "deprecated"
+          ]
+        },
+        "last_reviewed": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "i18n": {
+      "type": "object",
+      "required": [
+        "es",
+        "en",
+        "it"
+      ],
+      "properties": {
+        "es": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "it": {
+          "type": "string"
+        }
+      }
+    },
+    "sourcedSafetyItem": {
+      "type": "object",
+      "required": [
+        "id",
+        "statement",
+        "source_refs",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "statement": {
+          "type": "string"
+        },
+        "user_facing_text": {
+          "$ref": "#/$defs/i18n"
+        },
+        "severity": {
+          "enum": [
+            "info",
+            "caution",
+            "block"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "reviewed",
+            "active",
+            "deprecated"
+          ]
+        }
+      }
+    }
+  }
+}

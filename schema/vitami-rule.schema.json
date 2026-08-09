@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-rule.schema.json",
+  "title": "Vitami Deterministic Rule",
+  "type": "object",
+  "required": [
+    "rule_id",
+    "supplement_id",
+    "rule_type",
+    "conditions",
+    "evidence_claim_ids",
+    "explanation",
+    "status",
+    "review",
+    "required_questions",
+    "optional_questions",
+    "safety_questions"
+  ],
+  "properties": {
+    "rule_id": {
+      "type": "string"
+    },
+    "supplement_id": {
+      "type": "string"
+    },
+    "rule_type": {
+      "enum": [
+        "positive_factor",
+        "negative_factor",
+        "safety_block",
+        "priority_adjustment",
+        "dose_adjustment"
+      ]
+    },
+    "conditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object"
+      }
+    },
+    "score_effect": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "result_override": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_claim_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_refs_direct": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "explanation": {
+      "type": "object",
+      "required": [
+        "es",
+        "en",
+        "it"
+      ],
+      "properties": {
+        "es": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "it": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "active",
+        "deprecated"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "version",
+        "last_reviewed"
+      ],
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "last_reviewed": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "required_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "optional_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "minimum_data_state": {
+      "enum": [
+        "complete",
+        "sufficient_for_low_or_moderate_confidence",
+        "insufficient_user_data",
+        "safety_review_required"
+      ]
+    }
+  }
+}

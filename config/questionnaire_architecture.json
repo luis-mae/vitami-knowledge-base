@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "principles": [
+    "Every BASIC question must have a clear decision, safety, or personalization purpose.",
+    "Every rule must declare required_questions, optional_questions, and safety_questions.",
+    "A rule cannot produce a strong result when required user data is missing.",
+    "Symptoms are supporting factors, not proof of deficiency.",
+    "Conditional questions should minimize user burden.",
+    "PRO questions may deepen uncertainty identified during BASIC.",
+    "A question may exist without currently being used by a rule only while in draft."
+  ],
+  "tiers": {
+    "BASIC": {
+      "goal": "Fast, deterministic, safe initial orientation without AI.",
+      "expected_character": "Short, mostly universal with conditional branches."
+    },
+    "PRO": {
+      "goal": "Deeper personalized assessment, potentially AI-assisted and paid.",
+      "expected_character": "Adaptive follow-up questions, more detailed clinical/contextual data."
+    }
+  },
+  "data_completeness_states": [
+    "complete",
+    "sufficient_for_low_or_moderate_confidence",
+    "insufficient_user_data",
+    "safety_review_required"
+  ],
+  "rule_dimensions": [
+    "relevance",
+    "safety",
+    "dose_or_reference_amount"
+  ]
+}

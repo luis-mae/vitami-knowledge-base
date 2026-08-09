@@ -1,0 +1,40 @@
+{
+  "levels": [
+    {
+      "id": "A",
+      "code": "high_relevance",
+      "label_es": "Alta relevancia",
+      "meaning": "Multiple validated factors make this orientation highly relevant; it is not a diagnosis."
+    },
+    {
+      "id": "B",
+      "code": "consider",
+      "label_es": "Conveniente considerar",
+      "meaning": "Validated factors support considering the supplement or nutrient."
+    },
+    {
+      "id": "C",
+      "code": "potential_benefit",
+      "label_es": "Beneficio potencial",
+      "meaning": "There may be a plausible benefit, but the case is less compelling or evidence/context is more limited."
+    },
+    {
+      "id": "D",
+      "code": "optional_limited",
+      "label_es": "Opcional / evidencia limitada",
+      "meaning": "May be shown for information, with uncertainty made explicit."
+    },
+    {
+      "id": "E",
+      "code": "no_current_indication",
+      "label_es": "Sin indicación actual",
+      "meaning": "Current answers do not provide sufficient grounds to suggest it."
+    },
+    {
+      "id": "X",
+      "code": "professional_review_required",
+      "label_es": "Consultar antes de utilizar",
+      "meaning": "A safety condition prevents automated suggestion and professional review is recommended."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "REPLACE_ME",
+  "identity": {
+    "name": {
+      "es": "",
+      "en": "",
+      "it": ""
+    },
+    "category": "",
+    "synonyms": [],
+    "forms": []
+  },
+  "evidence_claims": [],
+  "reference_intakes": [],
+  "safety": {
+    "contraindications": [],
+    "interactions": [],
+    "adverse_effects": [],
+    "stop_rules": []
+  },
+  "regulatory": {
+    "eu_health_claims": [],
+    "jurisdiction_notes": []
+  },
+  "library": {
+    "summary": {
+      "es": "",
+      "en": "",
+      "it": ""
+    },
+    "what_it_is": {
+      "es": "",
+      "en": "",
+      "it": ""
+    },
+    "evidence_summary": {
+      "es": "",
+      "en": "",
+      "it": ""
+    },
+    "safety_summary": {
+      "es": "",
+      "en": "",
+      "it": ""
+    },
+    "how_vitami_may_use_it": {
+      "es": "",
+      "en": "",
+      "it": ""
+    }
+  },
+  "review": {
+    "version": "0.1.0",
+    "status": "draft",
+    "last_reviewed": null,
+    "reviewed_by": [],
+    "notes": ""
+  }
+}

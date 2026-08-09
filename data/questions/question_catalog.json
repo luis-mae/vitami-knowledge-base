@@ -1,0 +1,138 @@
+{
+  "catalog_version": "0.1.0",
+  "status": "architecture_only",
+  "note": "These are question families/placeholders for Phase 1B. Wording and final inclusion will be validated against evidence and rules before activation.",
+  "question_families": [
+    {
+      "family_id": "profile_core",
+      "tier": "BASIC",
+      "purpose": "Reference values and population context",
+      "candidate_variables": [
+        "age",
+        "sex_relevant_to_reference_values",
+        "pregnancy_status_when_applicable",
+        "lactation_status_when_applicable"
+      ]
+    },
+    {
+      "family_id": "diet_pattern",
+      "tier": "BASIC",
+      "purpose": "Estimate dietary exposure and identify possible insufficiency patterns",
+      "candidate_variables": [
+        "diet_type",
+        "fish_servings_weekly",
+        "fatty_fish_servings_weekly",
+        "fruit_vegetable_frequency",
+        "dairy_or_calcium_sources",
+        "fortified_food_use",
+        "animal_product_intake",
+        "legume_nut_seed_frequency"
+      ]
+    },
+    {
+      "family_id": "lifestyle_exposure",
+      "tier": "BASIC",
+      "purpose": "Contextual factors relevant to selected nutrients",
+      "candidate_variables": [
+        "sun_exposure_pattern",
+        "smoking",
+        "alcohol_frequency",
+        "caffeine_quantity",
+        "activity_level"
+      ]
+    },
+    {
+      "family_id": "current_supplements",
+      "tier": "BASIC",
+      "purpose": "Prevent duplication and support safety checks",
+      "candidate_variables": [
+        "takes_supplements",
+        "supplement_names",
+        "supplement_doses_if_known",
+        "supplement_frequency"
+      ]
+    },
+    {
+      "family_id": "medications_safety",
+      "tier": "BASIC",
+      "purpose": "Interaction and safety screening",
+      "candidate_variables": [
+        "takes_regular_medication",
+        "medication_names_or_classes"
+      ]
+    },
+    {
+      "family_id": "health_conditions_safety",
+      "tier": "BASIC",
+      "purpose": "Safety blocks and professional-review triggers",
+      "candidate_variables": [
+        "kidney_disease",
+        "liver_disease",
+        "history_kidney_stones",
+        "bleeding_disorder_or_anticoagulation_context",
+        "known_allergies",
+        "other_relevant_diagnoses"
+      ]
+    },
+    {
+      "family_id": "goals",
+      "tier": "BASIC",
+      "purpose": "Prioritize what the user wants to improve without treating goals as evidence",
+      "candidate_variables": [
+        "energy",
+        "sleep",
+        "sports_performance",
+        "focus",
+        "general_wellbeing",
+        "dietary_coverage"
+      ]
+    },
+    {
+      "family_id": "symptoms_supporting",
+      "tier": "BASIC",
+      "purpose": "Secondary supporting context only",
+      "candidate_variables": [
+        "fatigue",
+        "sleep_quality",
+        "digestive_symptoms",
+        "mood_stress",
+        "muscle_joint_discomfort",
+        "hair_nail_changes"
+      ]
+    },
+    {
+      "family_id": "labs",
+      "tier": "PRO",
+      "purpose": "Improve certainty when valid laboratory data are available",
+      "candidate_variables": [
+        "lab_name",
+        "lab_value",
+        "lab_unit",
+        "lab_date",
+        "reference_range"
+      ]
+    },
+    {
+      "family_id": "advanced_diet",
+      "tier": "PRO",
+      "purpose": "More precise dietary exposure estimation",
+      "candidate_variables": [
+        "portion_sizes",
+        "detailed_food_frequency",
+        "fortification_details",
+        "usual_week_pattern"
+      ]
+    },
+    {
+      "family_id": "advanced_medical_context",
+      "tier": "PRO",
+      "purpose": "Resolve uncertainty and identify professional-review needs",
+      "candidate_variables": [
+        "detailed_medications",
+        "relevant_history",
+        "prior_deficiencies",
+        "prior_adverse_reactions"
+      ]
+    }
+  ]
+}

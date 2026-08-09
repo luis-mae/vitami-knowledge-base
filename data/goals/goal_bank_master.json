@@ -1,0 +1,575 @@
+{
+  "version": "1.1.0",
+  "phase": "1F",
+  "principles": [
+    "Goals prioritize what Vitami explores; they do not independently justify a supplement recommendation.",
+    "A goal may activate additional questions or candidate rule groups.",
+    "Marketing campaigns may preselect a goal, but the scientific engine remains unchanged.",
+    "Vitami may conclude that no supplement is indicated for a selected goal.",
+    "User-facing claims must remain evidence-aware and avoid promises of treatment, prevention, rejuvenation, or guaranteed outcomes.",
+    "Family history may prioritize assessment domains but must never be treated as proof that a supplement prevents the familial condition."
+  ],
+  "goals": [
+    {
+      "goal_id": "energy_vitality",
+      "category": "wellbeing",
+      "label": {
+        "es": "Energía y vitalidad",
+        "en": "Energy and vitality",
+        "it": "Energia e vitalità"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Sentís que te falta energía? Descubrí qué aspectos nutricionales vale la pena revisar."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "sleep_rest",
+      "category": "wellbeing",
+      "label": {
+        "es": "Sueño y descanso",
+        "en": "Sleep and rest",
+        "it": "Sonno e riposo"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés dormir y recuperarte mejor? Revisá qué factores nutricionales podrían ser relevantes."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "stress_emotional_wellbeing",
+      "category": "wellbeing",
+      "label": {
+        "es": "Estrés y bienestar emocional",
+        "en": "Stress and emotional wellbeing",
+        "it": "Stress e benessere emotivo"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Vivís con mucho estrés? Vitami te ayuda a revisar qué aspectos nutricionales pueden merecer atención."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "focus_cognition",
+      "category": "cognition",
+      "label": {
+        "es": "Concentración, memoria y rendimiento mental",
+        "en": "Focus, memory and mental performance",
+        "it": "Concentrazione, memoria e prestazioni mentali"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés cuidar tu rendimiento mental? Descubrí qué tiene evidencia y qué no."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "sports_performance",
+      "category": "performance",
+      "label": {
+        "es": "Rendimiento deportivo",
+        "en": "Sports performance",
+        "it": "Prestazioni sportive"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Entrenás mucho? Descubrí qué suplementos pueden tener sentido según tu actividad y alimentación."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "strength_muscle",
+      "category": "performance",
+      "label": {
+        "es": "Fuerza y masa muscular",
+        "en": "Strength and muscle mass",
+        "it": "Forza e massa muscolare"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés ganar fuerza o masa muscular? Revisá qué suplementos tienen respaldo real."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "exercise_recovery",
+      "category": "performance",
+      "label": {
+        "es": "Recuperación después del ejercicio",
+        "en": "Exercise recovery",
+        "it": "Recupero dopo l'esercizio"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Te cuesta recuperarte después de entrenar? Vitami puede ayudarte a revisar tu contexto nutricional."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "weight_body_composition",
+      "category": "metabolic",
+      "label": {
+        "es": "Control del peso y composición corporal",
+        "en": "Weight and body composition",
+        "it": "Controllo del peso e composizione corporea"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés bajar de peso? Descubrí qué suplementos tienen evidencia, cuáles no y cuáles conviene evitar."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "digestive_health",
+      "category": "digestive",
+      "label": {
+        "es": "Salud digestiva",
+        "en": "Digestive health",
+        "it": "Salute digestiva"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés cuidar tu digestión? Revisá qué opciones pueden ser relevantes para vos."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "immune_function",
+      "category": "immune",
+      "label": {
+        "es": "Defensas y función inmunitaria",
+        "en": "Immune function",
+        "it": "Difese e funzione immunitaria"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés cuidar tus defensas? Descubrí qué nutrientes vale la pena revisar según tu situación."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "skin_health",
+      "category": "appearance",
+      "label": {
+        "es": "Piel",
+        "en": "Skin health",
+        "it": "Salute della pelle"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés mejorar el cuidado de tu piel? Descubrí qué suplementos tienen evidencia para tu perfil."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "hair_nails",
+      "category": "appearance",
+      "label": {
+        "es": "Cabello y uñas",
+        "en": "Hair and nails",
+        "it": "Capelli e unghie"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Te preocupan tu cabello o tus uñas? Vitami revisa tus hábitos antes de sugerir nada."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "bone_joint_health",
+      "category": "healthy_aging",
+      "label": {
+        "es": "Huesos y articulaciones",
+        "en": "Bone and joint health",
+        "it": "Salute di ossa e articolazioni"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés cuidar huesos y articulaciones a largo plazo? Revisá qué factores nutricionales importan."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "cardiovascular_health",
+      "category": "cardiovascular",
+      "label": {
+        "es": "Salud cardiovascular",
+        "en": "Cardiovascular health",
+        "it": "Salute cardiovascolare"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés cuidar tu salud cardiovascular? Descubrí qué opciones tienen evidencia según tu perfil."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "eye_health",
+      "category": "sensory",
+      "label": {
+        "es": "Salud visual",
+        "en": "Eye health",
+        "it": "Salute visiva"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés cuidar tu salud visual? Vitami puede ayudarte a revisar qué nutrientes son relevantes."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "sexual_reproductive_health",
+      "category": "reproductive",
+      "label": {
+        "es": "Salud sexual y reproductiva",
+        "en": "Sexual and reproductive health",
+        "it": "Salute sessuale e riproduttiva"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés revisar aspectos nutricionales vinculados con tu salud reproductiva?"
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "menopause_life_stage",
+      "category": "life_stage",
+      "label": {
+        "es": "Menopausia y etapa hormonal",
+        "en": "Menopause and hormonal life stage",
+        "it": "Menopausa e fase ormonale"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Estás atravesando la menopausia? Descubrí qué aspectos nutricionales conviene revisar."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "healthy_aging",
+      "category": "healthy_aging",
+      "label": {
+        "es": "Envejecimiento saludable y vitalidad",
+        "en": "Healthy aging and vitality",
+        "it": "Invecchiamento sano e vitalità"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés llegar a la tercera edad sintiéndote activo? Revisá hoy qué aspectos nutricionales vale la pena cuidar."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "dietary_gaps",
+      "category": "diet",
+      "label": {
+        "es": "Cubrir posibles carencias de mi alimentación",
+        "en": "Cover possible dietary gaps",
+        "it": "Coprire possibili carenze alimentari"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Sabés que tu dieta no es la mejor? Descubrí qué nutrientes y suplementos conviene revisar según lo que realmente comés."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "general_wellbeing",
+      "category": "wellbeing",
+      "label": {
+        "es": "Bienestar general",
+        "en": "General wellbeing",
+        "it": "Benessere generale"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés saber si hay algo que conviene mejorar en tu suplementación?"
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "no_specific_goal",
+      "category": "general",
+      "label": {
+        "es": "No tengo un objetivo específico; quiero conocer mi situación",
+        "en": "I don't have a specific goal; I want to understand my situation",
+        "it": "Non ho un obiettivo specifico; voglio capire la mia situazione"
+      },
+      "promo_examples": {
+        "es": [
+          "No sabés por dónde empezar? Vitami revisa tu perfil y te muestra qué merece atención."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "mental_stamina",
+      "category": "cognition",
+      "label": {
+        "es": "Resistencia mental para estudiar o trabajar",
+        "en": "Mental stamina for study or work",
+        "it": "Resistenza mentale per studio o lavoro"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Tenés que rendir exámenes o trabajar muchas horas con la cabeza? Revisá qué factores nutricionales pueden influir en tu energía mental."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "exam_study_support",
+      "category": "cognition",
+      "label": {
+        "es": "Estudio, exámenes y períodos de alta exigencia mental",
+        "en": "Study, exams and periods of high mental demand",
+        "it": "Studio, esami e periodi di elevata richiesta mentale"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Estás preparando exámenes? Vitami te ayuda a revisar sueño, alimentación, cafeína y nutrientes relevantes."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "sedentary_lifestyle_support",
+      "category": "lifestyle",
+      "label": {
+        "es": "Mejorar mi salud siendo sedentario/a",
+        "en": "Improve my health with a sedentary lifestyle",
+        "it": "Migliorare la mia salute con uno stile di vita sedentario"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Pasás gran parte del día sentado? Descubrí qué aspectos de tu alimentación y estilo de vida conviene revisar."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "hair_loss_concern",
+      "category": "appearance",
+      "label": {
+        "es": "Debilidad o caída del cabello",
+        "en": "Hair weakness or hair loss",
+        "it": "Debolezza o caduta dei capelli"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Sentís tu pelo débil o notás más caída? Vitami revisa primero posibles factores nutricionales antes de sugerir suplementos."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "preventive_nutrition",
+      "category": "prevention",
+      "label": {
+        "es": "Prevención y cuidado nutricional a largo plazo",
+        "en": "Long-term preventive nutrition",
+        "it": "Prevenzione e cura nutrizionale a lungo termine"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Querés cuidarte antes de que aparezcan problemas? Revisá qué factores nutricionales sí tienen respaldo preventivo."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "family_history_cardiovascular",
+      "category": "family_history",
+      "label": {
+        "es": "Antecedentes familiares cardiovasculares",
+        "en": "Family history of cardiovascular disease",
+        "it": "Familiarità per malattie cardiovascolari"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Tenés antecedentes familiares cardiovasculares? Vitami puede ayudarte a revisar factores nutricionales relevantes sin prometer prevención."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "family_history_diabetes_metabolic",
+      "category": "family_history",
+      "label": {
+        "es": "Antecedentes familiares de diabetes o problemas metabólicos",
+        "en": "Family history of diabetes or metabolic problems",
+        "it": "Familiarità per diabete o problemi metabolici"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Hay diabetes en tu familia? Revisá qué hábitos y nutrientes conviene tener en cuenta."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "family_history_bone_health",
+      "category": "family_history",
+      "label": {
+        "es": "Antecedentes familiares de osteoporosis o fragilidad ósea",
+        "en": "Family history of osteoporosis or bone fragility",
+        "it": "Familiarità per osteoporosi o fragilità ossea"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Hay osteoporosis en tu familia? Revisá qué factores nutricionales pueden ser relevantes para tu salud ósea."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "family_history_cognitive_decline",
+      "category": "family_history",
+      "label": {
+        "es": "Antecedentes familiares de deterioro cognitivo o demencia",
+        "en": "Family history of cognitive decline or dementia",
+        "it": "Familiarità per declino cognitivo o demenza"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Tenés antecedentes familiares de deterioro cognitivo? Descubrí qué factores de estilo de vida y nutrición tienen mejor respaldo."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "family_history_eye_disease",
+      "category": "family_history",
+      "label": {
+        "es": "Antecedentes familiares de problemas de visión",
+        "en": "Family history of eye disease",
+        "it": "Familiarità per problemi della vista"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Hay problemas de visión en tu familia? Revisá qué factores nutricionales pueden ser relevantes."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "family_history_hair_loss",
+      "category": "family_history",
+      "label": {
+        "es": "Antecedentes familiares de caída del cabello",
+        "en": "Family history of hair loss",
+        "it": "Familiarità per caduta dei capelli"
+      },
+      "promo_examples": {
+        "es": [
+          "¿La caída del cabello es frecuente en tu familia? Vitami puede ayudarte a distinguir factores nutricionales de otros factores."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "healthy_lifestyle_restart",
+      "category": "lifestyle",
+      "label": {
+        "es": "Quiero empezar a cuidarme mejor",
+        "en": "I want to start taking better care of myself",
+        "it": "Voglio iniziare a prendermi più cura di me"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Sentís que llegó el momento de cuidarte mejor? Vitami te ayuda a revisar por dónde empezar."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    }
+  ]
+}

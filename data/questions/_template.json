@@ -1,0 +1,41 @@
+{
+  "question_id": "REPLACE_ME",
+  "tier": "BASIC",
+  "domain": "profile",
+  "text": {
+    "es": "",
+    "en": "",
+    "it": ""
+  },
+  "help_text": {
+    "es": "",
+    "en": "",
+    "it": ""
+  },
+  "response_type": "single_choice",
+  "unit": null,
+  "options": [],
+  "required_for_basic": false,
+  "required_for_safety": false,
+  "logic": {
+    "visibility": {
+      "mode": "always",
+      "conditions": []
+    },
+    "followups": [],
+    "skip_if": []
+  },
+  "used_by_rules": [],
+  "data_quality": {
+    "allow_unknown": true,
+    "allow_skip": false,
+    "validation_notes": ""
+  },
+  "status": "draft",
+  "review": {
+    "version": "0.1.0",
+    "last_reviewed": null,
+    "reviewed_by": [],
+    "notes": ""
+  }
+}

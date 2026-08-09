@@ -1,0 +1,34 @@
+{
+  "rule_id": "REPLACE_ME",
+  "supplement_id": "REPLACE_ME",
+  "rule_type": "positive_factor",
+  "conditions": [
+    {
+      "question_id": "REPLACE_ME",
+      "operator": "REPLACE_ME",
+      "value": null
+    }
+  ],
+  "score_effect": null,
+  "result_override": null,
+  "evidence_claim_ids": [
+    "REPLACE_ME"
+  ],
+  "source_refs_direct": [],
+  "explanation": {
+    "es": "",
+    "en": "",
+    "it": ""
+  },
+  "status": "draft",
+  "review": {
+    "version": "0.1.0",
+    "last_reviewed": null,
+    "reviewed_by": [],
+    "notes": ""
+  },
+  "required_questions": [],
+  "optional_questions": [],
+  "safety_questions": [],
+  "minimum_data_state": "insufficient_user_data"
+}

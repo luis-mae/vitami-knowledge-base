@@ -1,0 +1,162 @@
+{
+  "version": "0.5.0",
+  "basic_flow": [
+    {
+      "step": 1,
+      "id": "profile",
+      "title": {
+        "es": "Sobre vos",
+        "en": "About you",
+        "it": "Su di te"
+      },
+      "fields": [
+        "profile_age",
+        "profile_sex_reference"
+      ],
+      "conditional_fields": [
+        "profile_pregnancy",
+        "profile_lactation"
+      ]
+    },
+    {
+      "step": 2,
+      "id": "diet_core",
+      "title": {
+        "es": "Tu alimentación",
+        "en": "Your diet",
+        "it": "La tua alimentazione"
+      },
+      "fields": [
+        "diet_type",
+        "diet_fatty_fish_weekly",
+        "diet_fruit_veg_daily"
+      ],
+      "on_demand_fields": [
+        "diet_dairy_calcium_sources",
+        "diet_animal_products_frequency",
+        "diet_fortified_foods",
+        "diet_legumes_nuts_seeds",
+        "diet_iodized_salt"
+      ]
+    },
+    {
+      "step": 3,
+      "id": "lifestyle_core",
+      "title": {
+        "es": "Tu estilo de vida",
+        "en": "Your lifestyle",
+        "it": "Il tuo stile di vita"
+      },
+      "fields": [
+        "lifestyle_sun_exposure",
+        "activity_level"
+      ],
+      "on_demand_fields": [
+        "lifestyle_smoking",
+        "lifestyle_alcohol",
+        "lifestyle_caffeine_daily",
+        "activity_type"
+      ]
+    },
+    {
+      "step": 4,
+      "id": "current_products",
+      "title": {
+        "es": "Lo que ya tomás",
+        "en": "What you already take",
+        "it": "Cosa assumi già"
+      },
+      "fields": [
+        "supplements_current_use",
+        "medications_regular_use"
+      ],
+      "conditional_fields": [
+        "supplements_current_list",
+        "medications_list"
+      ]
+    },
+    {
+      "step": 5,
+      "id": "safety",
+      "title": {
+        "es": "Antes de recomendarte algo",
+        "en": "Before we suggest anything",
+        "it": "Prima di suggerirti qualcosa"
+      },
+      "ui_type": "compact_multi_item_safety_screen",
+      "fields": [
+        "conditions_kidney",
+        "conditions_liver",
+        "conditions_kidney_stones",
+        "conditions_bleeding",
+        "conditions_allergies",
+        "safety_upcoming_surgery"
+      ],
+      "optional_field": "conditions_other_relevant"
+    },
+    {
+      "step": 6,
+      "id": "goals",
+      "title": {
+        "es": "Qué querés explorar",
+        "en": "What you want to explore",
+        "it": "Cosa vuoi approfondire"
+      },
+      "fields": [
+        "goals_primary"
+      ],
+      "behavior": "Allow 1–3 goals. Goals prioritize exploration and optional follow-up questions; they do not directly recommend supplements."
+    },
+    {
+      "step": 7,
+      "id": "wellbeing_core",
+      "title": {
+        "es": "Cómo te sentís",
+        "en": "How you feel",
+        "it": "Come ti senti"
+      },
+      "fields": [
+        "symptom_fatigue",
+        "symptom_sleep"
+      ],
+      "on_demand_fields": [
+        "symptom_digestive",
+        "symptom_stress_mood",
+        "symptom_muscle_joint",
+        "symptom_hair_nails"
+      ]
+    },
+    {
+      "step": 8,
+      "id": "rule_specific_followups",
+      "title": {
+        "es": "Unas preguntas más",
+        "en": "A few more questions",
+        "it": "Ancora qualche domanda"
+      },
+      "behavior": "Only show questions explicitly requested by candidate supplement rules that still lack required data."
+    },
+    {
+      "step": 9,
+      "id": "result",
+      "title": {
+        "es": "Tu orientación inicial",
+        "en": "Your initial guidance",
+        "it": "Il tuo orientamento iniziale"
+      },
+      "behavior": "Evaluate safety first, then relevance, then whether a dose/reference amount is supportable."
+    }
+  ],
+  "pro_flow": {
+    "trigger": "User requests paid advanced analysis after BASIC result.",
+    "behavior": "AI may choose additional PRO questions from the approved bank based on unresolved uncertainties; it must not invent unsupported clinical facts.",
+    "question_groups": [
+      "anthropometrics",
+      "detailed_diet",
+      "laboratory_results",
+      "prior_deficiencies",
+      "prior_adverse_reactions",
+      "detailed_medical_context"
+    ]
+  }
+}

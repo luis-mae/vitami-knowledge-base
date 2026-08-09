@@ -1,0 +1,269 @@
+{
+  "version": "1.0.0",
+  "profiles": [
+    {
+      "profile_id": "adolescent",
+      "label": {
+        "es": "Adolescente",
+        "en": "Adolescent",
+        "it": "Adolescente"
+      },
+      "trigger": {
+        "question_id": "profile_age",
+        "operator": "between",
+        "value": [
+          13,
+          17
+        ]
+      },
+      "purpose": "Age-dependent references, safety and appropriateness checks.",
+      "behavior": [
+        "apply_age_specific_reference_values",
+        "restrict_adult_only_rules",
+        "increase_safety_review"
+      ]
+    },
+    {
+      "profile_id": "young_adult",
+      "label": {
+        "es": "Adulto joven",
+        "en": "Young adult",
+        "it": "Giovane adulto"
+      },
+      "trigger": {
+        "question_id": "profile_age",
+        "operator": "between",
+        "value": [
+          18,
+          29
+        ]
+      },
+      "purpose": "Life-stage context only.",
+      "behavior": [
+        "apply_age_specific_reference_values"
+      ]
+    },
+    {
+      "profile_id": "older_adult_65_plus",
+      "label": {
+        "es": "Adulto mayor (65+)",
+        "en": "Older adult (65+)",
+        "it": "Adulto anziano (65+)"
+      },
+      "trigger": {
+        "question_id": "profile_age",
+        "operator": "gte",
+        "value": 65
+      },
+      "purpose": "Older age may change reference values, risk context and need for professional review.",
+      "behavior": [
+        "apply_age_specific_reference_values",
+        "prioritize_healthy_aging_questions",
+        "review_medication_and_supplement_burden"
+      ]
+    },
+    {
+      "profile_id": "pregnancy",
+      "label": {
+        "es": "Embarazo",
+        "en": "Pregnancy",
+        "it": "Gravidanza"
+      },
+      "trigger": {
+        "question_id": "profile_pregnancy",
+        "operator": "equals",
+        "value": "yes"
+      },
+      "purpose": "Pregnancy-specific reference values and safety restrictions.",
+      "behavior": [
+        "apply_pregnancy_reference_values",
+        "activate_pregnancy_safety_blocks",
+        "restrict_unreviewed_botanicals"
+      ]
+    },
+    {
+      "profile_id": "lactation",
+      "label": {
+        "es": "Lactancia",
+        "en": "Lactation",
+        "it": "Allattamento"
+      },
+      "trigger": {
+        "question_id": "profile_lactation",
+        "operator": "equals",
+        "value": "yes"
+      },
+      "purpose": "Lactation-specific references and safety restrictions.",
+      "behavior": [
+        "apply_lactation_reference_values",
+        "activate_lactation_safety_blocks"
+      ]
+    },
+    {
+      "profile_id": "vegan",
+      "label": {
+        "es": "Dieta vegana",
+        "en": "Vegan diet",
+        "it": "Dieta vegana"
+      },
+      "trigger": {
+        "question_id": "diet_type",
+        "operator": "equals",
+        "value": "vegan"
+      },
+      "purpose": "Prioritize diet-specific nutrient exposure questions.",
+      "behavior": [
+        "ask_diet_specific_followups",
+        "evaluate_fortified_foods",
+        "evaluate_supplement_use"
+      ]
+    },
+    {
+      "profile_id": "vegetarian",
+      "label": {
+        "es": "Dieta vegetariana",
+        "en": "Vegetarian diet",
+        "it": "Dieta vegetariana"
+      },
+      "trigger": {
+        "question_id": "diet_type",
+        "operator": "equals",
+        "value": "vegetarian"
+      },
+      "purpose": "Prioritize diet-specific nutrient exposure questions.",
+      "behavior": [
+        "ask_diet_specific_followups",
+        "evaluate_fortified_foods"
+      ]
+    },
+    {
+      "profile_id": "restrictive_diet",
+      "label": {
+        "es": "Dieta restrictiva",
+        "en": "Restrictive diet",
+        "it": "Dieta restrittiva"
+      },
+      "trigger": {
+        "question_id": "diet_type",
+        "operator": "in",
+        "value": [
+          "keto_lowcarb",
+          "other"
+        ]
+      },
+      "purpose": "Detect possible dietary gaps without assuming deficiency.",
+      "behavior": [
+        "ask_advanced_diet_if_needed"
+      ]
+    },
+    {
+      "profile_id": "high_endurance_training",
+      "label": {
+        "es": "Entrenamiento de resistencia intenso",
+        "en": "High endurance training",
+        "it": "Allenamento di resistenza intenso"
+      },
+      "trigger": {
+        "question_id": "activity_type",
+        "operator": "contains",
+        "value": "endurance"
+      },
+      "purpose": "Performance and recovery context.",
+      "behavior": [
+        "prioritize_performance_questions",
+        "do_not_assume_supplement_need"
+      ]
+    },
+    {
+      "profile_id": "high_strength_training",
+      "label": {
+        "es": "Entrenamiento de fuerza intenso",
+        "en": "High strength training",
+        "it": "Allenamento di forza intenso"
+      },
+      "trigger": {
+        "question_id": "activity_type",
+        "operator": "contains",
+        "value": "strength"
+      },
+      "purpose": "Performance, recovery and body composition context.",
+      "behavior": [
+        "prioritize_performance_questions",
+        "do_not_assume_supplement_need"
+      ]
+    },
+    {
+      "profile_id": "sedentary",
+      "label": {
+        "es": "Estilo de vida sedentario",
+        "en": "Sedentary lifestyle",
+        "it": "Stile di vita sedentario"
+      },
+      "trigger": {
+        "question_id": "activity_level",
+        "operator": "equals",
+        "value": "sedentary"
+      },
+      "purpose": "Lifestyle context and goal prioritization.",
+      "behavior": [
+        "prioritize_lifestyle_questions",
+        "avoid_supplement_as_substitute_for_lifestyle"
+      ]
+    },
+    {
+      "profile_id": "night_shift",
+      "label": {
+        "es": "Trabajo nocturno o por turnos",
+        "en": "Night or shift work",
+        "it": "Lavoro notturno o a turni"
+      },
+      "trigger": {
+        "question_id": "work_schedule_type",
+        "operator": "in",
+        "value": [
+          "night",
+          "rotating"
+        ]
+      },
+      "purpose": "Sleep, light exposure and schedule context.",
+      "behavior": [
+        "prioritize_sleep_and_timing_questions",
+        "consider_light_exposure_context"
+      ]
+    },
+    {
+      "profile_id": "frequent_travel",
+      "label": {
+        "es": "Viajes frecuentes",
+        "en": "Frequent travel",
+        "it": "Viaggi frequenti"
+      },
+      "trigger": {
+        "question_id": "travel_frequency",
+        "operator": "gte",
+        "value": "frequent"
+      },
+      "purpose": "Routine, sleep, diet variability and adherence context.",
+      "behavior": [
+        "prioritize_routine_questions"
+      ]
+    },
+    {
+      "profile_id": "high_mental_demand",
+      "label": {
+        "es": "Alta exigencia mental",
+        "en": "High mental demand",
+        "it": "Elevata richiesta mentale"
+      },
+      "trigger": {
+        "question_id": "work_study_mental_demand",
+        "operator": "equals",
+        "value": "high"
+      },
+      "purpose": "Study/workload, sleep and caffeine context.",
+      "behavior": [
+        "prioritize_cognition_sleep_caffeine_questions"
+      ]
+    }
+  ]
+}

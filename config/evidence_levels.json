@@ -1,0 +1,30 @@
+{
+  "levels": [
+    {
+      "id": "high",
+      "label_es": "Alta",
+      "meaning": "Consistent, high-quality evidence for the specific claim/context."
+    },
+    {
+      "id": "moderate",
+      "label_es": "Moderada",
+      "meaning": "Reasonably supportive evidence with meaningful limitations."
+    },
+    {
+      "id": "low",
+      "label_es": "Baja",
+      "meaning": "Limited, inconsistent, indirect, or lower-quality evidence."
+    },
+    {
+      "id": "insufficient",
+      "label_es": "Insuficiente",
+      "meaning": "Evidence does not support a reliable conclusion."
+    },
+    {
+      "id": "not_assessed",
+      "label_es": "No evaluada",
+      "meaning": "Vitami has not yet completed an evidence assessment."
+    }
+  ],
+  "rule": "Evidence strength is claim-specific, never supplement-wide."
+}

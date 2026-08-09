@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "purpose": "Defines mandatory bidirectional integrity between questions and rules.",
+  "checks": [
+    {
+      "id": "rule_questions_exist",
+      "description": "Every question ID referenced by a rule must exist in data/questions."
+    },
+    {
+      "id": "question_rule_backlink",
+      "description": "Every active question used by a rule should list that rule in used_by_rules."
+    },
+    {
+      "id": "rule_evidence_exists",
+      "description": "Every evidence_claim_id referenced by an active rule must exist in the supplement record."
+    },
+    {
+      "id": "strong_recommendation_requires_data",
+      "description": "A/B outputs must not be generated when required_questions are unanswered."
+    },
+    {
+      "id": "dose_requires_dose_rule",
+      "description": "Personalized dose output requires an active dose_adjustment rule plus evidence support."
+    },
+    {
+      "id": "safety_precedes_relevance",
+      "description": "Safety blocks are evaluated before positive scoring."
+    },
+    {
+      "id": "unused_active_question_forbidden",
+      "description": "An active BASIC question must have a documented purpose and rule/safety linkage."
+    }
+  ]
+}

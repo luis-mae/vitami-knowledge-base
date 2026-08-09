@@ -1,0 +1,3240 @@
+{
+  "version": "1.0.0",
+  "phase": "1_FINAL",
+  "status": "draft",
+  "notes": [
+    "This bank defines candidate questions and branching only.",
+    "It does not encode supplement recommendations, doses, or clinical diagnoses.",
+    "Questions may be added, removed, or rewritten during Phase 2 when evidence rules reveal missing or unnecessary data.",
+    "BASIC should remain as short as possible through conditional logic.",
+    "Phase 1D audit classifies many BASIC questions as rule-specific/on-demand to minimize questionnaire burden.",
+    "Expanded goal taxonomy supports general population and future thematic marketing entry points.",
+    "Final Phase 1 audit adds special-profile context questions for night/shift work, travel and mental demand."
+  ],
+  "questions": [
+    {
+      "question_id": "profile_age",
+      "tier": "BASIC",
+      "domain": "profile",
+      "text": {
+        "es": "¿Qué edad tenés?",
+        "en": "How old are you?",
+        "it": "Quanti anni hai?"
+      },
+      "help_text": {
+        "es": "Permite aplicar referencias nutricionales y reglas dependientes de la edad.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "integer",
+      "unit": null,
+      "options": [],
+      "required_for_basic": true,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": false,
+        "allow_skip": false,
+        "validation_notes": "Validar rango razonable; no usar para diagnóstico."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "profile_sex_reference",
+      "tier": "BASIC",
+      "domain": "profile",
+      "text": {
+        "es": "¿Qué sexo se utiliza para tus valores nutricionales de referencia?",
+        "en": "Which sex should be used for your nutritional reference values?",
+        "it": "Quale sesso va utilizzato per i tuoi valori nutrizionali di riferimento?"
+      },
+      "help_text": {
+        "es": "Se usa solo cuando una referencia nutricional oficial depende del sexo.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "female",
+          "label": {
+            "es": "Femenino",
+            "en": "Female",
+            "it": "Femminile"
+          }
+        },
+        {
+          "value": "male",
+          "label": {
+            "es": "Masculino",
+            "en": "Male",
+            "it": "Maschile"
+          }
+        },
+        {
+          "value": "prefer_not",
+          "label": {
+            "es": "Prefiero no responder",
+            "en": "Prefer not to answer",
+            "it": "Preferisco non rispondere"
+          }
+        }
+      ],
+      "required_for_basic": true,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": false,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "profile_pregnancy",
+      "tier": "BASIC",
+      "domain": "safety",
+      "text": {
+        "es": "¿Estás embarazada actualmente?",
+        "en": "Are you currently pregnant?",
+        "it": "Sei attualmente incinta?"
+      },
+      "help_text": {
+        "es": "Puede modificar referencias nutricionales y activar precauciones de seguridad.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "not_applicable",
+          "label": {
+            "es": "No corresponde",
+            "en": "Not applicable",
+            "it": "Non applicabile"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No estoy segura",
+            "en": "Not sure",
+            "it": "Non sono sicura"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "profile_lactation",
+      "tier": "BASIC",
+      "domain": "safety",
+      "text": {
+        "es": "¿Estás amamantando actualmente?",
+        "en": "Are you currently breastfeeding?",
+        "it": "Stai attualmente allattando?"
+      },
+      "help_text": {
+        "es": "Puede modificar referencias nutricionales y precauciones.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "not_applicable",
+          "label": {
+            "es": "No corresponde",
+            "en": "Not applicable",
+            "it": "Non applicabile"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "diet_type",
+      "tier": "BASIC",
+      "domain": "diet",
+      "text": {
+        "es": "¿Cómo describirías tu alimentación habitual?",
+        "en": "How would you describe your usual diet?",
+        "it": "Come descriveresti la tua alimentazione abituale?"
+      },
+      "help_text": {
+        "es": "Permite identificar patrones de ingesta y posibles exposiciones dietarias.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "omnivore",
+          "label": {
+            "es": "Omnívora",
+            "en": "Omnivorous",
+            "it": "Onnivora"
+          }
+        },
+        {
+          "value": "vegetarian",
+          "label": {
+            "es": "Vegetariana",
+            "en": "Vegetarian",
+            "it": "Vegetariana"
+          }
+        },
+        {
+          "value": "vegan",
+          "label": {
+            "es": "Vegana",
+            "en": "Vegan",
+            "it": "Vegana"
+          }
+        },
+        {
+          "value": "pescatarian",
+          "label": {
+            "es": "Pescetariana",
+            "en": "Pescatarian",
+            "it": "Pescetariana"
+          }
+        },
+        {
+          "value": "keto_lowcarb",
+          "label": {
+            "es": "Keto o muy baja en carbohidratos",
+            "en": "Keto or very low-carb",
+            "it": "Keto o molto povera di carboidrati"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "es": "Otra",
+            "en": "Other",
+            "it": "Altro"
+          }
+        }
+      ],
+      "required_for_basic": true,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "diet_fatty_fish_weekly",
+      "tier": "BASIC",
+      "domain": "diet",
+      "text": {
+        "es": "¿Cuántas porciones de pescado graso consumís por semana?",
+        "en": "How many servings of fatty fish do you eat per week?",
+        "it": "Quante porzioni di pesce grasso consumi a settimana?"
+      },
+      "help_text": {
+        "es": "Permite estimar exposición dietaria a nutrientes asociados al pescado; no determina por sí sola una dosis.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "0",
+          "label": {
+            "es": "Ninguna",
+            "en": "None",
+            "it": "Nessuna"
+          }
+        },
+        {
+          "value": "lt1",
+          "label": {
+            "es": "Menos de una",
+            "en": "Less than one",
+            "it": "Meno di una"
+          }
+        },
+        {
+          "value": "1",
+          "label": {
+            "es": "1 porción",
+            "en": "1 serving",
+            "it": "1 porzione"
+          }
+        },
+        {
+          "value": "2",
+          "label": {
+            "es": "2 porciones",
+            "en": "2 servings",
+            "it": "2 porzioni"
+          }
+        },
+        {
+          "value": "3plus",
+          "label": {
+            "es": "3 o más",
+            "en": "3 or more",
+            "it": "3 o più"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "diet_fruit_veg_daily",
+      "tier": "BASIC",
+      "domain": "diet",
+      "text": {
+        "es": "En un día habitual, ¿cuántas porciones de frutas y verduras consumís?",
+        "en": "On a typical day, how many servings of fruit and vegetables do you eat?",
+        "it": "In una giornata abituale, quante porzioni di frutta e verdura consumi?"
+      },
+      "help_text": {
+        "es": "Describe calidad y diversidad dietaria general.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "0_1",
+          "label": {
+            "es": "0–1",
+            "en": "0–1",
+            "it": "0–1"
+          }
+        },
+        {
+          "value": "2_3",
+          "label": {
+            "es": "2–3",
+            "en": "2–3",
+            "it": "2–3"
+          }
+        },
+        {
+          "value": "4_5",
+          "label": {
+            "es": "4–5",
+            "en": "4–5",
+            "it": "4–5"
+          }
+        },
+        {
+          "value": "6plus",
+          "label": {
+            "es": "6 o más",
+            "en": "6 or more",
+            "it": "6 o più"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "diet_dairy_calcium_sources",
+      "tier": "BASIC",
+      "domain": "diet",
+      "text": {
+        "es": "¿Con qué frecuencia consumís lácteos o alimentos fortificados con calcio?",
+        "en": "How often do you consume dairy or calcium-fortified foods?",
+        "it": "Con quale frequenza consumi latticini o alimenti fortificati con calcio?"
+      },
+      "help_text": {
+        "es": "Permite aproximar fuentes habituales de calcio.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "daily2plus",
+          "label": {
+            "es": "2 o más veces al día",
+            "en": "2 or more times a day",
+            "it": "2 o più volte al giorno"
+          }
+        },
+        {
+          "value": "daily1",
+          "label": {
+            "es": "1 vez al día",
+            "en": "Once a day",
+            "it": "1 volta al giorno"
+          }
+        },
+        {
+          "value": "few_week",
+          "label": {
+            "es": "Algunas veces por semana",
+            "en": "A few times per week",
+            "it": "Alcune volte a settimana"
+          }
+        },
+        {
+          "value": "rare_never",
+          "label": {
+            "es": "Rara vez o nunca",
+            "en": "Rarely or never",
+            "it": "Raramente o mai"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "diet_animal_products_frequency",
+      "tier": "BASIC",
+      "domain": "diet",
+      "text": {
+        "es": "¿Con qué frecuencia consumís alimentos de origen animal como carne, huevos o lácteos?",
+        "en": "How often do you consume animal foods such as meat, eggs, or dairy?",
+        "it": "Con quale frequenza consumi alimenti di origine animale come carne, uova o latticini?"
+      },
+      "help_text": {
+        "es": "Puede ayudar a evaluar exposición dietaria a nutrientes presentes principalmente en alimentos animales.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "daily",
+          "label": {
+            "es": "Todos los días",
+            "en": "Daily",
+            "it": "Ogni giorno"
+          }
+        },
+        {
+          "value": "few_week",
+          "label": {
+            "es": "Varias veces por semana",
+            "en": "Several times per week",
+            "it": "Più volte a settimana"
+          }
+        },
+        {
+          "value": "rare",
+          "label": {
+            "es": "Rara vez",
+            "en": "Rarely",
+            "it": "Raramente"
+          }
+        },
+        {
+          "value": "never",
+          "label": {
+            "es": "Nunca",
+            "en": "Never",
+            "it": "Mai"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "diet_fortified_foods",
+      "tier": "BASIC",
+      "domain": "diet",
+      "text": {
+        "es": "¿Consumís habitualmente alimentos fortificados o bebidas vegetales fortificadas?",
+        "en": "Do you regularly consume fortified foods or fortified plant-based drinks?",
+        "it": "Consumi abitualmente alimenti fortificati o bevande vegetali fortificate?"
+      },
+      "help_text": {
+        "es": "Evita subestimar nutrientes aportados por fortificación.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes_regularly",
+          "label": {
+            "es": "Sí, habitualmente",
+            "en": "Yes, regularly",
+            "it": "Sì, abitualmente"
+          }
+        },
+        {
+          "value": "sometimes",
+          "label": {
+            "es": "A veces",
+            "en": "Sometimes",
+            "it": "A volte"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No lo sé",
+            "en": "I don't know",
+            "it": "Non lo so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "diet_legumes_nuts_seeds",
+      "tier": "BASIC",
+      "domain": "diet",
+      "text": {
+        "es": "¿Con qué frecuencia consumís legumbres, frutos secos o semillas?",
+        "en": "How often do you eat legumes, nuts, or seeds?",
+        "it": "Con quale frequenza consumi legumi, frutta secca o semi?"
+      },
+      "help_text": {
+        "es": "Aporta contexto sobre fuentes vegetales de minerales, grasas y proteínas.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "daily",
+          "label": {
+            "es": "Todos los días",
+            "en": "Daily",
+            "it": "Ogni giorno"
+          }
+        },
+        {
+          "value": "few_week",
+          "label": {
+            "es": "Varias veces por semana",
+            "en": "Several times per week",
+            "it": "Più volte a settimana"
+          }
+        },
+        {
+          "value": "weekly",
+          "label": {
+            "es": "Aproximadamente una vez por semana",
+            "en": "About once a week",
+            "it": "Circa una volta a settimana"
+          }
+        },
+        {
+          "value": "rare_never",
+          "label": {
+            "es": "Rara vez o nunca",
+            "en": "Rarely or never",
+            "it": "Raramente o mai"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "lifestyle_sun_exposure",
+      "tier": "BASIC",
+      "domain": "lifestyle",
+      "text": {
+        "es": "¿Cómo describirías tu exposición habitual al sol?",
+        "en": "How would you describe your usual sun exposure?",
+        "it": "Come descriveresti la tua abituale esposizione al sole?"
+      },
+      "help_text": {
+        "es": "Aporta contexto, pero no debe utilizarse como diagnóstico de deficiencia.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "frequent",
+          "label": {
+            "es": "Frecuente",
+            "en": "Frequent",
+            "it": "Frequente"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderada",
+            "en": "Moderate",
+            "it": "Moderata"
+          }
+        },
+        {
+          "value": "low",
+          "label": {
+            "es": "Baja",
+            "en": "Low",
+            "it": "Bassa"
+          }
+        },
+        {
+          "value": "very_low",
+          "label": {
+            "es": "Casi nula",
+            "en": "Almost none",
+            "it": "Quasi nulla"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "lifestyle_smoking",
+      "tier": "BASIC",
+      "domain": "lifestyle",
+      "text": {
+        "es": "¿Fumás actualmente?",
+        "en": "Do you currently smoke?",
+        "it": "Fumi attualmente?"
+      },
+      "help_text": {
+        "es": "Aporta contexto para determinadas referencias y riesgos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "occasionally",
+          "label": {
+            "es": "Ocasionalmente",
+            "en": "Occasionally",
+            "it": "Occasionalmente"
+          }
+        },
+        {
+          "value": "daily",
+          "label": {
+            "es": "Sí, diariamente",
+            "en": "Yes, daily",
+            "it": "Sì, ogni giorno"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "lifestyle_alcohol",
+      "tier": "BASIC",
+      "domain": "lifestyle",
+      "text": {
+        "es": "¿Con qué frecuencia consumís alcohol?",
+        "en": "How often do you drink alcohol?",
+        "it": "Con quale frequenza consumi alcol?"
+      },
+      "help_text": {
+        "es": "Contexto dietario y de seguridad; no implica por sí solo una recomendación.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "never",
+          "label": {
+            "es": "Nunca",
+            "en": "Never",
+            "it": "Mai"
+          }
+        },
+        {
+          "value": "monthly",
+          "label": {
+            "es": "Menos de una vez por semana",
+            "en": "Less than once per week",
+            "it": "Meno di una volta a settimana"
+          }
+        },
+        {
+          "value": "weekly",
+          "label": {
+            "es": "1–3 días por semana",
+            "en": "1–3 days per week",
+            "it": "1–3 giorni a settimana"
+          }
+        },
+        {
+          "value": "frequent",
+          "label": {
+            "es": "4 o más días por semana",
+            "en": "4 or more days per week",
+            "it": "4 o più giorni a settimana"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "lifestyle_caffeine_daily",
+      "tier": "BASIC",
+      "domain": "lifestyle",
+      "text": {
+        "es": "¿Cuántas bebidas con cafeína consumís habitualmente por día?",
+        "en": "How many caffeinated drinks do you usually have per day?",
+        "it": "Quante bevande contenenti caffeina consumi abitualmente al giorno?"
+      },
+      "help_text": {
+        "es": "Puede influir en hábitos, sueño y administración de algunos nutrientes.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "0",
+          "label": {
+            "es": "Ninguna",
+            "en": "None",
+            "it": "Nessuna"
+          }
+        },
+        {
+          "value": "1",
+          "label": {
+            "es": "1",
+            "en": "1",
+            "it": "1"
+          }
+        },
+        {
+          "value": "2_3",
+          "label": {
+            "es": "2–3",
+            "en": "2–3",
+            "it": "2–3"
+          }
+        },
+        {
+          "value": "4plus",
+          "label": {
+            "es": "4 o más",
+            "en": "4 or more",
+            "it": "4 o più"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "activity_level",
+      "tier": "BASIC",
+      "domain": "activity",
+      "text": {
+        "es": "¿Cuál es tu nivel habitual de actividad física?",
+        "en": "What is your usual physical activity level?",
+        "it": "Qual è il tuo abituale livello di attività fisica?"
+      },
+      "help_text": {
+        "es": "Contexto para necesidades y objetivos asociados a actividad.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "sedentary",
+          "label": {
+            "es": "Sedentario",
+            "en": "Sedentary",
+            "it": "Sedentario"
+          }
+        },
+        {
+          "value": "light",
+          "label": {
+            "es": "Ligero",
+            "en": "Light",
+            "it": "Leggero"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderado",
+            "en": "Moderate",
+            "it": "Moderato"
+          }
+        },
+        {
+          "value": "high",
+          "label": {
+            "es": "Alto",
+            "en": "High",
+            "it": "Alto"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "activity_type",
+      "tier": "BASIC",
+      "domain": "activity",
+      "text": {
+        "es": "¿Qué tipo de ejercicio realizás principalmente?",
+        "en": "What type of exercise do you mainly do?",
+        "it": "Che tipo di esercizio pratichi principalmente?"
+      },
+      "help_text": {
+        "es": "Permite contextualizar objetivos deportivos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "multi_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "strength",
+          "label": {
+            "es": "Fuerza",
+            "en": "Strength",
+            "it": "Forza"
+          }
+        },
+        {
+          "value": "endurance",
+          "label": {
+            "es": "Resistencia",
+            "en": "Endurance",
+            "it": "Resistenza"
+          }
+        },
+        {
+          "value": "mixed",
+          "label": {
+            "es": "Mixto",
+            "en": "Mixed",
+            "it": "Misto"
+          }
+        },
+        {
+          "value": "recreational",
+          "label": {
+            "es": "Recreativo",
+            "en": "Recreational",
+            "it": "Ricreativo"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "es": "No realizo ejercicio",
+            "en": "I do not exercise",
+            "it": "Non pratico esercizio"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "supplements_current_use",
+      "tier": "BASIC",
+      "domain": "supplements",
+      "text": {
+        "es": "¿Tomás actualmente vitaminas, minerales, suplementos o productos herbales?",
+        "en": "Do you currently take vitamins, minerals, supplements, or herbal products?",
+        "it": "Assumi attualmente vitamine, minerali, integratori o prodotti erboristici?"
+      },
+      "help_text": {
+        "es": "Evita duplicaciones y ayuda a detectar riesgos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [
+          "supplements_current_list"
+        ],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "supplements_current_list",
+      "tier": "BASIC",
+      "domain": "supplements",
+      "text": {
+        "es": "Indicá cuáles tomás actualmente y, si la conocés, la cantidad.",
+        "en": "List what you currently take and the amount, if known.",
+        "it": "Indica cosa assumi attualmente e, se la conosci, la quantità."
+      },
+      "help_text": {
+        "es": "Permite revisar duplicaciones, dosis acumuladas e interacciones.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "question_id": "supplements_current_use",
+              "operator": "equals",
+              "value": true
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "medications_regular_use",
+      "tier": "BASIC",
+      "domain": "medications",
+      "text": {
+        "es": "¿Tomás medicamentos de manera habitual?",
+        "en": "Do you take any medications regularly?",
+        "it": "Assumi farmaci regolarmente?"
+      },
+      "help_text": {
+        "es": "Pregunta de seguridad para detectar posibles interacciones.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [
+          "medications_list"
+        ],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "medications_list",
+      "tier": "BASIC",
+      "domain": "medications",
+      "text": {
+        "es": "¿Qué medicamentos tomás habitualmente?",
+        "en": "Which medications do you take regularly?",
+        "it": "Quali farmaci assumi regolarmente?"
+      },
+      "help_text": {
+        "es": "Permite activar reglas de seguridad e interacción.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "question_id": "medications_regular_use",
+              "operator": "equals",
+              "value": true
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "conditions_kidney",
+      "tier": "BASIC",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Tenés alguna enfermedad renal diagnosticada?",
+        "en": "Have you been diagnosed with kidney disease?",
+        "it": "Hai una malattia renale diagnosticata?"
+      },
+      "help_text": {
+        "es": "Puede activar bloqueos de seguridad.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "conditions_liver",
+      "tier": "BASIC",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Tenés alguna enfermedad hepática diagnosticada?",
+        "en": "Have you been diagnosed with liver disease?",
+        "it": "Hai una malattia epatica diagnosticata?"
+      },
+      "help_text": {
+        "es": "Puede activar bloqueos de seguridad.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "conditions_kidney_stones",
+      "tier": "BASIC",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Tuviste cálculos renales alguna vez?",
+        "en": "Have you ever had kidney stones?",
+        "it": "Hai mai avuto calcoli renali?"
+      },
+      "help_text": {
+        "es": "Puede ser relevante para determinadas sustancias y dosis.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "conditions_bleeding",
+      "tier": "BASIC",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Tenés un trastorno de coagulación o antecedentes de sangrado anormal?",
+        "en": "Do you have a bleeding disorder or a history of abnormal bleeding?",
+        "it": "Hai un disturbo della coagulazione o precedenti di sanguinamento anomalo?"
+      },
+      "help_text": {
+        "es": "Puede modificar seguridad de determinados suplementos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "conditions_allergies",
+      "tier": "BASIC",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Tenés alergias conocidas a alimentos, medicamentos o ingredientes de suplementos?",
+        "en": "Do you have known allergies to foods, medications, or supplement ingredients?",
+        "it": "Hai allergie note ad alimenti, farmaci o ingredienti di integratori?"
+      },
+      "help_text": {
+        "es": "Pregunta de seguridad.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [
+          "conditions_allergies_list"
+        ],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "conditions_allergies_list",
+      "tier": "BASIC",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Cuáles son tus alergias conocidas?",
+        "en": "What are your known allergies?",
+        "it": "Quali sono le tue allergie note?"
+      },
+      "help_text": {
+        "es": "Permite excluir ingredientes potencialmente problemáticos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "question_id": "conditions_allergies",
+              "operator": "equals",
+              "value": true
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "conditions_other_relevant",
+      "tier": "BASIC",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Tenés alguna otra condición de salud diagnosticada que consideres importante mencionar?",
+        "en": "Do you have any other diagnosed health condition you think is important to mention?",
+        "it": "Hai altre condizioni di salute diagnosticate che ritieni importante segnalare?"
+      },
+      "help_text": {
+        "es": "Permite capturar contexto no cubierto por preguntas cerradas.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "goals_primary",
+      "tier": "BASIC",
+      "domain": "goals",
+      "text": {
+        "es": "¿Qué aspectos de tu salud o bienestar te gustaría explorar?",
+        "en": "Which areas of your health or wellbeing would you like to explore?",
+        "it": "Quali aspetti della tua salute o del tuo benessere vorresti approfondire?"
+      },
+      "help_text": {
+        "es": "Podés elegir hasta 3. Tus objetivos orientan qué áreas explora Vitami, pero no determinan por sí solos una recomendación.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "multi_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "energy_vitality",
+          "label": {
+            "es": "Energía y vitalidad",
+            "en": "Energy and vitality",
+            "it": "Energia e vitalità"
+          }
+        },
+        {
+          "value": "sleep_rest",
+          "label": {
+            "es": "Sueño y descanso",
+            "en": "Sleep and rest",
+            "it": "Sonno e riposo"
+          }
+        },
+        {
+          "value": "stress_emotional_wellbeing",
+          "label": {
+            "es": "Estrés y bienestar emocional",
+            "en": "Stress and emotional wellbeing",
+            "it": "Stress e benessere emotivo"
+          }
+        },
+        {
+          "value": "focus_cognition",
+          "label": {
+            "es": "Concentración, memoria y rendimiento mental",
+            "en": "Focus, memory and mental performance",
+            "it": "Concentrazione, memoria e prestazioni mentali"
+          }
+        },
+        {
+          "value": "sports_performance",
+          "label": {
+            "es": "Rendimiento deportivo",
+            "en": "Sports performance",
+            "it": "Prestazioni sportive"
+          }
+        },
+        {
+          "value": "strength_muscle",
+          "label": {
+            "es": "Fuerza y masa muscular",
+            "en": "Strength and muscle mass",
+            "it": "Forza e massa muscolare"
+          }
+        },
+        {
+          "value": "exercise_recovery",
+          "label": {
+            "es": "Recuperación después del ejercicio",
+            "en": "Exercise recovery",
+            "it": "Recupero dopo l'esercizio"
+          }
+        },
+        {
+          "value": "weight_body_composition",
+          "label": {
+            "es": "Control del peso y composición corporal",
+            "en": "Weight and body composition",
+            "it": "Controllo del peso e composizione corporea"
+          }
+        },
+        {
+          "value": "digestive_health",
+          "label": {
+            "es": "Salud digestiva",
+            "en": "Digestive health",
+            "it": "Salute digestiva"
+          }
+        },
+        {
+          "value": "immune_function",
+          "label": {
+            "es": "Defensas y función inmunitaria",
+            "en": "Immune function",
+            "it": "Difese e funzione immunitaria"
+          }
+        },
+        {
+          "value": "skin_health",
+          "label": {
+            "es": "Piel",
+            "en": "Skin health",
+            "it": "Salute della pelle"
+          }
+        },
+        {
+          "value": "hair_nails",
+          "label": {
+            "es": "Cabello y uñas",
+            "en": "Hair and nails",
+            "it": "Capelli e unghie"
+          }
+        },
+        {
+          "value": "bone_joint_health",
+          "label": {
+            "es": "Huesos y articulaciones",
+            "en": "Bone and joint health",
+            "it": "Salute di ossa e articolazioni"
+          }
+        },
+        {
+          "value": "cardiovascular_health",
+          "label": {
+            "es": "Salud cardiovascular",
+            "en": "Cardiovascular health",
+            "it": "Salute cardiovascolare"
+          }
+        },
+        {
+          "value": "eye_health",
+          "label": {
+            "es": "Salud visual",
+            "en": "Eye health",
+            "it": "Salute visiva"
+          }
+        },
+        {
+          "value": "sexual_reproductive_health",
+          "label": {
+            "es": "Salud sexual y reproductiva",
+            "en": "Sexual and reproductive health",
+            "it": "Salute sessuale e riproduttiva"
+          }
+        },
+        {
+          "value": "menopause_life_stage",
+          "label": {
+            "es": "Menopausia y etapa hormonal",
+            "en": "Menopause and hormonal life stage",
+            "it": "Menopausa e fase ormonale"
+          }
+        },
+        {
+          "value": "healthy_aging",
+          "label": {
+            "es": "Envejecimiento saludable y vitalidad",
+            "en": "Healthy aging and vitality",
+            "it": "Invecchiamento sano e vitalità"
+          }
+        },
+        {
+          "value": "dietary_gaps",
+          "label": {
+            "es": "Cubrir posibles carencias de mi alimentación",
+            "en": "Cover possible dietary gaps",
+            "it": "Coprire possibili carenze alimentari"
+          }
+        },
+        {
+          "value": "general_wellbeing",
+          "label": {
+            "es": "Bienestar general",
+            "en": "General wellbeing",
+            "it": "Benessere generale"
+          }
+        },
+        {
+          "value": "no_specific_goal",
+          "label": {
+            "es": "No tengo un objetivo específico; quiero conocer mi situación",
+            "en": "I don't have a specific goal; I want to understand my situation",
+            "it": "Non ho un obiettivo specifico; voglio capire la mia situazione"
+          }
+        },
+        {
+          "value": "mental_stamina",
+          "label": {
+            "es": "Resistencia mental para estudiar o trabajar",
+            "en": "Mental stamina for study or work",
+            "it": "Resistenza mentale per studio o lavoro"
+          }
+        },
+        {
+          "value": "exam_study_support",
+          "label": {
+            "es": "Estudio, exámenes y períodos de alta exigencia mental",
+            "en": "Study, exams and periods of high mental demand",
+            "it": "Studio, esami e periodi di elevata richiesta mentale"
+          }
+        },
+        {
+          "value": "sedentary_lifestyle_support",
+          "label": {
+            "es": "Mejorar mi salud siendo sedentario/a",
+            "en": "Improve my health with a sedentary lifestyle",
+            "it": "Migliorare la mia salute con uno stile di vita sedentario"
+          }
+        },
+        {
+          "value": "hair_loss_concern",
+          "label": {
+            "es": "Debilidad o caída del cabello",
+            "en": "Hair weakness or hair loss",
+            "it": "Debolezza o caduta dei capelli"
+          }
+        },
+        {
+          "value": "preventive_nutrition",
+          "label": {
+            "es": "Prevención y cuidado nutricional a largo plazo",
+            "en": "Long-term preventive nutrition",
+            "it": "Prevenzione e cura nutrizionale a lungo termine"
+          }
+        },
+        {
+          "value": "family_history_cardiovascular",
+          "label": {
+            "es": "Antecedentes familiares cardiovasculares",
+            "en": "Family history of cardiovascular disease",
+            "it": "Familiarità per malattie cardiovascolari"
+          }
+        },
+        {
+          "value": "family_history_diabetes_metabolic",
+          "label": {
+            "es": "Antecedentes familiares de diabetes o problemas metabólicos",
+            "en": "Family history of diabetes or metabolic problems",
+            "it": "Familiarità per diabete o problemi metabolici"
+          }
+        },
+        {
+          "value": "family_history_bone_health",
+          "label": {
+            "es": "Antecedentes familiares de osteoporosis o fragilidad ósea",
+            "en": "Family history of osteoporosis or bone fragility",
+            "it": "Familiarità per osteoporosi o fragilità ossea"
+          }
+        },
+        {
+          "value": "family_history_cognitive_decline",
+          "label": {
+            "es": "Antecedentes familiares de deterioro cognitivo o demencia",
+            "en": "Family history of cognitive decline or dementia",
+            "it": "Familiarità per declino cognitivo o demenza"
+          }
+        },
+        {
+          "value": "family_history_eye_disease",
+          "label": {
+            "es": "Antecedentes familiares de problemas de visión",
+            "en": "Family history of eye disease",
+            "it": "Familiarità per problemi della vista"
+          }
+        },
+        {
+          "value": "family_history_hair_loss",
+          "label": {
+            "es": "Antecedentes familiares de caída del cabello",
+            "en": "Family history of hair loss",
+            "it": "Familiarità per caduta dei capelli"
+          }
+        },
+        {
+          "value": "healthy_lifestyle_restart",
+          "label": {
+            "es": "Quiero empezar a cuidarme mejor",
+            "en": "I want to start taking better care of myself",
+            "it": "Voglio iniziare a prendermi più cura di me"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": "Allow 1–3 selections; no goal independently activates a supplement."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.6.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Expanded in Phase 1F with mental demand, sedentary lifestyle, hair loss, prevention and family-history goals."
+      }
+    },
+    {
+      "question_id": "symptom_fatigue",
+      "tier": "BASIC",
+      "domain": "symptoms",
+      "text": {
+        "es": "¿Con qué frecuencia sentís falta de energía o fatiga?",
+        "en": "How often do you feel low energy or fatigue?",
+        "it": "Con quale frequenza avverti poca energia o stanchezza?"
+      },
+      "help_text": {
+        "es": "Factor secundario; nunca debe diagnosticar una deficiencia.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "rare",
+          "label": {
+            "es": "Rara vez",
+            "en": "Rarely",
+            "it": "Raramente"
+          }
+        },
+        {
+          "value": "sometimes",
+          "label": {
+            "es": "A veces",
+            "en": "Sometimes",
+            "it": "A volte"
+          }
+        },
+        {
+          "value": "often",
+          "label": {
+            "es": "Frecuentemente",
+            "en": "Often",
+            "it": "Spesso"
+          }
+        },
+        {
+          "value": "very_often",
+          "label": {
+            "es": "Casi todos los días",
+            "en": "Almost every day",
+            "it": "Quasi ogni giorno"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "symptom_sleep",
+      "tier": "BASIC",
+      "domain": "symptoms",
+      "text": {
+        "es": "¿Cómo describirías la calidad de tu sueño?",
+        "en": "How would you describe your sleep quality?",
+        "it": "Come descriveresti la qualità del tuo sonno?"
+      },
+      "help_text": {
+        "es": "Contexto de bienestar, no diagnóstico.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "good",
+          "label": {
+            "es": "Buena",
+            "en": "Good",
+            "it": "Buona"
+          }
+        },
+        {
+          "value": "fair",
+          "label": {
+            "es": "Regular",
+            "en": "Fair",
+            "it": "Discreta"
+          }
+        },
+        {
+          "value": "poor",
+          "label": {
+            "es": "Mala",
+            "en": "Poor",
+            "it": "Scarsa"
+          }
+        },
+        {
+          "value": "very_poor",
+          "label": {
+            "es": "Muy mala",
+            "en": "Very poor",
+            "it": "Molto scarsa"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "symptom_digestive",
+      "tier": "BASIC",
+      "domain": "symptoms",
+      "text": {
+        "es": "¿Tenés molestias digestivas frecuentes?",
+        "en": "Do you often have digestive discomfort?",
+        "it": "Hai frequentemente disturbi digestivi?"
+      },
+      "help_text": {
+        "es": "Contexto secundario y posible disparador de preguntas PRO.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "mild",
+          "label": {
+            "es": "Leves",
+            "en": "Mild",
+            "it": "Lievi"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderadas",
+            "en": "Moderate",
+            "it": "Moderati"
+          }
+        },
+        {
+          "value": "frequent",
+          "label": {
+            "es": "Frecuentes/importantes",
+            "en": "Frequent/significant",
+            "it": "Frequenti/importanti"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "symptom_stress_mood",
+      "tier": "BASIC",
+      "domain": "symptoms",
+      "text": {
+        "es": "¿Cómo describirías tu nivel habitual de estrés?",
+        "en": "How would you describe your usual stress level?",
+        "it": "Come descriveresti il tuo abituale livello di stress?"
+      },
+      "help_text": {
+        "es": "Contexto secundario; no debe producir conclusiones clínicas.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "low",
+          "label": {
+            "es": "Bajo",
+            "en": "Low",
+            "it": "Basso"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderado",
+            "en": "Moderate",
+            "it": "Moderato"
+          }
+        },
+        {
+          "value": "high",
+          "label": {
+            "es": "Alto",
+            "en": "High",
+            "it": "Alto"
+          }
+        },
+        {
+          "value": "very_high",
+          "label": {
+            "es": "Muy alto",
+            "en": "Very high",
+            "it": "Molto alto"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "symptom_muscle_joint",
+      "tier": "BASIC",
+      "domain": "symptoms",
+      "text": {
+        "es": "¿Tenés molestias musculares o articulares frecuentes?",
+        "en": "Do you often have muscle or joint discomfort?",
+        "it": "Hai frequentemente disturbi muscolari o articolari?"
+      },
+      "help_text": {
+        "es": "Factor secundario; puede activar profundización, no diagnóstico.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "symptom_hair_nails",
+      "tier": "BASIC",
+      "domain": "symptoms",
+      "text": {
+        "es": "¿Notaste cambios persistentes en cabello o uñas?",
+        "en": "Have you noticed persistent changes in your hair or nails?",
+        "it": "Hai notato cambiamenti persistenti nei capelli o nelle unghie?"
+      },
+      "help_text": {
+        "es": "Factor secundario inespecífico; no debe activar una recomendación fuerte por sí solo.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_height",
+      "tier": "PRO",
+      "domain": "profile",
+      "text": {
+        "es": "¿Cuál es tu altura?",
+        "en": "What is your height?",
+        "it": "Qual è la tua altezza?"
+      },
+      "help_text": {
+        "es": "Solo si alguna regla validada o evaluación PRO lo necesita.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "decimal",
+      "unit": "cm",
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_weight",
+      "tier": "PRO",
+      "domain": "profile",
+      "text": {
+        "es": "¿Cuál es tu peso actual?",
+        "en": "What is your current weight?",
+        "it": "Qual è il tuo peso attuale?"
+      },
+      "help_text": {
+        "es": "Solo si alguna regla validada o evaluación PRO lo necesita.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "decimal",
+      "unit": "kg",
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_detailed_food_frequency",
+      "tier": "PRO",
+      "domain": "diet",
+      "text": {
+        "es": "Describí con más detalle qué alimentos y porciones consumís habitualmente durante una semana.",
+        "en": "Describe in more detail the foods and portions you usually consume during a week.",
+        "it": "Descrivi più nel dettaglio gli alimenti e le porzioni che consumi abitualmente durante una settimana."
+      },
+      "help_text": {
+        "es": "Permite una estimación dietaria más precisa.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_labs_available",
+      "tier": "PRO",
+      "domain": "labs",
+      "text": {
+        "es": "¿Tenés análisis de laboratorio recientes que quieras incorporar?",
+        "en": "Do you have recent laboratory results you would like to include?",
+        "it": "Hai esami di laboratorio recenti che vuoi includere?"
+      },
+      "help_text": {
+        "es": "Permite profundizar cuando existen datos objetivos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [
+          "pro_labs_details"
+        ],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_labs_details",
+      "tier": "PRO",
+      "domain": "labs",
+      "text": {
+        "es": "Ingresá los resultados relevantes, con valor, unidad y fecha si los conocés.",
+        "en": "Enter relevant results, including value, unit, and date if known.",
+        "it": "Inserisci i risultati rilevanti, con valore, unità e data se li conosci."
+      },
+      "help_text": {
+        "es": "Los laboratorios deben interpretarse con cautela y contexto.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "question_id": "pro_labs_available",
+              "operator": "equals",
+              "value": true
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_prior_deficiencies",
+      "tier": "PRO",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Alguna vez te diagnosticaron una deficiencia de vitaminas o minerales?",
+        "en": "Have you ever been diagnosed with a vitamin or mineral deficiency?",
+        "it": "Ti è mai stata diagnosticata una carenza di vitamine o minerali?"
+      },
+      "help_text": {
+        "es": "Aporta antecedentes objetivos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [
+          "pro_prior_deficiencies_detail"
+        ],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_prior_deficiencies_detail",
+      "tier": "PRO",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Cuál o cuáles, y cuándo?",
+        "en": "Which ones, and when?",
+        "it": "Quali, e quando?"
+      },
+      "help_text": {
+        "es": "Contextualiza antecedentes.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "question_id": "pro_prior_deficiencies",
+              "operator": "equals",
+              "value": true
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_adverse_reactions",
+      "tier": "PRO",
+      "domain": "safety",
+      "text": {
+        "es": "¿Tuviste alguna reacción adversa previa a un suplemento?",
+        "en": "Have you ever had an adverse reaction to a supplement?",
+        "it": "Hai mai avuto una reazione avversa a un integratore?"
+      },
+      "help_text": {
+        "es": "Seguridad.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [
+          "pro_adverse_reactions_detail"
+        ],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "pro_adverse_reactions_detail",
+      "tier": "PRO",
+      "domain": "safety",
+      "text": {
+        "es": "¿A qué producto y qué reacción tuviste?",
+        "en": "Which product, and what reaction did you have?",
+        "it": "A quale prodotto e quale reazione hai avuto?"
+      },
+      "help_text": {
+        "es": "Seguridad y exclusión de productos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "question_id": "pro_adverse_reactions",
+              "operator": "equals",
+              "value": true
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.3.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 1C question-bank draft; no clinical recommendation rule is implied by inclusion."
+      }
+    },
+    {
+      "question_id": "safety_upcoming_surgery",
+      "tier": "BASIC",
+      "domain": "safety",
+      "text": {
+        "es": "¿Tenés una cirugía o procedimiento médico programado próximamente?",
+        "en": "Do you have surgery or a medical procedure scheduled soon?",
+        "it": "Hai un intervento chirurgico o una procedura medica programmata a breve?"
+      },
+      "help_text": {
+        "es": "Algunos suplementos pueden requerir precauciones antes de procedimientos médicos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "boolean",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "always",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.4.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Added during Phase 1D BASIC audit; no clinical rule implied."
+      }
+    },
+    {
+      "question_id": "diet_iodized_salt",
+      "tier": "BOTH",
+      "domain": "diet",
+      "text": {
+        "es": "¿Usás habitualmente sal yodada en casa?",
+        "en": "Do you usually use iodized salt at home?",
+        "it": "Usi abitualmente sale iodato a casa?"
+      },
+      "help_text": {
+        "es": "Pregunta potencialmente útil para reglas relacionadas con yodo; debe mostrarse solo si una futura regla la necesita.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No lo sé",
+            "en": "I don't know",
+            "it": "Non lo so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "trigger": "rule_requires_question"
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": false,
+        "validation_notes": ""
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.4.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Added during Phase 1D BASIC audit; no clinical rule implied."
+      }
+    },
+    {
+      "question_id": "family_history_conditions",
+      "tier": "BOTH",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Hay antecedentes familiares importantes que quieras tener en cuenta?",
+        "en": "Are there important family health conditions you would like to take into account?",
+        "it": "Ci sono precedenti familiari importanti che vorresti tenere in considerazione?"
+      },
+      "help_text": {
+        "es": "Esta información puede orientar qué áreas explorar, pero no demuestra que vayas a desarrollar esa condición ni que un suplemento la prevenga.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "multi_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "cardiovascular",
+          "label": {
+            "es": "Enfermedad cardiovascular",
+            "en": "Cardiovascular disease",
+            "it": "Malattie cardiovascolari"
+          }
+        },
+        {
+          "value": "diabetes_metabolic",
+          "label": {
+            "es": "Diabetes o problemas metabólicos",
+            "en": "Diabetes or metabolic problems",
+            "it": "Diabete o problemi metabolici"
+          }
+        },
+        {
+          "value": "osteoporosis",
+          "label": {
+            "es": "Osteoporosis o fragilidad ósea",
+            "en": "Osteoporosis or bone fragility",
+            "it": "Osteoporosi o fragilità ossea"
+          }
+        },
+        {
+          "value": "cognitive_decline",
+          "label": {
+            "es": "Deterioro cognitivo o demencia",
+            "en": "Cognitive decline or dementia",
+            "it": "Declino cognitivo o demenza"
+          }
+        },
+        {
+          "value": "eye_disease",
+          "label": {
+            "es": "Problemas de visión",
+            "en": "Eye disease",
+            "it": "Problemi della vista"
+          }
+        },
+        {
+          "value": "hair_loss",
+          "label": {
+            "es": "Caída del cabello",
+            "en": "Hair loss",
+            "it": "Caduta dei capelli"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "es": "Otro",
+            "en": "Other",
+            "it": "Altro"
+          }
+        },
+        {
+          "value": "none_known",
+          "label": {
+            "es": "Ninguno que conozca",
+            "en": "None that I know of",
+            "it": "Nessuno che io sappia"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "trigger": "goal_or_campaign_requires_family_history"
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Family history is context/prioritization, not proof of need or prevention benefit."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.6.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Added for prevention/family-history goals."
+      }
+    },
+    {
+      "question_id": "work_schedule_type",
+      "tier": "BOTH",
+      "domain": "lifestyle",
+      "text": {
+        "es": "¿Cómo es habitualmente tu horario de trabajo o estudio?",
+        "en": "What is your usual work or study schedule?",
+        "it": "Com'è abitualmente il tuo orario di lavoro o studio?"
+      },
+      "help_text": {
+        "es": "Puede orientar preguntas sobre sueño, exposición a la luz y hábitos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "day",
+          "label": {
+            "es": "Principalmente diurno",
+            "en": "Mostly daytime",
+            "it": "Principalmente diurno"
+          }
+        },
+        {
+          "value": "night",
+          "label": {
+            "es": "Principalmente nocturno",
+            "en": "Mostly night",
+            "it": "Principalmente notturno"
+          }
+        },
+        {
+          "value": "rotating",
+          "label": {
+            "es": "Turnos rotativos",
+            "en": "Rotating shifts",
+            "it": "Turni rotativi"
+          }
+        },
+        {
+          "value": "variable",
+          "label": {
+            "es": "Muy variable",
+            "en": "Very variable",
+            "it": "Molto variabile"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "trigger": "profile_or_goal_requires_question"
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Context question; no supplement recommendation is implied."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.0.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Added during final Phase 1 profile audit."
+      }
+    },
+    {
+      "question_id": "travel_frequency",
+      "tier": "BOTH",
+      "domain": "lifestyle",
+      "text": {
+        "es": "¿Con qué frecuencia viajás o cambiás de rutina?",
+        "en": "How often do you travel or change your routine?",
+        "it": "Con quale frequenza viaggi o cambi routine?"
+      },
+      "help_text": {
+        "es": "Contexto para sueño, alimentación y adherencia.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "rare",
+          "label": {
+            "es": "Rara vez",
+            "en": "Rarely",
+            "it": "Raramente"
+          }
+        },
+        {
+          "value": "monthly",
+          "label": {
+            "es": "Algunas veces al mes",
+            "en": "A few times per month",
+            "it": "Alcune volte al mese"
+          }
+        },
+        {
+          "value": "frequent",
+          "label": {
+            "es": "Frecuentemente",
+            "en": "Frequently",
+            "it": "Frequentemente"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "trigger": "profile_or_goal_requires_question"
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Context question; no supplement recommendation is implied."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.0.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Added during final Phase 1 profile audit."
+      }
+    },
+    {
+      "question_id": "work_study_mental_demand",
+      "tier": "BOTH",
+      "domain": "lifestyle",
+      "text": {
+        "es": "¿Qué nivel de exigencia mental tiene habitualmente tu trabajo o estudio?",
+        "en": "How mentally demanding is your usual work or study?",
+        "it": "Quanto è mentalmente impegnativo il tuo lavoro o studio abituale?"
+      },
+      "help_text": {
+        "es": "Permite priorizar sueño, cafeína, hábitos y objetivos cognitivos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "low",
+          "label": {
+            "es": "Bajo",
+            "en": "Low",
+            "it": "Basso"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderado",
+            "en": "Moderate",
+            "it": "Moderato"
+          }
+        },
+        {
+          "value": "high",
+          "label": {
+            "es": "Alto",
+            "en": "High",
+            "it": "Alto"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": [
+            {
+              "trigger": "profile_or_goal_requires_question"
+            }
+          ]
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Context question; no supplement recommendation is implied."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.0.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Added during final Phase 1 profile audit."
+      }
+    }
+  ]
+}

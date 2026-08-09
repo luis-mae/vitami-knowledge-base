@@ -1,0 +1,22 @@
+{
+  "policy_version": "1.0",
+  "mandatory_rules": [
+    "No evidence claim may be marked active without at least one source reference.",
+    "No dose/reference intake/upper limit may be stored without a source reference and population/context.",
+    "No contraindication, interaction, or safety stop may be stored without a source reference.",
+    "No Vitami recommendation rule may be activated unless it references one or more evidence_claim_ids.",
+    "Symptoms alone must not be encoded as proof of a nutrient deficiency.",
+    "A product's commercial availability is not evidence of benefit.",
+    "If evidence is uncertain or conflicting, the uncertainty must be stored and surfaced to the user when material.",
+    "Source title, organization, URL/identifier, publication/update date when known, access date, and supported claim must be recorded.",
+    "Claims intended for EU-facing user interfaces should record EU health-claim status when applicable.",
+    "Any automatic dosage adjustment must have an explicit evidence-backed formula/rule; otherwise dosage remains reference-only or requires professional review."
+  ],
+  "preferred_source_order": [
+    "Regulatory/scientific authorities and official monographs",
+    "Authoritative government evidence summaries",
+    "Systematic reviews/meta-analyses",
+    "High-quality clinical guidelines",
+    "Individual peer-reviewed studies when higher-level evidence is unavailable"
+  ]
+}

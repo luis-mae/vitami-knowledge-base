@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-source.schema.json",
+  "title": "Vitami Source Record",
+  "type": "object",
+  "required": [
+    "id",
+    "organization",
+    "resource_name",
+    "url",
+    "source_class"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "resource_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "preferred_for": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
