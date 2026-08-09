@@ -1,0 +1,26 @@
+{
+  "rule_id": "VITE_ANTIOXIDANT_ONLY",
+  "supplement_id": "vitamin_e",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "antioxidant_interest"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "High-dose vitamin E is not a generic prevention or anti-aging strategy.",
+  "evidence_refs": [
+    "NIH_VITE_HP"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "vitamin_d",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_VITD_HP"
+  ],
+  "reference_values": {
+    "adults_19_70": {
+      "rda": 15,
+      "unit": "mcg/day",
+      "equiv": "600 IU/day"
+    },
+    "adults_over_70": {
+      "rda": 20,
+      "unit": "mcg/day",
+      "equiv": "800 IU/day"
+    },
+    "pregnancy_lactation_adults": {
+      "rda": 15,
+      "unit": "mcg/day",
+      "equiv": "600 IU/day"
+    },
+    "adult_ul": {
+      "value": 100,
+      "unit": "mcg/day",
+      "equiv": "4000 IU/day"
+    }
+  },
+  "key_evidence": [
+    "25(OH)D serum concentration is the main status indicator.",
+    "RDA assumes minimal sun exposure.",
+    "D3 generally raises and maintains 25(OH)D more than D2."
+  ],
+  "required_questions": [
+    "profile_age",
+    "profile_pregnancy",
+    "profile_lactation",
+    "lifestyle_sun_exposure",
+    "diet_fatty_fish_weekly",
+    "diet_fortified_foods",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "conditions_other_relevant",
+    "medications_regular_use"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "intermittent_schedule": "not_active",
+    "reason": "No generic alternate-day equivalence rule established for all users/objectives.",
+    "lab_guided_treatment": "professional_supervision_required"
+  },
+  "review_protocol": {
+    "status": "lab_or_context_dependent",
+    "automatic_days": null
+  },
+  "user_message": "Vitami puede estimar si tu contexto hace relevante revisar vitamina D, pero no diagnostica deficiencia solo por exposición solar."
+}

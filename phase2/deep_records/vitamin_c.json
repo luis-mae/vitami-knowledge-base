@@ -1,0 +1,59 @@
+{
+  "id": "vitamin_c",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_VITC_HP"
+  ],
+  "reference_values": {
+    "adult_male": {
+      "rda": 90,
+      "unit": "mg/day"
+    },
+    "adult_female": {
+      "rda": 75,
+      "unit": "mg/day"
+    },
+    "pregnancy_adult": {
+      "rda": 85,
+      "unit": "mg/day"
+    },
+    "lactation_adult": {
+      "rda": 120,
+      "unit": "mg/day"
+    },
+    "smokers_additional": {
+      "value": 35,
+      "unit": "mg/day"
+    },
+    "adult_ul": {
+      "value": 2000,
+      "unit": "mg/day"
+    }
+  },
+  "key_evidence": [
+    "Smokers require 35 mg/day more than nonsmokers under FNB recommendations.",
+    "Antioxidant role does not mean high-dose supplementation provides general disease prevention."
+  ],
+  "required_questions": [
+    "profile_sex_reference",
+    "profile_pregnancy",
+    "profile_lactation",
+    "diet_fruit_veg_daily",
+    "lifestyle_smoking",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_kidney_stones",
+    "conditions_kidney",
+    "medications_regular_use"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "alternate_day": "not_active"
+  },
+  "review_protocol": {
+    "status": "diet_context_dependent",
+    "automatic_days": null
+  }
+}

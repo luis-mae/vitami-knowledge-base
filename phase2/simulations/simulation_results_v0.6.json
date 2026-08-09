@@ -1,0 +1,316 @@
+{
+  "version": "0.6.0",
+  "runs": [
+    {
+      "profile_id": "sim_vegan_low_fortified",
+      "label": "Adulto vegano, pocos fortificados, sin suplementos",
+      "expected_focus": [
+        "vitamin_b12",
+        "iron",
+        "zinc",
+        "omega_3_epa_dha"
+      ],
+      "expected_warning": "No inferir hierro bajo sin laboratorio.",
+      "results": [
+        {
+          "supplement_id": "vitamin_b12",
+          "score": 6,
+          "result": "B_consider",
+          "matched_rules": [
+            "B12_VEGAN_LOW_FORTIFIED"
+          ],
+          "questions_to_ask": [
+            "supplements_current_use"
+          ],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Vegan diets lack natural food sources of B12; fortified foods/supplements are key."
+          ],
+          "decision_status": "provisional_pending_questions"
+        },
+        {
+          "supplement_id": "omega_3_epa_dha",
+          "score": 3,
+          "result": "D_optional_limited",
+          "matched_rules": [
+            "O3_LOW_FISH"
+          ],
+          "questions_to_ask": [
+            "diet_type"
+          ],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Low fish/seafood intake makes omega-3 intake worth reviewing, but does not establish a universal supplement dose."
+          ],
+          "decision_status": "provisional_pending_questions"
+        },
+        {
+          "supplement_id": "iron",
+          "score": 2,
+          "result": "D_optional_limited",
+          "matched_rules": [
+            "IRON_VEGETARIAN_CONTEXT"
+          ],
+          "questions_to_ask": [
+            "pro_labs_available"
+          ],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Vegetarian iron requirements are higher because nonheme iron is less bioavailable."
+          ],
+          "decision_status": "provisional_pending_questions"
+        },
+        {
+          "supplement_id": "zinc",
+          "score": 2,
+          "result": "D_optional_limited",
+          "matched_rules": [
+            "ZINC_VEGAN"
+          ],
+          "questions_to_ask": [],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Plant-based diets can alter zinc bioavailability and justify intake review."
+          ],
+          "decision_status": "complete_for_available_draft_rules"
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_strength_training",
+      "label": "Adulto sano, entrenamiento de fuerza, objetivo masa/fuerza",
+      "expected_focus": [
+        "creatine_monohydrate"
+      ],
+      "expected_warning": "Creatina debe modelarse como acumulativa, no solo días de entrenamiento.",
+      "results": [
+        {
+          "supplement_id": "creatine_monohydrate",
+          "score": 7,
+          "result": "B_consider",
+          "matched_rules": [
+            "CREATINE_STRENGTH"
+          ],
+          "questions_to_ask": [],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Creatine has strong evidence for repeated high-intensity and strength/power contexts."
+          ],
+          "decision_status": "complete_for_available_draft_rules"
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_hair_loss",
+      "label": "Caída de cabello sin diagnóstico",
+      "expected_focus": [
+        "biotin",
+        "zinc",
+        "selenium"
+      ],
+      "expected_warning": "Ninguno debe escalar a recomendación fuerte solo por caída de cabello.",
+      "results": [
+        {
+          "supplement_id": "biotin",
+          "score": 1,
+          "result": "E_no_current_indication",
+          "matched_rules": [
+            "BIOTIN_HAIR_ONLY"
+          ],
+          "questions_to_ask": [],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Cosmetic use without demonstrated deficiency has weak evidence."
+          ],
+          "decision_status": "complete_for_available_draft_rules"
+        },
+        {
+          "supplement_id": "zinc",
+          "score": 1,
+          "result": "E_no_current_indication",
+          "matched_rules": [
+            "ZINC_HAIR_ONLY"
+          ],
+          "questions_to_ask": [],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Hair loss alone does not establish zinc deficiency."
+          ],
+          "decision_status": "complete_for_available_draft_rules"
+        },
+        {
+          "supplement_id": "selenium",
+          "score": 0,
+          "result": "E_no_current_indication",
+          "matched_rules": [
+            "SEL_HAIR_NAILS"
+          ],
+          "questions_to_ask": [
+            "diet_brazil_nuts_frequency",
+            "supplements_current_use"
+          ],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Hair/nail changes can occur with excess selenium as well as deficiency-related concerns."
+          ],
+          "decision_status": "provisional_pending_questions"
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_low_sun_low_diet",
+      "label": "Poco sol, poco pescado y pocos fortificados",
+      "expected_focus": [
+        "vitamin_d",
+        "omega_3_epa_dha"
+      ],
+      "expected_warning": "Vitamina D no implica diagnóstico de deficiencia.",
+      "results": [
+        {
+          "supplement_id": "vitamin_d",
+          "score": 6,
+          "result": "B_consider",
+          "matched_rules": [
+            "VITD_LOW_SUN_LOW_DIET",
+            "VITD_LOW_SUN"
+          ],
+          "questions_to_ask": [
+            "diet_fatty_fish_weekly",
+            "diet_fortified_foods"
+          ],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Low sun plus few dietary sources strengthens the case for reviewing vitamin D.",
+            "Limited sun exposure increases relevance of reviewing vitamin D intake/status."
+          ],
+          "decision_status": "provisional_pending_questions"
+        },
+        {
+          "supplement_id": "omega_3_epa_dha",
+          "score": 3,
+          "result": "D_optional_limited",
+          "matched_rules": [
+            "O3_LOW_FISH"
+          ],
+          "questions_to_ask": [
+            "diet_type"
+          ],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Low fish/seafood intake makes omega-3 intake worth reviewing, but does not establish a universal supplement dose."
+          ],
+          "decision_status": "provisional_pending_questions"
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_sports_sleep_problem",
+      "label": "Deportista con mal sueño y alto consumo habitual de cafeína",
+      "expected_focus": [
+        "beta_alanine",
+        "creatine_monohydrate"
+      ],
+      "expected_warning": "Cafeína debe bajar de prioridad por sueño y consumo basal.",
+      "results": [
+        {
+          "supplement_id": "beta_alanine",
+          "score": 5,
+          "result": "C_potential_benefit",
+          "matched_rules": [
+            "BA_HIGH_INTENSITY"
+          ],
+          "questions_to_ask": [],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Potential benefit is strongest for repeated/intense efforts in the studied duration range."
+          ],
+          "decision_status": "complete_for_available_draft_rules"
+        },
+        {
+          "supplement_id": "caffeine_performance",
+          "score": 3,
+          "result": "D_optional_limited",
+          "matched_rules": [
+            "CAFF_PERFORMANCE",
+            "CAFF_SLEEP"
+          ],
+          "questions_to_ask": [
+            "lifestyle_caffeine_daily",
+            "pro_weight",
+            "symptom_sleep"
+          ],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Caffeine can improve endurance and some intermittent high-intensity performance.",
+            "Sleep problems reduce suitability of stimulant-based recommendations."
+          ],
+          "decision_status": "provisional_pending_questions"
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_antioxidants",
+      "label": "Usuario sano que solo busca antioxidantes",
+      "expected_focus": [],
+      "expected_warning": "No recomendar vitamina E o selenio solo por objetivo antioxidante.",
+      "results": [
+        {
+          "supplement_id": "selenium",
+          "score": 0,
+          "result": "E_no_current_indication",
+          "matched_rules": [
+            "SEL_ANTIOXIDANT_ONLY"
+          ],
+          "questions_to_ask": [],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "Generic antioxidant interest does not justify selenium supplementation."
+          ],
+          "decision_status": "complete_for_available_draft_rules"
+        },
+        {
+          "supplement_id": "vitamin_e",
+          "score": 0,
+          "result": "E_no_current_indication",
+          "matched_rules": [
+            "VITE_ANTIOXIDANT_ONLY"
+          ],
+          "questions_to_ask": [],
+          "effects": [
+            "add_score"
+          ],
+          "rationales": [
+            "High-dose vitamin E is not a generic prevention or anti-aging strategy."
+          ],
+          "decision_status": "complete_for_available_draft_rules"
+        }
+      ]
+    }
+  ]
+}

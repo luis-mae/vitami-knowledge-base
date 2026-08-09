@@ -1,0 +1,26 @@
+{
+  "rule_id": "CAFF_HIGH_BASELINE",
+  "supplement_id": "caffeine_performance",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "lifestyle_caffeine_daily",
+        ">=300mg"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": -4,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "High baseline caffeine intake reduces room for safe event-linked dosing.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

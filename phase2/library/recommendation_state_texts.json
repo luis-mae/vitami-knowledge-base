@@ -1,0 +1,96 @@
+{
+  "version": "0.8.0",
+  "states": [
+    {
+      "id": "A_high_relevance",
+      "label": {
+        "es": "Alta relevancia",
+        "en": "High relevance",
+        "it": "Alta rilevanza"
+      },
+      "user_explanation": {
+        "es": "Hay varios elementos de tu perfil que hacen que este suplemento merezca una consideración prioritaria. Esto no equivale a un diagnóstico.",
+        "en": "Several elements of your profile make this supplement a high-priority consideration. This is not a diagnosis.",
+        "it": "Diversi elementi del tuo profilo rendono questo integratore una considerazione prioritaria. Non equivale a una diagnosi."
+      }
+    },
+    {
+      "id": "B_consider",
+      "label": {
+        "es": "Conviene considerarlo",
+        "en": "Worth considering",
+        "it": "Da considerare"
+      },
+      "user_explanation": {
+        "es": "Hay razones claras para revisarlo en tu caso, aunque pueden faltar datos antes de definir una pauta.",
+        "en": "There are clear reasons to review it in your case, although more information may be needed before defining a regimen.",
+        "it": "Ci sono motivi chiari per valutarlo nel tuo caso, anche se possono servire altri dati prima di definire uno schema."
+      }
+    },
+    {
+      "id": "C_potential_benefit",
+      "label": {
+        "es": "Beneficio potencial",
+        "en": "Potential benefit",
+        "it": "Beneficio potenziale"
+      },
+      "user_explanation": {
+        "es": "Podría aportar un beneficio en tu situación, pero la evidencia o la magnitud del efecto es más limitada.",
+        "en": "It could provide benefit in your situation, but the evidence or size of effect is more limited.",
+        "it": "Potrebbe offrire un beneficio nella tua situazione, ma le evidenze o l'entità dell'effetto sono più limitate."
+      }
+    },
+    {
+      "id": "D_optional_limited",
+      "label": {
+        "es": "Opcional / evidencia limitada",
+        "en": "Optional / limited evidence",
+        "it": "Opzionale / evidenze limitate"
+      },
+      "user_explanation": {
+        "es": "No aparece como una prioridad. Puede tener sentido en contextos específicos, pero no hay base suficiente para una recomendación fuerte.",
+        "en": "It is not a priority. It may make sense in specific contexts, but there is not enough basis for a strong recommendation.",
+        "it": "Non è una priorità. Può avere senso in contesti specifici, ma non ci sono basi sufficienti per una raccomandazione forte."
+      }
+    },
+    {
+      "id": "E_no_current_indication",
+      "label": {
+        "es": "Sin indicación actual",
+        "en": "No current indication",
+        "it": "Nessuna indicazione attuale"
+      },
+      "user_explanation": {
+        "es": "Con la información disponible, Vitami no encuentra razones suficientes para sugerir este suplemento.",
+        "en": "Based on the available information, Vitami does not find sufficient reason to suggest this supplement.",
+        "it": "Con le informazioni disponibili, Vitami non trova motivi sufficienti per suggerire questo integratore."
+      }
+    },
+    {
+      "id": "X_professional_review_required",
+      "label": {
+        "es": "Requiere evaluación profesional",
+        "en": "Professional review required",
+        "it": "Richiede valutazione professionale"
+      },
+      "user_explanation": {
+        "es": "Hay un factor de seguridad, una condición clínica o una necesidad de control que hace inapropiado definir una pauta automática.",
+        "en": "A safety factor, clinical condition, or monitoring requirement makes an automatic regimen inappropriate.",
+        "it": "Un fattore di sicurezza, una condizione clinica o una necessità di monitoraggio rendono inappropriato definire automaticamente uno schema."
+      }
+    },
+    {
+      "id": "insufficient_user_data",
+      "label": {
+        "es": "Falta información",
+        "en": "More information needed",
+        "it": "Servono più informazioni"
+      },
+      "user_explanation": {
+        "es": "Antes de orientarte, Vitami necesita una o más respuestas adicionales.",
+        "en": "Before giving guidance, Vitami needs one or more additional answers.",
+        "it": "Prima di fornire un orientamento, Vitami ha bisogno di una o più risposte aggiuntive."
+      }
+    }
+  ]
+}

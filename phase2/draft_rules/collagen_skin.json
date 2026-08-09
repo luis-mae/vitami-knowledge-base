@@ -1,0 +1,26 @@
+{
+  "rule_id": "COLLAGEN_SKIN",
+  "supplement_id": "collagen_peptides",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "skin_health"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Evidence is mixed and affected by funding bias; cannot justify a strong recommendation.",
+  "evidence_refs": [
+    "COLLAGEN_META_2025"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "dose_rule_id": "BETA_ALANINE_ACCUMULATION",
+  "supplement_id": "beta_alanine",
+  "status": "draft_evidence_supported",
+  "applies_when": {
+    "recommendation_min": "C_potential_benefit"
+  },
+  "schedule": {
+    "pattern": "daily_divided",
+    "amount_range": [
+      4,
+      6
+    ],
+    "unit": "g/day",
+    "minimum_course_weeks": [
+      2,
+      4
+    ]
+  },
+  "guardrails": {
+    "divide_for_paresthesia_tolerance": true,
+    "preworkout_only_not_equivalent": true
+  },
+  "review": {
+    "candidate_review_days": 28,
+    "automatic_titration": false
+  },
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

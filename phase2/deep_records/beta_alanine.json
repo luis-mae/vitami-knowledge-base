@@ -1,0 +1,51 @@
+{
+  "id": "beta_alanine",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "evidence_doses": [
+    {
+      "amount_range": [
+        4,
+        6
+      ],
+      "unit": "g/day",
+      "duration": "at least 2–4 weeks",
+      "status": "ISSN-reviewed in NIH ODS"
+    },
+    {
+      "safety_range": [
+        1.6,
+        6.4
+      ],
+      "unit": "g/day",
+      "duration": "up to 8 weeks",
+      "status": "NIH ODS summary"
+    }
+  ],
+  "key_evidence": [
+    "Increases muscle carnosine; this is an accumulation model.",
+    "Potential benefit is most plausible for intense efforts lasting roughly 60–240 seconds; evidence is not uniform.",
+    "Paresthesia can occur; divided or sustained-release doses can reduce it."
+  ],
+  "required_questions": [
+    "activity_type",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_accumulation",
+  "dose_logic": {
+    "basic_status": "supplement_range_supported",
+    "preworkout_only": "not_supported_as_primary_logic",
+    "divided_doses": "evidence_supported_for_tolerability"
+  },
+  "review_protocol": {
+    "status": "draft_evidence_linked",
+    "initial_review_days": 28,
+    "dose_change_allowed_by_rule": false
+  }
+}

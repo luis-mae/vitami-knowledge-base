@@ -1,0 +1,27 @@
+{
+  "id": "caffeine_performance",
+  "title": {
+    "es": "Cafeína para rendimiento",
+    "en": "Caffeine for performance",
+    "it": "Caffeina per la prestazione"
+  },
+  "what_it_is": {
+    "es": "Estimulante que puede mejorar determinados tipos de rendimiento cuando se utiliza en un contexto y momento adecuados.",
+    "en": "A stimulant that can improve certain types of performance when used in an appropriate context and timing.",
+    "it": "Stimolante che può migliorare alcuni tipi di prestazione se utilizzato nel contesto e nel momento appropriati."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer para ciertos deportes de resistencia o esfuerzos intermitentes cuando el sueño, la tolerancia y el consumo habitual permiten considerarla.",
+    "en": "It may appear for certain endurance or intermittent sports when sleep, tolerance, and habitual caffeine intake make it reasonable to consider.",
+    "it": "Può comparire per alcuni sport di resistenza o sforzi intermittenti quando sonno, tolleranza e consumo abituale di caffeina lo consentono."
+  },
+  "limits": {
+    "es": "Más dosis no significa mejor rendimiento. El consumo elevado, la proximidad al sueño o la mala tolerancia pueden hacer que Vitami reduzca o descarte la recomendación.",
+    "en": "More is not necessarily better. High intake, proximity to sleep, or poor tolerance may cause Vitami to downgrade or avoid the recommendation.",
+    "it": "Una dose maggiore non significa necessariamente una prestazione migliore. Consumi elevati, vicinanza al sonno o scarsa tolleranza possono far ridurre o escludere la raccomandazione."
+  },
+  "evidence_label": "moderate_to_high_selected_contexts",
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

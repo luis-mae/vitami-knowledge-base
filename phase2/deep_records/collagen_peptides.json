@@ -1,0 +1,30 @@
+{
+  "id": "collagen_peptides",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "COLLAGEN_META_2025"
+  ],
+  "key_evidence": [
+    "Meta-analysis of 23 RCTs found overall improvements in hydration, elasticity and wrinkles.",
+    "No effect was seen in the subgroup of studies without pharmaceutical-company funding.",
+    "The 2025 review concluded that current clinical evidence does not support collagen supplements to prevent or treat skin aging."
+  ],
+  "required_questions": [
+    "goals_primary",
+    "diet_type",
+    "conditions_allergies"
+  ],
+  "optional_questions": [
+    "symptom_muscle_joint"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "optional_limited",
+    "exact_dose": "not_yet_extracted"
+  },
+  "review_protocol": {
+    "status": "not_defined",
+    "automatic_days": null
+  },
+  "recommendation_ceiling": "D_optional_limited"
+}

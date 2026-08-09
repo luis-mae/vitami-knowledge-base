@@ -1,0 +1,30 @@
+{
+  "rule_id": "O3_BLEEDING",
+  "supplement_id": "omega_3_epa_dha",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [],
+    "any": [
+      [
+        "conditions_bleeding",
+        true
+      ],
+      [
+        "safety_upcoming_surgery",
+        true
+      ]
+    ]
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "High-dose omega-3 may affect platelet function; bleeding/surgery context needs review.",
+  "evidence_refs": [
+    "NIH_OMEGA3_HP"
+  ]
+}

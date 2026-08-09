@@ -1,0 +1,14 @@
+{
+  "version": "0.7.0",
+  "status": "DRAFT",
+  "rule_count": 6,
+  "rules": [
+    "CREATINE_MAINTENANCE_DAILY",
+    "CAFFEINE_PRE_EXERCISE_RANGE",
+    "BETA_ALANINE_ACCUMULATION",
+    "IRON_ALTERNATE_DAY_PROFESSIONAL_CONTEXT",
+    "OMEGA3_ALTERNATE_DAY_NOT_ESTABLISHED",
+    "VITAMIN_D_INTERMITTENT_NOT_GENERIC"
+  ],
+  "principle": "Dose/frequency rules are evaluated only after supplement relevance and safety. Mathematical weekly equivalence alone never activates a schedule."
+}

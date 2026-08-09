@@ -1,0 +1,36 @@
+{
+  "id": "coenzyme_q10",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NCCIH_COQ10"
+  ],
+  "reference_values": {
+    "rda": "not_established",
+    "ul": "not_established"
+  },
+  "key_evidence": [
+    "Evidence for prevention of heart disease is inconclusive.",
+    "Evidence for heart failure is inconclusive.",
+    "Overall evidence does not support CoQ10 for statin-associated muscle pain.",
+    "Current evidence suggests little meaningful effect on blood pressure."
+  ],
+  "required_questions": [
+    "goals_primary",
+    "conditions_other_relevant",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "medications_regular_use"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "optional_limited",
+    "generic_energy_or_antiaging": "not_recommended_as_strong_rule",
+    "exact_dose": "not_defined_in_authoritative_general_guidance"
+  },
+  "review_protocol": {
+    "status": "indication_specific",
+    "automatic_days": null
+  },
+  "recommendation_ceiling": "D_optional_limited"
+}

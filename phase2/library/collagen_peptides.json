@@ -1,0 +1,27 @@
+{
+  "id": "collagen_peptides",
+  "title": {
+    "es": "Péptidos de colágeno",
+    "en": "Collagen peptides",
+    "it": "Peptidi di collagene"
+  },
+  "what_it_is": {
+    "es": "Péptidos proteicos comercializados principalmente para piel, articulaciones y envejecimiento saludable.",
+    "en": "Protein peptides marketed mainly for skin, joints, and healthy aging.",
+    "it": "Peptidi proteici commercializzati soprattutto per pelle, articolazioni e invecchiamento sano."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer como opción de beneficio potencial cuando el objetivo principal es piel o articulaciones.",
+    "en": "It may appear as a potential-benefit option when the main goal is skin or joints.",
+    "it": "Può comparire come opzione di beneficio potenziale quando l'obiettivo principale riguarda pelle o articolazioni."
+  },
+  "limits": {
+    "es": "La evidencia para piel es heterogénea. Un metaanálisis de 2025 encontró que los resultados favorables no se mantenían en el subgrupo de estudios sin financiación industrial.",
+    "en": "Skin evidence is heterogeneous. A 2025 meta-analysis found that favorable results did not persist in the subgroup of studies without industry funding.",
+    "it": "Le evidenze sulla pelle sono eterogenee. Una meta-analisi del 2025 ha rilevato che i risultati favorevoli non persistevano nel sottogruppo di studi senza finanziamento industriale."
+  },
+  "evidence_label": "low_to_moderate_uncertain",
+  "source_refs": [
+    "COLLAGEN_META_2025"
+  ]
+}

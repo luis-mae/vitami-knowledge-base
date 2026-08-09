@@ -1,0 +1,64 @@
+{
+  "id": "iron",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_IRON_HP"
+  ],
+  "reference_values": {
+    "male_19_50": {
+      "rda": 8,
+      "unit": "mg/day"
+    },
+    "female_19_50": {
+      "rda": 18,
+      "unit": "mg/day"
+    },
+    "pregnancy": {
+      "rda": 27,
+      "unit": "mg/day"
+    },
+    "lactation_19_50": {
+      "rda": 9,
+      "unit": "mg/day"
+    },
+    "age_51_plus": {
+      "rda": 8,
+      "unit": "mg/day"
+    },
+    "adult_ul": {
+      "value": 45,
+      "unit": "mg/day"
+    }
+  },
+  "key_evidence": [
+    "Supplement forms differ in elemental iron content and tolerability.",
+    "Supplemental iron at 45 mg/day or more commonly causes gastrointestinal adverse effects.",
+    "Symptoms such as fatigue are nonspecific and should not be used alone to infer iron deficiency."
+  ],
+  "required_questions": [
+    "profile_age",
+    "profile_sex_reference",
+    "profile_pregnancy",
+    "profile_lactation",
+    "diet_type",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "medications_regular_use",
+    "conditions_other_relevant",
+    "pro_labs_available",
+    "pro_prior_deficiencies"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "professional_supervision_required",
+    "basic_can_show_reference_intake": true,
+    "treatment_dose": "professional_supervision_required",
+    "alternate_day_schedule": "not_active_until_indication_specific_evidence_is_encoded"
+  },
+  "review_protocol": {
+    "status": "laboratory_and_clinical_context",
+    "automatic_days": null
+  },
+  "user_message": "Vitami puede detectar factores que hacen relevante revisar el hierro, pero no debe indicar tratamiento con hierro basándose solo en síntomas."
+}

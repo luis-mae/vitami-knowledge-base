@@ -1,0 +1,66 @@
+{
+  "id": "magnesium",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "reference_values": {
+    "male_19_30": {
+      "rda": 400,
+      "unit": "mg/day"
+    },
+    "female_19_30": {
+      "rda": 310,
+      "unit": "mg/day"
+    },
+    "male_31_50": {
+      "rda": 420,
+      "unit": "mg/day"
+    },
+    "female_31_50": {
+      "rda": 320,
+      "unit": "mg/day"
+    },
+    "pregnancy_19_30": {
+      "rda": 350,
+      "unit": "mg/day"
+    },
+    "pregnancy_31_50": {
+      "rda": 360,
+      "unit": "mg/day"
+    },
+    "adult_supplement_ul": {
+      "value": 350,
+      "unit": "mg/day",
+      "scope": "supplemental magnesium only"
+    }
+  },
+  "key_evidence": [
+    "Supplemental forms differ in bioavailability; citrate, chloride, lactate and aspartate are generally more bioavailable than oxide or sulfate.",
+    "The adult UL of 350 mg/day applies to supplemental magnesium, not magnesium naturally present in food.",
+    "Magnesium can interact with bisphosphonates and tetracycline/quinolone antibiotics."
+  ],
+  "required_questions": [
+    "profile_age",
+    "profile_sex_reference",
+    "profile_pregnancy",
+    "diet_legumes_nuts_seeds",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "medications_regular_use",
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "supplement_form_must_be_recorded": true,
+    "bedtime_only": "not_active_without_indication_specific_evidence",
+    "post_training_only": "not_active_without_indication_specific_evidence"
+  },
+  "review_protocol": {
+    "status": "context_and_tolerance_dependent",
+    "automatic_days": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rule_id": "CREATINE_HIGH_INTENSITY_SPORT",
+  "supplement_id": "creatine_monohydrate",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_type",
+        "mixed_high_intensity"
+      ],
+      [
+        "goals_primary_contains",
+        "sports_performance"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 5,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "activity_days_per_week"
+    ]
+  },
+  "rationale": "Creatine can be relevant for repeated high-intensity intermittent performance, not only hypertrophy/strength goals.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

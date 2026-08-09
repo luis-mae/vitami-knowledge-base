@@ -1,0 +1,482 @@
+{
+  "version": "0.2.0",
+  "phase": "2",
+  "status": "PILOT_DRAFT",
+  "important": "Todos los esquemas temporales son borradores salvo que el campo schedule_status se active con evidencia específica.",
+  "supplements": [
+    {
+      "id": "vitamin_d",
+      "name": "Vitamina D",
+      "category": "vitamin",
+      "goals": [
+        "bone_joint_health",
+        "healthy_aging",
+        "dietary_gaps",
+        "immune_function"
+      ],
+      "evidence_position": "Alta para función nutricional; usos extra-deficiencia dependen del contexto.",
+      "sources": [
+        "NIH_VITD_HP"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "vitamin_b12",
+      "name": "Vitamina B12",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "energy_vitality",
+        "healthy_aging"
+      ],
+      "evidence_position": "Alta para función nutricional; fatiga sola no diagnostica deficiencia.",
+      "sources": [
+        "NIH_B12_HP"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "iron",
+      "name": "Hierro",
+      "category": "mineral",
+      "goals": [
+        "energy_vitality",
+        "dietary_gaps",
+        "sports_performance"
+      ],
+      "evidence_position": "Alta para función nutricional; exceso y tratamiento requieren especial cautela.",
+      "sources": [
+        "NIH_IRON_HP"
+      ],
+      "dose_status": "professional_supervision_required",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "omega_3_epa_dha",
+      "name": "Omega-3 EPA/DHA",
+      "category": "fatty_acid",
+      "goals": [
+        "cardiovascular_health",
+        "dietary_gaps",
+        "healthy_aging"
+      ],
+      "evidence_position": "Evidencia dependiente del desenlace; bajo consumo de pescado justifica evaluar, no una dosis universal.",
+      "sources": [
+        "NIH_OMEGA3_HP"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "temporal_archetype": "chronic_steady_exposure",
+      "schedule_note": "Esquema intermitente (p.ej. días alternos) queda como candidato, no activo, hasta encontrar evidencia específica de equivalencia para el objetivo y producto."
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesio",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps",
+        "bone_joint_health",
+        "exercise_recovery",
+        "sleep_rest"
+      ],
+      "evidence_position": "Alta para función nutricional; beneficios por objetivo son variables.",
+      "sources": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "temporal_archetype": "chronic_steady_exposure",
+      "schedule_note": "No asignar automáticamente uso solo nocturno o post-entreno sin evidencia específica para la indicación."
+    },
+    {
+      "id": "calcium",
+      "name": "Calcio",
+      "category": "mineral",
+      "goals": [
+        "bone_joint_health",
+        "healthy_aging",
+        "dietary_gaps"
+      ],
+      "evidence_position": "Alta para función nutricional; primero debe estimarse aporte dietario.",
+      "sources": [
+        "NIH_CALCIUM_HP"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "category": "mineral",
+      "goals": [
+        "immune_function",
+        "dietary_gaps",
+        "hair_nails",
+        "skin_health"
+      ],
+      "evidence_position": "Alta para función nutricional; pelo/piel por sí solos no justifican suplementación.",
+      "sources": [
+        "NIH_ZINC_HP"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "folate_folic_acid",
+      "name": "Folato / ácido fólico",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "sexual_reproductive_health"
+      ],
+      "evidence_position": "Alta para función nutricional y contextos reproductivos específicos.",
+      "sources": [
+        "NIH_FOLATE_HP"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "creatine_monohydrate",
+      "name": "Creatina monohidrato",
+      "category": "performance",
+      "goals": [
+        "sports_performance",
+        "strength_muscle",
+        "exercise_recovery",
+        "healthy_aging"
+      ],
+      "evidence_position": "Buena evidencia para esfuerzos repetidos de alta intensidad/fuerza; poco valor para resistencia pura.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "temporal_archetype": "chronic_accumulation",
+      "schedule_note": "La evidencia de mantenimiento estudiada usa ingesta regular durante semanas; no asumir que solo días de entrenamiento sea equivalente."
+    },
+    {
+      "id": "vitamin_c",
+      "name": "Vitamina C",
+      "category": "vitamin_antioxidant",
+      "goals": [
+        "dietary_gaps",
+        "immune_function",
+        "skin_health",
+        "antioxidant_interest"
+      ],
+      "evidence_position": "Alta para función nutricional; antioxidante no equivale a beneficio preventivo general.",
+      "sources": [
+        "NIH_VITC_HP",
+        "NCCIH_ANTIOXIDANTS"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "vitamin_e",
+      "name": "Vitamina E",
+      "category": "vitamin_antioxidant",
+      "goals": [
+        "dietary_gaps",
+        "antioxidant_interest",
+        "healthy_aging"
+      ],
+      "evidence_position": "Alta para función nutricional; altas dosis no son estrategia general anti-aging.",
+      "sources": [
+        "NIH_VITE_HP",
+        "NCCIH_ANTIOXIDANTS"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "selenium",
+      "name": "Selenio",
+      "category": "mineral_antioxidant",
+      "goals": [
+        "dietary_gaps",
+        "antioxidant_interest",
+        "healthy_aging",
+        "hair_nails"
+      ],
+      "evidence_position": "Alta para función nutricional; exceso puede causar problemas y cambios en pelo/uñas.",
+      "sources": [
+        "NIH_SELENIUM_HP",
+        "NCCIH_ANTIOXIDANTS"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "biotin",
+      "name": "Biotina",
+      "category": "vitamin",
+      "goals": [
+        "hair_nails",
+        "hair_loss_concern",
+        "skin_health"
+      ],
+      "evidence_position": "Deficiencia puede afectar pelo/piel/uñas, pero evidencia cosmética en no deficientes es muy limitada.",
+      "sources": [
+        "NIH_BIOTIN_HP"
+      ],
+      "dose_status": "reference_only",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "collagen_peptides",
+      "name": "Péptidos de colágeno",
+      "category": "protein_peptide",
+      "goals": [
+        "skin_health",
+        "bone_joint_health",
+        "healthy_aging"
+      ],
+      "evidence_position": "Evidencia de piel mixta; meta-análisis 2025 señala posible sesgo importante por financiación.",
+      "sources": [
+        "COLLAGEN_META_2025"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "temporal_archetype": "chronic_steady_exposure",
+      "schedule_note": "Mantener como borrador hasta definir objetivo, dosis y duración estudiada."
+    },
+    {
+      "id": "coenzyme_q10",
+      "name": "Coenzima Q10",
+      "category": "bioactive_antioxidant",
+      "goals": [
+        "energy_vitality",
+        "cardiovascular_health",
+        "healthy_aging",
+        "antioxidant_interest"
+      ],
+      "evidence_position": "Evidencia mixta y dependiente de indicación; no es recomendación anti-aging genérica.",
+      "sources": [
+        "NCCIH_COQ10"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "curcumin_turmeric",
+      "name": "Curcumina / cúrcuma",
+      "category": "botanical_bioactive",
+      "goals": [
+        "bone_joint_health",
+        "healthy_aging",
+        "antioxidant_interest"
+      ],
+      "evidence_position": "Evidencia insuficiente para uso musculoesquelético amplio; formulación y seguridad importan.",
+      "sources": [
+        "NCCIH_TURMERIC"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "probiotics",
+      "name": "Probióticos",
+      "category": "microbial",
+      "goals": [
+        "digestive_health",
+        "immune_function",
+        "general_wellbeing"
+      ],
+      "evidence_position": "Efectos específicos de cepa, dosis y condición; no tratar 'probióticos' como producto único.",
+      "sources": [
+        "NIH_PROBIOTICS_HP"
+      ],
+      "dose_status": "not_applicable",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "lutein_zeaxanthin",
+      "name": "Luteína + zeaxantina",
+      "category": "carotenoid_antioxidant",
+      "goals": [
+        "eye_health",
+        "healthy_aging",
+        "antioxidant_interest"
+      ],
+      "evidence_position": "Contexto sólido en AREDS2 para determinadas etapas de AMD; no prevención visual general.",
+      "sources": [
+        "NEI_AREDS2"
+      ],
+      "dose_status": "professional_supervision_required",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "glucosamine_chondroitin",
+      "name": "Glucosamina + condroitina",
+      "category": "joint_supplement",
+      "goals": [
+        "bone_joint_health",
+        "healthy_aging"
+      ],
+      "evidence_position": "Resultados inconsistentes y evaluaciones expertas conflictivas para artrosis de rodilla.",
+      "sources": [
+        "NCCIH_GLUCOSAMINE"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined"
+    },
+    {
+      "id": "caffeine_performance",
+      "name": "Cafeína",
+      "category": "performance_stimulant",
+      "goals": [
+        "sports_performance",
+        "mental_stamina",
+        "exam_study_support"
+      ],
+      "evidence_position": "Puede mejorar determinadas actividades de resistencia/intermitentes cuando se usa antes del ejercicio; la respuesta y tolerancia varían.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "draft",
+      "temporal_archetype": "acute_event_linked",
+      "schedule_note": "Candidato pre-ejercicio; NIH ODS resume evidencia de uso 15–60 min antes del ejercicio. Deben considerarse sueño, habituación, dosis total diaria y seguridad."
+    },
+    {
+      "id": "beetroot_nitrate",
+      "name": "Remolacha / nitrato",
+      "category": "performance_bioactive",
+      "goals": [
+        "sports_performance",
+        "exercise_recovery"
+      ],
+      "evidence_position": "Puede mejorar economía/tolerancia al ejercicio en ciertos contextos de resistencia; formulación y cantidad de nitrato importan.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "draft",
+      "temporal_archetype": "acute_event_linked",
+      "schedule_note": "Estudios resumidos por NIH usaron una toma aproximadamente 2.5–3 h antes del ejercicio o cursos diarios cortos."
+    },
+    {
+      "id": "beta_alanine",
+      "name": "Beta-alanina",
+      "category": "performance_amino_acid",
+      "goals": [
+        "sports_performance",
+        "exercise_recovery"
+      ],
+      "evidence_position": "Puede ayudar en esfuerzos intensos de corta a moderada duración; el beneficio depende de acumulación de carnosina, no de una sola toma pre-entreno.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "draft",
+      "temporal_archetype": "chronic_accumulation",
+      "schedule_note": "Debe modelarse como uso regular durante semanas, con división de dosis si corresponde por tolerancia."
+    },
+    {
+      "id": "sodium_bicarbonate",
+      "name": "Bicarbonato de sodio",
+      "category": "performance_buffer",
+      "goals": [
+        "sports_performance"
+      ],
+      "evidence_position": "Puede aportar beneficio pequeño a moderado en ejercicios intensos de corta duración/intermitentes, con frecuentes efectos gastrointestinales.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "dose_status": "professional_supervision_required",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "professional_only",
+      "temporal_archetype": "acute_event_linked",
+      "schedule_note": "Esquema pre-ejercicio específico y alta carga de sodio; mantener bajo revisión profesional."
+    },
+    {
+      "id": "tart_cherry",
+      "name": "Cereza ácida (tart cherry)",
+      "category": "recovery_bioactive",
+      "goals": [
+        "exercise_recovery",
+        "sports_performance"
+      ],
+      "evidence_position": "Evidencia limitada y variable; algunos estudios sugieren recuperación más rápida y menor dolor muscular.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "draft",
+      "temporal_archetype": "peri_event_recovery",
+      "schedule_note": "Algunos estudios usaron varios días antes del evento y continuaron aproximadamente 2 días después."
+    },
+    {
+      "id": "protein_supplement",
+      "name": "Proteína suplementaria",
+      "category": "macronutrient_performance",
+      "goals": [
+        "strength_muscle",
+        "exercise_recovery",
+        "sports_performance",
+        "dietary_gaps"
+      ],
+      "evidence_position": "Puede ayudar a alcanzar necesidades proteicas y apoyar adaptación/recuperación cuando la dieta no cubre requerimientos.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "dose_status": "supplement_range_supported",
+      "rules_status": "draft",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "draft",
+      "temporal_archetype": "hybrid_baseline_plus_event",
+      "schedule_note": "Debe considerar ingesta proteica diaria total; la relación exacta antes vs después del ejercicio no debe sobredimensionarse."
+    }
+  ]
+}

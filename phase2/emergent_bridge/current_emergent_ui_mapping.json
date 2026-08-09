@@ -1,0 +1,341 @@
+{
+  "version": "0.9.0",
+  "status": "DRAFT_UI_BRIDGE",
+  "purpose": "Mapear el cuestionario ya implementado por Emergent a los IDs científicos de Vitami sin rehacer la interfaz.",
+  "observed_sections": [
+    "Datos",
+    "Alimentación",
+    "Actividad",
+    "Descanso",
+    "Sol",
+    "Objetivos",
+    "Salud"
+  ],
+  "observed_questions": [
+    {
+      "ui_label_es": "¿Cómo es tu alimentación en general?",
+      "vitami_question_id": "diet_type",
+      "ui_type": "single_choice_cards",
+      "observed_options": [
+        {
+          "ui": "Variada o como de todo",
+          "canonical": "omnivore"
+        },
+        {
+          "ui": "Vegetariana",
+          "canonical": "vegetarian"
+        },
+        {
+          "ui": "Vegana",
+          "canonical": "vegan"
+        },
+        {
+          "ui": "Mayormente basada en plantas",
+          "canonical": "mostly_plant_based"
+        },
+        {
+          "ui": "Baja en carbohidratos",
+          "canonical": "low_carb"
+        },
+        {
+          "ui": "Otra",
+          "canonical": "other"
+        }
+      ],
+      "status": "keep_ui_map_values"
+    },
+    {
+      "ui_label_es": "¿Con qué frecuencia comés pescado?",
+      "vitami_question_id": "diet_fatty_fish_weekly",
+      "ui_type": "frequency_bars",
+      "observed_options": [
+        {
+          "ui": "Nunca",
+          "canonical": 0
+        },
+        {
+          "ui": "1 vez",
+          "canonical": 1
+        },
+        {
+          "ui": "2–3 veces",
+          "canonical": "2-3"
+        },
+        {
+          "ui": "4 o más",
+          "canonical": "4+"
+        }
+      ],
+      "status": "keep_but_refine_copy",
+      "note": "La evidencia relevante para omega-3 depende más de pescado graso/seafood que de 'pescado' genérico. Conviene mantener la UI pero aclarar ejemplos."
+    },
+    {
+      "ui_label_es": "¿Con qué frecuencia comés carne?",
+      "vitami_question_id": "diet_animal_products_frequency",
+      "ui_type": "frequency_bars",
+      "observed_options": [
+        {
+          "ui": "Nunca",
+          "canonical": "none"
+        },
+        {
+          "ui": "Ocasional",
+          "canonical": "occasional"
+        },
+        {
+          "ui": "Frecuente",
+          "canonical": "frequent"
+        },
+        {
+          "ui": "Diario",
+          "canonical": "daily"
+        }
+      ],
+      "status": "keep_as_supporting_context",
+      "note": "No reemplaza preguntas específicas sobre B12/hierro cuando una rama las necesita."
+    },
+    {
+      "ui_label_es": "¿Consumís leche, yogur, queso u otros lácteos?",
+      "vitami_question_id": "diet_dairy_calcium_sources",
+      "ui_type": "frequency_bars",
+      "observed_options": [
+        {
+          "ui": "Nunca",
+          "canonical": "none"
+        },
+        {
+          "ui": "Ocasional",
+          "canonical": "occasional"
+        },
+        {
+          "ui": "Frecuente",
+          "canonical": "frequent"
+        },
+        {
+          "ui": "Diario",
+          "canonical": "daily"
+        }
+      ],
+      "status": "keep"
+    },
+    {
+      "ui_label_es": "¿Realizás actividad física?",
+      "vitami_question_id": "activity_level",
+      "ui_type": "single_choice_cards",
+      "observed_options": [
+        {
+          "ui": "No",
+          "canonical": "none"
+        },
+        {
+          "ui": "Ocasionalmente",
+          "canonical": "occasional"
+        },
+        {
+          "ui": "Sí, de manera regular",
+          "canonical": "regular"
+        }
+      ],
+      "status": "keep_branch_controller"
+    },
+    {
+      "ui_label_es": "¿Qué tipo de actividad hacés?",
+      "vitami_question_id": "activity_type",
+      "ui_type": "multi_choice_grid",
+      "observed_options": [
+        {
+          "ui": "caminar",
+          "canonical": "walking"
+        },
+        {
+          "ui": "correr",
+          "canonical": "running"
+        },
+        {
+          "ui": "gimnasio o musculación",
+          "canonical": "strength"
+        },
+        {
+          "ui": "ciclismo",
+          "canonical": "cycling"
+        },
+        {
+          "ui": "natación",
+          "canonical": "swimming"
+        },
+        {
+          "ui": "deportes de equipo",
+          "canonical": "team_sport"
+        },
+        {
+          "ui": "entrenamiento funcional",
+          "canonical": "functional"
+        },
+        {
+          "ui": "yoga o pilates",
+          "canonical": "yoga_pilates"
+        }
+      ],
+      "status": "keep_and_map_to_performance_classes",
+      "note": "El motor científico derivará strength/power/endurance/mixed_high_intensity según selección + intensidad + duración."
+    },
+    {
+      "ui_label_es": "¿Cuántos días por semana?",
+      "vitami_question_id": "activity_days_per_week",
+      "ui_type": "frequency_bars",
+      "observed_options": [
+        {
+          "ui": "1–2",
+          "canonical": "1-2"
+        },
+        {
+          "ui": "3–4",
+          "canonical": "3-4"
+        },
+        {
+          "ui": "5 o más",
+          "canonical": "5+"
+        }
+      ],
+      "status": "keep"
+    },
+    {
+      "ui_label_es": "¿Cuánto dura habitualmente cada sesión?",
+      "vitami_question_id": "activity_session_duration",
+      "ui_type": "duration_bars",
+      "observed_options": [
+        {
+          "ui": "Menos de 30 min",
+          "canonical": "<30"
+        },
+        {
+          "ui": "30–60 min",
+          "canonical": "30-60"
+        },
+        {
+          "ui": "60–90 min",
+          "canonical": "60-90"
+        },
+        {
+          "ui": "Más de 90 min",
+          "canonical": ">90"
+        }
+      ],
+      "status": "ADD_TO_MASTER_BANK",
+      "note": "La app ya lo pregunta y es útil para deporte, hidratación y recuperación."
+    },
+    {
+      "ui_label_es": "¿Con qué intensidad entrenás?",
+      "vitami_question_id": "activity_intensity",
+      "ui_type": "intensity_bars",
+      "observed_options": [
+        {
+          "ui": "suave",
+          "canonical": "light"
+        },
+        {
+          "ui": "moderada",
+          "canonical": "moderate"
+        },
+        {
+          "ui": "intensa",
+          "canonical": "high"
+        },
+        {
+          "ui": "variable",
+          "canonical": "variable"
+        }
+      ],
+      "status": "ADD_TO_MASTER_BANK"
+    },
+    {
+      "ui_label_es": "¿Cuánto sudás al entrenar?",
+      "vitami_question_id": "activity_sweat_level",
+      "ui_type": "intensity_bars",
+      "observed_options": [
+        {
+          "ui": "baja",
+          "canonical": "low"
+        },
+        {
+          "ui": "moderada",
+          "canonical": "moderate"
+        },
+        {
+          "ui": "alta",
+          "canonical": "high"
+        },
+        {
+          "ui": "muy alta",
+          "canonical": "very_high"
+        }
+      ],
+      "status": "ADD_AS_RULE_SPECIFIC",
+      "note": "Útil principalmente para hidratación/electrolitos y ejercicio prolongado; no debe influir en suplementos no relacionados."
+    },
+    {
+      "ui_label_es": "¿Cuántas horas dormís por noche?",
+      "vitami_question_id": "sleep_hours",
+      "ui_type": "duration_bars",
+      "observed_options": [
+        {
+          "ui": "Menos de 6",
+          "canonical": "<6"
+        },
+        {
+          "ui": "6–7",
+          "canonical": "6-7"
+        },
+        {
+          "ui": "7–8",
+          "canonical": "7-8"
+        },
+        {
+          "ui": "Más de 8",
+          "canonical": ">8"
+        }
+      ],
+      "status": "ADD_TO_MASTER_BANK",
+      "note": "Debe convivir con symptom_sleep: horas de sueño y calidad del sueño no son lo mismo."
+    },
+    {
+      "ui_label_es": "¿Cuánta exposición al sol tenés habitualmente?",
+      "vitami_question_id": "lifestyle_sun_exposure",
+      "ui_type": "intensity_bars",
+      "status": "keep",
+      "note": "No usar sola para diagnosticar deficiencia de vitamina D."
+    },
+    {
+      "ui_label_es": "¿Qué objetivos querés trabajar?",
+      "vitami_question_id": "goals_primary",
+      "ui_type": "multi_choice_grid",
+      "observed_options": [
+        "tener más energía",
+        "mejorar el descanso",
+        "rendimiento deportivo",
+        "recuperación después del ejercicio",
+        "aumentar masa muscular",
+        "bajar de peso",
+        "controlar el apetito",
+        "cuidar las articulaciones",
+        "cuidar los huesos",
+        "envejecimiento saludable",
+        "cuidado de la piel",
+        "cuidado del cabello",
+        "cuidado de las uñas",
+        "concentración y memoria",
+        "manejo del estrés",
+        "apoyo general a las defensas"
+      ],
+      "status": "keep_but_expand_mapping",
+      "note": "Los objetivos priorizan exploración; nunca suman evidencia clínica por sí solos."
+    }
+  ],
+  "important_ui_rules": [
+    "Conservar la estética actual de tarjetas, barras y Francisco.",
+    "No convertir todo en un formulario largo.",
+    "Las nuevas preguntas científicas deben aparecer solo como ramas condicionales.",
+    "Francisco puede explicar por qué pregunta algo, pero no debe afirmar que una respuesta implica una deficiencia.",
+    "El resultado BASIC debe provenir del motor determinístico; Francisco solo lo comunica."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "rule_id": "BIOTIN_HAIR_ONLY",
+  "supplement_id": "biotin",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "hair_loss_concern"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 1,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Cosmetic use without demonstrated deficiency has weak evidence.",
+  "evidence_refs": [
+    "NIH_BIOTIN_HP"
+  ]
+}

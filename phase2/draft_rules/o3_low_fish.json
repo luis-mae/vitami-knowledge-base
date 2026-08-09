@@ -1,0 +1,28 @@
+{
+  "rule_id": "O3_LOW_FISH",
+  "supplement_id": "omega_3_epa_dha",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "diet_fatty_fish_weekly",
+        "<=1"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 3,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "diet_type"
+    ]
+  },
+  "rationale": "Low fish/seafood intake makes omega-3 intake worth reviewing, but does not establish a universal supplement dose.",
+  "evidence_refs": [
+    "NIH_OMEGA3_HP"
+  ]
+}

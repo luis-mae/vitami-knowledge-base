@@ -1,0 +1,37 @@
+{
+  "rule_id": "CAFF_PERFORMANCE",
+  "supplement_id": "caffeine_performance",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_type",
+        [
+          "endurance",
+          "mixed_high_intensity"
+        ]
+      ],
+      [
+        "goals_primary_contains",
+        "sports_performance"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 6,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "pro_weight",
+      "lifestyle_caffeine_daily",
+      "symptom_sleep"
+    ]
+  },
+  "rationale": "Caffeine can improve endurance and some intermittent high-intensity performance.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

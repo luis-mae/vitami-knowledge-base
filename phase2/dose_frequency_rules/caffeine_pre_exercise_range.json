@@ -1,0 +1,36 @@
+{
+  "dose_rule_id": "CAFFEINE_PRE_EXERCISE_RANGE",
+  "supplement_id": "caffeine_performance",
+  "status": "draft_evidence_supported",
+  "applies_when": {
+    "recommendation_min": "C_potential_benefit",
+    "requires": [
+      "pro_weight",
+      "lifestyle_caffeine_daily",
+      "symptom_sleep"
+    ]
+  },
+  "schedule": {
+    "pattern": "event_linked",
+    "amount_range_mg_per_kg": [
+      2,
+      6
+    ],
+    "timing_minutes_before": [
+      15,
+      60
+    ]
+  },
+  "guardrails": {
+    "adult_total_daily_reference_max_mg": 400,
+    "prefer_lowest_effective_end": true,
+    "avoid_if_sleep_rule_caps": true
+  },
+  "review": {
+    "mode": "event_tolerance",
+    "automatic_titration": false
+  },
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

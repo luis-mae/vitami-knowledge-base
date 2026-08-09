@@ -1,0 +1,99 @@
+{
+  "version": "0.5.0",
+  "profiles": [
+    {
+      "id": "sim_vegan_low_fortified",
+      "label": "Adulto vegano, pocos fortificados, sin suplementos",
+      "answers": {
+        "profile_age": 32,
+        "diet_type": "vegan",
+        "diet_fortified_foods": "low",
+        "supplements_current_use": [],
+        "diet_fatty_fish_weekly": 0,
+        "lifestyle_sun_exposure": "moderate"
+      },
+      "expected_focus": [
+        "vitamin_b12",
+        "iron",
+        "zinc",
+        "omega_3_epa_dha"
+      ],
+      "expected_warning": "No inferir hierro bajo sin laboratorio."
+    },
+    {
+      "id": "sim_strength_training",
+      "label": "Adulto sano, entrenamiento de fuerza, objetivo masa/fuerza",
+      "answers": {
+        "profile_age": 29,
+        "activity_type": "strength",
+        "goals_primary": [
+          "strength_muscle"
+        ],
+        "conditions_kidney": false
+      },
+      "expected_focus": [
+        "creatine_monohydrate"
+      ],
+      "expected_warning": "Creatina debe modelarse como acumulativa, no solo días de entrenamiento."
+    },
+    {
+      "id": "sim_hair_loss",
+      "label": "Caída de cabello sin diagnóstico",
+      "answers": {
+        "goals_primary": [
+          "hair_loss_concern"
+        ],
+        "symptom_hair_nails": true
+      },
+      "expected_focus": [
+        "biotin",
+        "zinc",
+        "selenium"
+      ],
+      "expected_warning": "Ninguno debe escalar a recomendación fuerte solo por caída de cabello."
+    },
+    {
+      "id": "sim_low_sun_low_diet",
+      "label": "Poco sol, poco pescado y pocos fortificados",
+      "answers": {
+        "lifestyle_sun_exposure": "very_low",
+        "diet_fatty_fish_weekly": 0,
+        "diet_fortified_foods": "none",
+        "conditions_kidney": false
+      },
+      "expected_focus": [
+        "vitamin_d",
+        "omega_3_epa_dha"
+      ],
+      "expected_warning": "Vitamina D no implica diagnóstico de deficiencia."
+    },
+    {
+      "id": "sim_sports_sleep_problem",
+      "label": "Deportista con mal sueño y alto consumo habitual de cafeína",
+      "answers": {
+        "activity_type": "mixed_high_intensity",
+        "goals_primary": [
+          "sports_performance"
+        ],
+        "symptom_sleep": "poor",
+        "lifestyle_caffeine_daily": ">=300mg"
+      },
+      "expected_focus": [
+        "beta_alanine",
+        "creatine_monohydrate"
+      ],
+      "expected_warning": "Cafeína debe bajar de prioridad por sueño y consumo basal."
+    },
+    {
+      "id": "sim_antioxidants",
+      "label": "Usuario sano que solo busca antioxidantes",
+      "answers": {
+        "goals_primary": [
+          "antioxidant_interest"
+        ]
+      },
+      "expected_focus": [],
+      "expected_warning": "No recomendar vitamina E o selenio solo por objetivo antioxidante."
+    }
+  ]
+}

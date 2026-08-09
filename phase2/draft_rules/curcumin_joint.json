@@ -1,0 +1,30 @@
+{
+  "rule_id": "CURCUMIN_JOINT",
+  "supplement_id": "curcumin_turmeric",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "bone_joint_health"
+      ],
+      [
+        "symptom_muscle_joint",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 3,
+    "recommendation_cap": "C_potential_benefit",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Knee-osteoarthritis evidence is promising but not definitive.",
+  "evidence_refs": [
+    "NCCIH_TURMERIC"
+  ]
+}

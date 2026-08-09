@@ -1,0 +1,26 @@
+{
+  "rule_id": "CURCUMIN_PREG",
+  "supplement_id": "curcumin_turmeric",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Supplement-dose turmeric may be unsafe in pregnancy.",
+  "evidence_refs": [
+    "NCCIH_TURMERIC"
+  ]
+}

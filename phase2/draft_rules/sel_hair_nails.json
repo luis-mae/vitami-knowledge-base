@@ -1,0 +1,29 @@
+{
+  "rule_id": "SEL_HAIR_NAILS",
+  "supplement_id": "selenium",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "symptom_hair_nails",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "diet_brazil_nuts_frequency",
+      "supplements_current_use"
+    ]
+  },
+  "rationale": "Hair/nail changes can occur with excess selenium as well as deficiency-related concerns.",
+  "evidence_refs": [
+    "NIH_SELENIUM_HP"
+  ]
+}

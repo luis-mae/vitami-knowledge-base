@@ -1,0 +1,26 @@
+{
+  "rule_id": "SEL_ANTIOXIDANT_ONLY",
+  "supplement_id": "selenium",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "antioxidant_interest"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Generic antioxidant interest does not justify selenium supplementation.",
+  "evidence_refs": [
+    "NIH_SELENIUM_HP"
+  ]
+}

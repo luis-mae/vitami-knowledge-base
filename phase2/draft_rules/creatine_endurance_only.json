@@ -1,0 +1,26 @@
+{
+  "rule_id": "CREATINE_ENDURANCE_ONLY",
+  "supplement_id": "creatine_monohydrate",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_type",
+        "endurance_only"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Creatine has little value for pure endurance performance.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

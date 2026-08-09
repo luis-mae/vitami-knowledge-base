@@ -1,0 +1,55 @@
+{
+  "id": "selenium",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_SELENIUM_HP"
+  ],
+  "reference_values": {
+    "adult": {
+      "rda": 55,
+      "unit": "mcg/day"
+    },
+    "pregnancy": {
+      "rda": 60,
+      "unit": "mcg/day"
+    },
+    "lactation": {
+      "rda": 70,
+      "unit": "mcg/day"
+    },
+    "us_fnb_adult_ul": {
+      "value": 400,
+      "unit": "mcg/day"
+    },
+    "efsa_adult_ul_2023": {
+      "value": 255,
+      "unit": "mcg/day",
+      "scope": "adults including pregnancy/lactation"
+    }
+  },
+  "key_evidence": [
+    "Selenosis can cause hair loss and nail brittleness/loss, so cosmetic complaints can indicate excess as well as deficiency-related concerns.",
+    "Brazil nuts can contain very high selenium amounts and should be captured as a dietary source.",
+    "EFSA's 2023 adult UL is lower than the U.S. FNB UL."
+  ],
+  "required_questions": [
+    "diet_type",
+    "diet_animal_products_frequency",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "symptom_hair_nails",
+    "medications_regular_use",
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "generic_antioxidant_use": "not_recommended_as_default",
+    "product_total_intake_required": true
+  },
+  "review_protocol": {
+    "status": "total_intake_and_toxicity_risk",
+    "automatic_days": null
+  }
+}

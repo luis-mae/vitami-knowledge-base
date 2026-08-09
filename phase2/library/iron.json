@@ -1,0 +1,30 @@
+{
+  "id": "iron",
+  "title": {
+    "es": "Hierro",
+    "en": "Iron",
+    "it": "Ferro"
+  },
+  "what_it_is": {
+    "es": "Mineral esencial para la hemoglobina, el transporte de oxígeno y otras funciones celulares.",
+    "en": "An essential mineral for hemoglobin, oxygen transport, and other cellular functions.",
+    "it": "Minerale essenziale per l'emoglobina, il trasporto dell'ossigeno e altre funzioni cellulari."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando el perfil dietario o la etapa de vida hacen relevante revisar el aporte de hierro.",
+    "en": "It may appear when diet or life stage makes iron intake worth reviewing.",
+    "it": "Può comparire quando dieta o fase della vita rendono opportuno valutare l'apporto di ferro."
+  },
+  "limits": {
+    "es": "Vitami no debe diagnosticar falta de hierro por cansancio, caída del cabello u otros síntomas inespecíficos. Las dosis terapéuticas y los esquemas en días alternos requieren contexto clínico.",
+    "en": "Vitami should not diagnose iron deficiency from fatigue, hair loss, or other nonspecific symptoms. Treatment doses and alternate-day regimens require clinical context.",
+    "it": "Vitami non deve diagnosticare una carenza di ferro sulla base di stanchezza, caduta dei capelli o altri sintomi aspecifici. Dosi terapeutiche e schemi a giorni alterni richiedono un contesto clinico."
+  },
+  "evidence_label": "high_for_nutritional_role",
+  "source_refs": [
+    "NIH_IRON_HP",
+    "IRON_ALT_DAY_STOFFEL_2017",
+    "IRON_ALT_DAY_STOFFEL_2020",
+    "IRON_ALT_DAY_RCT_2023"
+  ]
+}

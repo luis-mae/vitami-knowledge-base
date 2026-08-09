@@ -1,0 +1,27 @@
+{
+  "id": "creatine_monohydrate",
+  "title": {
+    "es": "Creatina monohidrato",
+    "en": "Creatine monohydrate",
+    "it": "Creatina monoidrato"
+  },
+  "what_it_is": {
+    "es": "Compuesto utilizado para aumentar la disponibilidad rápida de energía en el músculo durante esfuerzos intensos y repetidos.",
+    "en": "A compound used to increase rapid energy availability in muscle during repeated high-intensity efforts.",
+    "it": "Composto utilizzato per aumentare la disponibilità rapida di energia nel muscolo durante sforzi intensi e ripetuti."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede ser relevante en entrenamiento de fuerza, potencia o esfuerzos intermitentes de alta intensidad.",
+    "en": "It may be relevant for strength, power, or repeated high-intensity exercise.",
+    "it": "Può essere rilevante per allenamenti di forza, potenza o sforzi intermittenti ad alta intensità."
+  },
+  "limits": {
+    "es": "No es un suplemento que deba pensarse simplemente como 'pre-entreno'. Los protocolos estudiados suelen depender de uso regular durante días o semanas.",
+    "en": "It should not be treated simply as a 'pre-workout' supplement. Studied protocols generally rely on regular use over days or weeks.",
+    "it": "Non va considerata semplicemente come un integratore 'pre-allenamento'. I protocolli studiati si basano in genere su un uso regolare per giorni o settimane."
+  },
+  "evidence_label": "high_for_selected_performance_contexts",
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

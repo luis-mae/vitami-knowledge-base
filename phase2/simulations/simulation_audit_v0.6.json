@@ -1,0 +1,11 @@
+{
+  "version": "0.6.0",
+  "issues": [
+    {
+      "profile_id": "sim_sports_sleep_problem",
+      "type": "expected_focus_missing",
+      "supplement_id": "creatine_monohydrate",
+      "note": "No draft rule fired for an expected-focus supplement. This does not mean the supplement should necessarily be recommended; it flags rule coverage."
+    }
+  ]
+}

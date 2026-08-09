@@ -1,0 +1,189 @@
+{
+  "version": "0.7.0",
+  "sources": [
+    {
+      "id": "NIH_VITD_HP",
+      "organization": "NIH ODS",
+      "title": "Vitamin D",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_B12_HP",
+      "organization": "NIH ODS",
+      "title": "Vitamin B12",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_IRON_HP",
+      "organization": "NIH ODS",
+      "title": "Iron",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_OMEGA3_HP",
+      "organization": "NIH ODS",
+      "title": "Omega-3 Fatty Acids",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_MAGNESIUM_HP",
+      "organization": "NIH ODS",
+      "title": "Magnesium",
+      "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_CALCIUM_HP",
+      "organization": "NIH ODS",
+      "title": "Calcium",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_ZINC_HP",
+      "organization": "NIH ODS",
+      "title": "Zinc",
+      "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_FOLATE_HP",
+      "organization": "NIH ODS",
+      "title": "Folate",
+      "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_VITC_HP",
+      "organization": "NIH ODS",
+      "title": "Vitamin C",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_VITE_HP",
+      "organization": "NIH ODS",
+      "title": "Vitamin E",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_SELENIUM_HP",
+      "organization": "NIH ODS",
+      "title": "Selenium",
+      "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_BIOTIN_HP",
+      "organization": "NIH ODS",
+      "title": "Biotin",
+      "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_PROBIOTICS_HP",
+      "organization": "NIH ODS",
+      "title": "Probiotics",
+      "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NIH_EXERCISE_HP",
+      "organization": "NIH ODS",
+      "title": "Exercise and Athletic Performance",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NCCIH_COQ10",
+      "organization": "NCCIH",
+      "title": "Coenzyme Q10",
+      "url": "https://www.nccih.nih.gov/health/coenzyme-q10",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NCCIH_TURMERIC",
+      "organization": "NCCIH",
+      "title": "Turmeric",
+      "url": "https://www.nccih.nih.gov/health/turmeric",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NCCIH_ANTIOXIDANTS",
+      "organization": "NCCIH",
+      "title": "Antioxidant Supplements",
+      "url": "https://www.nccih.nih.gov/health/antioxidant-supplements-what-you-need-to-know",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NEI_AREDS2",
+      "organization": "National Eye Institute",
+      "title": "AREDS/AREDS2",
+      "url": "https://www.nei.nih.gov/eye-health-information/clinical-trials/age-related-eye-disease-studies-aredsareds2/about-areds-and-areds2",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "COLLAGEN_META_2025",
+      "organization": "PubMed",
+      "title": "Effects of Collagen Supplements on Skin Aging",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40324552/",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "NCCIH_GLUCOSAMINE",
+      "organization": "NCCIH",
+      "title": "Glucosamine and Chondroitin",
+      "url": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+      "accessed_date": "2026-08-09",
+      "status": "review_source"
+    },
+    {
+      "id": "IRON_ALT_DAY_STOFFEL_2017",
+      "organization": "The Lancet Haematology / PubMed",
+      "title": "Iron absorption from oral iron supplements given on consecutive versus alternate days",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29032957/",
+      "accessed_date": "2026-08-09",
+      "status": "primary_study"
+    },
+    {
+      "id": "IRON_ALT_DAY_STOFFEL_2020",
+      "organization": "Haematologica / PubMed",
+      "title": "Iron absorption from supplements is greater with alternate day than with consecutive day dosing in iron-deficient anemic women",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31413088/",
+      "accessed_date": "2026-08-09",
+      "status": "primary_study"
+    },
+    {
+      "id": "IRON_ALT_DAY_RCT_2023",
+      "organization": "eClinicalMedicine / PubMed",
+      "title": "Alternate day versus consecutive day oral iron supplementation in iron-depleted women",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38021373/",
+      "accessed_date": "2026-08-09",
+      "status": "primary_study"
+    }
+  ]
+}

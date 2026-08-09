@@ -1,0 +1,40 @@
+{
+  "rule_id": "VITD_LOW_SUN_LOW_DIET",
+  "supplement_id": "vitamin_d",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "lifestyle_sun_exposure",
+        [
+          "low",
+          "very_low"
+        ]
+      ],
+      [
+        "diet_fatty_fish_weekly",
+        "<=1"
+      ],
+      [
+        "diet_fortified_foods",
+        [
+          "low",
+          "none"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 4,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Low sun plus few dietary sources strengthens the case for reviewing vitamin D.",
+  "evidence_refs": [
+    "NIH_VITD_HP"
+  ]
+}

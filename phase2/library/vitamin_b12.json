@@ -1,0 +1,27 @@
+{
+  "id": "vitamin_b12",
+  "title": {
+    "es": "Vitamina B12",
+    "en": "Vitamin B12",
+    "it": "Vitamina B12"
+  },
+  "what_it_is": {
+    "es": "Vitamina esencial para la formación normal de células sanguíneas, función neurológica y síntesis de ADN.",
+    "en": "An essential vitamin for normal blood cell formation, neurologic function, and DNA synthesis.",
+    "it": "Vitamina essenziale per la normale formazione delle cellule del sangue, la funzione neurologica e la sintesi del DNA."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando la dieta aporta pocas fuentes fiables de B12, especialmente en dietas veganas, o cuando existen otros factores que justifican revisar el aporte.",
+    "en": "It may appear when the diet provides few reliable B12 sources, especially in vegan diets, or when other factors make intake worth reviewing.",
+    "it": "Può comparire quando la dieta fornisce poche fonti affidabili di B12, soprattutto nelle diete vegane, o quando altri fattori rendono opportuno valutarne l'apporto."
+  },
+  "limits": {
+    "es": "Cansancio, debilidad u otros síntomas no demuestran por sí solos una deficiencia. Si existe sospecha clínica o problemas de absorción, puede ser necesaria evaluación profesional y laboratorio.",
+    "en": "Fatigue, weakness, or other symptoms do not by themselves prove deficiency. Clinical suspicion or absorption problems may require professional assessment and laboratory testing.",
+    "it": "Stanchezza, debolezza o altri sintomi non dimostrano da soli una carenza. In caso di sospetto clinico o problemi di assorbimento può essere necessaria una valutazione professionale e di laboratorio."
+  },
+  "evidence_label": "high_for_nutritional_role",
+  "source_refs": [
+    "NIH_B12_HP"
+  ]
+}

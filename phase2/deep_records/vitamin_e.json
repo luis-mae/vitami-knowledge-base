@@ -1,0 +1,47 @@
+{
+  "id": "vitamin_e",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_VITE_HP"
+  ],
+  "reference_values": {
+    "age_14_plus": {
+      "rda": 15,
+      "unit": "mg alpha-tocopherol/day"
+    },
+    "lactation": {
+      "rda": 19,
+      "unit": "mg alpha-tocopherol/day"
+    },
+    "adult_ul": {
+      "value": 1000,
+      "unit": "mg/day",
+      "scope": "supplemental alpha-tocopherol"
+    }
+  },
+  "key_evidence": [
+    "Vitamin E deficiency is rare in healthy people without fat-malabsorption disorders.",
+    "High-dose vitamin E can increase bleeding risk, especially with anticoagulant/antiplatelet drugs.",
+    "Evidence does not support generic high-dose vitamin E supplementation for chronic-disease prevention; some high-dose trials raised safety concerns."
+  ],
+  "required_questions": [
+    "diet_legumes_nuts_seeds",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "medications_regular_use",
+    "conditions_bleeding",
+    "safety_upcoming_surgery",
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "generic_antioxidant_prevention": "not_recommended",
+    "high_dose": "professional_supervision_required"
+  },
+  "review_protocol": {
+    "status": "context_dependent",
+    "automatic_days": null
+  }
+}

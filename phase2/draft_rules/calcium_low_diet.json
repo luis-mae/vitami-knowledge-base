@@ -1,0 +1,36 @@
+{
+  "rule_id": "CALCIUM_LOW_DIET",
+  "supplement_id": "calcium",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "diet_dairy_calcium_sources",
+        "low"
+      ],
+      [
+        "diet_fortified_foods",
+        [
+          "low",
+          "none"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 4,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "profile_age",
+      "profile_sex_reference"
+    ]
+  },
+  "rationale": "Low dietary calcium sources justify estimating the dietary gap.",
+  "evidence_refs": [
+    "NIH_CALCIUM_HP"
+  ]
+}

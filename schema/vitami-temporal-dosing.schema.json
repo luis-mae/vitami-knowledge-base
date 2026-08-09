@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-temporal-dosing.schema.json",
+  "title": "Vitami Temporal Dosing Pattern",
+  "type": "object",
+  "required": [
+    "archetype",
+    "activation_context",
+    "schedule_status"
+  ],
+  "properties": {
+    "archetype": {
+      "enum": [
+        "chronic_steady_exposure",
+        "chronic_accumulation",
+        "acute_event_linked",
+        "peri_event_recovery",
+        "hybrid_baseline_plus_event",
+        "intermittent_evidence_supported"
+      ]
+    },
+    "activation_context": {
+      "enum": [
+        "calendar",
+        "training_day",
+        "competition",
+        "bedtime",
+        "meal",
+        "recovery_window",
+        "custom"
+      ]
+    },
+    "pre_event_minutes": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "post_event_hours": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "course_days": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "weekly_target_amount": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "average_daily_equivalent": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "schedule_status": {
+      "enum": [
+        "not_evaluated",
+        "evidence_supported",
+        "draft",
+        "professional_only",
+        "not_recommended"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

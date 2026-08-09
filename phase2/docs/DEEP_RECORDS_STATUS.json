@@ -1,0 +1,44 @@
+{
+  "version": "0.4.0",
+  "deep_records": [
+    "vitamin_d",
+    "vitamin_b12",
+    "omega_3_epa_dha",
+    "creatine_monohydrate",
+    "caffeine_performance",
+    "beta_alanine",
+    "vitamin_c",
+    "biotin",
+    "collagen_peptides",
+    "lutein_zeaxanthin",
+    "iron",
+    "magnesium",
+    "calcium",
+    "zinc",
+    "folate_folic_acid",
+    "selenium",
+    "vitamin_e",
+    "probiotics",
+    "coenzyme_q10",
+    "curcumin_turmeric"
+  ],
+  "rules": [
+    "All records remain non-active.",
+    "Exact dose values are evidence descriptors, not automatically user prescriptions.",
+    "Any future product-level schedule must account for amount per unit and divisibility.",
+    "Review intervals marked draft_evidence_linked are UX follow-up candidates, not autonomous clinical titration intervals."
+  ],
+  "second_block_completed": [
+    "iron",
+    "magnesium",
+    "calcium",
+    "zinc",
+    "folate_folic_acid",
+    "selenium",
+    "vitamin_e",
+    "probiotics",
+    "coenzyme_q10",
+    "curcumin_turmeric"
+  ],
+  "total_deep_records": 20
+}

@@ -1,0 +1,30 @@
+{
+  "rule_id": "BA_HIGH_INTENSITY",
+  "supplement_id": "beta_alanine",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_type",
+        "mixed_high_intensity"
+      ],
+      [
+        "goals_primary_contains",
+        "sports_performance"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 5,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Potential benefit is strongest for repeated/intense efforts in the studied duration range.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

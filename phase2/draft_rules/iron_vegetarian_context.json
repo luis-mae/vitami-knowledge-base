@@ -1,0 +1,32 @@
+{
+  "rule_id": "IRON_VEGETARIAN_CONTEXT",
+  "supplement_id": "iron",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [],
+    "any": [
+      [
+        "diet_type",
+        "vegetarian"
+      ],
+      [
+        "diet_type",
+        "vegan"
+      ]
+    ]
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "pro_labs_available"
+    ]
+  },
+  "rationale": "Vegetarian iron requirements are higher because nonheme iron is less bioavailable.",
+  "evidence_refs": [
+    "NIH_IRON_HP"
+  ]
+}

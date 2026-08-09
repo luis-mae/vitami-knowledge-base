@@ -1,0 +1,26 @@
+{
+  "rule_id": "VITD_KIDNEY",
+  "supplement_id": "vitamin_d",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Kidney disease can alter vitamin D metabolism and safety.",
+  "evidence_refs": [
+    "NIH_VITD_HP"
+  ]
+}

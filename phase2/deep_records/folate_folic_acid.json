@@ -1,0 +1,59 @@
+{
+  "id": "folate_folic_acid",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_FOLATE_HP"
+  ],
+  "reference_values": {
+    "adult": {
+      "rda": 400,
+      "unit": "mcg DFE/day"
+    },
+    "pregnancy": {
+      "rda": 600,
+      "unit": "mcg DFE/day"
+    },
+    "lactation": {
+      "rda": 500,
+      "unit": "mcg DFE/day"
+    },
+    "adult_ul_synthetic": {
+      "value": 1000,
+      "unit": "mcg/day",
+      "scope": "folic acid/synthetic folate from supplements or fortified foods"
+    }
+  },
+  "conversion_notes": [
+    "1 mcg DFE = 1 mcg food folate.",
+    "1 mcg DFE = 0.6 mcg folic acid consumed with food.",
+    "1 mcg DFE = 0.5 mcg folic acid taken on an empty stomach."
+  ],
+  "key_evidence": [
+    "Folate form and DFE conversion matter.",
+    "The UL applies to synthetic folate from supplements/fortified foods, not naturally occurring food folate.",
+    "Folate supplements can interact with methotrexate, antiepileptic drugs and sulfasalazine."
+  ],
+  "required_questions": [
+    "profile_age",
+    "profile_pregnancy",
+    "profile_lactation",
+    "diet_type",
+    "diet_fortified_foods",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "medications_regular_use",
+    "pro_labs_available",
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "life_stage_specific": true,
+    "high_dose": "professional_supervision_required"
+  },
+  "review_protocol": {
+    "status": "life_stage_and_context_dependent",
+    "automatic_days": null
+  }
+}

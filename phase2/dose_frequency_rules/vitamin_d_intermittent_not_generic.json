@@ -1,0 +1,15 @@
+{
+  "dose_rule_id": "VITAMIN_D_INTERMITTENT_NOT_GENERIC",
+  "supplement_id": "vitamin_d",
+  "status": "not_active",
+  "schedule": {
+    "pattern": "weekly_or_monthly",
+    "clinical_equivalence": "not_enabled_for_generic_BASIC"
+  },
+  "guardrails": {
+    "requires_specific_indication_or_professional_protocol": true
+  },
+  "evidence_refs": [
+    "NIH_VITD_HP"
+  ]
+}

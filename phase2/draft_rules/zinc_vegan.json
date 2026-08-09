@@ -1,0 +1,30 @@
+{
+  "rule_id": "ZINC_VEGAN",
+  "supplement_id": "zinc",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [],
+    "any": [
+      [
+        "diet_type",
+        "vegan"
+      ],
+      [
+        "diet_type",
+        "vegetarian"
+      ]
+    ]
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Plant-based diets can alter zinc bioavailability and justify intake review.",
+  "evidence_refs": [
+    "NIH_ZINC_HP"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "rule_id": "ZINC_ALREADY_HIGH",
+  "supplement_id": "zinc",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "zinc"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "request_total_intake_review",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Long-term excess zinc can impair copper status.",
+  "evidence_refs": [
+    "NIH_ZINC_HP"
+  ]
+}

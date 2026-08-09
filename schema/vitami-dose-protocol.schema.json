@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-dose-protocol.schema.json",
+  "title": "Vitami Dose and Review Protocol",
+  "type": "object",
+  "properties": {
+    "dose_status": {
+      "enum": [
+        "reference_only",
+        "supplement_range_supported",
+        "personalized_rule_draft",
+        "professional_supervision_required",
+        "not_applicable"
+      ]
+    },
+    "product_form": {
+      "type": "object"
+    },
+    "schedule_options": {
+      "type": "array"
+    },
+    "review_protocol": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rule_id": "VITD_LOW_SUN",
+  "supplement_id": "vitamin_d",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "lifestyle_sun_exposure",
+        [
+          "low",
+          "very_low"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "diet_fatty_fish_weekly",
+      "diet_fortified_foods"
+    ]
+  },
+  "rationale": "Limited sun exposure increases relevance of reviewing vitamin D intake/status.",
+  "evidence_refs": [
+    "NIH_VITD_HP"
+  ]
+}

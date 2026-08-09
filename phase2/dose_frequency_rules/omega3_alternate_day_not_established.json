@@ -1,0 +1,16 @@
+{
+  "dose_rule_id": "OMEGA3_ALTERNATE_DAY_NOT_ESTABLISHED",
+  "supplement_id": "omega_3_epa_dha",
+  "status": "not_active",
+  "schedule": {
+    "pattern": "alternate_day",
+    "clinical_equivalence": "not_established_for_generic_use"
+  },
+  "guardrails": {
+    "weekly_average_math_only": true,
+    "do_not_present_as_recommendation": true
+  },
+  "evidence_refs": [
+    "NIH_OMEGA3_HP"
+  ]
+}

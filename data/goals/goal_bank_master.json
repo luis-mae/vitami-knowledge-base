@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "phase": "1F",
   "principles": [
     "Goals prioritize what Vitami explores; they do not independently justify a supplement recommendation.",
@@ -565,6 +565,23 @@
       "promo_examples": {
         "es": [
           "¿Sentís que llegó el momento de cuidarte mejor? Vitami te ayuda a revisar por dónde empezar."
+        ],
+        "en": [],
+        "it": []
+      },
+      "goal_role": "prioritization_only"
+    },
+    {
+      "goal_id": "antioxidant_interest",
+      "category": "wellbeing",
+      "label": {
+        "es": "Antioxidantes y estrés oxidativo",
+        "en": "Antioxidants and oxidative stress",
+        "it": "Antiossidanti e stress ossidativo"
+      },
+      "promo_examples": {
+        "es": [
+          "¿Te interesan los antioxidantes? Vitami te muestra cuáles tienen evidencia para tu situación y cuáles son solo marketing."
         ],
         "en": [],
         "it": []

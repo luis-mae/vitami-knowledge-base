@@ -1,0 +1,30 @@
+{
+  "rule_id": "BIOTIN_LABS",
+  "supplement_id": "biotin",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "pro_labs_available",
+        true
+      ],
+      [
+        "supplements_current_use_contains",
+        "biotin"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "safety_notice",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "High-dose biotin can interfere with some laboratory assays.",
+  "evidence_refs": [
+    "NIH_BIOTIN_HP"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "biotin",
+  "title": {
+    "es": "Biotina",
+    "en": "Biotin",
+    "it": "Biotina"
+  },
+  "what_it_is": {
+    "es": "Vitamina B esencial que participa en el metabolismo de nutrientes.",
+    "en": "An essential B vitamin involved in nutrient metabolism.",
+    "it": "Vitamina del gruppo B essenziale coinvolta nel metabolismo dei nutrienti."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer en una exploración de cabello y uñas, principalmente para explicar cuándo existe o no fundamento para suplementarla.",
+    "en": "It may appear in a hair and nail assessment, mainly to explain when supplementation is or is not well supported.",
+    "it": "Può comparire in una valutazione di capelli e unghie, soprattutto per spiegare quando l'integrazione è o non è ben supportata."
+  },
+  "limits": {
+    "es": "La evidencia para mejorar cabello o uñas en personas sin deficiencia es limitada. Dosis altas también pueden interferir con algunos análisis de laboratorio.",
+    "en": "Evidence for improving hair or nails in people without deficiency is limited. High doses can also interfere with some laboratory tests.",
+    "it": "Le evidenze sul miglioramento di capelli o unghie in persone senza carenza sono limitate. Dosi elevate possono inoltre interferire con alcuni esami di laboratorio."
+  },
+  "evidence_label": "low_for_cosmetic_use_without_deficiency",
+  "source_refs": [
+    "NIH_BIOTIN_HP"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "probiotics",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_PROBIOTICS_HP"
+  ],
+  "reference_values": {
+    "rda": "not_applicable",
+    "ul": "not_established_as_single_generic_category"
+  },
+  "key_evidence": [
+    "Effects are strain-, dose-, product-, and condition-specific.",
+    "A generic CFU count is not enough to infer efficacy.",
+    "Products labelled as probiotics are not interchangeable."
+  ],
+  "required_questions": [
+    "goals_primary",
+    "symptom_digestive",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_other_relevant",
+    "medications_regular_use"
+  ],
+  "temporal_archetype": "indication_specific",
+  "dose_logic": {
+    "basic_status": "not_applicable_as_generic_category",
+    "must_split_future_records_by_strain_or_validated_product": true
+  },
+  "review_protocol": {
+    "status": "strain_and_indication_specific",
+    "automatic_days": null
+  }
+}

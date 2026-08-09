@@ -1,0 +1,57 @@
+{
+  "id": "zinc",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_ZINC_HP"
+  ],
+  "reference_values": {
+    "adult_male": {
+      "rda": 11,
+      "unit": "mg/day"
+    },
+    "adult_female": {
+      "rda": 8,
+      "unit": "mg/day"
+    },
+    "pregnancy": {
+      "rda": 11,
+      "unit": "mg/day"
+    },
+    "lactation": {
+      "rda": 12,
+      "unit": "mg/day"
+    },
+    "adult_ul": {
+      "value": 40,
+      "unit": "mg/day"
+    }
+  },
+  "key_evidence": [
+    "Zinc is essential for immune function, protein/DNA synthesis and wound healing.",
+    "High chronic zinc intake can adversely affect copper status.",
+    "Zinc can interact with quinolone/tetracycline antibiotics and penicillamine."
+  ],
+  "required_questions": [
+    "profile_age",
+    "profile_sex_reference",
+    "profile_pregnancy",
+    "profile_lactation",
+    "diet_type",
+    "diet_animal_products_frequency",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "medications_regular_use",
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "hair_skin_goal_alone": "insufficient_for_recommendation",
+    "high_dose_long_term": "not_recommended_without_professional_context"
+  },
+  "review_protocol": {
+    "status": "diet_and_total_intake_dependent",
+    "automatic_days": null
+  }
+}

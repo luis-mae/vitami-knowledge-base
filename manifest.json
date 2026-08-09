@@ -1,7 +1,7 @@
 {
   "project": "Vitami Knowledge Base",
-  "version": "1.0.0",
-  "phase": "1",
+  "version": "1.9.0",
+  "phase": "2",
   "description": "Vitami Phase 1 complete: architecture for evidence, sources, deterministic rules, safety, questions, goals, campaigns, profiles, and traceability.",
   "languages": [
     "es",
@@ -16,5 +16,14 @@
     "A supplement may exist in the library without being recommendable.",
     "Scientific evidence and Vitami product logic are stored separately."
   ],
-  "status": "CLOSED"
+  "status": "EMERGENT_UI_BRIDGED",
+  "deep_records": 20,
+  "draft_rule_count": 42,
+  "simulation_profiles": 6,
+  "simulation_audit_issues": 0,
+  "conditional_questions": 9,
+  "dose_frequency_rules": 6,
+  "library_records": 10,
+  "safety_combo_profiles": 10,
+  "safety_combo_audit_issues": 0
 }

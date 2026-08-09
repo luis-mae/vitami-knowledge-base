@@ -1,0 +1,65 @@
+{
+  "version": "1.1.0",
+  "principles": [
+    "Separar ingesta de referencia, dosis de suplemento y dosis terapéutica.",
+    "La equivalencia matemática promedio (por ejemplo, 1 unidad cada 2 días = 0.5 unidades/día) NO implica equivalencia clínica.",
+    "Media tableta, días alternos, esquemas semanales o periódicos solo pueden activarse si existe evidencia o guía específica para ingrediente, forma y contexto.",
+    "No asumir que cápsulas o softgels son divisibles.",
+    "No usar el UL como dosis objetivo.",
+    "Si una dosis personalizada requiere laboratorio, diagnóstico o seguimiento clínico, Vitami no la titula de forma autónoma.",
+    "Los cambios de dosis tras una revisión requieren reglas explícitas, fuentes y controles de seguridad.",
+    "Vitami distingue dosis por día calendario de dosis por día de entrenamiento o evento.",
+    "Un suplemento de acumulación no debe recomendarse solo en días de entrenamiento si la evidencia estudiada requiere uso regular.",
+    "Los suplementos agudos pueden tener ventanas pre-evento o peri-evento específicas.",
+    "El motor puede calcular dosis semanal total y promedio diario equivalente, pero no convertir automáticamente ese promedio en un nuevo esquema clínico."
+  ],
+  "schedule_fields": [
+    "daily",
+    "twice_daily",
+    "alternate_day",
+    "days_per_week",
+    "weekly",
+    "periodic",
+    "custom"
+  ],
+  "review_fields": [
+    "initial_review_days",
+    "repeat_review_days",
+    "review_inputs",
+    "stop_or_escalate_triggers",
+    "dose_change_allowed_by_rule"
+  ],
+  "temporal_archetypes": [
+    {
+      "id": "chronic_steady_exposure",
+      "description": "Busca una exposición relativamente sostenida; no asumir que concentrar la misma dosis semanal en pocos días es equivalente."
+    },
+    {
+      "id": "chronic_accumulation",
+      "description": "El efecto depende de acumulación/saturación durante días o semanas; el día exacto del ejercicio puede ser secundario."
+    },
+    {
+      "id": "acute_event_linked",
+      "description": "Se usa en relación temporal con un evento concreto, por ejemplo antes de ejercicio."
+    },
+    {
+      "id": "peri_event_recovery",
+      "description": "Se usa antes/después de un evento durante una ventana de recuperación definida."
+    },
+    {
+      "id": "hybrid_baseline_plus_event",
+      "description": "Puede existir una base regular y una variación alrededor de eventos solo si está respaldada."
+    },
+    {
+      "id": "intermittent_evidence_supported",
+      "description": "Esquema no diario (días alternos/semanal/etc.) permitido solo con evidencia específica."
+    }
+  ],
+  "review_extensions": [
+    "calendar_based_review",
+    "event_count_based_review",
+    "training_block_review",
+    "symptom_or_tolerance_review",
+    "laboratory_review_when_required"
+  ]
+}

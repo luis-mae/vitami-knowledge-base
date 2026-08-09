@@ -1,0 +1,26 @@
+{
+  "rule_id": "IRON_PREGNANCY",
+  "supplement_id": "iron",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 4,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Pregnancy substantially increases iron requirements; supplementation decisions should follow pregnancy-specific clinical guidance.",
+  "evidence_refs": [
+    "NIH_IRON_HP"
+  ]
+}

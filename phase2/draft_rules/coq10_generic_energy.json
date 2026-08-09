@@ -1,0 +1,26 @@
+{
+  "rule_id": "COQ10_GENERIC_ENERGY",
+  "supplement_id": "coenzyme_q10",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "energy_vitality"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 1,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Generic energy/anti-aging claims do not justify a strong CoQ10 recommendation.",
+  "evidence_refs": [
+    "NCCIH_COQ10"
+  ]
+}

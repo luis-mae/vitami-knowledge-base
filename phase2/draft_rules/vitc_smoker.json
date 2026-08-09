@@ -1,0 +1,26 @@
+{
+  "rule_id": "VITC_SMOKER",
+  "supplement_id": "vitamin_c",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "lifestyle_smoking",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 3,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Smokers have higher vitamin C requirements in U.S. dietary reference guidance.",
+  "evidence_refs": [
+    "NIH_VITC_HP"
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "version": "0.8.0",
+  "profiles": [
+    {
+      "id": "sim_pregnancy_fatigue_iron",
+      "label": "Embarazo con cansancio y dieta sin dato de laboratorio",
+      "answers": {
+        "profile_age": 31,
+        "profile_sex_reference": "female",
+        "profile_pregnancy": true,
+        "symptom_fatigue": true,
+        "diet_type": "omnivore",
+        "supplements_current_use": []
+      },
+      "expected": [
+        "iron:X_professional_review_required"
+      ],
+      "must_not": [
+        "iron:A_high_relevance"
+      ],
+      "reason": "El embarazo eleva relevancia pero no autoriza tratamiento autónomo."
+    },
+    {
+      "id": "sim_kidney_low_sun",
+      "label": "Poco sol con enfermedad renal",
+      "answers": {
+        "profile_age": 68,
+        "lifestyle_sun_exposure": "very_low",
+        "diet_fatty_fish_weekly": 0,
+        "diet_fortified_foods": "none",
+        "conditions_kidney": true
+      },
+      "expected": [
+        "vitamin_d:X_professional_review_required"
+      ],
+      "must_not": [],
+      "reason": "El bloqueo de seguridad debe vencer a la puntuación positiva."
+    },
+    {
+      "id": "sim_bleeding_omega3",
+      "label": "Bajo consumo de pescado con trastorno de sangrado",
+      "answers": {
+        "diet_fatty_fish_weekly": 0,
+        "diet_type": "omnivore",
+        "conditions_bleeding": true,
+        "safety_upcoming_surgery": false
+      },
+      "expected": [
+        "omega_3_epa_dha:X_professional_review_required"
+      ],
+      "must_not": [],
+      "reason": "Seguridad primero."
+    },
+    {
+      "id": "sim_strength_kidney",
+      "label": "Fuerza con objetivo muscular y enfermedad renal",
+      "answers": {
+        "profile_age": 45,
+        "activity_type": "strength",
+        "goals_primary": [
+          "strength_muscle"
+        ],
+        "conditions_kidney": true
+      },
+      "expected": [
+        "creatine_monohydrate:X_professional_review_required"
+      ],
+      "must_not": [
+        "creatine_monohydrate:B_consider"
+      ],
+      "reason": "La regla renal debe prevalecer sobre el beneficio deportivo."
+    },
+    {
+      "id": "sim_hair_already_selenium",
+      "label": "Caída de cabello y suplemento con selenio ya en uso",
+      "answers": {
+        "goals_primary": [
+          "hair_loss_concern"
+        ],
+        "symptom_hair_nails": true,
+        "supplements_current_use": [
+          "selenium"
+        ],
+        "diet_brazil_nuts_frequency": "weekly"
+      },
+      "expected": [
+        "selenium:E_no_current_indication"
+      ],
+      "must_not": [
+        "selenium:B_consider",
+        "selenium:A_high_relevance"
+      ],
+      "reason": "El sistema debe investigar exposición/exceso, no sumar selenio por el síntoma."
+    },
+    {
+      "id": "sim_amd_intermediate",
+      "label": "Persona con AMD intermedia conocida",
+      "answers": {
+        "profile_age": 74,
+        "goals_primary": [
+          "eye_health"
+        ],
+        "conditions_other_relevant": "intermediate_amd",
+        "lifestyle_smoking": false
+      },
+      "expected": [],
+      "must_not": [
+        "lutein_zeaxanthin:A_high_relevance"
+      ],
+      "reason": "Todavía no existe regla clínica suficiente; debe quedar para evaluación profesional."
+    },
+    {
+      "id": "sim_general_eye_prevention",
+      "label": "Persona sana que quiere prevenir problemas de visión",
+      "answers": {
+        "profile_age": 55,
+        "goals_primary": [
+          "eye_health"
+        ],
+        "conditions_other_relevant": "none"
+      },
+      "expected": [],
+      "must_not": [
+        "lutein_zeaxanthin:A_high_relevance",
+        "lutein_zeaxanthin:B_consider"
+      ],
+      "reason": "AREDS2 no es prevención universal."
+    },
+    {
+      "id": "sim_joint_liver_curcumin",
+      "label": "Dolor articular con enfermedad hepática",
+      "answers": {
+        "goals_primary": [
+          "bone_joint_health"
+        ],
+        "symptom_muscle_joint": true,
+        "conditions_liver": true,
+        "profile_pregnancy": false
+      },
+      "expected": [
+        "curcumin_turmeric:X_professional_review_required"
+      ],
+      "must_not": [],
+      "reason": "La seguridad hepática debe anular una recomendación potencial."
+    },
+    {
+      "id": "sim_endurance_caffeine_good_sleep",
+      "label": "Deportista de resistencia, buen sueño y bajo consumo de cafeína",
+      "answers": {
+        "activity_type": "endurance",
+        "goals_primary": [
+          "sports_performance"
+        ],
+        "symptom_sleep": "good",
+        "lifestyle_caffeine_daily": "50mg",
+        "pro_weight": 70
+      },
+      "expected": [
+        "caffeine_performance:B_consider"
+      ],
+      "must_not": [],
+      "reason": "Debe aparecer como candidata ligada al evento, sin convertirla en uso diario."
+    },
+    {
+      "id": "sim_digestive_generic_probiotic",
+      "label": "Objetivo digestivo sin cepa probiótica concreta",
+      "answers": {
+        "goals_primary": [
+          "digestive_health"
+        ],
+        "symptom_digestive": true,
+        "supplements_current_use": []
+      },
+      "expected": [],
+      "must_not": [
+        "probiotics:B_consider",
+        "probiotics:A_high_relevance"
+      ],
+      "reason": "Debe pedir cepa/producto antes de una recomendación."
+    }
+  ]
+}

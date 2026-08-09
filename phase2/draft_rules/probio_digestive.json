@@ -1,0 +1,28 @@
+{
+  "rule_id": "PROBIO_DIGESTIVE",
+  "supplement_id": "probiotics",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "digestive_health"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "ask_product_specific",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "probiotic_strain_product"
+    ]
+  },
+  "rationale": "A generic probiotic recommendation is invalid; evidence must match strain/product and indication.",
+  "evidence_refs": [
+    "NIH_PROBIOTICS_HP"
+  ]
+}

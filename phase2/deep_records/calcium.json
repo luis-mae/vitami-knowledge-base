@@ -1,0 +1,52 @@
+{
+  "id": "calcium",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_CALCIUM_HP"
+  ],
+  "reference_values": {
+    "adult_19_50": {
+      "rda": 1000,
+      "unit": "mg/day"
+    },
+    "women_over_50": {
+      "rda": 1200,
+      "unit": "mg/day"
+    },
+    "adult_ul_19_50": {
+      "value": 2500,
+      "unit": "mg/day"
+    },
+    "adult_ul_51_plus": {
+      "value": 2000,
+      "unit": "mg/day"
+    }
+  },
+  "key_evidence": [
+    "Calcium assessment should consider dietary intake before adding supplemental calcium.",
+    "Vitamin D is required for active intestinal calcium absorption.",
+    "Supplemental calcium may increase kidney-stone risk in some contexts and can interact with several medications."
+  ],
+  "required_questions": [
+    "profile_age",
+    "profile_sex_reference",
+    "diet_dairy_calcium_sources",
+    "diet_fortified_foods",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_kidney_stones",
+    "conditions_kidney",
+    "medications_regular_use"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "supplement_amount_requires_estimated_dietary_gap": true,
+    "alternate_day": "not_active"
+  },
+  "review_protocol": {
+    "status": "diet_and_risk_dependent",
+    "automatic_days": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rule_id": "O3_ALREADY_USING",
+  "supplement_id": "omega_3_epa_dha",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "omega_3"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "request_total_intake_review",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "EPA+DHA per serving must be known before any additional recommendation.",
+  "evidence_refs": [
+    "NIH_OMEGA3_HP"
+  ]
+}

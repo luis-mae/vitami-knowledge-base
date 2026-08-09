@@ -1,5 +1,62 @@
 # Changelog
 
+## 1.9.0 — 2026-08-09
+- Mapeado el cuestionario visual actualmente implementado en Emergent.
+- Se decidió conservar el flujo Datos → Alimentación → Actividad → Descanso → Sol → Objetivos → Salud.
+- Añadidas al banco maestro duración de sesión, intensidad, sudoración y horas de sueño.
+- Añadido plan de ramas condicionales para no convertir el BASIC en un formulario largo.
+- Creada capa de compatibilidad UI → valores canónicos → reglas científicas.
+
+## 1.8.0 — 2026-08-09
+- Añadidas 10 fichas iniciales de Biblioteca Vitami en español, inglés e italiano.
+- Añadidos textos de usuario para los estados A/B/C/D/E/X e información insuficiente.
+- Añadidos 10 perfiles sintéticos combinados y de seguridad.
+- La nueva auditoría de seguridad pasó con 0 resultados prohibidos o inconsistencias esperadas.
+- Separado formalmente el contenido educativo de Biblioteca de la recomendación personalizada.
+
+## 1.7.0 — 2026-08-09
+- Corregido el simulador para no marcar como pendientes preguntas ya contestadas.
+- Añadida regla de creatina para deportes intermitentes de alta intensidad.
+- Auditoría de los 6 perfiles sintéticos: 0 huecos de cobertura esperada.
+- Añadidas 9 preguntas condicionales/producto sin ampliar el núcleo universal BASIC.
+- Añadidas 6 reglas específicas de dosis/frecuencia.
+- Incorporada evidencia primaria sobre hierro en días alternos, mantenida como contexto profesional.
+- Añadido motor de equivalencia matemática con barrera de equivalencia clínica.
+
+## 1.6.0 — 2026-08-09
+- Ejecutado primer simulador determinístico sobre 6 perfiles sintéticos.
+- Añadido estado provisional cuando una regla necesita preguntas adicionales.
+- Generados reporte, resultados JSON, auditoría y código de referencia del simulador.
+
+## 1.5.0 — 2026-08-09
+- Creado motor de reglas draft con seguridad antes de puntuación positiva.
+- Añadidas primeras reglas pregunta→evidencia→resultado para 16 suplementos.
+- Añadidos techos de recomendación, override profesional e insufficient_user_data.
+- Añadidos 6 perfiles sintéticos para comenzar simulaciones.
+
+## 1.4.0 — 2026-08-09
+- Completado segundo bloque profundo FASE 2.
+- Añadidos hierro, magnesio, calcio, zinc, folato, selenio, vitamina E, probióticos, CoQ10 y curcumina.
+- Incorporadas diferencias de UL según fuente/jurisdicción cuando corresponden.
+- Detectadas nuevas preguntas candidatas: nueces de Brasil, malabsorción grasa y cepa/producto probiótico.
+
+## 1.3.0 — 2026-08-09
+- Cargados 10 registros profundos con valores de referencia, dosis estudiadas, seguridad, patrón temporal y revisión.
+- Diferenciados valores nutricionales de dosis suplementarias y terapéuticas.
+- Añadidos límites explícitos a reglas intermitentes y revisiones automáticas.
+
+## 1.2.0 — 2026-08-09
+- Añadidos patrones temporales de suplementación: sostenido, acumulativo, agudo, peri-evento e híbrido.
+- Separados días calendario, días de entrenamiento y ventanas de evento.
+- Añadidos cafeína, nitrato/remolacha, beta-alanina, bicarbonato, tart cherry y proteína al piloto.
+- Reforzada la regla: equivalencia semanal matemática no implica equivalencia clínica.
+
+## 1.1.0 — 2026-08-09
+- Iniciada FASE 2 con 19 ingredientes piloto.
+- Añadida arquitectura de dosis, frecuencia, forma farmacéutica y revisión.
+- Añadida política de equivalencia matemática vs equivalencia clínica.
+- Añadidas fuentes específicas para el piloto.
+
 ## 1.0.0 — 2026-08-09
 - Cerrada FASE 1.
 - Añadidos perfiles especiales: adolescentes, mayores de 65, embarazo, lactancia, dietas específicas, sedentarismo, deportistas, turnos nocturnos, viajes frecuentes y alta exigencia mental.

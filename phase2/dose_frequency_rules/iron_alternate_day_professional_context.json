@@ -1,0 +1,25 @@
+{
+  "dose_rule_id": "IRON_ALTERNATE_DAY_PROFESSIONAL_CONTEXT",
+  "supplement_id": "iron",
+  "status": "professional_only_draft",
+  "applies_when": {
+    "requires_confirmed_iron_deficiency_context": true
+  },
+  "schedule": {
+    "pattern": "alternate_day_candidate",
+    "description": "Evidence exists for alternate-day oral iron in iron-depleted/iron-deficient women, but regimen depends on diagnosis, elemental iron amount, urgency and tolerance."
+  },
+  "guardrails": {
+    "basic_app_activation": false,
+    "do_not_convert_automatically_from_daily_target": true
+  },
+  "review": {
+    "mode": "laboratory_and_clinical",
+    "automatic_titration": false
+  },
+  "evidence_refs": [
+    "IRON_ALT_DAY_STOFFEL_2017",
+    "IRON_ALT_DAY_STOFFEL_2020",
+    "IRON_ALT_DAY_RCT_2023"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "0.5.0",
+  "new_question_candidates": [
+    {
+      "id": "diet_brazil_nuts_frequency",
+      "reason": "Selenium exposure can be materially affected by Brazil nut intake.",
+      "status": "candidate_rule_specific"
+    },
+    {
+      "id": "fat_malabsorption_context",
+      "reason": "Relevant to vitamin E deficiency risk and potentially other fat-soluble nutrients.",
+      "status": "candidate_rule_specific"
+    },
+    {
+      "id": "probiotic_strain_product",
+      "reason": "Generic probiotic category is not sufficiently specific for evidence-based dosing/recommendation.",
+      "status": "PRO_or_product_specific"
+    }
+  ],
+  "implementation_status": "candidates_referenced_by_draft_rules_not_yet_added_to_basic"
+}

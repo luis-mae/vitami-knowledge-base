@@ -1,0 +1,27 @@
+{
+  "id": "curcumin_turmeric",
+  "title": {
+    "es": "Curcumina / cúrcuma",
+    "en": "Curcumin / turmeric",
+    "it": "Curcumina / curcuma"
+  },
+  "what_it_is": {
+    "es": "Compuesto y planta utilizados en suplementos principalmente por posibles efectos antiinflamatorios.",
+    "en": "A compound and botanical used in supplements mainly for possible anti-inflammatory effects.",
+    "it": "Composto e pianta utilizzati negli integratori soprattutto per possibili effetti antinfiammatori."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer como opción de beneficio potencial en ciertos problemas articulares, pero con una recomendación prudente.",
+    "en": "It may appear as a potential-benefit option for selected joint problems, but with a cautious recommendation.",
+    "it": "Può comparire come opzione di beneficio potenziale per alcuni problemi articolari, ma con una raccomandazione prudente."
+  },
+  "limits": {
+    "es": "La evidencia no permite una recomendación general fuerte. Algunas formulaciones de alta biodisponibilidad se han relacionado con lesión hepática, y en embarazo requiere especial cautela.",
+    "en": "Evidence does not support a strong general recommendation. Some high-bioavailability formulations have been linked to liver injury, and pregnancy requires particular caution.",
+    "it": "Le evidenze non supportano una raccomandazione generale forte. Alcune formulazioni ad alta biodisponibilità sono state associate a danno epatico e in gravidanza è necessaria particolare cautela."
+  },
+  "evidence_label": "low_to_moderate_indication_specific",
+  "source_refs": [
+    "NCCIH_TURMERIC"
+  ]
+}

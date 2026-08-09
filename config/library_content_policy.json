@@ -1,0 +1,11 @@
+{
+  "version": "0.8.0",
+  "rules": [
+    "Library content is educational and can be displayed even when a supplement is not recommended.",
+    "Every library claim must map to one or more source_refs.",
+    "Evidence level is indication-specific; do not present a supplement as globally 'proven' or 'unproven'.",
+    "If recommendation is provisional, the library may explain why more information is needed but must not expose a personalized dose.",
+    "If result is professional_review_required, the library may show general reference information but not a personalized regimen.",
+    "Marketing goal labels must not alter the scientific content of the library record."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "rule_id": "B12_AGE50_CONTEXT",
+  "supplement_id": "vitamin_b12",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "profile_age",
+        ">=50"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "diet_fortified_foods"
+    ]
+  },
+  "rationale": "Older adults may have reduced absorption of food-bound B12; fortified/supplemental sources deserve review.",
+  "evidence_refs": [
+    "NIH_B12_HP"
+  ]
+}

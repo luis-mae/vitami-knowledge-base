@@ -1,0 +1,35 @@
+{
+  "rule_id": "B12_VEGAN_LOW_FORTIFIED",
+  "supplement_id": "vitamin_b12",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "diet_type",
+        "vegan"
+      ],
+      [
+        "diet_fortified_foods",
+        [
+          "low",
+          "none"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 6,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": [
+      "supplements_current_use"
+    ]
+  },
+  "rationale": "Vegan diets lack natural food sources of B12; fortified foods/supplements are key.",
+  "evidence_refs": [
+    "NIH_B12_HP"
+  ]
+}

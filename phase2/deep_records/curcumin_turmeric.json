@@ -1,0 +1,45 @@
+{
+  "id": "curcumin_turmeric",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NCCIH_TURMERIC"
+  ],
+  "reference_values": {
+    "rda": "not_applicable",
+    "ul": "not_established_as_generic_curcumin_product"
+  },
+  "key_evidence": [
+    "Initial evidence for oral turmeric/curcumin in knee osteoarthritis is positive but not definitive.",
+    "Conventional oral products appear likely safe in recommended amounts for up to about 2–3 months.",
+    "Enhanced-bioavailability products have been linked to liver injury in some users.",
+    "Turmeric supplements may be unsafe in pregnancy; breastfeeding safety above food amounts is uncertain."
+  ],
+  "required_questions": [
+    "goals_primary",
+    "symptom_muscle_joint",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_liver",
+    "profile_pregnancy",
+    "profile_lactation",
+    "medications_regular_use",
+    "conditions_bleeding",
+    "safety_upcoming_surgery"
+  ],
+  "temporal_archetype": "course_limited",
+  "dose_logic": {
+    "basic_status": "optional_limited",
+    "formulation_specific": true,
+    "bioavailability_enhanced_formulation_requires_extra_safety_review": true
+  },
+  "review_protocol": {
+    "status": "course_and_safety_dependent",
+    "maximum_general_course_months_from_nccih": [
+      2,
+      3
+    ],
+    "automatic_dose_escalation": false
+  },
+  "recommendation_ceiling": "C_or_D_until_indication_rule_validated"
+}

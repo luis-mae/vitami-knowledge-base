@@ -1,16 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "0.9.0",
   "phase": "1_FINAL",
   "status": "draft",
-  "notes": [
-    "This bank defines candidate questions and branching only.",
-    "It does not encode supplement recommendations, doses, or clinical diagnoses.",
-    "Questions may be added, removed, or rewritten during Phase 2 when evidence rules reveal missing or unnecessary data.",
-    "BASIC should remain as short as possible through conditional logic.",
-    "Phase 1D audit classifies many BASIC questions as rule-specific/on-demand to minimize questionnaire burden.",
-    "Expanded goal taxonomy supports general population and future thematic marketing entry points.",
-    "Final Phase 1 audit adds special-profile context questions for night/shift work, travel and mental demand."
-  ],
+  "notes": "Phase 2: se agregan preguntas condicionales/producto sin ampliar el núcleo universal BASIC.",
   "questions": [
     {
       "question_id": "profile_age",
@@ -3234,6 +3226,852 @@
         "last_reviewed": "2026-08-09",
         "reviewed_by": [],
         "notes": "Added during final Phase 1 profile audit."
+      }
+    },
+    {
+      "question_id": "diet_brazil_nuts_frequency",
+      "tier": "BOTH",
+      "domain": "diet",
+      "text": {
+        "es": "¿Con qué frecuencia comés nueces de Brasil?",
+        "en": "How often do you eat Brazil nuts?",
+        "it": "Con quale frequenza mangi noci del Brasile?"
+      },
+      "help_text": {
+        "es": "Se pregunta solo cuando necesitamos estimar exposición relevante a selenio.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "none",
+          "label": {
+            "es": "Nunca/casi nunca",
+            "en": "Never/almost never",
+            "it": "Mai/quasi mai"
+          }
+        },
+        {
+          "value": "occasional",
+          "label": {
+            "es": "Ocasionalmente",
+            "en": "Occasionally",
+            "it": "Occasionalmente"
+          }
+        },
+        {
+          "value": "weekly",
+          "label": {
+            "es": "Varias por semana",
+            "en": "Several per week",
+            "it": "Diverse a settimana"
+          }
+        },
+        {
+          "value": "daily",
+          "label": {
+            "es": "Todos o casi todos los días",
+            "en": "Every or almost every day",
+            "it": "Tutti o quasi tutti i giorni"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no mostrar si no es necesaria para una regla activa."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "fat_malabsorption_context",
+      "tier": "BOTH",
+      "domain": "conditions",
+      "text": {
+        "es": "¿Tenés alguna enfermedad o condición que dificulte la absorción de grasas?",
+        "en": "Do you have a condition that makes fat absorption difficult?",
+        "it": "Hai una condizione che rende difficile l'assorbimento dei grassi?"
+      },
+      "help_text": {
+        "es": "Puede modificar el riesgo de insuficiencia de vitaminas liposolubles.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No lo sé",
+            "en": "I don't know",
+            "it": "Non lo so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no mostrar si no es necesaria para una regla activa."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "probiotic_strain_product",
+      "tier": "PRO",
+      "domain": "supplements",
+      "text": {
+        "es": "¿Qué cepa y producto probiótico estás usando o evaluando?",
+        "en": "Which probiotic strain and product are you using or considering?",
+        "it": "Quale ceppo e prodotto probiotico stai usando o valutando?"
+      },
+      "help_text": {
+        "es": "La evidencia de probióticos depende de la cepa, producto, dosis e indicación.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no mostrar si no es necesaria para una regla activa."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "supplement_product_form",
+      "tier": "BOTH",
+      "domain": "supplements",
+      "text": {
+        "es": "¿En qué presentación viene el suplemento?",
+        "en": "What dosage form is the supplement?",
+        "it": "In quale forma si presenta l'integratore?"
+      },
+      "help_text": {
+        "es": "Se usa para saber si una dosis puede ajustarse físicamente.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "tablet",
+          "label": {
+            "es": "Comprimido/tableta",
+            "en": "Tablet",
+            "it": "Compressa"
+          }
+        },
+        {
+          "value": "capsule",
+          "label": {
+            "es": "Cápsula",
+            "en": "Capsule",
+            "it": "Capsula"
+          }
+        },
+        {
+          "value": "softgel",
+          "label": {
+            "es": "Softgel",
+            "en": "Softgel",
+            "it": "Softgel"
+          }
+        },
+        {
+          "value": "powder",
+          "label": {
+            "es": "Polvo",
+            "en": "Powder",
+            "it": "Polvere"
+          }
+        },
+        {
+          "value": "liquid",
+          "label": {
+            "es": "Líquido/gotas",
+            "en": "Liquid/drops",
+            "it": "Liquido/gocce"
+          }
+        },
+        {
+          "value": "gummy",
+          "label": {
+            "es": "Gomita",
+            "en": "Gummy",
+            "it": "Gommosa"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "es": "Otra",
+            "en": "Other",
+            "it": "Altro"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no mostrar si no es necesaria para una regla activa."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "supplement_amount_per_unit",
+      "tier": "BOTH",
+      "domain": "supplements",
+      "text": {
+        "es": "¿Cuánto principio activo contiene cada comprimido, cápsula, medida o porción?",
+        "en": "How much active ingredient is in each tablet, capsule, scoop, or serving?",
+        "it": "Quanto principio attivo contiene ogni compressa, capsula, misurino o porzione?"
+      },
+      "help_text": {
+        "es": "Debe cargarse junto con la unidad (mg, mcg, g, IU, etc.).",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "decimal",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no mostrar si no es necesaria para una regla activa."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "supplement_amount_unit",
+      "tier": "BOTH",
+      "domain": "supplements",
+      "text": {
+        "es": "¿En qué unidad está expresada esa cantidad?",
+        "en": "What unit is that amount expressed in?",
+        "it": "In quale unità è espressa questa quantità?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "mcg",
+          "label": {
+            "es": "mcg",
+            "en": "mcg",
+            "it": "mcg"
+          }
+        },
+        {
+          "value": "mg",
+          "label": {
+            "es": "mg",
+            "en": "mg",
+            "it": "mg"
+          }
+        },
+        {
+          "value": "g",
+          "label": {
+            "es": "g",
+            "en": "g",
+            "it": "g"
+          }
+        },
+        {
+          "value": "IU",
+          "label": {
+            "es": "UI/IU",
+            "en": "IU",
+            "it": "UI"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "es": "Otra",
+            "en": "Other",
+            "it": "Altro"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no mostrar si no es necesaria para una regla activa."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "supplement_tablet_divisible",
+      "tier": "BOTH",
+      "domain": "supplements",
+      "text": {
+        "es": "¿El comprimido está ranurado y el fabricante permite dividirlo?",
+        "en": "Is the tablet scored and does the manufacturer allow it to be split?",
+        "it": "La compressa è divisibile e il produttore ne consente la divisione?"
+      },
+      "help_text": {
+        "es": "Vitami no asumirá que una unidad puede partirse solo porque sea una tableta.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No lo sé",
+            "en": "I don't know",
+            "it": "Non lo so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no mostrar si no es necesaria para una regla activa."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "activity_days_per_week",
+      "tier": "BOTH",
+      "domain": "activity",
+      "text": {
+        "es": "¿Cuántos días por semana entrenás habitualmente?",
+        "en": "How many days per week do you usually train?",
+        "it": "Quanti giorni alla settimana ti alleni di solito?"
+      },
+      "help_text": {
+        "es": "Permite diferenciar pautas diarias de pautas ligadas al entrenamiento.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "integer",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no mostrar si no es necesaria para una regla activa."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "activity_typical_time",
+      "tier": "PRO",
+      "domain": "activity",
+      "text": {
+        "es": "¿A qué hora solés entrenar?",
+        "en": "What time do you usually train?",
+        "it": "A che ora ti alleni di solito?"
+      },
+      "help_text": {
+        "es": "Puede ser relevante para sustancias agudas como cafeína y para el sueño.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "text",
+      "unit": null,
+      "options": [],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Formato horario local HH:MM; pregunta condicional para reglas agudas."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.7.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Añadida en FASE 2 por necesidad detectada en reglas/evidencia."
+      }
+    },
+    {
+      "question_id": "activity_session_duration",
+      "tier": "BASIC",
+      "domain": "activity",
+      "text": {
+        "es": "¿Cuánto dura habitualmente cada sesión?",
+        "en": "How long does each session usually last?",
+        "it": "Quanto dura abitualmente ogni sessione?"
+      },
+      "help_text": {
+        "es": "Ayuda a contextualizar carga de entrenamiento, recuperación e hidratación.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "<30",
+          "label": {
+            "es": "Menos de 30 min",
+            "en": "Under 30 min",
+            "it": "Meno di 30 min"
+          }
+        },
+        {
+          "value": "30-60",
+          "label": {
+            "es": "30–60 min",
+            "en": "30–60 min",
+            "it": "30–60 min"
+          }
+        },
+        {
+          "value": "60-90",
+          "label": {
+            "es": "60–90 min",
+            "en": "60–90 min",
+            "it": "60–90 min"
+          }
+        },
+        {
+          "value": ">90",
+          "label": {
+            "es": "Más de 90 min",
+            "en": "More than 90 min",
+            "it": "Più di 90 min"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Mapeada desde UI actual de Emergent; activar solo cuando la rama corresponda."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.9.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Question observed in current Emergent UI and integrated into Vitami Phase 2."
+      }
+    },
+    {
+      "question_id": "activity_intensity",
+      "tier": "BASIC",
+      "domain": "activity",
+      "text": {
+        "es": "¿Con qué intensidad entrenás?",
+        "en": "How intensely do you train?",
+        "it": "Con quale intensità ti alleni?"
+      },
+      "help_text": {
+        "es": "La intensidad modifica qué suplementos deportivos pueden tener sentido.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "light",
+          "label": {
+            "es": "Suave",
+            "en": "Light",
+            "it": "Leggera"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderada",
+            "en": "Moderate",
+            "it": "Moderata"
+          }
+        },
+        {
+          "value": "high",
+          "label": {
+            "es": "Intensa",
+            "en": "High",
+            "it": "Intensa"
+          }
+        },
+        {
+          "value": "variable",
+          "label": {
+            "es": "Variable",
+            "en": "Variable",
+            "it": "Variabile"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Mapeada desde UI actual de Emergent; activar solo cuando la rama corresponda."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.9.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Question observed in current Emergent UI and integrated into Vitami Phase 2."
+      }
+    },
+    {
+      "question_id": "activity_sweat_level",
+      "tier": "BOTH",
+      "domain": "activity",
+      "text": {
+        "es": "¿Cuánto sudás al entrenar?",
+        "en": "How much do you sweat during training?",
+        "it": "Quanto sudi durante l'allenamento?"
+      },
+      "help_text": {
+        "es": "Se usa principalmente para contextualizar hidratación y electrolitos.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "low",
+          "label": {
+            "es": "Baja",
+            "en": "Low",
+            "it": "Bassa"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderada",
+            "en": "Moderate",
+            "it": "Moderata"
+          }
+        },
+        {
+          "value": "high",
+          "label": {
+            "es": "Alta",
+            "en": "High",
+            "it": "Alta"
+          }
+        },
+        {
+          "value": "very_high",
+          "label": {
+            "es": "Muy alta",
+            "en": "Very high",
+            "it": "Molto alta"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Mapeada desde UI actual de Emergent; activar solo cuando la rama corresponda."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.9.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Question observed in current Emergent UI and integrated into Vitami Phase 2."
+      }
+    },
+    {
+      "question_id": "sleep_hours",
+      "tier": "BASIC",
+      "domain": "sleep",
+      "text": {
+        "es": "¿Cuántas horas dormís por noche?",
+        "en": "How many hours do you sleep per night?",
+        "it": "Quante ore dormi per notte?"
+      },
+      "help_text": {
+        "es": "Horas de sueño y calidad del sueño son variables distintas.",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "<6",
+          "label": {
+            "es": "Menos de 6",
+            "en": "Less than 6",
+            "it": "Meno di 6"
+          }
+        },
+        {
+          "value": "6-7",
+          "label": {
+            "es": "6–7",
+            "en": "6–7",
+            "it": "6–7"
+          }
+        },
+        {
+          "value": "7-8",
+          "label": {
+            "es": "7–8",
+            "en": "7–8",
+            "it": "7–8"
+          }
+        },
+        {
+          "value": ">8",
+          "label": {
+            "es": "Más de 8",
+            "en": "More than 8",
+            "it": "Più di 8"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Mapeada desde UI actual de Emergent; activar solo cuando la rama corresponda."
+      },
+      "status": "draft",
+      "review": {
+        "version": "0.9.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Question observed in current Emergent UI and integrated into Vitami Phase 2."
       }
     }
   ]

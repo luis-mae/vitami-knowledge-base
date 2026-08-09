@@ -1,0 +1,64 @@
+{
+  "id": "creatine_monohydrate",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "evidence_doses": [
+    {
+      "protocol": "loading",
+      "amount": 20,
+      "unit": "g/day",
+      "duration": "up to 7 days",
+      "status": "studied_typical"
+    },
+    {
+      "protocol": "maintenance",
+      "amount_range": [
+        3,
+        5
+      ],
+      "unit": "g/day",
+      "duration": "up to 12 weeks",
+      "status": "studied_typical"
+    },
+    {
+      "protocol": "no_loading",
+      "amount_range": [
+        3,
+        6
+      ],
+      "unit": "g/day",
+      "duration": "3–4 weeks to produce ergogenic effects",
+      "status": "studied"
+    }
+  ],
+  "key_evidence": [
+    "Best-supported for repeated high-intensity/strength-power activity.",
+    "Little value for endurance-only sports.",
+    "Effect is accumulation/saturation related rather than simply pre-workout timing."
+  ],
+  "required_questions": [
+    "activity_level",
+    "activity_type",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_accumulation",
+  "dose_logic": {
+    "basic_status": "supplement_range_supported",
+    "training_days_only": "not_active",
+    "loading_required": false,
+    "product_fraction_or_alternate_day": "not_active_without_specific_rule"
+  },
+  "review_protocol": {
+    "status": "draft_evidence_linked",
+    "earliest_effect_review_days": 28,
+    "basis": "No-loading protocols studied over ~3–4 weeks; use only as a product-design review point, not a clinical titration rule.",
+    "dose_change_allowed_by_rule": false
+  }
+}

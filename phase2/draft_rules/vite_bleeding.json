@@ -1,0 +1,30 @@
+{
+  "rule_id": "VITE_BLEEDING",
+  "supplement_id": "vitamin_e",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [],
+    "any": [
+      [
+        "conditions_bleeding",
+        true
+      ],
+      [
+        "safety_upcoming_surgery",
+        true
+      ]
+    ]
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "High-dose supplemental vitamin E can increase bleeding risk.",
+  "evidence_refs": [
+    "NIH_VITE_HP"
+  ]
+}

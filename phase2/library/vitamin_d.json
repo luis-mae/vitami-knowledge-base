@@ -1,0 +1,27 @@
+{
+  "id": "vitamin_d",
+  "title": {
+    "es": "Vitamina D",
+    "en": "Vitamin D",
+    "it": "Vitamina D"
+  },
+  "what_it_is": {
+    "es": "Vitamina liposoluble importante para el metabolismo del calcio y la salud ósea, entre otras funciones.",
+    "en": "A fat-soluble vitamin important for calcium metabolism and bone health, among other functions.",
+    "it": "Vitamina liposolubile importante per il metabolismo del calcio e la salute ossea, tra le altre funzioni."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando hay poca exposición solar y pocas fuentes dietarias, o en situaciones donde conviene revisar el estado de vitamina D.",
+    "en": "It may appear with low sun exposure and few dietary sources, or in situations where vitamin D status deserves review.",
+    "it": "Può comparire in caso di scarsa esposizione solare e poche fonti alimentari, o quando è opportuno valutare lo stato della vitamina D."
+  },
+  "limits": {
+    "es": "Poco sol no equivale a deficiencia. La concentración sanguínea de 25(OH)D es el principal indicador del estado de vitamina D.",
+    "en": "Low sun exposure does not equal deficiency. Blood 25(OH)D concentration is the main indicator of vitamin D status.",
+    "it": "Una bassa esposizione solare non equivale a una carenza. La concentrazione ematica di 25(OH)D è il principale indicatore dello stato della vitamina D."
+  },
+  "evidence_label": "high_for_nutritional_role",
+  "source_refs": [
+    "NIH_VITD_HP"
+  ]
+}

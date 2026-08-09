@@ -1,0 +1,28 @@
+{
+  "rule_id": "IRON_FATIGUE_ONLY",
+  "supplement_id": "iron",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "symptom_fatigue",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "pro_labs_available"
+    ]
+  },
+  "rationale": "Fatigue alone is nonspecific and cannot establish iron deficiency.",
+  "evidence_refs": [
+    "NIH_IRON_HP"
+  ]
+}

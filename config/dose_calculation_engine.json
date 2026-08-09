@@ -1,0 +1,48 @@
+{
+  "version": "0.7.0",
+  "status": "DRAFT",
+  "purpose": "Convert evidence-supported ingredient amounts into feasible product schedules without assuming clinical equivalence.",
+  "calculated_fields": [
+    "amount_per_unit",
+    "units_per_dose",
+    "doses_per_week",
+    "weekly_total",
+    "average_daily_equivalent"
+  ],
+  "hard_rules": [
+    "Arithmetic equivalence is descriptive only until a schedule has evidence-supported status.",
+    "If the evidence-supported pattern is daily, prefer a product/form that can deliver the supported daily amount rather than concentrating doses on fewer days.",
+    "A tablet can be fractionated only when the manufacturer/formulation permits splitting.",
+    "Capsules and softgels are not treated as divisible.",
+    "Powders and liquids can support fractional amounts only when they can be measured with adequate accuracy.",
+    "If no feasible evidence-supported schedule matches the product, Vitami should recommend changing product strength/form rather than inventing a schedule.",
+    "Treatment regimens requiring diagnosis/laboratory follow-up remain professional-only."
+  ],
+  "example_logic": [
+    {
+      "ingredient": "omega_3_epa_dha",
+      "product_example": "1000 mg EPA+DHA softgel",
+      "hypothetical_desired_average": "500 mg/day",
+      "arithmetic_options": [
+        "0.5 softgel/day = 500 mg/day average",
+        "1 softgel every 2 days = 500 mg/day average"
+      ],
+      "vitami_result": "No automatic schedule: softgel is not assumed divisible and generic alternate-day clinical equivalence is not established. Prefer a lower-strength product if a validated 500 mg/day target exists for the indication."
+    },
+    {
+      "ingredient": "creatine_monohydrate",
+      "product_example": "powder",
+      "hypothetical_supported_target": "3 g/day",
+      "vitami_result": "Measure approximately 3 g daily if the product allows accurate measurement. Do not substitute 6 g every other day merely because the weekly average matches."
+    },
+    {
+      "ingredient": "caffeine_performance",
+      "product_example": "event-linked tablet/capsule",
+      "vitami_result": "Calculate the evidence-based mg/kg range only after body weight, baseline caffeine, sleep and safety checks; schedule remains tied to the event rather than daily averaging."
+    },
+    {
+      "ingredient": "iron",
+      "vitami_result": "Alternate-day schedules may be scientifically relevant in diagnosed iron-depletion/iron-deficiency contexts, but remain professional-only and are not derived by halving a daily target."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "rule_id": "CURCUMIN_LIVER",
+  "supplement_id": "curcumin_turmeric",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "conditions_liver",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Enhanced-bioavailability curcumin products have been linked to liver injury.",
+  "evidence_refs": [
+    "NCCIH_TURMERIC"
+  ]
+}

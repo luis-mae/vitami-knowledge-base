@@ -1,0 +1,26 @@
+{
+  "rule_id": "VITC_KIDNEY_STONES",
+  "supplement_id": "vitamin_c",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "conditions_kidney_stones",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "High supplemental doses may be inappropriate in selected kidney-stone contexts.",
+  "evidence_refs": [
+    "NIH_VITC_HP"
+  ]
+}

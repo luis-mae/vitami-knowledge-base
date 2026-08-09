@@ -1,0 +1,27 @@
+{
+  "dose_rule_id": "CREATINE_MAINTENANCE_DAILY",
+  "supplement_id": "creatine_monohydrate",
+  "status": "draft_evidence_supported",
+  "applies_when": {
+    "recommendation_min": "C_potential_benefit",
+    "safety_override_absent": true
+  },
+  "schedule": {
+    "pattern": "daily",
+    "amount_range": [
+      3,
+      5
+    ],
+    "unit": "g/day"
+  },
+  "temporal_archetype": "chronic_accumulation",
+  "notes": "No loading phase is required. Training-days-only substitution is not assumed equivalent.",
+  "review": {
+    "candidate_review_days": 28,
+    "purpose": "adherence_tolerance_goal_response",
+    "automatic_titration": false
+  },
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

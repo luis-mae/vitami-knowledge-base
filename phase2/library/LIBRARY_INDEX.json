@@ -1,0 +1,23 @@
+{
+  "version": "0.8.0",
+  "status": "DRAFT",
+  "record_count": 10,
+  "records": [
+    "vitamin_b12",
+    "vitamin_d",
+    "creatine_monohydrate",
+    "caffeine_performance",
+    "iron",
+    "omega_3_epa_dha",
+    "biotin",
+    "collagen_peptides",
+    "curcumin_turmeric",
+    "lutein_zeaxanthin"
+  ],
+  "languages": [
+    "es",
+    "en",
+    "it"
+  ],
+  "principle": "Library content explains evidence and limitations. It is not itself a recommendation."
+}

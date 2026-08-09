@@ -1,0 +1,27 @@
+{
+  "id": "lutein_zeaxanthin",
+  "title": {
+    "es": "Luteína + zeaxantina",
+    "en": "Lutein + zeaxanthin",
+    "it": "Luteina + zeaxantina"
+  },
+  "what_it_is": {
+    "es": "Carotenoides presentes en la retina y en ciertos alimentos, utilizados también en fórmulas para salud ocular.",
+    "en": "Carotenoids found in the retina and certain foods, also used in eye-health formulas.",
+    "it": "Carotenoidi presenti nella retina e in alcuni alimenti, utilizzati anche in formulazioni per la salute oculare."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Vitami puede mostrar información sobre ellos cuando existe un contexto ocular relevante.",
+    "en": "Vitami may show information about them when there is a relevant eye-health context.",
+    "it": "Vitami può mostrare informazioni su di essi quando esiste un contesto oculare rilevante."
+  },
+  "limits": {
+    "es": "La evidencia clínica más sólida corresponde a la fórmula AREDS2 en personas con etapas específicas de degeneración macular asociada a la edad; no es una recomendación preventiva universal.",
+    "en": "The strongest clinical evidence relates to the AREDS2 formula in people with specific stages of age-related macular degeneration; it is not a universal preventive recommendation.",
+    "it": "Le evidenze cliniche più solide riguardano la formula AREDS2 nelle persone con specifici stadi di degenerazione maculare legata all'età; non è una raccomandazione preventiva universale."
+  },
+  "evidence_label": "high_for_specific_areds2_context",
+  "source_refs": [
+    "NEI_AREDS2"
+  ]
+}

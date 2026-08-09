@@ -1,0 +1,26 @@
+{
+  "rule_id": "IRON_KNOWN_HIGH_INTAKE",
+  "supplement_id": "iron",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "iron"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "request_total_intake_review",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Existing elemental iron dose must be known before adding more.",
+  "evidence_refs": [
+    "NIH_IRON_HP"
+  ]
+}

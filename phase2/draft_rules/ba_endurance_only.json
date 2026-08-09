@@ -1,0 +1,26 @@
+{
+  "rule_id": "BA_ENDURANCE_ONLY",
+  "supplement_id": "beta_alanine",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_type",
+        "endurance_only"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Evidence is less compelling for pure endurance contexts.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "omega_3_epa_dha",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_OMEGA3_HP"
+  ],
+  "reference_values": {
+    "epa_dha_rda": "not_established",
+    "generic_ul": "not_established_by_IOM",
+    "safety_context": {
+      "efsa_long_term_combined_epa_dha_up_to": 5,
+      "unit": "g/day",
+      "note": "Safety ceiling, not target dose."
+    }
+  },
+  "key_evidence": [
+    "Evidence differs by cardiovascular outcome and population.",
+    "Fish/seafood intake has stronger general dietary support than universal supplementation.",
+    "High-dose EPA/DHA can have antiplatelet effects; 4 g/day trials showed a small atrial-fibrillation signal in high-risk populations."
+  ],
+  "required_questions": [
+    "diet_fatty_fish_weekly",
+    "diet_type",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "medications_regular_use",
+    "conditions_bleeding",
+    "safety_upcoming_surgery",
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "alternate_day_50pct": "candidate_not_active",
+    "reason": "Average weekly equivalence is calculable, but clinical equivalence of alternate-day dosing is not assumed."
+  },
+  "review_protocol": {
+    "status": "goal_dependent",
+    "automatic_days": null
+  }
+}

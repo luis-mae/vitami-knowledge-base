@@ -1,0 +1,162 @@
+{
+  "version": "0.9.0",
+  "principle": "Preservar el flujo actual y añadir profundidad solo cuando una regla científica lo necesita.",
+  "sections": [
+    {
+      "section": "Alimentación",
+      "base_sequence": [
+        "diet_type",
+        "diet_fatty_fish_weekly",
+        "diet_animal_products_frequency",
+        "diet_dairy_calcium_sources"
+      ],
+      "conditional_examples": [
+        {
+          "if": {
+            "diet_type": "vegan"
+          },
+          "ask": [
+            "diet_fortified_foods",
+            "supplements_current_use"
+          ],
+          "why": [
+            "B12",
+            "zinc",
+            "iron",
+            "omega-3"
+          ]
+        },
+        {
+          "if": {
+            "diet_type": "vegetarian"
+          },
+          "ask": [
+            "diet_fortified_foods"
+          ],
+          "why": [
+            "B12",
+            "iron",
+            "zinc"
+          ]
+        },
+        {
+          "if": {
+            "selenium_rule_triggered": true
+          },
+          "ask": [
+            "diet_brazil_nuts_frequency"
+          ],
+          "why": [
+            "selenium_total_exposure"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Actividad",
+      "base_sequence": [
+        "activity_level"
+      ],
+      "if_active": [
+        "activity_type",
+        "activity_days_per_week",
+        "activity_session_duration",
+        "activity_intensity"
+      ],
+      "conditional_examples": [
+        {
+          "if": {
+            "session_duration": ">90",
+            "sweat_or_endurance_relevant": true
+          },
+          "ask": [
+            "activity_sweat_level"
+          ],
+          "why": [
+            "hydration_electrolytes"
+          ]
+        },
+        {
+          "if": {
+            "acute_performance_candidate": true
+          },
+          "ask": [
+            "pro_weight",
+            "activity_typical_time",
+            "lifestyle_caffeine_daily"
+          ],
+          "why": [
+            "caffeine_event_dosing"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Descanso",
+      "base_sequence": [
+        "sleep_hours"
+      ],
+      "conditional_examples": [
+        {
+          "if": {
+            "goal_or_rule": [
+              "sleep_rest",
+              "energy_vitality",
+              "caffeine_performance"
+            ]
+          },
+          "ask": [
+            "symptom_sleep"
+          ],
+          "why": [
+            "sleep_quality_vs_duration"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Sol",
+      "base_sequence": [
+        "lifestyle_sun_exposure"
+      ],
+      "conditional_examples": [
+        {
+          "if": {
+            "low_sun": true
+          },
+          "ask": [
+            "diet_fatty_fish_weekly",
+            "diet_fortified_foods"
+          ],
+          "why": [
+            "vitamin_d_context"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Objetivos",
+      "base_sequence": [
+        "goals_primary"
+      ],
+      "note": "Los objetivos no suman puntos por sí solos; abren ramas relevantes."
+    },
+    {
+      "section": "Salud",
+      "base_sequence": [
+        "supplements_current_use",
+        "medications_regular_use"
+      ],
+      "conditional_safety": [
+        "conditions_kidney",
+        "conditions_liver",
+        "conditions_kidney_stones",
+        "conditions_bleeding",
+        "conditions_allergies",
+        "safety_upcoming_surgery",
+        "profile_pregnancy",
+        "profile_lactation"
+      ]
+    }
+  ]
+}

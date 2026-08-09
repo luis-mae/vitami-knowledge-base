@@ -1,0 +1,256 @@
+{
+  "version": "0.7.0",
+  "runs": [
+    {
+      "profile_id": "sim_vegan_low_fortified",
+      "label": "Adulto vegano, pocos fortificados, sin suplementos",
+      "expected_warning": "No inferir hierro bajo sin laboratorio.",
+      "results": [
+        {
+          "supplement_id": "vitamin_b12",
+          "score": 6,
+          "result": "B_consider",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "B12_VEGAN_LOW_FORTIFIED"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "omega_3_epa_dha",
+          "score": 3,
+          "result": "D_optional_limited",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "O3_LOW_FISH"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "iron",
+          "score": 2,
+          "result": "D_optional_limited",
+          "decision_status": "provisional_pending_questions",
+          "questions_to_ask": [
+            "pro_labs_available"
+          ],
+          "matched_rules": [
+            "IRON_VEGETARIAN_CONTEXT"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "zinc",
+          "score": 2,
+          "result": "D_optional_limited",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "ZINC_VEGAN"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_strength_training",
+      "label": "Adulto sano, entrenamiento de fuerza, objetivo masa/fuerza",
+      "expected_warning": "Creatina debe modelarse como acumulativa, no solo días de entrenamiento.",
+      "results": [
+        {
+          "supplement_id": "creatine_monohydrate",
+          "score": 7,
+          "result": "B_consider",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "CREATINE_STRENGTH"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_hair_loss",
+      "label": "Caída de cabello sin diagnóstico",
+      "expected_warning": "Ninguno debe escalar a recomendación fuerte solo por caída de cabello.",
+      "results": [
+        {
+          "supplement_id": "biotin",
+          "score": 1,
+          "result": "E_no_current_indication",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "BIOTIN_HAIR_ONLY"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "zinc",
+          "score": 1,
+          "result": "E_no_current_indication",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "ZINC_HAIR_ONLY"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "selenium",
+          "score": 0,
+          "result": "E_no_current_indication",
+          "decision_status": "provisional_pending_questions",
+          "questions_to_ask": [
+            "diet_brazil_nuts_frequency",
+            "supplements_current_use"
+          ],
+          "matched_rules": [
+            "SEL_HAIR_NAILS"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_low_sun_low_diet",
+      "label": "Poco sol, poco pescado y pocos fortificados",
+      "expected_warning": "Vitamina D no implica diagnóstico de deficiencia.",
+      "results": [
+        {
+          "supplement_id": "vitamin_d",
+          "score": 6,
+          "result": "B_consider",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "VITD_LOW_SUN_LOW_DIET",
+            "VITD_LOW_SUN"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "omega_3_epa_dha",
+          "score": 3,
+          "result": "D_optional_limited",
+          "decision_status": "provisional_pending_questions",
+          "questions_to_ask": [
+            "diet_type"
+          ],
+          "matched_rules": [
+            "O3_LOW_FISH"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_sports_sleep_problem",
+      "label": "Deportista con mal sueño y alto consumo habitual de cafeína",
+      "expected_warning": "Cafeína debe bajar de prioridad por sueño y consumo basal.",
+      "results": [
+        {
+          "supplement_id": "beta_alanine",
+          "score": 5,
+          "result": "C_potential_benefit",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "BA_HIGH_INTENSITY"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "creatine_monohydrate",
+          "score": 5,
+          "result": "C_potential_benefit",
+          "decision_status": "provisional_pending_questions",
+          "questions_to_ask": [
+            "activity_days_per_week"
+          ],
+          "matched_rules": [
+            "CREATINE_HIGH_INTENSITY_SPORT"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "caffeine_performance",
+          "score": -1,
+          "result": "E_no_current_indication",
+          "decision_status": "provisional_pending_questions",
+          "questions_to_ask": [
+            "pro_weight"
+          ],
+          "matched_rules": [
+            "CAFF_PERFORMANCE",
+            "CAFF_SLEEP",
+            "CAFF_HIGH_BASELINE"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_antioxidants",
+      "label": "Usuario sano que solo busca antioxidantes",
+      "expected_warning": "No recomendar vitamina E o selenio solo por objetivo antioxidante.",
+      "results": [
+        {
+          "supplement_id": "selenium",
+          "score": 0,
+          "result": "E_no_current_indication",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "SEL_ANTIOXIDANT_ONLY"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        },
+        {
+          "supplement_id": "vitamin_e",
+          "score": 0,
+          "result": "E_no_current_indication",
+          "decision_status": "complete_for_available_draft_rules",
+          "questions_to_ask": [],
+          "matched_rules": [
+            "VITE_ANTIOXIDANT_ONLY"
+          ],
+          "effects": [
+            "add_score"
+          ]
+        }
+      ]
+    }
+  ]
+}

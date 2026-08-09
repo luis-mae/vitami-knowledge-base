@@ -1,0 +1,271 @@
+{
+  "version": "0.8.0",
+  "runs": [
+    {
+      "profile_id": "sim_pregnancy_fatigue_iron",
+      "label": "Embarazo con cansancio y dieta sin dato de laboratorio",
+      "reason": "El embarazo eleva relevancia pero no autoriza tratamiento autónomo.",
+      "results": [
+        {
+          "supplement_id": "iron",
+          "score": 4,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [
+            "pro_labs_available"
+          ],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "IRON_FATIGUE_ONLY",
+            "IRON_PREGNANCY"
+          ]
+        },
+        {
+          "supplement_id": "curcumin_turmeric",
+          "score": 0,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "CURCUMIN_PREG"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_kidney_low_sun",
+      "label": "Poco sol con enfermedad renal",
+      "reason": "El bloqueo de seguridad debe vencer a la puntuación positiva.",
+      "results": [
+        {
+          "supplement_id": "vitamin_d",
+          "score": 6,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "VITD_LOW_SUN_LOW_DIET",
+            "VITD_KIDNEY",
+            "VITD_LOW_SUN"
+          ]
+        },
+        {
+          "supplement_id": "creatine_monohydrate",
+          "score": 0,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "CREATINE_KIDNEY"
+          ]
+        },
+        {
+          "supplement_id": "omega_3_epa_dha",
+          "score": 3,
+          "result": "D_optional_limited",
+          "questions_to_ask": [
+            "diet_type"
+          ],
+          "decision_status": "provisional_pending_questions",
+          "matched_rules": [
+            "O3_LOW_FISH"
+          ]
+        },
+        {
+          "supplement_id": "vitamin_b12",
+          "score": 2,
+          "result": "D_optional_limited",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "B12_AGE50_CONTEXT"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_bleeding_omega3",
+      "label": "Bajo consumo de pescado con trastorno de sangrado",
+      "reason": "Seguridad primero.",
+      "results": [
+        {
+          "supplement_id": "omega_3_epa_dha",
+          "score": 3,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "O3_LOW_FISH",
+            "O3_BLEEDING"
+          ]
+        },
+        {
+          "supplement_id": "vitamin_e",
+          "score": 0,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "VITE_BLEEDING"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_strength_kidney",
+      "label": "Fuerza con objetivo muscular y enfermedad renal",
+      "reason": "La regla renal debe prevalecer sobre el beneficio deportivo.",
+      "results": [
+        {
+          "supplement_id": "creatine_monohydrate",
+          "score": 7,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "CREATINE_STRENGTH",
+            "CREATINE_KIDNEY"
+          ]
+        },
+        {
+          "supplement_id": "vitamin_d",
+          "score": 0,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "VITD_KIDNEY"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_hair_already_selenium",
+      "label": "Caída de cabello y suplemento con selenio ya en uso",
+      "reason": "El sistema debe investigar exposición/exceso, no sumar selenio por el síntoma.",
+      "results": [
+        {
+          "supplement_id": "biotin",
+          "score": 1,
+          "result": "E_no_current_indication",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "BIOTIN_HAIR_ONLY"
+          ]
+        },
+        {
+          "supplement_id": "zinc",
+          "score": 1,
+          "result": "E_no_current_indication",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "ZINC_HAIR_ONLY"
+          ]
+        },
+        {
+          "supplement_id": "selenium",
+          "score": 0,
+          "result": "E_no_current_indication",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "SEL_HAIR_NAILS"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_amd_intermediate",
+      "label": "Persona con AMD intermedia conocida",
+      "reason": "Todavía no existe regla clínica suficiente; debe quedar para evaluación profesional.",
+      "results": [
+        {
+          "supplement_id": "vitamin_b12",
+          "score": 2,
+          "result": "D_optional_limited",
+          "questions_to_ask": [
+            "diet_fortified_foods"
+          ],
+          "decision_status": "provisional_pending_questions",
+          "matched_rules": [
+            "B12_AGE50_CONTEXT"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_general_eye_prevention",
+      "label": "Persona sana que quiere prevenir problemas de visión",
+      "reason": "AREDS2 no es prevención universal.",
+      "results": [
+        {
+          "supplement_id": "vitamin_b12",
+          "score": 2,
+          "result": "D_optional_limited",
+          "questions_to_ask": [
+            "diet_fortified_foods"
+          ],
+          "decision_status": "provisional_pending_questions",
+          "matched_rules": [
+            "B12_AGE50_CONTEXT"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_joint_liver_curcumin",
+      "label": "Dolor articular con enfermedad hepática",
+      "reason": "La seguridad hepática debe anular una recomendación potencial.",
+      "results": [
+        {
+          "supplement_id": "curcumin_turmeric",
+          "score": 3,
+          "result": "X_professional_review_required",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "CURCUMIN_LIVER",
+            "CURCUMIN_JOINT"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_endurance_caffeine_good_sleep",
+      "label": "Deportista de resistencia, buen sueño y bajo consumo de cafeína",
+      "reason": "Debe aparecer como candidata ligada al evento, sin convertirla en uso diario.",
+      "results": [
+        {
+          "supplement_id": "caffeine_performance",
+          "score": 6,
+          "result": "B_consider",
+          "questions_to_ask": [],
+          "decision_status": "complete_for_available_draft_rules",
+          "matched_rules": [
+            "CAFF_PERFORMANCE"
+          ]
+        }
+      ]
+    },
+    {
+      "profile_id": "sim_digestive_generic_probiotic",
+      "label": "Objetivo digestivo sin cepa probiótica concreta",
+      "reason": "Debe pedir cepa/producto antes de una recomendación.",
+      "results": [
+        {
+          "supplement_id": "probiotics",
+          "score": 0,
+          "result": "E_no_current_indication",
+          "questions_to_ask": [
+            "probiotic_strain_product"
+          ],
+          "decision_status": "provisional_pending_questions",
+          "matched_rules": [
+            "PROBIO_DIGESTIVE"
+          ]
+        }
+      ]
+    }
+  ]
+}

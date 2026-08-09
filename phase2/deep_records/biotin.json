@@ -1,0 +1,45 @@
+{
+  "id": "biotin",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_BIOTIN_HP"
+  ],
+  "reference_values": {
+    "age_19_plus": {
+      "ai": 30,
+      "unit": "mcg/day"
+    },
+    "pregnancy": {
+      "ai": 30,
+      "unit": "mcg/day"
+    },
+    "lactation": {
+      "ai": 35,
+      "unit": "mcg/day"
+    },
+    "ul": "not_established"
+  },
+  "key_evidence": [
+    "Deficiency can include rash, hair loss and brittle nails.",
+    "Evidence for cosmetic supplementation in people without deficiency is supported mainly by a few case reports/small studies.",
+    "High biotin intake can interfere with laboratory tests, including hormone and 25(OH)D assays."
+  ],
+  "required_questions": [
+    "goals_primary",
+    "symptom_hair_nails",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "pro_labs_available",
+    "conditions_other_relevant"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "cosmetic_high_dose": "not_recommended_without_specific_evidence"
+  },
+  "review_protocol": {
+    "status": "not_defined",
+    "automatic_days": null
+  }
+}

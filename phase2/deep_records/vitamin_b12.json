@@ -1,0 +1,49 @@
+{
+  "id": "vitamin_b12",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_B12_HP"
+  ],
+  "reference_values": {
+    "age_14_plus": {
+      "rda": 2.4,
+      "unit": "mcg/day"
+    },
+    "pregnancy": {
+      "rda": 2.6,
+      "unit": "mcg/day"
+    },
+    "lactation": {
+      "rda": 2.8,
+      "unit": "mcg/day"
+    },
+    "ul": "not_established"
+  },
+  "key_evidence": [
+    "B12 occurs naturally in animal-source foods; some plant foods are fortified.",
+    "No UL established because toxicity potential is low.",
+    "Diet and absorption-risk context matter; symptoms alone are insufficient."
+  ],
+  "required_questions": [
+    "profile_age",
+    "diet_type",
+    "diet_animal_products_frequency",
+    "diet_fortified_foods",
+    "supplements_current_use"
+  ],
+  "optional_questions": [
+    "medications_regular_use",
+    "pro_prior_deficiencies",
+    "pro_labs_available"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "intermittent_schedule": "not_active",
+    "treatment": "professional_if_deficiency_or_absorption_issue"
+  },
+  "review_protocol": {
+    "status": "context_or_lab_dependent",
+    "automatic_days": null
+  }
+}

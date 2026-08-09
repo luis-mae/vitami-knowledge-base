@@ -1,0 +1,29 @@
+{
+  "rule_id": "CAFF_SLEEP",
+  "supplement_id": "caffeine_performance",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "symptom_sleep",
+        [
+          "poor",
+          "insomnia"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": -3,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Sleep problems reduce suitability of stimulant-based recommendations.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

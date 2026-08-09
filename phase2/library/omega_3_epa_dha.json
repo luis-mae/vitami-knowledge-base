@@ -1,0 +1,27 @@
+{
+  "id": "omega_3_epa_dha",
+  "title": {
+    "es": "Omega‑3 EPA/DHA",
+    "en": "Omega‑3 EPA/DHA",
+    "it": "Omega‑3 EPA/DHA"
+  },
+  "what_it_is": {
+    "es": "Ácidos grasos omega‑3 de cadena larga presentes principalmente en pescados y mariscos y disponibles también como suplementos.",
+    "en": "Long-chain omega‑3 fatty acids found mainly in fish and seafood and also available as supplements.",
+    "it": "Acidi grassi omega‑3 a lunga catena presenti soprattutto in pesce e frutti di mare e disponibili anche come integratori."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando el consumo de pescado es bajo o cuando existe un objetivo específico con evidencia para EPA/DHA.",
+    "en": "It may appear when fish intake is low or when there is a specific goal with evidence for EPA/DHA.",
+    "it": "Può comparire quando il consumo di pesce è basso o esiste un obiettivo specifico supportato da evidenze per EPA/DHA."
+  },
+  "limits": {
+    "es": "Una baja ingesta de pescado no determina automáticamente una dosis de suplemento. Vitami tampoco asumirá que duplicar una dosis cada dos días equivale clínicamente a una dosis diaria menor.",
+    "en": "Low fish intake does not automatically determine a supplement dose. Vitami also will not assume that doubling a dose every other day is clinically equivalent to a smaller daily dose.",
+    "it": "Un basso consumo di pesce non determina automaticamente una dose di integratore. Vitami inoltre non presume che raddoppiare la dose a giorni alterni sia clinicamente equivalente a una dose giornaliera più bassa."
+  },
+  "evidence_label": "context_dependent",
+  "source_refs": [
+    "NIH_OMEGA3_HP"
+  ]
+}

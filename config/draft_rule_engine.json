@@ -1,0 +1,47 @@
+{
+  "version": "0.6.0",
+  "status": "DRAFT",
+  "principles": [
+    "Safety blocks are evaluated before positive relevance scoring.",
+    "Goals alone never create a supplement recommendation.",
+    "Symptoms alone never diagnose deficiency.",
+    "A rule may increase relevance, request more data, cap recommendation level, or require professional review.",
+    "Missing required data returns insufficient_user_data.",
+    "Product dose/frequency rules remain separate from supplement relevance rules."
+  ],
+  "score_interpretation": [
+    {
+      "min": 0,
+      "max": 1,
+      "result": "E_no_current_indication"
+    },
+    {
+      "min": 2,
+      "max": 3,
+      "result": "D_optional_limited"
+    },
+    {
+      "min": 4,
+      "max": 5,
+      "result": "C_potential_benefit"
+    },
+    {
+      "min": 6,
+      "max": 7,
+      "result": "B_consider"
+    },
+    {
+      "min": 8,
+      "max": 999,
+      "result": "A_high_relevance"
+    }
+  ],
+  "override_states": [
+    "X_professional_review_required",
+    "insufficient_user_data"
+  ],
+  "pending_question_policy": {
+    "rule": "If a fired rule asks for information that is not yet answered, the visible recommendation is provisional and must not expose a dose.",
+    "status": "provisional_pending_questions"
+  }
+}

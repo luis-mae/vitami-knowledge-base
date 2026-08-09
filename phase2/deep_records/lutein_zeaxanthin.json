@@ -1,0 +1,37 @@
+{
+  "id": "lutein_zeaxanthin",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NEI_AREDS2"
+  ],
+  "evidence_doses": [
+    {
+      "lutein": 10,
+      "zeaxanthin": 2,
+      "unit": "mg/day",
+      "context": "AREDS2 randomized formula component"
+    }
+  ],
+  "key_evidence": [
+    "AREDS2 enrolled people with intermediate AMD in both eyes or intermediate AMD in one eye and advanced AMD in the other.",
+    "People without AMD or with early AMD were excluded because AREDS showed no benefit for them.",
+    "Lutein/zeaxanthin belongs to an AREDS2 formula context, not a universal 'eye-health' supplement."
+  ],
+  "required_questions": [
+    "profile_age",
+    "goals_primary",
+    "conditions_other_relevant"
+  ],
+  "safety_questions": [
+    "lifestyle_smoking"
+  ],
+  "temporal_archetype": "chronic_steady_exposure",
+  "dose_logic": {
+    "basic_status": "professional_supervision_required",
+    "generic_eye_prevention": "not_recommended"
+  },
+  "review_protocol": {
+    "status": "ophthalmology_context",
+    "automatic_days": null
+  }
+}
