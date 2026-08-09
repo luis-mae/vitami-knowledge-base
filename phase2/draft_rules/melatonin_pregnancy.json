@@ -1,0 +1,31 @@
+{
+  "rule_id": "MELATONIN_PREGNANCY",
+  "supplement_id": "melatonin",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ],
+      [
+        "goals_primary_contains",
+        "sleep_rest"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Pregnancy requires individualized review because evidence on supplement safety is limited.",
+  "evidence_refs": [
+    "NCCIH_MELATONIN",
+    "NIH_PREGNANCY_HP"
+  ]
+}

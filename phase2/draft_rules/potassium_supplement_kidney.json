@@ -1,0 +1,26 @@
+{
+  "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+  "supplement_id": "potassium",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Kidney disease can impair potassium handling; supplemental potassium should not be automatically recommended.",
+  "evidence_refs": [
+    "NIH_POTASSIUM_HP"
+  ]
+}

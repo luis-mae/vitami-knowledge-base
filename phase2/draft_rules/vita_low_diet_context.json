@@ -1,0 +1,39 @@
+{
+  "rule_id": "VITA_LOW_DIET_CONTEXT",
+  "supplement_id": "vitamin_a",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "diet_animal_products_frequency",
+        [
+          "never",
+          "occasional"
+        ]
+      ],
+      [
+        "diet_fruit_veg_daily",
+        [
+          "low",
+          "none"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 3,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "supplements_current_use",
+      "profile_pregnancy"
+    ]
+  },
+  "rationale": "Low intake of both animal-source vitamin A foods and fruit/vegetable carotenoid sources can justify reviewing intake, not diagnosing deficiency.",
+  "evidence_refs": [
+    "NIH_VITA_HP"
+  ]
+}

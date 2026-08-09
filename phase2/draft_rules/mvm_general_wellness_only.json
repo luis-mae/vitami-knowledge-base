@@ -1,0 +1,26 @@
+{
+  "rule_id": "MVM_GENERAL_WELLNESS_ONLY",
+  "supplement_id": "multivitamin_mineral",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "general_wellness"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 1,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "General wellness alone does not justify a strong multivitamin recommendation or prevention claim.",
+  "evidence_refs": [
+    "NIH_MVM_HP"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "rule_id": "MAGGLY_PARENT_GAP",
+  "supplement_id": "magnesium_glycinate",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "dietary_gaps"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "diet_type"
+    ]
+  },
+  "rationale": "Magnesium glycinate should inherit only the nutritional context of elemental magnesium; a sleep benefit is not assumed from form alone.",
+  "evidence_refs": [
+    "NIH_MAGNESIUM_HP"
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "version": "0.9.0",
+  "version": "1.5.0",
   "phase": "1_FINAL",
   "status": "draft",
-  "notes": "Phase 2: se agregan preguntas condicionales/producto sin ampliar el núcleo universal BASIC.",
+  "notes": "Se agregan preguntas condicionales para reglas de seguridad/relevancia; no se amplía automáticamente el núcleo BASIC.",
   "questions": [
     {
       "question_id": "profile_age",
@@ -4072,6 +4072,698 @@
         "last_reviewed": "2026-08-09",
         "reviewed_by": [],
         "notes": "Question observed in current Emergent UI and integrated into Vitami Phase 2."
+      }
+    },
+    {
+      "question_id": "conditions_thyroid",
+      "tier": "CONDITIONAL",
+      "domain": "safety",
+      "text": {
+        "es": "¿Tenés una enfermedad o trastorno de tiroides diagnosticado?",
+        "en": "Do you have a diagnosed thyroid condition?",
+        "it": "Hai una patologia tiroidea diagnosticata?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No sé",
+            "en": "Not sure",
+            "it": "Non so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "conditions_heart",
+      "tier": "CONDITIONAL",
+      "domain": "safety",
+      "text": {
+        "es": "¿Tenés una enfermedad cardíaca diagnosticada?",
+        "en": "Do you have diagnosed heart disease?",
+        "it": "Hai una cardiopatia diagnosticata?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No sé",
+            "en": "Not sure",
+            "it": "Non so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "symptom_neurologic",
+      "tier": "CONDITIONAL",
+      "domain": "safety",
+      "text": {
+        "es": "¿Tenés hormigueo, entumecimiento o alteraciones persistentes de la sensibilidad?",
+        "en": "Do you have persistent tingling, numbness, or sensory changes?",
+        "it": "Hai formicolio, intorpidimento o alterazioni persistenti della sensibilità?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "sleep_problem_type",
+      "tier": "CONDITIONAL",
+      "domain": "sleep",
+      "text": {
+        "es": "¿Qué describe mejor tu problema de sueño?",
+        "en": "What best describes your sleep problem?",
+        "it": "Cosa descrive meglio il tuo problema di sonno?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "sleep_onset",
+          "label": {
+            "es": "Me cuesta dormirme",
+            "en": "Difficulty falling asleep",
+            "it": "Difficoltà ad addormentarmi"
+          }
+        },
+        {
+          "value": "sleep_maintenance",
+          "label": {
+            "es": "Me despierto durante la noche",
+            "en": "Waking during the night",
+            "it": "Mi sveglio durante la notte"
+          }
+        },
+        {
+          "value": "jet_lag",
+          "label": {
+            "es": "Jet lag",
+            "en": "Jet lag",
+            "it": "Jet lag"
+          }
+        },
+        {
+          "value": "shift_related",
+          "label": {
+            "es": "Relacionado con turnos",
+            "en": "Shift-work related",
+            "it": "Legato ai turni"
+          }
+        },
+        {
+          "value": "chronic_insomnia",
+          "label": {
+            "es": "Insomnio crónico o persistente",
+            "en": "Chronic/persistent insomnia",
+            "it": "Insonnia cronica o persistente"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "diet_fiber_sources",
+      "tier": "CONDITIONAL",
+      "domain": "diet",
+      "text": {
+        "es": "¿Cómo es tu consumo habitual de alimentos ricos en fibra?",
+        "en": "How is your usual intake of fiber-rich foods?",
+        "it": "Com'è il tuo consumo abituale di alimenti ricchi di fibre?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "low",
+          "label": {
+            "es": "Bajo",
+            "en": "Low",
+            "it": "Basso"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderado",
+            "en": "Moderate",
+            "it": "Moderato"
+          }
+        },
+        {
+          "value": "high",
+          "label": {
+            "es": "Alto",
+            "en": "High",
+            "it": "Alto"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No sé",
+            "en": "Not sure",
+            "it": "Non so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "hydration_status",
+      "tier": "CONDITIONAL",
+      "domain": "lifestyle",
+      "text": {
+        "es": "En general, ¿sentís que tomás suficiente líquido durante el día?",
+        "en": "In general, do you feel you drink enough fluid during the day?",
+        "it": "In generale, ritieni di bere abbastanza liquidi durante il giorno?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "adequate",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "low",
+          "label": {
+            "es": "Probablemente no",
+            "en": "Probably not",
+            "it": "Probabilmente no"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No sé",
+            "en": "Not sure",
+            "it": "Non so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "swallowing_difficulty",
+      "tier": "CONDITIONAL",
+      "domain": "safety",
+      "text": {
+        "es": "¿Tenés dificultad para tragar alimentos, comprimidos o cápsulas?",
+        "en": "Do you have difficulty swallowing foods, tablets, or capsules?",
+        "it": "Hai difficoltà a deglutire alimenti, compresse o capsule?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "diet_protein_sources",
+      "tier": "CONDITIONAL",
+      "domain": "diet",
+      "text": {
+        "es": "¿Cómo describirías tu consumo habitual de alimentos ricos en proteínas?",
+        "en": "How would you describe your usual intake of protein-rich foods?",
+        "it": "Come descriveresti il tuo consumo abituale di alimenti ricchi di proteine?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "low",
+          "label": {
+            "es": "Bajo",
+            "en": "Low",
+            "it": "Basso"
+          }
+        },
+        {
+          "value": "moderate",
+          "label": {
+            "es": "Moderado",
+            "en": "Moderate",
+            "it": "Moderato"
+          }
+        },
+        {
+          "value": "high",
+          "label": {
+            "es": "Alto",
+            "en": "High",
+            "it": "Alto"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No sé",
+            "en": "Not sure",
+            "it": "Non so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": false,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "food_allergies",
+      "tier": "CONDITIONAL",
+      "domain": "safety",
+      "text": {
+        "es": "¿Tenés alguna alergia alimentaria diagnosticada?",
+        "en": "Do you have any diagnosed food allergy?",
+        "it": "Hai qualche allergia alimentare diagnosticata?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "multi_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "milk",
+          "label": {
+            "es": "Leche/proteína de leche",
+            "en": "Milk/milk protein",
+            "it": "Latte/proteine del latte"
+          }
+        },
+        {
+          "value": "egg",
+          "label": {
+            "es": "Huevo",
+            "en": "Egg",
+            "it": "Uovo"
+          }
+        },
+        {
+          "value": "soy",
+          "label": {
+            "es": "Soja",
+            "en": "Soy",
+            "it": "Soia"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "es": "Otra",
+            "en": "Other",
+            "it": "Altra"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "es": "Ninguna",
+            "en": "None",
+            "it": "Nessuna"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
+      }
+    },
+    {
+      "question_id": "pregnancy_planning",
+      "tier": "CONDITIONAL",
+      "domain": "profile",
+      "text": {
+        "es": "¿Estás buscando embarazo o podrías quedar embarazada en los próximos meses?",
+        "en": "Are you planning pregnancy or could you become pregnant in the next few months?",
+        "it": "Stai pianificando una gravidanza o potresti rimanere incinta nei prossimi mesi?"
+      },
+      "help_text": {
+        "es": "",
+        "en": "",
+        "it": ""
+      },
+      "response_type": "single_choice",
+      "unit": null,
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "es": "Sí",
+            "en": "Yes",
+            "it": "Sì"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "es": "No",
+            "en": "No",
+            "it": "No"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "es": "No sé",
+            "en": "Not sure",
+            "it": "Non so"
+          }
+        }
+      ],
+      "required_for_basic": false,
+      "required_for_safety": true,
+      "logic": {
+        "visibility": {
+          "mode": "conditional",
+          "conditions": []
+        },
+        "followups": [],
+        "skip_if": []
+      },
+      "used_by_rules": [],
+      "data_quality": {
+        "allow_unknown": true,
+        "allow_skip": true,
+        "validation_notes": "Pregunta condicional; no inferir diagnóstico si se omite."
+      },
+      "status": "draft",
+      "review": {
+        "version": "1.5.0",
+        "last_reviewed": "2026-08-09",
+        "reviewed_by": [],
+        "notes": "Phase 2 deterministic safety/relevance."
       }
     }
   ]

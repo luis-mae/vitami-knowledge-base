@@ -1,0 +1,32 @@
+{
+  "rule_id": "VITK_CURRENT_USE_MEDICATION",
+  "supplement_id": "vitamin_k",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "vitamin_k"
+      ],
+      [
+        "medications_regular_use",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": [
+      "medications_list"
+    ]
+  },
+  "rationale": "Vitamin K supplementation can interact importantly with vitamin K antagonist anticoagulants; medication identification is required.",
+  "evidence_refs": [
+    "NIH_VITK_HP"
+  ]
+}

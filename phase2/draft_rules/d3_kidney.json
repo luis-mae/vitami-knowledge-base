@@ -1,0 +1,26 @@
+{
+  "rule_id": "D3_KIDNEY",
+  "supplement_id": "vitamin_d3",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Kidney disease changes vitamin D metabolism and requires professional review before individualized supplementation.",
+  "evidence_refs": [
+    "NIH_VITD_HP"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "rule_id": "ZGLU_VEGAN_CONTEXT",
+  "supplement_id": "zinc_gluconate",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "diet_type",
+        "vegan"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "diet_legumes_nuts_seeds",
+      "supplements_current_use"
+    ]
+  },
+  "rationale": "Plant-based diets can make zinc adequacy worth reviewing, but the gluconate form itself does not create a stronger indication.",
+  "evidence_refs": [
+    "NIH_ZINC_HP"
+  ]
+}

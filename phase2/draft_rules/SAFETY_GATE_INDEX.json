@@ -1,0 +1,259 @@
+{
+  "version": "1.0.0",
+  "status": "DRAFT",
+  "safety_gate_count": 31,
+  "gates": [
+    {
+      "rule_id": "VITE_BLEEDING",
+      "supplement_id": "vitamin_e",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_VITE_HP"
+      ]
+    },
+    {
+      "rule_id": "VITK_CURRENT_USE_MEDICATION",
+      "supplement_id": "vitamin_k",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_VITK_HP"
+      ]
+    },
+    {
+      "rule_id": "IRONBIS_PREGNANCY",
+      "supplement_id": "iron_bisglycinate",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_IRON_HP",
+        "NIH_PREGNANCY_HP"
+      ]
+    },
+    {
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "supplement_id": "vitamin_b6",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_B6_HP"
+      ]
+    },
+    {
+      "rule_id": "CAFF_SLEEP",
+      "supplement_id": "caffeine_performance",
+      "override": null,
+      "evidence_refs": [
+        "NIH_EXERCISE_HP"
+      ]
+    },
+    {
+      "rule_id": "MAGCIT_KIDNEY",
+      "supplement_id": "magnesium_citrate",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_MAGNESIUM_HP"
+      ]
+    },
+    {
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "supplement_id": "vitamin_a",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_VITA_HP",
+        "NIH_PREGNANCY_HP"
+      ]
+    },
+    {
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "supplement_id": "psyllium_fiber",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "FDA_PSYLLIUM_CHD"
+      ]
+    },
+    {
+      "rule_id": "CURCUMIN_PREG",
+      "supplement_id": "curcumin_turmeric",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NCCIH_TURMERIC"
+      ]
+    },
+    {
+      "rule_id": "IRON_KNOWN_HIGH_INTAKE",
+      "supplement_id": "iron",
+      "override": null,
+      "evidence_refs": [
+        "NIH_IRON_HP"
+      ]
+    },
+    {
+      "rule_id": "IRON_PREGNANCY",
+      "supplement_id": "iron",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_IRON_HP"
+      ]
+    },
+    {
+      "rule_id": "ZINC_ALREADY_HIGH",
+      "supplement_id": "zinc",
+      "override": null,
+      "evidence_refs": [
+        "NIH_ZINC_HP"
+      ]
+    },
+    {
+      "rule_id": "BIOTIN_LABS",
+      "supplement_id": "biotin",
+      "override": null,
+      "evidence_refs": [
+        "NIH_BIOTIN_HP"
+      ]
+    },
+    {
+      "rule_id": "CAFF_HIGH_BASELINE",
+      "supplement_id": "caffeine_performance",
+      "override": null,
+      "evidence_refs": [
+        "NIH_EXERCISE_HP"
+      ]
+    },
+    {
+      "rule_id": "CURCUMIN_LIVER",
+      "supplement_id": "curcumin_turmeric",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NCCIH_TURMERIC"
+      ]
+    },
+    {
+      "rule_id": "CREATINE_KIDNEY",
+      "supplement_id": "creatine_monohydrate",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_EXERCISE_HP"
+      ]
+    },
+    {
+      "rule_id": "O3_BLEEDING",
+      "supplement_id": "omega_3_epa_dha",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_OMEGA3_HP"
+      ]
+    },
+    {
+      "rule_id": "VITD_KIDNEY",
+      "supplement_id": "vitamin_d",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_VITD_HP"
+      ]
+    },
+    {
+      "rule_id": "D3_KIDNEY",
+      "supplement_id": "vitamin_d3",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_VITD_HP"
+      ]
+    },
+    {
+      "rule_id": "MAGGLY_KIDNEY",
+      "supplement_id": "magnesium_glycinate",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_MAGNESIUM_HP"
+      ]
+    },
+    {
+      "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
+      "supplement_id": "potassium",
+      "override": null,
+      "evidence_refs": [
+        "NIH_POTASSIUM_HP"
+      ]
+    },
+    {
+      "rule_id": "PSYLLIUM_MEDICATIONS",
+      "supplement_id": "psyllium_fiber",
+      "override": null,
+      "evidence_refs": [
+        "FDA_PSYLLIUM_CHD"
+      ]
+    },
+    {
+      "rule_id": "IODINE_THYROID_CONTEXT",
+      "supplement_id": "iodine",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_IODINE_HP"
+      ]
+    },
+    {
+      "rule_id": "CALCIUM_STONES",
+      "supplement_id": "calcium",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_CALCIUM_HP"
+      ]
+    },
+    {
+      "rule_id": "CALCIT_KIDNEY_STONES",
+      "supplement_id": "calcium_citrate",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_CALCIUM_HP"
+      ]
+    },
+    {
+      "rule_id": "MELATONIN_PREGNANCY",
+      "supplement_id": "melatonin",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NCCIH_MELATONIN",
+        "NIH_PREGNANCY_HP"
+      ]
+    },
+    {
+      "rule_id": "VITC_KIDNEY_STONES",
+      "supplement_id": "vitamin_c",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_VITC_HP"
+      ]
+    },
+    {
+      "rule_id": "WHEY_MILK_ALLERGY",
+      "supplement_id": "whey_protein",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_EXERCISE_HP"
+      ]
+    },
+    {
+      "rule_id": "ALGALO3_BLEEDING",
+      "supplement_id": "algal_omega3_dha",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_OMEGA3_HP"
+      ]
+    },
+    {
+      "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+      "supplement_id": "potassium",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_POTASSIUM_HP"
+      ]
+    },
+    {
+      "rule_id": "ELECTROLYTES_KIDNEY_HEART",
+      "supplement_id": "electrolyte_mix",
+      "override": "X_professional_review_required",
+      "evidence_refs": [
+        "NIH_POTASSIUM_HP"
+      ]
+    }
+  ],
+  "policy": "Safety gates are available in BASIC and are never paywalled. Detailed interaction analysis can be PRO."
+}

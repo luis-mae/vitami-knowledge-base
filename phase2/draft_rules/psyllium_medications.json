@@ -1,0 +1,28 @@
+{
+  "rule_id": "PSYLLIUM_MEDICATIONS",
+  "supplement_id": "psyllium_fiber",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "medications_regular_use",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "medications_list"
+    ]
+  },
+  "rationale": "Medication timing review may be needed with fiber supplements; detailed compatibility belongs in PRO/professional review.",
+  "evidence_refs": [
+    "FDA_PSYLLIUM_CHD"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "rule_id": "ELECTROLYTES_SHORT_LOW_SWEAT",
+  "supplement_id": "electrolyte_mix",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_session_duration",
+        "<30"
+      ],
+      [
+        "activity_sweat_level",
+        [
+          "low",
+          "moderate"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Short sessions with low-to-moderate sweat loss generally do not create a strong indication for an electrolyte supplement.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

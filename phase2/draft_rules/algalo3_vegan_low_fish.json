@@ -1,0 +1,32 @@
+{
+  "rule_id": "ALGALO3_VEGAN_LOW_FISH",
+  "supplement_id": "algal_omega3_dha",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "diet_type",
+        "vegan"
+      ],
+      [
+        "diet_fatty_fish_weekly",
+        0
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 3,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "supplements_current_use"
+    ]
+  },
+  "rationale": "Algal DHA/EPA is a non-fish source relevant to review in vegan users, but no universal supplement dose is implied.",
+  "evidence_refs": [
+    "NIH_OMEGA3_HP"
+  ]
+}

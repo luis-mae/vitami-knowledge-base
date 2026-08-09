@@ -1,0 +1,29 @@
+{
+  "rule_id": "IRONBIS_FATIGUE_ONLY",
+  "supplement_id": "iron_bisglycinate",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "symptom_fatigue",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 1,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "pro_labs_available",
+      "pro_prior_deficiencies"
+    ]
+  },
+  "rationale": "Fatigue alone does not diagnose iron deficiency; the bisglycinate form does not change that requirement.",
+  "evidence_refs": [
+    "NIH_IRON_HP"
+  ]
+}

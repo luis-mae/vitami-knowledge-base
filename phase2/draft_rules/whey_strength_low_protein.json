@@ -1,0 +1,38 @@
+{
+  "rule_id": "WHEY_STRENGTH_LOW_PROTEIN",
+  "supplement_id": "whey_protein",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_type_contains",
+        "strength"
+      ],
+      [
+        "goals_primary_contains",
+        "strength_muscle"
+      ],
+      [
+        "diet_protein_sources",
+        "low"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 6,
+    "recommendation_cap": "B_consider",
+    "override_result": null,
+    "ask_questions": [
+      "pro_weight",
+      "conditions_kidney",
+      "food_allergies"
+    ]
+  },
+  "rationale": "Whey can be a practical way to close a protein gap in strength-focused users when food protein appears insufficient.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

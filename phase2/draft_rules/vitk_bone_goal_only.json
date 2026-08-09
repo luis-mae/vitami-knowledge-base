@@ -1,0 +1,28 @@
+{
+  "rule_id": "VITK_BONE_GOAL_ONLY",
+  "supplement_id": "vitamin_k",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "bone_joint_health"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 1,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "diet_type"
+    ]
+  },
+  "rationale": "A bone-health goal alone does not establish a need for vitamin K supplementation.",
+  "evidence_refs": [
+    "NIH_VITK_HP"
+  ]
+}

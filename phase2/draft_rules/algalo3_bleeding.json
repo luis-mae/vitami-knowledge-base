@@ -1,0 +1,30 @@
+{
+  "rule_id": "ALGALO3_BLEEDING",
+  "supplement_id": "algal_omega3_dha",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [],
+    "any": [
+      [
+        "conditions_bleeding",
+        true
+      ],
+      [
+        "safety_upcoming_surgery",
+        true
+      ]
+    ]
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Higher-dose EPA/DHA products require caution in bleeding/surgical contexts.",
+  "evidence_refs": [
+    "NIH_OMEGA3_HP"
+  ]
+}

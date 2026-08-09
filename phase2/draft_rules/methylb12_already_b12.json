@@ -1,0 +1,28 @@
+{
+  "rule_id": "METHYLB12_ALREADY_B12",
+  "supplement_id": "methylcobalamin",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "vitamin_b12"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
+    "override_result": null,
+    "ask_questions": [
+      "supplements_current_list"
+    ]
+  },
+  "rationale": "Existing B12 intake should be reviewed before recommending another B12 form.",
+  "evidence_refs": [
+    "NIH_B12_HP"
+  ]
+}

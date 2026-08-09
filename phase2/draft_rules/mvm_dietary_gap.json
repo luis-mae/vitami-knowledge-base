@@ -1,0 +1,29 @@
+{
+  "rule_id": "MVM_DIETARY_GAP",
+  "supplement_id": "multivitamin_mineral",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "dietary_gaps"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "diet_type",
+      "supplements_current_use"
+    ]
+  },
+  "rationale": "A multivitamin/mineral can increase nutrient intakes but is not automatically indicated by a general wellness goal.",
+  "evidence_refs": [
+    "NIH_MVM_HP"
+  ]
+}

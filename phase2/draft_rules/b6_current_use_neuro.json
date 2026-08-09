@@ -1,0 +1,30 @@
+{
+  "rule_id": "B6_CURRENT_USE_NEURO",
+  "supplement_id": "vitamin_b6",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "vitamin_b6"
+      ],
+      [
+        "symptom_neurologic",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Excess supplemental B6 can cause peripheral neuropathy; neurologic symptoms in a current user require professional review.",
+  "evidence_refs": [
+    "NIH_B6_HP"
+  ]
+}

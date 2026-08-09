@@ -1,0 +1,40 @@
+{
+  "rule_id": "ELECTROLYTES_PROLONGED_HIGH_SWEAT",
+  "supplement_id": "electrolyte_mix",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_sweat_level",
+        [
+          "high",
+          "very_high"
+        ]
+      ],
+      [
+        "activity_session_duration",
+        [
+          ">90",
+          "60-90"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 5,
+    "recommendation_cap": "C_potential_benefit",
+    "override_result": null,
+    "ask_questions": [
+      "conditions_kidney",
+      "conditions_heart",
+      "medications_regular_use"
+    ]
+  },
+  "rationale": "Longer exercise with substantial sweat loss can make an electrolyte strategy relevant, but product composition and medical context matter.",
+  "evidence_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

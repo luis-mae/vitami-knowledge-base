@@ -1,0 +1,26 @@
+{
+  "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
+  "supplement_id": "melatonin",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "sleep_problem_type",
+        "chronic_insomnia"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
+    "override_result": null,
+    "ask_questions": []
+  },
+  "rationale": "Melatonin should not be treated as the default solution for chronic insomnia.",
+  "evidence_refs": [
+    "NCCIH_SLEEP"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "rule_id": "MELATONIN_JETLAG_SHIFT",
+  "supplement_id": "melatonin",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [],
+    "any": [
+      [
+        "work_schedule_type",
+        "shift_work"
+      ],
+      [
+        "travel_frequency",
+        "frequent"
+      ]
+    ]
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 4,
+    "recommendation_cap": "C_potential_benefit",
+    "override_result": null,
+    "ask_questions": [
+      "sleep_problem_type",
+      "medications_regular_use"
+    ]
+  },
+  "rationale": "Melatonin may be relevant for selected circadian timing problems such as jet lag or shift-related sleep disruption.",
+  "evidence_refs": [
+    "NCCIH_MELATONIN",
+    "NCCIH_SLEEP"
+  ]
+}

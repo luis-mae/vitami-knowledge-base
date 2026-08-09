@@ -1,0 +1,26 @@
+{
+  "rule_id": "PSYLLIUM_SWALLOWING",
+  "supplement_id": "psyllium_fiber",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "swallowing_difficulty",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Bulk-forming fiber requires adequate swallowing and fluid intake; swallowing difficulty warrants professional review.",
+  "evidence_refs": [
+    "FDA_PSYLLIUM_CHD"
+  ]
+}

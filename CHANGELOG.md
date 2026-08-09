@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.5.0 — 2026-08-09
+- Añadidas 45 reglas determinísticas para los 20 componentes madurados en v1.4.
+- Total de reglas draft: 87.
+- Creado índice auditable de safety gates (31 gates).
+- Añadidas 10 preguntas condicionales nuevas para seguridad y relevancia.
+- Corregida la normalización yes/no -> boolean y el cargador del motor para ignorar archivos índice.
+- Seguridad BASIC permanece fuera del paywall; análisis exhaustivo de interacciones continúa reservado a PRO/profesional.
+- Reglas científicas siguen en estado DRAFT hasta validación/activación.
+
 ## 2.4.0 — 2026-08-09
 - Madurados 20 componentes adicionales con deep records científicos.
 - Total de deep records: 40.

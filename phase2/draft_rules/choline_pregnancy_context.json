@@ -1,0 +1,30 @@
+{
+  "rule_id": "CHOLINE_PREGNANCY_CONTEXT",
+  "supplement_id": "choline",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 4,
+    "recommendation_cap": "C_potential_benefit",
+    "override_result": null,
+    "ask_questions": [
+      "diet_type",
+      "supplements_current_use"
+    ]
+  },
+  "rationale": "Pregnancy raises choline intake requirements and makes dietary adequacy worth reviewing.",
+  "evidence_refs": [
+    "NIH_CHOLINE_HP",
+    "NIH_PREGNANCY_HP"
+  ]
+}

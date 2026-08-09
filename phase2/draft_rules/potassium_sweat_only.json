@@ -1,0 +1,33 @@
+{
+  "rule_id": "POTASSIUM_SWEAT_ONLY",
+  "supplement_id": "potassium",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "activity_sweat_level",
+        [
+          "high",
+          "very_high"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 1,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "activity_session_duration",
+      "conditions_kidney"
+    ]
+  },
+  "rationale": "High sweat loss alone does not justify isolated potassium supplementation.",
+  "evidence_refs": [
+    "NIH_POTASSIUM_HP",
+    "NIH_EXERCISE_HP"
+  ]
+}

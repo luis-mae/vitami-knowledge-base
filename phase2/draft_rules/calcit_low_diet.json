@@ -1,0 +1,32 @@
+{
+  "rule_id": "CALCIT_LOW_DIET",
+  "supplement_id": "calcium_citrate",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "diet_dairy_calcium_sources",
+        [
+          "never",
+          "occasional"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 3,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "diet_type",
+      "profile_age"
+    ]
+  },
+  "rationale": "Low dietary calcium sources justify estimating total calcium intake before supplementation.",
+  "evidence_refs": [
+    "NIH_CALCIUM_HP"
+  ]
+}

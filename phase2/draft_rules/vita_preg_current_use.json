@@ -1,0 +1,31 @@
+{
+  "rule_id": "VITA_PREG_CURRENT_USE",
+  "supplement_id": "vitamin_a",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ],
+      [
+        "supplements_current_use_contains",
+        "vitamin_a"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Pregnancy is a high-attention context for preformed vitamin A because excessive intake can be teratogenic.",
+  "evidence_refs": [
+    "NIH_VITA_HP",
+    "NIH_PREGNANCY_HP"
+  ]
+}

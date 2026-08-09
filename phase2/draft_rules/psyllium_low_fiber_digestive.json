@@ -1,0 +1,34 @@
+{
+  "rule_id": "PSYLLIUM_LOW_FIBER_DIGESTIVE",
+  "supplement_id": "psyllium_fiber",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "symptom_digestive",
+        true
+      ],
+      [
+        "diet_fiber_sources",
+        "low"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 4,
+    "recommendation_cap": "C_potential_benefit",
+    "override_result": null,
+    "ask_questions": [
+      "hydration_status",
+      "swallowing_difficulty",
+      "medications_regular_use"
+    ]
+  },
+  "rationale": "Low fiber intake with a digestive goal can justify considering soluble fiber while hydration and administration safety are checked.",
+  "evidence_refs": [
+    "FDA_PSYLLIUM_CHD"
+  ]
+}

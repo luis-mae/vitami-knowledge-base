@@ -118,6 +118,17 @@ function deriveActivityClasses(answers) {
 
 function buildRuleAnswers(rawAnswers) {
   const answers = {...rawAnswers};
+  const booleanLikeFields = [
+    'profile_pregnancy','profile_lactation','medications_regular_use',
+    'conditions_kidney','conditions_liver','conditions_kidney_stones',
+    'conditions_bleeding','safety_upcoming_surgery','conditions_thyroid',
+    'conditions_heart','symptom_neurologic','swallowing_difficulty',
+    'pregnancy_planning'
+  ];
+  for (const field of booleanLikeFields) {
+    if (answers[field] === 'yes') answers[field] = true;
+    if (answers[field] === 'no' || answers[field] === 'not_applicable') answers[field] = false;
+  }
   const activityClasses = deriveActivityClasses(answers);
 
   // Compatibility layer between the current Emergent UI values
@@ -304,8 +315,9 @@ function loadVitamiRepository(repoRoot) {
   const libraryDir = path.join(repoRoot, 'phase2', 'library');
 
   const rules = fs.readdirSync(rulesDir)
-    .filter(f => f.endsWith('.json') && f !== 'RULE_INDEX.json')
-    .map(f => loadJson(path.join(rulesDir, f)));
+    .filter(f => f.endsWith('.json'))
+    .map(f => loadJson(path.join(rulesDir, f)))
+    .filter(x => x && x.rule_id && x.supplement_id);
 
   const doseRules = fs.existsSync(doseDir)
     ? fs.readdirSync(doseDir)

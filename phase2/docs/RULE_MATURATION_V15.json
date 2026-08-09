@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "tranche": "v1.5",
+  "components_with_new_rules": [
+    "algal_omega3_dha",
+    "calcium_citrate",
+    "choline",
+    "electrolyte_mix",
+    "iodine",
+    "iron_bisglycinate",
+    "magnesium_citrate",
+    "magnesium_glycinate",
+    "melatonin",
+    "methylcobalamin",
+    "methylfolate_5mthf",
+    "multivitamin_mineral",
+    "potassium",
+    "psyllium_fiber",
+    "vitamin_a",
+    "vitamin_b6",
+    "vitamin_d3",
+    "vitamin_k",
+    "whey_protein",
+    "zinc_gluconate"
+  ],
+  "new_rule_count": 45,
+  "total_rule_count": 87,
+  "total_safety_gates": 31,
+  "new_conditional_questions": 10,
+  "activation_status": "draft_not_clinically_active"
+}

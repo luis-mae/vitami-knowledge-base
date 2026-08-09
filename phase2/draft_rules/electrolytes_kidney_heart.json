@@ -1,0 +1,30 @@
+{
+  "rule_id": "ELECTROLYTES_KIDNEY_HEART",
+  "supplement_id": "electrolyte_mix",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [],
+    "any": [
+      [
+        "conditions_kidney",
+        true
+      ],
+      [
+        "conditions_heart",
+        true
+      ]
+    ]
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Electrolyte formulas can contain substantial sodium or potassium; kidney or heart disease requires individualized review.",
+  "evidence_refs": [
+    "NIH_POTASSIUM_HP"
+  ]
+}

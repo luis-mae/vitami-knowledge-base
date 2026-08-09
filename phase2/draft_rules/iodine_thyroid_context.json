@@ -1,0 +1,26 @@
+{
+  "rule_id": "IODINE_THYROID_CONTEXT",
+  "supplement_id": "iodine",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "conditions_thyroid",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Both insufficient and excessive iodine can affect thyroid function; known thyroid disease requires individualized review.",
+  "evidence_refs": [
+    "NIH_IODINE_HP"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "rule_id": "D3_PARENT_LOW_SUN",
+  "supplement_id": "vitamin_d3",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "lifestyle_sun_exposure",
+        [
+          "low",
+          "very_low"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "diet_fatty_fish_weekly",
+      "diet_fortified_foods"
+    ]
+  },
+  "rationale": "D3 is a common vitamin D form, but low sun alone does not establish deficiency or a personalized dose.",
+  "evidence_refs": [
+    "NIH_VITD_HP"
+  ]
+}

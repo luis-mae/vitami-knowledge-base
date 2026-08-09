@@ -1,0 +1,30 @@
+{
+  "rule_id": "MTHF_PREGNANT",
+  "supplement_id": "methylfolate_5mthf",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 1,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "supplements_current_use",
+      "medications_regular_use"
+    ]
+  },
+  "rationale": "Pregnancy requires a folate plan, but formulation choice and total intake need context.",
+  "evidence_refs": [
+    "NIH_FOLATE_HP",
+    "NIH_PREGNANCY_HP"
+  ]
+}

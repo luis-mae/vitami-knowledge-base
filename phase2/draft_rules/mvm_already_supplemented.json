@@ -1,0 +1,28 @@
+{
+  "rule_id": "MVM_ALREADY_SUPPLEMENTED",
+  "supplement_id": "multivitamin_mineral",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "multivitamin_mineral"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
+    "override_result": null,
+    "ask_questions": [
+      "supplements_current_list"
+    ]
+  },
+  "rationale": "Existing multivitamin use must be counted before suggesting additional micronutrients.",
+  "evidence_refs": [
+    "NIH_MVM_HP"
+  ]
+}

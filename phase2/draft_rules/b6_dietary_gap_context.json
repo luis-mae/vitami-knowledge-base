@@ -1,0 +1,29 @@
+{
+  "rule_id": "B6_DIETARY_GAP_CONTEXT",
+  "supplement_id": "vitamin_b6",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "dietary_gaps"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 2,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "diet_type",
+      "supplements_current_use"
+    ]
+  },
+  "rationale": "Dietary-gap concern can justify reviewing B6 intake but not routine high-dose supplementation.",
+  "evidence_refs": [
+    "NIH_B6_HP"
+  ]
+}

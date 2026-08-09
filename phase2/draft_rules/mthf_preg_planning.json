@@ -1,0 +1,29 @@
+{
+  "rule_id": "MTHF_PREG_PLANNING",
+  "supplement_id": "methylfolate_5mthf",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "pregnancy_planning",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 1,
+    "recommendation_cap": "D_optional_limited",
+    "override_result": null,
+    "ask_questions": [
+      "supplements_current_use"
+    ]
+  },
+  "rationale": "Pregnancy planning makes folate important, but the established NTD-prevention recommendation is specifically tied to folic acid; automatic substitution with 5-MTHF is not assumed.",
+  "evidence_refs": [
+    "NIH_FOLATE_HP",
+    "NIH_PREGNANCY_HP"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "rule_id": "IRONBIS_PREGNANCY",
+  "supplement_id": "iron_bisglycinate",
+  "status": "draft",
+  "priority": "safety_first",
+  "conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
+    "ask_questions": []
+  },
+  "rationale": "Pregnancy changes iron requirements, but individualized supplemental iron should follow obstetric/clinical context.",
+  "evidence_refs": [
+    "NIH_IRON_HP",
+    "NIH_PREGNANCY_HP"
+  ]
+}

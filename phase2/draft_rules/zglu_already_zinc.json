@@ -1,0 +1,28 @@
+{
+  "rule_id": "ZGLU_ALREADY_ZINC",
+  "supplement_id": "zinc_gluconate",
+  "status": "draft",
+  "priority": "normal",
+  "conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "zinc"
+      ]
+    ],
+    "any": []
+  },
+  "effect": {
+    "type": "add_score",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
+    "override_result": null,
+    "ask_questions": [
+      "supplements_current_list"
+    ]
+  },
+  "rationale": "Total elemental zinc from all products must be considered before adding zinc gluconate.",
+  "evidence_refs": [
+    "NIH_ZINC_HP"
+  ]
+}
