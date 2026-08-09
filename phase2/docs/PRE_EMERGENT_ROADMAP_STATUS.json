@@ -12,8 +12,10 @@
     "current_emergent_ui_preserved": "yes_where_observed"
   },
   "remaining_before_emergent_credits": [
-    "Step 5: build the minimal Emergent handoff package and exact integration instructions",
-    "Then load Emergent credits, inspect the exact live project files, and wire the package into the existing app"
+    "Load Emergent credits",
+    "Run minimal inspection only",
+    "Return the real file map to ChatGPT for one final adaptation if needed",
+    "Then run controlled integration"
   ],
   "step_3_results_screen": {
     "status": "complete",
@@ -36,5 +38,11 @@
     ],
     "structural_qa": "PASS",
     "note": "All 100 catalog components now have standardized Library content. Scientific activation remains separate."
+  },
+  "step_5_emergent_handoff": {
+    "status": "complete",
+    "handoff_dir": "phase2/emergent_handoff_final",
+    "first_action": "Run 03_PROMPT_A_EMERGENT_INSPECCION.txt in Emergent before any implementation.",
+    "second_action": "After returning the real file map, use 04_PROMPT_B_EMERGENT_INTEGRACION.txt."
   }
 }

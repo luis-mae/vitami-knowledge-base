@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "minimum_acceptance_tests": [
+    {
+      "id": "vegan_b12",
+      "expectation": "vegan + low/no fortified food + not already supplemented => B12 appears as consider, not diagnosis"
+    },
+    {
+      "id": "strength_creatine",
+      "expectation": "strength/muscle context + kidney clear => creatine consider with supported range"
+    },
+    {
+      "id": "kidney_creatine",
+      "expectation": "kidney condition => creatine positive dose suppressed and professional review shown"
+    },
+    {
+      "id": "low_sun_vitd",
+      "expectation": "low sun + low dietary vitamin D + kidney clear => vitamin D review; RDA shown only as reference"
+    },
+    {
+      "id": "low_fruit_vitc",
+      "expectation": "low fruit/veg => vitamin C may appear; smoker modifies context; stone history blocks/downgrades"
+    },
+    {
+      "id": "vegan_zinc",
+      "expectation": "vegan context => zinc intake review, never high-dose automatic recommendation"
+    },
+    {
+      "id": "calcium_low_diet",
+      "expectation": "low calcium foods => diet-first calcium review, not automatic supplement prescription"
+    },
+    {
+      "id": "caffeine_performance",
+      "expectation": "eligible sport + performance goal + weight + sleep/baseline caffeine clear => caffeine range can be shown"
+    },
+    {
+      "id": "no_positive",
+      "expectation": "no relevant context => empty-state message, not forced supplement recommendations"
+    },
+    {
+      "id": "library_search",
+      "expectation": "all 100 components are searchable/browsable without implying recommendation"
+    },
+    {
+      "id": "pro_separation",
+      "expectation": "BASIC completes without AI; PRO CTA appears after BASIC result"
+    },
+    {
+      "id": "commercial_preservation",
+      "expectation": "existing hidden cart/prices/checkout remain present but not visible"
+    }
+  ],
+  "release_blockers": [
+    "Any AI call still determining BASIC recommendations",
+    "Frontend re-scoring recommendations",
+    "Safety X not overriding positive result",
+    "RDA/AI/UL displayed as personalized dose",
+    "Broken ES/EN/IT behavior",
+    "Hidden commerce code deleted",
+    "Library component implying recommendation merely by being browsed"
+  ]
+}

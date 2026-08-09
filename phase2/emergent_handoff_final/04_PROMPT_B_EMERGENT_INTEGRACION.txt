@@ -1,0 +1,30 @@
+VITAMI — INTEGRACIÓN CONTROLADA
+
+Ya inspeccionaste el proyecto real. Ahora usá exclusivamente los archivos reales identificados en esa inspección.
+
+Objetivo:
+Reemplazar la lógica BASIC actual por el motor determinístico Vitami, conservando la UI actual y dejando IA únicamente para PRO.
+
+Reglas obligatorias:
+1. BASIC no usa IA.
+2. El frontend no inventa ni modifica recomendaciones.
+3. Los safety gates tienen prioridad absoluta.
+4. Una RDA/AI/UL no se muestra como 'tu dosis'.
+5. Si faltan respuestas requeridas, se muestran preguntas condicionales antes del resultado.
+6. Biblioteca es educativa; que un suplemento exista allí no implica recomendación.
+7. Carrito, precios y checkout deben conservarse ocultos y sin eliminar.
+8. PRO sigue separado y puede usar IA.
+9. No cambies la estética salvo lo necesario para encajar preguntas condicionales y las tarjetas de resultados.
+10. Antes de terminar, ejecutá pruebas de los escenarios prioritarios y reportá cualquier incompatibilidad encontrada.
+
+Implementá en este orden:
+A. incorporar motor Vitami;
+B. mapear respuestas UI → valores canónicos;
+C. conectar preguntas condicionales;
+D. reemplazar llamada BASIC;
+E. renderizar resultados según contrato;
+F. conectar Biblioteca;
+G. mantener PRO;
+H. probar.
+
+No modifiques ningún archivo que no sea necesario.

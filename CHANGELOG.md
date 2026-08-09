@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.3.0 — 2026-08-09
+- Preparado paquete final de integración para Emergent.
+- Añadido plan maestro de integración, solicitud mínima de inspección, prompt de integración controlada, manifiesto de archivos, checklist de aceptación y estrategia de ahorro de créditos.
+- La primera ejecución en Emergent debe limitarse a inspeccionar los archivos reales y devolver el mapa exacto.
+- La implementación queda separada de la inspección para evitar cambios prematuros y consumo innecesario de créditos.
+
 ## 3.2.0 — 2026-08-09
 - Biblioteca Vitami ampliada y normalizada a 100 componentes.
 - Las 100 fichas incluyen ES/EN/IT, qué es, usos habituales, evidencia, límites, dosis/referencia, presentaciones, precauciones, cuándo consultar y fuentes.

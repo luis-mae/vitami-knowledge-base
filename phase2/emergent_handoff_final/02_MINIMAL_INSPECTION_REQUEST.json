@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "purpose": "Primera ejecución en Emergent: inspección mínima, sin refactor ni implementación completa.",
+  "ask_emergent_to_return": [
+    "Ruta exacta del archivo/componente que renderiza el cuestionario.",
+    "Ruta exacta del archivo o función que contiene las preguntas actuales.",
+    "Ruta exacta de la llamada que actualmente genera recomendaciones BASIC.",
+    "Ruta exacta del componente que renderiza resultados.",
+    "Ruta exacta del backend/API que recibe respuestas.",
+    "Dónde se guardan perfiles/respuestas del usuario.",
+    "Confirmar si la IA BASIC se ejecuta en frontend, backend o servicio externo.",
+    "Confirmar dónde están carrito/precios/checkout ocultos.",
+    "Lista de archivos mínimos que Emergent propone modificar."
+  ],
+  "do_not_do_yet": [
+    "No cambiar UI.",
+    "No borrar IA.",
+    "No borrar carrito/checkout.",
+    "No crear una app paralela.",
+    "No inventar nuevos nombres de archivos.",
+    "No hacer refactor general."
+  ],
+  "stop_condition": "Después de inspeccionar, devolver el mapa de archivos reales y esperar la siguiente instrucción."
+}

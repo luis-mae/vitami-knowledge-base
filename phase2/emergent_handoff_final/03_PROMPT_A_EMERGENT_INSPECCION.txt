@@ -1,0 +1,30 @@
+VITAMI — INSPECCIÓN MÍNIMA ANTES DE INTEGRAR
+
+Quiero actualizar esta app existente, no crear una nueva.
+
+Antes de modificar nada, inspeccioná el código REAL del proyecto y devolveme únicamente:
+
+1. Ruta exacta del archivo/componente que renderiza el cuestionario actual.
+2. Ruta exacta del archivo o estructura donde están definidas las preguntas actuales.
+3. Ruta exacta de la función/servicio que hoy genera las recomendaciones BASIC.
+4. Ruta exacta del componente que renderiza la pantalla de resultados.
+5. Ruta exacta del backend/API que recibe las respuestas.
+6. Dónde se guardan actualmente perfiles y respuestas de usuario.
+7. Confirmá si la IA que hoy decide recomendaciones BASIC corre en frontend, backend o servicio externo.
+8. Indicá dónde están el carrito, precios y checkout actualmente ocultos.
+9. Proponé la lista MÍNIMA de archivos que habría que modificar para:
+   - reemplazar la decisión BASIC por un motor determinístico;
+   - mantener la UI existente;
+   - agregar preguntas condicionales;
+   - renderizar el nuevo resultado BASIC;
+   - conectar una Biblioteca de suplementos;
+   - dejar IA solamente para PRO.
+
+IMPORTANTE:
+- No implementes todavía.
+- No refactorices.
+- No borres nada.
+- No cambies el diseño.
+- No crees una app paralela.
+- No supongas nombres de archivos basándote en conversaciones previas.
+- Inspeccioná el código real y detenete después de devolver este mapa.

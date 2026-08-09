@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "must_integrate": [
+    "phase2/engine/vitamiEngine.js",
+    "phase2/engine/uiAnswerAdapter.json",
+    "phase2/draft_rules/",
+    "phase2/production_ready/",
+    "phase2/questionnaire_final/",
+    "phase2/basic_results/",
+    "phase2/emergent_bridge/",
+    "data/questions/question_bank_master.json",
+    "config/activity_classifier.json",
+    "config/pro_interaction_policy.json",
+    "phase2/library/"
+  ],
+  "reference_only": [
+    "phase2/deep_records/",
+    "data/sources/",
+    "config/dose_and_review_policy.json",
+    "config/dose_calculation_engine.json",
+    "config/library_content_policy.json"
+  ],
+  "do_not_integrate_as_logic": [
+    "phase2/commercial/PHARMACY_SKU_MAPPING_TEMPLATE.json",
+    "catalog-only candidate records without active deterministic rules"
+  ],
+  "preserve_existing_app_features": [
+    "current visual design",
+    "Francisco avatar/identity",
+    "language selector",
+    "profile storage",
+    "hidden cart",
+    "hidden prices",
+    "hidden checkout",
+    "existing authentication/user flow if present"
+  ]
+}

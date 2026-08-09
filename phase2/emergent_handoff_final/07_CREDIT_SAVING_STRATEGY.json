@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "goal": "Minimizar consumo de créditos Emergent.",
+  "recommended_runs": [
+    {
+      "run": 1,
+      "purpose": "Inspección real del proyecto únicamente",
+      "input": "03_PROMPT_A_EMERGENT_INSPECCION.txt",
+      "expected_output": "Mapa real de archivos, sin cambios."
+    },
+    {
+      "run": 2,
+      "purpose": "Integración controlada mínima",
+      "input": "04_PROMPT_B_EMERGENT_INTEGRACION.txt + paquete Vitami",
+      "expected_output": "Motor, mapeo, preguntas, resultados, Biblioteca y PRO conectados."
+    },
+    {
+      "run": 3,
+      "purpose": "Correcciones tras pruebas",
+      "expected_output": "Solo corregir errores observados; no refactor general."
+    }
+  ],
+  "avoid": [
+    "pedirle a Emergent que 'mejore toda la app'",
+    "pedir rediseño antes de integrar",
+    "pedir que decida científicamente",
+    "hacer varias inspecciones redundantes",
+    "darle libertad para reconstruir arquitectura"
+  ]
+}

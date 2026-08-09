@@ -1,0 +1,102 @@
+{
+  "version": "1.0.0",
+  "status": "READY_FOR_EMERGENT_INSPECTION_AND_INTEGRATION",
+  "objective": "Integrar Vitami en la app existente de Emergent reemplazando el cerebro BASIC basado en IA por el motor determinístico Vitami, preservando la UI existente y dejando PRO/IA como capa posterior.",
+  "critical_principles": [
+    "No reconstruir la app desde cero.",
+    "No modificar la estética salvo lo estrictamente necesario para preguntas condicionales y resultados.",
+    "No inventar lógica científica en frontend o backend.",
+    "BASIC funciona sin IA.",
+    "Safety gates BASIC son gratuitos y tienen prioridad absoluta.",
+    "PRO/IA ocurre después del resultado BASIC.",
+    "Biblioteca tiene 100 componentes y es educativa; presencia en Biblioteca no implica recomendación.",
+    "Carrito, precios y checkout existentes deben conservarse ocultos/stand-by.",
+    "Marcas, SKU y precios no forman parte de la lógica científica."
+  ],
+  "integration_sequence": [
+    {
+      "step": 1,
+      "name": "Inspect real project files",
+      "goal": "Identificar los archivos reales que hoy controlan cuestionario, navegación, resultados, llamadas a IA y backend.",
+      "instruction": "Emergent debe inspeccionar archivos reales antes de editar. No asumir nombres históricos."
+    },
+    {
+      "step": 2,
+      "name": "Create Vitami engine module",
+      "goal": "Incorporar el motor determinístico y sus datos al backend o capa server-side disponible.",
+      "files": [
+        "phase2/engine/vitamiEngine.js",
+        "phase2/draft_rules/",
+        "phase2/production_ready/",
+        "phase2/questionnaire_final/"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Map existing UI answers to canonical Vitami values",
+      "goal": "La UI existente sigue capturando respuestas; un adaptador las transforma a los IDs canónicos Vitami.",
+      "files": [
+        "phase2/emergent_bridge/current_emergent_ui_mapping.json",
+        "phase2/engine/uiAnswerAdapter.json",
+        "phase2/questionnaire_final/BASIC_FINAL_FLOW.json"
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Enable dynamic conditional questions",
+      "goal": "Mostrar solo preguntas condicionales cuando las reglas las necesitan.",
+      "files": [
+        "data/questions/question_bank_master.json",
+        "phase2/questionnaire_final/BASIC_7_DECISION_TREE.json"
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Replace BASIC AI decision call",
+      "goal": "El final del cuestionario debe enviar respuestas al motor Vitami y recibir resultado estructurado. No usar IA para decidir BASIC.",
+      "files": [
+        "phase2/emergent_bridge/EMERGENT_VITAMI_API_CONTRACT.json",
+        "phase2/basic_results/EMERGENT_RESULTS_RENDER_CONTRACT.json"
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Render final BASIC results",
+      "goal": "Mostrar los resultados sin recalcularlos ni reinterpretarlos.",
+      "files": [
+        "phase2/basic_results/BASIC_RESULTS_SCREEN_SPEC.json",
+        "phase2/basic_results/BASIC_RECOMMENDATION_CARD_SCHEMA.json",
+        "phase2/basic_results/BASIC_STATE_LABELS_ES_EN_IT.json",
+        "phase2/basic_results/BASIC_TO_PRO_POLICY.json"
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Connect Vitami Library",
+      "goal": "Permitir abrir la ficha por supplement_id y navegar/buscar los 100 componentes.",
+      "files": [
+        "phase2/library/LIBRARY_INDEX.json",
+        "phase2/library/LIBRARY_TAXONOMY.json",
+        "phase2/library/*.json"
+      ]
+    },
+    {
+      "step": 8,
+      "name": "Preserve and reposition PRO/AI",
+      "goal": "Mantener la IA solo como análisis posterior opcional, incluyendo compatibilidades profundas.",
+      "files": [
+        "config/pro_interaction_policy.json",
+        "phase2/basic_results/BASIC_TO_PRO_POLICY.json"
+      ]
+    },
+    {
+      "step": 9,
+      "name": "Regression and UI test",
+      "goal": "Verificar que la app siga funcionando y que los 7 escenarios prioritarios produzcan resultados correctos.",
+      "files": [
+        "phase2/engine/tests/fixtures.json",
+        "phase2/engine/tests/runTests.js"
+      ]
+    }
+  ]
+}
