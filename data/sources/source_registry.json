@@ -101,6 +101,182 @@
         "label_amounts"
       ],
       "notes": "Product presence or label information is not evidence of efficacy."
+    },
+    {
+      "id": "NIH_VITA_HP",
+      "title": "NIH ODS — Vitamin A, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_VITK_HP",
+      "title": "NIH ODS — Vitamin K, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_THIAMIN_HP",
+      "title": "NIH ODS — Thiamin, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_RIBOFLAVIN_HP",
+      "title": "NIH ODS — Riboflavin, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_NIACIN_HP",
+      "title": "NIH ODS — Niacin, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_PANTOTHENIC_HP",
+      "title": "NIH ODS — Pantothenic Acid, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_B6_HP",
+      "title": "NIH ODS — Vitamin B6, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_IODINE_HP",
+      "title": "NIH ODS — Iodine, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_COPPER_HP",
+      "title": "NIH ODS — Copper, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_MANGANESE_HP",
+      "title": "NIH ODS — Manganese, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_CHROMIUM_HP",
+      "title": "NIH ODS — Chromium, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_POTASSIUM_HP",
+      "title": "NIH ODS — Potassium, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_CHOLINE_HP",
+      "title": "NIH ODS — Choline, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NIH_MVM_HP",
+      "title": "NIH ODS — Multivitamin/mineral Supplements, Health Professional Fact Sheet",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NCCIH_MELATONIN",
+      "title": "NCCIH — Melatonin: What You Need To Know",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NCCIH_ASHWAGANDHA",
+      "title": "NCCIH — Ashwagandha: Usefulness and Safety",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/ashwagandha",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NCCIH_BERBERINE",
+      "title": "NCCIH — Berberine and Weight Loss: What You Need To Know",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NCCIH_GREEN_TEA",
+      "title": "NCCIH — Green Tea: Usefulness and Safety",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/green-tea",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NCCIH_GARLIC",
+      "title": "NCCIH — Garlic: Usefulness and Safety",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/garlic",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NCCIH_GINGER",
+      "title": "NCCIH — Ginger: Usefulness and Safety",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/ginger",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "NCCIH_SUPPLEMENTS_WISELY",
+      "title": "NCCIH — Using Dietary Supplements Wisely",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/using-dietary-supplements-wisely",
+      "source_type": "official_fact_sheet",
+      "status": "registered"
+    },
+    {
+      "id": "SOURCE_PSYLLIUM_REVIEW_PENDING",
+      "title": "Psyllium — source review pending",
+      "organization": "pending",
+      "url": "",
+      "source_type": "pending_validation",
+      "status": "needs_validation"
     }
   ]
 }

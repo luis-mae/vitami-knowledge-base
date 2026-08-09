@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "purpose": "Future mapping between Vitami scientific component and pharmacy commercial SKU.",
+  "fields": {
+    "vitami_component_id": "Canonical scientific component identifier",
+    "brand": "Commercial brand",
+    "product_name": "Commercial product name",
+    "presentation": "capsule/tablet/softgel/powder/liquid/etc.",
+    "amount_per_unit": "numeric",
+    "amount_unit": "mg/mcg/g/IU/etc.",
+    "units_per_package": "numeric",
+    "additional_ingredients": "array",
+    "pharmacy_sku": "string",
+    "price": "optional",
+    "availability": "optional"
+  },
+  "rule": "Commercial products never change scientific relevance. They are mapped only after Vitami has made a scientific decision."
+}

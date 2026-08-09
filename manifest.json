@@ -1,6 +1,6 @@
 {
   "project": "Vitami Knowledge Base",
-  "version": "2.1.0",
+  "version": "2.3.0",
   "phase": "2",
   "description": "Vitami Phase 1 complete: architecture for evidence, sources, deterministic rules, safety, questions, goals, campaigns, profiles, and traceability.",
   "languages": [
@@ -16,7 +16,7 @@
     "A supplement may exist in the library without being recommendable.",
     "Scientific evidence and Vitami product logic are stored separately."
   ],
-  "status": "DETERMINISTIC_ENGINE_V1_READY_DRAFT",
+  "status": "CATALOG_100_DRAFT",
   "deep_records": 20,
   "draft_rule_count": 42,
   "simulation_profiles": 6,
@@ -30,5 +30,7 @@
   "basic_result_spec": true,
   "deterministic_engine": true,
   "automated_test_fixtures": 10,
-  "automated_test_status": "10/10 passed"
+  "automated_test_status": "10/10 passed",
+  "catalog_products": 100,
+  "commercial_mapping_template": true
 }

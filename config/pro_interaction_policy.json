@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "features": {
+    "current_supplement_review": {
+      "tier": "PRO",
+      "reason": "Requiere analizar productos concretos, cantidades totales, combinaciones y contexto individual.",
+      "basic_behavior": "BASIC puede preguntar si usa suplementos solo cuando una regla de seguridad lo exige, pero no realiza un análisis exhaustivo de compatibilidad."
+    },
+    "supplement_drug_interactions": {
+      "tier": "PRO",
+      "reason": "La revisión detallada de interacciones requiere información de medicamentos/productos y procesamiento avanzado.",
+      "user_message_es": "¿Ya tomás suplementos o medicamentos y querés comprobar combinaciones o posibles incompatibilidades? Esta revisión forma parte de Vitami PRO porque requiere un análisis personalizado más profundo.",
+      "user_message_en": "Already taking supplements or medicines and want to check combinations or possible incompatibilities? This review is part of Vitami PRO because it requires deeper personalized analysis.",
+      "user_message_it": "Assumi già integratori o farmaci e vuoi verificare combinazioni o possibili incompatibilità? Questa revisione fa parte di Vitami PRO perché richiede un'analisi personalizzata più approfondita."
+    }
+  },
+  "safety_exception": "Si una respuesta BASIC revela directamente una condición de alto riesgo contemplada por una regla determinística, Vitami debe bloquear o derivar a revisión profesional sin exigir pago. La seguridad básica nunca se oculta detrás del paywall."
+}

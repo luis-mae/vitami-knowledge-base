@@ -1,8 +1,8 @@
 {
-  "version": "0.2.0",
+  "version": "0.4.0",
   "phase": "2",
-  "status": "PILOT_DRAFT",
-  "important": "Todos los esquemas temporales son borradores salvo que el campo schedule_status se active con evidencia específica.",
+  "status": "EXPANDED_100_DRAFT",
+  "important": "100 componentes/ingredientes catalogados. Los nuevos componentes son candidatos NO activos hasta completar revisión científica, seguridad, dosis y reglas.",
   "supplements": [
     {
       "id": "vitamin_d",
@@ -21,7 +21,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
     },
     {
       "id": "vitamin_b12",
@@ -39,7 +42,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
     },
     {
       "id": "iron",
@@ -57,7 +63,10 @@
       "dose_status": "professional_supervision_required",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
     },
     {
       "id": "omega_3_epa_dha",
@@ -77,7 +86,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
       "temporal_archetype": "chronic_steady_exposure",
-      "schedule_note": "Esquema intermitente (p.ej. días alternos) queda como candidato, no activo, hasta encontrar evidencia específica de equivalencia para el objetivo y producto."
+      "schedule_note": "Esquema intermitente (p.ej. días alternos) queda como candidato, no activo, hasta encontrar evidencia específica de equivalencia para el objetivo y producto.",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "magnesium",
@@ -98,7 +110,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
       "temporal_archetype": "chronic_steady_exposure",
-      "schedule_note": "No asignar automáticamente uso solo nocturno o post-entreno sin evidencia específica para la indicación."
+      "schedule_note": "No asignar automáticamente uso solo nocturno o post-entreno sin evidencia específica para la indicación.",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
     },
     {
       "id": "calcium",
@@ -116,7 +131,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
     },
     {
       "id": "zinc",
@@ -135,7 +153,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
     },
     {
       "id": "folate_folic_acid",
@@ -152,7 +173,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
     },
     {
       "id": "creatine_monohydrate",
@@ -173,7 +197,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
       "temporal_archetype": "chronic_accumulation",
-      "schedule_note": "La evidencia de mantenimiento estudiada usa ingesta regular durante semanas; no asumir que solo días de entrenamiento sea equivalente."
+      "schedule_note": "La evidencia de mantenimiento estudiada usa ingesta regular durante semanas; no asumir que solo días de entrenamiento sea equivalente.",
+      "common_presentations": [
+        "powder_or_capsule"
+      ]
     },
     {
       "id": "vitamin_c",
@@ -193,7 +220,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "vitamin_e",
@@ -212,7 +242,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "selenium",
@@ -232,7 +265,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "biotin",
@@ -250,7 +286,10 @@
       "dose_status": "reference_only",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
     },
     {
       "id": "collagen_peptides",
@@ -270,7 +309,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
       "temporal_archetype": "chronic_steady_exposure",
-      "schedule_note": "Mantener como borrador hasta definir objetivo, dosis y duración estudiada."
+      "schedule_note": "Mantener como borrador hasta definir objetivo, dosis y duración estudiada.",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "coenzyme_q10",
@@ -289,7 +331,10 @@
       "dose_status": "supplement_range_supported",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "curcumin_turmeric",
@@ -307,7 +352,10 @@
       "dose_status": "supplement_range_supported",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "probiotics",
@@ -325,7 +373,10 @@
       "dose_status": "not_applicable",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "lutein_zeaxanthin",
@@ -343,7 +394,10 @@
       "dose_status": "professional_supervision_required",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "glucosamine_chondroitin",
@@ -360,7 +414,10 @@
       "dose_status": "supplement_range_supported",
       "rules_status": "draft",
       "review_interval_status": "not_defined",
-      "dose_schedule_status": "not_defined"
+      "dose_schedule_status": "not_defined",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "caffeine_performance",
@@ -380,7 +437,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "draft",
       "temporal_archetype": "acute_event_linked",
-      "schedule_note": "Candidato pre-ejercicio; NIH ODS resume evidencia de uso 15–60 min antes del ejercicio. Deben considerarse sueño, habituación, dosis total diaria y seguridad."
+      "schedule_note": "Candidato pre-ejercicio; NIH ODS resume evidencia de uso 15–60 min antes del ejercicio. Deben considerarse sueño, habituación, dosis total diaria y seguridad.",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "beetroot_nitrate",
@@ -399,7 +459,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "draft",
       "temporal_archetype": "acute_event_linked",
-      "schedule_note": "Estudios resumidos por NIH usaron una toma aproximadamente 2.5–3 h antes del ejercicio o cursos diarios cortos."
+      "schedule_note": "Estudios resumidos por NIH usaron una toma aproximadamente 2.5–3 h antes del ejercicio o cursos diarios cortos.",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "beta_alanine",
@@ -418,7 +481,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "draft",
       "temporal_archetype": "chronic_accumulation",
-      "schedule_note": "Debe modelarse como uso regular durante semanas, con división de dosis si corresponde por tolerancia."
+      "schedule_note": "Debe modelarse como uso regular durante semanas, con división de dosis si corresponde por tolerancia.",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "sodium_bicarbonate",
@@ -436,7 +502,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "professional_only",
       "temporal_archetype": "acute_event_linked",
-      "schedule_note": "Esquema pre-ejercicio específico y alta carga de sodio; mantener bajo revisión profesional."
+      "schedule_note": "Esquema pre-ejercicio específico y alta carga de sodio; mantener bajo revisión profesional.",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "tart_cherry",
@@ -455,7 +524,10 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "draft",
       "temporal_archetype": "peri_event_recovery",
-      "schedule_note": "Algunos estudios usaron varios días antes del evento y continuaron aproximadamente 2 días después."
+      "schedule_note": "Algunos estudios usaron varios días antes del evento y continuaron aproximadamente 2 días después.",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
     },
     {
       "id": "protein_supplement",
@@ -476,7 +548,1590 @@
       "review_interval_status": "not_defined",
       "dose_schedule_status": "draft",
       "temporal_archetype": "hybrid_baseline_plus_event",
-      "schedule_note": "Debe considerar ingesta proteica diaria total; la relación exacta antes vs después del ejercicio no debe sobredimensionarse."
+      "schedule_note": "Debe considerar ingesta proteica diaria total; la relación exacta antes vs después del ejercicio no debe sobredimensionarse.",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
+    },
+    {
+      "id": "vitamin_a",
+      "name": "Vitamina A",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "vision_eye_health",
+        "immune_function"
+      ],
+      "evidence_position": "Alta para función nutricional; suplementación requiere especial cautela por toxicidad y embarazo.",
+      "sources": [
+        "NIH_VITA_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "vitamin_k",
+      "name": "Vitamina K (K1/K2)",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "bone_joint_health"
+      ],
+      "evidence_position": "Alta para función nutricional; usos suplementarios dependen del contexto y existen interacciones relevantes con anticoagulantes.",
+      "sources": [
+        "NIH_VITK_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "thiamin_b1",
+      "name": "Tiamina (vitamina B1)",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "energy_vitality"
+      ],
+      "evidence_position": "Alta para función nutricional; la suplementación no debe inferirse solo a partir de cansancio.",
+      "sources": [
+        "NIH_THIAMIN_HP"
+      ],
+      "risk_tier": "standard",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "riboflavin_b2",
+      "name": "Riboflavina (vitamina B2)",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "energy_vitality"
+      ],
+      "evidence_position": "Alta para función nutricional; usos adicionales requieren indicación específica.",
+      "sources": [
+        "NIH_RIBOFLAVIN_HP"
+      ],
+      "risk_tier": "standard",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "niacin_b3",
+      "name": "Niacina (vitamina B3)",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "energy_vitality"
+      ],
+      "evidence_position": "Alta para función nutricional; dosis farmacológicas tienen perfil de seguridad distinto y no pertenecen a BASIC.",
+      "sources": [
+        "NIH_NIACIN_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "pantothenic_acid_b5",
+      "name": "Ácido pantoténico (vitamina B5)",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "energy_vitality"
+      ],
+      "evidence_position": "Alta para función nutricional; deficiencia es infrecuente y no deben extrapolarse claims cosméticos sin evidencia.",
+      "sources": [
+        "NIH_PANTOTHENIC_HP"
+      ],
+      "risk_tier": "standard",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "vitamin_b6",
+      "name": "Vitamina B6",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "energy_vitality",
+        "immune_function"
+      ],
+      "evidence_position": "Alta para función nutricional; exceso crónico puede producir neuropatía, por lo que requiere control de dosis total.",
+      "sources": [
+        "NIH_B6_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "iodine",
+      "name": "Yodo",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps",
+        "thyroid_nutritional_support"
+      ],
+      "evidence_position": "Alta para función nutricional; tanto déficit como exceso son relevantes y el contexto tiroideo exige cautela.",
+      "sources": [
+        "NIH_IODINE_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "copper",
+      "name": "Cobre",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "evidence_position": "Alta para función nutricional; suplementación aislada rara vez se justifica sin contexto y debe considerarse el zinc total.",
+      "sources": [
+        "NIH_COPPER_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "manganese",
+      "name": "Manganeso",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "evidence_position": "Alta para función nutricional; suplementación rutinaria suele tener baja prioridad y el exceso requiere cautela.",
+      "sources": [
+        "NIH_MANGANESE_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "chromium",
+      "name": "Cromo",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps",
+        "weight_management"
+      ],
+      "evidence_position": "Función nutricional reconocida, pero evidencia limitada/inconsistente para pérdida de peso o control metabólico en personas sin indicación clínica.",
+      "sources": [
+        "NIH_CHROMIUM_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_tablet"
+      ]
+    },
+    {
+      "id": "potassium",
+      "name": "Potasio",
+      "category": "mineral_electrolyte",
+      "goals": [
+        "dietary_gaps",
+        "hydration_electrolytes"
+      ],
+      "evidence_position": "Nutriente esencial; la suplementación puede ser riesgosa en enfermedad renal o con ciertos medicamentos y no será una recomendación BASIC automática.",
+      "sources": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "risk_tier": "professional_gate",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
+    },
+    {
+      "id": "choline",
+      "name": "Colina",
+      "category": "essential_nutrient",
+      "goals": [
+        "dietary_gaps",
+        "cognitive_support",
+        "sexual_reproductive_health"
+      ],
+      "evidence_position": "Nutriente esencial con requerimientos definidos; especial relevancia nutricional en embarazo, sin extrapolar beneficios cognitivos generales.",
+      "sources": [
+        "NIH_CHOLINE_HP"
+      ],
+      "risk_tier": "standard",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
+    },
+    {
+      "id": "melatonin",
+      "name": "Melatonina",
+      "category": "sleep_circadian",
+      "goals": [
+        "sleep_rest",
+        "jet_lag_shift_work"
+      ],
+      "evidence_position": "Evidencia dependiente del trastorno circadiano/sueño; no es una solución genérica para todo insomnio y la seguridad a largo plazo es menos clara.",
+      "sources": [
+        "NCCIH_MELATONIN"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "category": "botanical",
+      "goals": [
+        "stress",
+        "sleep_rest",
+        "sports_performance"
+      ],
+      "evidence_position": "Evidencia prometedora en algunos contextos pero no universal; existen precauciones por embarazo, función tiroidea, sedación y casos raros de lesión hepática.",
+      "sources": [
+        "NCCIH_ASHWAGANDHA"
+      ],
+      "risk_tier": "professional_gate",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_standardized_extract"
+      ]
+    },
+    {
+      "id": "berberine",
+      "name": "Berberina",
+      "category": "botanical_metabolic",
+      "goals": [
+        "weight_management",
+        "metabolic_health"
+      ],
+      "evidence_position": "Producto de interés metabólico con evidencia aún dependiente del contexto y potencial de interacciones medicamentosas; PRO/profesional prioritario.",
+      "sources": [
+        "NCCIH_BERBERINE"
+      ],
+      "risk_tier": "professional_gate",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
+    },
+    {
+      "id": "green_tea_extract",
+      "name": "Extracto de té verde",
+      "category": "botanical",
+      "goals": [
+        "weight_management",
+        "antioxidant_interest",
+        "metabolic_health"
+      ],
+      "evidence_position": "Evidencia limitada para pérdida de peso; extractos concentrados requieren cautela por interacciones y reportes de lesión hepática.",
+      "sources": [
+        "NCCIH_GREEN_TEA"
+      ],
+      "risk_tier": "professional_gate",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_standardized_extract"
+      ]
+    },
+    {
+      "id": "garlic_extract",
+      "name": "Extracto de ajo",
+      "category": "botanical",
+      "goals": [
+        "cardiovascular_health",
+        "immune_function"
+      ],
+      "evidence_position": "Algunos efectos cardiovasculares son modestos; no es estrategia general de prevención y puede aumentar riesgo de sangrado en ciertos contextos.",
+      "sources": [
+        "NCCIH_GARLIC"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_standardized_extract"
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "Jengibre",
+      "category": "botanical",
+      "goals": [
+        "digestive_health",
+        "nausea_support"
+      ],
+      "evidence_position": "Evidencia útil en indicaciones específicas como algunas formas de náusea; interacciones y contexto clínico deben considerarse.",
+      "sources": [
+        "NCCIH_GINGER"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_or_standardized_extract"
+      ]
+    },
+    {
+      "id": "psyllium_fiber",
+      "name": "Psyllium / fibra soluble",
+      "category": "fiber",
+      "goals": [
+        "digestive_health",
+        "cardiovascular_health",
+        "appetite_control"
+      ],
+      "evidence_position": "Fibra soluble con usos dietarios específicos; requiere hidratación adecuada y revisión de separación con medicamentos.",
+      "sources": [
+        "SOURCE_PSYLLIUM_REVIEW_PENDING"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "powder_or_capsule"
+      ]
+    },
+    {
+      "id": "citrulline",
+      "name": "L-citrulina / citrulina malato",
+      "category": "performance",
+      "goals": [
+        "sports_performance",
+        "exercise_recovery"
+      ],
+      "evidence_position": "La evidencia para rendimiento es limitada y dependiente del protocolo; no se activará como recomendación fuerte sin revisión específica.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "risk_tier": "standard",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "powder_or_capsule"
+      ]
+    },
+    {
+      "id": "hmb",
+      "name": "HMB (beta-hidroxi-beta-metilbutirato)",
+      "category": "performance",
+      "goals": [
+        "strength_muscle",
+        "exercise_recovery",
+        "healthy_aging"
+      ],
+      "evidence_position": "Puede ser relevante en poblaciones o contextos concretos; no equivale a una recomendación universal para ganar músculo.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "risk_tier": "standard",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "powder_or_capsule"
+      ]
+    },
+    {
+      "id": "taurine",
+      "name": "Taurina",
+      "category": "amino_acid_related",
+      "goals": [
+        "sports_performance",
+        "exercise_recovery"
+      ],
+      "evidence_position": "Evidencia heterogénea para rendimiento y otros objetivos; requiere revisión específica antes de reglas activas.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "risk_tier": "standard",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "capsule_tablet_powder_or_liquid"
+      ]
+    },
+    {
+      "id": "electrolyte_mix",
+      "name": "Mezcla de electrolitos",
+      "category": "hydration",
+      "goals": [
+        "hydration_electrolytes",
+        "sports_performance",
+        "exercise_recovery"
+      ],
+      "evidence_position": "Utilidad dependiente de duración, sudoración, clima y composición; no debe recomendarse por hacer ejercicio de forma genérica.",
+      "sources": [
+        "NIH_EXERCISE_HP"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "powder_or_effervescent"
+      ]
+    },
+    {
+      "id": "multivitamin_mineral",
+      "name": "Multivitamínico/mineral",
+      "category": "multi_ingredient",
+      "goals": [
+        "dietary_gaps",
+        "general_wellness"
+      ],
+      "evidence_position": "Puede ayudar a cubrir determinados aportes, pero no sustituye una dieta adecuada ni demuestra beneficios generales de longevidad o prevención.",
+      "sources": [
+        "NIH_MVM_HP",
+        "NCCIH_SUPPLEMENTS_WISELY"
+      ],
+      "risk_tier": "high_attention",
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "common_presentations": [
+        "tablet_capsule_or_sachet"
+      ]
+    },
+    {
+      "id": "vitamin_d3",
+      "name": "Vitamina D3 (colecalciferol)",
+      "category": "vitamin",
+      "goals": [
+        "bone_joint_health",
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "softgel",
+        "drops",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "vitamin_d2",
+      "name": "Vitamina D2 (ergocalciferol)",
+      "category": "vitamin",
+      "goals": [
+        "bone_joint_health",
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "vitamin_k2_mk7",
+      "name": "Vitamina K2 MK-7",
+      "category": "vitamin",
+      "goals": [
+        "bone_joint_health"
+      ],
+      "common_presentations": [
+        "capsule",
+        "softgel"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "vitamin_k2_mk4",
+      "name": "Vitamina K2 MK-4",
+      "category": "vitamin",
+      "goals": [
+        "bone_joint_health"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "methylcobalamin",
+      "name": "Metilcobalamina (B12)",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "sublingual_tablet",
+        "capsule",
+        "drops"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "cyanocobalamin",
+      "name": "Cianocobalamina (B12)",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "tablet",
+        "capsule",
+        "sublingual_tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "methylfolate_5mthf",
+      "name": "5-MTHF / metilfolato",
+      "category": "vitamin",
+      "goals": [
+        "dietary_gaps",
+        "sexual_reproductive_health"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "magnesium_citrate",
+      "name": "Citrato de magnesio",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps",
+        "digestive_health"
+      ],
+      "common_presentations": [
+        "capsule",
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "magnesium_glycinate",
+      "name": "Glicinato/bisglicinato de magnesio",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps",
+        "sleep_rest"
+      ],
+      "common_presentations": [
+        "capsule",
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "magnesium_oxide",
+      "name": "Óxido de magnesio",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "tablet",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "zinc_picolinate",
+      "name": "Picolinato de zinc",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "zinc_gluconate",
+      "name": "Gluconato de zinc",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "tablet",
+        "lozenge"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "calcium_citrate",
+      "name": "Citrato de calcio",
+      "category": "mineral",
+      "goals": [
+        "bone_joint_health"
+      ],
+      "common_presentations": [
+        "tablet",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "calcium_carbonate",
+      "name": "Carbonato de calcio",
+      "category": "mineral",
+      "goals": [
+        "bone_joint_health"
+      ],
+      "common_presentations": [
+        "tablet",
+        "chewable"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "iron_bisglycinate",
+      "name": "Hierro bisglicinato",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "ferrous_sulfate",
+      "name": "Sulfato ferroso",
+      "category": "mineral",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "tablet",
+        "drops"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "algal_omega3_dha",
+      "name": "Omega-3 de algas (DHA/EPA)",
+      "category": "fatty_acid",
+      "goals": [
+        "dietary_gaps",
+        "cardiovascular_health"
+      ],
+      "common_presentations": [
+        "softgel",
+        "liquid"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "dha",
+      "name": "DHA",
+      "category": "fatty_acid",
+      "goals": [
+        "dietary_gaps",
+        "cognitive_support"
+      ],
+      "common_presentations": [
+        "softgel",
+        "liquid"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "epa",
+      "name": "EPA",
+      "category": "fatty_acid",
+      "goals": [
+        "cardiovascular_health"
+      ],
+      "common_presentations": [
+        "softgel"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "ala_omega3",
+      "name": "ALA / ácido alfa-linolénico",
+      "category": "fatty_acid",
+      "goals": [
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "softgel",
+        "oil"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "mct_oil",
+      "name": "Aceite MCT",
+      "category": "fatty_acid",
+      "goals": [
+        "energy_vitality"
+      ],
+      "common_presentations": [
+        "liquid",
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "whey_protein",
+      "name": "Proteína de suero (whey)",
+      "category": "protein",
+      "goals": [
+        "strength_muscle",
+        "exercise_recovery"
+      ],
+      "common_presentations": [
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "casein_protein",
+      "name": "Proteína de caseína",
+      "category": "protein",
+      "goals": [
+        "strength_muscle",
+        "exercise_recovery"
+      ],
+      "common_presentations": [
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "plant_protein_blend",
+      "name": "Proteína vegetal (mezcla)",
+      "category": "protein",
+      "goals": [
+        "strength_muscle",
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "pea_protein",
+      "name": "Proteína de arveja/guisante",
+      "category": "protein",
+      "goals": [
+        "strength_muscle",
+        "dietary_gaps"
+      ],
+      "common_presentations": [
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "essential_amino_acids",
+      "name": "Aminoácidos esenciales (EAA)",
+      "category": "amino_acid",
+      "goals": [
+        "sports_performance",
+        "strength_muscle"
+      ],
+      "common_presentations": [
+        "powder",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "bcaa",
+      "name": "BCAA",
+      "category": "amino_acid",
+      "goals": [
+        "sports_performance",
+        "exercise_recovery"
+      ],
+      "common_presentations": [
+        "powder",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "l_leucine",
+      "name": "L-leucina",
+      "category": "amino_acid",
+      "goals": [
+        "strength_muscle"
+      ],
+      "common_presentations": [
+        "powder",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "l_glutamine",
+      "name": "L-glutamina",
+      "category": "amino_acid",
+      "goals": [
+        "exercise_recovery",
+        "digestive_health"
+      ],
+      "common_presentations": [
+        "powder",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "l_carnitine",
+      "name": "L-carnitina",
+      "category": "amino_acid_related",
+      "goals": [
+        "sports_performance",
+        "energy_vitality"
+      ],
+      "common_presentations": [
+        "liquid",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "acetyl_l_carnitine",
+      "name": "Acetil-L-carnitina (ALCAR)",
+      "category": "amino_acid_related",
+      "goals": [
+        "cognitive_support",
+        "energy_vitality"
+      ],
+      "common_presentations": [
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "glycine",
+      "name": "Glicina",
+      "category": "amino_acid",
+      "goals": [
+        "sleep_rest",
+        "exercise_recovery"
+      ],
+      "common_presentations": [
+        "powder",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "l_theanine",
+      "name": "L-teanina",
+      "category": "amino_acid_related",
+      "goals": [
+        "stress",
+        "cognitive_support"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "tyrosine",
+      "name": "L-tirosina",
+      "category": "amino_acid",
+      "goals": [
+        "cognitive_support",
+        "stress"
+      ],
+      "common_presentations": [
+        "capsule",
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "tryptophan",
+      "name": "L-triptófano",
+      "category": "amino_acid",
+      "goals": [
+        "sleep_rest"
+      ],
+      "common_presentations": [
+        "capsule",
+        "powder"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "inositol",
+      "name": "Inositol / myo-inositol",
+      "category": "vitamin_like",
+      "goals": [
+        "metabolic_health",
+        "sexual_reproductive_health"
+      ],
+      "common_presentations": [
+        "powder",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "nac",
+      "name": "N-acetilcisteína (NAC)",
+      "category": "other_bioactive",
+      "goals": [
+        "antioxidant_interest"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "alpha_lipoic_acid",
+      "name": "Ácido alfa-lipoico (ALA)",
+      "category": "other_bioactive",
+      "goals": [
+        "antioxidant_interest",
+        "metabolic_health"
+      ],
+      "common_presentations": [
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "astaxanthin",
+      "name": "Astaxantina",
+      "category": "carotenoid",
+      "goals": [
+        "antioxidant_interest",
+        "skin_health"
+      ],
+      "common_presentations": [
+        "softgel",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "lycopene",
+      "name": "Licopeno",
+      "category": "carotenoid",
+      "goals": [
+        "antioxidant_interest",
+        "general_wellness"
+      ],
+      "common_presentations": [
+        "softgel",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "beta_carotene",
+      "name": "Beta-caroteno",
+      "category": "carotenoid",
+      "goals": [
+        "dietary_gaps",
+        "vision_eye_health"
+      ],
+      "common_presentations": [
+        "softgel",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "boswellia",
+      "name": "Boswellia serrata",
+      "category": "botanical",
+      "goals": [
+        "bone_joint_health"
+      ],
+      "common_presentations": [
+        "standardized_extract_capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "rhodiola",
+      "name": "Rhodiola rosea",
+      "category": "botanical",
+      "goals": [
+        "stress",
+        "energy_vitality"
+      ],
+      "common_presentations": [
+        "standardized_extract_capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "ginseng_panax",
+      "name": "Panax ginseng",
+      "category": "botanical",
+      "goals": [
+        "energy_vitality",
+        "cognitive_support"
+      ],
+      "common_presentations": [
+        "standardized_extract_capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "valerian",
+      "name": "Valeriana",
+      "category": "botanical",
+      "goals": [
+        "sleep_rest"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet",
+        "drops"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "saw_palmetto",
+      "name": "Saw palmetto / Serenoa repens",
+      "category": "botanical",
+      "goals": [
+        "mens_health"
+      ],
+      "common_presentations": [
+        "softgel",
+        "standardized_extract_capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "milk_thistle",
+      "name": "Cardo mariano / silimarina",
+      "category": "botanical",
+      "goals": [
+        "liver_support"
+      ],
+      "common_presentations": [
+        "standardized_extract_capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "cranberry_extract",
+      "name": "Arándano rojo / cranberry",
+      "category": "botanical",
+      "goals": [
+        "urinary_health"
+      ],
+      "common_presentations": [
+        "capsule",
+        "tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "elderberry",
+      "name": "Saúco / elderberry",
+      "category": "botanical",
+      "goals": [
+        "immune_function"
+      ],
+      "common_presentations": [
+        "syrup",
+        "gummy",
+        "capsule"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
+    },
+    {
+      "id": "spirulina",
+      "name": "Spirulina",
+      "category": "algae",
+      "goals": [
+        "dietary_gaps",
+        "general_wellness"
+      ],
+      "common_presentations": [
+        "powder_or_tablet"
+      ],
+      "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
+      "sources": [],
+      "dose_status": "not_assessed",
+      "rules_status": "candidate_not_active",
+      "review_interval_status": "not_defined",
+      "dose_schedule_status": "not_defined",
+      "deep_record_status": "pending",
+      "risk_tier": "to_be_assessed"
     }
-  ]
+  ],
+  "catalog_count": 100,
+  "commercial_strategy": "Catalog by active ingredient/component and common presentation; brand/SKU mapping deferred until pharmacy partnership."
 }

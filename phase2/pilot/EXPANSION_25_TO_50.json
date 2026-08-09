@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "catalog_total": 50,
+  "existing_pilot": 25,
+  "new_candidates": 25,
+  "activation_rule": "Ninguno de los nuevos 25 entra en recomendaciones BASIC hasta contar con deep record, fuentes específicas, safety gates y reglas determinísticas revisadas.",
+  "priority_groups": {
+    "A_next_deep_review": [
+      "vitamin_a",
+      "vitamin_k",
+      "vitamin_b6",
+      "iodine",
+      "potassium",
+      "melatonin",
+      "choline",
+      "electrolyte_mix",
+      "multivitamin_mineral"
+    ],
+    "B_after_A": [
+      "thiamin_b1",
+      "riboflavin_b2",
+      "niacin_b3",
+      "pantothenic_acid_b5",
+      "copper",
+      "manganese",
+      "chromium",
+      "citrulline",
+      "hmb",
+      "taurine"
+    ],
+    "C_pro_or_high_caution": [
+      "ashwagandha",
+      "berberine",
+      "green_tea_extract",
+      "garlic_extract",
+      "ginger",
+      "psyllium_fiber"
+    ]
+  }
+}

@@ -1,5 +1,20 @@
 # Changelog
 
+## 2.3.0 — 2026-08-09
+- Catálogo ampliado de 50 a 100 componentes/ingredientes.
+- Incorporadas presentaciones habituales por componente sin asociarlas todavía a marcas.
+- Añadidas formas comunes de nutrientes ya existentes (p.ej. D2/D3, K2, B12, magnesio, zinc, calcio, hierro).
+- Ampliadas categorías de proteínas, aminoácidos, carotenoides, botánicos y otros bioactivos.
+- Creada plantilla futura para mapear componentes Vitami con SKU/productos de una farmacia.
+- Los componentes nuevos permanecen `candidate_not_active` hasta revisión científica profunda.
+
+## 2.2.0 — 2026-08-09
+- Catálogo ampliado de 25 a 50 productos/ingredientes.
+- Los 25 nuevos quedan como candidatos no activos hasta revisión científica profunda.
+- Añadida política PRO para análisis exhaustivo de suplementos actuales e interacciones.
+- La seguridad BASIC determinística nunca queda detrás del paywall.
+- Priorizada la siguiente tanda de deep records y safety gates.
+
 ## 2.1.0 — 2026-08-09
 - Creado el primer motor determinístico BASIC en JavaScript, sin IA.
 - El motor normaliza respuestas, deriva clases de actividad, evalúa reglas, aplica puntuaciones, techos y overrides de seguridad.
