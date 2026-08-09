@@ -1,13 +1,13 @@
 {
   "phase": "2",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "pilot_count": 25,
   "next_steps": [
-    "Crear especificación exacta del resultado BASIC usando la UI y los estados científicos actuales",
-    "Completar las 10 fichas restantes de Biblioteca ES/EN/IT",
-    "Crear reglas de derivación de actividad: selección UI + intensidad + duración -> clase científica",
-    "Formalizar las ramas de Salud y seguridad antes de activar dosis",
-    "Preparar JSON final de integración para que Emergent consuma la base sin reescribir la ciencia"
+    "Construir el evaluador determinístico completo que lea los JSON y produzca el contrato de salida",
+    "Probar el contrato contra 15–20 perfiles sintéticos adicionales",
+    "Crear las primeras reglas de consumo total entre múltiples productos",
+    "Preparar paquete mínimo para importar en Emergent sin activar todavía recomendaciones clínicas",
+    "Revisar y validar 5–8 reglas candidatas antes de pasar de draft a active"
   ],
   "deep_records_completed": [
     "vitamin_d",
@@ -38,9 +38,12 @@
   "simulation_audit_issues_count": 0,
   "conditional_questions_added": 9,
   "dose_frequency_rules_added": 6,
-  "library_records_created": 10,
+  "library_records_created": 20,
   "new_safety_combo_profiles": 10,
   "new_safety_combo_audit_issues": 0,
   "current_emergent_ui_mapped": true,
-  "observed_ui_questions_mapped": 13
+  "observed_ui_questions_mapped": 13,
+  "emergent_api_contract_created": true,
+  "basic_result_spec_created": true,
+  "activity_classifier_created": true
 }

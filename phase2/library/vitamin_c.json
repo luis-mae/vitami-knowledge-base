@@ -1,0 +1,28 @@
+{
+  "id": "vitamin_c",
+  "title": {
+    "es": "Vitamina C",
+    "en": "Vitamin C",
+    "it": "Vitamina C"
+  },
+  "what_it_is": {
+    "es": "Vitamina hidrosoluble esencial con funciones antioxidantes, inmunitarias y de síntesis de colágeno.",
+    "en": "An essential water-soluble vitamin with antioxidant, immune, and collagen-synthesis functions.",
+    "it": "Vitamina idrosolubile essenziale con funzioni antiossidanti, immunitarie e nella sintesi del collagene."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando la dieta aporta pocas frutas y verduras o en contextos donde las necesidades son mayores.",
+    "en": "It may appear when the diet contains few fruits and vegetables or in contexts with higher requirements.",
+    "it": "Può comparire quando la dieta contiene poca frutta e verdura o in contesti con fabbisogni maggiori."
+  },
+  "limits": {
+    "es": "Ser antioxidante no significa que dosis altas prevengan enfermedades. También deben considerarse antecedentes renales y consumo total.",
+    "en": "Being an antioxidant does not mean high doses prevent disease. Kidney history and total intake also matter.",
+    "it": "Essere un antiossidante non significa che dosi elevate prevengano malattie. Contano anche la storia renale e l'assunzione totale."
+  },
+  "evidence_label": "high_for_nutritional_role_mixed_for_extra_supplement_benefits",
+  "source_refs": [
+    "NIH_VITC_HP",
+    "NCCIH_ANTIOXIDANTS"
+  ]
+}

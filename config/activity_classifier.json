@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "status": "DRAFT",
+  "purpose": "Derivar una clase científica de actividad usando las respuestas de la UI actual de Emergent.",
+  "input_fields": [
+    "activity_type",
+    "activity_days_per_week",
+    "activity_session_duration",
+    "activity_intensity"
+  ],
+  "derived_classes": [
+    {
+      "class_id": "strength_power",
+      "when_any_activity": [
+        "strength"
+      ],
+      "supporting_intensity": [
+        "moderate",
+        "high",
+        "variable"
+      ],
+      "used_by": [
+        "creatine_monohydrate",
+        "protein_supplement",
+        "beta_alanine"
+      ]
+    },
+    {
+      "class_id": "endurance",
+      "when_any_activity": [
+        "running",
+        "cycling",
+        "swimming"
+      ],
+      "supporting_duration": [
+        "30-60",
+        "60-90",
+        ">90"
+      ],
+      "used_by": [
+        "caffeine_performance",
+        "beetroot_nitrate",
+        "tart_cherry",
+        "protein_supplement"
+      ]
+    },
+    {
+      "class_id": "mixed_high_intensity",
+      "when_any_activity": [
+        "team_sport",
+        "functional"
+      ],
+      "supporting_intensity": [
+        "high",
+        "variable"
+      ],
+      "used_by": [
+        "creatine_monohydrate",
+        "caffeine_performance",
+        "beta_alanine",
+        "sodium_bicarbonate"
+      ]
+    },
+    {
+      "class_id": "low_intensity_general",
+      "when_any_activity": [
+        "walking",
+        "yoga_pilates"
+      ],
+      "supporting_intensity": [
+        "light",
+        "moderate"
+      ],
+      "used_by": []
+    }
+  ],
+  "rules": [
+    "No supplement recommendation is created by the derived activity class alone.",
+    "Activity class only enables the relevant scientific rules.",
+    "If multiple activity types are selected, multiple classes may be true.",
+    "Intensity and duration refine relevance but do not diagnose nutritional deficiency."
+  ]
+}

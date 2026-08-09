@@ -1,0 +1,27 @@
+{
+  "id": "selenium",
+  "title": {
+    "es": "Selenio",
+    "en": "Selenium",
+    "it": "Selenio"
+  },
+  "what_it_is": {
+    "es": "Oligoelemento esencial que forma parte de proteínas implicadas en metabolismo tiroideo y defensa antioxidante.",
+    "en": "An essential trace element that is part of proteins involved in thyroid metabolism and antioxidant defense.",
+    "it": "Oligoelemento essenziale che fa parte di proteine coinvolte nel metabolismo tiroideo e nella difesa antiossidante."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando la dieta o el uso de suplementos hacen relevante revisar la ingesta total.",
+    "en": "It may appear when diet or supplement use makes total selenium intake worth reviewing.",
+    "it": "Può comparire quando dieta o uso di integratori rendono opportuno valutare l'assunzione totale di selenio."
+  },
+  "limits": {
+    "es": "Más no es mejor: el exceso puede causar problemas de cabello y uñas. Por eso Vitami debe considerar también fuentes dietarias muy concentradas.",
+    "en": "More is not better: excess can cause hair and nail problems. Vitami therefore needs to consider highly concentrated dietary sources too.",
+    "it": "Di più non è meglio: l'eccesso può causare problemi a capelli e unghie. Vitami deve quindi considerare anche fonti alimentari molto concentrate."
+  },
+  "evidence_label": "high_for_nutritional_role_low_for_generic_antioxidant_prevention",
+  "source_refs": [
+    "NIH_SELENIUM_HP"
+  ]
+}

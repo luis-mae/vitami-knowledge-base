@@ -1,0 +1,27 @@
+{
+  "id": "folate_folic_acid",
+  "title": {
+    "es": "Folato / ácido fólico",
+    "en": "Folate / folic acid",
+    "it": "Folato / acido folico"
+  },
+  "what_it_is": {
+    "es": "Vitamina B esencial para síntesis de ADN, división celular y formación normal de células sanguíneas.",
+    "en": "An essential B vitamin for DNA synthesis, cell division, and normal blood cell formation.",
+    "it": "Vitamina del gruppo B essenziale per sintesi del DNA, divisione cellulare e normale formazione delle cellule del sangue."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer por dieta o etapa reproductiva, especialmente cuando existe posibilidad de embarazo.",
+    "en": "It may appear because of diet or reproductive life stage, especially when pregnancy is possible.",
+    "it": "Può comparire per dieta o fase riproduttiva, soprattutto quando è possibile una gravidanza."
+  },
+  "limits": {
+    "es": "Vitami debe distinguir folato alimentario de ácido fólico y respetar los límites del folato sintético. Dosis altas requieren contexto.",
+    "en": "Vitami must distinguish food folate from folic acid and respect limits for synthetic folate. High doses require context.",
+    "it": "Vitami deve distinguere il folato alimentare dall'acido folico e rispettare i limiti del folato sintetico. Dosi elevate richiedono un contesto."
+  },
+  "evidence_label": "high_for_nutritional_role_and_specific_life_stage_use",
+  "source_refs": [
+    "NIH_FOLATE_HP"
+  ]
+}

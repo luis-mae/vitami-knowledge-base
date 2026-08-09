@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "phase": "2",
+  "status": "READY_FOR_TECHNICAL_WIRING_DRAFT",
+  "emergent_should_consume": [
+    "data/questions/question_bank_master.json",
+    "config/activity_classifier.json",
+    "config/draft_rule_engine.json",
+    "phase2/draft_rules/",
+    "phase2/dose_frequency_rules/",
+    "phase2/library/",
+    "phase2/emergent_bridge/EMERGENT_VITAMI_API_CONTRACT.json",
+    "phase2/emergent_bridge/BASIC_RESULT_SPEC.json"
+  ],
+  "emergent_should_not_do": [
+    "Generate its own supplement rules",
+    "Use AI for BASIC recommendation logic",
+    "Convert arithmetic dose equivalence into clinical equivalence",
+    "Show personalized dose before required follow-up questions are answered",
+    "Modify A/B/C/D/E/X/X-professional states based only on UI goals"
+  ]
+}

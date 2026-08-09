@@ -1,0 +1,27 @@
+{
+  "id": "probiotics",
+  "title": {
+    "es": "Probióticos",
+    "en": "Probiotics",
+    "it": "Probiotici"
+  },
+  "what_it_is": {
+    "es": "Microorganismos vivos que, en productos y cantidades específicas, pueden producir determinados efectos beneficiosos.",
+    "en": "Live microorganisms that, in specific products and amounts, may provide particular health effects.",
+    "it": "Microrganismi vivi che, in prodotti e quantità specifiche, possono produrre determinati effetti benefici."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer ante objetivos digestivos u otras indicaciones concretas, pero la cepa y el producto son fundamentales.",
+    "en": "It may appear for digestive goals or other specific indications, but strain and product are critical.",
+    "it": "Può comparire per obiettivi digestivi o altre indicazioni specifiche, ma ceppo e prodotto sono fondamentali."
+  },
+  "limits": {
+    "es": "No existe una dosis genérica de 'probióticos'. Diferentes cepas y productos no son intercambiables.",
+    "en": "There is no generic probiotic dose. Different strains and products are not interchangeable.",
+    "it": "Non esiste una dose generica di 'probiotici'. Ceppi e prodotti diversi non sono intercambiabili."
+  },
+  "evidence_label": "mixed_strain_and_condition_specific",
+  "source_refs": [
+    "NIH_PROBIOTICS_HP"
+  ]
+}

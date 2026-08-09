@@ -1,0 +1,27 @@
+{
+  "id": "vitamin_e",
+  "title": {
+    "es": "Vitamina E",
+    "en": "Vitamin E",
+    "it": "Vitamina E"
+  },
+  "what_it_is": {
+    "es": "Vitamina liposoluble con función antioxidante y otras funciones celulares.",
+    "en": "A fat-soluble vitamin with antioxidant and other cellular functions.",
+    "it": "Vitamina liposolubile con funzione antiossidante e altre funzioni cellulari."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer para revisar el aporte nutricional, pero no como estrategia genérica de prevención o 'anti-aging'.",
+    "en": "It may appear to review nutritional intake, but not as a generic prevention or anti-aging strategy.",
+    "it": "Può comparire per valutare l'apporto nutrizionale, ma non come strategia generica di prevenzione o anti-aging."
+  },
+  "limits": {
+    "es": "Las dosis altas pueden aumentar el riesgo de sangrado y no deben presentarse como un antioxidante universalmente beneficioso.",
+    "en": "High doses can increase bleeding risk and should not be presented as a universally beneficial antioxidant strategy.",
+    "it": "Dosi elevate possono aumentare il rischio di sanguinamento e non vanno presentate come strategia antiossidante universalmente benefica."
+  },
+  "evidence_label": "high_for_nutritional_role_low_or_negative_for_some_prevention_claims",
+  "source_refs": [
+    "NIH_VITE_HP"
+  ]
+}

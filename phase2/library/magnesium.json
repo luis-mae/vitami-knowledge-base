@@ -1,0 +1,27 @@
+{
+  "id": "magnesium",
+  "title": {
+    "es": "Magnesio",
+    "en": "Magnesium",
+    "it": "Magnesio"
+  },
+  "what_it_is": {
+    "es": "Mineral esencial que participa en cientos de reacciones enzimáticas, función muscular y nerviosa, metabolismo energético y salud ósea.",
+    "en": "An essential mineral involved in hundreds of enzymatic reactions, muscle and nerve function, energy metabolism, and bone health.",
+    "it": "Minerale essenziale coinvolto in centinaia di reazioni enzimatiche, funzione muscolare e nervosa, metabolismo energetico e salute ossea."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando la dieta aporta pocas fuentes de magnesio o cuando un objetivo específico justifica revisar su aporte.",
+    "en": "It may appear when the diet provides few magnesium-rich foods or when a specific goal makes magnesium intake worth reviewing.",
+    "it": "Può comparire quando la dieta offre poche fonti di magnesio o quando un obiettivo specifico rende opportuno valutarne l'apporto."
+  },
+  "limits": {
+    "es": "No todo cansancio, calambre o mal descanso implica falta de magnesio. La forma química del suplemento y la función renal importan.",
+    "en": "Fatigue, cramps, or poor sleep do not automatically indicate magnesium deficiency. Supplement form and kidney function matter.",
+    "it": "Stanchezza, crampi o sonno scarso non indicano automaticamente una carenza di magnesio. Contano la forma del supplemento e la funzione renale."
+  },
+  "evidence_label": "high_for_nutritional_role_mixed_for_specific_goals",
+  "source_refs": [
+    "NIH_MAGNESIUM_HP"
+  ]
+}

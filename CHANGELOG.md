@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.0 — 2026-08-09
+- Completadas 20 fichas de Biblioteca Vitami en ES/EN/IT.
+- Creado clasificador científico de actividad a partir de la UI existente.
+- Definido contrato JSON exacto Emergent → motor Vitami → Emergent.
+- Definida especificación completa de salida BASIC.
+- Añadidos payloads de ejemplo y paquete de integración para Emergent.
+- La ciencia permanece en estado draft hasta validación; la UI puede integrarse sin inventar reglas.
+
 ## 1.9.0 — 2026-08-09
 - Mapeado el cuestionario visual actualmente implementado en Emergent.
 - Se decidió conservar el flujo Datos → Alimentación → Actividad → Descanso → Sol → Objetivos → Salud.

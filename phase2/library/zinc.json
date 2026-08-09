@@ -1,0 +1,27 @@
+{
+  "id": "zinc",
+  "title": {
+    "es": "Zinc",
+    "en": "Zinc",
+    "it": "Zinco"
+  },
+  "what_it_is": {
+    "es": "Mineral esencial para inmunidad, síntesis de proteínas y ADN, cicatrización y otros procesos.",
+    "en": "An essential mineral for immunity, protein and DNA synthesis, wound healing, and other processes.",
+    "it": "Minerale essenziale per immunità, sintesi di proteine e DNA, cicatrizzazione e altri processi."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando el patrón alimentario sugiere que vale la pena revisar su aporte.",
+    "en": "It may appear when the dietary pattern makes zinc intake worth reviewing.",
+    "it": "Può comparire quando il modello alimentare rende opportuno valutare l'apporto di zinco."
+  },
+  "limits": {
+    "es": "Caída de cabello o problemas de piel por sí solos no demuestran falta de zinc. El exceso prolongado puede afectar el estado del cobre.",
+    "en": "Hair loss or skin concerns alone do not prove zinc deficiency. Long-term excess can impair copper status.",
+    "it": "Caduta dei capelli o problemi cutanei da soli non dimostrano una carenza di zinco. Un eccesso prolungato può alterare lo stato del rame."
+  },
+  "evidence_label": "high_for_nutritional_role_mixed_for_goal_specific_use",
+  "source_refs": [
+    "NIH_ZINC_HP"
+  ]
+}

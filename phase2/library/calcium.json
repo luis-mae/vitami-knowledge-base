@@ -1,0 +1,27 @@
+{
+  "id": "calcium",
+  "title": {
+    "es": "Calcio",
+    "en": "Calcium",
+    "it": "Calcio"
+  },
+  "what_it_is": {
+    "es": "Mineral esencial para huesos y dientes, contracción muscular, señalización celular y otras funciones.",
+    "en": "An essential mineral for bones and teeth, muscle contraction, cell signaling, and other functions.",
+    "it": "Minerale essenziale per ossa e denti, contrazione muscolare, segnalazione cellulare e altre funzioni."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer cuando la dieta tiene pocas fuentes de calcio o en etapas de vida donde conviene revisar el aporte.",
+    "en": "It may appear when the diet contains few calcium sources or during life stages when calcium intake deserves review.",
+    "it": "Può comparire quando la dieta contiene poche fonti di calcio o in fasi della vita in cui è opportuno valutarne l'apporto."
+  },
+  "limits": {
+    "es": "Vitami debe estimar primero el aporte alimentario. Más calcio suplementario no siempre es mejor y algunas personas requieren una evaluación individual.",
+    "en": "Vitami should first estimate dietary intake. More supplemental calcium is not always better, and some people need individual assessment.",
+    "it": "Vitami dovrebbe prima stimare l'apporto alimentare. Più calcio da integratori non è sempre meglio e alcune persone richiedono una valutazione individuale."
+  },
+  "evidence_label": "high_for_nutritional_role",
+  "source_refs": [
+    "NIH_CALCIUM_HP"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "glucosamine_chondroitin",
+  "title": {
+    "es": "Glucosamina + condroitina",
+    "en": "Glucosamine + chondroitin",
+    "it": "Glucosamina + condroitina"
+  },
+  "what_it_is": {
+    "es": "Suplementos utilizados principalmente para síntomas articulares y artrosis.",
+    "en": "Supplements used mainly for joint symptoms and osteoarthritis.",
+    "it": "Integratori utilizzati soprattutto per sintomi articolari e artrosi."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer como opción limitada cuando existe un problema articular específico.",
+    "en": "It may appear as a limited option when there is a specific joint problem.",
+    "it": "Può comparire come opzione limitata quando esiste un problema articolare specifico."
+  },
+  "limits": {
+    "es": "Los resultados de los estudios son inconsistentes. No debe mostrarse como una recomendación fuerte o universal.",
+    "en": "Study results are inconsistent. It should not be shown as a strong or universal recommendation.",
+    "it": "I risultati degli studi sono incoerenti. Non deve essere mostrata come una raccomandazione forte o universale."
+  },
+  "evidence_label": "mixed_uncertain",
+  "source_refs": [
+    "NCCIH_GLUCOSAMINE"
+  ]
+}

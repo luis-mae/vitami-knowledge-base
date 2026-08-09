@@ -1,0 +1,21 @@
+{
+  "locale": "es",
+  "session_id": "demo-strength-001",
+  "answers": {
+    "profile_age": 29,
+    "diet_type": "omnivore",
+    "activity_level": "regular",
+    "activity_type": [
+      "strength"
+    ],
+    "activity_days_per_week": "3-4",
+    "activity_session_duration": "60-90",
+    "activity_intensity": "high",
+    "sleep_hours": "7-8",
+    "lifestyle_sun_exposure": "moderate",
+    "goals_primary": [
+      "strength_muscle"
+    ]
+  },
+  "current_products": []
+}

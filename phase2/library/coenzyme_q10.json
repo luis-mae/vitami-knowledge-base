@@ -1,0 +1,27 @@
+{
+  "id": "coenzyme_q10",
+  "title": {
+    "es": "Coenzima Q10",
+    "en": "Coenzyme Q10",
+    "it": "Coenzima Q10"
+  },
+  "what_it_is": {
+    "es": "Compuesto producido por el organismo que participa en la producción de energía celular y funciones antioxidantes.",
+    "en": "A compound made by the body that participates in cellular energy production and antioxidant functions.",
+    "it": "Composto prodotto dall'organismo che partecipa alla produzione di energia cellulare e a funzioni antiossidanti."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Puede aparecer en algunos contextos específicos, pero no como recomendación genérica para energía o envejecimiento.",
+    "en": "It may appear in selected contexts, but not as a generic recommendation for energy or aging.",
+    "it": "Può comparire in alcuni contesti specifici, ma non come raccomandazione generica per energia o invecchiamento."
+  },
+  "limits": {
+    "es": "La evidencia varía mucho según la indicación. Vitami debe mantener una recomendación prudente y contextual.",
+    "en": "Evidence varies substantially by indication. Vitami should keep any recommendation cautious and context-specific.",
+    "it": "Le evidenze variano molto a seconda dell'indicazione. Vitami deve mantenere una raccomandazione prudente e contestuale."
+  },
+  "evidence_label": "mixed_indication_specific",
+  "source_refs": [
+    "NCCIH_COQ10"
+  ]
+}

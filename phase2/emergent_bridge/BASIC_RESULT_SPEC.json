@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "screen_order": [
+    "result_intro",
+    "priority_recommendations",
+    "possible_or_optional",
+    "not_recommended_when_educationally_useful",
+    "professional_review_cards",
+    "followup_questions_if_needed",
+    "next_steps",
+    "pro_upgrade"
+  ],
+  "recommendation_card": {
+    "required_fields": [
+      "display_name",
+      "state_label",
+      "short_reason",
+      "why_it_appears",
+      "evidence_summary",
+      "safety_summary",
+      "dose_display_status",
+      "library_cta"
+    ],
+    "dose_display_status_allowed": [
+      "hidden_pending_questions",
+      "general_reference_only",
+      "supported_range_available",
+      "professional_only",
+      "not_applicable"
+    ]
+  },
+  "francisco_behavior": {
+    "allowed": [
+      "introduce_results",
+      "explain_why_question_is_needed",
+      "explain_state_labels",
+      "invite_user_to_library",
+      "offer_PRO_after_BASIC"
+    ],
+    "not_allowed": [
+      "diagnose_deficiency",
+      "invent_dose",
+      "claim_prevention_without_rule",
+      "override_professional_review",
+      "say_goal_alone_proves_need"
+    ]
+  }
+}

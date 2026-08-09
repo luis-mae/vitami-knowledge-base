@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "status": "DRAFT_INTEGRATION_CONTRACT",
+  "request": {
+    "endpoint_concept": "vitami.evaluate_basic",
+    "fields": {
+      "locale": {
+        "type": "string",
+        "allowed": [
+          "es",
+          "en",
+          "it"
+        ]
+      },
+      "user_id": {
+        "type": "string",
+        "optional": true
+      },
+      "session_id": {
+        "type": "string"
+      },
+      "answers": {
+        "type": "object",
+        "description": "Canonical Vitami question_id -> normalized value."
+      },
+      "current_products": {
+        "type": "array",
+        "optional": true,
+        "item_fields": [
+          "supplement_id",
+          "product_name",
+          "amount_per_unit",
+          "amount_unit",
+          "dosage_form",
+          "divisible",
+          "current_schedule"
+        ]
+      }
+    }
+  },
+  "response": {
+    "overall_status": {
+      "allowed": [
+        "complete",
+        "needs_more_answers",
+        "professional_review_present"
+      ]
+    },
+    "derived_profile": {
+      "fields": [
+        "activity_classes",
+        "diet_flags",
+        "safety_flags"
+      ]
+    },
+    "followup_questions": {
+      "type": "array",
+      "item_fields": [
+        "question_id",
+        "reason_code",
+        "priority",
+        "ui_section"
+      ]
+    },
+    "recommendations": {
+      "type": "array",
+      "item_fields": [
+        "supplement_id",
+        "state",
+        "score",
+        "decision_status",
+        "reason_codes",
+        "evidence_label",
+        "safety_status",
+        "dose_status",
+        "dose_rule_id",
+        "library_record_id",
+        "source_refs"
+      ]
+    },
+    "not_recommended": {
+      "type": "array",
+      "description": "Optional educational items that are relevant to explain why a popular supplement is NOT recommended.",
+      "item_fields": [
+        "supplement_id",
+        "state",
+        "reason_codes",
+        "library_record_id"
+      ]
+    },
+    "professional_review": {
+      "type": "array",
+      "item_fields": [
+        "supplement_id",
+        "reason_codes",
+        "what_user_should_do_next"
+      ]
+    }
+  },
+  "hard_contract_rules": [
+    "Emergent must not generate supplement recommendations outside this response.",
+    "Emergent may localize UI text but must not change scientific state, reason codes, safety status or dose status.",
+    "If followup_questions is non-empty for a recommendation, no personalized dose is displayed.",
+    "A professional-review override always wins over positive scoring.",
+    "PRO/AI is downstream of BASIC and may not overwrite BASIC scientific facts without explicit evidence handling."
+  ]
+}

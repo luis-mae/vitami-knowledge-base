@@ -1,0 +1,33 @@
+{
+  "overall_status": "complete",
+  "derived_profile": {
+    "activity_classes": [
+      "strength_power"
+    ],
+    "diet_flags": [],
+    "safety_flags": []
+  },
+  "followup_questions": [],
+  "recommendations": [
+    {
+      "supplement_id": "creatine_monohydrate",
+      "state": "B_consider",
+      "score": 7,
+      "decision_status": "complete_for_available_draft_rules",
+      "reason_codes": [
+        "strength_training",
+        "muscle_strength_goal"
+      ],
+      "evidence_label": "high_for_selected_performance_contexts",
+      "safety_status": "clear",
+      "dose_status": "supplement_range_supported",
+      "dose_rule_id": "CREATINE_MAINTENANCE_DAILY",
+      "library_record_id": "creatine_monohydrate",
+      "source_refs": [
+        "NIH_EXERCISE_HP"
+      ]
+    }
+  ],
+  "not_recommended": [],
+  "professional_review": []
+}
