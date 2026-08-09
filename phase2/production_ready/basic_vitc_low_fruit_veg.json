@@ -1,0 +1,50 @@
+{
+  "scenario_id": "BASIC_VITC_LOW_FRUIT_VEG",
+  "supplement_id": "vitamin_c",
+  "integration_status": "approved_for_basic_integration",
+  "clinical_status": "dietary_gap_review",
+  "entry_conditions": {
+    "diet_fruit_veg_daily": [
+      "low",
+      "none"
+    ]
+  },
+  "must_know_before_result": [
+    "lifestyle_smoking",
+    "conditions_kidney_stones"
+  ],
+  "safety_blockers": [
+    "VITC_KIDNEY_STONES"
+  ],
+  "result": {
+    "state": "C_potential_benefit",
+    "dose_display": "reference_intake_only",
+    "reason_code": "low_fruit_vegetable_context"
+  },
+  "reference_display": {
+    "adult_male": "90 mg/day",
+    "adult_female": "75 mg/day",
+    "smoker_increment": "+35 mg/day",
+    "adult_ul": "2,000 mg/day"
+  },
+  "user_copy": {
+    "es": {
+      "title": "Vitamina C: revisá primero tus fuentes alimentarias",
+      "why": "Tu consumo de frutas y verduras parece bajo, que son las principales fuentes habituales de vitamina C.",
+      "limit": "Que sea antioxidante no significa que dosis altas prevengan enfermedades. Si fumás, los requerimientos son mayores."
+    },
+    "en": {
+      "title": "Vitamin C: review dietary sources first",
+      "why": "Your fruit and vegetable intake appears low; these are major usual sources of vitamin C.",
+      "limit": "Being an antioxidant does not mean high doses prevent disease. Smokers have higher requirements."
+    },
+    "it": {
+      "title": "Vitamina C: prima rivedi le fonti alimentari",
+      "why": "Il consumo di frutta e verdura sembra basso, che sono fonti abituali importanti di vitamina C.",
+      "limit": "Essere un antiossidante non significa che dosi elevate prevengano malattie. Chi fuma ha un fabbisogno maggiore."
+    }
+  },
+  "source_refs": [
+    "NIH_VITC_HP"
+  ]
+}

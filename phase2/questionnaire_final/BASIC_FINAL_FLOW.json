@@ -1,0 +1,207 @@
+{
+  "version": "1.0.0",
+  "status": "READY_FOR_EMERGENT_MAPPING",
+  "design_goal": "Keep BASIC short. Universal questions establish broad context; conditional questions appear only when a scientific or safety rule needs them.",
+  "sections": [
+    {
+      "section": "Datos",
+      "universal": [
+        {
+          "question_id": "profile_age",
+          "ui": "existing"
+        },
+        {
+          "question_id": "profile_sex_reference",
+          "ui": "existing_or_map"
+        }
+      ],
+      "conditional": [
+        {
+          "question_id": "profile_pregnancy",
+          "show_if": "sex_reference=female or pregnancy relevant to selected goal/supplement"
+        },
+        {
+          "question_id": "profile_lactation",
+          "show_if": "sex_reference=female and reproductive context"
+        }
+      ]
+    },
+    {
+      "section": "Alimentación",
+      "universal": [
+        {
+          "question_id": "diet_type",
+          "ui": "existing"
+        },
+        {
+          "question_id": "diet_fatty_fish_weekly",
+          "ui": "existing"
+        },
+        {
+          "question_id": "diet_dairy_calcium_sources",
+          "ui": "existing"
+        },
+        {
+          "question_id": "diet_fruit_veg_daily",
+          "ui": "add_compact"
+        }
+      ],
+      "conditional": [
+        {
+          "question_id": "diet_fortified_foods",
+          "show_if": "vegan/vegetarian OR vitamin D/B12 branch"
+        },
+        {
+          "question_id": "diet_legumes_nuts_seeds",
+          "show_if": "vegan/mostly plant based and zinc branch"
+        },
+        {
+          "question_id": "diet_protein_sources",
+          "show_if": "strength/muscle goal"
+        },
+        {
+          "question_id": "diet_fiber_sources",
+          "show_if": "digestive/appetite/cardiovascular branch"
+        },
+        {
+          "question_id": "diet_iodized_salt",
+          "show_if": "iodine branch"
+        }
+      ]
+    },
+    {
+      "section": "Actividad",
+      "universal": [
+        {
+          "question_id": "activity_level",
+          "ui": "existing"
+        }
+      ],
+      "conditional": [
+        {
+          "question_id": "activity_type",
+          "show_if": "activity_level != none",
+          "ui": "existing"
+        },
+        {
+          "question_id": "activity_days_per_week",
+          "show_if": "activity_level != none",
+          "ui": "existing"
+        },
+        {
+          "question_id": "activity_session_duration",
+          "show_if": "activity_level != none",
+          "ui": "existing"
+        },
+        {
+          "question_id": "activity_intensity",
+          "show_if": "activity_level != none",
+          "ui": "existing"
+        },
+        {
+          "question_id": "activity_sweat_level",
+          "show_if": "session>=60 min OR hydration/electrolyte/sports branch",
+          "ui": "existing"
+        },
+        {
+          "question_id": "pro_weight",
+          "show_if": "weight-based dose candidate such as caffeine OR total-protein calculation"
+        }
+      ]
+    },
+    {
+      "section": "Descanso",
+      "universal": [
+        {
+          "question_id": "sleep_hours",
+          "ui": "existing"
+        }
+      ],
+      "conditional": [
+        {
+          "question_id": "symptom_sleep",
+          "show_if": "sleep goal, caffeine candidate, or low sleep hours"
+        },
+        {
+          "question_id": "sleep_problem_type",
+          "show_if": "melatonin/sleep branch"
+        }
+      ]
+    },
+    {
+      "section": "Sol",
+      "universal": [
+        {
+          "question_id": "lifestyle_sun_exposure",
+          "ui": "existing"
+        }
+      ],
+      "conditional": []
+    },
+    {
+      "section": "Objetivos",
+      "universal": [
+        {
+          "question_id": "goals_primary",
+          "ui": "existing_multi_select"
+        }
+      ],
+      "conditional": [],
+      "rule": "Goals open branches; goals alone never prove a supplement is needed."
+    },
+    {
+      "section": "Salud",
+      "universal": [
+        {
+          "question_id": "conditions_kidney",
+          "ui": "compact_safety"
+        },
+        {
+          "question_id": "medications_regular_use",
+          "ui": "compact_yes_no"
+        }
+      ],
+      "conditional": [
+        {
+          "question_id": "conditions_kidney_stones",
+          "show_if": "calcium/vitamin C branch"
+        },
+        {
+          "question_id": "conditions_bleeding",
+          "show_if": "omega-3/vitamin E branch"
+        },
+        {
+          "question_id": "conditions_liver",
+          "show_if": "botanical/high-risk branch"
+        },
+        {
+          "question_id": "conditions_thyroid",
+          "show_if": "iodine/ashwagandha branch"
+        },
+        {
+          "question_id": "conditions_heart",
+          "show_if": "electrolyte/stimulant branch"
+        },
+        {
+          "question_id": "food_allergies",
+          "show_if": "protein/whey branch"
+        },
+        {
+          "question_id": "supplements_current_use",
+          "show_if": "B12/zinc/multivitamin or any duplicate-intake safety branch"
+        },
+        {
+          "question_id": "medications_list",
+          "show_if": "BASIC explicit safety gate needs identification; otherwise defer detailed interaction review to PRO"
+        }
+      ]
+    }
+  ],
+  "universal_question_count_target": 14,
+  "notes": [
+    "The number 14 is a UX target, not a hard clinical rule.",
+    "A user may see fewer or more questions depending on branches.",
+    "Do not show every master-bank question.",
+    "Conditional questions should appear immediately when needed or at the Health section, whichever is less disruptive."
+  ]
+}

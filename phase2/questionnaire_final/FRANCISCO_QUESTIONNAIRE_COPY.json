@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "francisco_section_intros": {
+    "Datos": {
+      "es": "Primero necesito algunos datos básicos para usar referencias nutricionales correctas.",
+      "en": "First I need a few basics so I can use the right nutrition references.",
+      "it": "Per prima cosa mi servono alcuni dati di base per usare i riferimenti nutrizionali corretti."
+    },
+    "Alimentación": {
+      "es": "Ahora quiero entender de dónde vienen normalmente tus nutrientes.",
+      "en": "Now I want to understand where your nutrients usually come from.",
+      "it": "Ora voglio capire da dove provengono normalmente i tuoi nutrienti."
+    },
+    "Actividad": {
+      "es": "Si entrenás, algunos suplementos cambian mucho de relevancia según el tipo de esfuerzo.",
+      "en": "If you train, some supplements change a lot in relevance depending on the type of effort.",
+      "it": "Se ti alleni, la rilevanza di alcuni integratori cambia molto secondo il tipo di sforzo."
+    },
+    "Descanso": {
+      "es": "El sueño también puede hacer que una recomendación tenga o no sentido.",
+      "en": "Sleep can also make a recommendation more or less appropriate.",
+      "it": "Anche il sonno può rendere una raccomandazione più o meno appropriata."
+    },
+    "Sol": {
+      "es": "La exposición solar es una parte del contexto de vitamina D, pero no diagnostica una deficiencia.",
+      "en": "Sun exposure is part of vitamin D context, but it does not diagnose deficiency.",
+      "it": "L'esposizione solare fa parte del contesto della vitamina D, ma non diagnostica una carenza."
+    },
+    "Objetivos": {
+      "es": "Tus objetivos me ayudan a saber qué vale la pena explorar; no prueban que necesites un suplemento.",
+      "en": "Your goals tell me what is worth exploring; they do not prove you need a supplement.",
+      "it": "I tuoi obiettivi mi aiutano a capire cosa vale la pena esplorare; non dimostrano che ti serva un integratore."
+    },
+    "Salud": {
+      "es": "Estas últimas preguntas son de seguridad. Algunas recomendaciones pueden cambiar según enfermedades, medicamentos o lo que ya estés tomando.",
+      "en": "These last questions are for safety. Some recommendations can change based on conditions, medicines, or what you already take.",
+      "it": "Queste ultime domande riguardano la sicurezza. Alcune raccomandazioni possono cambiare in base a patologie, farmaci o ciò che assumi già."
+    }
+  }
+}

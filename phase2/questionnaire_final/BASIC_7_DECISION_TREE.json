@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "scenario_branches": [
+    {
+      "from": "diet_type=vegan",
+      "ask": [
+        "diet_fortified_foods"
+      ],
+      "then": "if low/none -> ask supplements_current_use -> evaluate B12"
+    },
+    {
+      "from": "lifestyle_sun_exposure=low/very_low",
+      "use": [
+        "diet_fatty_fish_weekly",
+        "diet_fortified_foods"
+      ],
+      "then": "if low dietary context -> ask conditions_kidney -> evaluate vitamin D"
+    },
+    {
+      "from": "activity_type includes strength AND goal strength_muscle",
+      "ask": [
+        "conditions_kidney"
+      ],
+      "then": "evaluate creatine"
+    },
+    {
+      "from": "diet_fruit_veg_daily=low/none",
+      "ask": [
+        "lifestyle_smoking",
+        "conditions_kidney_stones"
+      ],
+      "then": "evaluate vitamin C"
+    },
+    {
+      "from": "diet_type=vegan",
+      "ask": [
+        "diet_legumes_nuts_seeds",
+        "supplements_current_use"
+      ],
+      "then": "evaluate zinc"
+    },
+    {
+      "from": "diet_dairy_calcium_sources=never/occasional",
+      "ask": [
+        "profile_age",
+        "profile_sex_reference",
+        "conditions_kidney_stones"
+      ],
+      "then": "evaluate calcium"
+    },
+    {
+      "from": "sports performance goal + endurance/mixed-high-intensity activity",
+      "ask": [
+        "pro_weight",
+        "lifestyle_caffeine_daily",
+        "symptom_sleep"
+      ],
+      "then": "evaluate caffeine"
+    }
+  ],
+  "conflict_resolution": [
+    "Safety X overrides every positive state.",
+    "If a required conditional answer is missing, return needs_more_answers.",
+    "A goal cannot raise a supplement above its rule-defined ceiling by itself.",
+    "If current supplement use creates duplicate-intake uncertainty, do not show an additional personalized dose."
+  ]
+}

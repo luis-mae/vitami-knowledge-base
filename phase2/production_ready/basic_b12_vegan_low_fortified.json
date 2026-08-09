@@ -1,0 +1,42 @@
+{
+  "scenario_id": "BASIC_B12_VEGAN_LOW_FORTIFIED",
+  "supplement_id": "vitamin_b12",
+  "integration_status": "approved_for_basic_integration",
+  "clinical_status": "deterministic_education_not_diagnosis",
+  "entry_conditions": {
+    "diet_type": "vegan",
+    "diet_fortified_foods": [
+      "low",
+      "none"
+    ]
+  },
+  "must_know_before_result": [
+    "supplements_current_use"
+  ],
+  "safety_blockers": [],
+  "result": {
+    "state": "B_consider",
+    "dose_display": "reference_only",
+    "reason_code": "vegan_low_fortified_b12_context"
+  },
+  "user_copy": {
+    "es": {
+      "title": "Vitamina B12: vale la pena considerarla",
+      "why": "Una dieta vegana no aporta B12 de forma natural salvo alimentos fortificados, por eso conviene revisar si tu aporte es suficiente.",
+      "limit": "Esto no diagnostica una deficiencia. Si ya tomás B12, primero hay que revisar lo que estás usando."
+    },
+    "en": {
+      "title": "Vitamin B12: worth considering",
+      "why": "A vegan diet does not naturally provide B12 unless foods are fortified, so your intake is worth reviewing.",
+      "limit": "This does not diagnose deficiency. If you already take B12, your current intake should be reviewed first."
+    },
+    "it": {
+      "title": "Vitamina B12: da considerare",
+      "why": "Una dieta vegana non fornisce naturalmente B12 salvo alimenti fortificati, quindi vale la pena verificare l'apporto.",
+      "limit": "Questo non diagnostica una carenza. Se assumi già B12, va prima valutato ciò che stai usando."
+    }
+  },
+  "source_refs": [
+    "NIH_B12_HP"
+  ]
+}

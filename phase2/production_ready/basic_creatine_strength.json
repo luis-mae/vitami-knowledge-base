@@ -1,0 +1,47 @@
+{
+  "scenario_id": "BASIC_CREATINE_STRENGTH",
+  "supplement_id": "creatine_monohydrate",
+  "integration_status": "approved_for_basic_integration",
+  "clinical_status": "evidence_supported_performance_context",
+  "entry_conditions": {
+    "activity_class": "strength_power",
+    "goals_primary_contains": "strength_muscle"
+  },
+  "must_know_before_result": [
+    "conditions_kidney"
+  ],
+  "safety_blockers": [
+    "CREATINE_KIDNEY"
+  ],
+  "result": {
+    "state": "B_consider",
+    "dose_display": "supported_range",
+    "reason_code": "strength_training_and_muscle_goal"
+  },
+  "dose_display": {
+    "maintenance": "3–5 g/day",
+    "loading": "optional; a studied loading approach is 20 g/day divided for 5–7 days",
+    "no_loading": "3–6 g/day for about 3–4 weeks is a studied alternative",
+    "rule": "Loading is not required; regular use matters more than training-day-only timing."
+  },
+  "user_copy": {
+    "es": {
+      "title": "Creatina monohidrato: buena candidata",
+      "why": "Tu entrenamiento de fuerza y tu objetivo encajan con uno de los usos mejor respaldados de la creatina.",
+      "limit": "No hace falta fase de carga y no recomendamos tomarla solo los días de entrenamiento como si eso fuera equivalente."
+    },
+    "en": {
+      "title": "Creatine monohydrate: a strong candidate",
+      "why": "Your strength training and goal match one of the best-supported uses of creatine.",
+      "limit": "A loading phase is not required, and training-day-only use is not assumed to be equivalent."
+    },
+    "it": {
+      "title": "Creatina monoidrato: buona candidata",
+      "why": "Il tuo allenamento di forza e il tuo obiettivo rientrano tra gli usi meglio supportati della creatina.",
+      "limit": "La fase di carico non è necessaria e l'uso solo nei giorni di allenamento non viene considerato equivalente."
+    }
+  },
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}

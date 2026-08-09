@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "status": "READY_FOR_TECHNICAL_INTEGRATION_NOT_DEPLOYED",
+  "scenario_count": 7,
+  "scenarios": [
+    "BASIC_B12_VEGAN_LOW_FORTIFIED",
+    "BASIC_VITD_LOW_SUN_LOW_DIET",
+    "BASIC_CREATINE_STRENGTH",
+    "BASIC_VITC_LOW_FRUIT_VEG",
+    "BASIC_ZINC_VEGAN",
+    "BASIC_CALCIUM_LOW_DIET",
+    "BASIC_CAFFEINE_PERFORMANCE"
+  ],
+  "important": "These pathways are ready to wire into BASIC. Public clinical deployment still requires final product-level QA and professional governance review.",
+  "activation_policy": {
+    "engine_can_execute": true,
+    "emergent_can_render_after_integration": true,
+    "automatic_diagnosis": false,
+    "safety_override_priority": "absolute",
+    "pro_interaction_analysis": "separate"
+  }
+}

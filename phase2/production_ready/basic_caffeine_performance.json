@@ -1,0 +1,52 @@
+{
+  "scenario_id": "BASIC_CAFFEINE_PERFORMANCE",
+  "supplement_id": "caffeine_performance",
+  "integration_status": "approved_for_basic_integration",
+  "clinical_status": "evidence_supported_performance_context",
+  "entry_conditions": {
+    "activity_class": [
+      "endurance",
+      "mixed_high_intensity"
+    ],
+    "goals_primary_contains": "sports_performance"
+  },
+  "must_know_before_result": [
+    "pro_weight",
+    "lifestyle_caffeine_daily",
+    "symptom_sleep"
+  ],
+  "safety_blockers": [
+    "CAFF_SLEEP",
+    "CAFF_HIGH_BASELINE"
+  ],
+  "result": {
+    "state": "B_consider",
+    "dose_display": "weight_based_supported_range",
+    "reason_code": "performance_context"
+  },
+  "dose_display": {
+    "range": "2–6 mg/kg",
+    "timing": "about 15–60 minutes before exercise",
+    "rule": "Use the low end first; poor sleep or high habitual caffeine can downgrade suitability."
+  },
+  "user_copy": {
+    "es": {
+      "title": "Cafeína: puede mejorar el rendimiento en contextos específicos",
+      "why": "Tu tipo de actividad y objetivo deportivo coinciden con situaciones donde la cafeína puede mejorar el rendimiento.",
+      "limit": "Si dormís mal o ya consumís mucha cafeína, Vitami reduce o evita esta recomendación."
+    },
+    "en": {
+      "title": "Caffeine: may improve performance in selected contexts",
+      "why": "Your activity type and performance goal match settings where caffeine can improve performance.",
+      "limit": "If you sleep poorly or already consume a lot of caffeine, Vitami downgrades or avoids this recommendation."
+    },
+    "it": {
+      "title": "Caffeina: può migliorare la prestazione in contesti specifici",
+      "why": "Il tipo di attività e l'obiettivo sportivo coincidono con situazioni in cui la caffeina può migliorare la prestazione.",
+      "limit": "Se dormi male o consumi già molta caffeina, Vitami riduce o evita questa raccomandazione."
+    }
+  },
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ]
+}
