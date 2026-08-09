@@ -1,0 +1,33 @@
+{
+  "id": "electrolyte_mix",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "reference_values": {
+    "generic_dose": "not_defined",
+    "note": "Needs duration, sweat, heat and product composition context."
+  },
+  "key_evidence": [
+    "Electrolyte needs during exercise depend on duration, sweat losses, environment and diet.",
+    "Doing exercise alone does not justify routine electrolyte supplementation.",
+    "Multi-ingredient formulas cannot be assumed equivalent because sodium, potassium, carbohydrate and other ingredients vary."
+  ],
+  "required_questions": [
+    "activity_type",
+    "activity_days_per_week",
+    "activity_session_duration",
+    "activity_intensity",
+    "activity_sweat_level"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "conditions_heart",
+    "medications_regular_use"
+  ],
+  "dose_logic": {
+    "basic_status": "context_required",
+    "short_low_sweat_sessions": "no_current_indication"
+  },
+  "recommendation_ceiling": "C_potential_benefit"
+}

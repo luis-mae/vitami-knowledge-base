@@ -1,0 +1,40 @@
+{
+  "id": "zinc_gluconate",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_ZINC_HP"
+  ],
+  "reference_values": {
+    "adult_male_rda": {
+      "amount": 11,
+      "unit": "mg/day"
+    },
+    "adult_female_rda": {
+      "amount": 8,
+      "unit": "mg/day"
+    },
+    "adult_ul": {
+      "amount": 40,
+      "unit": "mg/day"
+    }
+  },
+  "key_evidence": [
+    "Zinc gluconate is a common supplemental zinc form.",
+    "The relevant amount is elemental zinc.",
+    "Long-term high zinc exposure can impair copper status; total intake from all supplements matters."
+  ],
+  "required_questions": [
+    "diet_type",
+    "supplements_current_use",
+    "goals_primary"
+  ],
+  "safety_questions": [
+    "medications_regular_use"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "calculate_as": "elemental_zinc",
+    "high_long_term_dose": "avoid_without_specific_rule"
+  },
+  "parent_component": "zinc"
+}

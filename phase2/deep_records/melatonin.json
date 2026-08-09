@@ -1,0 +1,33 @@
+{
+  "id": "melatonin",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NCCIH_MELATONIN",
+    "NCCIH_SLEEP"
+  ],
+  "reference_values": {
+    "rda": "not_applicable",
+    "ul": "not_established_as_nutrient"
+  },
+  "key_evidence": [
+    "Melatonin is a hormone involved in circadian timing, not an essential nutrient with an RDA.",
+    "Evidence is more context-specific for circadian problems such as jet lag than for generic chronic insomnia.",
+    "Short-term use appears safer than long-term use; long-term safety information remains limited."
+  ],
+  "required_questions": [
+    "sleep_hours",
+    "sleep_quality",
+    "sleep_problem_type",
+    "activity_typical_time"
+  ],
+  "safety_questions": [
+    "profile_pregnancy",
+    "medications_regular_use",
+    "conditions_other_relevant"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "generic_chronic_insomnia": "no_automatic_recommendation"
+  },
+  "recommendation_ceiling": "C_potential_benefit"
+}

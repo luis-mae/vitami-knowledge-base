@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "tranche": "phase2_v1.4_maturation_20",
+  "record_count": 20,
+  "records": [
+    "vitamin_a",
+    "vitamin_k",
+    "vitamin_b6",
+    "iodine",
+    "potassium",
+    "choline",
+    "melatonin",
+    "electrolyte_mix",
+    "multivitamin_mineral",
+    "psyllium_fiber",
+    "vitamin_d3",
+    "magnesium_citrate",
+    "magnesium_glycinate",
+    "calcium_citrate",
+    "zinc_gluconate",
+    "iron_bisglycinate",
+    "algal_omega3_dha",
+    "whey_protein",
+    "methylcobalamin",
+    "methylfolate_5mthf"
+  ],
+  "status": "scientific_deep_records_completed_rules_not_yet_active",
+  "principles": [
+    "A deep record does not activate recommendation logic by itself.",
+    "Safety gates and deterministic rules must still be created/reviewed before BASIC activation.",
+    "Form-specific superiority is never inferred from popularity or marketing.",
+    "Therapeutic dosing and complex interaction analysis remain professional/PRO where applicable."
+  ]
+}

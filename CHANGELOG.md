@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.4.0 — 2026-08-09
+- Madurados 20 componentes adicionales con deep records científicos.
+- Total de deep records: 40.
+- Incorporados vitamina A, K, B6, yodo, potasio, colina, melatonina, electrolitos, multivitamínicos y psyllium.
+- Maduradas formas habituales: D3, citrato/glicinato de magnesio, citrato de calcio, gluconato de zinc, hierro bisglicinato, omega-3 de algas, whey, metilcobalamina y 5-MTHF.
+- Registradas fuentes primarias oficiales NIH ODS, NCCIH y FDA verificadas para esta tanda.
+- Ninguna nueva ficha activa recomendaciones BASIC por sí sola; faltan safety gates y reglas determinísticas específicas.
+
 ## 2.3.0 — 2026-08-09
 - Catálogo ampliado de 50 a 100 componentes/ingredientes.
 - Incorporadas presentaciones habituales por componente sin asociarlas todavía a marcas.

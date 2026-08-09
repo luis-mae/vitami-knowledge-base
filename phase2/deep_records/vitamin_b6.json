@@ -1,0 +1,33 @@
+{
+  "id": "vitamin_b6",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_B6_HP"
+  ],
+  "reference_values": {
+    "adult_19_50_rda": {
+      "amount": 1.3,
+      "unit": "mg/day"
+    },
+    "note": "Age/sex-specific values apply beyond 50 and in pregnancy/lactation."
+  },
+  "key_evidence": [
+    "Essential cofactor in more than 100 enzyme reactions involved in metabolism.",
+    "Fatigue or stress alone does not establish B6 deficiency.",
+    "Chronic excessive supplemental B6 can cause peripheral neuropathy; total supplemental exposure matters."
+  ],
+  "required_questions": [
+    "diet_type",
+    "supplements_current_use",
+    "goals_primary"
+  ],
+  "safety_questions": [
+    "symptom_neurologic",
+    "medications_regular_use"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "high_supplemental_dose": "avoid_without_specific_rule"
+  },
+  "recommendation_ceiling": "C_potential_benefit"
+}

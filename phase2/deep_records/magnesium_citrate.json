@@ -1,0 +1,33 @@
+{
+  "id": "magnesium_citrate",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "reference_values": {
+    "supplemental_ul_adults": {
+      "amount": 350,
+      "unit": "mg/day",
+      "scope": "supplemental magnesium only"
+    }
+  },
+  "key_evidence": [
+    "Magnesium citrate is a commonly marketed supplemental form.",
+    "The nutritional requirement belongs to elemental magnesium, not to the weight of the citrate compound.",
+    "Form-specific tolerability or absorption claims must not automatically become superiority claims."
+  ],
+  "required_questions": [
+    "diet_type",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "conditions_gastrointestinal"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "calculate_as": "elemental_magnesium"
+  },
+  "parent_component": "magnesium"
+}

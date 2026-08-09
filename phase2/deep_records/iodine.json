@@ -1,0 +1,45 @@
+{
+  "id": "iodine",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_IODINE_HP"
+  ],
+  "reference_values": {
+    "adult_rda": {
+      "amount": 150,
+      "unit": "mcg/day"
+    },
+    "pregnancy_rda": {
+      "amount": 220,
+      "unit": "mcg/day"
+    },
+    "lactation_rda": {
+      "amount": 290,
+      "unit": "mcg/day"
+    },
+    "adult_ul": {
+      "amount": 1100,
+      "unit": "mcg/day"
+    }
+  },
+  "key_evidence": [
+    "Iodine is required for thyroid hormone synthesis.",
+    "Both inadequate and excessive iodine intake can be relevant to thyroid health.",
+    "Pregnancy raises iodine requirements, but thyroid disease and medication context can change safety decisions."
+  ],
+  "required_questions": [
+    "diet_type",
+    "diet_iodized_salt",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "profile_pregnancy",
+    "conditions_thyroid",
+    "medications_regular_use"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "known_thyroid_disease": "professional_review_required"
+  },
+  "recommendation_ceiling": "C_potential_benefit"
+}

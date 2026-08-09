@@ -568,10 +568,10 @@
       ],
       "risk_tier": "high_attention",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "capsule_or_tablet"
       ]
@@ -590,10 +590,10 @@
       ],
       "risk_tier": "high_attention",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "capsule_or_tablet"
       ]
@@ -701,10 +701,10 @@
       ],
       "risk_tier": "high_attention",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "capsule_or_tablet"
       ]
@@ -723,10 +723,10 @@
       ],
       "risk_tier": "high_attention",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "capsule_or_tablet"
       ]
@@ -809,10 +809,10 @@
       ],
       "risk_tier": "professional_gate",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "capsule_tablet_powder_or_liquid"
       ]
@@ -832,10 +832,10 @@
       ],
       "risk_tier": "standard",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "capsule_tablet_powder_or_liquid"
       ]
@@ -854,10 +854,10 @@
       ],
       "risk_tier": "high_attention",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "capsule_tablet_powder_or_liquid"
       ]
@@ -989,10 +989,10 @@
       ],
       "risk_tier": "high_attention",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "powder_or_capsule"
       ]
@@ -1079,10 +1079,10 @@
       ],
       "risk_tier": "high_attention",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "powder_or_effervescent"
       ]
@@ -1102,10 +1102,10 @@
       ],
       "risk_tier": "high_attention",
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "common_presentations": [
         "tablet_capsule_or_sachet"
       ]
@@ -1126,10 +1126,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1208,10 +1208,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1250,10 +1250,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1271,10 +1271,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1292,10 +1292,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1352,10 +1352,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1372,10 +1372,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1412,10 +1412,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1453,10 +1453,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {
@@ -1553,10 +1553,10 @@
       "evidence_position": "Pendiente de revisión profunda específica para indicación, dosis, seguridad y formulación.",
       "sources": [],
       "dose_status": "not_assessed",
-      "rules_status": "candidate_not_active",
+      "rules_status": "deep_record_ready_rules_pending",
       "review_interval_status": "not_defined",
       "dose_schedule_status": "not_defined",
-      "deep_record_status": "pending",
+      "deep_record_status": "reviewed_draft",
       "risk_tier": "to_be_assessed"
     },
     {

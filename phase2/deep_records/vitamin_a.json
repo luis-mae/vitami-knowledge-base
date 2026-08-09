@@ -1,0 +1,41 @@
+{
+  "id": "vitamin_a",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_VITA_HP"
+  ],
+  "reference_values": {
+    "adult_male_rda": {
+      "amount": 900,
+      "unit": "mcg RAE/day"
+    },
+    "adult_female_rda": {
+      "amount": 700,
+      "unit": "mcg RAE/day"
+    },
+    "adult_ul_preformed_vitamin_a": {
+      "amount": 3000,
+      "unit": "mcg RAE/day"
+    }
+  },
+  "key_evidence": [
+    "Essential for normal vision, immune function, reproduction, growth and development.",
+    "Preformed vitamin A has a meaningful upper limit; excess is not a benign 'wellness' strategy.",
+    "Pregnancy requires special caution with preformed vitamin A exposure."
+  ],
+  "required_questions": [
+    "diet_type",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "profile_pregnancy",
+    "conditions_liver",
+    "medications_regular_use"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "high_dose_preformed_vitamin_a": "professional_review_required"
+  },
+  "recommendation_ceiling": "C_potential_benefit"
+}

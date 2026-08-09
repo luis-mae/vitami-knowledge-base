@@ -1,0 +1,40 @@
+{
+  "id": "methylcobalamin",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_B12_HP"
+  ],
+  "reference_values": {
+    "adult_rda": {
+      "amount": 2.4,
+      "unit": "mcg/day"
+    },
+    "pregnancy_rda": {
+      "amount": 2.6,
+      "unit": "mcg/day"
+    },
+    "lactation_rda": {
+      "amount": 2.8,
+      "unit": "mcg/day"
+    }
+  },
+  "key_evidence": [
+    "Methylcobalamin is one supplemental form of vitamin B12.",
+    "The existence of different B12 forms does not by itself prove superior clinical outcomes for one form in all users.",
+    "Diet pattern, fortified foods, age and current supplementation are more important initial BASIC variables."
+  ],
+  "required_questions": [
+    "diet_type",
+    "diet_fortified_foods",
+    "profile_age",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_other_relevant"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "form_superiority": "not_assumed"
+  },
+  "parent_component": "vitamin_b12"
+}

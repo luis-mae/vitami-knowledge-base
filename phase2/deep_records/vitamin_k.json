@@ -1,0 +1,37 @@
+{
+  "id": "vitamin_k",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_VITK_HP"
+  ],
+  "reference_values": {
+    "adult_male_ai": {
+      "amount": 120,
+      "unit": "mcg/day"
+    },
+    "adult_female_ai": {
+      "amount": 90,
+      "unit": "mcg/day"
+    },
+    "ul": "not_established"
+  },
+  "key_evidence": [
+    "Vitamin K is essential for normal coagulation and participates in bone-related proteins.",
+    "Supplemental K1/K2 should not be treated as universally interchangeable for every claimed outcome.",
+    "Vitamin K has clinically important interaction context with vitamin K antagonist anticoagulants."
+  ],
+  "required_questions": [
+    "diet_type",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "medications_regular_use",
+    "conditions_bleeding"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "anticoagulant_context": "professional_review_required"
+  },
+  "recommendation_ceiling": "C_potential_benefit"
+}

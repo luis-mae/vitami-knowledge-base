@@ -1,0 +1,31 @@
+{
+  "id": "whey_protein",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "reference_values": {
+    "generic_supplement_dose": "not_universal"
+  },
+  "key_evidence": [
+    "Whey is a common protein supplement, but the primary question is whether total dietary protein is adequate for the person's needs.",
+    "A protein powder is a food-like delivery format, not evidence that supplementation is needed.",
+    "Multi-ingredient mass gainers or preworkout-protein blends require separate product analysis."
+  ],
+  "required_questions": [
+    "activity_type",
+    "activity_days_per_week",
+    "goals_primary",
+    "diet_protein_sources"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "food_allergies",
+    "conditions_other_relevant"
+  ],
+  "dose_logic": {
+    "basic_status": "dietary_gap_dependent",
+    "personalized_total_protein": "requires_body_weight_and_context"
+  },
+  "parent_component": "protein_supplement"
+}

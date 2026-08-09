@@ -1,0 +1,34 @@
+{
+  "id": "magnesium_glycinate",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "reference_values": {
+    "supplemental_ul_adults": {
+      "amount": 350,
+      "unit": "mg/day",
+      "scope": "supplemental magnesium only"
+    }
+  },
+  "key_evidence": [
+    "Magnesium glycinate/bisglycinate is a common commercial form.",
+    "The active nutritional quantity is elemental magnesium.",
+    "Claims that this form is intrinsically a sleep treatment require indication-specific evidence and are not assumed in BASIC."
+  ],
+  "required_questions": [
+    "diet_type",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "conditions_gastrointestinal"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "calculate_as": "elemental_magnesium",
+    "sleep_superiority": "not_assumed"
+  },
+  "parent_component": "magnesium"
+}

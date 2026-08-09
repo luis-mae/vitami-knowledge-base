@@ -1,0 +1,38 @@
+{
+  "id": "potassium",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_POTASSIUM_HP"
+  ],
+  "reference_values": {
+    "adult_male_ai": {
+      "amount": 3400,
+      "unit": "mg/day"
+    },
+    "adult_female_ai": {
+      "amount": 2600,
+      "unit": "mg/day"
+    },
+    "note": "These are total-intake reference values, not automatic supplement doses."
+  },
+  "key_evidence": [
+    "Potassium is an essential electrolyte and most intake should generally come from foods.",
+    "Supplemental potassium can be dangerous in kidney disease and with some medications.",
+    "BASIC should not auto-prescribe a potassium supplement from diet or sweating data alone."
+  ],
+  "required_questions": [
+    "diet_type",
+    "activity_sweat_level",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "medications_regular_use",
+    "conditions_heart"
+  ],
+  "dose_logic": {
+    "basic_status": "professional_gate",
+    "automatic_supplement_dose": "not_allowed"
+  },
+  "recommendation_ceiling": "X_professional_review_required"
+}

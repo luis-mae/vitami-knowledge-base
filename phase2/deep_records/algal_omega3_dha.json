@@ -1,0 +1,30 @@
+{
+  "id": "algal_omega3_dha",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_OMEGA3_HP"
+  ],
+  "reference_values": {
+    "epa_dha_rda": "not_established"
+  },
+  "key_evidence": [
+    "Algal oil is a common non-fish source of DHA and, in some products, EPA.",
+    "It may be relevant for people who avoid fish, but dose and EPA/DHA composition vary by product.",
+    "The evidence for health outcomes belongs to the actual EPA/DHA exposure, not simply the label 'algal oil'."
+  ],
+  "required_questions": [
+    "diet_type",
+    "diet_fatty_fish_weekly",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_bleeding",
+    "safety_upcoming_surgery",
+    "medications_regular_use"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "calculate_as": "actual_dha_epa_content"
+  },
+  "parent_component": "omega_3_epa_dha"
+}

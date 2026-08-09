@@ -277,6 +277,30 @@
       "url": "",
       "source_type": "pending_validation",
       "status": "needs_validation"
+    },
+    {
+      "id": "NIH_PREGNANCY_HP",
+      "title": "NIH Office of Dietary Supplements — Dietary Supplements and Life Stages: Pregnancy",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "source_type": "official_primary_guidance",
+      "status": "verified_2026-08-09"
+    },
+    {
+      "id": "NCCIH_SLEEP",
+      "title": "NCCIH — Sleep Disorders and Complementary Health Approaches",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches",
+      "source_type": "official_primary_guidance",
+      "status": "verified_2026-08-09"
+    },
+    {
+      "id": "FDA_PSYLLIUM_CHD",
+      "title": "U.S. FDA — Authorized Health Claims: Soluble Fiber from Certain Foods and Risk of Coronary Heart Disease",
+      "organization": "FDA",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/authorized-health-claims-meet-significant-scientific-agreement-ssa-standard",
+      "source_type": "official_primary_guidance",
+      "status": "verified_2026-08-09"
     }
   ]
 }

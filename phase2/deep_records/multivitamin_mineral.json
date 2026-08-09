@@ -1,0 +1,31 @@
+{
+  "id": "multivitamin_mineral",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_MVM_HP"
+  ],
+  "reference_values": {
+    "generic_formula": "not_defined"
+  },
+  "key_evidence": [
+    "Multivitamin/mineral products can increase nutrient intakes, but formulations vary widely.",
+    "They do not substitute for a healthful diet and should not be presented as a universal chronic-disease prevention strategy.",
+    "Total intake matters because the same nutrient can appear in multiple products."
+  ],
+  "required_questions": [
+    "diet_type",
+    "supplements_current_use",
+    "goals_primary"
+  ],
+  "safety_questions": [
+    "medications_regular_use",
+    "profile_pregnancy",
+    "conditions_kidney",
+    "conditions_liver"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "formula_specific_analysis": "PRO"
+  },
+  "recommendation_ceiling": "D_optional_limited"
+}

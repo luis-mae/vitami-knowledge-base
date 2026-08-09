@@ -1,0 +1,45 @@
+{
+  "id": "choline",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_CHOLINE_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "reference_values": {
+    "adult_male_ai": {
+      "amount": 550,
+      "unit": "mg/day"
+    },
+    "adult_female_ai": {
+      "amount": 425,
+      "unit": "mg/day"
+    },
+    "pregnancy_ai": {
+      "amount": 450,
+      "unit": "mg/day"
+    },
+    "lactation_ai": {
+      "amount": 550,
+      "unit": "mg/day"
+    }
+  },
+  "key_evidence": [
+    "Choline is an essential nutrient involved in cell membranes and methyl-group metabolism.",
+    "Pregnancy is a nutritionally important context because the AI rises to 450 mg/day.",
+    "General cognitive enhancement claims should not be inferred from choline's essential biological role."
+  ],
+  "required_questions": [
+    "diet_type",
+    "profile_pregnancy",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "safety_questions": [
+    "conditions_other_relevant"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "pregnancy": "dietary_gap_review"
+  },
+  "recommendation_ceiling": "C_potential_benefit"
+}

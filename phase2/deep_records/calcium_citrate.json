@@ -1,0 +1,37 @@
+{
+  "id": "calcium_citrate",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_CALCIUM_HP"
+  ],
+  "reference_values": {
+    "adult_19_50_rda": {
+      "amount": 1000,
+      "unit": "mg/day"
+    },
+    "women_over_50_rda": {
+      "amount": 1200,
+      "unit": "mg/day"
+    }
+  },
+  "key_evidence": [
+    "Calcium citrate is a common supplemental calcium salt.",
+    "Vitami should estimate dietary calcium before considering supplemental calcium.",
+    "The relevant quantity for comparison is elemental calcium, not total salt weight."
+  ],
+  "required_questions": [
+    "diet_dairy_calcium_sources",
+    "diet_type",
+    "profile_age",
+    "profile_sex"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "medications_regular_use"
+  ],
+  "dose_logic": {
+    "basic_status": "diet_first_reference_only",
+    "calculate_as": "elemental_calcium"
+  },
+  "parent_component": "calcium"
+}

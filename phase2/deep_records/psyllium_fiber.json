@@ -1,0 +1,36 @@
+{
+  "id": "psyllium_fiber",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "reference_values": {
+    "authorized_claim_context": {
+      "soluble_fiber_from_psyllium": {
+        "amount": 7,
+        "unit": "g/day",
+        "note": "FDA authorized health-claim context; not a universal personalized prescription."
+      }
+    }
+  },
+  "key_evidence": [
+    "Psyllium is a soluble fiber with an FDA-authorized coronary-heart-disease health-claim context when used as part of an appropriate diet.",
+    "Hydration and administration technique matter.",
+    "Spacing from medications may be relevant, so medication review belongs in PRO or professional review."
+  ],
+  "required_questions": [
+    "diet_fiber_sources",
+    "goals_primary",
+    "hydration_status"
+  ],
+  "safety_questions": [
+    "swallowing_difficulty",
+    "medications_regular_use",
+    "conditions_gastrointestinal"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "personalized_medication_spacing": "PRO"
+  },
+  "recommendation_ceiling": "C_potential_benefit"
+}

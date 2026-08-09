@@ -1,0 +1,43 @@
+{
+  "id": "iron_bisglycinate",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_IRON_HP"
+  ],
+  "reference_values": {
+    "adult_male_19_50_rda": {
+      "amount": 8,
+      "unit": "mg/day"
+    },
+    "adult_female_19_50_rda": {
+      "amount": 18,
+      "unit": "mg/day"
+    },
+    "adult_ul": {
+      "amount": 45,
+      "unit": "mg/day"
+    }
+  },
+  "key_evidence": [
+    "Iron bisglycinate is one supplemental iron form, but treatment decisions still depend on iron status and clinical context.",
+    "Fatigue alone is not evidence of iron deficiency.",
+    "BASIC should not create therapeutic iron regimens without appropriate laboratory/clinical context."
+  ],
+  "required_questions": [
+    "profile_age",
+    "profile_sex",
+    "diet_type",
+    "symptom_fatigue",
+    "pro_labs_available"
+  ],
+  "safety_questions": [
+    "profile_pregnancy",
+    "conditions_other_relevant",
+    "medications_regular_use"
+  ],
+  "dose_logic": {
+    "basic_status": "professional_supervision_required",
+    "calculate_as": "elemental_iron"
+  },
+  "parent_component": "iron"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "vitamin_d3",
+  "status": "reviewed_draft",
+  "source_refs": [
+    "NIH_VITD_HP"
+  ],
+  "reference_values": {
+    "adult_19_70_rda": {
+      "amount": 15,
+      "unit": "mcg/day",
+      "iu": 600
+    },
+    "adult_over_70_rda": {
+      "amount": 20,
+      "unit": "mcg/day",
+      "iu": 800
+    },
+    "adult_ul": {
+      "amount": 100,
+      "unit": "mcg/day",
+      "iu": 4000
+    }
+  },
+  "key_evidence": [
+    "Vitamin D3 is one common supplemental form of vitamin D.",
+    "The biological reference values apply to vitamin D intake; D3 does not create a separate RDA.",
+    "Low sun exposure can justify evaluation but does not diagnose vitamin D deficiency."
+  ],
+  "required_questions": [
+    "profile_age",
+    "lifestyle_sun_exposure",
+    "diet_fatty_fish_weekly",
+    "diet_fortified_foods"
+  ],
+  "safety_questions": [
+    "conditions_kidney",
+    "conditions_other_relevant"
+  ],
+  "dose_logic": {
+    "basic_status": "reference_only",
+    "form_superiority_claim": "not_assumed_without_specific_rule"
+  },
+  "parent_component": "vitamin_d"
+}
