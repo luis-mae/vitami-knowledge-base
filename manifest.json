@@ -1,0 +1,20 @@
+{
+  "project": "Vitami Knowledge Base",
+  "version": "1.0.0",
+  "phase": "1",
+  "description": "Vitami Phase 1 complete: architecture for evidence, sources, deterministic rules, safety, questions, goals, campaigns, profiles, and traceability.",
+  "languages": [
+    "es",
+    "en",
+    "it"
+  ],
+  "core_principles": [
+    "The free initial orientation is deterministic and does not require AI.",
+    "Every scientific claim used by Vitami must point to one or more identifiable sources.",
+    "Every rule must point to the evidence claims that justify it.",
+    "Safety exclusions and stop rules are first-class data.",
+    "A supplement may exist in the library without being recommendable.",
+    "Scientific evidence and Vitami product logic are stored separately."
+  ],
+  "status": "CLOSED"
+}
