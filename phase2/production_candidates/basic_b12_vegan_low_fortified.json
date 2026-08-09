@@ -1,7 +1,7 @@
 {
   "id": "basic_b12_vegan_low_fortified",
   "supplement_id": "vitamin_b12",
-  "status": "candidate_for_validation",
+  "status": "approved_for_basic_integration",
   "trigger_rule_ids": [
     "B12_VEGAN_LOW_FORTIFIED"
   ],
@@ -36,5 +36,6 @@
   },
   "source_refs": [
     "NIH_B12_HP"
-  ]
+  ],
+  "production_note": "Ready for technical wiring; not yet deployed to users."
 }

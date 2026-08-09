@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "placement": "after complete BASIC result, never before safety information",
+  "basic_free_includes": [
+    "deterministic recommendation states",
+    "basic safety gates",
+    "available supported/reference dose information for active BASIC scenarios",
+    "library explanation and sources for BASIC recommendations"
+  ],
+  "pro_adds": [
+    "deeper AI-assisted personalized analysis",
+    "review of the user's actual supplement list",
+    "detailed supplement-supplement compatibility analysis",
+    "detailed supplement-medication interaction analysis",
+    "complex product/formulation comparison",
+    "more extensive contextual follow-up"
+  ],
+  "copy_rule": "Never imply the user must pay to see a safety warning already detected by BASIC.",
+  "cta_frequency": "one primary CTA at the end; optional discreet secondary CTA near advanced analysis, no repeated blocking popups"
+}

@@ -1,7 +1,7 @@
 {
   "id": "basic_zinc_vegan",
   "supplement_id": "zinc",
-  "status": "candidate_for_validation",
+  "status": "approved_for_basic_integration",
   "trigger_rule_ids": [
     "ZINC_VEGAN"
   ],
@@ -39,5 +39,6 @@
   },
   "source_refs": [
     "NIH_ZINC_HP"
-  ]
+  ],
+  "production_note": "Ready for technical wiring; not yet deployed to users."
 }

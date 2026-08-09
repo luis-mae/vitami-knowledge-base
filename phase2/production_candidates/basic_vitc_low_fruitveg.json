@@ -1,7 +1,7 @@
 {
   "id": "basic_vitc_low_fruitveg",
   "supplement_id": "vitamin_c",
-  "status": "candidate_for_validation",
+  "status": "approved_for_basic_integration",
   "trigger_rule_ids": [
     "VITC_LOW_FRUITVEG",
     "VITC_SMOKER"
@@ -39,5 +39,6 @@
   },
   "source_refs": [
     "NIH_VITC_HP"
-  ]
+  ],
+  "production_note": "Ready for technical wiring; not yet deployed to users."
 }

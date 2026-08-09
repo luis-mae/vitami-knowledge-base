@@ -1,7 +1,7 @@
 {
   "id": "basic_creatine_strength",
   "supplement_id": "creatine_monohydrate",
-  "status": "candidate_for_validation",
+  "status": "approved_for_basic_integration",
   "trigger_rule_ids": [
     "CREATINE_STRENGTH"
   ],
@@ -41,5 +41,6 @@
   },
   "source_refs": [
     "NIH_EXERCISE_HP"
-  ]
+  ],
+  "production_note": "Ready for technical wiring; not yet deployed to users."
 }

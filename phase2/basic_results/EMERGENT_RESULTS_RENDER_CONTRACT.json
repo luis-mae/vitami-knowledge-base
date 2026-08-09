@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "input_from_engine": {
+    "overall_status": "complete | needs_more_answers | professional_review_present",
+    "recommendations": "array",
+    "not_recommended": "array",
+    "professional_review": "array",
+    "followup_questions": "array"
+  },
+  "frontend_must": {
+    "preserve_scientific_state": true,
+    "preserve_dose_mode": true,
+    "render_by_screen_order": "BASIC_RESULTS_SCREEN_SPEC.json",
+    "localize_static_copy": "ES/EN/IT",
+    "open_library_by_supplement_id": true
+  },
+  "frontend_must_not": [
+    "re-score recommendations",
+    "create new supplement recommendations",
+    "turn RDA/AI/UL into personalized dosing",
+    "hide BASIC safety warnings behind PRO",
+    "show pharmacy products while commercial mapping is disabled"
+  ]
+}

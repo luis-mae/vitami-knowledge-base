@@ -1,7 +1,7 @@
 {
   "id": "basic_calcium_low_diet",
   "supplement_id": "calcium",
-  "status": "candidate_for_validation",
+  "status": "approved_for_basic_integration",
   "trigger_rule_ids": [
     "CALCIUM_LOW_DIET"
   ],
@@ -38,5 +38,6 @@
   },
   "source_refs": [
     "NIH_CALCIUM_HP"
-  ]
+  ],
+  "production_note": "Ready for technical wiring; not yet deployed to users."
 }

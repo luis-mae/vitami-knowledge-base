@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "states": {
+    "A_high_relevance": {
+      "es": {
+        "short": "Alta relevancia",
+        "explain": "Tu perfil coincide fuertemente con criterios predefinidos para considerar este suplemento."
+      },
+      "en": {
+        "short": "High relevance",
+        "explain": "Your profile strongly matches predefined criteria for considering this supplement."
+      },
+      "it": {
+        "short": "Alta rilevanza",
+        "explain": "Il tuo profilo corrisponde fortemente a criteri predefiniti per considerare questo integratore."
+      }
+    },
+    "B_consider": {
+      "es": {
+        "short": "Considerar",
+        "explain": "Hay razones suficientes para que valga la pena considerarlo en tu contexto."
+      },
+      "en": {
+        "short": "Consider",
+        "explain": "There are enough reasons for it to be worth considering in your context."
+      },
+      "it": {
+        "short": "Da considerare",
+        "explain": "Ci sono motivi sufficienti perché valga la pena considerarlo nel tuo contesto."
+      }
+    },
+    "C_potential_benefit": {
+      "es": {
+        "short": "Posible beneficio",
+        "explain": "Puede aportar un beneficio, pero la indicación es menos fuerte o depende más del contexto."
+      },
+      "en": {
+        "short": "Potential benefit",
+        "explain": "It may provide a benefit, but the indication is weaker or more context-dependent."
+      },
+      "it": {
+        "short": "Possibile beneficio",
+        "explain": "Può offrire un beneficio, ma l'indicazione è meno forte o più dipendente dal contesto."
+      }
+    },
+    "D_optional_limited": {
+      "es": {
+        "short": "Opcional / limitado",
+        "explain": "La relevancia actual es limitada; no lo consideramos una prioridad."
+      },
+      "en": {
+        "short": "Optional / limited",
+        "explain": "Current relevance is limited; we do not consider it a priority."
+      },
+      "it": {
+        "short": "Opzionale / limitato",
+        "explain": "La rilevanza attuale è limitata; non lo consideriamo una priorità."
+      }
+    },
+    "E_no_current_indication": {
+      "es": {
+        "short": "Sin indicación actual",
+        "explain": "Con tus respuestas actuales no encontramos una razón suficiente para recomendarlo."
+      },
+      "en": {
+        "short": "No current indication",
+        "explain": "Based on your current answers, we do not find enough reason to recommend it."
+      },
+      "it": {
+        "short": "Nessuna indicazione attuale",
+        "explain": "Con le risposte attuali non troviamo motivi sufficienti per consigliarlo."
+      }
+    },
+    "X_professional_review_required": {
+      "es": {
+        "short": "Revisar antes",
+        "explain": "Hay un dato de seguridad o contexto clínico que hace conveniente revisar esto antes de suplementar."
+      },
+      "en": {
+        "short": "Review first",
+        "explain": "A safety or clinical-context factor makes it appropriate to review this before supplementing."
+      },
+      "it": {
+        "short": "Valutare prima",
+        "explain": "Un elemento di sicurezza o contesto clinico rende opportuno valutarlo prima di integrare."
+      }
+    }
+  }
+}

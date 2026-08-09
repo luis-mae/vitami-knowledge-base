@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "examples": [
+    {
+      "scenario_id": "BASIC_VITC_LOW_FRUIT_VEG",
+      "supplement_id": "vitamin_c",
+      "card_example_es": {
+        "state": "C_potential_benefit",
+        "title": "Vitamina C: revisá primero tus fuentes alimentarias",
+        "why_it_appears": "Tu consumo de frutas y verduras parece bajo, que son las principales fuentes habituales de vitamina C.",
+        "important_limit": "Que sea antioxidante no significa que dosis altas prevengan enfermedades. Si fumás, los requerimientos son mayores.",
+        "dose_display": {
+          "adult_male": "90 mg/day",
+          "adult_female": "75 mg/day",
+          "smoker_increment": "+35 mg/day",
+          "adult_ul": "2,000 mg/day"
+        },
+        "library_cta": "Ver en Biblioteca Vitami"
+      }
+    },
+    {
+      "scenario_id": "BASIC_B12_VEGAN_LOW_FORTIFIED",
+      "supplement_id": "vitamin_b12",
+      "card_example_es": {
+        "state": "B_consider",
+        "title": "Vitamina B12: vale la pena considerarla",
+        "why_it_appears": "Una dieta vegana no aporta B12 de forma natural salvo alimentos fortificados, por eso conviene revisar si tu aporte es suficiente.",
+        "important_limit": "Esto no diagnostica una deficiencia. Si ya tomás B12, primero hay que revisar lo que estás usando.",
+        "dose_display": {},
+        "library_cta": "Ver en Biblioteca Vitami"
+      }
+    },
+    {
+      "scenario_id": "BASIC_CREATINE_STRENGTH",
+      "supplement_id": "creatine_monohydrate",
+      "card_example_es": {
+        "state": "B_consider",
+        "title": "Creatina monohidrato: buena candidata",
+        "why_it_appears": "Tu entrenamiento de fuerza y tu objetivo encajan con uno de los usos mejor respaldados de la creatina.",
+        "important_limit": "No hace falta fase de carga y no recomendamos tomarla solo los días de entrenamiento como si eso fuera equivalente.",
+        "dose_display": {
+          "maintenance": "3–5 g/day",
+          "loading": "optional; a studied loading approach is 20 g/day divided for 5–7 days",
+          "no_loading": "3–6 g/day for about 3–4 weeks is a studied alternative",
+          "rule": "Loading is not required; regular use matters more than training-day-only timing."
+        },
+        "library_cta": "Ver en Biblioteca Vitami"
+      }
+    },
+    {
+      "scenario_id": "BASIC_CAFFEINE_PERFORMANCE",
+      "supplement_id": "caffeine_performance",
+      "card_example_es": {
+        "state": "B_consider",
+        "title": "Cafeína: puede mejorar el rendimiento en contextos específicos",
+        "why_it_appears": "Tu tipo de actividad y objetivo deportivo coinciden con situaciones donde la cafeína puede mejorar el rendimiento.",
+        "important_limit": "Si dormís mal o ya consumís mucha cafeína, Vitami reduce o evita esta recomendación.",
+        "dose_display": {
+          "range": "2–6 mg/kg",
+          "timing": "about 15–60 minutes before exercise",
+          "rule": "Use the low end first; poor sleep or high habitual caffeine can downgrade suitability."
+        },
+        "library_cta": "Ver en Biblioteca Vitami"
+      }
+    },
+    {
+      "scenario_id": "BASIC_ZINC_VEGAN",
+      "supplement_id": "zinc",
+      "card_example_es": {
+        "state": "D_optional_limited",
+        "title": "Zinc: vale la pena revisar tu aporte",
+        "why_it_appears": "En dietas muy basadas en plantas, los fitatos pueden reducir la absorción del zinc.",
+        "important_limit": "Esto no demuestra deficiencia y no justifica dosis altas. También hay que contar el zinc de otros suplementos.",
+        "dose_display": {
+          "adult_male": "11 mg/day",
+          "adult_female": "8 mg/day",
+          "adult_ul": "40 mg/day"
+        },
+        "library_cta": "Ver en Biblioteca Vitami"
+      }
+    },
+    {
+      "scenario_id": "BASIC_VITD_LOW_SUN_LOW_DIET",
+      "supplement_id": "vitamin_d",
+      "card_example_es": {
+        "state": "B_consider",
+        "title": "Vitamina D: conviene revisar tu aporte",
+        "why_it_appears": "Combinás poca exposición solar con pocas fuentes alimentarias habituales de vitamina D.",
+        "important_limit": "Esto no demuestra una deficiencia. Cuando corresponde, el estado de vitamina D se evalúa clínicamente con 25(OH)D.",
+        "dose_display": {
+          "adult_19_70": "15 mcg (600 IU)/day",
+          "adult_71_plus": "20 mcg (800 IU)/day",
+          "adult_ul": "100 mcg (4,000 IU)/day",
+          "note": "Reference intake/UL, not a personalized supplement prescription."
+        },
+        "library_cta": "Ver en Biblioteca Vitami"
+      }
+    },
+    {
+      "scenario_id": "BASIC_CALCIUM_LOW_DIET",
+      "supplement_id": "calcium",
+      "card_example_es": {
+        "state": "D_optional_limited",
+        "title": "Calcio: primero revisemos cuánto aporta tu alimentación",
+        "why_it_appears": "Tus fuentes habituales de calcio parecen escasas.",
+        "important_limit": "Vitami no indica automáticamente un suplemento de calcio: primero hay que estimar el aporte total de la dieta.",
+        "dose_display": {},
+        "library_cta": "Ver en Biblioteca Vitami"
+      }
+    }
+  ]
+}

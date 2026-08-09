@@ -1,7 +1,7 @@
 {
   "id": "basic_vitd_low_sun_low_diet",
   "supplement_id": "vitamin_d",
-  "status": "candidate_for_validation",
+  "status": "approved_for_basic_integration",
   "trigger_rule_ids": [
     "VITD_LOW_SUN_LOW_DIET"
   ],
@@ -42,5 +42,6 @@
   },
   "source_refs": [
     "NIH_VITD_HP"
-  ]
+  ],
+  "production_note": "Ready for technical wiring; not yet deployed to users."
 }

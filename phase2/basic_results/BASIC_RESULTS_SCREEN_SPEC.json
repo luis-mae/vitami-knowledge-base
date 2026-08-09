@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "status": "READY_FOR_EMERGENT_MAPPING",
+  "purpose": "Especificación funcional y de contenido de la pantalla final BASIC. No define el estilo visual final; Emergent debe conservar la estética existente.",
+  "screen_order": [
+    {
+      "block": "francisco_intro",
+      "required": true,
+      "content": {
+        "es": "Listo. Revisé tus respuestas con los criterios de Vitami. Esto no es un diagnóstico: es una orientación inicial para mostrarte qué vale la pena considerar, qué no parece prioritario y dónde conviene tener más cuidado.",
+        "en": "Done. I reviewed your answers using Vitami's criteria. This is not a diagnosis: it is an initial guide showing what may be worth considering, what does not appear to be a priority, and where extra caution is appropriate.",
+        "it": "Fatto. Ho analizzato le tue risposte secondo i criteri di Vitami. Non è una diagnosi: è un orientamento iniziale per mostrarti cosa può valere la pena considerare, cosa non sembra prioritario e dove serve maggiore cautela."
+      }
+    },
+    {
+      "block": "priority_cards",
+      "states": [
+        "A_high_relevance",
+        "B_consider"
+      ],
+      "title": {
+        "es": "Lo más relevante para tu perfil",
+        "en": "Most relevant for your profile",
+        "it": "Più rilevante per il tuo profilo"
+      }
+    },
+    {
+      "block": "secondary_cards",
+      "states": [
+        "C_potential_benefit",
+        "D_optional_limited"
+      ],
+      "title": {
+        "es": "También podrías revisar",
+        "en": "You may also want to review",
+        "it": "Potresti anche valutare"
+      }
+    },
+    {
+      "block": "professional_review",
+      "states": [
+        "X_professional_review_required"
+      ],
+      "title": {
+        "es": "Esto conviene revisarlo antes de suplementar",
+        "en": "This should be reviewed before supplementing",
+        "it": "Questo va valutato prima di integrare"
+      },
+      "display_even_if_other_positive_cards": true
+    },
+    {
+      "block": "not_currently_indicated",
+      "states": [
+        "E_no_current_indication"
+      ],
+      "default_collapsed": true,
+      "title": {
+        "es": "Lo que hoy no parece prioritario",
+        "en": "What does not appear to be a priority now",
+        "it": "Ciò che al momento non sembra prioritario"
+      }
+    },
+    {
+      "block": "methodology_note",
+      "content": {
+        "es": "La orientación inicial se basa en criterios predefinidos y en información científica seleccionada. No reemplaza una evaluación profesional.",
+        "en": "The initial guidance is based on predefined criteria and selected scientific information. It does not replace professional evaluation.",
+        "it": "L'orientamento iniziale si basa su criteri predefiniti e informazioni scientifiche selezionate. Non sostituisce una valutazione professionale."
+      }
+    },
+    {
+      "block": "pro_cta",
+      "required": true,
+      "title": {
+        "es": "¿Querés profundizar tu caso?",
+        "en": "Want to go deeper into your case?",
+        "it": "Vuoi approfondire il tuo caso?"
+      },
+      "body": {
+        "es": "Con Vitami PRO podés profundizar tus resultados mediante un análisis personalizado con Inteligencia Artificial. También puede revisar lo que ya estás tomando y analizar combinaciones o posibles incompatibilidades de forma más detallada.",
+        "en": "With Vitami PRO you can explore your results through a personalized AI analysis. It can also review what you already take and analyze combinations or possible incompatibilities in greater detail.",
+        "it": "Con Vitami PRO puoi approfondire i risultati tramite un'analisi personalizzata con Intelligenza Artificiale. Può anche valutare ciò che assumi già e analizzare in modo più dettagliato combinazioni o possibili incompatibilità."
+      },
+      "button": {
+        "es": "Profundizar con Vitami PRO",
+        "en": "Go deeper with Vitami PRO",
+        "it": "Approfondisci con Vitami PRO"
+      }
+    }
+  ],
+  "sorting": {
+    "primary": "state_priority",
+    "state_order": [
+      "X_professional_review_required",
+      "A_high_relevance",
+      "B_consider",
+      "C_potential_benefit",
+      "D_optional_limited",
+      "E_no_current_indication"
+    ],
+    "within_state": "score_descending",
+    "rule": "X is visually separated as safety, not presented as a stronger positive recommendation."
+  },
+  "empty_states": {
+    "no_positive_recommendations": {
+      "es": "Con la información que nos diste, no vemos un suplemento claramente prioritario en este momento. Eso también es un resultado útil: suplementar más no siempre es mejor.",
+      "en": "Based on the information you provided, we do not see a clearly prioritized supplement at this time. That is useful too: more supplementation is not always better.",
+      "it": "Con le informazioni fornite, al momento non vediamo un integratore chiaramente prioritario. Anche questo è un risultato utile: più integrazione non significa sempre meglio."
+    },
+    "needs_more_answers": {
+      "es": "Antes de cerrar tu orientación necesito algunas respuestas más. Son preguntas específicas porque pueden cambiar una recomendación o su seguridad.",
+      "en": "Before finalizing your guidance I need a few more answers. These questions are specific because they may change a recommendation or its safety.",
+      "it": "Prima di completare l'orientamento ho bisogno di alcune risposte in più. Sono domande specifiche perché possono cambiare una raccomandazione o la sua sicurezza."
+    }
+  }
+}

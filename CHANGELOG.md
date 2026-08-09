@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.7.0 — 2026-08-09
+- Cerrados 7 escenarios BASIC prioritarios para integración técnica: B12, vitamina D, creatina, vitamina C, zinc, calcio y cafeína.
+- Cada escenario incluye disparadores, preguntas requeridas, safety gates, estado, información de dosis/referencia y texto ES/EN/IT.
+- Cerrado el flujo final del cuestionario BASIC con objetivo aproximado de 14 preguntas universales y ramas condicionales.
+- Preservada la secuencia actual de Emergent: Datos → Alimentación → Actividad → Descanso → Sol → Objetivos → Salud.
+- Los objetivos abren ramas pero nunca prueban necesidad de suplementación.
+- Safety X mantiene prioridad absoluta y nunca queda detrás de PRO.
+- Los 7 escenarios quedan listos para cableado técnico, no desplegados todavía.
+
 ## 2.6.0 — 2026-08-09
 - Seleccionados 13 caminos BASIC prioritarios como `candidate_for_validation`.
 - Definidos disparadores, preguntas requeridas, safety gates, texto ES/EN/IT y política de dosis para cada camino.

@@ -12,9 +12,19 @@
     "current_emergent_ui_preserved": "yes_where_observed"
   },
   "remaining_before_emergent_credits": [
-    "Step 3: finalize BASIC results screen and Francisco card behavior",
-    "Step 4: ensure Library entries exist for every active BASIC scenario",
-    "Step 5: build one minimal Emergent handoff package and integration instructions",
-    "Then load Emergent credits and inspect exact live project files before applying changes"
-  ]
+    "Step 4: ensure Library entries are complete and aligned for every active BASIC scenario",
+    "Step 5: build the minimal Emergent handoff package and exact integration instructions",
+    "Then load Emergent credits, inspect the exact live project files, and wire the package into the existing app"
+  ],
+  "step_3_results_screen": {
+    "status": "complete",
+    "files": [
+      "phase2/basic_results/BASIC_RESULTS_SCREEN_SPEC.json",
+      "phase2/basic_results/BASIC_RECOMMENDATION_CARD_SCHEMA.json",
+      "phase2/basic_results/BASIC_STATE_LABELS_ES_EN_IT.json",
+      "phase2/basic_results/BASIC_7_CARD_EXAMPLES_ES.json",
+      "phase2/basic_results/BASIC_TO_PRO_POLICY.json",
+      "phase2/basic_results/EMERGENT_RESULTS_RENDER_CONTRACT.json"
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "id": "basic_caffeine_performance",
   "supplement_id": "caffeine_performance",
-  "status": "candidate_for_validation",
+  "status": "approved_for_basic_integration",
   "trigger_rule_ids": [
     "CAFF_PERFORMANCE"
   ],
@@ -43,5 +43,6 @@
   },
   "source_refs": [
     "NIH_EXERCISE_HP"
-  ]
+  ],
+  "production_note": "Ready for technical wiring; not yet deployed to users."
 }

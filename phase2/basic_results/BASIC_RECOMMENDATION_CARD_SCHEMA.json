@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "card_required_fields": [
+    "supplement_id",
+    "display_name",
+    "state",
+    "state_label",
+    "short_reason",
+    "why_it_appears",
+    "evidence_label",
+    "dose_display",
+    "important_limit",
+    "library_cta"
+  ],
+  "card_optional_fields": [
+    "reference_intake",
+    "timing",
+    "review_note",
+    "safety_note",
+    "source_count"
+  ],
+  "display_rules": {
+    "A_high_relevance": {
+      "visual_weight": "highest_positive",
+      "dose": "show only if supported and all required safety data are clear"
+    },
+    "B_consider": {
+      "visual_weight": "high_positive",
+      "dose": "show only if supported and all required safety data are clear"
+    },
+    "C_potential_benefit": {
+      "visual_weight": "medium",
+      "dose": "usually reference/range only; never inflate uncertainty"
+    },
+    "D_optional_limited": {
+      "visual_weight": "low",
+      "dose": "normally hide personalized dose"
+    },
+    "E_no_current_indication": {
+      "visual_weight": "collapsed_educational",
+      "dose": "none"
+    },
+    "X_professional_review_required": {
+      "visual_weight": "safety",
+      "dose": "never show personalized regimen",
+      "cta": "professional review / PRO only when appropriate; BASIC safety warning remains free"
+    }
+  },
+  "dose_modes": {
+    "supported_range": {
+      "label": {
+        "es": "Rango respaldado",
+        "en": "Supported range",
+        "it": "Intervallo supportato"
+      },
+      "rule": "Can be displayed only when the scenario explicitly supports it."
+    },
+    "weight_based_supported_range": {
+      "label": {
+        "es": "Según peso corporal",
+        "en": "Based on body weight",
+        "it": "In base al peso corporeo"
+      },
+      "rule": "Requires valid body weight plus all scenario safety inputs."
+    },
+    "reference_intake_only": {
+      "label": {
+        "es": "Referencia nutricional",
+        "en": "Nutritional reference",
+        "it": "Riferimento nutrizionale"
+      },
+      "rule": "Must be visually distinguished from a supplement prescription."
+    },
+    "reference_only": {
+      "label": {
+        "es": "Información de referencia",
+        "en": "Reference information",
+        "it": "Informazione di riferimento"
+      },
+      "rule": "No personalized dose."
+    },
+    "no_universal_dose": {
+      "label": {
+        "es": "Sin dosis universal",
+        "en": "No universal dose",
+        "it": "Nessuna dose universale"
+      },
+      "rule": "Explain why Vitami does not invent a dose."
+    },
+    "professional_only": {
+      "label": {
+        "es": "Requiere evaluación profesional",
+        "en": "Professional evaluation required",
+        "it": "Richiede valutazione professionale"
+      },
+      "rule": "Never show a personalized dose in BASIC."
+    }
+  },
+  "hard_rules": [
+    "A reference intake (RDA/AI) is never visually labeled as 'your dose'.",
+    "An UL is never presented as a target.",
+    "If required data are missing, replace the final card with a follow-up question request.",
+    "If an X safety override exists, suppress any positive dose recommendation for that supplement.",
+    "Do not show a commercial product or price in BASIC until pharmacy mapping is intentionally enabled."
+  ]
+}
