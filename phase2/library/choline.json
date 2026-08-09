@@ -1,0 +1,65 @@
+{
+  "id": "choline",
+  "title": {
+    "es": "Colina",
+    "en": "Colina",
+    "it": "Colina"
+  },
+  "what_it_is": {
+    "es": "Colina es un nutriente esencial con funciones específicas en el organismo.",
+    "en": "Colina is an essential nutrient with specific roles in the body.",
+    "it": "Colina è un nutriente essenziale con funzioni specifiche nell'organismo."
+  },
+  "common_uses": {
+    "es": "Puede aparecer cuando la dieta o una etapa vital hacen razonable revisar la ingesta.",
+    "en": "It may appear when diet or life stage makes intake worth reviewing.",
+    "it": "Può comparire quando dieta o fase della vita rendono opportuno valutare l'apporto."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Vitami puede mostrarlo cuando tus respuestas coinciden con un contexto relevante o cuando lo consultás en la Biblioteca.",
+    "en": "Vitami may show it when your answers match a relevant context or when you look it up in the Library.",
+    "it": "Vitami può mostrarlo quando le tue risposte coincidono con un contesto rilevante o quando lo cerchi nella Biblioteca."
+  },
+  "evidence_summary": {
+    "es": "La evidencia más sólida corresponde a cubrir requerimientos, no a usar dosis altas como estrategia general de bienestar.",
+    "en": "The strongest evidence concerns meeting requirements, not using high doses as a general wellness strategy.",
+    "it": "Le evidenze più solide riguardano il raggiungimento dei fabbisogni, non dosi elevate per benessere generale."
+  },
+  "evidence_label": "high_for_nutritional_requirement",
+  "limits": {
+    "es": "Que un suplemento sea popular o tenga un mecanismo plausible no significa que sea necesario ni eficaz para todas las personas.",
+    "en": "Popularity or a plausible mechanism does not mean a supplement is necessary or effective for everyone.",
+    "it": "La popolarità o un meccanismo plausibile non significa che un integratore sia necessario o efficace per tutti."
+  },
+  "dose_reference": {
+    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
+    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
+    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+  },
+  "common_presentations": [
+    "capsule_tablet_powder_or_liquid"
+  ],
+  "precautions": {
+    "es": "Enfermedad renal, medicamentos y dosis altas pueden cambiar el perfil de seguridad; depende del nutriente.",
+    "en": "Kidney disease, medicines, and high doses can change the safety profile; specifics depend on the nutrient.",
+    "it": "Malattia renale, farmaci e dosi elevate possono cambiare il profilo di sicurezza; dipende dal nutriente."
+  },
+  "when_to_consult": {
+    "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
+    "en": "Seek advice before using it if you have a relevant condition, are pregnant or breastfeeding, take medicines, had a previous reaction, or plan high doses.",
+    "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
+  },
+  "source_refs": [
+    "NIH_CHOLINE_HP"
+  ],
+  "source_status": "reviewed_or_official_index",
+  "deep_record_status": "reviewed_draft",
+  "rules_status": "draft_rules_ready",
+  "library_status": "complete_user_facing_draft",
+  "review_date": "2026-08-09",
+  "disclaimer": {
+    "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
+    "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
+    "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  }
+}

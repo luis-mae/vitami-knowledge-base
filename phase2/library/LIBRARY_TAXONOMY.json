@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "vitamins_minerals",
+      "label": {
+        "es": "Vitaminas y minerales",
+        "en": "Vitamins & minerals",
+        "it": "Vitamine e minerali"
+      }
+    },
+    {
+      "id": "sports_performance",
+      "label": {
+        "es": "Deporte y rendimiento",
+        "en": "Sports & performance",
+        "it": "Sport e prestazione"
+      }
+    },
+    {
+      "id": "protein_amino_acids",
+      "label": {
+        "es": "Proteínas y aminoácidos",
+        "en": "Protein & amino acids",
+        "it": "Proteine e aminoacidi"
+      }
+    },
+    {
+      "id": "fatty_acids",
+      "label": {
+        "es": "Ácidos grasos",
+        "en": "Fatty acids",
+        "it": "Acidi grassi"
+      }
+    },
+    {
+      "id": "botanicals",
+      "label": {
+        "es": "Botánicos",
+        "en": "Botanicals",
+        "it": "Botanici"
+      }
+    },
+    {
+      "id": "fiber_digestive",
+      "label": {
+        "es": "Fibra y digestión",
+        "en": "Fiber & digestion",
+        "it": "Fibre e digestione"
+      }
+    },
+    {
+      "id": "other_bioactives",
+      "label": {
+        "es": "Otros bioactivos",
+        "en": "Other bioactives",
+        "it": "Altri bioattivi"
+      }
+    }
+  ],
+  "search_rule": "Library access is educational and never implies a recommendation."
+}

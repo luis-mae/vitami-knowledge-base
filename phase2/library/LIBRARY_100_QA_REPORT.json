@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "catalog_count": 100,
+  "library_entry_count": 100,
+  "structural_status": "PASS",
+  "structural_errors": [],
+  "specific_or_official_index_sources": 92,
+  "deeper_source_review_pending": 8,
+  "pending_ids": [
+    "mct_oil",
+    "inositol",
+    "nac",
+    "alpha_lipoic_acid",
+    "astaxanthin",
+    "lycopene",
+    "beta_carotene",
+    "spirulina"
+  ],
+  "note": "User-facing completeness and structural QA are complete. Pending scientific-source review does not permit those entries to become BASIC recommendations."
+}

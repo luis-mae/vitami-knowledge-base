@@ -301,6 +301,38 @@
       "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/authorized-health-claims-meet-significant-scientific-agreement-ssa-standard",
       "source_type": "official_primary_guidance",
       "status": "verified_2026-08-09"
+    },
+    {
+      "id": "NIH_VITAMIN_MINERAL_FACTSHEETS",
+      "title": "NIH ODS — Vitamin and Mineral Supplement Fact Sheets",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/list-VitaminsMinerals/",
+      "source_type": "official_primary_index",
+      "status": "verified_2026-08-09"
+    },
+    {
+      "id": "NIH_DIETARY_SUPPLEMENT_FACTSHEETS",
+      "title": "NIH ODS — Dietary Supplement Fact Sheets",
+      "organization": "NIH ODS",
+      "url": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_type": "official_primary_index",
+      "status": "verified_2026-08-09"
+    },
+    {
+      "id": "NCCIH_HERBS_AT_A_GLANCE",
+      "title": "NCCIH — Herbs at a Glance",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/herbsataglance",
+      "source_type": "official_primary_index",
+      "status": "verified_2026-08-09"
+    },
+    {
+      "id": "NCCIH_HEALTH_TOPICS_AZ",
+      "title": "NCCIH — Health Topics A-Z",
+      "organization": "NCCIH",
+      "url": "https://www.nccih.nih.gov/health/atoz",
+      "source_type": "official_primary_index",
+      "status": "verified_2026-08-09"
     }
   ]
 }

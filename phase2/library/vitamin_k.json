@@ -1,0 +1,65 @@
+{
+  "id": "vitamin_k",
+  "title": {
+    "es": "Vitamina K (K1/K2)",
+    "en": "Vitamina K (K1/K2)",
+    "it": "Vitamina K (K1/K2)"
+  },
+  "what_it_is": {
+    "es": "Familia de vitaminas liposolubles necesarias para la coagulación normal y proteínas relacionadas con el hueso.",
+    "en": "A family of fat-soluble vitamins required for normal clotting and bone-related proteins.",
+    "it": "Famiglia di vitamine liposolubili necessarie per la coagulazione normale e proteine legate all'osso."
+  },
+  "common_uses": {
+    "es": "Puede ser relevante ante ingesta insuficiente o en contextos clínicos específicos.",
+    "en": "May be relevant with inadequate intake or in specific clinical contexts.",
+    "it": "Può essere rilevante con apporto insufficiente o in contesti clinici specifici."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Vitami puede mostrarlo cuando tus respuestas coinciden con un contexto relevante o cuando lo consultás en la Biblioteca.",
+    "en": "Vitami may show it when your answers match a relevant context or when you look it up in the Library.",
+    "it": "Vitami può mostrarlo quando le tue risposte coincidono con un contesto rilevante o quando lo cerchi nella Biblioteca."
+  },
+  "evidence_summary": {
+    "es": "La evidencia para suplementación general con K1/K2 varía según el objetivo; no se asume un beneficio universal.",
+    "en": "Evidence for general K1/K2 supplementation varies by goal; universal benefit is not assumed.",
+    "it": "Le evidenze per l'integrazione generale con K1/K2 variano secondo l'obiettivo; non si presume un beneficio universale."
+  },
+  "evidence_label": "context_dependent",
+  "limits": {
+    "es": "Que un suplemento sea popular o tenga un mecanismo plausible no significa que sea necesario ni eficaz para todas las personas.",
+    "en": "Popularity or a plausible mechanism does not mean a supplement is necessary or effective for everyone.",
+    "it": "La popolarità o un meccanismo plausibile non significa che un integratore sia necessario o efficace per tutti."
+  },
+  "dose_reference": {
+    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
+    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
+    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+  },
+  "common_presentations": [
+    "capsule_or_tablet"
+  ],
+  "precautions": {
+    "es": "Interacción especialmente importante con anticoagulantes antagonistas de vitamina K.",
+    "en": "A particularly important interaction exists with vitamin K antagonist anticoagulants.",
+    "it": "Interazione particolarmente importante con anticoagulanti antagonisti della vitamina K."
+  },
+  "when_to_consult": {
+    "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
+    "en": "Seek advice before using it if you have a relevant condition, are pregnant or breastfeeding, take medicines, had a previous reaction, or plan high doses.",
+    "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
+  },
+  "source_refs": [
+    "NIH_VITK_HP"
+  ],
+  "source_status": "reviewed_or_official_index",
+  "deep_record_status": "reviewed_draft",
+  "rules_status": "draft_rules_ready",
+  "library_status": "complete_user_facing_draft",
+  "review_date": "2026-08-09",
+  "disclaimer": {
+    "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
+    "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
+    "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  }
+}

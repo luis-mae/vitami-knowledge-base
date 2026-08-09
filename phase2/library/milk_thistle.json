@@ -1,0 +1,66 @@
+{
+  "id": "milk_thistle",
+  "title": {
+    "es": "Cardo mariano / silimarina",
+    "en": "Cardo mariano / silimarina",
+    "it": "Cardo mariano / silimarina"
+  },
+  "what_it_is": {
+    "es": "Ingrediente botánico utilizado en suplementos, habitualmente como extracto.",
+    "en": "A botanical ingredient used in supplements, often as an extract.",
+    "it": "Ingrediente botanico usato negli integratori, spesso come estratto."
+  },
+  "common_uses": {
+    "es": "Se comercializa para distintos objetivos de bienestar según la planta y el extracto.",
+    "en": "It is marketed for different wellness goals depending on the plant and extract.",
+    "it": "È commercializzato per diversi obiettivi di benessere secondo pianta ed estratto."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Vitami puede mostrarlo cuando tus respuestas coinciden con un contexto relevante o cuando lo consultás en la Biblioteca.",
+    "en": "Vitami may show it when your answers match a relevant context or when you look it up in the Library.",
+    "it": "Vitami può mostrarlo quando le tue risposte coincidono con un contesto rilevante o quando lo cerchi nella Biblioteca."
+  },
+  "evidence_summary": {
+    "es": "La evidencia depende mucho de la preparación, dosis, población y objetivo; no debe extrapolarse entre extractos diferentes.",
+    "en": "Evidence depends heavily on preparation, dose, population, and goal; results should not be extrapolated across different extracts.",
+    "it": "Le evidenze dipendono molto da preparazione, dose, popolazione e obiettivo; i risultati non vanno extrapolati tra estratti diversi."
+  },
+  "evidence_label": "mixed_or_limited",
+  "limits": {
+    "es": "Que un suplemento sea popular o tenga un mecanismo plausible no significa que sea necesario ni eficaz para todas las personas.",
+    "en": "Popularity or a plausible mechanism does not mean a supplement is necessary or effective for everyone.",
+    "it": "La popolarità o un meccanismo plausibile non significa che un integratore sia necessario o efficace per tutti."
+  },
+  "dose_reference": {
+    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
+    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
+    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+  },
+  "common_presentations": [
+    "standardized_extract_capsule"
+  ],
+  "precautions": {
+    "es": "Los botánicos pueden interactuar con medicamentos y no deben asumirse seguros por ser 'naturales'.",
+    "en": "Botanicals can interact with medicines and should not be assumed safe because they are 'natural'.",
+    "it": "I botanici possono interagire con farmaci e non vanno considerati sicuri solo perché 'naturali'."
+  },
+  "when_to_consult": {
+    "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
+    "en": "Seek advice before using it if you have a relevant condition, are pregnant or breastfeeding, take medicines, had a previous reaction, or plan high doses.",
+    "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
+  },
+  "source_refs": [
+    "NCCIH_HERBS_AT_A_GLANCE",
+    "NCCIH_HEALTH_TOPICS_AZ"
+  ],
+  "source_status": "reviewed_or_official_index",
+  "deep_record_status": "pending",
+  "rules_status": "candidate_not_active",
+  "library_status": "complete_user_facing_draft",
+  "review_date": "2026-08-09",
+  "disclaimer": {
+    "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
+    "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
+    "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  }
+}

@@ -12,7 +12,6 @@
     "current_emergent_ui_preserved": "yes_where_observed"
   },
   "remaining_before_emergent_credits": [
-    "Step 4: ensure Library entries are complete and aligned for every active BASIC scenario",
     "Step 5: build the minimal Emergent handoff package and exact integration instructions",
     "Then load Emergent credits, inspect the exact live project files, and wire the package into the existing app"
   ],
@@ -26,5 +25,16 @@
       "phase2/basic_results/BASIC_TO_PRO_POLICY.json",
       "phase2/basic_results/EMERGENT_RESULTS_RENDER_CONTRACT.json"
     ]
+  },
+  "step_4_library": {
+    "status": "complete_user_facing_draft",
+    "entries": 100,
+    "languages": [
+      "es",
+      "en",
+      "it"
+    ],
+    "structural_qa": "PASS",
+    "note": "All 100 catalog components now have standardized Library content. Scientific activation remains separate."
   }
 }

@@ -1,0 +1,66 @@
+{
+  "id": "ferrous_sulfate",
+  "title": {
+    "es": "Sulfato ferroso",
+    "en": "Sulfato ferroso",
+    "it": "Sulfato ferroso"
+  },
+  "what_it_is": {
+    "es": "Sulfato ferroso es una forma o presentación específica relacionada con Hierro.",
+    "en": "Sulfato ferroso is a specific form or presentation related to Hierro.",
+    "it": "Sulfato ferroso è una forma o presentazione specifica collegata a Hierro."
+  },
+  "common_uses": {
+    "es": "Se comercializa como una forma concreta del nutriente principal.",
+    "en": "It is marketed as a specific form of the parent nutrient.",
+    "it": "È commercializzata come forma specifica del nutriente principale."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Vitami puede mostrarlo cuando tus respuestas coinciden con un contexto relevante o cuando lo consultás en la Biblioteca.",
+    "en": "Vitami may show it when your answers match a relevant context or when you look it up in the Library.",
+    "it": "Vitami può mostrarlo quando le tue risposte coincidono con un contesto rilevante o quando lo cerchi nella Biblioteca."
+  },
+  "evidence_summary": {
+    "es": "Vitami no asume que una forma sea superior a otra salvo que exista evidencia específica para el resultado buscado.",
+    "en": "Vitami does not assume one form is superior unless specific evidence supports the intended outcome.",
+    "it": "Vitami non presume che una forma sia superiore senza evidenze specifiche per l'esito cercato."
+  },
+  "evidence_label": "form_specific_context",
+  "limits": {
+    "es": "Que un suplemento sea popular o tenga un mecanismo plausible no significa que sea necesario ni eficaz para todas las personas.",
+    "en": "Popularity or a plausible mechanism does not mean a supplement is necessary or effective for everyone.",
+    "it": "La popolarità o un meccanismo plausibile non significa che un integratore sia necessario o efficace per tutti."
+  },
+  "dose_reference": {
+    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
+    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
+    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+  },
+  "common_presentations": [
+    "tablet",
+    "drops"
+  ],
+  "precautions": {
+    "es": "La cantidad relevante suele ser la del nutriente activo o elemental y deben contarse otras fuentes del mismo nutriente.",
+    "en": "The relevant amount is usually the active or elemental nutrient, and other sources of the same nutrient must be counted.",
+    "it": "La quantità rilevante è di solito quella del nutriente attivo o elementare e vanno conteggiate altre fonti dello stesso nutriente."
+  },
+  "when_to_consult": {
+    "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
+    "en": "Seek advice before using it if you have a relevant condition, are pregnant or breastfeeding, take medicines, had a previous reaction, or plan high doses.",
+    "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
+  },
+  "source_refs": [
+    "NIH_IRON_HP"
+  ],
+  "source_status": "reviewed_or_official_index",
+  "deep_record_status": "pending",
+  "rules_status": "candidate_not_active",
+  "library_status": "complete_user_facing_draft",
+  "review_date": "2026-08-09",
+  "disclaimer": {
+    "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
+    "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
+    "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  }
+}

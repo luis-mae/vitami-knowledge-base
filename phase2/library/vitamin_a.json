@@ -1,0 +1,65 @@
+{
+  "id": "vitamin_a",
+  "title": {
+    "es": "Vitamina A",
+    "en": "Vitamina A",
+    "it": "Vitamina A"
+  },
+  "what_it_is": {
+    "es": "Vitamina liposoluble esencial para la visión, la inmunidad, el crecimiento y la reproducción.",
+    "en": "A fat-soluble vitamin essential for vision, immune function, growth, and reproduction.",
+    "it": "Vitamina liposolubile essenziale per vista, immunità, crescita e riproduzione."
+  },
+  "common_uses": {
+    "es": "Se utiliza para cubrir ingestas insuficientes o deficiencias confirmadas, no como antioxidante universal.",
+    "en": "Used to address inadequate intake or confirmed deficiency, not as a universal antioxidant.",
+    "it": "Usata per coprire apporti insufficienti o carenze confermate, non come antiossidante universale."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Vitami puede mostrarlo cuando tus respuestas coinciden con un contexto relevante o cuando lo consultás en la Biblioteca.",
+    "en": "Vitami may show it when your answers match a relevant context or when you look it up in the Library.",
+    "it": "Vitami può mostrarlo quando le tue risposte coincidono con un contesto rilevante o quando lo cerchi nella Biblioteca."
+  },
+  "evidence_summary": {
+    "es": "La utilidad es clara cuando existe una necesidad nutricional real; el exceso de vitamina A preformada puede ser tóxico.",
+    "en": "Usefulness is clear when there is a real nutritional need; excess preformed vitamin A can be toxic.",
+    "it": "L'utilità è chiara quando esiste una reale necessità nutrizionale; l'eccesso di vitamina A preformata può essere tossico."
+  },
+  "evidence_label": "high_for_deficiency_context",
+  "limits": {
+    "es": "Que un suplemento sea popular o tenga un mecanismo plausible no significa que sea necesario ni eficaz para todas las personas.",
+    "en": "Popularity or a plausible mechanism does not mean a supplement is necessary or effective for everyone.",
+    "it": "La popolarità o un meccanismo plausibile non significa che un integratore sia necessario o efficace per tutti."
+  },
+  "dose_reference": {
+    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
+    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
+    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+  },
+  "common_presentations": [
+    "capsule_or_tablet"
+  ],
+  "precautions": {
+    "es": "Embarazo, enfermedad hepática y exposición alta por múltiples suplementos requieren especial cautela.",
+    "en": "Pregnancy, liver disease, and high exposure from multiple supplements require extra caution.",
+    "it": "Gravidanza, malattie epatiche ed esposizione elevata da più integratori richiedono cautela."
+  },
+  "when_to_consult": {
+    "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
+    "en": "Seek advice before using it if you have a relevant condition, are pregnant or breastfeeding, take medicines, had a previous reaction, or plan high doses.",
+    "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
+  },
+  "source_refs": [
+    "NIH_VITA_HP"
+  ],
+  "source_status": "reviewed_or_official_index",
+  "deep_record_status": "reviewed_draft",
+  "rules_status": "draft_rules_ready",
+  "library_status": "complete_user_facing_draft",
+  "review_date": "2026-08-09",
+  "disclaimer": {
+    "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
+    "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
+    "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  }
+}

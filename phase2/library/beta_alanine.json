@@ -1,0 +1,65 @@
+{
+  "id": "beta_alanine",
+  "title": {
+    "es": "Beta-alanina",
+    "en": "Beta-alanina",
+    "it": "Beta-alanina"
+  },
+  "what_it_is": {
+    "es": "Ingrediente usado en suplementos deportivos o funcionales, con mecanismos y evidencia dependientes del contexto.",
+    "en": "An ingredient used in sports or functional supplements, with mechanisms and evidence that depend on context.",
+    "it": "Ingrediente usato negli integratori sportivi o funzionali, con meccanismi ed evidenze dipendenti dal contesto."
+  },
+  "common_uses": {
+    "es": "Se comercializa para rendimiento, recuperación, composición corporal o concentración según el ingrediente.",
+    "en": "It is marketed for performance, recovery, body composition, or focus depending on the ingredient.",
+    "it": "È commercializzato per prestazione, recupero, composizione corporea o concentrazione secondo l'ingrediente."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Vitami puede mostrarlo cuando tus respuestas coinciden con un contexto relevante o cuando lo consultás en la Biblioteca.",
+    "en": "Vitami may show it when your answers match a relevant context or when you look it up in the Library.",
+    "it": "Vitami può mostrarlo quando le tue risposte coincidono con un contesto rilevante o quando lo cerchi nella Biblioteca."
+  },
+  "evidence_summary": {
+    "es": "La magnitud y consistencia del beneficio varían según deporte, dosis, duración y estado nutricional.",
+    "en": "The magnitude and consistency of benefit vary by sport, dose, duration, and nutritional status.",
+    "it": "Entità e consistenza del beneficio variano secondo sport, dose, durata e stato nutrizionale."
+  },
+  "evidence_label": "context_dependent",
+  "limits": {
+    "es": "Que un suplemento sea popular o tenga un mecanismo plausible no significa que sea necesario ni eficaz para todas las personas.",
+    "en": "Popularity or a plausible mechanism does not mean a supplement is necessary or effective for everyone.",
+    "it": "La popolarità o un meccanismo plausibile non significa che un integratore sia necessario o efficace per tutti."
+  },
+  "dose_reference": {
+    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
+    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
+    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+  },
+  "common_presentations": [
+    "capsule_tablet_powder_or_liquid"
+  ],
+  "precautions": {
+    "es": "Los productos combinados pueden aportar estimulantes u otros ingredientes; la dosis debe evaluarse por ingrediente real.",
+    "en": "Combination products may contain stimulants or other ingredients; dose should be assessed by actual ingredient content.",
+    "it": "I prodotti combinati possono contenere stimolanti o altri ingredienti; la dose va valutata sul contenuto reale."
+  },
+  "when_to_consult": {
+    "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
+    "en": "Seek advice before using it if you have a relevant condition, are pregnant or breastfeeding, take medicines, had a previous reaction, or plan high doses.",
+    "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
+  },
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "source_status": "reviewed_or_official_index",
+  "deep_record_status": "pending",
+  "rules_status": "draft",
+  "library_status": "complete_user_facing_draft",
+  "review_date": "2026-08-09",
+  "disclaimer": {
+    "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
+    "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
+    "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  }
+}

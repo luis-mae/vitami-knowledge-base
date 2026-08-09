@@ -1,33 +1,32 @@
 {
-  "version": "1.0.0",
-  "status": "DRAFT",
-  "record_count": 20,
-  "records": [
-    "biotin",
-    "caffeine_performance",
-    "calcium",
-    "coenzyme_q10",
-    "collagen_peptides",
-    "creatine_monohydrate",
-    "curcumin_turmeric",
-    "folate_folic_acid",
-    "glucosamine_chondroitin",
-    "iron",
-    "lutein_zeaxanthin",
-    "magnesium",
-    "omega_3_epa_dha",
-    "probiotics",
-    "selenium",
-    "vitamin_b12",
-    "vitamin_c",
-    "vitamin_d",
-    "vitamin_e",
-    "zinc"
-  ],
+  "version": "2.2.0",
+  "status": "LIBRARY_100_COMPLETE_USER_FACING_DRAFT",
+  "total_entries": 100,
   "languages": [
     "es",
     "en",
     "it"
   ],
-  "principle": "Library content explains evidence and limitations. It is not itself a recommendation."
+  "standard_fields": [
+    "title",
+    "what_it_is",
+    "common_uses",
+    "why_vitami_may_show_it",
+    "evidence_summary",
+    "evidence_label",
+    "limits",
+    "dose_reference",
+    "common_presentations",
+    "precautions",
+    "when_to_consult",
+    "source_refs",
+    "review_date",
+    "disclaimer"
+  ],
+  "scientific_review": {
+    "entries_with_specific_or_official_index_sources": 92,
+    "entries_needing_deeper_source_specific_review": 8,
+    "important": "Library completeness does not activate BASIC recommendations. BASIC eligibility still requires scientific deep record + deterministic rule + safety review."
+  },
+  "commercial_future": "Brand, SKU, price and availability stay outside the scientific Library and can later map to canonical component IDs."
 }

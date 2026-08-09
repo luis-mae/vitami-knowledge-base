@@ -10,21 +10,56 @@
     "en": "An essential mineral for hemoglobin, oxygen transport, and other cellular functions.",
     "it": "Minerale essenziale per l'emoglobina, il trasporto dell'ossigeno e altre funzioni cellulari."
   },
+  "common_uses": {
+    "es": "Puede ser relevante en contextos específicos según dieta, objetivos y seguridad.",
+    "en": "It may be relevant in specific contexts depending on diet, goals, and safety.",
+    "it": "Può essere rilevante in contesti specifici secondo dieta, obiettivi e sicurezza."
+  },
   "why_vitami_may_show_it": {
     "es": "Puede aparecer cuando el perfil dietario o la etapa de vida hacen relevante revisar el aporte de hierro.",
     "en": "It may appear when diet or life stage makes iron intake worth reviewing.",
     "it": "Può comparire quando dieta o fase della vita rendono opportuno valutare l'apporto di ferro."
   },
+  "evidence_summary": {
+    "es": "Vitami utiliza evidencia específica de indicación y evita extrapolar beneficios generales.",
+    "en": "Vitami uses indication-specific evidence and avoids extrapolating broad benefits.",
+    "it": "Vitami usa evidenze specifiche per indicazione ed evita di extrapolare benefici generali."
+  },
+  "evidence_label": "high_for_nutritional_role",
   "limits": {
     "es": "Vitami no debe diagnosticar falta de hierro por cansancio, caída del cabello u otros síntomas inespecíficos. Las dosis terapéuticas y los esquemas en días alternos requieren contexto clínico.",
     "en": "Vitami should not diagnose iron deficiency from fatigue, hair loss, or other nonspecific symptoms. Treatment doses and alternate-day regimens require clinical context.",
     "it": "Vitami non deve diagnosticare una carenza di ferro sulla base di stanchezza, caduta dei capelli o altri sintomi aspecifici. Dosi terapeutiche e schemi a giorni alterni richiedono un contesto clinico."
   },
-  "evidence_label": "high_for_nutritional_role",
+  "dose_reference": {
+    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
+    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
+    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+  },
+  "common_presentations": [
+    "capsule_or_tablet"
+  ],
+  "precautions": {
+    "es": "Las precauciones dependen del ingrediente y se aplican antes que cualquier puntuación positiva.",
+    "en": "Ingredient-specific precautions are applied before any positive scoring.",
+    "it": "Le precauzioni specifiche dell'ingrediente vengono applicate prima di qualsiasi punteggio positivo."
+  },
+  "when_to_consult": {
+    "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
+    "en": "Seek advice before using it if you have a relevant condition, are pregnant or breastfeeding, take medicines, had a previous reaction, or plan high doses.",
+    "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
+  },
   "source_refs": [
-    "NIH_IRON_HP",
-    "IRON_ALT_DAY_STOFFEL_2017",
-    "IRON_ALT_DAY_STOFFEL_2020",
-    "IRON_ALT_DAY_RCT_2023"
-  ]
+    "NIH_IRON_HP"
+  ],
+  "source_status": "reviewed_or_official_index",
+  "deep_record_status": "pending",
+  "rules_status": "draft",
+  "library_status": "complete_user_facing_draft",
+  "review_date": "2026-08-09",
+  "disclaimer": {
+    "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
+    "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
+    "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  }
 }

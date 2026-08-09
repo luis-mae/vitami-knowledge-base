@@ -1,0 +1,66 @@
+{
+  "id": "nac",
+  "title": {
+    "es": "N-acetilcisteína (NAC)",
+    "en": "N-acetilcisteína (NAC)",
+    "it": "N-acetilcisteína (NAC)"
+  },
+  "what_it_is": {
+    "es": "Ingrediente bioactivo utilizado en suplementos dietéticos.",
+    "en": "A bioactive ingredient used in dietary supplements.",
+    "it": "Ingrediente bioattivo usato negli integratori alimentari."
+  },
+  "common_uses": {
+    "es": "Se comercializa para distintos objetivos metabólicos, antioxidantes, de bienestar o rendimiento.",
+    "en": "It is marketed for various metabolic, antioxidant, wellness, or performance goals.",
+    "it": "È commercializzato per diversi obiettivi metabolici, antiossidanti, di benessere o prestazione."
+  },
+  "why_vitami_may_show_it": {
+    "es": "Vitami puede mostrarlo cuando tus respuestas coinciden con un contexto relevante o cuando lo consultás en la Biblioteca.",
+    "en": "Vitami may show it when your answers match a relevant context or when you look it up in the Library.",
+    "it": "Vitami può mostrarlo quando le tue risposte coincidono con un contesto rilevante o quando lo cerchi nella Biblioteca."
+  },
+  "evidence_summary": {
+    "es": "La evidencia clínica es variable y suele ser específica de indicación; un mecanismo biológico no demuestra por sí solo un beneficio clínico.",
+    "en": "Clinical evidence is variable and usually indication-specific; a biological mechanism alone does not prove clinical benefit.",
+    "it": "Le evidenze cliniche sono variabili e spesso specifiche dell'indicazione; il solo meccanismo biologico non dimostra un beneficio clinico."
+  },
+  "evidence_label": "limited_or_context_dependent",
+  "limits": {
+    "es": "Que un suplemento sea popular o tenga un mecanismo plausible no significa que sea necesario ni eficaz para todas las personas.",
+    "en": "Popularity or a plausible mechanism does not mean a supplement is necessary or effective for everyone.",
+    "it": "La popolarità o un meccanismo plausibile non significa che un integratore sia necessario o efficace per tutti."
+  },
+  "dose_reference": {
+    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
+    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
+    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+  },
+  "common_presentations": [
+    "capsule",
+    "tablet"
+  ],
+  "precautions": {
+    "es": "La seguridad depende de dosis, formulación, embarazo, enfermedades y medicamentos.",
+    "en": "Safety depends on dose, formulation, pregnancy, medical conditions, and medicines.",
+    "it": "La sicurezza dipende da dose, formulazione, gravidanza, patologie e farmaci."
+  },
+  "when_to_consult": {
+    "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
+    "en": "Seek advice before using it if you have a relevant condition, are pregnant or breastfeeding, take medicines, had a previous reaction, or plan high doses.",
+    "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
+  },
+  "source_refs": [
+    "SOURCE_REVIEW_PENDING"
+  ],
+  "source_status": "needs_specific_source_review",
+  "deep_record_status": "pending",
+  "rules_status": "candidate_not_active",
+  "library_status": "complete_user_facing_draft",
+  "review_date": "2026-08-09",
+  "disclaimer": {
+    "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
+    "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
+    "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  }
+}

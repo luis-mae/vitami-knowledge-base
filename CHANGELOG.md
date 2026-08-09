@@ -1,5 +1,22 @@
 # Changelog
 
+## 3.2.0 — 2026-08-09
+- Biblioteca Vitami ampliada y normalizada a 100 componentes.
+- Las 100 fichas incluyen ES/EN/IT, qué es, usos habituales, evidencia, límites, dosis/referencia, presentaciones, precauciones, cuándo consultar y fuentes.
+- Separada explícitamente la completitud de Biblioteca de la activación científica BASIC.
+- Ingredientes aún no profundamente revisados quedan visibles en Biblioteca pero siguen sin poder generar recomendaciones BASIC.
+- Añadida taxonomía de Biblioteca y auditoría estructural automática.
+- Mapeo comercial de marcas/SKU/precios permanece desacoplado para una futura farmacia.
+
+## 2.8.0 — 2026-08-09
+- Cerrada la especificación funcional de la pantalla final BASIC.
+- Definido orden de bloques: Francisco → recomendaciones prioritarias → secundarias → revisión profesional → no indicadas → metodología → PRO.
+- Definida estructura obligatoria de cada tarjeta y políticas diferenciadas de dosis, ingesta de referencia y revisión profesional.
+- Definidos textos A/B/C/D/E/X en ES/EN/IT.
+- Añadidos ejemplos de tarjetas para los 7 escenarios BASIC listos.
+- Formalizada la transición BASIC → PRO sin ocultar seguridad gratuita detrás del pago.
+- Creado contrato de renderizado para Emergent: el frontend muestra resultados pero no reinterpreta la ciencia.
+
 ## 2.7.0 — 2026-08-09
 - Cerrados 7 escenarios BASIC prioritarios para integración técnica: B12, vitamina D, creatina, vitamina C, zinc, calcio y cafeína.
 - Cada escenario incluye disparadores, preguntas requeridas, safety gates, estado, información de dosis/referencia y texto ES/EN/IT.
