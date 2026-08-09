@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.1.0 — 2026-08-09
+- Creado el primer motor determinístico BASIC en JavaScript, sin IA.
+- El motor normaliza respuestas, deriva clases de actividad, evalúa reglas, aplica puntuaciones, techos y overrides de seguridad.
+- Añadida detección de preguntas pendientes antes de permitir una decisión completa.
+- Separadas recomendaciones, no-recomendaciones educativas y casos de revisión profesional.
+- Añadido adaptador de respuestas de la UI actual hacia valores canónicos Vitami.
+- Formalizado contrato de ramificación condicional del cuestionario.
+- Añadidos 10 perfiles automáticos de prueba.
+- Resultado de validación técnica inicial: 10/10 perfiles pasaron.
+- Las reglas científicas continúan en estado DRAFT; superar los tests no equivale a validación clínica.
+
 ## 2.0.0 — 2026-08-09
 - Completadas 20 fichas de Biblioteca Vitami en ES/EN/IT.
 - Creado clasificador científico de actividad a partir de la UI existente.

@@ -1,0 +1,89 @@
+{
+  "version": "1.1.0",
+  "status": "DRAFT",
+  "base_sections": [
+    "Datos",
+    "Alimentación",
+    "Actividad",
+    "Descanso",
+    "Sol",
+    "Objetivos",
+    "Salud"
+  ],
+  "branch_rules": [
+    {
+      "branch_id": "VEGAN_NUTRIENTS",
+      "trigger": {
+        "diet_type": "vegan"
+      },
+      "ask": [
+        "diet_fortified_foods",
+        "supplements_current_use"
+      ],
+      "priority": "normal"
+    },
+    {
+      "branch_id": "VEGETARIAN_NUTRIENTS",
+      "trigger": {
+        "diet_type": "vegetarian"
+      },
+      "ask": [
+        "diet_fortified_foods"
+      ],
+      "priority": "normal"
+    },
+    {
+      "branch_id": "ACTIVE_DETAILS",
+      "trigger": {
+        "activity_level": [
+          "regular",
+          "occasional"
+        ]
+      },
+      "ask": [
+        "activity_type",
+        "activity_days_per_week",
+        "activity_session_duration",
+        "activity_intensity"
+      ],
+      "priority": "normal"
+    },
+    {
+      "branch_id": "CAFFEINE_DETAILS",
+      "trigger": {
+        "candidate_supplement": "caffeine_performance"
+      },
+      "ask": [
+        "pro_weight",
+        "lifestyle_caffeine_daily",
+        "symptom_sleep",
+        "activity_typical_time"
+      ],
+      "priority": "normal"
+    },
+    {
+      "branch_id": "SELENIUM_EXPOSURE",
+      "trigger": {
+        "candidate_supplement": "selenium"
+      },
+      "ask": [
+        "diet_brazil_nuts_frequency",
+        "supplements_current_use"
+      ],
+      "priority": "normal"
+    },
+    {
+      "branch_id": "IRON_CLINICAL_CONTEXT",
+      "trigger": {
+        "candidate_supplement": "iron",
+        "decision_status": "provisional_pending_questions"
+      },
+      "ask": [
+        "pro_labs_available",
+        "pro_prior_deficiencies"
+      ],
+      "priority": "high"
+    }
+  ],
+  "rule": "Las ramas se evalúan después de cada respuesta o después de un pase preliminar del motor; nunca se muestra una pregunta sin una razón científica o de seguridad."
+}

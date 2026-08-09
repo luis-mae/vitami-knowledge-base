@@ -1,0 +1,26 @@
+{
+  "version": "1.1.0",
+  "status": "DRAFT",
+  "purpose": "Normalizar respuestas de la UI actual a los valores canónicos que usa el motor.",
+  "field_aliases": {
+    "age": "profile_age",
+    "diet": "diet_type",
+    "sun_exposure": "lifestyle_sun_exposure",
+    "fatigue": "symptom_fatigue"
+  },
+  "value_maps": {
+    "diet_type": {
+      "Variada o como de todo": "omnivore",
+      "Vegetariana": "vegetarian",
+      "Vegana": "vegan",
+      "Mayormente basada en plantas": "mostly_plant_based",
+      "Baja en carbohidratos": "low_carb"
+    },
+    "activity_level": {
+      "No": "none",
+      "Ocasionalmente": "occasional",
+      "Sí, de manera regular": "regular"
+    }
+  },
+  "hard_rule": "La normalización cambia formato/alias, nunca el significado científico."
+}

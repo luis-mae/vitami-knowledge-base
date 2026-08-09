@@ -1,0 +1,195 @@
+{
+  "version": "1.1.0",
+  "fixtures": [
+    {
+      "id": "t01_strength",
+      "answers": {
+        "profile_age": 29,
+        "activity_level": "regular",
+        "activity_type": [
+          "strength"
+        ],
+        "activity_days_per_week": "3-4",
+        "activity_session_duration": "60-90",
+        "activity_intensity": "high",
+        "goals_primary": [
+          "strength_muscle"
+        ],
+        "conditions_kidney": false
+      },
+      "assert": {
+        "contains_state": {
+          "creatine_monohydrate": [
+            "B_consider",
+            "C_potential_benefit"
+          ]
+        },
+        "not_state": {
+          "creatine_monohydrate": "X_professional_review_required"
+        }
+      }
+    },
+    {
+      "id": "t02_strength_kidney",
+      "answers": {
+        "profile_age": 45,
+        "activity_level": "regular",
+        "activity_type": [
+          "strength"
+        ],
+        "activity_intensity": "high",
+        "goals_primary": [
+          "strength_muscle"
+        ],
+        "conditions_kidney": true
+      },
+      "assert": {
+        "contains_state": {
+          "creatine_monohydrate": [
+            "X_professional_review_required"
+          ]
+        }
+      }
+    },
+    {
+      "id": "t03_vegan",
+      "answers": {
+        "profile_age": 32,
+        "diet_type": "vegan",
+        "diet_fortified_foods": "low",
+        "supplements_current_use": []
+      },
+      "assert": {
+        "contains_state": {
+          "vitamin_b12": [
+            "B_consider"
+          ]
+        }
+      }
+    },
+    {
+      "id": "t04_low_sun",
+      "answers": {
+        "lifestyle_sun_exposure": "very_low",
+        "diet_fatty_fish_weekly": 0,
+        "diet_fortified_foods": "none",
+        "conditions_kidney": false
+      },
+      "assert": {
+        "contains_state": {
+          "vitamin_d": [
+            "B_consider"
+          ]
+        }
+      }
+    },
+    {
+      "id": "t05_low_sun_kidney",
+      "answers": {
+        "lifestyle_sun_exposure": "very_low",
+        "diet_fatty_fish_weekly": 0,
+        "diet_fortified_foods": "none",
+        "conditions_kidney": true
+      },
+      "assert": {
+        "contains_state": {
+          "vitamin_d": [
+            "X_professional_review_required"
+          ]
+        }
+      }
+    },
+    {
+      "id": "t06_hair",
+      "answers": {
+        "goals_primary": [
+          "hair_loss_concern"
+        ],
+        "symptom_hair_nails": true
+      },
+      "assert": {
+        "not_state": {
+          "biotin": "B_consider",
+          "zinc": "B_consider",
+          "selenium": "B_consider"
+        }
+      }
+    },
+    {
+      "id": "t07_antioxidants",
+      "answers": {
+        "goals_primary": [
+          "antioxidant_interest"
+        ]
+      },
+      "assert": {
+        "contains_state": {
+          "vitamin_e": [
+            "E_no_current_indication"
+          ],
+          "selenium": [
+            "E_no_current_indication"
+          ]
+        }
+      }
+    },
+    {
+      "id": "t08_joint_liver",
+      "answers": {
+        "goals_primary": [
+          "bone_joint_health"
+        ],
+        "symptom_muscle_joint": true,
+        "conditions_liver": true,
+        "profile_pregnancy": false
+      },
+      "assert": {
+        "contains_state": {
+          "curcumin_turmeric": [
+            "X_professional_review_required"
+          ]
+        }
+      }
+    },
+    {
+      "id": "t09_bleeding_omega",
+      "answers": {
+        "diet_fatty_fish_weekly": 0,
+        "diet_type": "omnivore",
+        "conditions_bleeding": true,
+        "safety_upcoming_surgery": false
+      },
+      "assert": {
+        "contains_state": {
+          "omega_3_epa_dha": [
+            "X_professional_review_required"
+          ]
+        }
+      }
+    },
+    {
+      "id": "t10_endurance_caffeine",
+      "answers": {
+        "activity_level": "regular",
+        "activity_type": [
+          "running"
+        ],
+        "activity_session_duration": "60-90",
+        "activity_intensity": "moderate",
+        "goals_primary": [
+          "sports_performance"
+        ],
+        "symptom_sleep": "good",
+        "lifestyle_caffeine_daily": "50mg",
+        "pro_weight": 70
+      },
+      "assert": {
+        "contains_state": {
+          "caffeine_performance": [
+            "B_consider"
+          ]
+        }
+      }
+    }
+  ]
+}
