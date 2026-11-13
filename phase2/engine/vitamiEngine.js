@@ -20,13 +20,13 @@ function isAnswered(value) {
 function includesValue(container, expected) {
   if (Array.isArray(container)) return container.includes(expected);
   if (typeof container === 'string') {
-    return container.toLowerCase().includes(String(expected).toLowerCase());
+    return container.trim().toLowerCase() === String(expected).trim().toLowerCase();
   }
   return false;
 }
 
 function parseNumber(value) {
-  if (typeof value === 'number') return value;
+  if (typeof value === 'number') return Number.isFinite(value) ? value : null;
   if (typeof value !== 'string') return null;
   const m = value.match(/-?\d+(?:\.\d+)?/);
   return m ? Number(m[0]) : null;
