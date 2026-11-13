@@ -1,7 +1,7 @@
 {
   "rule_id": "CHOLINE_COGNITIVE_ONLY",
   "supplement_id": "choline",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,13 +14,18 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 1,
-    "recommendation_cap": "D_optional_limited",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
     "override_result": null,
-    "ask_questions": []
+    "ask_questions": [
+      "diet_type"
+    ]
   },
-  "rationale": "A cognitive goal alone does not establish benefit from choline supplementation.",
+  "rationale": "Cognitive support goal alone does not demonstrate choline inadequacy or proven supplementation benefit.",
   "evidence_refs": [
     "NIH_CHOLINE_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
   ]
 }
