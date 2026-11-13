@@ -1,0 +1,33 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Do not activate doses until population, indication, safety, source and QA are reviewed. RDA/UL are not supplement prescriptions.",
+  "ingredient": "vitamin_b12",
+  "priority": 4,
+  "source_refs": [
+    "NIH_B12_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "diet_type",
+    "diet_animal_products_frequency",
+    "diet_fortified_foods",
+    "supplements_current_use",
+    "medications_current_use",
+    "pregnancy_lactation_if_relevant",
+    "pro_prior_deficiencies"
+  ],
+  "supported_context": "vegan/low-animal-source diet and possible impaired absorption",
+  "protocols": [
+    {
+      "kind": "nutritional_reference",
+      "amount": "RDA 2.4 mcg/day adult; 2.6 pregnancy; 2.8 lactation",
+      "status": "REFERENCE_ONLY_NOT_SUPPLEMENT_DOSE"
+    }
+  ],
+  "personalization": "Diet and absorption risk determine relevance; supplemental regimens require indication-specific evidence, not simply RDA.",
+  "safety": [
+    "symptoms or suspected deficiency -> professional assessment"
+  ],
+  "next_review": "Review preventive oral supplementation schedules for vegan diets separately from deficiency treatment."
+}
