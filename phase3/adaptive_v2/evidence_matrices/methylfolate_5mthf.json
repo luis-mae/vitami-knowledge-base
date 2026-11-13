@@ -1,0 +1,52 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "methylfolate_5mthf",
+  "priority": 32,
+  "source_refs": [
+    "NIH_FOLATE_HP"
+  ],
+  "questions": [
+    "profile_pregnancy",
+    "pregnancy_planning",
+    "diet_type",
+    "supplements_current_use",
+    "medications_regular_use",
+    "conditions_other_relevant"
+  ],
+  "evidence_summary": [
+    "5-MTHF is a supplemental folate form; folate-equivalent labeling and formulation matter.",
+    "The evidence and public-health recommendation around neural-tube-defect prevention is specifically established for folic acid, so Vitami must not automatically substitute every folate form as equivalent for that claim.",
+    "Pregnancy/planning-pregnancy context requires dedicated rules."
+  ],
+  "reference_values": {
+    "adult_rda": {
+      "amount": 400,
+      "unit": "mcg DFE/day"
+    },
+    "pregnancy_rda": {
+      "amount": 600,
+      "unit": "mcg DFE/day"
+    },
+    "lactation_rda": {
+      "amount": 500,
+      "unit": "mcg DFE/day"
+    }
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "ntd_prevention_equivalence_to_folic_acid": "not_assumed"
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Consider age, diet, relevant physiological state, medications and formulation where validated; do not automatically equate nutrient references with supplement dose.",
+  "safety": [
+    "medications_regular_use",
+    "conditions_other_relevant"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and population limits",
+    "Resolve question bank IDs and safety conditions",
+    "Review cumulative nutrient exposure and product formulation before dose activation"
+  ]
+}
