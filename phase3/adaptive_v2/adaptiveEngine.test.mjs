@@ -1,0 +1,20 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import {validateGoals,candidateIngredients,nextQuestions,safetyDecision} from "./adaptiveEngine.mjs";
+const bank=JSON.parse(fs.readFileSync(new URL("../../data/questions/question_bank_master.json",import.meta.url),"utf8"));
+const bankIds=bank.questions.map(q=>q.question_id);
+const cases=[];
+function check(name,fn){fn();cases.push(name);}
+check("reject duplicate goals",()=>assert.throws(()=>validateGoals(["skin","skin"])));
+check("reject >5 goals",()=>assert.throws(()=>validateGoals(["skin","sleep","energy","immune","cognition","digestive"])));
+check("preserve ranking",()=>assert.deepEqual(validateGoals(["skin","healthy_aging"]),["skin","healthy_aging"]));
+check("unique questions for overlapping goals",()=>{const x=nextQuestions({goals:["healthy_aging","joint_comfort","skin"],bankIds});assert.equal(new Set(x.questions).size,x.questions.length);});
+check("vegan B12 question",()=>{const x=nextQuestions({goals:["skin"],answers:{diet_type:"vegan"},bankIds});assert.ok(x.questions.includes("diet_fortified_foods"));});
+check("no duplicate nutrient candidate",()=>{const x=candidateIngredients(["energy","healthy_aging"]);assert.equal(x.filter(y=>y==="vitamin_d").length,1);});
+check("creatine kidney block",()=>assert.equal(safetyDecision({ingredient:"creatine_monohydrate",answers:{conditions_kidney:true}}).personalizedDoseAllowed,false));
+check("creatine unknown kidney block",()=>assert.equal(safetyDecision({ingredient:"creatine_monohydrate",answers:{}}).state,"needs_more_answers"));
+check("iron treatment not automatic",()=>assert.equal(safetyDecision({ingredient:"iron",answers:{symptom_fatigue:true}}).personalizedDoseAllowed,false));
+check("probiotics no generic dose",()=>assert.equal(safetyDecision({ingredient:"probiotics",answers:{}}).personalizedDoseAllowed,false));
+check("unknown new questions surfaced",()=>{const x=nextQuestions({goals:["joint_comfort"],bankIds});assert.ok(x.unresolved.some(q=>q.requested==="joint_symptom_duration"));});
+check("safety questions before adaptive",()=>{const x=nextQuestions({goals:["sports_performance"],bankIds});assert.ok(x.questions.indexOf("conditions_kidney")<x.questions.indexOf("activity_type"));});
+console.log(JSON.stringify({passed:cases.length,tests:cases},null,2));
