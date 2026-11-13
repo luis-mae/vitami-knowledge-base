@@ -72,9 +72,9 @@ function adaptLegacyAnswers(raw = {}) {
     set('conditions_allergies',true);
     unresolved.push('conditions_allergies_details');
   } else if (raw.alergias === 'No') set('conditions_allergies',false);
-  const critical = ['conditions_kidney','medications_regular_use','supplements_current_use','safety_upcoming_surgery'];
+  const critical = ['conditions_kidney','medications_regular_use','supplements_current_use','safety_upcoming_surgery','profile_pregnancy','profile_lactation'];
   const missingCritical = critical.filter(k => answers[k] === undefined);
   return {answers,unresolved:[...new Set(unresolved)],warnings,missing_critical:missingCritical,
-    eligible_for_automatic_recommendations:missingCritical.length===0 && unresolved.filter(x=>x.startsWith('profile_pregnancy')||x.startsWith('profile_lactation')).length===0};
+    eligible_for_automatic_recommendations:missingCritical.length===0 && unresolved.filter(x=>x.startsWith('profile_pregnancy')||x.startsWith('profile_lactation')).length===0 && !['yes','unknown'].includes(answers.profile_pregnancy) && !['yes','unknown'].includes(answers.profile_lactation)};
 }
 module.exports = {adaptLegacyAnswers};
