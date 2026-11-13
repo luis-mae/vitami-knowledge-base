@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "ingredient_id": "calcium",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_NOT_CLINICALLY_APPROVED",
+  "evidence_claim_es": "La suplementación debe relacionarse con la ingesta dietética y el contexto óseo; no se debe equiparar el límite máximo tolerable con una dosis recomendada.",
+  "primary_source": {
+    "publisher": "NIH ODS",
+    "type": "Health Professional Fact Sheet",
+    "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+    "access_date": "2026-11-13"
+  },
+  "mandatory_precautions_es": [
+    "Calcular calcio elemental y sumar dieta, suplementos y antiácidos",
+    "Revisar cálculos renales, hipercalcemia, enfermedad renal y vitamina D concomitante",
+    "Interacciones con levotiroxina, dolutegravir, litio y quinolonas"
+  ],
+  "related_existing_rule_ids": [
+    "CALCIUM_LOW_DIET",
+    "CALCIUM_STONES"
+  ],
+  "assessment": {
+    "source_checked": true,
+    "primary_studies_individually_appraised": false,
+    "clinical_signoff": false
+  },
+  "dose_policy": "NO_PERSONALIZED_DOSE",
+  "combination_check": "REQUIRED",
+  "user_report_requirements": [
+    "Fuente y alcance",
+    "Beneficio e incertidumbre",
+    "Contraindicaciones e interacciones",
+    "Riesgos acumulados y revisión profesional"
+  ]
+}
