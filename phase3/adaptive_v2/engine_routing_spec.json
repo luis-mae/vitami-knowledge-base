@@ -1,0 +1,125 @@
+{
+  "version": "0.1.0",
+  "status": "DESIGN_SPEC_NOT_EXECUTABLE",
+  "goal_priority": {
+    "min": 1,
+    "max": 5,
+    "ordered": true
+  },
+  "stages": [
+    {
+      "id": "goals",
+      "output": "ranked_goal_ids"
+    },
+    {
+      "id": "profile",
+      "questions": [
+        "profile_age",
+        "diet_type",
+        "activity_level",
+        "supplements_current_use"
+      ]
+    },
+    {
+      "id": "safety",
+      "questions": [
+        "profile_pregnancy",
+        "profile_lactation",
+        "medications_regular_use",
+        "conditions_kidney",
+        "conditions_liver",
+        "conditions_heart",
+        "conditions_other_relevant"
+      ],
+      "note": "Conditional by relevance but never bypass safety checks required by any candidate ingredient"
+    },
+    {
+      "id": "adaptive",
+      "routing": "activate goals plus answer-triggered branches, canonicalize aliases, deduplicate questions"
+    },
+    {
+      "id": "results",
+      "routing": "only evidence-reviewed ingredient rules may yield doses"
+    }
+  ],
+  "question_selection": {
+    "steps": [
+      "validate goal IDs and preserve user rank",
+      "get global baseline questions",
+      "collect candidate ingredient IDs from goals (assessment only)",
+      "activate relevant ingredient safety gates",
+      "activate conditional branches using known answers",
+      "canonicalize only approved aliases and split fields",
+      "remove questions already answered; deduplicate by canonical ID",
+      "order safety-required before goal-specific; order remaining by highest goal rank"
+    ],
+    "unknown_policy": "If a required safety answer is unknown or refused, do not show a personalized dose for the affected ingredient",
+    "conflicts": "Any safety block overrides relevance; goal rank affects order only"
+  },
+  "ingredient_parent_groups": [
+    {
+      "parent": "omega_3_epa_dha",
+      "variants": [
+        "algal_omega3_dha"
+      ]
+    },
+    {
+      "parent": "calcium",
+      "variants": [
+        "calcium_citrate"
+      ]
+    },
+    {
+      "parent": "iron",
+      "variants": [
+        "iron_bisglycinate"
+      ]
+    },
+    {
+      "parent": "magnesium",
+      "variants": [
+        "magnesium_citrate",
+        "magnesium_glycinate"
+      ]
+    },
+    {
+      "parent": "vitamin_b12",
+      "variants": [
+        "methylcobalamin"
+      ]
+    },
+    {
+      "parent": "folate_folic_acid",
+      "variants": [
+        "methylfolate_5mthf"
+      ]
+    },
+    {
+      "parent": "vitamin_d",
+      "variants": [
+        "vitamin_d3"
+      ]
+    },
+    {
+      "parent": "zinc",
+      "variants": [
+        "zinc_gluconate"
+      ]
+    }
+  ],
+  "ingredient_group_policy": "Variant forms can differ in suitability but must not count as independent benefit claims or duplicate daily nutrient totals",
+  "output_states": [
+    "needs_more_answers",
+    "no_current_indication",
+    "consider_if_evidence_supported",
+    "professional_review_required",
+    "eligible_for_reviewed_protocol"
+  ],
+  "restrictions": [
+    "No diagnosis",
+    "No dose activation from draft matrices",
+    "No rank-based override of safety or evidence ceilings",
+    "No automatic regimen for pregnancy or suspected iron deficiency",
+    "No generic strain-agnostic probiotic dose"
+  ]
+}
