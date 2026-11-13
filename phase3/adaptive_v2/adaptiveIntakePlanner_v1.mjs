@@ -16,11 +16,12 @@ const unique=x=>[...new Set(x)];
 export function planAdaptiveIntake({questionBank=[],answers={},goalQuestionIds=[],candidateQuestionIds=[]}={}){
  const bank=new Map(questionBank.map(q=>[q.question_id,q]));
  const requiredSafety=unique(questionBank.filter(q=>q.required_for_safety).map(q=>q.question_id));
+ const conditionalSafetyDetails=new Set(["medications_list","supplements_current_list","conditions_allergies_list","pro_labs_details"]);
  const relevant=new Set([...goalQuestionIds,...candidateQuestionIds]);
  const ordered=[],stagesOutput=[];
  for(const [stage,...ids] of stages){
   const stageIds=ids.filter(id=>bank.has(id));
-  if(stage==="safety")stageIds.push(...requiredSafety.filter(id=>!stageIds.includes(id)));
+  if(stage==="safety")stageIds.push(...requiredSafety.filter(id=>!conditionalSafetyDetails.has(id)&&!stageIds.includes(id)));
   if(stage==="context")stageIds.splice(0,stageIds.length,...stageIds.filter(id=>relevant.has(id)));
   if(stage==="review")continue;
   const stageUnique=unique(stageIds);
@@ -34,7 +35,10 @@ export function planAdaptiveIntake({questionBank=[],answers={},goalQuestionIds=[
  if(yes(answers.pro_labs_available))followups.push("pro_labs_details");
  const filteredFollowups=unique(followups).filter(id=>bank.has(id));
  const pending=unique([...ordered,...filteredFollowups]).filter(id=>unknown(answers[id]));
- const safetyMissing=requiredSafety.filter(id=>unknown(answers[id]));
+ const safetyMissing=requiredSafety.filter(id=>!conditionalSafetyDetails.has(id)&&unknown(answers[id]));
+ if(yes(answers.medications_regular_use)&&unknown(answers.medications_list))safetyMissing.push("medications_list");
+ if(yes(answers.supplements_current_use)&&unknown(answers.supplements_current_list))safetyMissing.push("supplements_current_list");
+ if(yes(answers.conditions_allergies)&&unknown(answers.conditions_allergies_list))safetyMissing.push("conditions_allergies_list");
  const conflicts=[];
  if(no(answers.medications_regular_use)&&Array.isArray(answers.medications_list)&&answers.medications_list.length)conflicts.push("MEDICATION_LIST_CONTRADICTS_NO");
  if(no(answers.supplements_current_use)&&Array.isArray(answers.supplements_current_list)&&answers.supplements_current_list.length)conflicts.push("SUPPLEMENT_LIST_CONTRADICTS_NO");
