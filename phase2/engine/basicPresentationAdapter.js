@@ -2,11 +2,18 @@
 /** BASIC presentation adapter. Never promotes a draft rule to a clinical recommendation. */
 const REQUIRED = ['supplement_id','display_name','state','state_label','short_reason','why_it_appears','evidence_label','dose_display','important_limit','library_cta','how_to_take','daily_amount_guidance','library_safety_cta'];
 const POSITIVE = new Set(['A_high_relevance','B_consider','C_potential_benefit','D_optional_limited']);
+function isSafeLibraryUrl(value) {
+  if (typeof value !== 'string') return false;
+  try {
+    const url=new URL(value);
+    return url.protocol==='https:' && !!url.hostname && !url.username && !url.password && !url.hash;
+  } catch { return false; }
+}
 function validateCard(card) {
   if (!card || typeof card !== 'object') return {valid:false,missing:REQUIRED};
   const missing = REQUIRED.filter(k => typeof card[k] !== 'string' || !card[k].trim());
   if (POSITIVE.has(card.state)) {
-    if (!card.library_url || !/^https:\/\/[^/]+/.test(card.library_url)) missing.push('library_url');
+    if (!isSafeLibraryUrl(card.library_url)) missing.push('library_url');
     if (!Array.isArray(card.source_refs) || !card.source_refs.length) missing.push('source_refs');
     if (card.scientific_review_status !== 'reviewed') missing.push('scientific_review_status');
   }
@@ -29,4 +36,4 @@ function renderableBasicCards(engineResult, cardRecords=[]) {
   }
   return {cards,withheld,professional_review:engineResult.professional_review || [],followup_questions:engineResult.followup_questions || [],actions:{pro:'optional',cart:'optional_verified_sku_only'}};
 }
-module.exports={REQUIRED,validateCard,renderableBasicCards};
+module.exports={REQUIRED,validateCard,renderableBasicCards,isSafeLibraryUrl};
