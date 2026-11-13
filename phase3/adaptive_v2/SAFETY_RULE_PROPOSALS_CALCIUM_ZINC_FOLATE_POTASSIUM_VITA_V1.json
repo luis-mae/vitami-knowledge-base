@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "status": "DRAFT_RULE_REMEDIATION_NOT_DEPLOYED",
+  "date": "2026-11-13",
+  "rules": [
+    {
+      "id": "CALCIUM_ELEMENTAL_COMBINATIONS_V1",
+      "ingredients": [
+        "calcium",
+        "calcium_citrate",
+        "calcium_carbonate"
+      ],
+      "evidence": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "required": [
+        "diet_dairy_calcium_sources",
+        "supplements_current_list",
+        "medications_list",
+        "conditions_kidney_stones",
+        "conditions_kidney"
+      ],
+      "gate": "Require elemental calcium total and age-specific reference; review levothyroxine, dolutegravir and quinolone timing",
+      "on_unknown": "NO_PERSONALIZED_DOSE"
+    },
+    {
+      "id": "ZINC_COPPER_AND_ANTIBIOTIC_V1",
+      "ingredients": [
+        "zinc",
+        "zinc_gluconate",
+        "zinc_picolinate"
+      ],
+      "evidence": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "required": [
+        "supplements_current_list",
+        "supplement_amount_per_unit",
+        "supplement_amount_unit",
+        "medications_list",
+        "profile_age"
+      ],
+      "gate": "Check cumulative elemental zinc, duration, copper depletion risk and antibiotic/penicillamine interactions",
+      "on_unknown": "NO_PERSONALIZED_DOSE"
+    },
+    {
+      "id": "FOLIC_ACID_PREGNANCY_FORM_V1",
+      "ingredients": [
+        "folate_folic_acid",
+        "methylfolate_5mthf"
+      ],
+      "evidence": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "required": [
+        "pregnancy_planning",
+        "profile_pregnancy",
+        "supplements_current_list",
+        "medications_list"
+      ],
+      "gate": "Distinguish evidence for folic acid prevention of neural tube defects from 5-MTHF; do not delay indicated prenatal care",
+      "on_unknown": "CLINICAL_REVIEW"
+    },
+    {
+      "id": "POTASSIUM_RENAL_MEDICATION_V1",
+      "ingredients": [
+        "potassium",
+        "electrolyte_mix"
+      ],
+      "evidence": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "required": [
+        "conditions_kidney",
+        "conditions_heart",
+        "medications_list",
+        "supplements_current_list"
+      ],
+      "gate": "No personalized potassium supplement dose with unknown renal function or interacting medicines; account for salt substitutes",
+      "on_unknown": "NO_PERSONALIZED_DOSE"
+    },
+    {
+      "id": "VITAMIN_A_RETINOL_PREGNANCY_V1",
+      "ingredients": [
+        "vitamin_a",
+        "beta_carotene",
+        "multivitamin_mineral"
+      ],
+      "evidence": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "required": [
+        "profile_pregnancy",
+        "pregnancy_planning",
+        "lifestyle_smoking",
+        "supplements_current_list",
+        "medications_list"
+      ],
+      "gate": "Distinguish preformed retinol from beta-carotene, prevent excessive retinol in pregnancy and high-dose beta-carotene in smokers",
+      "on_unknown": "NO_PERSONALIZED_DOSE"
+    }
+  ],
+  "requirements": [
+    "Each displayed recommendation must include precautions and source",
+    "Cross-product ingredient duplication check mandatory",
+    "Medical diagnosis and treatment not inferred from questionnaire",
+    "Scientific review and clinical signoff required"
+  ],
+  "approved": false
+}
