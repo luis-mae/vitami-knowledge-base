@@ -1,7 +1,7 @@
 {
   "rule_id": "PROBIO_DIGESTIVE",
   "supplement_id": "probiotics",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -24,5 +24,16 @@
   "rationale": "A generic probiotic recommendation is invalid; evidence must match strain/product and indication.",
   "evidence_refs": [
     "NIH_PROBIOTICS_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_exact_strain_and_dose": true,
+    "review_immunocompromise_and_serious_illness": true
+  },
+  "correction_source_urls": [
+    "https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know"
   ]
 }
