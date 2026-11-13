@@ -1,0 +1,56 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "iron_bisglycinate",
+  "priority": 27,
+  "source_refs": [
+    "NIH_IRON_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "profile_sex",
+    "diet_type",
+    "symptom_fatigue",
+    "pro_labs_available",
+    "profile_pregnancy",
+    "conditions_other_relevant",
+    "medications_regular_use",
+    "supplements_current_use"
+  ],
+  "evidence_summary": [
+    "Iron bisglycinate is one supplemental iron form, but treatment decisions still depend on iron status and clinical context.",
+    "Fatigue alone is not evidence of iron deficiency.",
+    "BASIC should not create therapeutic iron regimens without appropriate laboratory/clinical context."
+  ],
+  "reference_values": {
+    "adult_male_19_50_rda": {
+      "amount": 8,
+      "unit": "mg/day"
+    },
+    "adult_female_19_50_rda": {
+      "amount": 18,
+      "unit": "mg/day"
+    },
+    "adult_ul": {
+      "amount": 45,
+      "unit": "mg/day"
+    }
+  },
+  "source_dose_logic": {
+    "basic_status": "professional_supervision_required",
+    "calculate_as": "elemental_iron"
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Determine whether formulation-specific evidence differs from parent ingredient; no unvalidated dose conversion or automatic clinical claim.",
+  "safety": [
+    "profile_pregnancy",
+    "conditions_other_relevant",
+    "medications_regular_use"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and formulation differences",
+    "Reconcile canonical questions and safety gates",
+    "Validate applicability before recommendation or dose activation"
+  ]
+}
