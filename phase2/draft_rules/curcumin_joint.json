@@ -1,7 +1,7 @@
 {
   "rule_id": "CURCUMIN_JOINT",
   "supplement_id": "curcumin_turmeric",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -18,13 +18,23 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 3,
-    "recommendation_cap": "C_potential_benefit",
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": []
   },
-  "rationale": "Knee-osteoarthritis evidence is promising but not definitive.",
+  "rationale": "Joint pain is not an osteoarthritis diagnosis; evidence is formulation-specific and some high-bioavailability curcumin products have liver injury reports.",
   "evidence_refs": [
     "NCCIH_TURMERIC"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "review_liver_injury_and_product_bioavailability": true
+  },
+  "correction_source_urls": [
+    "https://www.nccih.nih.gov/health/turmeric"
   ]
 }
