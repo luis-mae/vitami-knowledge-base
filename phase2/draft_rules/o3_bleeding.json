@@ -1,7 +1,7 @@
 {
   "rule_id": "O3_BLEEDING",
   "supplement_id": "omega_3_epa_dha",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [],
@@ -26,5 +26,16 @@
   "rationale": "High-dose omega-3 may affect platelet function; bleeding/surgery context needs review.",
   "evidence_refs": [
     "NIH_OMEGA3_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "review_anticoagulants_antiplatelets_and_atrial_fibrillation": true,
+    "require_epa_dha_daily_mg": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
   ]
 }
