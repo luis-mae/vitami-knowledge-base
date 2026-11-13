@@ -1,0 +1,36 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Evidence ranges are not automatic prescriptions. Safety, product composition, population and indication must be verified before activation.",
+  "ingredient": "electrolyte_mix",
+  "priority": 13,
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "questions": [
+    "activity_type",
+    "activity_session_duration",
+    "activity_intensity",
+    "activity_sweat_level",
+    "environment_heat",
+    "fluid_intake_context",
+    "supplements_current_use",
+    "conditions_kidney",
+    "conditions_heart",
+    "medications_current_use"
+  ],
+  "supported_context": "prolonged activity with substantial sweat losses or heat exposure",
+  "protocols": [
+    {
+      "kind": "composition_and_loss_dependent",
+      "amount": "No universal dose: requires sodium content, sweat losses, duration, climate and individual risk",
+      "status": "NO_AUTOMATIC_DOSE"
+    }
+  ],
+  "personalization": "Differentiate sodium and fluid replacement from potassium/magnesium claims; product mixes are not interchangeable.",
+  "safety": [
+    "kidney or heart disease and diuretic/other medication use require review",
+    "avoid excessive fluid intake and unverified sodium replacement"
+  ],
+  "next_review": "Research sports hydration consensus and conservative decision rules for short vs prolonged exercise; require product label composition."
+}
