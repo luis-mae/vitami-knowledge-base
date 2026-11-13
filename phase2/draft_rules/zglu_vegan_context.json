@@ -1,7 +1,7 @@
 {
   "rule_id": "ZGLU_VEGAN_CONTEXT",
   "supplement_id": "zinc_gluconate",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,7 +14,7 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
+    "score_delta": 0,
     "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
@@ -22,8 +22,17 @@
       "supplements_current_use"
     ]
   },
-  "rationale": "Plant-based diets can make zinc adequacy worth reviewing, but the gluconate form itself does not create a stronger indication.",
+  "rationale": "Vegan diet is not proof of zinc deficiency; assess dietary zinc, phytates and total supplement exposure.",
   "evidence_refs": [
     "NIH_ZINC_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
   ]
 }
