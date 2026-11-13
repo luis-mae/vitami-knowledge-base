@@ -1,0 +1,10 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {auditAssetIds}=require('../engine/auditAssetIds');
+assert.equal(auditAssetIds().valid,true);
+assert.equal(auditAssetIds({libraryRecords:[{id:'x'},{id:'x'}]}).valid,false);
+assert.equal(auditAssetIds({doseRules:[{supplement_id:'x'},{supplement_id:'x'}]}).issues[0].kind,'dose');
+assert.equal(auditAssetIds({rules:[{rule_id:'r'},{rule_id:'r'}]}).issues[0].reason,'duplicate_id');
+assert.equal(auditAssetIds({cardRecords:[{supplement_id:'x'},{supplement_id:'x'}]}).issues[0].kind,'cards');
+assert.equal(auditAssetIds({libraryRecords:[{}]}).issues[0].reason,'missing_id');
+console.log('auditAssetIds: 6 assertions passed');
