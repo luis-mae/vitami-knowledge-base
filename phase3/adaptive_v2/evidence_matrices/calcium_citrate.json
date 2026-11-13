@@ -1,0 +1,49 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "calcium_citrate",
+  "priority": 25,
+  "source_refs": [
+    "NIH_CALCIUM_HP"
+  ],
+  "questions": [
+    "diet_dairy_calcium_sources",
+    "diet_type",
+    "profile_age",
+    "profile_sex",
+    "conditions_kidney",
+    "medications_regular_use",
+    "supplements_current_use"
+  ],
+  "evidence_summary": [
+    "Calcium citrate is a common supplemental calcium salt.",
+    "Vitami should estimate dietary calcium before considering supplemental calcium.",
+    "The relevant quantity for comparison is elemental calcium, not total salt weight."
+  ],
+  "reference_values": {
+    "adult_19_50_rda": {
+      "amount": 1000,
+      "unit": "mg/day"
+    },
+    "women_over_50_rda": {
+      "amount": 1200,
+      "unit": "mg/day"
+    }
+  },
+  "source_dose_logic": {
+    "basic_status": "diet_first_reference_only",
+    "calculate_as": "elemental_calcium"
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Determine whether formulation-specific evidence differs from parent ingredient; no unvalidated dose conversion or automatic clinical claim.",
+  "safety": [
+    "conditions_kidney",
+    "medications_regular_use"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and formulation differences",
+    "Reconcile canonical questions and safety gates",
+    "Validate applicability before recommendation or dose activation"
+  ]
+}
