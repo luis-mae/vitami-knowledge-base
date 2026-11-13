@@ -1,0 +1,82 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_QUEUE_NOT_CLINICALLY_APPROVED",
+  "purpose": "Separate evidence-based health behavior and symptom-triage knowledge from supplement recommendation rules; future VITAMI educational guidance.",
+  "topics": [
+    {
+      "id": "daytime_sleepiness",
+      "question": "How to distinguish insufficient sleep, circadian misalignment, medication effects, sleep apnea and other causes of daytime sleepiness?",
+      "evidence_sources": [
+        {
+          "authority": "NIH NHLBI",
+          "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects"
+        },
+        {
+          "authority": "NIH Sleep Apnea",
+          "url": "https://health.nih.gov/health-topics-a-z/sleep-apnea"
+        }
+      ],
+      "rule_candidates": [
+        "Ask about sleep duration, daytime sleepiness, schedule, snoring/apnea and medication use",
+        "Do not assume fatigue and sleepiness are equivalent",
+        "Safety triage for sleepiness while driving or operating machinery",
+        "Avoid default stimulant or supplement recommendation"
+      ],
+      "review_required": [
+        "Validated screening instruments and scope",
+        "When to refer for sleep assessment",
+        "Evidence for behavioral strategies by condition"
+      ]
+    },
+    {
+      "id": "insomnia_and_sleep_health",
+      "question": "What works for insomnia versus insufficient sleep, and when is CBT-I indicated?",
+      "evidence_sources": [
+        {
+          "authority": "NIH NCCIH",
+          "url": "https://www.nccih.nih.gov/health/tips/psychological-and-physical-practices-for-older-adults"
+        }
+      ],
+      "rule_candidates": [
+        "Differentiate difficulty initiating or maintaining sleep from daytime sleepiness",
+        "Prioritize clinically supported behavioral care pathways",
+        "Melatonin evidence depends on circadian indication; not default for chronic insomnia"
+      ],
+      "review_required": [
+        "CBT-I guidelines and contraindications",
+        "Sleep apnea screening and differential diagnosis"
+      ]
+    },
+    {
+      "id": "healthy_aging",
+      "question": "Which interventions support physical function, cognition, independence and healthspan?",
+      "evidence_sources": [
+        {
+          "authority": "NIH NIA",
+          "url": "https://health.nih.gov/health-topics-a-z/healthy-aging"
+        },
+        {
+          "authority": "CDC",
+          "url": "https://www.cdc.gov/healthy-aging/about/"
+        }
+      ],
+      "rule_candidates": [
+        "Assess physical activity, resistance exercise, balance, nutrition, sleep and social connection",
+        "Do not equate healthy aging with buying anti-aging supplements",
+        "Assess functional limitations and clinically relevant red flags"
+      ],
+      "review_required": [
+        "Evidence grading for exercise and nutrition by age and functional status",
+        "Distinguish prevention, treatment and association",
+        "Avoid unsupported longevity claims"
+      ]
+    }
+  ],
+  "design_principles": [
+    "Educational and behavior-change guidance must be distinct from supplement product claims",
+    "Each rule needs evidence source, population, expected outcome, contraindications, review date and escalation condition",
+    "Avoid diagnosing conditions from a questionnaire",
+    "Medical red flags override recommendation and sales pathways"
+  ],
+  "implementation": "DEFERRED_UNTIL_AFTER_QUESTION_ENGINE_VALIDATION"
+}
