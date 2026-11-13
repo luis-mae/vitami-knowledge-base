@@ -1,0 +1,44 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "magnesium_citrate",
+  "priority": 29,
+  "source_refs": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "questions": [
+    "diet_type",
+    "goals_primary",
+    "supplements_current_use",
+    "conditions_kidney",
+    "conditions_gastrointestinal"
+  ],
+  "evidence_summary": [
+    "Magnesium citrate is a commonly marketed supplemental form.",
+    "The nutritional requirement belongs to elemental magnesium, not to the weight of the citrate compound.",
+    "Form-specific tolerability or absorption claims must not automatically become superiority claims."
+  ],
+  "reference_values": {
+    "supplemental_ul_adults": {
+      "amount": 350,
+      "unit": "mg/day",
+      "scope": "supplemental magnesium only"
+    }
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "calculate_as": "elemental_magnesium"
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Determine whether formulation-specific evidence differs from parent ingredient; no unvalidated dose conversion or automatic clinical claim.",
+  "safety": [
+    "conditions_kidney",
+    "conditions_gastrointestinal"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and formulation differences",
+    "Reconcile canonical questions and safety gates",
+    "Validate applicability before recommendation or dose activation"
+  ]
+}
