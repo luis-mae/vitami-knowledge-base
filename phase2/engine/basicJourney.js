@@ -3,8 +3,11 @@ const {buildQuestionnaireStep}=require('./adaptiveQuestionnaire');
 const {buildBasicResponse}=require('./vitamiEngine');
 const {renderableBasicCards}=require('./basicPresentationAdapter');
 const {normalizeAnswers}=require('./normalizeAnswers');
+const {auditAssetIds}=require('./auditAssetIds');
 /** Pure orchestration boundary for an eventual Emergent API route. */
 function evaluateBasicJourney({selectedGoals=[],answers={},questionBank,goalBank,flow,rules=[],libraryRecords=[],doseRules=[],cardRecords=[],locale='es',sessionId='',answerAdapter={}}) {
+  const assetAudit=auditAssetIds({rules,libraryRecords,doseRules,cardRecords});
+  if (!assetAudit.valid) return {status:'configuration_error',asset_issues:assetAudit.issues};
   const normalized=normalizeAnswers(answers,answerAdapter);
   if (!normalized.valid) return {status:'configuration_error',conflicts:normalized.conflicts};
   answers=normalized.answers;
