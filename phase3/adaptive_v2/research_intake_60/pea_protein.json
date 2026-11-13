@@ -1,0 +1,21 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "pea_protein",
+  "source_refs_from_library": [
+    "NIH_EXERCISE_HP"
+  ],
+  "library_evidence_label": "moderate_to_high_in_training_context",
+  "library_summary_es": "El beneficio depende principalmente de la ingesta proteica total, el entrenamiento y el contexto; el suplemento no es obligatorio si la dieta alcanza.",
+  "review_requirements": [
+    "Verify indication-specific evidence and effect size",
+    "Verify formulation, dose, duration and population",
+    "Review adverse effects, contraindications, medication/supplement interactions",
+    "Assess total intake, special populations and safety questions",
+    "Document source quality and clinical sign-off"
+  ],
+  "mandatory_precautions": true,
+  "combination_review_required": true,
+  "personalized_dose": "DISABLED",
+  "recommendation": "INFORMATION_ONLY"
+}
