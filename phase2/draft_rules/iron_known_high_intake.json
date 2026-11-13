@@ -1,7 +1,7 @@
 {
   "rule_id": "IRON_KNOWN_HIGH_INTAKE",
   "supplement_id": "iron",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -17,10 +17,24 @@
     "score_delta": 0,
     "recommendation_cap": null,
     "override_result": null,
-    "ask_questions": []
+    "ask_questions": [
+      "supplements_current_list",
+      "supplement_amount_per_unit",
+      "supplement_amount_unit"
+    ]
   },
   "rationale": "Existing elemental iron dose must be known before adding more.",
   "evidence_refs": [
     "NIH_IRON_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_elemental_iron_mg": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
   ]
 }
