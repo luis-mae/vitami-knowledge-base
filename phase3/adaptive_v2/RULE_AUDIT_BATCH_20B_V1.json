@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "status": "STRUCTURAL_CLINICAL_TRIAGE_NOT_SIGNED_OFF",
+  "date": "2026-11-13",
+  "rules_inspected": 20,
+  "ids": [
+    "CREATINE_ENDURANCE_ONLY",
+    "CREATINE_HIGH_INTENSITY_SPORT",
+    "CREATINE_STRENGTH",
+    "CURCUMIN_JOINT",
+    "CURCUMIN_LIVER",
+    "CURCUMIN_PREG",
+    "D3_KIDNEY",
+    "D3_PARENT_LOW_SUN",
+    "ELECTROLYTES_KIDNEY_HEART",
+    "ELECTROLYTES_PROLONGED_HIGH_SWEAT",
+    "ELECTROLYTES_SHORT_LOW_SWEAT",
+    "IODINE_LOW_SOURCE_CONTEXT",
+    "IODINE_THYROID_CONTEXT",
+    "IRONBIS_FATIGUE_ONLY",
+    "IRONBIS_PREGNANCY",
+    "IRON_KNOWN_HIGH_INTAKE",
+    "IRON_PREGNANCY",
+    "IRON_VEGETARIAN_CONTEXT",
+    "MAGCIT_KIDNEY",
+    "MAGCIT_PARENT_GAP"
+  ],
+  "findings": [
+    {
+      "id": "CURCUMIN_JOINT",
+      "severity": "high",
+      "issue": "Goal bone_joint_health not aligned with questionnaire goal joint_comfort; may never trigger. Joint symptoms alone cannot diagnose osteoarthritis.",
+      "fix": "Map to canonical goal, screen red flags, distinguish curcumin formulation and liver injury risk."
+    },
+    {
+      "id": "CURCUMIN_LIVER",
+      "severity": "high",
+      "issue": "Known liver disease blocked but rare supplement-associated liver injury may occur without known prior liver disease.",
+      "fix": "Ingredient-specific liver injury warning, symptoms and formulation review."
+    },
+    {
+      "id": "CREATINE_STRENGTH",
+      "severity": "medium",
+      "issue": "Positive score without checking renal unknown status, age and actual training context within same rule.",
+      "fix": "Mandatory global safety gate before score can produce recommendation."
+    },
+    {
+      "id": "ELECTROLYTES_PROLONGED_HIGH_SWEAT",
+      "severity": "high",
+      "issue": "Session duration stored as string buckets including >90; source-specific clinical justification for commercial electrolyte mix not demonstrated.",
+      "fix": "Normalize duration, sweat context, heat, sodium losses and exact product composition; check medications."
+    },
+    {
+      "id": "ELECTROLYTES_KIDNEY_HEART",
+      "severity": "high",
+      "issue": "Heart/kidney condition gate not sufficient for potassium-containing blends and ACE inhibitors, ARBs or potassium-sparing diuretics.",
+      "fix": "Add ingredient-specific medication screening and potassium total."
+    },
+    {
+      "id": "IODINE_LOW_SOURCE_CONTEXT",
+      "severity": "medium",
+      "issue": "Low iodized salt and animal foods are proxy indicators, not confirmation of deficiency.",
+      "fix": "Evaluate pregnancy, thyroid disease, seaweed, fortified foods and excess iodine."
+    },
+    {
+      "id": "IRONBIS_FATIGUE_ONLY",
+      "severity": "high",
+      "issue": "Awards positive iron score from nonspecific fatigue even without deficiency evidence.",
+      "fix": "Remove positive score; refer for evaluation and appropriate labs."
+    },
+    {
+      "id": "IRON_PREGNANCY",
+      "severity": "medium",
+      "issue": "Positive iron score and professional-review override coexist; implementation must ensure override dominates ranking.",
+      "fix": "Assert safety override precedence in tests."
+    },
+    {
+      "id": "IRON_VEGETARIAN_CONTEXT",
+      "severity": "medium",
+      "issue": "Vegetarian diet is risk context, not diagnosis of iron deficiency.",
+      "fix": "No personalized iron without evaluation."
+    },
+    {
+      "id": "MAGCIT_PARENT_GAP",
+      "severity": "medium",
+      "issue": "Dietary gaps goal alone awards magnesium score; not an ingredient-specific deficiency.",
+      "fix": "Require intake assessment and consider elemental dose and renal status."
+    },
+    {
+      "id": "D3_PARENT_LOW_SUN",
+      "severity": "medium",
+      "issue": "Low sunlight is risk context not definitive vitamin D deficiency.",
+      "fix": "Do not imply diagnosis or blanket supplementation dose."
+    }
+  ],
+  "safety_controls_to_retain": [
+    "CURCUMIN_PREG",
+    "D3_KIDNEY",
+    "IODINE_THYROID_CONTEXT",
+    "IRONBIS_PREGNANCY",
+    "MAGCIT_KIDNEY"
+  ],
+  "sources_to_appraise": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "scope": "Creatine and performance"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/turmeric",
+      "scope": "Curcumin benefits and risks"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "scope": "Iodine and thyroid"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "scope": "Iron assessment and adverse effects"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "scope": "Electrolyte potassium safety"
+    }
+  ],
+  "clinical_signoff": false
+}
