@@ -1,9 +1,9 @@
 /** VITAMI rules evaluation prototype. Draft decisions only; never clinical clearance. */
-const norm=x=>String(x??"").trim().toLowerCase().replace(/[\\s-]+/g,"_");
+const norm=x=>String(x??"").trim().toLowerCase().replace(/[\s-]+/g,"_");
 const asArray=x=>Array.isArray(x)?x:[];
 function compare(actual,expected){
- if(typeof expected==="string"&&/^(>=|<=|>|<)-?\\d+(?:\\.\\d+)?$/.test(expected)){
-  const m=expected.match(/^(>=|<=|>|<)(-?\\d+(?:\\.\\d+)?)$/),n=Number(actual),limit=Number(m[2]);
+ if(typeof expected==="string"&&/^(>=|<=|>|<)-?\d+(?:\.\d+)?$/.test(expected)){
+  const m=expected.match(/^(>=|<=|>|<)(-?\d+(?:\.\d+)?)$/),n=Number(actual),limit=Number(m[2]);
   if(actual===null||actual===undefined||actual===""||!Number.isFinite(n))return null;
   return m[1]===">="?n>=limit:m[1]==="<="?n<=limit:m[1]===">"?n>limit:n<limit;
  }
@@ -33,7 +33,7 @@ export function evaluateDraftRules({rules=[],answers={},interactionReview=null}=
   const any=asArray(rule.conditions.any).map(x=>evaluateRuleCondition(x,answers));
   const allMatch=all.every(x=>x.match),anyMatch=!any.length||any.some(x=>x.match);
   if(!allMatch||!anyMatch){
-   const missing=[...all.filter(x=>x.unknown),...(any.some(x=>x.match)?[]:any.filter(x=>x.unknown))];
+   const missing=[...(all.some(x=>!x.match&&!x.unknown)?[]:all.filter(x=>x.unknown)),...(any.some(x=>x.match)||any.every(x=>!x.match&&!x.unknown)?[]:any.filter(x=>x.unknown))];
    if(missing.length)unresolved.push({rule_id:rule.rule_id,reasons:missing.map(x=>x.reason)});
    else notMatched.push(rule.rule_id);
    continue;
