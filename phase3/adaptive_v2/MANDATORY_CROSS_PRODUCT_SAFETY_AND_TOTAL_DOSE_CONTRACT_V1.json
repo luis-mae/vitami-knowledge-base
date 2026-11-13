@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "date": "2026-11-13",
+  "status": "MANDATORY_PRE_RECOMMENDATION_SAFETY_CONTRACT_DRAFT",
+  "scope": "all 87 rules and 100 ingredients, including future candidates",
+  "precedence": [
+    "missing_or_unverified_critical_data -> BLOCK",
+    "pregnancy_lactation_or_planning_context -> REVIEW_FOR_RELEVANT_INGREDIENTS",
+    "renal_liver_bleeding_thyroid_cardiovascular_allergy_context -> INGREDIENT_SPECIFIC_REVIEW",
+    "medication_and_supplement_interactions -> BLOCK_OR_REVIEW",
+    "cumulative_dose_and_units -> VERIFY",
+    "only_then -> evidence_scoring"
+  ],
+  "required_fields": [
+    "age",
+    "pregnancy_status",
+    "pregnancy_planning",
+    "lactation_status",
+    "renal_status",
+    "liver_status",
+    "allergies",
+    "medication_generic_names",
+    "medication_classes",
+    "current_supplement_full_ingredients",
+    "candidate_supplement_full_ingredients",
+    "per_ingredient_daily_amount_and_unit",
+    "elemental_or_chemical_form",
+    "duration",
+    "evidence_source_url"
+  ],
+  "dose_exposure_policy": {
+    "scope": [
+      "existing_supplements",
+      "candidate_products",
+      "fortified_foods_when_relevant",
+      "dietary_intake_when_available"
+    ],
+    "rule": "Sum exposures only after verifying equivalent units and chemical forms; do not assume unknown amounts equal zero.",
+    "unknown_quantity": "BLOCK_PERSONALIZED_RECOMMENDATION",
+    "examples": [
+      "iron elemental mg",
+      "zinc elemental mg",
+      "magnesium elemental mg",
+      "vitamin B6 mg",
+      "preformed vitamin A mcg RAE",
+      "folic acid mcg and DFE",
+      "vitamin D mcg or IU with verified conversion",
+      "potassium elemental mg",
+      "EPA and DHA mg separately",
+      "caffeine mg across all products"
+    ]
+  },
+  "interaction_policy": {
+    "rule": "Evaluate candidate addition even if user has never taken that ingredient before.",
+    "known_critical": [
+      {
+        "ingredient": "vitamin_k",
+        "with": "vitamin K antagonist anticoagulants",
+        "source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+      },
+      {
+        "ingredient": "potassium",
+        "with": "ACE inhibitors, ARBs, potassium-sparing diuretics and renal impairment",
+        "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+      },
+      {
+        "ingredient": "preformed_vitamin_a",
+        "with": "pregnancy",
+        "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+      },
+      {
+        "ingredient": "calcium",
+        "with": "levothyroxine",
+        "source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+      },
+      {
+        "ingredient": "magnesium",
+        "with": "certain tetracyclines and quinolones",
+        "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      },
+      {
+        "ingredient": "zinc",
+        "with": "long-term high-dose zinc and copper status",
+        "source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+      },
+      {
+        "ingredient": "folic_acid",
+        "with": "pregnancy planning evidence distinct from 5-MTHF",
+        "source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      }
+    ]
+  },
+  "release_policy": {
+    "rules_corrected_not_equal_clinically_approved": true,
+    "missing_validation": "disabled",
+    "legacy_app_unchanged": true,
+    "clinical_review_required": true
+  },
+  "limitations": [
+    "No blanket safe/unsafe claim from ingredient name without form, dose and context",
+    "All medication synonyms and product compositions require validation",
+    "Not a clinical decision support authorization"
+  ]
+}
