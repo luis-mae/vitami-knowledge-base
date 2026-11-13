@@ -1,7 +1,7 @@
 {
   "rule_id": "ELECTROLYTES_PROLONGED_HIGH_SWEAT",
   "supplement_id": "electrolyte_mix",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -30,11 +30,29 @@
     "ask_questions": [
       "conditions_kidney",
       "conditions_heart",
-      "medications_regular_use"
+      "medications_regular_use",
+      "medications_list",
+      "supplements_current_list"
     ]
   },
   "rationale": "Longer exercise with substantial sweat loss can make an electrolyte strategy relevant, but product composition and medical context matter.",
   "evidence_refs": [
     "NIH_EXERCISE_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "required_pre_scoring": [
+      "conditions_kidney",
+      "conditions_heart",
+      "medications_list",
+      "supplements_current_list"
+    ],
+    "require_electrolyte_label": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
   ]
 }
