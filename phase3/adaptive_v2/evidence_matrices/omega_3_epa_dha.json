@@ -1,0 +1,40 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Reference intakes and safety ceilings are not prescribed supplement doses. No automatic dose until indication-specific evidence and QA.",
+  "ingredient": "omega_3_epa_dha",
+  "priority": 6,
+  "source_refs": [
+    "NIH_OMEGA3_HP"
+  ],
+  "questions": [
+    "goals_ranked",
+    "diet_fatty_fish_weekly",
+    "diet_type",
+    "supplements_current_use",
+    "medications_current_use",
+    "conditions_bleeding",
+    "safety_upcoming_surgery",
+    "cardiovascular_diagnosis",
+    "atrial_fibrillation_history"
+  ],
+  "supported_context": "population- and outcome-specific cardiovascular evidence; no universal benefit claim for all users",
+  "protocols": [
+    {
+      "kind": "general_supplement",
+      "amount": "No universal EPA+DHA dose established for all goals",
+      "status": "NO_AUTOMATIC_DOSE"
+    },
+    {
+      "kind": "high_dose",
+      "amount": "4 g/day trial regimens are indication/product-specific, not general self-care",
+      "status": "CLINICIAN_LED_ONLY"
+    }
+  ],
+  "personalization": "Separate EPA and DHA quantities and formulation; diet and cardiovascular diagnosis affect relevance, not an automatic dose.",
+  "safety": [
+    "anticoagulants/bleeding context and surgery require review",
+    "atrial fibrillation signal with high-dose regimens in some populations"
+  ],
+  "next_review": "Differentiate prescription EPA for selected hypertriglyceridemia/cardiovascular indications from OTC mixed omega-3."
+}
