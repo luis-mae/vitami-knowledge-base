@@ -1,7 +1,7 @@
 {
   "rule_id": "IODINE_THYROID_CONTEXT",
   "supplement_id": "iodine",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -22,5 +22,15 @@
   "rationale": "Both insufficient and excessive iodine can affect thyroid function; known thyroid disease requires individualized review.",
   "evidence_refs": [
     "NIH_IODINE_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "review_all_candidate_iodine_sources": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
   ]
 }
