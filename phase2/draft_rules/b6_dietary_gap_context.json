@@ -1,7 +1,7 @@
 {
   "rule_id": "B6_DIETARY_GAP_CONTEXT",
   "supplement_id": "vitamin_b6",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,7 +14,7 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
+    "score_delta": 0,
     "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
@@ -22,8 +22,17 @@
       "supplements_current_use"
     ]
   },
-  "rationale": "Dietary-gap concern can justify reviewing B6 intake but not routine high-dose supplementation.",
+  "rationale": "A general dietary gap goal does not establish vitamin B6 deficiency; verify food intake, dose and neuropathy risk.",
   "evidence_refs": [
     "NIH_B6_HP"
+  ],
+  "safety_review": {
+    "unknown_inputs": "block_personalized_recommendation",
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
   ]
 }
