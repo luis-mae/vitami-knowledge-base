@@ -1,7 +1,7 @@
 {
   "rule_id": "METHYLB12_ALREADY_B12",
   "supplement_id": "methylcobalamin",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -24,5 +24,15 @@
   "rationale": "Existing B12 intake should be reviewed before recommending another B12 form.",
   "evidence_refs": [
     "NIH_B12_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_total_b12_and_form": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
   ]
 }
