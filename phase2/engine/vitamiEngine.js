@@ -29,7 +29,7 @@ function parseNumber(value) {
   if (typeof value === 'number') return Number.isFinite(value) ? value : null;
   if (typeof value !== 'string') return null;
   const normalized=value.trim();
-  if (!/^-?\\d+(?:\\.\\d+)?$/.test(normalized)) return null;
+  if (!/^-?\d+(?:\.\d+)?$/.test(normalized)) return null;
   return Number(normalized);
 }
 
