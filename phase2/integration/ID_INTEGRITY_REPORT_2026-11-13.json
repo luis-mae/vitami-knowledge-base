@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-13",
+  "question_bank_count": 73,
+  "goal_bank_count": 34,
+  "legacy_fields_total": 33,
+  "mapped_fields": 25,
+  "unmapped_fields": 8,
+  "broken_mapped_ids": [],
+  "broken_route_question_ids": [],
+  "broken_route_goal_ids": [],
+  "semantic_conversion_not_yet_safe": true,
+  "pass_structural_ids": true,
+  "important": "Only referential integrity validated; not clinical semantics, app compilation, or runtime."
+}
