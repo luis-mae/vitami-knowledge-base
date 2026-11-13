@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "card_required_fields": [
     "supplement_id",
     "display_name",
@@ -10,7 +10,10 @@
     "evidence_label",
     "dose_display",
     "important_limit",
-    "library_cta"
+    "library_cta",
+    "how_to_take",
+    "daily_amount_guidance",
+    "library_safety_cta"
   ],
   "card_optional_fields": [
     "reference_intake",
@@ -101,6 +104,27 @@
     "An UL is never presented as a target.",
     "If required data are missing, replace the final card with a follow-up question request.",
     "If an X safety override exists, suppress any positive dose recommendation for that supplement.",
-    "Do not show a commercial product or price in BASIC until pharmacy mapping is intentionally enabled."
-  ]
+    "Do not show a commercial product or price in BASIC until pharmacy mapping is intentionally enabled.",
+    "Every BASIC and PRO recommendation must include how_to_take: evidence-grounded timing, food relationship, and practical administration instructions, or explicitly state that no universal timing is established.",
+    "Every BASIC and PRO recommendation must include daily_amount_guidance with correct units, a familiar equivalent only when reliable, and an explicit distinction between reference intake and a personalized regimen.",
+    "Every BASIC and PRO recommendation must include a direct ingredient-specific library link and a clear invitation to review interactions, contraindications, adverse effects, precautions and sources.",
+    "Never invent a tablet strength, spoon conversion, personalized dosage, or library URL; missing verified data must be displayed as unavailable or pending verification."
+  ],
+  "required_section_labels": {
+    "es": {
+      "how_to_take": "Cómo tomarlo",
+      "daily_amount_guidance": "Cantidad diaria orientativa",
+      "library_safety_cta": "Conocer más y revisar precauciones"
+    },
+    "en": {
+      "how_to_take": "How to take it",
+      "daily_amount_guidance": "Indicative daily amount",
+      "library_safety_cta": "Learn more and review precautions"
+    },
+    "it": {
+      "how_to_take": "Come assumerlo",
+      "daily_amount_guidance": "Quantità giornaliera orientativa",
+      "library_safety_cta": "Approfondisci e verifica le precauzioni"
+    }
+  }
 }
