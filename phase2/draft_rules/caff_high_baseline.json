@@ -1,7 +1,7 @@
 {
   "rule_id": "CAFF_HIGH_BASELINE",
   "supplement_id": "caffeine_performance",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -19,8 +19,20 @@
     "override_result": null,
     "ask_questions": []
   },
-  "rationale": "High baseline caffeine intake reduces room for safe event-linked dosing.",
+  "rationale": "High baseline caffeine intake must be compared numerically in mg/day; check sleep, cardiovascular risks, pregnancy and all caffeine sources.",
   "evidence_refs": [
     "NIH_EXERCISE_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "numeric_comparator": "total_caffeine_mg_per_day_gte_300",
+    "require_numeric_caffeine_intake": true,
+    "review_pregnancy_and_heart": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
   ]
 }
