@@ -31,3 +31,5 @@ jobs:
         run: node phase2/tests/normalizeAnswers.test.js
       - name: Scientific asset ID integrity regression
         run: node phase2/tests/auditAssetIds.test.js
+      - name: Scientific cross-reference audit regression
+        run: node phase2/tests/auditScientificReferences.test.js
