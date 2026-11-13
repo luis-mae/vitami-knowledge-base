@@ -1,0 +1,46 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "melatonin",
+  "priority": 19,
+  "source_refs": [
+    "NCCIH_MELATONIN",
+    "NCCIH_SLEEP"
+  ],
+  "questions": [
+    "sleep_hours",
+    "sleep_quality",
+    "sleep_problem_type",
+    "activity_typical_time",
+    "profile_pregnancy",
+    "medications_regular_use",
+    "conditions_other_relevant",
+    "supplements_current_use"
+  ],
+  "evidence_summary": [
+    "Melatonin is a hormone involved in circadian timing, not an essential nutrient with an RDA.",
+    "Evidence is more context-specific for circadian problems such as jet lag than for generic chronic insomnia.",
+    "Short-term use appears safer than long-term use; long-term safety information remains limited."
+  ],
+  "reference_values": {
+    "rda": "not_applicable",
+    "ul": "not_established_as_nutrient"
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "generic_chronic_insomnia": "no_automatic_recommendation"
+  },
+  "source_recommendation_ceiling": "C_potential_benefit",
+  "personalization": "Use only validated indication- and formulation-specific evidence; goals and symptoms alone do not establish deficiency or benefit.",
+  "safety": [
+    "profile_pregnancy",
+    "medications_regular_use",
+    "conditions_other_relevant"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Validate source references and population-specific outcomes",
+    "Resolve canonical question IDs and conditional safety gates",
+    "Do not infer supplement dose from RDA, AI, UL or unrelated trial protocol"
+  ]
+}
