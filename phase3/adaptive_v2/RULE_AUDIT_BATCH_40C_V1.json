@@ -1,0 +1,180 @@
+{
+  "version": "1.0",
+  "status": "STRUCTURAL_AND_CLINICAL_TRIAGE_NOT_CLINICALLY_APPROVED",
+  "date": "2026-11-13",
+  "rules_inspected": 40,
+  "ids": [
+    "MAGGLY_KIDNEY",
+    "MAGGLY_PARENT_GAP",
+    "MELATONIN_JETLAG_SHIFT",
+    "MELATONIN_PREGNANCY",
+    "METHYLB12_ALREADY_B12",
+    "METHYLB12_VEGAN",
+    "MTHF_PREGNANT",
+    "MTHF_PREG_PLANNING",
+    "MVM_ALREADY_SUPPLEMENTED",
+    "MVM_DIETARY_GAP",
+    "MVM_GENERAL_WELLNESS_ONLY",
+    "O3_ALREADY_USING",
+    "O3_LOW_FISH",
+    "POTASSIUM_MEDICATION_CONTEXT",
+    "POTASSIUM_SUPPLEMENT_KIDNEY",
+    "POTASSIUM_SWEAT_ONLY",
+    "PROBIO_DIGESTIVE",
+    "PSYLLIUM_LOW_FIBER_DIGESTIVE",
+    "PSYLLIUM_MEDICATIONS",
+    "PSYLLIUM_SWALLOWING",
+    "SEL_ANTIOXIDANT_ONLY",
+    "SEL_HAIR_NAILS",
+    "VITA_LOW_DIET_CONTEXT",
+    "VITA_PREG_CURRENT_USE",
+    "VITC_KIDNEY_STONES",
+    "VITC_LOW_FRUITVEG",
+    "VITC_SMOKER",
+    "VITD_KIDNEY",
+    "VITD_LOW_SUN",
+    "VITD_LOW_SUN_LOW_DIET",
+    "VITE_ANTIOXIDANT_ONLY",
+    "VITE_BLEEDING",
+    "VITK_BONE_GOAL_ONLY",
+    "WHEY_MILK_ALLERGY",
+    "WHEY_STRENGTH_LOW_PROTEIN",
+    "ZGLU_ALREADY_ZINC",
+    "ZGLU_VEGAN_CONTEXT",
+    "ZINC_ALREADY_HIGH",
+    "ZINC_HAIR_ONLY",
+    "ZINC_VEGAN"
+  ],
+  "findings": [
+    {
+      "id": "MELATONIN_JETLAG_SHIFT",
+      "severity": "high",
+      "issue": "Frequent travel or shift work alone is not proof of jet lag/circadian indication; must distinguish sleep complaint, timing, and sedation risk."
+    },
+    {
+      "id": "MELATONIN_PREGNANCY",
+      "severity": "high",
+      "issue": "Pregnancy safety gate only triggers if goal is sleep_rest, missing pregnant users considering melatonin for other reasons."
+    },
+    {
+      "id": "MTHF_PREGNANT",
+      "severity": "high",
+      "issue": "5-MTHF scores positive during pregnancy despite established neural-tube defect prevention evidence specific to folic acid."
+    },
+    {
+      "id": "MTHF_PREG_PLANNING",
+      "severity": "high",
+      "issue": "5-MTHF scores positive in preconception without distinguishing evidence for folic acid."
+    },
+    {
+      "id": "POTASSIUM_MEDICATION_CONTEXT",
+      "severity": "high",
+      "issue": "Any medication causes cap E, but actual risk depends on medication class and renal status; risk cannot be inferred from generic boolean."
+    },
+    {
+      "id": "POTASSIUM_SWEAT_ONLY",
+      "severity": "medium",
+      "issue": "Sweat level alone insufficient for potassium supplementation."
+    },
+    {
+      "id": "PSYLLIUM_LOW_FIBER_DIGESTIVE",
+      "severity": "high",
+      "issue": "Hydration/swallowing asked only after positive scoring; safety screening must precede suggestion."
+    },
+    {
+      "id": "PSYLLIUM_MEDICATIONS",
+      "severity": "medium",
+      "issue": "Generic medications flag requires specific oral-drug absorption review."
+    },
+    {
+      "id": "VITA_PREG_CURRENT_USE",
+      "severity": "high",
+      "issue": "Only triggers for already-taking vitamin A, misses prospective initiation of preformed retinol during pregnancy."
+    },
+    {
+      "id": "VITC_SMOKER",
+      "severity": "medium",
+      "issue": "Smoking increases vitamin C requirements but positive score does not quantify diet or clinical context."
+    },
+    {
+      "id": "VITK_BONE_GOAL_ONLY",
+      "severity": "medium",
+      "issue": "bone_joint_health not canonical goal; evidence for supplementation on bone outcomes is limited and context-specific."
+    },
+    {
+      "id": "WHEY_MILK_ALLERGY",
+      "severity": "high",
+      "issue": "Only checks explicit milk allergy; unknown allergen or unverified protein powder composition must fail closed."
+    },
+    {
+      "id": "WHEY_STRENGTH_LOW_PROTEIN",
+      "severity": "medium",
+      "issue": "Protein need should be assessed in g/kg/day and diet before product scoring."
+    },
+    {
+      "id": "ZINC_HAIR_ONLY",
+      "severity": "medium",
+      "issue": "Hair loss alone not established zinc deficiency."
+    },
+    {
+      "id": "O3_LOW_FISH",
+      "severity": "medium",
+      "issue": "Fish intake <=1 is a proxy and not universal clinical indication."
+    },
+    {
+      "id": "PROBIO_DIGESTIVE",
+      "severity": "high",
+      "issue": "Strain-specific and condition-specific efficacy required; generic probiotics cannot inherit claims from other strains."
+    },
+    {
+      "id": "MVM_GENERAL_WELLNESS_ONLY",
+      "severity": "medium",
+      "issue": "General wellness goal alone is insufficient for clinical benefit claim."
+    },
+    {
+      "id": "ZINC_ALREADY_HIGH",
+      "severity": "medium",
+      "issue": "Already taking zinc is not equivalent to high total dose; verify elemental mg and duration."
+    },
+    {
+      "id": "SEL_HAIR_NAILS",
+      "severity": "medium",
+      "issue": "Selenium excess can cause hair loss; do not infer benefit from symptom alone."
+    },
+    {
+      "id": "VITD_LOW_SUN_LOW_DIET",
+      "severity": "medium",
+      "issue": "Multiple risk proxies do not establish serum deficiency or authorize personalized dosing."
+    }
+  ],
+  "additional_notes": [
+    "Pregnancy planning and pregnancy rules must distinguish folic acid from 5-MTHF",
+    "All product lists must expand ingredient composition, rather than relying on product name",
+    "Medication interaction rules need generic name/class, not just medication boolean",
+    "Unmatched rules are not proof of safety; unknown data must fail closed"
+  ],
+  "source_review_backlog": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know"
+    }
+  ],
+  "clinical_signoff": false
+}
