@@ -96,3 +96,5 @@
 
 ## Registro de avances
 - **2026-11-13:** Plan maestro creado. Ninguna tarea marcada terminada sin pruebas verificadas. Próxima acción: P0.1/P0.2, inspección real de Emergent; en paralelo P1.5/P1.6 en GitHub.
+
+- **2026-11-13 (sesión 1):** Implementado `phase2/engine/adaptiveQuestionnaire.js` (selección de objetivos, agrupación de perfil, seguridad, rutas por objetivo, subpreguntas y deduplicación) y creado `phase2/tests/adaptiveQuestionnaire.test.js`. Commits `e4f86898fa73b3cdf78d91b1e588558d008917e9` y `63d4e53b63c4e11aab01b96bef807d54e46a325b`. **Estado: código escrito, tests aún NO ejecutados, integración Emergent pendiente; 0/53 tareas certificadas (0%).** Siguiente: ejecutar tests y corregir problemas; inspeccionar app real.
