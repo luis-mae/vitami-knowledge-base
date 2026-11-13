@@ -1,0 +1,16 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {auditQuestionnaireConfig}=require('../engine/auditQuestionnaireConfig');
+const questionBank=require('../../data/questions/question_bank_master.json');
+const goalBank=require('../../data/goals/goal_bank_master.json');
+const flow=require('../questionnaire_final/GOAL_FIRST_ADAPTIVE_FLOW.json');
+const real=auditQuestionnaireConfig({questionBank,goalBank,flow});
+console.log('Real questionnaire audit:',JSON.stringify(real));
+assert.ok(real.counts.questions>0);
+assert.ok(real.counts.goals>0);
+const base={questionBank:{questions:[{question_id:'q1',logic:{followups:[]}}]},goalBank:{goals:[{goal_id:'g1'}]},flow:{entry_step:{prompt:{es:'Objetivos'}},compact_profile_screen:{fields:[{question_id:'q1'}]},goal_question_routes:[{goals:['g1'],questions:['q1']}]}};
+assert.equal(auditQuestionnaireConfig(base).valid,true);
+assert.equal(auditQuestionnaireConfig({...base,flow:{...base.flow,goal_question_routes:[{goals:['missing'],questions:['q1']}]}}).valid,false);
+assert.equal(auditQuestionnaireConfig({...base,questionBank:{questions:[{question_id:'q1',logic:{followups:['missing']}}]}}).valid,false);
+assert.equal(auditQuestionnaireConfig({...base,questionBank:{questions:[{question_id:'q1'},{question_id:'q1'}]}}).valid,false);
+console.log('auditQuestionnaireConfig: 6 assertions passed');
