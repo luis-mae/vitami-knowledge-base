@@ -1,138 +1,63 @@
-# VITAMI — Plan maestro de finalización
-**Inicio:** 2026-11-13  
-**Repositorio:** luis-mae/vitami-knowledge-base  
-**Rama de trabajo:** design/adaptive-questionnaire-v2  
-**Regla de avance:** marcar [x] únicamente con implementación y verificación demostrables. Especificación/documentación por sí sola NO completa una tarea.
-**Estado global:** En desarrollo. No hay evidencia verificada de lanzamiento público ni integración completa en Emergent.
-**Fuente de verdad:** este archivo + commits, tests, issues y evidencias de despliegue. Actualizar tras cada sesión.
+# VITAMI EXPRESS — Plan maestro de ejecución
+**Fecha:** 2026-11-13  
+**Objetivo:** entregar una primera versión integral y segura de VITAMI usando la app existente, sin rehacerla ni depender de Emergent para operar.  
+**App principal:** `luis-mae/vitami` (`main` actual; implementar en rama nueva).  
+**Motor y datos científicos:** `luis-mae/vitami-knowledge-base`, rama `design/adaptive-questionnaire-v2`.  
+**Plan anterior:** `archive/PROJECT_MASTER_PLAN_53_TASKS_2026-11-13.md` (preservado; no es la secuencia obligatoria).
 
-## P0 — Inventario y arquitectura
-- [ ] P0.1 Inspeccionar proyecto real de Emergent: rutas, frontend, backend, bases de datos, autenticación, resultados, carrito, pagos, noticias y seguimiento.
-- [x] P0.2 Registrar matriz «existe en app / existe en repo / solo especificado / falta» y dependencias. Evidencia: `phase2/integration/REAL_APP_AUDIT_2026-11-13.md` (inventario inicial con pendientes explícitos).
-- [ ] P0.3 Definir integración y estrategia de entornos (desarrollo, prueba, producción), secretos y reversión.
-- [ ] P0.4 Confirmar arquitectura de datos, persistencia y contratos API; no duplicar sistemas existentes.
+## Principios no negociables
+1. **Primero integración real, luego ampliaciones.** Cada bloque termina con un recorrido comprobable en la app.
+2. **No romper lo existente:** Francisco, ES/EN/IT, interfaz, cuenta, carrito, historial y seguimiento. Trabajar en rama; integrar solo tras prueba.
+3. **BASIC sin IA:** reglas determinísticas, bloqueos X prevalecen, información insuficiente no genera dosis individualizadas.
+4. **Cada recomendación BASIC y PRO:** fundamento, evidencia, «Cómo tomarlo», «Cantidad diaria orientativa» (unidades correctas, equivalencia cotidiana solo si fiable), precauciones y **enlace directo verificable** a ficha de biblioteca.
+5. **PRO y Carrito:** dos acciones paralelas, opcionales e independientes. Sin compras automáticas, precios o SKU DEMO como si fueran reales.
+6. **Verificar solo lo indispensable por cambio:** pruebas automáticas focalizadas + recorrido completo; no repetir auditorías o producir informes largos.
+7. **Progreso honesto:** una tarea se marca [x] solo con código integrado, prueba ejecutada y evidencia (commit, log o captura). Separar «implementado», «integrado» y «publicado».
 
-## P1 — Motor científico BASIC (sin IA)
-- [ ] P1.1 Auditar reglas determinísticas, condiciones, puntuaciones, prioridades, exclusiones y conflictos.
-- [ ] P1.2 Validar prioridad irreversible de bloqueos X y manejo de respuestas faltantes/ambiguas.
-- [ ] P1.3 Implementar en motor campos obligatorios de cada recomendación: «Cómo tomarlo», «Cantidad diaria orientativa» y enlace directo a ficha.
-- [ ] P1.4 Verificar que dosis, unidades, referencias RDA/AI/UL, horarios, comidas y equivalencias no se inventen ni se presenten como prescripción.
-- [ ] P1.5 Alinear IDs de preguntas, objetivos, reglas, suplementos, biblioteca y productos; detectar referencias rotas.
-- [ ] P1.6 Ejecutar y ampliar pruebas automatizadas de seguridad, regresión y escenarios prioritarios; guardar resultados.
-- [ ] P1.7 Versionar reglas, fuentes y revisiones científicas con trazabilidad.
+## Bloque A — Primera versión funcional (prioridad absoluta)
+- [ ] **A1. Entorno seguro de trabajo.** Crear rama `feature/vitami-express` en app, verificar scripts, arranque y conservar una vía de reversión. **Aceptación:** arranque base comprobado, rama y commit documentados.
+- [ ] **A2. Cuestionario real goal-first.** Conectar «¿Qué te gustaría lograr o mejorar?» → perfil compacto → seguridad → preguntas adaptativas, sin duplicados; preservar respuestas y navegación. **Aceptación:** recorridos reales de al menos 3 objetivos, con y sin riesgos.
+- [ ] **A3. Motor científico BASIC conectado.** Sustituir las decisiones demostrativas por motor determinístico; adaptar respuestas de forma conservadora, bloquear X, faltantes y contradicciones. **Aceptación:** casos normales y de riesgo ejecutados; ninguna recomendación automática en escenarios bloqueados.
+- [ ] **A4. Resultados BASIC utilizables.** Tarjetas con fundamento, evidencia, cómo tomarlo, cantidad orientativa fiable, advertencias y enlace a ficha correcta; estados sin recomendación. **Aceptación:** desde el cuestionario se llega a resultados coherentes sin datos ficticios.
+- [ ] **A5. Biblioteca conectada.** Navegación a fichas reales, búsqueda y consulta de interacciones/contraindicaciones/efectos adversos; ES/EN/IT sin inventar traducciones. **Aceptación:** enlaces profundos de resultados funcionan; fichas incompletas se etiquetan o se excluyen.
+- [ ] **A6. Recorrido BASIC completo.** Inicio → objetivos → cuestionario → resultado → biblioteca → retorno; interfaz móvil y web. **Aceptación:** prueba extremo a extremo ejecutada y documentada.
 
-## P2 — Biblioteca de compuestos
-- [ ] P2.1 Auditar las 100 fichas ES/EN/IT: contenido, consistencia, evidencia y fuentes.
-- [ ] P2.2 Revisar específicamente las 8 entradas que el índice declara pendientes de revisión profunda (cifra por validar contra archivos reales).
-- [ ] P2.3 Verificar campos de indicaciones, cómo tomarlo, dosis de referencia, precauciones, interacciones, contraindicaciones y efectos adversos.
-- [ ] P2.4 Implementar/validar navegación, búsqueda, filtros y enlaces profundos desde BASIC, PRO y Consejos.
-- [ ] P2.5 Mantener separación entre información científica, recomendación y catálogo comercial.
+**Hito 1:** VITAMI BASIC usable en entorno de pruebas, sin cobros ni datos comerciales DEMO presentados como reales.
 
-## P3 — Cuestionario y UX
-- [ ] P3.1 Implementar primera pantalla «¿Qué te gustaría lograr o mejorar?» con objetivos múltiples.
-- [ ] P3.2 Implementar pantalla compacta de perfil: edad y otros datos pertinentes; peso/altura cuando correspondan.
-- [ ] P3.3 Implementar rutas adaptativas por objetivo, subpreguntas condicionales, agrupación y deduplicación.
-- [ ] P3.4 Mantener preguntas de seguridad esenciales gratuitas; no recomendar antes de resolver faltantes críticos.
-- [ ] P3.5 Validar navegación anterior/siguiente, edición, progreso, respuestas desconocidas y reanudación.
-- [ ] P3.6 Probar recorridos cortos BASIC y profundización PRO sin preguntas innecesarias.
+## Bloque B — Recuperar experiencia y funciones existentes
+- [ ] **B1. Carrito preservado y conectado.** Mostrar opción junto a PRO; compras solo voluntarias. Diferenciar catálogo DEMO de productos reales, sin checkout ficticio. **Aceptación:** navegación y estados de carrito comprobados.
+- [ ] **B2. Mi seguimiento operativo.** Preservar historial; check-in y objetivos, sin equiparar compra con consumo. **Aceptación:** guardar, recuperar y editar un seguimiento real.
+- [ ] **B3. PRO preparado sin simular servicio pago.** Definir experiencia, preguntas adicionales y seguridad; habilitar cobro e IA solo cuando existan proveedor, condiciones y pruebas verificadas. **Aceptación:** camino PRO honesto, sin promesas de pago/IA no implementadas.
+- [ ] **B4. Actualidad y Consejos.** Recuperar módulos existentes; contenido con fecha, fuentes y enlaces a biblioteca. **Aceptación:** navegación operativa y contenidos claramente identificados.
+- [ ] **B5. Idiomas y persistencia.** ES/EN/IT, sesiones, errores y conservación de datos. **Aceptación:** pruebas de cambio de idioma y reanudación.
 
-## P4 — Resultados BASIC
-- [ ] P4.1 Implementar tarjetas reales desde el motor, sin reinterpretar puntajes en frontend.
-- [ ] P4.2 Mostrar fundamento, evidencia, cómo tomarlo, cantidad orientativa, advertencias y ficha científica.
-- [ ] P4.3 Mostrar después del resultado DOS acciones paralelas e independientes: «Solicitar análisis PRO» y «Carrito».
-- [ ] P4.4 Verificar estados sin recomendación, faltantes, bloqueos X y revisión profesional.
-- [ ] P4.5 Validar traducciones y diseño responsive.
+**Hito 2:** VITAMI integral en beta, con PRO claramente diferenciado y comercio solo si es real.
 
-## P5 — PRO pago
-- [ ] P5.1 Definir alcance y formato del análisis PRO, preguntas adicionales y precio/moneda.
-- [ ] P5.2 Implementar cobro y confirmación verificable antes del servicio PRO; manejo de errores/reembolsos según política.
-- [ ] P5.3 Integrar IA solo en PRO, con motor de seguridad no sobreescribible, fuentes y límites explícitos.
-- [ ] P5.4 Probar interacciones suplemento-suplemento y suplemento-medicación; derivaciones profesionales.
-- [ ] P5.5 Entregar informe PRO, conservar historial y verificar privacidad.
+## Bloque C — Publicación responsable
+- [ ] **C1. Pruebas y seguridad mínimas de lanzamiento.** Regresiones clínicas, interacción con medicamentos, datos sensibles, consentimiento, permisos y accesibilidad básica.
+- [ ] **C2. Despliegue independiente.** Configurar hosting, backend/base de datos y secretos fuera de Emergent; compilar y desplegar versión verificable.
+- [ ] **C3. Beta y correcciones.** Probar con usuarios, corregir fallos críticos y validar métricas.
+- [ ] **C4. Publicación y reversión.** Enlace funcional, monitoreo, recuperación y documentación operativa mínima.
 
-## P6 — Carrito y comercio
-- [ ] P6.1 Inspeccionar y recuperar carrito, productos, precios y checkout existentes sin perder código.
-- [ ] P6.2 Vincular ingredientes científicos con SKU/productos reales, formulaciones y disponibilidad verificados.
-- [ ] P6.3 Permitir selección explícita; nunca agregar productos automáticamente.
-- [ ] P6.4 Probar compra, pago, errores, estados de pedido y condiciones comerciales aplicables.
-- [ ] P6.5 Mantener el carrito opcional y separado de la recomendación clínica.
+**Hito 3:** versión publicada y comprobada, no solo código subido.
 
-## P7 — Actualidad y Consejos VITAMI
-- [ ] P7.1 Auditar módulos de noticias/contenidos ya existentes en Emergent.
-- [ ] P7.2 Definir fuentes, revisión editorial, fechas y flujo de actualización para Actualidad VITAMI.
-- [ ] P7.3 Publicar Consejos VITAMI desde reglas/evidencia revisadas, sin confundir consejo general con recomendación individual.
-- [ ] P7.4 Implementar navegación, categorías, idiomas, enlaces a biblioteca y control de contenido desactualizado.
+## Fuera del camino crítico (posponer)
+- Auditoría editorial exhaustiva de 100 fichas antes de integrar las necesarias; revisar primero las fichas usadas en recomendaciones.
+- Ampliar catálogo, reglas o cuestionarios más allá de lo requerido para el primer recorrido.
+- IA PRO, cobros reales, analíticas avanzadas, notificaciones y funciones premium hasta tener BASIC estable.
+- Informes extensos, matrices repetidas, refactorizaciones cosméticas y perfeccionismo sin incidencia funcional.
 
-## P8 — Mi seguimiento
-- [ ] P8.1 Inspeccionar el seguimiento existente y preservar datos/funciones.
-- [ ] P8.2 Implementar línea de base y check-ins breves según objetivos.
-- [ ] P8.3 Registrar consumo confirmado, adherencia opcional y cambios de objetivos sin asumir que comprar implica tomar.
-- [ ] P8.4 Registrar efectos adversos/cambios de medicación con alertas y revisión de seguridad.
-- [ ] P8.5 Implementar historial, gráficos útiles, recordatorios opt-in y control de privacidad.
+## Método de ejecución
+**Por cada tarea:** leer solo archivos afectados → implementar → ejecutar prueba focalizada → probar recorrido pertinente → guardar commit → marcar [x] con evidencia.  
+**Orden:** A1 → A2 → A3 → A4 → A5 → A6 → B1… → C4. Si una tarea depende de otra, integrar verticalmente y no esperar a cerrar toda la biblioteca.
+**Reporte al usuario:** indicar qué funciona realmente, qué se guardó, qué falta y bloqueos; no reportar porcentajes de código como si fueran de producto terminado.
 
-## P9 — Integración, seguridad y lanzamiento
-- [ ] P9.1 Integrar frontend/backend, auth, base de datos, perfiles, sesiones y migraciones.
-- [ ] P9.2 Probar ES/EN/IT, móviles, escritorio, accesibilidad y rendimiento.
-- [ ] P9.3 Revisar seguridad, permisos, credenciales, almacenamiento de datos sensibles, consentimiento y borrado/exportación.
-- [ ] P9.4 Revisar aspectos regulatorios y textos de salud, comercio, privacidad y pago en mercados objetivo.
-- [ ] P9.5 Pruebas de extremo a extremo: objetivos -> cuestionario -> BASIC -> PRO o carrito -> seguimiento.
-- [ ] P9.6 Beta con usuarios, corrección de errores, métricas y monitoreo.
-- [ ] P9.7 Publicación estable, dominio/hosting, backups, soporte y plan de mantenimiento.
+## Estado inicial al adoptar este plan
+- **0/15 tareas EXPRESS certificadas** (nueva línea de base; NO significa 0 % del producto construido).
+- Aplicación original y biblioteca/motor existentes, pero integración completa aún no comprobada.
+- Adaptador legado y tests preparados; **no afirmar que pasaron** hasta ejecutar CI.
+- El plan de 53 tareas permanece archivado; su último progreso certificado era **1/53**.
+- Próxima acción ejecutable: **A1**, crear rama segura en `luis-mae/vitami`, correr verificación base y comenzar A2.
 
-## Hitos y definición de terminado
-- **H1 Base técnica auditada:** P0 completado y estado real documentado.
-- **H2 BASIC científicamente verificable:** P1-P4 completos, tests verdes y fichas enlazadas.
-- **H3 Módulos complementarios:** P5-P8 integrados y probados.
-- **H4 Lanzamiento:** P9 completo y versión publicada verificada.
-
-## Evidencias iniciales (solo documentos/contratos, NO implementación confirmada)
-- phase2/engine/vitamiEngine.js — motor existente, requiere validación.
-- phase2/tests/basicSafetyRegression.test.js — pruebas definidas, ejecución no confirmada.
-- phase2/questionnaire_final/GOAL_FIRST_ADAPTIVE_FLOW.json — contrato de navegación.
-- phase2/library/LIBRARY_INDEX.json — índice declara 100 entradas, 8 requieren revisión más profunda.
-- phase2/basic_results/BASIC_RECOMMENDATION_CARD_SCHEMA.json — contrato de campos obligatorios.
-- phase2/followup/FOLLOWUP_MODULE_CONTRACT.json — contrato de seguimiento.
-- phase2/emergent_handoff_final/06_ACCEPTANCE_CHECKLIST.json — escenarios de aceptación.
-
-## Registro de avances
-- **2026-11-13:** Plan maestro creado. Ninguna tarea marcada terminada sin pruebas verificadas. Próxima acción: P0.1/P0.2, inspección real de Emergent; en paralelo P1.5/P1.6 en GitHub.
-
-- **2026-11-13 (sesión 1):** Implementado `phase2/engine/adaptiveQuestionnaire.js` (selección de objetivos, agrupación de perfil, seguridad, rutas por objetivo, subpreguntas y deduplicación) y creado `phase2/tests/adaptiveQuestionnaire.test.js`. Commits `e4f86898fa73b3cdf78d91b1e588558d008917e9` y `63d4e53b63c4e11aab01b96bef807d54e46a325b`. **Estado: código escrito, tests aún NO ejecutados, integración Emergent pendiente; 0/53 tareas certificadas (0%).** Siguiente: ejecutar tests y corregir problemas; inspeccionar app real.
-
-- **2026-11-13 (sesión 2):** Auditoría estática de motores y pruebas; incidencia GitHub #1 con cinco hallazgos. Corregido cuestionario para bloquear finalización si hay referencias a preguntas desconocidas (commits `a29cc5f`, `33cefb0`), añadidas tres aserciones de regresión. Creado workflow GitHub Actions `.github/workflows/vitami-engine-tests.yml` (commit `2792360`) para ejecutar dos suites en push/PR. **La ejecución CI todavía debe comprobarse; 0/53 certificadas (0%).** Próxima prioridad: revisar ejecución CI, resolver dosis y campos obligatorios de BASIC, inspeccionar integración Emergent.
-
-- **2026-11-13 (sesión 3):** Reforzado `buildBasicResponse` para no exponer recomendaciones positivas accionables cuando no hay ficha científica ni regla de dosis con estado `reviewed`; agregadas pruebas de regresión (commits `63c8835`, `3f9a41a`). El índice de dosis `DOSE_RULE_INDEX.json` está explícitamente en estado `DRAFT`; por ello este bloqueo conservador puede retener resultados BASIC hasta la revisión científica y **no debe levantarse sin validación**. Inspeccionado contrato de tarjetas BASIC: los campos obligatorios aún no están integrados. GitHub Actions configurado, pero no se obtuvo confirmación de ejecución; la consulta de runs asociados a commit no devolvió resultados (ese endpoint limita eventos). **0/53 tareas certificadas**, aunque hay avances de implementación y auditoría. Objetivo siguiente: 14/53 (26,4%) con pruebas reales e integración comprobada.
-
-- **2026-11-13 (sesión 4):** Inspeccionado árbol completo del repositorio y recuperado el plan maestro original (53 tareas). Confirmado GitHub Actions run `43437293606` exitoso para commit `51d02844`; run `43437452340` exitoso para commit `56c9208`. Corregido fail-closed anticipado del cuestionario (`56c9208`) y añadidas cuatro aserciones de regresión (`59d33ea`); ejecución CI de este último commit pendiente de confirmar. El código y los tests del cuestionario existen, pero no hay prueba de integración con Emergent. **No se certifica 25% global**: 14 tareas completas todavía no verificadas. Prioridades: integración real, completar tarjetas BASIC y seguridad científica, auditar matriz de referencias.
-
-- **2026-11-13 (sesión 5):** Confirmados CI exitosos `43437506408` y `43437479962` (regresiones de cuestionario). Añadido adaptador fail-closed `phase2/engine/basicPresentationAdapter.js` (commit `c6dedec`) y suite de 11 aserciones `phase2/tests/basicPresentationAdapter.test.js` (`131315c`); incluido en CI (`d6964f4`). El último run CI estaba en curso al registrar este estado. El adaptador aún no está conectado al backend ni al frontend de Emergent. **No marcar P1.3/P4.1/P4.2 como completos** hasta integración y validación con fichas científicas reales. Estado global sigue sin 14 tareas certificadas.
-
-- **2026-11-13 (sesión 6):** Confirmadas tres suites de GitHub Actions exitosas (`43437702544`, `43437670060`). Implementado `libraryLinks.js` con validación de URLs y fuentes (commit `502a046`) + siete aserciones (`b41331e`), añadido a CI (`d0a7f13`). Implementado orquestador `basicJourney.js` (commit `8d55f7f`) que conecta navegación adaptativa, motor BASIC y adaptador de presentación; cinco aserciones (`22ff7a4`), CI actualizado (`6fd7355`). **Cinco suites configuradas**, última ejecución en curso. No equivale a integración en Emergent ni a revisión clínica de fichas; 25% global aún sin evidencia suficiente para certificación.
-
-- **2026-11-13 (sesión 7):** Confirmado run CI `43438146414` exitoso con cinco suites. Añadida sexta suite `phase2/tests/realRepositorySmoke.test.js` (`41773033`) para cargar archivos reales de reglas/biblioteca/dosis, detectar IDs duplicados y mantener bloqueo de recomendaciones sin revisión. Run `43438293912` exitoso con cinco suites; run del workflow actualizado a seis suites `43438310407` estaba en curso. Árbol inspeccionado: 104 archivos JSON en `phase2/library/` (incluye índices y auxiliares), 89 JSON en `phase2/draft_rules/` (incluye índices), 7 JSON en `phase2/dose_frequency_rules/` (incluye índice). No equiparar número de archivos con número de fichas aprobadas. **Se mantiene plan sin cambios de alcance y 25% no certificado** hasta pruebas de integración de la aplicación.
-
-- **2026-11-13 (sesión 8):** La sexta suite detectó `101 !== 102` al comprobar IDs únicos. Logs precisaron que eran **dos JSON auxiliares sin campo `id`**, no dos suplementos con el mismo identificador (`duplicate library IDs: [[null,2]]`). Corregido `loadVitamiRepository` para excluir documentos sin `id` y `title` (`f6045b8`), manteniendo las comprobaciones de unicidad de fichas verdaderas. CI de corrección `43438590733` en curso al registrar. El plan y los criterios de certificación siguen sin cambios.
-
-- **2026-11-13 (sesión 9):** CI `43438632836` exitoso con seis suites, incluida auditoría de activos reales. Endurecido `buildBasicResponse` para exigir fuentes tanto de regla como de ficha (`9e590bb`), suite `scientificEvidenceGate.test.js` con seis aserciones (`051bb7c`), integrada a CI (`a2e86dd`). El test previo falló porque fixture revisado carecía de fuentes; fixture corregido (`16ca479`) sin relajar protección. **CI `43438913944` exitoso con siete suites.** Integración de app real y aprobación científica de dosis aún pendientes; no certificar 25% global sin evidencia.
-
-- **2026-11-13 (sesión 10):** Implementada normalización de respuestas UI `normalizeAnswers.js` (`7fafa6e`) con detección de conflictos y respeto de valores desconocidos, conectada a `basicJourney.js` (`96076b6`); siete aserciones (`4063883`), octava suite CI (`682f886`). Run `43439175626` **exitoso con ocho suites**. Ajustada propagación de `configuration_error` (`27a04db`) y añadidas tres aserciones de integración (`3d8e8ed`), CI posterior en curso. Plan y metas intactos; falta conectar backend/frontend real de Emergent.
-
-- **2026-11-13 (sesión 11):** Endurecido `basicPresentationAdapter.js` (`da3e60d`) para impedir que una tarjeta positiva presente fuentes distintas a las que respaldan la decisión del motor, o identidad de suplemento discordante. Ampliada suite de presentación de 11 a 14 aserciones (`841f6f3`); **GitHub Actions `43439621773` exitoso, ocho suites aprobadas**. El fallo transitorio anterior fue un fixture antiguo que no incluía fuentes del motor. Sin cambios de alcance, sin despliegue público y sin certificación prematura del 25%.
-
-- **2026-11-13 (sesión 12):** `basicPresentationAdapter.js` ahora valida URL HTTPS mediante `URL` (rechaza credenciales, fragmentos y URLs malformadas), cuatro pruebas nuevas (`ca900ae`, `1794c29`). Implementado `auditAssetIds.js` (`3954419`) para detectar IDs ausentes/duplicados en reglas, fichas, dosis y tarjetas, integrado fail-closed en `basicJourney.js` (`f6a2f16`), seis pruebas (`4da17d2`) y novena suite CI (`744684a`). CI `43439799790` exitoso antes de añadir la novena suite; `43439817223` en curso al registrar. Sin cambio de alcance ni despliegue público.
-
-- **2026-11-13 (sesión 13):** Confirmados runs CI `43439817223` y `43439866021` exitosos con **nueve suites**. Implementada auditoría de referencias cruzadas `auditScientificReferences.js` (`3fb0362`) para identificar reglas sin ficha, preguntas de seguimiento desconocidas, dosis sin ficha y fichas sin fuentes; seis aserciones (`4ac7cf5`), décima suite incorporada a GitHub Actions (`c4ff1dd`). Run `43439984118` en curso al registrar. Auditoría no altera contenido científico ni autoriza recomendaciones no revisadas. Plan maestro sin cambios de alcance.
-
-- **2026-11-13 (sesión 14):** Confirmada décima suite exitosa (`43439984118`). Implementada `auditQuestionnaireConfig.js` (`d9cd6d5`) para verificar referencias de objetivos, preguntas, rutas adaptativas, perfil y subpreguntas condicionales; suite con seis aserciones y auditoría de archivos reales (`9d52fdb`), integrada a CI como undécima suite (`730ef75`). Run `43440116199` exitoso antes de añadir nueva suite; run `43440130056` en curso. No se altera el plan ni se certifica integración con app real.
-
-- **2026-11-13 (sesión 15):** Confirmada undécima suite (`43440130056`) exitosa. Corregida evaluación de reglas `vitamiEngine.js` (`d4af85a`) para rechazar entradas numéricas parciales o no finitas y evitar coincidencias por subcadena en campos de texto; nueve pruebas `strictRuleInputs.test.js` (`b8f4458`) y duodécima suite CI (`2e7303a`). Run `43440361984` exitoso antes de activar duodécima suite; run `43440373654` en curso al registrar. Sin cambios de alcance, sin despliegue público.
-
-- **2026-11-13 (sesión 16):** Investigado fallo de la duodécima suite CI (`43440373654`, `43440479436`): expresión regular de `parseNumber` escapada incorrectamente en el código. Corregido patrón con escapes simples y anclado de comparación (`b5f461c`, `66fd3a6`). **Run `43441445520` exitoso: doce suites aprobadas**. No se modifica alcance ni se marca integración con Emergent como realizada.
-
-- **2026-11-13 (sesión 2):** Verificados repositorios de aplicación y ciencia, inspeccionados archivos reales Expo, motor, cuestionario, estado y backend. Matriz registrada en `phase2/integration/REAL_APP_AUDIT_2026-11-13.md`. **P0.2 completada** como inventario inicial, no como integración. Detección crítica: la app usa motor demostrativo con dosis fijas y el científico aún está desconectado. **Avance: 1/53 tareas (1.9%).**
-
-- **2026-11-13 (sesión 3):** Se analizaron los 33 IDs del cuestionario de la app real; mapeados 25 al banco canónico y documentados 8 sin equivalencia directa. Reporte ejecutado de integridad: **73 preguntas canónicas, 34 objetivos, 0 referencias rotas** entre mapeo y rutas. Evidencia: `phase2/integration/LEGACY_APP_QUESTION_MAPPING.json` y `phase2/integration/ID_INTEGRITY_REPORT_2026-11-13.json` (commits `fb7687f2cb72f2585e74d50e1c515e12aebffa97`, `dd68bc84caa9bd97e4c92a0ce72292c97d8bbbc0`). **No se marca P1.5 todavía:** falta verificar IDs de reglas, biblioteca y productos, y conversiones semánticas seguras. Avance certificado: **1/53 = 1,9 %**.
-
-- **2026-11-13 (sesión 4):** Implementado adaptador conservador de respuestas legadas a formato científico (`phase2/engine/legacyAnswerAdapter.js`), con exclusión preventiva ante embarazo/lactancia, respuestas contradictorias o faltantes de seguridad; añadidas 15 aserciones en `phase2/tests/legacyAnswerAdapter.test.js`. Se verificó por lectura del banco que existen los 7 IDs de seguridad/seguimiento utilizados. Commits `96285c3137ae38981f8dc6a40688c25ef5e8ae8b`, `5bb41df23d38b106e7883240b5dc47e3d719556e`, `e126e28a03000cdb03030724937559abd2140735`. **Las pruebas todavía no se ejecutaron y el adaptador no está conectado a la app. Avance certificado 1/53 (1,9%).**
-
-- **2026-11-13 (sesión 5):** Reforzado `legacyAnswerAdapter.js`: no habilita recomendaciones automáticas si hay enfermedad renal/hepática/cardíaca, alergias, cirugía, uso de medicamentos/suplementos o seguridad clínica incompleta. Añadidas 5 aserciones de bloqueo (21 en archivo). Creado CI GitHub Actions `.github/workflows/vitami-science-tests.yml` para comprobar sintaxis y ejecutar 3 suites en push/PR. Commits `3f916336a0ca15f955b56bd4283194071721f009`, `1397ead16cde118136151aada50f49ec493ac8dd`, `7370b8894e5f487c4c6d630863fc1eb33e9b39e8`. **Pendiente verificar resultado de CI y probar integración real; avance certificado permanece 1/53 (1,9 %).**
+## Registro de entregas
+- 2026-11-13 — Plan EXPRESS adoptado. Se archiva plan original y se reduce la ruta crítica a 15 entregables verificables.
