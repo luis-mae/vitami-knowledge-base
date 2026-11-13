@@ -2,7 +2,7 @@
   "version": "0.1-draft",
   "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
   "policy": "Do not activate doses until population, indication, safety, source and QA are reviewed. RDA/UL are not supplement prescriptions.",
-  "coverage": "15 of 15 initial research matrices created; not clinically validated",
+  "coverage": "40 of 40 available deep ingredient/formulation records have VITAMI v2 research drafts; not 40 unique nutrients, not clinically validated",
   "ingredients": [
     {
       "id": "creatine_monohydrate",
@@ -78,13 +78,139 @@
       "id": "folate_folic_acid",
       "priority": 15,
       "path": "folate_folic_acid.json"
+    },
+    {
+      "id": "collagen_peptides",
+      "priority": 16,
+      "path": "collagen_peptides.json"
+    },
+    {
+      "id": "curcumin_turmeric",
+      "priority": 17,
+      "path": "curcumin_turmeric.json"
+    },
+    {
+      "id": "coenzyme_q10",
+      "priority": 18,
+      "path": "coenzyme_q10.json"
+    },
+    {
+      "id": "melatonin",
+      "priority": 19,
+      "path": "melatonin.json"
+    },
+    {
+      "id": "probiotics",
+      "priority": 20,
+      "path": "probiotics.json"
+    },
+    {
+      "id": "biotin",
+      "priority": 21,
+      "path": "biotin.json"
+    },
+    {
+      "id": "selenium",
+      "priority": 22,
+      "path": "selenium.json"
+    },
+    {
+      "id": "iodine",
+      "priority": 23,
+      "path": "iodine.json"
+    },
+    {
+      "id": "algal_omega3_dha",
+      "priority": 24,
+      "path": "algal_omega3_dha.json"
+    },
+    {
+      "id": "calcium_citrate",
+      "priority": 25,
+      "path": "calcium_citrate.json"
+    },
+    {
+      "id": "choline",
+      "priority": 26,
+      "path": "choline.json"
+    },
+    {
+      "id": "iron_bisglycinate",
+      "priority": 27,
+      "path": "iron_bisglycinate.json"
+    },
+    {
+      "id": "lutein_zeaxanthin",
+      "priority": 28,
+      "path": "lutein_zeaxanthin.json"
+    },
+    {
+      "id": "magnesium_citrate",
+      "priority": 29,
+      "path": "magnesium_citrate.json"
+    },
+    {
+      "id": "magnesium_glycinate",
+      "priority": 30,
+      "path": "magnesium_glycinate.json"
+    },
+    {
+      "id": "methylcobalamin",
+      "priority": 31,
+      "path": "methylcobalamin.json"
+    },
+    {
+      "id": "methylfolate_5mthf",
+      "priority": 32,
+      "path": "methylfolate_5mthf.json"
+    },
+    {
+      "id": "multivitamin_mineral",
+      "priority": 33,
+      "path": "multivitamin_mineral.json"
+    },
+    {
+      "id": "potassium",
+      "priority": 34,
+      "path": "potassium.json"
+    },
+    {
+      "id": "vitamin_a",
+      "priority": 35,
+      "path": "vitamin_a.json"
+    },
+    {
+      "id": "vitamin_b6",
+      "priority": 36,
+      "path": "vitamin_b6.json"
+    },
+    {
+      "id": "vitamin_d3",
+      "priority": 37,
+      "path": "vitamin_d3.json"
+    },
+    {
+      "id": "vitamin_e",
+      "priority": 38,
+      "path": "vitamin_e.json"
+    },
+    {
+      "id": "vitamin_k",
+      "priority": 39,
+      "path": "vitamin_k.json"
+    },
+    {
+      "id": "zinc_gluconate",
+      "priority": 40,
+      "path": "zinc_gluconate.json"
     }
   ],
   "note": "Remaining identifiers are provisional and must be reconciled with repository canonical IDs.",
   "next_steps": [
-    "Reconcile canonical question IDs against existing question bank",
-    "Build goal-to-question-to-ingredient mappings",
-    "Add test cases for safety, deduplication and goal ranking",
-    "Verify cited clinical guidelines and study populations before any dosage activation"
+    "Review parent ingredient vs formulation duplicates",
+    "Audit all referenced question IDs against canonical bank",
+    "Establish goal-to-ingredient eligibility mappings and evidence ceilings",
+    "Test safety, multiple goals and conflicting indications",
+    "Professionally review before activating dosing or deployment"
   ]
 }
