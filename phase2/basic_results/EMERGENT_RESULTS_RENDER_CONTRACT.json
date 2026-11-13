@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "input_from_engine": {
     "overall_status": "complete | needs_more_answers | professional_review_present",
     "recommendations": "array",
@@ -12,13 +12,27 @@
     "preserve_dose_mode": true,
     "render_by_screen_order": "BASIC_RESULTS_SCREEN_SPEC.json",
     "localize_static_copy": "ES/EN/IT",
-    "open_library_by_supplement_id": true
+    "open_library_by_supplement_id": true,
+    "restore_existing_cart_ui": true,
+    "cart_product_selection_requires_verified_sku_mapping": true,
+    "cart_requires_explicit_user_action": true,
+    "show_paid_pro_opt_in_after_basic_results": true
   },
   "frontend_must_not": [
     "re-score recommendations",
     "create new supplement recommendations",
     "turn RDA/AI/UL into personalized dosing",
     "hide BASIC safety warnings behind PRO",
-    "show pharmacy products while commercial mapping is disabled"
-  ]
+    "show pharmacy products while commercial mapping is disabled",
+    "automatically add a supplement to the cart",
+    "invent a price, stock status, brand or SKU",
+    "show a purchase button for an unmapped ingredient",
+    "require payment to access BASIC safety warnings"
+  ],
+  "commerce_state": {
+    "existing_cart": "preserve_and_restore_when_product_mapping_is_enabled",
+    "product_mapping": "must be verified before purchase",
+    "no_mapping": "show educational library link without purchase action",
+    "checkout": "use existing implementation, do not invent payment integration"
+  }
 }
