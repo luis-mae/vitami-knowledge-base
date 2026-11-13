@@ -52,6 +52,8 @@ function buildQuestionnaireStep({selectedGoals = [], answers = {}, questionBank,
     }
     if (questions.length) return {stage,questions,question_ids:questions.map(q => q.question_id),unknown_question_ids:unknownIds,complete:false};
   }
+  // Fail closed: a broken question reference must not silently mark BASIC as complete.
+  if (unknownIds.length) return {stage:'configuration_error',questions:[],question_ids:[],unknown_question_ids:unknownIds,complete:false};
   return {stage:'basic_results',questions:[],question_ids:[],unknown_question_ids:unknownIds,complete:true};
 }
 module.exports = {buildQuestionnaireStep,hasAnswer};
