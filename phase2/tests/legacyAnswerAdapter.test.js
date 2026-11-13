@@ -11,12 +11,17 @@ assert.equal(adapt({...base,embarazo:'Embarazo'}).eligible_for_automatic_recomme
 assert.equal(adapt({...base,embarazo:'Lactancia'}).eligible_for_automatic_recommendations,false);
 assert.equal(adapt({...base,embarazo:undefined}).eligible_for_automatic_recommendations,false);
 assert.equal(adapt({...base,enfermedades:['Renal']}).answers.conditions_kidney,true);
+assert.equal(adapt({...base,enfermedades:['Renal']}).eligible_for_automatic_recommendations,false);
 assert.equal(adapt({...base,enfermedades:['Renal','Ninguna']}).eligible_for_automatic_recommendations,false);
 assert.equal(adapt({...base,medicamentos:['anticoagulantes o antiagregantes']}).answers.medications_regular_use,true);
+assert.equal(adapt({...base,medicamentos:['anticoagulantes o antiagregantes']}).eligible_for_automatic_recommendations,false);
 assert.equal(adapt({...base,medicamentos:['no tomo medicamentos','anticoagulantes o antiagregantes']}).eligible_for_automatic_recommendations,false);
 assert.equal(adapt({...base,suplementos:['magnesio']}).answers.supplements_current_use,true);
+assert.equal(adapt({...base,suplementos:['magnesio']}).eligible_for_automatic_recommendations,false);
 assert.equal(adapt({...base,suplementos:[]}).eligible_for_automatic_recommendations,false);
 assert.equal(adapt({...base,edad:'invalid'}).answers.profile_age,undefined);
 assert.equal(adapt({...base,sexo:'Intersexual'}).answers.profile_sex_reference,undefined);
 assert.equal(adapt({...base,pescado:'1 vez'}).answers.diet_fatty_fish_weekly,undefined);
-console.log('legacyAnswerAdapter: 15 assertions passed');
+assert.equal(adapt({...base,cirugia:'Sí'}).eligible_for_automatic_recommendations,false);
+assert.equal(adapt({...base,alergias:'Sí, alergia relevante'}).eligible_for_automatic_recommendations,false);
+console.log('legacyAnswerAdapter: 21 assertions passed');
