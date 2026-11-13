@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "status": "MANDATORY_RULE_DESIGN_NOT_DEPLOYED",
+  "date": "2026-11-13",
+  "scope": [
+    "vitamin_b12",
+    "magnesium",
+    "vitamin_b6"
+  ],
+  "rules": [
+    {
+      "id": "B12_MEDICATION_AND_DIET_ASSESSMENT_V1",
+      "ingredient": "vitamin_b12",
+      "when_any": [
+        "diet_type vegan or vegetarian with inadequate fortified food/supplement",
+        "metformin or long-term acid suppression",
+        "neurologic or anemia red flags"
+      ],
+      "effect": "ASK_AND_REVIEW_NOT_AUTOMATIC_TREATMENT",
+      "required_questions": [
+        "diet_type",
+        "diet_fortified_foods",
+        "supplements_current_list",
+        "medications_list",
+        "symptom_neurologic",
+        "pro_labs_details"
+      ],
+      "evidence": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "unknown": "NO_PERSONALIZED_DOSE"
+    },
+    {
+      "id": "MAGNESIUM_ELEMENTAL_TOTAL_AND_RENAL_V1",
+      "ingredient": "magnesium",
+      "when_any": [
+        "any magnesium supplement considered"
+      ],
+      "effect": "CHECK_ELEMENTAL_MAGNESIUM_AND_MEDICATION_INTERACTIONS",
+      "required_questions": [
+        "conditions_kidney",
+        "medications_list",
+        "supplements_current_list",
+        "supplement_amount_per_unit",
+        "supplement_amount_unit"
+      ],
+      "evidence": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "unknown": "NO_PERSONALIZED_DOSE",
+      "notes": "Age- and jurisdiction-specific UL; include laxatives and antacids."
+    },
+    {
+      "id": "B6_CUMULATIVE_NEUROPATHY_V1",
+      "ingredient": "vitamin_b6",
+      "when_any": [
+        "any vitamin B6 containing product considered"
+      ],
+      "effect": "CHECK_TOTAL_B6_AND_NEUROLOGIC_RISK",
+      "required_questions": [
+        "symptom_neurologic",
+        "supplements_current_list",
+        "supplement_amount_per_unit",
+        "supplement_amount_unit",
+        "profile_age"
+      ],
+      "evidence": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "unknown": "NO_PERSONALIZED_DOSE",
+      "notes": "Different UL frameworks US vs EFSA; select applicable guidance and do not use UL as target."
+    }
+  ],
+  "all_require": [
+    "Display item precautions before final recommendation",
+    "Check ingredient combinations",
+    "Disclose exact scientific references and uncertainty",
+    "Independent scientific and clinical sign-off before activation"
+  ],
+  "approval": {
+    "scientific": false,
+    "clinical": false,
+    "production": false
+  }
+}
