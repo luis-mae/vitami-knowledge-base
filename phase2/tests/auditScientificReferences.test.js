@@ -1,0 +1,11 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {auditScientificReferences}=require('../engine/auditScientificReferences');
+const valid={rules:[{rule_id:'R1',supplement_id:'a',effect:{ask_questions:['q1']}}],libraryRecords:[{id:'a',source_refs:['S1']}],doseRules:[{supplement_id:'a'}],questionBank:{questions:[{question_id:'q1'}]}};
+assert.equal(auditScientificReferences(valid).valid,true);
+assert.equal(auditScientificReferences({...valid,rules:[{rule_id:'R1',supplement_id:'b'}]}).issues[0].type,'rule_without_library');
+assert.equal(auditScientificReferences({...valid,rules:[{...valid.rules[0],effect:{ask_questions:['bad']}}]}).issues[0].type,'unknown_followup_question');
+assert.equal(auditScientificReferences({...valid,doseRules:[{supplement_id:'bad'}]}).issues[0].type,'dose_without_library');
+assert.equal(auditScientificReferences({...valid,libraryRecords:[{id:'a'}]}).issues[0].type,'library_missing_sources');
+assert.equal(auditScientificReferences(valid).counts.questions,1);
+console.log('auditScientificReferences: 6 assertions passed');
