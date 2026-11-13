@@ -1,7 +1,7 @@
 {
   "rule_id": "CALCIT_KIDNEY_STONES",
   "supplement_id": "calcium_citrate",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -22,5 +22,15 @@
   "rationale": "Kidney stone history requires individualized calcium assessment rather than an automatic supplement recommendation.",
   "evidence_refs": [
     "NIH_CALCIUM_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "review_calcium_total_and_stone_type": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
   ]
 }
