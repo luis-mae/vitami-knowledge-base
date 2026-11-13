@@ -47,6 +47,9 @@
 - IA PRO, cobros reales, analíticas avanzadas, notificaciones y funciones premium hasta tener BASIC estable.
 - Informes extensos, matrices repetidas, refactorizaciones cosméticas y perfeccionismo sin incidencia funcional.
 
+## Guion para trabajo autónomo
+**Referencia obligatoria al retomar:** `phase2/integration/AUTONOMOUS_EXECUTION_RUNBOOK.md` — 22 pasos S01–S22, reglas para trabajar sin consultas repetidas, criterios de prueba y bloqueos que requieren aprobación. Guardado en commit `9517fe40767cfd55aadb1e3fca0fde26e482d491`. Este guion desglosa las 15 entregas, no agrega 22 nuevas metas al porcentaje.
+
 ## Método de ejecución
 **Por cada tarea:** leer solo archivos afectados → implementar → ejecutar prueba focalizada → probar recorrido pertinente → guardar commit → marcar [x] con evidencia.  
 **Orden:** A1 → A2 → A3 → A4 → A5 → A6 → B1… → C4. Si una tarea depende de otra, integrar verticalmente y no esperar a cerrar toda la biblioteca.
