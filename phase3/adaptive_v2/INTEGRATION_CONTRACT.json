@@ -1,0 +1,45 @@
+{
+  "version": "0.1.0",
+  "status": "DESIGN_ONLY_NOT_DEPLOYED",
+  "architecture": {
+    "domain": "Framework-agnostic questionnaire and evidence engine",
+    "presentation": "Future responsive website / installable PWA; no migration now",
+    "storage": "No new storage or account requirement in this phase"
+  },
+  "input": {
+    "goals": "1–5 unique ranked goal IDs",
+    "answers": "canonical question ID to value",
+    "question_bank": "existing 73 plus proposed 22 after validation"
+  },
+  "output": {
+    "questions": "next unanswered unique question IDs",
+    "unresolved": "missing definitions to resolve before deployment",
+    "candidates": "ingredients for assessment only",
+    "recommendations": "disabled until approved ingredient rules",
+    "safety": "must fail closed on unknown relevant risk"
+  },
+  "priorities": [
+    "preserve existing BASIC behavior until parity tests pass",
+    "all safety and clinically necessary questions remain free",
+    "make candidate routing explainable and auditable",
+    "avoid duplicate nutrients across salts/forms",
+    "keep a versioned question and evidence schema"
+  ],
+  "future_pwa": {
+    "planned_not_started": true,
+    "capabilities": [
+      "responsive web UI",
+      "installable manifest",
+      "offline shell only after privacy assessment",
+      "backend-independent questionnaire core"
+    ],
+    "deployment": "No Emergent changes; no production deployment"
+  },
+  "next_checks": [
+    "Verify prototype test runner in actual Node environment",
+    "Review proposed questions and translate option labels",
+    "Build approved canonical question set and conditional display logic",
+    "Run regression tests against seven existing BASIC scenarios",
+    "Clinically validate dosing rules before enabling recommendations"
+  ]
+}
