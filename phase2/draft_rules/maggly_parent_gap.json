@@ -1,7 +1,7 @@
 {
   "rule_id": "MAGGLY_PARENT_GAP",
   "supplement_id": "magnesium_glycinate",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,15 +14,24 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
+    "score_delta": 0,
     "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
       "diet_type"
     ]
   },
-  "rationale": "Magnesium glycinate should inherit only the nutritional context of elemental magnesium; a sleep benefit is not assumed from form alone.",
+  "rationale": "A general dietary gaps goal alone does not establish magnesium deficiency; verify diet, elemental magnesium intake and renal status.",
   "evidence_refs": [
     "NIH_MAGNESIUM_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
   ]
 }
