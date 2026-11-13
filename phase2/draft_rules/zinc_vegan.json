@@ -1,7 +1,7 @@
 {
   "rule_id": "ZINC_VEGAN",
   "supplement_id": "zinc",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [],
@@ -18,13 +18,19 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
-    "recommendation_cap": null,
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
-    "ask_questions": []
+    "ask_questions": [
+      "diet_legumes_nuts_seeds",
+      "supplements_current_list"
+    ]
   },
-  "rationale": "Plant-based diets can alter zinc bioavailability and justify intake review.",
+  "rationale": "Vegetarian or vegan diet is a risk context, not proof of zinc deficiency; evaluate intake and phytate exposure.",
   "evidence_refs": [
     "NIH_ZINC_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
   ]
 }
