@@ -1,0 +1,44 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Do not activate doses until population, indication, safety, source and QA are reviewed. RDA/UL are not supplement prescriptions.",
+  "ingredient": "creatine_monohydrate",
+  "priority": 1,
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "profile_weight_kg",
+    "activity_type",
+    "activity_days_per_week",
+    "goals_ranked",
+    "conditions_kidney",
+    "supplements_current_use",
+    "pregnancy_lactation_if_relevant"
+  ],
+  "supported_context": "strength, power, repeated high-intensity efforts",
+  "protocols": [
+    {
+      "kind": "fixed_maintenance",
+      "amount": "3–5 g/day",
+      "status": "existing_supported_range"
+    },
+    {
+      "kind": "weight_loading",
+      "amount": "~0.3 g/kg/day divided for 5–7 days",
+      "status": "REQUIRES_SOURCE_VERIFICATION_BEFORE_ACTIVATION"
+    },
+    {
+      "kind": "weight_maintenance",
+      "amount": "~0.03 g/kg/day",
+      "status": "REQUIRES_SOURCE_VERIFICATION_BEFORE_ACTIVATION"
+    }
+  ],
+  "personalization": "Weight-based protocols to be evaluated; do not assume age/sex-specific dosing formula.",
+  "safety": [
+    "kidney disease -> professional review",
+    "pregnancy/lactation -> no automatic regimen"
+  ],
+  "next_review": "Compare weight-based regimens with fixed maintenance, studied populations, outcomes, tolerability and age groups."
+}
