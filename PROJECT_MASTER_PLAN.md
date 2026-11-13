@@ -1,0 +1,98 @@
+# VITAMI — Plan maestro de finalización
+**Inicio:** 2026-11-13  
+**Repositorio:** luis-mae/vitami-knowledge-base  
+**Rama de trabajo:** design/adaptive-questionnaire-v2  
+**Regla de avance:** marcar [x] únicamente con implementación y verificación demostrables. Especificación/documentación por sí sola NO completa una tarea.
+**Estado global:** En desarrollo. No hay evidencia verificada de lanzamiento público ni integración completa en Emergent.
+**Fuente de verdad:** este archivo + commits, tests, issues y evidencias de despliegue. Actualizar tras cada sesión.
+
+## P0 — Inventario y arquitectura
+- [ ] P0.1 Inspeccionar proyecto real de Emergent: rutas, frontend, backend, bases de datos, autenticación, resultados, carrito, pagos, noticias y seguimiento.
+- [ ] P0.2 Registrar matriz «existe en app / existe en repo / solo especificado / falta» y dependencias.
+- [ ] P0.3 Definir integración y estrategia de entornos (desarrollo, prueba, producción), secretos y reversión.
+- [ ] P0.4 Confirmar arquitectura de datos, persistencia y contratos API; no duplicar sistemas existentes.
+
+## P1 — Motor científico BASIC (sin IA)
+- [ ] P1.1 Auditar reglas determinísticas, condiciones, puntuaciones, prioridades, exclusiones y conflictos.
+- [ ] P1.2 Validar prioridad irreversible de bloqueos X y manejo de respuestas faltantes/ambiguas.
+- [ ] P1.3 Implementar en motor campos obligatorios de cada recomendación: «Cómo tomarlo», «Cantidad diaria orientativa» y enlace directo a ficha.
+- [ ] P1.4 Verificar que dosis, unidades, referencias RDA/AI/UL, horarios, comidas y equivalencias no se inventen ni se presenten como prescripción.
+- [ ] P1.5 Alinear IDs de preguntas, objetivos, reglas, suplementos, biblioteca y productos; detectar referencias rotas.
+- [ ] P1.6 Ejecutar y ampliar pruebas automatizadas de seguridad, regresión y escenarios prioritarios; guardar resultados.
+- [ ] P1.7 Versionar reglas, fuentes y revisiones científicas con trazabilidad.
+
+## P2 — Biblioteca de compuestos
+- [ ] P2.1 Auditar las 100 fichas ES/EN/IT: contenido, consistencia, evidencia y fuentes.
+- [ ] P2.2 Revisar específicamente las 8 entradas que el índice declara pendientes de revisión profunda (cifra por validar contra archivos reales).
+- [ ] P2.3 Verificar campos de indicaciones, cómo tomarlo, dosis de referencia, precauciones, interacciones, contraindicaciones y efectos adversos.
+- [ ] P2.4 Implementar/validar navegación, búsqueda, filtros y enlaces profundos desde BASIC, PRO y Consejos.
+- [ ] P2.5 Mantener separación entre información científica, recomendación y catálogo comercial.
+
+## P3 — Cuestionario y UX
+- [ ] P3.1 Implementar primera pantalla «¿Qué te gustaría lograr o mejorar?» con objetivos múltiples.
+- [ ] P3.2 Implementar pantalla compacta de perfil: edad y otros datos pertinentes; peso/altura cuando correspondan.
+- [ ] P3.3 Implementar rutas adaptativas por objetivo, subpreguntas condicionales, agrupación y deduplicación.
+- [ ] P3.4 Mantener preguntas de seguridad esenciales gratuitas; no recomendar antes de resolver faltantes críticos.
+- [ ] P3.5 Validar navegación anterior/siguiente, edición, progreso, respuestas desconocidas y reanudación.
+- [ ] P3.6 Probar recorridos cortos BASIC y profundización PRO sin preguntas innecesarias.
+
+## P4 — Resultados BASIC
+- [ ] P4.1 Implementar tarjetas reales desde el motor, sin reinterpretar puntajes en frontend.
+- [ ] P4.2 Mostrar fundamento, evidencia, cómo tomarlo, cantidad orientativa, advertencias y ficha científica.
+- [ ] P4.3 Mostrar después del resultado DOS acciones paralelas e independientes: «Solicitar análisis PRO» y «Carrito».
+- [ ] P4.4 Verificar estados sin recomendación, faltantes, bloqueos X y revisión profesional.
+- [ ] P4.5 Validar traducciones y diseño responsive.
+
+## P5 — PRO pago
+- [ ] P5.1 Definir alcance y formato del análisis PRO, preguntas adicionales y precio/moneda.
+- [ ] P5.2 Implementar cobro y confirmación verificable antes del servicio PRO; manejo de errores/reembolsos según política.
+- [ ] P5.3 Integrar IA solo en PRO, con motor de seguridad no sobreescribible, fuentes y límites explícitos.
+- [ ] P5.4 Probar interacciones suplemento-suplemento y suplemento-medicación; derivaciones profesionales.
+- [ ] P5.5 Entregar informe PRO, conservar historial y verificar privacidad.
+
+## P6 — Carrito y comercio
+- [ ] P6.1 Inspeccionar y recuperar carrito, productos, precios y checkout existentes sin perder código.
+- [ ] P6.2 Vincular ingredientes científicos con SKU/productos reales, formulaciones y disponibilidad verificados.
+- [ ] P6.3 Permitir selección explícita; nunca agregar productos automáticamente.
+- [ ] P6.4 Probar compra, pago, errores, estados de pedido y condiciones comerciales aplicables.
+- [ ] P6.5 Mantener el carrito opcional y separado de la recomendación clínica.
+
+## P7 — Actualidad y Consejos VITAMI
+- [ ] P7.1 Auditar módulos de noticias/contenidos ya existentes en Emergent.
+- [ ] P7.2 Definir fuentes, revisión editorial, fechas y flujo de actualización para Actualidad VITAMI.
+- [ ] P7.3 Publicar Consejos VITAMI desde reglas/evidencia revisadas, sin confundir consejo general con recomendación individual.
+- [ ] P7.4 Implementar navegación, categorías, idiomas, enlaces a biblioteca y control de contenido desactualizado.
+
+## P8 — Mi seguimiento
+- [ ] P8.1 Inspeccionar el seguimiento existente y preservar datos/funciones.
+- [ ] P8.2 Implementar línea de base y check-ins breves según objetivos.
+- [ ] P8.3 Registrar consumo confirmado, adherencia opcional y cambios de objetivos sin asumir que comprar implica tomar.
+- [ ] P8.4 Registrar efectos adversos/cambios de medicación con alertas y revisión de seguridad.
+- [ ] P8.5 Implementar historial, gráficos útiles, recordatorios opt-in y control de privacidad.
+
+## P9 — Integración, seguridad y lanzamiento
+- [ ] P9.1 Integrar frontend/backend, auth, base de datos, perfiles, sesiones y migraciones.
+- [ ] P9.2 Probar ES/EN/IT, móviles, escritorio, accesibilidad y rendimiento.
+- [ ] P9.3 Revisar seguridad, permisos, credenciales, almacenamiento de datos sensibles, consentimiento y borrado/exportación.
+- [ ] P9.4 Revisar aspectos regulatorios y textos de salud, comercio, privacidad y pago en mercados objetivo.
+- [ ] P9.5 Pruebas de extremo a extremo: objetivos -> cuestionario -> BASIC -> PRO o carrito -> seguimiento.
+- [ ] P9.6 Beta con usuarios, corrección de errores, métricas y monitoreo.
+- [ ] P9.7 Publicación estable, dominio/hosting, backups, soporte y plan de mantenimiento.
+
+## Hitos y definición de terminado
+- **H1 Base técnica auditada:** P0 completado y estado real documentado.
+- **H2 BASIC científicamente verificable:** P1-P4 completos, tests verdes y fichas enlazadas.
+- **H3 Módulos complementarios:** P5-P8 integrados y probados.
+- **H4 Lanzamiento:** P9 completo y versión publicada verificada.
+
+## Evidencias iniciales (solo documentos/contratos, NO implementación confirmada)
+- phase2/engine/vitamiEngine.js — motor existente, requiere validación.
+- phase2/tests/basicSafetyRegression.test.js — pruebas definidas, ejecución no confirmada.
+- phase2/questionnaire_final/GOAL_FIRST_ADAPTIVE_FLOW.json — contrato de navegación.
+- phase2/library/LIBRARY_INDEX.json — índice declara 100 entradas, 8 requieren revisión más profunda.
+- phase2/basic_results/BASIC_RECOMMENDATION_CARD_SCHEMA.json — contrato de campos obligatorios.
+- phase2/followup/FOLLOWUP_MODULE_CONTRACT.json — contrato de seguimiento.
+- phase2/emergent_handoff_final/06_ACCEPTANCE_CHECKLIST.json — escenarios de aceptación.
+
+## Registro de avances
+- **2026-11-13:** Plan maestro creado. Ninguna tarea marcada terminada sin pruebas verificadas. Próxima acción: P0.1/P0.2, inspección real de Emergent; en paralelo P1.5/P1.6 en GitHub.
