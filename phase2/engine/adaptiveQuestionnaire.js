@@ -36,6 +36,8 @@ function buildQuestionnaireStep({selectedGoals = [], answers = {}, questionBank,
     ['rule_requested_followups',followups]
   ];
   const unknownIds = unique(stages.flatMap(s => s[1])).filter(id => !questionById.has(id));
+  // Validate the entire configured path before showing any stage: never expose a partially valid flow.
+  if (unknownIds.length) return {stage:'configuration_error',questions:[],question_ids:[],unknown_question_ids:unknownIds,complete:false};
   const seen = new Set();
   for (const [stage, ids] of stages) {
     const questions = [];
