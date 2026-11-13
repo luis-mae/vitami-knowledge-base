@@ -1,0 +1,24 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "cyanocobalamin",
+  "source_refs_from_library": [
+    "NIH_B12_HP"
+  ],
+  "library_evidence_label": "form_specific_context",
+  "library_summary_es": "Vitami no asume que una forma sea superior a otra salvo que exista evidencia específica para el resultado buscado.",
+  "research_tasks": [
+    "Verify specific clinical indication, study populations and effect sizes",
+    "Verify studied formulation, dose, timing and duration",
+    "Verify adverse effects, contraindications, drug and supplement interactions",
+    "Check cumulative ingredient intake and relevant upper limits",
+    "Map required safety questions and clinical review triggers"
+  ],
+  "mandatory_safety_policy": "phase3/adaptive_v2/MANDATORY_SAFETY_DISCLOSURE_POLICY.json",
+  "personalized_dose": {
+    "status": "DISABLED_PENDING_VERIFIED_PROTOCOL"
+  },
+  "recommendation": {
+    "status": "INFORMATION_ONLY"
+  }
+}
