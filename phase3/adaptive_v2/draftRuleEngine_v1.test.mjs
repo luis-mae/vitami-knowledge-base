@@ -1,0 +1,17 @@
+import assert from "node:assert/strict";
+import {evaluateRuleCondition,evaluateDraftRules} from "./draftRuleEngine_v1.mjs";
+const rule=(id,conditions,effect={score_delta:1})=>({rule_id:id,supplement_id:"iron",conditions,effect});
+assert.equal(evaluateRuleCondition(["profile_age",">=50"],{profile_age:52}).match,true);
+assert.equal(evaluateRuleCondition(["profile_age",">=50"],{profile_age:40}).match,false);
+assert.equal(evaluateRuleCondition(["profile_age",">=50"],{}).unknown,true);
+assert.equal(evaluateRuleCondition(["goals_primary_contains","energy"],{goals_primary:["energy"]}).match,true);
+assert.equal(evaluateRuleCondition(["goals_primary_contains","energy"],{goals_primary:"energy"}).unknown,true);
+assert.equal(evaluateRuleCondition(["profile_pregnancy",true],{profile_pregnancy:"yes"}).match,true);
+const safety={personalizedRecommendationAllowed:false};
+const result=evaluateDraftRules({rules:[rule("fatigue",{all:[["symptom_fatigue",true]],any:[]},{score_delta:0,recommendation_cap:"E_no_current_indication"}),rule("kidney",{all:[["conditions_kidney",true]],any:[]},{score_delta:0,override_result:"X_professional_review_required"})],answers:{symptom_fatigue:true,conditions_kidney:true},interactionReview:safety});
+assert.equal(result.matchedRuleIds.length,2);
+assert.deepEqual(result.draftCaps.iron,["E_no_current_indication"]);
+assert.deepEqual(result.draftOverrides.iron,["X_professional_review_required"]);
+assert.equal(result.personalizedRecommendationAllowed,false);
+assert.equal(evaluateDraftRules({rules:[rule("unknown",{all:[["conditions_kidney",true]],any:[]})],answers:{},interactionReview:safety}).unresolved.length,1);
+console.log("11 draft rule engine checks passed");
