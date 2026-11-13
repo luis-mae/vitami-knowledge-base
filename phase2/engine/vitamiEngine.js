@@ -28,8 +28,9 @@ function includesValue(container, expected) {
 function parseNumber(value) {
   if (typeof value === 'number') return Number.isFinite(value) ? value : null;
   if (typeof value !== 'string') return null;
-  const m = value.match(/-?\d+(?:\.\d+)?/);
-  return m ? Number(m[0]) : null;
+  const normalized=value.trim();
+  if (!/^-?\\d+(?:\\.\\d+)?$/.test(normalized)) return null;
+  return Number(normalized);
 }
 
 function compareNumber(actual, expression) {
