@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "status": "INITIAL_TARGETED_RULE_REVIEW_NOT_FULL_AUDIT",
+  "total_draft_rules": 87,
+  "sampled_rules": 6,
+  "findings": [
+    {
+      "rule": "VITK_CURRENT_USE_MEDICATION",
+      "severity": "high",
+      "issue": "Existing predicate requires current vitamin K supplement AND any medication; may miss someone considering starting vitamin K while taking warfarin or another vitamin K antagonist.",
+      "action": "Ask medication type before recommending vitamin K; do not assume all medicines are equivalent; create new prospective-interaction safety rule."
+    },
+    {
+      "rule": "BIOTIN_HAIR_ONLY",
+      "severity": "medium",
+      "issue": "Adds positive score for cosmetic concern despite weak evidence; a recommendation cap limits but does not eliminate promotion.",
+      "action": "Consider neutral assessment only until evidence/deficiency context supports benefit."
+    },
+    {
+      "rule": "IRON_FATIGUE_ONLY",
+      "severity": "medium",
+      "issue": "Correctly recognizes fatigue alone is nonspecific; lab availability does not itself confirm deficiency.",
+      "action": "Require actual validated findings and clinician context for treatment; never infer from fatigue."
+    },
+    {
+      "rule": "CREATINE_KIDNEY",
+      "severity": "review",
+      "issue": "Safety override present for known kidney condition.",
+      "action": "Verify unknown/declined kidney answers fail closed for personalized dosing."
+    },
+    {
+      "rule": "MELATONIN_CHRONIC_INSOMNIA",
+      "severity": "review",
+      "issue": "Appropriately limits generic melatonin recommendation for chronic insomnia.",
+      "action": "Add sleep-disorder differential and behavioral care guidance review."
+    },
+    {
+      "rule": "CURCUMIN_LIVER",
+      "severity": "review",
+      "issue": "Liver risk override present.",
+      "action": "Add formulation-specific bioavailability and adverse event triage."
+    }
+  ],
+  "audit_plan": [
+    "Parse all 87 rules and check valid condition IDs, operator semantics, duplicate/contradictory effects",
+    "Check 31 safety gates, unknown-answer handling and interactions",
+    "Link each rule to source with date and evidence grade",
+    "Test ordering and overrides before any activation"
+  ],
+  "disclaimer": "Findings are preliminary design QA, not clinical validation."
+}
