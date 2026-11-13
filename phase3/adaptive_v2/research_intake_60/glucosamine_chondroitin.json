@@ -1,0 +1,31 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "glucosamine_chondroitin",
+  "priority": 46,
+  "source_refs_from_library": [
+    "NCCIH_GLUCOSAMINE"
+  ],
+  "library_evidence_label": "mixed_uncertain",
+  "library_summary_es": "La evidencia depende de la indicación concreta. Vitami no convierte popularidad o mecanismo teórico en una recomendación.",
+  "proposed_indication": "osteoarthritis pain/function outcomes; avoid universal joint claims",
+  "known_safety_topics_to_verify": [
+    "warfarin or anticoagulants",
+    "shellfish allergy and product source",
+    "diabetes and relevant comorbidities"
+  ],
+  "research_tasks": [
+    "NCCIH glucosamine/chondroitin and recent clinical guidelines",
+    "Extract population, comparator, outcomes, effect sizes and study dates",
+    "Verify studied dose, formulation, duration and contraindications",
+    "Map canonical questions, unknown answers and medication interactions",
+    "Have scientific/clinical reviewer approve before any recommendation"
+  ],
+  "personalized_dose": {
+    "status": "DISABLED_PENDING_VERIFIED_PROTOCOL"
+  },
+  "recommendation": {
+    "status": "INFORMATION_ONLY"
+  },
+  "note": "This intake record is not equivalent to a verified scientific deep record."
+}
