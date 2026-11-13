@@ -185,7 +185,10 @@ function evaluateRules(rawAnswers, rules) {
     const effect = rule.effect || {};
     state.score += effect.score_delta || 0;
     if (effect.recommendation_cap) state.caps.push(effect.recommendation_cap);
-    if (effect.override_result) state.override = effect.override_result;
+    // Safety X overrides are sticky: a later positive rule cannot clear them.
+    if (effect.override_result && (String(effect.override_result).startsWith('X_') || !String(state.override || '').startsWith('X_'))) {
+      state.override = effect.override_result;
+    }
     for (const q of (effect.ask_questions || [])) state.requestedQuestions.push(q);
     state.effects.push(effect.type);
     state.reasonCodes.push(rule.rule_id.toLowerCase());
