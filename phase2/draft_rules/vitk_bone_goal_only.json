@@ -1,7 +1,7 @@
 {
   "rule_id": "VITK_BONE_GOAL_ONLY",
   "supplement_id": "vitamin_k",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,15 +14,19 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 1,
-    "recommendation_cap": "D_optional_limited",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
     "override_result": null,
     "ask_questions": [
-      "diet_type"
+      "medications_list",
+      "supplements_current_list"
     ]
   },
-  "rationale": "A bone-health goal alone does not establish a need for vitamin K supplementation.",
+  "rationale": "Bone goal alone is not a validated vitamin K supplement indication; anticoagulant interactions must be checked.",
   "evidence_refs": [
     "NIH_VITK_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
   ]
 }
