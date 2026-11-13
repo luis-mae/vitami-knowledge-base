@@ -1,7 +1,7 @@
 {
   "rule_id": "VITC_LOW_FRUITVEG",
   "supplement_id": "vitamin_c",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,13 +14,22 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 3,
-    "recommendation_cap": null,
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": []
   },
-  "rationale": "Low fruit/vegetable intake increases relevance of reviewing vitamin C intake.",
+  "rationale": "Low fruit/vegetable intake suggests dietary improvement and intake assessment, not automatic vitamin C supplementation.",
   "evidence_refs": [
     "NIH_VITC_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
   ]
 }
