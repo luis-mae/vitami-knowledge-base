@@ -1,0 +1,13 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {buildLibraryLinks}=require('../engine/libraryLinks');
+const records=[{id:'vitamin_d3',title:{es:'Vitamina D3'},source_refs:['NIH_VITD_HP']},{id:'unreviewed',title:{es:'X'},source_refs:[]},{id:'../escape',title:{es:'X'},source_refs:['x']}];
+assert.throws(()=>buildLibraryLinks(records),/baseUrl/);
+assert.throws(()=>buildLibraryLinks(records,{baseUrl:'javascript:alert(1)'}),/invalid/);
+assert.throws(()=>buildLibraryLinks(records,{baseUrl:'https://user:pass@example.org/library'}),/invalid/);
+const links=buildLibraryLinks(records,{baseUrl:'https://example.org/library'});
+assert.equal(links.vitamin_d3,'https://example.org/library/vitamin_d3');
+assert.equal(links.unreviewed,undefined);
+assert.equal(links['../escape'],undefined);
+assert.deepEqual(buildLibraryLinks(records,{baseUrl:'https://example.org/library',allowedIds:['unreviewed']}),{});
+console.log('libraryLinks: 7 assertions passed');
