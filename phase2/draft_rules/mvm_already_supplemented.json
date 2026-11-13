@@ -1,7 +1,7 @@
 {
   "rule_id": "MVM_ALREADY_SUPPLEMENTED",
   "supplement_id": "multivitamin_mineral",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -24,5 +24,15 @@
   "rationale": "Existing multivitamin use must be counted before suggesting additional micronutrients.",
   "evidence_refs": [
     "NIH_MVM_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_all_ingredient_labels": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/"
   ]
 }
