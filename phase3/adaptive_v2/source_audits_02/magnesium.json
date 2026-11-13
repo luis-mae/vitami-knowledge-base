@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.1",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_NOT_CLINICALLY_APPROVED",
+  "ingredient_id": "magnesium",
+  "claim_es": "Low intake and certain disorders or drugs may cause inadequate magnesium; routine supplementation for generic wellness is not universally justified.",
+  "evidence_sources": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "publisher": "NIH Office of Dietary Supplements",
+      "source_type": "professional evidence synthesis",
+      "verified_access_date": "2026-11-13"
+    }
+  ],
+  "applicability": "Nutritional status, renal safety and specific studied indications",
+  "mandatory_precautions": [
+    "Kidney impairment increases hypermagnesemia risk",
+    "Supplemental magnesium adult UL in US is 350 mg/day, not an intake target; age/jurisdiction-specific limits differ",
+    "Tetracycline/quinolone antibiotics and oral bisphosphonates have absorption interactions",
+    "Count antacids and laxatives containing magnesium; gastrointestinal adverse effects"
+  ],
+  "linked_rule_ids": [
+    "MAGCIT_KIDNEY",
+    "MAGGLY_KIDNEY",
+    "MAGCIT_PARENT_GAP",
+    "MAGGLY_PARENT_GAP"
+  ],
+  "proposed_rule_decision": "Require elemental magnesium accounting and indication-specific review",
+  "personalized_dose_allowed": false,
+  "independent_clinical_review": false,
+  "notes": "Source-linked critical appraisal intake; individual primary papers and jurisdictional guidelines require further verification."
+}
