@@ -1,0 +1,33 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Evidence ranges are not automatic prescriptions. Safety, product composition, population and indication must be verified before activation.",
+  "ingredient": "psyllium_fiber",
+  "priority": 14,
+  "source_refs": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "questions": [
+    "goals_ranked",
+    "diet_fiber_sources",
+    "hydration_status",
+    "swallowing_difficulty",
+    "conditions_gastrointestinal",
+    "medications_current_use",
+    "supplements_current_use"
+  ],
+  "supported_context": "selected digestive and cardiometabolic dietary contexts",
+  "protocols": [
+    {
+      "kind": "claim_context",
+      "amount": "7 g/day soluble fiber from psyllium is a US FDA coronary health-claim condition, not a universal dose",
+      "status": "REFERENCE_ONLY_NOT_PRESCRIPTION"
+    }
+  ],
+  "personalization": "Differentiate grams of psyllium husk from grams of soluble fiber; hydration and tolerance are essential.",
+  "safety": [
+    "swallowing difficulty or gastrointestinal obstruction risk blocks unsupervised use",
+    "medication timing requires review"
+  ],
+  "next_review": "Validate constipation and lipid-related clinical trials separately; encode water and label requirements."
+}
