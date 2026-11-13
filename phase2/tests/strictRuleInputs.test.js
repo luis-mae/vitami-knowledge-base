@@ -1,0 +1,15 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {evaluateRules}=require('../engine/vitamiEngine');
+const rule=(condition)=>[{rule_id:'T',supplement_id:'test',conditions:{all:[condition]},effect:{score_delta:8}}];
+const matched=(answers,condition)=>evaluateRules(answers,rule(condition)).recommendations.length>0;
+assert.equal(matched({profile_age:35},['profile_age','>=18']),true);
+assert.equal(matched({profile_age:'35'},['profile_age','>=18']),true);
+assert.equal(matched({profile_age:'35 years'},['profile_age','>=18']),false);
+assert.equal(matched({profile_age:'18abc'},['profile_age','>=18']),false);
+assert.equal(matched({profile_age:Infinity},['profile_age','>=18']),false);
+assert.equal(matched({profile_age:18},['profile_age','>=18years']),false);
+assert.equal(matched({diet_type:'veganism'},['diet_type_contains','vegan']),false);
+assert.equal(matched({diet_type:'vegan'},['diet_type_contains','vegan']),true);
+assert.equal(matched({diet_type:['vegan','vegetarian']},['diet_type_contains','vegan']),true);
+console.log('strictRuleInputs: 9 assertions passed');
