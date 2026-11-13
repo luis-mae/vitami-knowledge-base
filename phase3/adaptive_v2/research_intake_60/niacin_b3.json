@@ -1,0 +1,21 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "niacin_b3",
+  "source_refs_from_library": [
+    "NIH_VITAMIN_MINERAL_FACTSHEETS"
+  ],
+  "library_evidence_label": "high_for_deficiency_context",
+  "library_summary_es": "La utilidad de suplementar es mayor cuando existe una necesidad nutricional real.",
+  "review_requirements": [
+    "Verify indication-specific evidence and effect size",
+    "Verify formulation, dose, duration and population",
+    "Review adverse effects, contraindications, medication/supplement interactions",
+    "Assess total intake, special populations and safety questions",
+    "Document source quality and clinical sign-off"
+  ],
+  "mandatory_precautions": true,
+  "combination_review_required": true,
+  "personalized_dose": "DISABLED",
+  "recommendation": "INFORMATION_ONLY"
+}
