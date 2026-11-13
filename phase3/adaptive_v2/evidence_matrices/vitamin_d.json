@@ -1,0 +1,35 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Do not activate doses until population, indication, safety, source and QA are reviewed. RDA/UL are not supplement prescriptions.",
+  "ingredient": "vitamin_d",
+  "priority": 3,
+  "source_refs": [
+    "NIH_VITD_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "lifestyle_sun_exposure",
+    "diet_fatty_fish_weekly",
+    "diet_fortified_foods",
+    "supplements_current_use",
+    "conditions_kidney",
+    "medications_current_use",
+    "pregnancy_lactation_if_relevant",
+    "pro_labs_available"
+  ],
+  "supported_context": "nutritional adequacy and clinically evaluated deficiency risk",
+  "protocols": [
+    {
+      "kind": "nutritional_reference",
+      "amount": "RDA 600 IU/day ages 19–70; 800 IU/day >70; adult UL 4000 IU/day",
+      "status": "REFERENCE_ONLY_NOT_SUPPLEMENT_DOSE"
+    }
+  ],
+  "personalization": "Age and dietary context can change relevance; laboratory-based treatment is clinician-led.",
+  "safety": [
+    "kidney disease or interacting drugs -> review",
+    "do not infer deficiency from low sun exposure alone"
+  ],
+  "next_review": "Distinguish prevention, insufficiency evaluation and deficiency treatment without turning UL into target."
+}
