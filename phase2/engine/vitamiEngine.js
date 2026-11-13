@@ -280,7 +280,13 @@ function buildBasicResponse({
       // The follow-up questions remain available above for adaptive navigation.
       notRecommended.push({...enriched, display_status: 'pending_required_answers'});
     } else if (['A_high_relevance','B_consider','C_potential_benefit','D_optional_limited'].includes(rec.state)) {
-      positive.push(enriched);
+      // Do not make a recommendation actionable without a reviewed dose and a library record.
+      // This is a conservative gate until the full clinical presentation contract is implemented.
+      if (!enriched.library_record_id || enriched.dose_status !== 'reviewed') {
+        notRecommended.push({...enriched, display_status: 'pending_scientific_content_review'});
+      } else {
+        positive.push(enriched);
+      }
     } else {
       notRecommended.push(enriched);
     }
