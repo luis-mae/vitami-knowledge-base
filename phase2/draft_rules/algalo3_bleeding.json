@@ -1,7 +1,7 @@
 {
   "rule_id": "ALGALO3_BLEEDING",
   "supplement_id": "algal_omega3_dha",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [],
@@ -26,5 +26,19 @@
   "rationale": "Higher-dose EPA/DHA products require caution in bleeding/surgical contexts.",
   "evidence_refs": [
     "NIH_OMEGA3_HP"
+  ],
+  "safety_review": {
+    "unknown_inputs": "block_personalized_recommendation",
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "clinical_approval": false,
+    "medication_review": [
+      "anticoagulants",
+      "antiplatelets"
+    ],
+    "check_high_dose_and_atrial_fibrillation": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
   ]
 }
