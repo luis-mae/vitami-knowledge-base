@@ -1,0 +1,12 @@
+import assert from "node:assert/strict";
+import {checkItemSafety,checkResultSafety,REQUIRED_ITEM_FIELDS} from "./safetyDisclosureGate.mjs";
+const full=Object.fromEntries(REQUIRED_ITEM_FIELDS.map(k=>[k,k==="source_refs"?["https://example.org"]:"reviewed_value"]));
+let passed=0;const check=(name,fn)=>{fn();passed++;console.log("PASS",name)};
+check("no missing item warnings",()=>assert.equal(checkItemSafety({ingredient_id:"iron"}).ok,false));
+check("complete item has required keys",()=>assert.equal(checkItemSafety(full).ok,true));
+check("missing entry disclosure blocks",()=>assert.equal(checkResultSafety({resultsAcknowledged:true,items:[full],combinationReview:{status:"reviewed",duplicatesResolved:true},clinicalApproval:true}).personalizedDoseAllowed,false));
+check("missing result disclosure blocks",()=>assert.equal(checkResultSafety({entryAcknowledged:true,items:[full],combinationReview:{status:"reviewed",duplicatesResolved:true},clinicalApproval:true}).personalizedDoseAllowed,false));
+check("unknown combinations block",()=>assert.equal(checkResultSafety({entryAcknowledged:true,resultsAcknowledged:true,items:[full],combinationReview:{status:"reviewed",duplicatesResolved:true,unknownRisks:true},clinicalApproval:true}).personalizedDoseAllowed,false));
+check("unapproved clinical protocol blocks",()=>assert.equal(checkResultSafety({entryAcknowledged:true,resultsAcknowledged:true,items:[full],combinationReview:{status:"reviewed",duplicatesResolved:true},clinicalApproval:false}).personalizedDoseAllowed,false));
+check("all structural checks satisfied",()=>assert.equal(checkResultSafety({entryAcknowledged:true,resultsAcknowledged:true,items:[full],combinationReview:{status:"reviewed",duplicatesResolved:true},clinicalApproval:true}).personalizedDoseAllowed,true));
+console.log("Passed",passed,"structural tests; NOT clinical verification.");
