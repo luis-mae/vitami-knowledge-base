@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-13",
+  "scope": "interaction engine prototype",
+  "tested_artifact": "local interaction_v4.mjs",
+  "test_runner": "Node.js v22.16.0",
+  "tests_executed": 14,
+  "tests_passed": 14,
+  "tests_failed": 0,
+  "coverage": [
+    "iron-zinc same time",
+    "separated timing",
+    "unknown timing",
+    "cumulative zinc across forms",
+    "short duration",
+    "unknown duration",
+    "unknown dose",
+    "multivitamin category not evidence of vitamin K",
+    "prospective vitamin K warfarin",
+    "unknown medication list",
+    "unverified label",
+    "personalized recommendation disabled",
+    "aggregate amount",
+    "unsupported rule type fail closed"
+  ],
+  "repository_changes": [
+    "phase3/adaptive_v2/exposureInteractionEngine_v3.mjs updated to deduplicate ingredient aliases and fix normalization"
+  ],
+  "limitations": [
+    "14 passing tests refer to locally executed V4 prototype; V4 source has not been committed to repository",
+    "Repository V3 is not identical to tested V4 and must be run independently",
+    "87 rule runtime integration not yet tested",
+    "No clinical validation, no production deployment"
+  ],
+  "release_authorization": false
+}
