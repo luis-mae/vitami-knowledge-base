@@ -2,7 +2,7 @@
   "version": "0.1-draft",
   "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
   "policy": "Do not activate doses until population, indication, safety, source and QA are reviewed. RDA/UL are not supplement prescriptions.",
-  "coverage": "First five of proposed fifteen priority ingredients",
+  "coverage": "15 of 15 initial research matrices created; not clinically validated",
   "ingredients": [
     {
       "id": "creatine_monohydrate",
@@ -28,19 +28,63 @@
       "id": "magnesium",
       "priority": 5,
       "path": "magnesium.json"
+    },
+    {
+      "id": "omega_3_epa_dha",
+      "priority": 6,
+      "path": "omega_3_epa_dha.json"
+    },
+    {
+      "id": "iron",
+      "priority": 7,
+      "path": "iron.json"
+    },
+    {
+      "id": "calcium",
+      "priority": 8,
+      "path": "calcium.json"
+    },
+    {
+      "id": "zinc",
+      "priority": 9,
+      "path": "zinc.json"
+    },
+    {
+      "id": "vitamin_c",
+      "priority": 10,
+      "path": "vitamin_c.json"
+    },
+    {
+      "id": "caffeine_performance",
+      "priority": 11,
+      "path": "caffeine_performance.json"
+    },
+    {
+      "id": "beta_alanine",
+      "priority": 12,
+      "path": "beta_alanine.json"
+    },
+    {
+      "id": "electrolyte_mix",
+      "priority": 13,
+      "path": "electrolyte_mix.json"
+    },
+    {
+      "id": "psyllium_fiber",
+      "priority": 14,
+      "path": "psyllium_fiber.json"
+    },
+    {
+      "id": "folate_folic_acid",
+      "priority": 15,
+      "path": "folate_folic_acid.json"
     }
   ],
-  "next_ten": [
-    "omega_3_epa_dha",
-    "iron",
-    "calcium",
-    "zinc",
-    "vitamin_c",
-    "caffeine_performance",
-    "beta_alanine",
-    "electrolytes",
-    "psyllium",
-    "folate"
-  ],
-  "note": "Remaining identifiers are provisional and must be reconciled with repository canonical IDs."
+  "note": "Remaining identifiers are provisional and must be reconciled with repository canonical IDs.",
+  "next_steps": [
+    "Reconcile canonical question IDs against existing question bank",
+    "Build goal-to-question-to-ingredient mappings",
+    "Add test cases for safety, deduplication and goal ranking",
+    "Verify cited clinical guidelines and study populations before any dosage activation"
+  ]
 }
