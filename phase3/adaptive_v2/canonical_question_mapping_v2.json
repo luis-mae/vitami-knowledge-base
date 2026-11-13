@@ -1,0 +1,255 @@
+{
+  "version": "0.2.0",
+  "status": "DESIGN_ONLY",
+  "canonical_source": "data/questions/question_bank_master.json v1.5.0",
+  "aliases": {
+    "profile_weight_kg": "pro_weight",
+    "medications_current_use": "medications_regular_use",
+    "activity_duration": "activity_session_duration",
+    "sun_exposure": "lifestyle_sun_exposure",
+    "supplements_product_name": "supplements_current_list",
+    "diet_restriction": "diet_type",
+    "sleep_schedule": "sleep_hours"
+  },
+  "split_fields": {
+    "pregnancy_lactation_if_relevant": [
+      "profile_pregnancy",
+      "profile_lactation"
+    ],
+    "conditions_relevant": [
+      "conditions_kidney",
+      "conditions_liver",
+      "conditions_heart",
+      "conditions_thyroid",
+      "conditions_other_relevant"
+    ],
+    "supplements_amount_frequency": [
+      "supplement_amount_per_unit",
+      "supplement_amount_unit",
+      "supplements_current_list"
+    ]
+  },
+  "caveats": [
+    "pro_weight is currently PRO tier; BASIC weight-based protocols require explicit product decision and consent",
+    "supplements_current_list may not encode frequency: add a separate question if needed",
+    "diet_type is not equivalent to all dietary restrictions; verify before aliasing",
+    "sleep_hours is not full sleep schedule; verify before aliasing",
+    "Question IDs used by existing engine must not be overwritten",
+    "Do not silently treat an unknown or skipped safety answer as false"
+  ],
+  "new_question_proposals": [
+    {
+      "id": "strength_training_frequency",
+      "type": "single_choice",
+      "choices": [
+        "none",
+        "1_2_week",
+        "3_4_week",
+        "5_plus_week"
+      ]
+    },
+    {
+      "id": "functional_decline",
+      "type": "single_choice",
+      "choices": [
+        "no",
+        "yes",
+        "unsure"
+      ]
+    },
+    {
+      "id": "protein_intake_estimate",
+      "type": "single_choice",
+      "choices": [
+        "unknown",
+        "low",
+        "moderate",
+        "high"
+      ],
+      "note": "not a validated gram/day estimate; no dose calculation from this answer alone"
+    },
+    {
+      "id": "mobility_balance",
+      "type": "single_choice",
+      "choices": [
+        "no_issue",
+        "difficulty",
+        "unsure"
+      ]
+    },
+    {
+      "id": "training_goal_detail",
+      "type": "single_choice",
+      "choices": [
+        "strength",
+        "hypertrophy",
+        "both",
+        "other"
+      ]
+    },
+    {
+      "id": "joint_symptom_duration",
+      "type": "single_choice",
+      "choices": [
+        "new",
+        "weeks",
+        "months",
+        "no_symptoms"
+      ]
+    },
+    {
+      "id": "joint_symptom_severity",
+      "type": "single_choice",
+      "choices": [
+        "none",
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "joint_swelling_redness",
+      "type": "single_choice",
+      "choices": [
+        "yes",
+        "no",
+        "unsure"
+      ]
+    },
+    {
+      "id": "joint_diagnosis",
+      "type": "single_choice",
+      "choices": [
+        "diagnosed",
+        "not_diagnosed",
+        "unsure"
+      ]
+    },
+    {
+      "id": "muscle_symptom_onset",
+      "type": "single_choice",
+      "choices": [
+        "sudden",
+        "gradual",
+        "none"
+      ]
+    },
+    {
+      "id": "muscle_symptom_severity",
+      "type": "single_choice",
+      "choices": [
+        "none",
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "id": "exercise_relation",
+      "type": "single_choice",
+      "choices": [
+        "during",
+        "after",
+        "unrelated",
+        "unsure"
+      ]
+    },
+    {
+      "id": "muscle_red_flags",
+      "type": "single_choice",
+      "choices": [
+        "yes",
+        "no",
+        "unsure"
+      ]
+    },
+    {
+      "id": "cognitive_change_onset",
+      "type": "single_choice",
+      "choices": [
+        "no_change",
+        "sudden",
+        "gradual",
+        "unsure"
+      ]
+    },
+    {
+      "id": "cognitive_daily_impact",
+      "type": "single_choice",
+      "choices": [
+        "none",
+        "some",
+        "significant"
+      ]
+    },
+    {
+      "id": "skin_goal_detail",
+      "type": "single_choice",
+      "choices": [
+        "appearance",
+        "specific_problem",
+        "other"
+      ]
+    },
+    {
+      "id": "skin_diagnosis",
+      "type": "single_choice",
+      "choices": [
+        "yes",
+        "no",
+        "unsure"
+      ]
+    },
+    {
+      "id": "current_skin_treatments",
+      "type": "single_choice",
+      "choices": [
+        "yes",
+        "no",
+        "prefer_not"
+      ]
+    },
+    {
+      "id": "hair_symptom_duration",
+      "type": "single_choice",
+      "choices": [
+        "no_symptom",
+        "recent",
+        "longstanding"
+      ]
+    },
+    {
+      "id": "hair_loss_pattern",
+      "type": "single_choice",
+      "choices": [
+        "diffuse",
+        "patchy",
+        "other",
+        "unsure"
+      ]
+    },
+    {
+      "id": "known_deficiency_or_thyroid",
+      "type": "single_choice",
+      "choices": [
+        "yes",
+        "no",
+        "unsure"
+      ]
+    },
+    {
+      "id": "sleep_red_flags",
+      "type": "single_choice",
+      "choices": [
+        "yes",
+        "no",
+        "unsure"
+      ]
+    }
+  ],
+  "rules": [
+    "These are proposals, not automatically merged into existing question bank",
+    "Clinical triage language and red-flag thresholds require review",
+    "No dosing from self-reported approximate intake alone"
+  ]
+}
