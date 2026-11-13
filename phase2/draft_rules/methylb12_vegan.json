@@ -1,7 +1,7 @@
 {
   "rule_id": "METHYLB12_VEGAN",
   "supplement_id": "methylcobalamin",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -25,11 +25,22 @@
     "recommendation_cap": "C_potential_benefit",
     "override_result": null,
     "ask_questions": [
-      "supplements_current_use"
+      "supplements_current_list",
+      "diet_fortified_foods"
     ]
   },
   "rationale": "Vegan users with little fortified-food intake merit B12 review; methylcobalamin is one form, not automatically superior.",
   "evidence_refs": [
     "NIH_B12_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_total_b12_and_form": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
   ]
 }
