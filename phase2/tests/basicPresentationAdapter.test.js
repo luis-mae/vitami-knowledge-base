@@ -18,4 +18,8 @@ assert.equal(renderableBasicCards(result,[card]).actions.cart,'optional_verified
 assert.equal(renderableBasicCards({...result,recommendations:[{...result.recommendations[0],source_refs:['source-2']}]},[card]).cards.length,0);
 assert.equal(renderableBasicCards({...result,recommendations:[{...result.recommendations[0],source_refs:[]}]},[card]).cards.length,0);
 assert.equal(renderableBasicCards(result,[{...card,source_refs:['source-2']}]).cards.length,0);
-console.log('basicPresentationAdapter: 14 assertions passed');
+assert.equal(validateCard({...card,library_url:'https://user:pass@example.org/library/x'}).valid,false);
+assert.equal(validateCard({...card,library_url:'https://example.org#fragment'}).valid,false);
+assert.equal(validateCard({...card,library_url:'https://'}).valid,false);
+assert.equal(validateCard({...card,library_url:'javascript:alert(1)'}).valid,false);
+console.log('basicPresentationAdapter: 18 assertions passed');
