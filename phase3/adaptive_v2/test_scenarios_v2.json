@@ -1,0 +1,144 @@
+{
+  "version": "0.1.0",
+  "status": "TEST_FIXTURES_EXPECTED_BEHAVIOR_NOT_EXECUTED",
+  "cases": [
+    {
+      "id": "multi_goal_dedupe",
+      "goals": [
+        "healthy_aging",
+        "joint_comfort",
+        "skin"
+      ],
+      "answers": {
+        "diet_type": "omnivore"
+      },
+      "expect": {
+        "unique_question_ids": true,
+        "goal_order_preserved": true,
+        "no_duplicate_vitamin_d_recommendations": true
+      }
+    },
+    {
+      "id": "vegan_b12_any_goal",
+      "goals": [
+        "skin"
+      ],
+      "answers": {
+        "diet_type": "vegan"
+      },
+      "expect": {
+        "ask": [
+          "diet_fortified_foods",
+          "supplements_current_use"
+        ],
+        "b12_assessment_triggered": true
+      }
+    },
+    {
+      "id": "creatine_kidney_block",
+      "goals": [
+        "strength_muscle"
+      ],
+      "answers": {
+        "conditions_kidney": true
+      },
+      "expect": {
+        "creatine_personalized_dose": false,
+        "professional_review_required": true
+      }
+    },
+    {
+      "id": "unknown_kidney_not_false",
+      "goals": [
+        "strength_muscle"
+      ],
+      "answers": {
+        "conditions_kidney": "unknown"
+      },
+      "expect": {
+        "creatine_personalized_dose": false,
+        "needs_more_answers_or_review": true
+      }
+    },
+    {
+      "id": "hair_not_auto_biotin",
+      "goals": [
+        "hair_nails"
+      ],
+      "answers": {
+        "symptom_hair_nails": true
+      },
+      "expect": {
+        "biotin_automatic_recommendation": false,
+        "assess_symptoms": true
+      }
+    },
+    {
+      "id": "iron_fatigue_no_diagnosis",
+      "goals": [
+        "energy"
+      ],
+      "answers": {
+        "symptom_fatigue": true
+      },
+      "expect": {
+        "iron_treatment_dose": false,
+        "clinical_assessment_if_concerning": true
+      }
+    },
+    {
+      "id": "probiotic_strain_required",
+      "goals": [
+        "digestive"
+      ],
+      "answers": {
+        "symptom_digestive": true
+      },
+      "expect": {
+        "generic_probiotic_dose": false,
+        "strain_specific_evidence_required": true
+      }
+    },
+    {
+      "id": "caffeine_total_exposure",
+      "goals": [
+        "sports_performance"
+      ],
+      "answers": {
+        "lifestyle_caffeine_daily": "high",
+        "symptom_sleep": true
+      },
+      "expect": {
+        "caffeine_automatic_dose": false,
+        "assess_total_exposure": true
+      }
+    },
+    {
+      "id": "ranking_does_not_change_safety",
+      "goals": [
+        "strength_muscle",
+        "energy"
+      ],
+      "answers": {
+        "conditions_kidney": true
+      },
+      "expect": {
+        "safety_overrides_priority": true
+      }
+    },
+    {
+      "id": "pregnancy_folate_guideline",
+      "goals": [
+        "nutritional_adequacy"
+      ],
+      "answers": {
+        "profile_pregnancy": "yes"
+      },
+      "expect": {
+        "folate_guideline_review": true,
+        "unreviewed_auto_dose": false
+      }
+    }
+  ],
+  "next_step": "Implement a pure deterministic test harness against final canonical mapping and clinically approved rules; these fixtures are not pass results."
+}
