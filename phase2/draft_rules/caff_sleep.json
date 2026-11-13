@@ -1,7 +1,7 @@
 {
   "rule_id": "CAFF_SLEEP",
   "supplement_id": "caffeine_performance",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -17,13 +17,22 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": -3,
-    "recommendation_cap": "D_optional_limited",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
     "override_result": null,
     "ask_questions": []
   },
-  "rationale": "Sleep problems reduce suitability of stimulant-based recommendations.",
+  "rationale": "Sleep difficulty or insomnia requires avoiding caffeine promotion; review total daily intake and timing.",
   "evidence_refs": [
     "NIH_EXERCISE_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
   ]
 }
