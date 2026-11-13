@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.1",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_NOT_CLINICALLY_APPROVED",
+  "ingredient_id": "vitamin_b6",
+  "claim_es": "Excess supplemental vitamin B6 can cause peripheral neuropathy; ULs differ across US and EFSA assessments.",
+  "evidence_sources": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "publisher": "NIH Office of Dietary Supplements",
+      "source_type": "professional evidence synthesis",
+      "verified_access_date": "2026-11-13"
+    }
+  ],
+  "applicability": "Nutritional adequacy and neurotoxicity risk; not a generic wellness supplement",
+  "mandatory_precautions": [
+    "Assess neuropathy symptoms and cumulative B6 from multiple products",
+    "US adult UL 100 mg/day and EFSA adult UL 12 mg/day reflect different risk assessments; do not automatically apply either as target",
+    "Pregnancy and age require separate review"
+  ],
+  "linked_rule_ids": [
+    "B6_CURRENT_USE_NEURO",
+    "B6_DIETARY_GAP_CONTEXT"
+  ],
+  "proposed_rule_decision": "Do not authorize dose without verified jurisdictional upper limits and total intake",
+  "personalized_dose_allowed": false,
+  "independent_clinical_review": false,
+  "notes": "Source-linked critical appraisal intake; individual primary papers and jurisdictional guidelines require further verification."
+}
