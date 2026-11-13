@@ -1,0 +1,21 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "lycopene",
+  "source_refs_from_library": [
+    "SOURCE_REVIEW_PENDING"
+  ],
+  "library_evidence_label": "limited_or_context_dependent",
+  "library_summary_es": "La evidencia clínica es variable y suele ser específica de indicación; un mecanismo biológico no demuestra por sí solo un beneficio clínico.",
+  "review_requirements": [
+    "Verify human trials and clinical effect sizes by indication",
+    "Check population, formulation, dose, timing and duration",
+    "Check contraindications, adverse effects, medication and supplement interactions",
+    "Check combined exposure and duplicate forms",
+    "Check special populations, unknown answers and review sign-off"
+  ],
+  "mandatory_precautions": true,
+  "combination_review_required": true,
+  "personalized_dose": "DISABLED",
+  "recommendation": "INFORMATION_ONLY"
+}
