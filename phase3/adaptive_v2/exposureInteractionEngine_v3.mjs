@@ -1,5 +1,5 @@
 // VITAMI research prototype. No clinical authorization or personalized recommendation.
-const norm=x=>String(x??"").trim().toLowerCase().replace(/[\\s-]+/g,"_");
+const norm=x=>String(x??"").trim().toLowerCase().replace(/[\s-]+/g,"_");
 const aliases={zinc_gluconate:"zinc",zinc_picolinate:"zinc",iron_bisglycinate:"iron",ferrous_sulfate:"iron",magnesium_glycinate:"magnesium",magnesium_citrate:"magnesium",magnesium_oxide:"magnesium",vitamin_k2_mk4:"vitamin_k",vitamin_k2_mk7:"vitamin_k"};
 const canonical=x=>aliases[norm(x)]??norm(x);
 const list=x=>Array.isArray(x)?x:[];
@@ -20,7 +20,7 @@ export function auditExposureInteractionsV3({products=[],medications=[],medicati
   }
  }
  const meds=new Set(list(medications).map(norm));
- const entries=ids=>list(ids).flatMap(id=>exposures.get(canonical(id))??[]);
+ const entries=ids=>[...new Set(list(ids).map(canonical).filter(x=>x!=="multivitamin_mineral"))].flatMap(id=>exposures.get(id)??[]);
  for(const rule of list(rules)){
   const ingredientIds=list(rule.ingredient_ids).filter(x=>canonical(x)!=="multivitamin_mineral");
   const matched=entries(ingredientIds);if(!matched.length)continue;
