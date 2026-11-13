@@ -1,0 +1,33 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Evidence ranges are not automatic prescriptions. Safety, product composition, population and indication must be verified before activation.",
+  "ingredient": "beta_alanine",
+  "priority": 12,
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "questions": [
+    "activity_type",
+    "activity_session_duration",
+    "activity_intensity",
+    "goals_ranked",
+    "supplements_current_use",
+    "conditions_other_relevant",
+    "pregnancy_lactation_if_relevant"
+  ],
+  "supported_context": "repeated intense efforts roughly 1–4 minutes; evidence heterogeneous",
+  "protocols": [
+    {
+      "kind": "chronic_accumulation",
+      "amount": "4–6 g/day for at least 2–4 weeks in studied protocols",
+      "status": "STUDIED_RANGE_NOT_AUTOMATIC_PERSONALIZED_DOSE"
+    }
+  ],
+  "personalization": "Exercise type and duration drive relevance; not an immediate pre-workout-only effect; no established universal body-weight adjustment.",
+  "safety": [
+    "paresthesia can occur; divided/sustained-release formulations may improve tolerability",
+    "long-term and special-population safety needs review"
+  ],
+  "next_review": "Validate population and duration, practical divided-dose options, and explicit no-benefit branches."
+}
