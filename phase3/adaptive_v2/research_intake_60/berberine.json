@@ -1,0 +1,32 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "berberine",
+  "priority": 42,
+  "source_refs_from_library": [
+    "NCCIH_HERBS_AT_A_GLANCE",
+    "NCCIH_HEALTH_TOPICS_AZ"
+  ],
+  "library_evidence_label": "mixed_or_limited",
+  "library_summary_es": "La evidencia depende mucho de la preparación, dosis, población y objetivo; no debe extrapolarse entre extractos diferentes.",
+  "proposed_indication": "metabolic endpoints require indication-specific trials and medication review",
+  "known_safety_topics_to_verify": [
+    "pregnancy/lactation",
+    "medication interactions including glucose-lowering drugs",
+    "gastrointestinal adverse effects"
+  ],
+  "research_tasks": [
+    "NCCIH berberine evidence, clinical trials and interaction data",
+    "Extract population, comparator, outcomes, effect sizes and study dates",
+    "Verify studied dose, formulation, duration and contraindications",
+    "Map canonical questions, unknown answers and medication interactions",
+    "Have scientific/clinical reviewer approve before any recommendation"
+  ],
+  "personalized_dose": {
+    "status": "DISABLED_PENDING_VERIFIED_PROTOCOL"
+  },
+  "recommendation": {
+    "status": "INFORMATION_ONLY"
+  },
+  "note": "This intake record is not equivalent to a verified scientific deep record."
+}
