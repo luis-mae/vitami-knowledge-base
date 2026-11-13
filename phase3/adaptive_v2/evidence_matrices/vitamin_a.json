@@ -1,0 +1,53 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "vitamin_a",
+  "priority": 35,
+  "source_refs": [
+    "NIH_VITA_HP"
+  ],
+  "questions": [
+    "diet_type",
+    "goals_primary",
+    "supplements_current_use",
+    "profile_pregnancy",
+    "conditions_liver",
+    "medications_regular_use"
+  ],
+  "evidence_summary": [
+    "Essential for normal vision, immune function, reproduction, growth and development.",
+    "Preformed vitamin A has a meaningful upper limit; excess is not a benign 'wellness' strategy.",
+    "Pregnancy requires special caution with preformed vitamin A exposure."
+  ],
+  "reference_values": {
+    "adult_male_rda": {
+      "amount": 900,
+      "unit": "mcg RAE/day"
+    },
+    "adult_female_rda": {
+      "amount": 700,
+      "unit": "mcg RAE/day"
+    },
+    "adult_ul_preformed_vitamin_a": {
+      "amount": 3000,
+      "unit": "mcg RAE/day"
+    }
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "high_dose_preformed_vitamin_a": "professional_review_required"
+  },
+  "source_recommendation_ceiling": "C_potential_benefit",
+  "personalization": "Consider age, diet, relevant physiological state, medications and formulation where validated; do not automatically equate nutrient references with supplement dose.",
+  "safety": [
+    "profile_pregnancy",
+    "conditions_liver",
+    "medications_regular_use"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and population limits",
+    "Resolve question bank IDs and safety conditions",
+    "Review cumulative nutrient exposure and product formulation before dose activation"
+  ]
+}
