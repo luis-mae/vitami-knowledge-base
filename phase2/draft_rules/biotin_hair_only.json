@@ -1,7 +1,7 @@
 {
   "rule_id": "BIOTIN_HAIR_ONLY",
   "supplement_id": "biotin",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,13 +14,22 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 1,
-    "recommendation_cap": "D_optional_limited",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
     "override_result": null,
     "ask_questions": []
   },
-  "rationale": "Cosmetic use without demonstrated deficiency has weak evidence.",
+  "rationale": "Hair loss alone does not indicate biotin deficiency; biotin may interfere with important lab assays.",
   "evidence_refs": [
     "NIH_BIOTIN_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"
   ]
 }
