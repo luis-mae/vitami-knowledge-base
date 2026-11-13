@@ -1,7 +1,7 @@
 {
   "rule_id": "D3_PARENT_LOW_SUN",
   "supplement_id": "vitamin_d3",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -17,7 +17,7 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
+    "score_delta": 0,
     "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
@@ -25,8 +25,17 @@
       "diet_fortified_foods"
     ]
   },
-  "rationale": "D3 is a common vitamin D form, but low sun alone does not establish deficiency or a personalized dose.",
+  "rationale": "Low sunlight is risk context rather than a vitamin D diagnosis; consider diet, supplements and clinical assessment.",
   "evidence_refs": [
     "NIH_VITD_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
   ]
 }
