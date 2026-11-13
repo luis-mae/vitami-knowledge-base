@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "status": "implementation_contract",
+  "entry_step": {
+    "id": "select_goals",
+    "prompt": {
+      "es": "¿Qué te gustaría lograr o mejorar?",
+      "en": "What would you like to achieve or improve?",
+      "it": "Che cosa vorresti ottenere o migliorare?"
+    },
+    "source": "data/goals/goal_bank_master.json",
+    "min_selection": 1,
+    "max_selection": 5,
+    "allow_change_later": true
+  },
+  "flow": [
+    "select_goals",
+    "shared_profile_and_safety",
+    "goal_specific_questions",
+    "rule_requested_followups",
+    "results"
+  ],
+  "selection_policy": {
+    "deduplicate_questions": true,
+    "ask_shared_question_once": true,
+    "order_by": [
+      "critical_safety",
+      "shared_profile",
+      "goal_relevance",
+      "rule_followup"
+    ],
+    "do_not_infer_supplement_from_goal": true,
+    "do_not_skip_required_safety_questions": true,
+    "unanswered_critical_questions_block_actionable_recommendation": true
+  },
+  "goal_question_routes": [
+    {
+      "goals": [
+        "sleep_rest"
+      ],
+      "questions": [
+        "sleep_quality",
+        "sleep_duration",
+        "caffeine_daily"
+      ]
+    },
+    {
+      "goals": [
+        "strength_muscle",
+        "sports_performance",
+        "exercise_recovery"
+      ],
+      "questions": [
+        "activity_type",
+        "activity_intensity",
+        "activity_session_duration",
+        "activity_frequency"
+      ]
+    },
+    {
+      "goals": [
+        "dietary_gaps"
+      ],
+      "questions": [
+        "diet_type",
+        "diet_fatty_fish_weekly",
+        "diet_fruit_veg_daily"
+      ]
+    }
+  ],
+  "routing_note": "Route question IDs must be validated against the current question bank before enabling; unrecognized IDs must be ignored and flagged, never displayed as fabricated questions.",
+  "basic_pro": "Both tiers begin with goals; PRO can deepen goal-specific followups but BASIC safety information stays free."
+}
