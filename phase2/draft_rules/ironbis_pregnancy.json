@@ -1,7 +1,7 @@
 {
   "rule_id": "IRONBIS_PREGNANCY",
   "supplement_id": "iron_bisglycinate",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -23,5 +23,17 @@
   "evidence_refs": [
     "NIH_IRON_HP",
     "NIH_PREGNANCY_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "pregnancy_requires_professional_review": true,
+    "require_elemental_iron_mg_and_existing_prenatal_iron": true,
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+    "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
   ]
 }
