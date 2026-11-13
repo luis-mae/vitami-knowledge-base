@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "READY_FOR_EMERGENT_MAPPING",
   "purpose": "Especificación funcional y de contenido de la pantalla final BASIC. No define el estilo visual final; Emergent debe conservar la estética existente.",
   "screen_order": [
@@ -112,5 +112,16 @@
       "en": "Before finalizing your guidance I need a few more answers. These questions are specific because they may change a recommendation or its safety.",
       "it": "Prima di completare l'orientamento ho bisogno di alcune risposte in più. Sono domande specifiche perché possono cambiare una raccomandazione o la sua sicurezza."
     }
+  },
+  "post_results_actions": {
+    "placement": "after_basic_result_and_free_safety_information",
+    "layout": "parallel_independent",
+    "actions": [
+      "paid_pro_analysis",
+      "existing_cart"
+    ],
+    "allow_both": true,
+    "allow_neither": true,
+    "commercial_product_only_if_verified": true
   }
 }
