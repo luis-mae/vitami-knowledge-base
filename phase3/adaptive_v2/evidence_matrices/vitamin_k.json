@@ -1,0 +1,48 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "vitamin_k",
+  "priority": 39,
+  "source_refs": [
+    "NIH_VITK_HP"
+  ],
+  "questions": [
+    "diet_type",
+    "goals_primary",
+    "supplements_current_use",
+    "medications_regular_use",
+    "conditions_bleeding"
+  ],
+  "evidence_summary": [
+    "Vitamin K is essential for normal coagulation and participates in bone-related proteins.",
+    "Supplemental K1/K2 should not be treated as universally interchangeable for every claimed outcome.",
+    "Vitamin K has clinically important interaction context with vitamin K antagonist anticoagulants."
+  ],
+  "reference_values": {
+    "adult_male_ai": {
+      "amount": 120,
+      "unit": "mcg/day"
+    },
+    "adult_female_ai": {
+      "amount": 90,
+      "unit": "mcg/day"
+    },
+    "ul": "not_established"
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "anticoagulant_context": "professional_review_required"
+  },
+  "source_recommendation_ceiling": "C_potential_benefit",
+  "personalization": "Consider age, diet, relevant physiological state, medications and formulation where validated; do not automatically equate nutrient references with supplement dose.",
+  "safety": [
+    "medications_regular_use",
+    "conditions_bleeding"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and population limits",
+    "Resolve question bank IDs and safety conditions",
+    "Review cumulative nutrient exposure and product formulation before dose activation"
+  ]
+}
