@@ -1,0 +1,147 @@
+{
+  "version": "1.0",
+  "status": "PRELIMINARY_RULE_AUDIT_WITH_VERIFIABLE_SOURCES_NOT_CLINICALLY_APPROVED",
+  "review_date": "2026-11-13",
+  "rule_audits": [
+    {
+      "rule_id": "CREATINE_KIDNEY",
+      "decision": "KEEP_REVIEW_GATE_ADD_UNKNOWN_GATE",
+      "clinical_reason": "ODS sports supplement evidence on healthy adults cannot be generalized to known renal disease or missing renal history.",
+      "sources": [
+        {
+          "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "source_type": "NIH ODS professional evidence synthesis",
+          "applicability": "Performance evidence and safety context; not a kidney disease treatment guideline"
+        }
+      ],
+      "precautions": [
+        "renal disease",
+        "medications and concurrent supplements",
+        "unknown renal status"
+      ],
+      "release": "BLOCKED"
+    },
+    {
+      "rule_id": "IRON_FATIGUE_ONLY",
+      "decision": "DO_NOT_RECOMMEND_IRON_FROM_FATIGUE",
+      "clinical_reason": "Fatigue is nonspecific; iron deficiency and indication for treatment require appropriate assessment.",
+      "sources": [
+        {
+          "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+          "source_type": "NIH ODS professional evidence synthesis",
+          "applicability": "Iron status, toxicity and interactions"
+        }
+      ],
+      "precautions": [
+        "iron overload",
+        "gastrointestinal adverse effects",
+        "levothyroxine and levodopa interactions",
+        "cumulative elemental iron"
+      ],
+      "release": "BLOCKED"
+    },
+    {
+      "rule_id": "BIOTIN_HAIR_ONLY",
+      "decision": "REMOVE_AUTOMATIC_POSITIVE_SCORE_PENDING_EVIDENCE",
+      "clinical_reason": "Hair concerns alone do not establish biotin deficiency or expected efficacy.",
+      "sources": [
+        {
+          "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+          "source_type": "NIH ODS professional evidence synthesis",
+          "applicability": "Biotin deficiency, cosmetic claims and laboratory test interference"
+        }
+      ],
+      "precautions": [
+        "laboratory test interference",
+        "existing multivitamin biotin",
+        "underlying causes of hair loss"
+      ],
+      "release": "BLOCKED"
+    },
+    {
+      "rule_id": "VITK_CURRENT_USE_MEDICATION",
+      "decision": "REWRITE_TO_PROSPECTIVE_INTERACTION_CHECK",
+      "clinical_reason": "A rule requiring current vitamin K supplementation can miss people contemplating vitamin K while taking a vitamin K antagonist.",
+      "sources": [
+        {
+          "url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+          "source_type": "NIH ODS professional evidence synthesis",
+          "applicability": "Warfarin and vitamin K intake consistency"
+        }
+      ],
+      "precautions": [
+        "warfarin and other vitamin K antagonists",
+        "formulation-specific vitamin K intake",
+        "prescribed medication changes"
+      ],
+      "release": "BLOCKED"
+    },
+    {
+      "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
+      "decision": "MAINTAIN_NO_ROUTINE_RECOMMENDATION",
+      "clinical_reason": "Chronic insomnia requires clinical assessment and evidence-based nonpharmacologic management; supplement is not universal first-line therapy.",
+      "sources": [
+        {
+          "url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+          "source_type": "NCCIH evidence overview",
+          "applicability": "Melatonin evidence and limitations"
+        }
+      ],
+      "precautions": [
+        "daytime sedation",
+        "other sedating medications",
+        "pregnancy and lactation",
+        "sleep disorder red flags"
+      ],
+      "release": "BLOCKED"
+    },
+    {
+      "rule_id": "O3_BLEEDING",
+      "decision": "KEEP_SAFETY_REVIEW_REFINE_BY_FORMULATION",
+      "clinical_reason": "Omega-3 safety and cardiovascular outcomes depend on formulation and dose; review bleeding risk and atrial fibrillation where relevant.",
+      "sources": [
+        {
+          "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+          "source_type": "NIH ODS professional evidence synthesis",
+          "applicability": "Omega-3 supplement safety and clinical evidence"
+        }
+      ],
+      "precautions": [
+        "anticoagulants",
+        "antiplatelets",
+        "high-dose formulations",
+        "atrial fibrillation history",
+        "duplicate EPA/DHA products"
+      ],
+      "release": "BLOCKED"
+    },
+    {
+      "rule_id": "CAFF_HIGH_BASELINE",
+      "decision": "REPLACE_STRING_COMPARATOR_WITH_TYPED_NUMERIC_MG_DAY",
+      "clinical_reason": "Numeric caffeine intake cannot safely be evaluated using an unparsed string comparison.",
+      "sources": [
+        {
+          "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "source_type": "NIH ODS professional evidence synthesis",
+          "applicability": "Caffeine exercise outcomes, adverse effects and typical intake contexts"
+        }
+      ],
+      "precautions": [
+        "insomnia",
+        "arrhythmia",
+        "pregnancy",
+        "anxiety",
+        "medications",
+        "caffeine from coffee, energy drinks and pre-workout products"
+      ],
+      "release": "BLOCKED"
+    }
+  ],
+  "review_requirements": [
+    "Verify source publication/version dates and primary references",
+    "Independently appraise original studies and guidelines",
+    "Test corrected rule implementation with missing-data and interaction scenarios",
+    "Obtain clinical signoff"
+  ],
+  "note": "These are source-linked critical appraisals of seven selected draft rules, not certification or deployment."
+}
