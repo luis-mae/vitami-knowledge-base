@@ -21,3 +21,5 @@ jobs:
         run: node phase2/tests/basicPresentationAdapter.test.js
       - name: Library deep-link regression
         run: node phase2/tests/libraryLinks.test.js
+      - name: BASIC journey integration regression
+        run: node phase2/tests/basicJourney.test.js
