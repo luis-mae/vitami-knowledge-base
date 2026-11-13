@@ -1,7 +1,7 @@
 {
   "rule_id": "COLLAGEN_SKIN",
   "supplement_id": "collagen_peptides",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,13 +14,22 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
+    "score_delta": 0,
     "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": []
   },
-  "rationale": "Evidence is mixed and affected by funding bias; cannot justify a strong recommendation.",
+  "rationale": "Skin outcomes are heterogeneous and evidence quality varies; do not infer clinically meaningful benefit from cosmetic goal alone.",
   "evidence_refs": [
     "COLLAGEN_META_2025"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://pubmed.ncbi.nlm.nih.gov/?term=collagen+skin+systematic+review"
   ]
 }
