@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "implementation_contract",
   "entry_step": {
     "id": "select_goals",
@@ -19,8 +19,7 @@
     "shared_safety_questions",
     "goal_specific_questions",
     "rule_requested_followups",
-    "basic_results",
-    "optional_paid_pro_analysis"
+    "basic_results"
   ],
   "selection_policy": {
     "deduplicate_questions": true,
@@ -142,16 +141,20 @@
     "show_progress_by_section": true,
     "never_skip_critical_safety": true
   },
-  "results_actions": {
-    "paid_pro_analysis": {
-      "optional": true,
-      "after_basic": true,
-      "do_not_paywall_basic_safety": true
-    },
-    "existing_cart": {
-      "restore": true,
-      "show_only_when_valid_product_mapping_and_commerce_enabled": true,
-      "never_auto_add": true
-    }
+  "post_results_parallel_actions": {
+    "layout": "independent_parallel_actions",
+    "actions": [
+      {
+        "id": "paid_pro_analysis",
+        "optional": true
+      },
+      {
+        "id": "existing_cart",
+        "optional": true
+      }
+    ],
+    "no_required_order": true,
+    "allow_both": true,
+    "allow_neither": true
   }
 }
