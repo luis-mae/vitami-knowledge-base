@@ -72,3 +72,37 @@ Formato por ejecución: fecha; pasos tocados; commits; pruebas y resultado; sigu
 2026-11-13 — Nuevos commits en frontend: `999b946` impide mostrar resultados antes de hidratar respuestas locales (evita falso estado vacío o recomendaciones por perfil incompleto durante carga); `471686c` deriva diabetes a revisión profesional hasta validar reglas específicas. CI configurado con workflow de npm/tsc en `.github/workflows/vitami-frontend-check.yml`, pero no hay evidencia de ejecución exitosa, pendiente comprobar en Actions. No fusionar PR #1 aún.
 
 2026-11-13 — Revisión de seguridad detectó y corrigió bypass en tarjetas secundarias: `302dd36` usa `canShowSuggestions` también para secundarios, y exige revisión ante cualquier medicación regular hasta validar interacciones por clase. CI fortalecido: `5c7a221` añade `npx expo export --platform web --output-dir dist-ci` después de TypeScript. Las comprobaciones deben ejecutarse y consultarse; no afirmar éxito antes de observarlo.
+
+
+## PLAN DE CIERRE VITAMI EXPRESS — 2026-11-13 15:04:17 (Argentina, UTC−03:00)
+**Estado estimado comunicado al usuario:** 65% hacia primera versión funcional (estimación subjetiva, no indicador automático). Objetivo: aplicación web BASIC utilizable, segura, verificable e independiente de Emergent. Repositorio app `luis-mae/vitami`, rama `feature/vitami-express`; PR borrador #1, no fusionar hasta validación. Repositorio ciencia `luis-mae/vitami-knowledge-base`, rama `design/adaptive-questionnaire-v2`. No modificar versión pública prematuramente.
+
+### P0 — Imprescindible para versión funcional (orden de ejecución)
+- [ ] **CI del HEAD**: comprobar GitHub Actions de los commits posteriores a `4e3a8d9`, con TypeScript, export Expo web y artefacto descargable; leer logs de fallos y corregir hasta obtener verde del último commit. Éxito histórico confirmado: run #36 (commit `5c7a221`) pasó TS y export web; NO prueba commits posteriores.
+- [ ] **Pruebas end-to-end reales**: iniciar app web en entorno de prueba; completar cuestionario desde cero, retomar borrador, editar respuestas, volver atrás, abrir resultados, responder followups, acceder a biblioteca y navegar sin errores. Probar ES/EN/IT, móvil y escritorio.
+- [ ] **Matriz de seguridad BASIC**: pruebas de ausencia de datos, contradicciones, alergias, medicamentos, enfermedad renal/hepática/cardiaca/diabetes, embarazo/lactancia, cirugía próxima, duplicación de suplementos y menores; ningún resultado accionable sin datos mínimos ni en perfiles bloqueados. Validar reglas X y overrides; no confundir revisión con recomendación.
+- [ ] **Validar motor y adaptador**: auditar correspondencia exacta entre preguntas, opciones, `toCanonical`, reglas científicas y followups; casos de prueba con salidas esperadas; revisar si followups desconocidos o PRO bloquean injustificadamente BASIC. Corregir fallos de navegación, estados vacíos y persistencia.
+- [ ] **Integridad biblioteca y vínculos**: para cada recomendación comprobar `supplement_id` existente, ficha navegable, evidencia, contraindicaciones, interacciones, efectos adversos, fuentes y estado de revisión; no exponer como validado contenido borrador.
+- [ ] **«Cómo tomarlo» + «Cantidad diaria orientativa»**: presentes desde BASIC y PRO, en ES/EN/IT. Solo ofrecer horario/comidas, dosis, unidades y equivalencia cotidiana cuando reglas específicas estén científicamente verificadas y sean apropiadas al perfil; de lo contrario indicar explícitamente «no determinado», sin inventar dosis ni equivalencias.
+- [ ] **Privacidad y datos de salud**: revisar persistencia automática `vitami.questionnaire.draft.v1` y almacenamiento local de respuestas sensibles; informar y obtener consentimiento adecuado, ofrecer borrar/restablecer datos y verificar que no se envían a terceros inesperadamente. Revisar secretos y configuración.
+- [ ] **Construcción publicable**: obtener artefacto web verificado; configurar hosting independiente de Emergent, variables de entorno, rutas SPA, HTTPS, dominio, rendimiento básico y analítica respetuosa de privacidad; desplegar primero en URL de prueba, comprobar carga y navegación.
+- [ ] **Criterios de aceptación**: sin errores bloqueantes, seguridad clínica revisada, pruebas manuales y automáticas documentadas, validación de tres idiomas, enlaces a biblioteca funcionando, versión desplegada; recién entonces evaluar merge de PR #1 y publicación.
+
+### P1 — Calidad necesaria antes de lanzamiento amplio
+- [ ] Auditoría clínica documentada por ingrediente: calidad de evidencia, criterios de elegibilidad, límites, dosis, horario/comidas, interacciones, contraindicaciones, fuentes y fecha de revisión; desactivar ingredientes no validados.
+- [ ] Revisión de UX y accesibilidad: textos claros, contraste, teclado, lector de pantalla, tamaños de fuente, errores de formularios, indicadores de progreso, navegación en teléfonos.
+- [ ] Pruebas automatizadas unitarias del motor, adaptador y gates de seguridad; smoke test web en CI, reportes y artefactos por versión.
+- [ ] Revisión del flujo PRO: sin recomendaciones clínicas ficticias, sin pagos/ventas simulados como reales; definir y probar cualquier carrito o comercio antes de habilitarlo.
+- [ ] Observabilidad y mantenimiento: seguimiento de errores sin datos clínicos identificables, versiones, rollback y procedimiento de incidentes.
+
+### P2 — Mejoras posteriores (no bloquean MVP seguro)
+- [ ] Personalización ampliada de dosis y horarios basada en reglas aprobadas y fuentes.
+- [ ] Catálogo/productos, equivalencias por presentación, compras y PRO reales solo tras validación comercial/legal.
+- [ ] Mejoras de analítica de uso, rendimiento, SEO/PWA, distribución móvil e iteración con usuarios.
+
+### Secuencia de entregables
+**65→75%**: HEAD CI verde + pruebas motor/seguridad + correcciones bloqueantes.
+**75→85%**: flujo E2E web y biblioteca verificados, UX/idiomas, privacidad.
+**85→95%**: despliegue de prueba independiente, pruebas reales, correcciones.
+**95→100%**: aceptación clínica/técnica, publicación y plan de rollback.
+Estos porcentajes son metas orientativas, no hitos certificados. Reportar siempre cambios con commit y pruebas observadas; no prometer trabajo autónomo entre mensajes sin automatización.
