@@ -1,7 +1,7 @@
 {
   "rule_id": "CALCIT_LOW_DIET",
   "supplement_id": "calcium_citrate",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -17,16 +17,27 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 3,
+    "score_delta": 0,
     "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
       "diet_type",
-      "profile_age"
+      "profile_age",
+      "diet_fortified_foods",
+      "supplements_current_list"
     ]
   },
-  "rationale": "Low dietary calcium sources justify estimating total calcium intake before supplementation.",
+  "rationale": "Low dairy intake alone cannot establish low total calcium; assess fortified foods, non-dairy sources, age and total elemental calcium.",
   "evidence_refs": [
     "NIH_CALCIUM_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
   ]
 }
