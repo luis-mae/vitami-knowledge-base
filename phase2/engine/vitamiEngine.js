@@ -272,6 +272,10 @@ function buildBasicResponse({
         reason_codes: rec.reason_codes,
         source_refs: rec.source_refs
       });
+    } else if (rec.decision_status === 'provisional_pending_questions') {
+      // Never expose an unfinished positive recommendation as actionable.
+      // The follow-up questions remain available above for adaptive navigation.
+      notRecommended.push({...enriched, display_status: 'pending_required_answers'});
     } else if (['A_high_relevance','B_consider','C_potential_benefit','D_optional_limited'].includes(rec.state)) {
       positive.push(enriched);
     } else {
@@ -289,11 +293,11 @@ function buildBasicResponse({
   }
 
   let overall = 'complete';
-  if (professional.length) overall = 'professional_review_present';
-  else if (uniqueFollowups.length) overall = 'needs_more_answers';
+  if (uniqueFollowups.length) overall = 'needs_more_answers';
+  else if (professional.length) overall = 'professional_review_present';
 
   return {
-    contract_version: '1.1.0',
+    contract_version: '1.2.0',
     locale,
     session_id: sessionId,
     overall_status: overall,
