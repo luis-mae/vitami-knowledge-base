@@ -1,0 +1,18 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {validateCard,renderableBasicCards,REQUIRED}=require('../engine/basicPresentationAdapter');
+assert.equal(validateCard(null).valid,false);
+assert.equal(validateCard({supplement_id:'x'}).valid,false);
+const card=Object.fromEntries(REQUIRED.map(k=>[k,'verified text']));
+Object.assign(card,{supplement_id:'x',state:'B_consider',library_url:'https://example.org/library/x',source_refs:['source-1'],scientific_review_status:'reviewed'});
+assert.equal(validateCard(card).valid,true);
+assert.equal(validateCard({...card,library_url:''}).valid,false);
+assert.equal(validateCard({...card,source_refs:[]}).valid,false);
+assert.equal(validateCard({...card,scientific_review_status:'draft'}).valid,false);
+const result={recommendations:[{supplement_id:'x',state:'B_consider',score:4,matched_rules:['R1']}],professional_review:[{supplement_id:'y'}]};
+assert.equal(renderableBasicCards(result,[]).cards.length,0);
+assert.equal(renderableBasicCards(result,[card]).cards.length,1);
+assert.equal(renderableBasicCards(result,[{...card,state:'A_high_relevance'}]).cards.length,0);
+assert.equal(renderableBasicCards(result,[card]).professional_review.length,1);
+assert.equal(renderableBasicCards(result,[card]).actions.cart,'optional_verified_sku_only');
+console.log('basicPresentationAdapter: 11 assertions passed');
