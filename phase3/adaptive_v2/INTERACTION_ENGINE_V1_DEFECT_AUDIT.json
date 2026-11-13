@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "date": "2026-11-13",
+  "status": "ENGINE_DEFECT_AUDIT_ACTION_REQUIRED",
+  "reviewed_artifact": "phase3/adaptive_v2/evidenceInteractionEngine_v1.mjs",
+  "findings": [
+    {
+      "severity": "critical",
+      "issue": "All nutrient-nutrient interactions are silently skipped when no drug or condition criteria exist",
+      "evidence": "if(!hasDrugCriteria&&!hasConditionCriteria)continue",
+      "required_fix": "Implement quantified co-nutrient exposure rules and unresolved-quantity blocks"
+    },
+    {
+      "severity": "high",
+      "issue": "Ingredient class multivitamin_mineral treated as if vitamin K content confirmed",
+      "required_fix": "Require verified actual label composition; absent label must be unknown and block personalized recommendation, not assert an interaction as fact"
+    },
+    {
+      "severity": "high",
+      "issue": "NO_MATCHES_FOUND_NOT_CLEARED returns no matches but cannot distinguish unmapped medicine synonyms, unknown brands, or unrecognized drug classes",
+      "required_fix": "Use clinically validated medication normalization and explicit unresolved-item tracking"
+    },
+    {
+      "severity": "high",
+      "issue": "The draft interaction catalog includes zinc-copper as if co-presence itself were a risk; clinically relevant problem is high prolonged zinc exposure causing copper deficiency",
+      "required_fix": "Represent dose and duration with source-supported conditional rules"
+    },
+    {
+      "severity": "high",
+      "issue": "The engine cannot validate per-rule evidence URL, source date, product composition or exposure quantity",
+      "required_fix": "Require structured source metadata, label provenance, elemental amount and audit timestamps"
+    },
+    {
+      "severity": "medium",
+      "issue": "PersonalizedRecommendationAllowed always false, so engine currently cannot be integrated as a production decision engine",
+      "required_fix": "Keep fail-closed until separate reviewed authorization pipeline is implemented"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "claim": "Zinc/iron timing and high-zinc copper risk"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "claim": "Warfarin/vitamin K interaction"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/vitamins-and-minerals",
+      "claim": "Multivitamin label variability"
+    }
+  ],
+  "deployment_status": "BLOCKED",
+  "approved": false
+}
