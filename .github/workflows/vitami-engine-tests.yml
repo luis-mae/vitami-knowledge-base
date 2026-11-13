@@ -29,3 +29,5 @@ jobs:
         run: node phase2/tests/scientificEvidenceGate.test.js
       - name: Legacy UI answer normalization regression
         run: node phase2/tests/normalizeAnswers.test.js
+      - name: Scientific asset ID integrity regression
+        run: node phase2/tests/auditAssetIds.test.js
