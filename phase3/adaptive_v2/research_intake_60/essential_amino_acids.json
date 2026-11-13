@@ -1,0 +1,23 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "essential_amino_acids",
+  "source_refs_from_library": [
+    "NIH_EXERCISE_HP"
+  ],
+  "library_evidence_label": "context_dependent",
+  "library_summary_es": "La magnitud y consistencia del beneficio varían según deporte, dosis, duración y estado nutricional.",
+  "review_requirements": [
+    "Indication-specific human evidence and clinical effect size",
+    "Population, comparison, studied chemical form, dose and duration",
+    "Adverse effects, contraindications, interactions with medications and other supplements",
+    "Cumulative intake and duplicate ingredient forms",
+    "Special populations and missing safety answers",
+    "Evidence sources with dates and review sign-off"
+  ],
+  "mandatory_precautions": true,
+  "combination_review_required": true,
+  "personalized_dose": "DISABLED",
+  "recommendation": "INFORMATION_ONLY",
+  "note": "Research intake is not clinical approval."
+}
