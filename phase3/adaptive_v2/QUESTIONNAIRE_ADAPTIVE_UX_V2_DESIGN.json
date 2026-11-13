@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "status": "DESIGN_DRAFT_NOT_DEPLOYED",
+  "objective": "Short adaptive intake that preserves all clinically material safety inputs",
+  "stages": [
+    {
+      "id": "start",
+      "label": "Objetivo principal",
+      "question_ids": [
+        "goals_primary"
+      ],
+      "presentation": "multi-select with no more than three priorities"
+    },
+    {
+      "id": "profile",
+      "label": "Datos básicos",
+      "question_ids": [
+        "profile_age",
+        "profile_sex_reference",
+        "profile_pregnancy",
+        "profile_lactation"
+      ],
+      "presentation": "short one-at-a-time cards; pregnancy/lactation applicability must not be inferred from reference sex"
+    },
+    {
+      "id": "safety",
+      "label": "Seguridad",
+      "question_ids": [
+        "medications_regular_use",
+        "medications_list",
+        "supplements_current_use",
+        "supplements_current_list",
+        "conditions_kidney",
+        "conditions_liver",
+        "conditions_bleeding",
+        "conditions_allergies",
+        "conditions_allergies_list",
+        "conditions_thyroid",
+        "conditions_heart",
+        "conditions_kidney_stones",
+        "safety_upcoming_surgery"
+      ],
+      "presentation": "conditional follow-ups, but all safety categories explicitly assessed; unknown is never equivalent to no"
+    },
+    {
+      "id": "context",
+      "label": "Hábitos relevantes",
+      "question_ids": [
+        "diet_type",
+        "diet_fatty_fish_weekly",
+        "diet_dairy_calcium_sources",
+        "diet_animal_products_frequency",
+        "lifestyle_sun_exposure",
+        "lifestyle_caffeine_daily",
+        "activity_level"
+      ],
+      "presentation": "ask only when relevant to goals and candidate nutrient evaluation"
+    },
+    {
+      "id": "details",
+      "label": "Aclaraciones necesarias",
+      "question_ids": [
+        "supplement_product_form",
+        "supplement_amount_per_unit",
+        "supplement_amount_unit",
+        "medications_list",
+        "pro_labs_available",
+        "pro_labs_details"
+      ],
+      "presentation": "triggered by risk or insufficient exposure evidence"
+    },
+    {
+      "id": "review",
+      "label": "Revisá tus respuestas",
+      "question_ids": [],
+      "presentation": "show risk-critical answers, missing data and explicit disclosure; no dosing while validation pending"
+    }
+  ],
+  "required_new_fields": [
+    {
+      "id": "supplement_units_per_day",
+      "type": "number",
+      "reason": "ingredient per unit cannot yield daily exposure without daily units"
+    },
+    {
+      "id": "supplement_label_verified",
+      "type": "boolean",
+      "reason": "verified composition required for interactions"
+    },
+    {
+      "id": "supplement_intake_timing",
+      "type": "controlled_time_group",
+      "reason": "iron-zinc timing assessment"
+    },
+    {
+      "id": "supplement_duration_days",
+      "type": "number",
+      "reason": "prolonged exposure risks"
+    },
+    {
+      "id": "medication_identity_verified",
+      "type": "boolean",
+      "reason": "free text does not establish exact drug class"
+    }
+  ],
+  "behavior": {
+    "unknown_answer": "preserve UNKNOWN and block personalized recommendations",
+    "safety_questions": "never silently skipped",
+    "branching": "questions added only when needed; preserve stable canonical IDs",
+    "completion": "show unanswered safety items and refuse unsafe personalization"
+  },
+  "review_needed": [
+    "map all 87 conditions to response types and options",
+    "verify safety followups and medication names",
+    "user test with at least five simulated intake profiles",
+    "professional review of every clinical trigger"
+  ],
+  "productionReady": false
+}
