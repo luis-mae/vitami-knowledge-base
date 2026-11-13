@@ -17,3 +17,5 @@ jobs:
         run: node phase2/tests/basicSafetyRegression.test.js
       - name: Adaptive questionnaire regression
         run: node phase2/tests/adaptiveQuestionnaire.test.js
+      - name: BASIC presentation adapter regression
+        run: node phase2/tests/basicPresentationAdapter.test.js
