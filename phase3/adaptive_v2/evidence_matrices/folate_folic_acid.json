@@ -1,0 +1,39 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Evidence ranges are not automatic prescriptions. Safety, product composition, population and indication must be verified before activation.",
+  "ingredient": "folate_folic_acid",
+  "priority": 15,
+  "source_refs": [
+    "NIH_FOLATE_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "pregnancy_lactation_if_relevant",
+    "pregnancy_planning_if_relevant",
+    "diet_type",
+    "diet_fortified_foods",
+    "supplements_current_use",
+    "medications_current_use",
+    "pro_labs_available"
+  ],
+  "supported_context": "nutritional adequacy and pregnancy-related neural-tube-defect prevention",
+  "protocols": [
+    {
+      "kind": "nutritional_reference",
+      "amount": "RDA 400 mcg DFE/day adult, 600 pregnancy, 500 lactation; adult synthetic folate UL 1000 mcg/day",
+      "status": "REFERENCE_ONLY_NOT_SUPPLEMENT_DOSE"
+    },
+    {
+      "kind": "pregnancy_planning_prevention",
+      "amount": "Specific folic-acid supplementation policy requires separate verified guideline and risk stratification",
+      "status": "HIGH_PRIORITY_GUIDELINE_REVIEW"
+    }
+  ],
+  "personalization": "Do not conflate mcg DFE with mcg folic acid; distinguish preconception prevention from treating deficiency.",
+  "safety": [
+    "medication interactions including methotrexate/antiepileptics",
+    "high-risk pregnancy or previous neural tube defect -> clinician-led plan"
+  ],
+  "next_review": "Prioritize authoritative preconception supplementation guidance, timing and special risk groups."
+}
