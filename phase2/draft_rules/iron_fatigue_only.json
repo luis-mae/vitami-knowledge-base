@@ -1,7 +1,7 @@
 {
   "rule_id": "IRON_FATIGUE_ONLY",
   "supplement_id": "iron",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -15,14 +15,23 @@
   "effect": {
     "type": "add_score",
     "score_delta": 0,
-    "recommendation_cap": "D_optional_limited",
+    "recommendation_cap": "E_no_current_indication",
     "override_result": null,
     "ask_questions": [
       "pro_labs_available"
     ]
   },
-  "rationale": "Fatigue alone is nonspecific and cannot establish iron deficiency.",
+  "rationale": "Nonspecific fatigue alone is not an indication for iron supplementation; evaluate causes and appropriate iron status.",
   "evidence_refs": [
     "NIH_IRON_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
   ]
 }
