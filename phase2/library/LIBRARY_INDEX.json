@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "status": "LIBRARY_100_COMPLETE_USER_FACING_DRAFT",
   "total_entries": 100,
   "languages": [
@@ -26,7 +26,23 @@
   "scientific_review": {
     "entries_with_specific_or_official_index_sources": 92,
     "entries_needing_deeper_source_specific_review": 8,
-    "important": "Library completeness does not activate BASIC recommendations. BASIC eligibility still requires scientific deep record + deterministic rule + safety review."
+    "important": "Library completeness does not activate BASIC recommendations. BASIC eligibility still requires scientific deep record + deterministic rule + safety review.",
+    "review_queue_policy": "Entries requiring deeper source-specific review remain educational; do not imply clinically validated recommendations."
   },
-  "commercial_future": "Brand, SKU, price and availability stay outside the scientific Library and can later map to canonical component IDs."
+  "commercial_future": "Brand, SKU, price and availability stay outside the scientific Library and can later map to canonical component IDs.",
+  "recommendation_render_requirements": {
+    "applies_to": [
+      "BASIC",
+      "PRO"
+    ],
+    "mandatory_sections": [
+      "how_to_take",
+      "daily_amount_guidance",
+      "library_safety_cta"
+    ],
+    "how_to_take": "Evidence-based administration guidance; if no established timing, explicitly state uncertainty.",
+    "daily_amount_guidance": "Evidence-based units and conditional everyday equivalence; no invented tablet strengths, household microdoses or personalized prescription.",
+    "library_safety_cta": "Direct canonical ingredient record navigation with interactions, contraindications, adverse effects, precautions and sources.",
+    "no_source_or_unverified_safety": "Do not activate a positive recommendation solely because the library entry exists."
+  }
 }
