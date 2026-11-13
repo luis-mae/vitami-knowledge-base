@@ -1,0 +1,34 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Reference intakes and safety ceilings are not prescribed supplement doses. No automatic dose until indication-specific evidence and QA.",
+  "ingredient": "zinc",
+  "priority": 9,
+  "source_refs": [
+    "NIH_ZINC_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "profile_sex_reference",
+    "pregnancy_lactation_if_relevant",
+    "diet_type",
+    "diet_animal_products_frequency",
+    "diet_legumes_nuts_seeds",
+    "supplements_current_use",
+    "medications_current_use"
+  ],
+  "supported_context": "nutritional adequacy; possible low intake in restrictive diets",
+  "protocols": [
+    {
+      "kind": "reference",
+      "amount": "Adult RDA commonly 11 mg/day men and 8 mg/day women; UL 40 mg/day",
+      "status": "REFERENCE_ONLY"
+    }
+  ],
+  "personalization": "Diet context and absorption matter; skin, hair or immunity goal alone is insufficient.",
+  "safety": [
+    "excess chronic zinc can induce copper deficiency",
+    "interactions with selected antibiotics and penicillamine"
+  ],
+  "next_review": "Validate dietary risk assessment and deficiency-specific protocols without cosmetic overclaims."
+}
