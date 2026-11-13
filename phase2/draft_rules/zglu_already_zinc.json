@@ -1,7 +1,7 @@
 {
   "rule_id": "ZGLU_ALREADY_ZINC",
   "supplement_id": "zinc_gluconate",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -18,11 +18,23 @@
     "recommendation_cap": "E_no_current_indication",
     "override_result": null,
     "ask_questions": [
-      "supplements_current_list"
+      "supplements_current_list",
+      "supplement_amount_per_unit",
+      "supplement_amount_unit"
     ]
   },
   "rationale": "Total elemental zinc from all products must be considered before adding zinc gluconate.",
   "evidence_refs": [
     "NIH_ZINC_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_total_elemental_zinc_mg_and_duration": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
   ]
 }
