@@ -1,7 +1,7 @@
 {
   "rule_id": "PSYLLIUM_SWALLOWING",
   "supplement_id": "psyllium_fiber",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -22,5 +22,15 @@
   "rationale": "Bulk-forming fiber requires adequate swallowing and fluid intake; swallowing difficulty warrants professional review.",
   "evidence_refs": [
     "FDA_PSYLLIUM_CHD"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "block_candidate_use_until_clinical_review": true
+  },
+  "correction_source_urls": [
+    "https://medlineplus.gov/druginfo/meds/a601104.html"
   ]
 }
