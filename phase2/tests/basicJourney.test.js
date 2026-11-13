@@ -1,0 +1,12 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {evaluateBasicJourney}=require('../engine/basicJourney');
+const common={questionBank:{questions:[{question_id:'profile_age',tier:'BASIC',required_for_basic:true}]},goalBank:{goals:[{goal_id:'energy',label:{es:'Energía'}}]},flow:{entry_step:{prompt:{es:'Objetivos'},max_selection:3},compact_profile_screen:{fields:[{question_id:'profile_age'}]},goal_question_routes:[]}};
+assert.equal(evaluateBasicJourney({...common}).status,'questions_required');
+assert.equal(evaluateBasicJourney({...common,selectedGoals:['energy']}).navigation.stage,'compact_profile_screen');
+const completed=evaluateBasicJourney({...common,selectedGoals:['energy'],answers:{profile_age:35}});
+assert.equal(completed.status,'complete');
+assert.deepEqual(completed.presentation.cards,[]);
+assert.deepEqual(completed.presentation.professional_review,[]);
+assert.equal(completed.presentation.actions.pro,'optional');
+console.log('basicJourney: 5 assertions passed');
