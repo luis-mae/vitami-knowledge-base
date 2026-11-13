@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "ingredient_id": "zinc",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_NOT_CLINICALLY_APPROVED",
+  "evidence_claim_es": "El zinc puede corregir ingesta insuficiente, pero no se justifica automáticamente por caída del cabello o bienestar general.",
+  "primary_source": {
+    "publisher": "NIH ODS",
+    "type": "Health Professional Fact Sheet",
+    "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+    "access_date": "2026-11-13"
+  },
+  "mandatory_precautions_es": [
+    "Contabilizar zinc elemental total y duración",
+    "El exceso sostenido puede producir deficiencia de cobre y síntomas neurológicos",
+    "Interacciones con quinolonas, tetraciclinas y penicilamina"
+  ],
+  "related_existing_rule_ids": [
+    "ZINC_ALREADY_HIGH",
+    "ZINC_HAIR_ONLY",
+    "ZINC_VEGAN"
+  ],
+  "assessment": {
+    "source_checked": true,
+    "primary_studies_individually_appraised": false,
+    "clinical_signoff": false
+  },
+  "dose_policy": "NO_PERSONALIZED_DOSE",
+  "combination_check": "REQUIRED",
+  "user_report_requirements": [
+    "Fuente y alcance",
+    "Beneficio e incertidumbre",
+    "Contraindicaciones e interacciones",
+    "Riesgos acumulados y revisión profesional"
+  ]
+}
