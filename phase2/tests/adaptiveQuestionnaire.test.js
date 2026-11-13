@@ -22,4 +22,9 @@ assert.deepEqual(run(['sleep_rest'],{profile_age:32,profile_sex_reference:'femal
 assert.equal(run(['sleep_rest'],{profile_age:32,profile_sex_reference:'female',conditions_kidney:'no',supplements_current_use:'yes',symptom_sleep:'poor',sleep_hours:6}).stage,'rule_requested_followups');
 assert.equal(run(['sleep_rest'],{profile_age:32,profile_sex_reference:'female',conditions_kidney:'no',supplements_current_use:'no',symptom_sleep:'poor',sleep_hours:6}).complete,true);
 assert.equal(run(['not_real']).stage,'select_goals');
-console.log('adaptiveQuestionnaire: 8 assertions passed');
+const brokenFlow = {...flow, goal_question_routes:[{goals:['sleep_rest'],questions:['missing_critical_question']}]};
+const broken = buildQuestionnaireStep({selectedGoals:['sleep_rest'],answers:{profile_age:32,profile_sex_reference:'female',conditions_kidney:'no',supplements_current_use:'no'},questionBank:bank,goalBank:goals,flow:brokenFlow});
+assert.equal(broken.complete,false);
+assert.deepEqual(broken.unknown_question_ids,['missing_critical_question']);
+assert.equal(broken.stage,'configuration_error');
+console.log('adaptiveQuestionnaire: 11 assertions passed');
