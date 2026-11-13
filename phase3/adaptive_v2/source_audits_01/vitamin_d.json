@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_PENDING_INDEPENDENT_CLINICAL_REVIEW",
+  "ingredient_id": "vitamin_d",
+  "claim_es": "La suplementación debe depender del contexto nutricional y clínico; la toxicidad por exceso puede causar hipercalcemia, hipercalciuria y complicaciones renales.",
+  "evidence_sources": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "publisher": "NIH ODS",
+      "updated": "2025-06-27",
+      "type": "authoritative_evidence_synthesis",
+      "supports": [
+        "toxicity",
+        "upper_intake_limits",
+        "calcium_combination",
+        "thiazide_interactions"
+      ]
+    }
+  ],
+  "limitations_es": [
+    "No asumir beneficios universales para fatiga, inmunidad o envejecimiento",
+    "No interpretar un límite superior como dosis objetivo"
+  ],
+  "mandatory_precautions_es": [
+    "Calcular vitamina D total de D2, D3 y multivitamínicos",
+    "Revisar calcio, enfermedad renal, antecedentes de hipercalcemia y uso de tiazidas",
+    "Comprobar edad y contexto para límites de ingesta"
+  ],
+  "linked_existing_draft_rule_ids": [
+    "VITD_LOW_SUN",
+    "VITD_KIDNEY",
+    "VITD_LOW_SUN_LOW_DIET"
+  ],
+  "dose_policy": "NO_PERSONALIZED_DOSE_WITHOUT_INDICATION_AND_SAFETY_REVIEW",
+  "reviewed_on": "2026-11-13",
+  "audit_method": "Source-based review of authoritative NIH ODS evidence synthesis; individual trial critical appraisal and full guideline reconciliation still pending",
+  "approval": {
+    "scientific": false,
+    "clinical": false,
+    "production": false
+  },
+  "report_requirements": [
+    "Present evidence source with publication/update date and URL",
+    "Display applicability and uncertainty",
+    "Show individual and combination precautions",
+    "Do not claim source proves individual clinical suitability"
+  ]
+}
