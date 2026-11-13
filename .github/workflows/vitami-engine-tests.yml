@@ -27,3 +27,5 @@ jobs:
         run: node phase2/tests/realRepositorySmoke.test.js
       - name: Scientific evidence gate regression
         run: node phase2/tests/scientificEvidenceGate.test.js
+      - name: Legacy UI answer normalization regression
+        run: node phase2/tests/normalizeAnswers.test.js
