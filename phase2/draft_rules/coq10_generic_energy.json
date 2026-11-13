@@ -1,7 +1,7 @@
 {
   "rule_id": "COQ10_GENERIC_ENERGY",
   "supplement_id": "coenzyme_q10",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,13 +14,19 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 1,
-    "recommendation_cap": "D_optional_limited",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
     "override_result": null,
-    "ask_questions": []
+    "ask_questions": [
+      "medications_list",
+      "pro_prior_deficiencies"
+    ]
   },
-  "rationale": "Generic energy/anti-aging claims do not justify a strong CoQ10 recommendation.",
+  "rationale": "Nonspecific fatigue or energy goals do not establish benefit from coenzyme Q10.",
   "evidence_refs": [
     "NCCIH_COQ10"
+  ],
+  "correction_source_urls": [
+    "https://www.nccih.nih.gov/health/coenzyme-q10"
   ]
 }
