@@ -1,0 +1,42 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Evidence ranges are not automatic prescriptions. Safety, product composition, population and indication must be verified before activation.",
+  "ingredient": "caffeine_performance",
+  "priority": 11,
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "profile_weight_kg",
+    "activity_type",
+    "activity_session_duration",
+    "lifestyle_caffeine_daily",
+    "symptom_sleep",
+    "work_schedule_type",
+    "medications_current_use",
+    "conditions_other_relevant",
+    "pregnancy_lactation_if_relevant"
+  ],
+  "supported_context": "selected endurance and intermittent high-intensity exercise",
+  "protocols": [
+    {
+      "kind": "event_linked",
+      "amount": "2–6 mg/kg studied 15–60 minutes before exercise",
+      "status": "STUDIED_RANGE_NOT_AUTOMATIC_PERSONALIZED_DOSE"
+    },
+    {
+      "kind": "general_adult_safety_context",
+      "amount": "400 mg/day total caffeine reference for many healthy adults, not a target or universally safe limit",
+      "status": "SAFETY_REFERENCE_ONLY"
+    }
+  ],
+  "personalization": "Body mass informs studied mg/kg exposures; count coffee, energy drinks, pre-workout and other caffeine; consider sleep, sensitivity and timing.",
+  "safety": [
+    "children/adolescents and pregnancy require distinct policies",
+    "cardiovascular symptoms, anxiety, insomnia, interacting drugs -> review",
+    "high doses add risk without reliable extra benefit"
+  ],
+  "next_review": "Determine conservative evidence-based candidate selection within studied ranges; verify population exclusions and total daily exposure."
+}
