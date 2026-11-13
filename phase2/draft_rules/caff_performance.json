@@ -1,7 +1,7 @@
 {
   "rule_id": "CAFF_PERFORMANCE",
   "supplement_id": "caffeine_performance",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -27,11 +27,31 @@
     "ask_questions": [
       "pro_weight",
       "lifestyle_caffeine_daily",
-      "symptom_sleep"
+      "symptom_sleep",
+      "profile_pregnancy",
+      "conditions_heart",
+      "medications_list"
     ]
   },
   "rationale": "Caffeine can improve endurance and some intermittent high-intensity performance.",
   "evidence_refs": [
     "NIH_EXERCISE_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "required_pre_scoring": [
+      "profile_pregnancy",
+      "conditions_heart",
+      "medications_list",
+      "lifestyle_caffeine_daily",
+      "symptom_sleep"
+    ],
+    "require_total_caffeine_mg": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
   ]
 }
