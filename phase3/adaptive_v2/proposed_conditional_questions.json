@@ -1,0 +1,581 @@
+{
+  "version": "0.1.0",
+  "status": "PROPOSED_NOT_MERGED",
+  "purpose": "Additional BASIC-eligible adaptive question definitions; review medical wording and accessibility before deployment.",
+  "questions": [
+    {
+      "question_id": "strength_training_frequency",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Cuántas veces por semana hacés entrenamiento de fuerza?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "none",
+          "label_es": "none"
+        },
+        {
+          "value": "1_2_week",
+          "label_es": "1_2_week"
+        },
+        {
+          "value": "3_4_week",
+          "label_es": "3_4_week"
+        },
+        {
+          "value": "5_plus_week",
+          "label_es": "5_plus_week"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "functional_decline",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Notaste que te cuesta más realizar actividades físicas habituales?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "no",
+          "label_es": "no"
+        },
+        {
+          "value": "yes",
+          "label_es": "yes"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": true
+    },
+    {
+      "question_id": "protein_intake_estimate",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Cómo describirías tu consumo habitual de alimentos ricos en proteínas?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "low",
+          "label_es": "low"
+        },
+        {
+          "value": "moderate",
+          "label_es": "moderate"
+        },
+        {
+          "value": "high",
+          "label_es": "high"
+        },
+        {
+          "value": "unknown",
+          "label_es": "unknown"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "mobility_balance",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Tenés dificultades recientes para caminar, levantarte o mantener el equilibrio?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "no_issue",
+          "label_es": "no_issue"
+        },
+        {
+          "value": "difficulty",
+          "label_es": "difficulty"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "training_goal_detail",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Qué querés mejorar principalmente con el entrenamiento?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "strength",
+          "label_es": "strength"
+        },
+        {
+          "value": "hypertrophy",
+          "label_es": "hypertrophy"
+        },
+        {
+          "value": "both",
+          "label_es": "both"
+        },
+        {
+          "value": "other",
+          "label_es": "other"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "joint_symptom_duration",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Desde cuándo tenés molestias articulares?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "no_symptoms",
+          "label_es": "no_symptoms"
+        },
+        {
+          "value": "new",
+          "label_es": "new"
+        },
+        {
+          "value": "weeks",
+          "label_es": "weeks"
+        },
+        {
+          "value": "months",
+          "label_es": "months"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "joint_symptom_severity",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Qué intensidad tienen esas molestias?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "none",
+          "label_es": "none"
+        },
+        {
+          "value": "mild",
+          "label_es": "mild"
+        },
+        {
+          "value": "moderate",
+          "label_es": "moderate"
+        },
+        {
+          "value": "severe",
+          "label_es": "severe"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "joint_swelling_redness",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿La articulación está hinchada, roja o caliente?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "yes",
+          "label_es": "yes"
+        },
+        {
+          "value": "no",
+          "label_es": "no"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": true
+    },
+    {
+      "question_id": "joint_diagnosis",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Un profesional te indicó algún diagnóstico articular?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "diagnosed",
+          "label_es": "diagnosed"
+        },
+        {
+          "value": "not_diagnosed",
+          "label_es": "not_diagnosed"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "muscle_symptom_onset",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Cómo comenzaron las molestias musculares?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "none",
+          "label_es": "none"
+        },
+        {
+          "value": "sudden",
+          "label_es": "sudden"
+        },
+        {
+          "value": "gradual",
+          "label_es": "gradual"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "muscle_symptom_severity",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Qué intensidad tienen las molestias musculares?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "none",
+          "label_es": "none"
+        },
+        {
+          "value": "mild",
+          "label_es": "mild"
+        },
+        {
+          "value": "moderate",
+          "label_es": "moderate"
+        },
+        {
+          "value": "severe",
+          "label_es": "severe"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "exercise_relation",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Las molestias aparecen durante o después del ejercicio?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "during",
+          "label_es": "during"
+        },
+        {
+          "value": "after",
+          "label_es": "after"
+        },
+        {
+          "value": "unrelated",
+          "label_es": "unrelated"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "muscle_red_flags",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Tenés debilidad marcada, orina oscura o dolor muscular intenso e inesperado?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "yes",
+          "label_es": "yes"
+        },
+        {
+          "value": "no",
+          "label_es": "no"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": true
+    },
+    {
+      "question_id": "cognitive_change_onset",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Notaste cambios en la memoria o concentración?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "no_change",
+          "label_es": "no_change"
+        },
+        {
+          "value": "sudden",
+          "label_es": "sudden"
+        },
+        {
+          "value": "gradual",
+          "label_es": "gradual"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": true
+    },
+    {
+      "question_id": "cognitive_daily_impact",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Estos cambios afectan tus actividades habituales?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "none",
+          "label_es": "none"
+        },
+        {
+          "value": "some",
+          "label_es": "some"
+        },
+        {
+          "value": "significant",
+          "label_es": "significant"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": true
+    },
+    {
+      "question_id": "skin_goal_detail",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Qué aspecto de la piel querés mejorar?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "appearance",
+          "label_es": "appearance"
+        },
+        {
+          "value": "specific_problem",
+          "label_es": "specific_problem"
+        },
+        {
+          "value": "other",
+          "label_es": "other"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "skin_diagnosis",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Tenés una afección de la piel diagnosticada?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "yes",
+          "label_es": "yes"
+        },
+        {
+          "value": "no",
+          "label_es": "no"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "current_skin_treatments",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Estás usando tratamientos para la piel?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "yes",
+          "label_es": "yes"
+        },
+        {
+          "value": "no",
+          "label_es": "no"
+        },
+        {
+          "value": "prefer_not",
+          "label_es": "prefer_not"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "hair_symptom_duration",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Desde cuándo notás cambios en el pelo o las uñas?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "no_symptom",
+          "label_es": "no_symptom"
+        },
+        {
+          "value": "recent",
+          "label_es": "recent"
+        },
+        {
+          "value": "longstanding",
+          "label_es": "longstanding"
+        }
+      ],
+      "allow_unknown": false,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "hair_loss_pattern",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Cómo describirías la pérdida de pelo?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "diffuse",
+          "label_es": "diffuse"
+        },
+        {
+          "value": "patchy",
+          "label_es": "patchy"
+        },
+        {
+          "value": "other",
+          "label_es": "other"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "known_deficiency_or_thyroid",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Te diagnosticaron alguna deficiencia nutricional o enfermedad tiroidea?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "yes",
+          "label_es": "yes"
+        },
+        {
+          "value": "no",
+          "label_es": "no"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": false
+    },
+    {
+      "question_id": "sleep_red_flags",
+      "tier": "BASIC_CONDITIONAL",
+      "text": {
+        "es": "¿Tenés pausas respiratorias observadas al dormir, somnolencia intensa o episodios peligrosos de sueño involuntario?"
+      },
+      "response_type": "single_choice",
+      "options": [
+        {
+          "value": "yes",
+          "label_es": "yes"
+        },
+        {
+          "value": "no",
+          "label_es": "no"
+        },
+        {
+          "value": "unsure",
+          "label_es": "unsure"
+        }
+      ],
+      "allow_unknown": true,
+      "medical_review_required": true
+    }
+  ],
+  "rules": [
+    "Answer labels are placeholders, not user-facing copy",
+    "A red-flag response must prompt appropriate medical assessment, not a supplement",
+    "Do not treat unsure as no",
+    "These are conditional questions, not a mandatory 22-question block"
+  ]
+}
