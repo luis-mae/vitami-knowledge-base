@@ -1,7 +1,7 @@
 {
   "rule_id": "PSYLLIUM_MEDICATIONS",
   "supplement_id": "psyllium_fiber",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -16,13 +16,18 @@
     "type": "add_score",
     "score_delta": 0,
     "recommendation_cap": "D_optional_limited",
-    "override_result": null,
+    "override_result": "X_professional_review_required",
     "ask_questions": [
-      "medications_list"
+      "medications_list",
+      "swallowing_difficulty",
+      "hydration_status"
     ]
   },
-  "rationale": "Medication timing review may be needed with fiber supplements; detailed compatibility belongs in PRO/professional review.",
+  "rationale": "Check specific oral medications and timing because psyllium may affect absorption; also check swallowing and fluid intake.",
   "evidence_refs": [
     "FDA_PSYLLIUM_CHD"
+  ],
+  "correction_source_urls": [
+    "https://medlineplus.gov/druginfo/natural/866.html"
   ]
 }
