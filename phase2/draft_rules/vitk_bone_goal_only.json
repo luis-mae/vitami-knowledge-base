@@ -28,5 +28,12 @@
   ],
   "correction_source_urls": [
     "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
-  ]
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "review_vitamin_k_antagonists_before_candidate_use": true
+  }
 }
