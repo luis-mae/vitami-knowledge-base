@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "status": "SCHEMA_INVARIANTS_EXECUTED_NOT_NODE_SUITE",
+  "executed_checks": 10,
+  "passed": 10,
+  "failed": 0,
+  "method": "Evaluated live GitHub JSON schemas and cross-file invariants in a JavaScript runtime; this does NOT execute adaptiveEngine.mjs or its Node test file.",
+  "checks": [
+    "three valid goals",
+    "distinct goals",
+    "deduplication invariant for activated branch IDs",
+    "renal canonical question exists",
+    "medication alias maps to canonical ID",
+    "vegan branch exists",
+    "joint/skin shared candidate exists",
+    "joint symptom question is not yet in canonical bank",
+    "pregnancy and lactation safety questions exist",
+    "question bank contains 73 questions"
+  ],
+  "limits": [
+    "Node.js 12-test suite still unexecuted",
+    "No clinical validation or dosage activation",
+    "Missing conditional question definitions remain separate proposals"
+  ],
+  "next": [
+    "Run Node test suite in repository environment",
+    "Review 22 proposed conditional questions",
+    "Implement actual adaptive branching integration without touching production app"
+  ]
+}
