@@ -1,7 +1,7 @@
 {
   "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
   "supplement_id": "potassium",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -15,14 +15,18 @@
   "effect": {
     "type": "add_score",
     "score_delta": 0,
-    "recommendation_cap": "E_no_current_indication",
-    "override_result": null,
+    "recommendation_cap": null,
+    "override_result": "X_professional_review_required",
     "ask_questions": [
-      "medications_list"
+      "medications_list",
+      "conditions_kidney"
     ]
   },
-  "rationale": "Some medicines can alter potassium levels, so medication-aware review is required before supplemental potassium.",
+  "rationale": "Medication identity must be reviewed before potassium use; ACE inhibitors, ARBs and potassium-sparing diuretics can raise potassium risk.",
   "evidence_refs": [
     "NIH_POTASSIUM_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
   ]
 }
