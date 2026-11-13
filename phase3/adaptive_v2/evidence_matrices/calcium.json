@@ -1,0 +1,40 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Reference intakes and safety ceilings are not prescribed supplement doses. No automatic dose until indication-specific evidence and QA.",
+  "ingredient": "calcium",
+  "priority": 8,
+  "source_refs": [
+    "NIH_CALCIUM_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "profile_sex_reference",
+    "diet_dairy_calcium_sources",
+    "diet_fortified_foods",
+    "calcium_diet_estimate",
+    "supplements_current_use",
+    "conditions_kidney_stones",
+    "conditions_kidney",
+    "medications_current_use"
+  ],
+  "supported_context": "bone health and low calcium intake",
+  "protocols": [
+    {
+      "kind": "reference",
+      "amount": "RDA 1000 mg/day adults 19–50; 1200 mg/day for women over 50; adult UL varies by age",
+      "status": "REFERENCE_ONLY"
+    },
+    {
+      "kind": "gap",
+      "amount": "Total reference target minus credible dietary intake estimate, only if positive",
+      "status": "REQUIRES_DIET_ESTIMATION_AND_CLINICAL_QA"
+    }
+  ],
+  "personalization": "Supplement amount is not equal to total calcium requirement; include existing calcium supplements.",
+  "safety": [
+    "kidney stones and renal disease review",
+    "drug spacing/interactions may apply"
+  ],
+  "next_review": "Validate food-frequency calcium estimation, age/sex groups and formulation-specific elemental calcium."
+}
