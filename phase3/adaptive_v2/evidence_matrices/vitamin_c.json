@@ -1,0 +1,34 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Reference intakes and safety ceilings are not prescribed supplement doses. No automatic dose until indication-specific evidence and QA.",
+  "ingredient": "vitamin_c",
+  "priority": 10,
+  "source_refs": [
+    "NIH_VITC_HP"
+  ],
+  "questions": [
+    "profile_sex_reference",
+    "pregnancy_lactation_if_relevant",
+    "diet_fruit_veg_daily",
+    "lifestyle_smoking",
+    "supplements_current_use",
+    "conditions_kidney_stones",
+    "conditions_kidney",
+    "medications_current_use"
+  ],
+  "supported_context": "dietary adequacy and specific risk factors",
+  "protocols": [
+    {
+      "kind": "reference",
+      "amount": "Adult RDA 90 mg/day men, 75 mg/day women; smokers +35 mg/day; adult UL 2000 mg/day",
+      "status": "REFERENCE_ONLY"
+    }
+  ],
+  "personalization": "Smoking changes reference intake; do not translate it into an automatic extra-pill recommendation.",
+  "safety": [
+    "kidney stone history and renal conditions merit review",
+    "avoid high-dose universal prevention claims"
+  ],
+  "next_review": "Differentiate deficiency prevention from unsupported high-dose cosmetic/immune claims."
+}
