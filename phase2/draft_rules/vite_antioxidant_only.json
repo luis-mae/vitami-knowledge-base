@@ -1,7 +1,7 @@
 {
   "rule_id": "VITE_ANTIOXIDANT_ONLY",
   "supplement_id": "vitamin_e",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -22,5 +22,14 @@
   "rationale": "High-dose vitamin E is not a generic prevention or anti-aging strategy.",
   "evidence_refs": [
     "NIH_VITE_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
   ]
 }
