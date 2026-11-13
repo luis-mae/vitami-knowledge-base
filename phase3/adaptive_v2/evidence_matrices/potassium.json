@@ -1,0 +1,50 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "potassium",
+  "priority": 34,
+  "source_refs": [
+    "NIH_POTASSIUM_HP"
+  ],
+  "questions": [
+    "diet_type",
+    "activity_sweat_level",
+    "supplements_current_use",
+    "conditions_kidney",
+    "medications_regular_use",
+    "conditions_heart"
+  ],
+  "evidence_summary": [
+    "Potassium is an essential electrolyte and most intake should generally come from foods.",
+    "Supplemental potassium can be dangerous in kidney disease and with some medications.",
+    "BASIC should not auto-prescribe a potassium supplement from diet or sweating data alone."
+  ],
+  "reference_values": {
+    "adult_male_ai": {
+      "amount": 3400,
+      "unit": "mg/day"
+    },
+    "adult_female_ai": {
+      "amount": 2600,
+      "unit": "mg/day"
+    },
+    "note": "These are total-intake reference values, not automatic supplement doses."
+  },
+  "source_dose_logic": {
+    "basic_status": "professional_gate",
+    "automatic_supplement_dose": "not_allowed"
+  },
+  "source_recommendation_ceiling": "X_professional_review_required",
+  "personalization": "Consider age, diet, relevant physiological state, medications and formulation where validated; do not automatically equate nutrient references with supplement dose.",
+  "safety": [
+    "conditions_kidney",
+    "medications_regular_use",
+    "conditions_heart"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and population limits",
+    "Resolve question bank IDs and safety conditions",
+    "Review cumulative nutrient exposure and product formulation before dose activation"
+  ]
+}
