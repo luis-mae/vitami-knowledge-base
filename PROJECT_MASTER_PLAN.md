@@ -8,7 +8,7 @@
 
 ## P0 — Inventario y arquitectura
 - [ ] P0.1 Inspeccionar proyecto real de Emergent: rutas, frontend, backend, bases de datos, autenticación, resultados, carrito, pagos, noticias y seguimiento.
-- [ ] P0.2 Registrar matriz «existe en app / existe en repo / solo especificado / falta» y dependencias.
+- [x] P0.2 Registrar matriz «existe en app / existe en repo / solo especificado / falta» y dependencias. Evidencia: `phase2/integration/REAL_APP_AUDIT_2026-11-13.md` (inventario inicial con pendientes explícitos).
 - [ ] P0.3 Definir integración y estrategia de entornos (desarrollo, prueba, producción), secretos y reversión.
 - [ ] P0.4 Confirmar arquitectura de datos, persistencia y contratos API; no duplicar sistemas existentes.
 
@@ -128,3 +128,5 @@
 - **2026-11-13 (sesión 15):** Confirmada undécima suite (`43440130056`) exitosa. Corregida evaluación de reglas `vitamiEngine.js` (`d4af85a`) para rechazar entradas numéricas parciales o no finitas y evitar coincidencias por subcadena en campos de texto; nueve pruebas `strictRuleInputs.test.js` (`b8f4458`) y duodécima suite CI (`2e7303a`). Run `43440361984` exitoso antes de activar duodécima suite; run `43440373654` en curso al registrar. Sin cambios de alcance, sin despliegue público.
 
 - **2026-11-13 (sesión 16):** Investigado fallo de la duodécima suite CI (`43440373654`, `43440479436`): expresión regular de `parseNumber` escapada incorrectamente en el código. Corregido patrón con escapes simples y anclado de comparación (`b5f461c`, `66fd3a6`). **Run `43441445520` exitoso: doce suites aprobadas**. No se modifica alcance ni se marca integración con Emergent como realizada.
+
+- **2026-11-13 (sesión 2):** Verificados repositorios de aplicación y ciencia, inspeccionados archivos reales Expo, motor, cuestionario, estado y backend. Matriz registrada en `phase2/integration/REAL_APP_AUDIT_2026-11-13.md`. **P0.2 completada** como inventario inicial, no como integración. Detección crítica: la app usa motor demostrativo con dosis fijas y el científico aún está desconectado. **Avance: 1/53 tareas (1.9%).**
