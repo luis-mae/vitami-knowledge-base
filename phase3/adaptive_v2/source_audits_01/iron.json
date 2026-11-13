@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_PENDING_INDEPENDENT_CLINICAL_REVIEW",
+  "ingredient_id": "iron",
+  "claim_es": "La fatiga aislada no permite diagnosticar ferropenia; la evaluación del estado de hierro requiere contexto clínico y pruebas apropiadas.",
+  "evidence_sources": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/iron-HealthProfessional/",
+      "publisher": "NIH ODS",
+      "updated": "2025-09-04",
+      "type": "authoritative_evidence_synthesis",
+      "supports": [
+        "iron_status_assessment",
+        "toxicity",
+        "drug_interactions"
+      ]
+    }
+  ],
+  "limitations_es": [
+    "La ferritina puede alterarse por inflamación",
+    "Una cifra aislada no siempre permite diagnosticar ni tratar"
+  ],
+  "mandatory_precautions_es": [
+    "Evitar tratamiento por fatiga sin diagnóstico",
+    "Revisar suplementos con hierro y dosis total de hierro elemental",
+    "Considerar interacciones con levotiroxina y levodopa, y efectos gastrointestinales",
+    "El exceso de hierro puede ser peligroso"
+  ],
+  "linked_existing_draft_rule_ids": [
+    "IRON_FATIGUE_ONLY",
+    "IRON_PREGNANCY",
+    "IRON_KNOWN_HIGH_INTAKE"
+  ],
+  "dose_policy": "NO_PERSONALIZED_DOSE_WITHOUT_CLINICAL_REVIEW",
+  "reviewed_on": "2026-11-13",
+  "audit_method": "Source-based review of authoritative NIH ODS evidence synthesis; individual trial critical appraisal and full guideline reconciliation still pending",
+  "approval": {
+    "scientific": false,
+    "clinical": false,
+    "production": false
+  },
+  "report_requirements": [
+    "Present evidence source with publication/update date and URL",
+    "Display applicability and uncertainty",
+    "Show individual and combination precautions",
+    "Do not claim source proves individual clinical suitability"
+  ]
+}
