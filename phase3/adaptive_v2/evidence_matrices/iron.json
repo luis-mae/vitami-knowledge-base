@@ -1,0 +1,40 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Reference intakes and safety ceilings are not prescribed supplement doses. No automatic dose until indication-specific evidence and QA.",
+  "ingredient": "iron",
+  "priority": 7,
+  "source_refs": [
+    "NIH_IRON_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "profile_sex_reference",
+    "pregnancy_lactation_if_relevant",
+    "diet_type",
+    "menstrual_bleeding_if_relevant",
+    "known_anemia",
+    "pro_labs_available",
+    "supplements_current_use",
+    "medications_current_use"
+  ],
+  "supported_context": "nutritional reference and deficiency risk; deficiency treatment requires clinical/lab context",
+  "protocols": [
+    {
+      "kind": "reference",
+      "amount": "Adult RDA varies: commonly 8 mg/day in men, 18 mg/day in menstruating adults; pregnancy 27 mg/day; adult UL 45 mg/day",
+      "status": "REFERENCE_ONLY"
+    },
+    {
+      "kind": "treatment",
+      "amount": "No automatic dose",
+      "status": "PROFESSIONAL_SUPERVISION_REQUIRED"
+    }
+  ],
+  "personalization": "Do not infer deficiency from fatigue, hair loss or diet alone; use lab-informed review.",
+  "safety": [
+    "avoid unnecessary iron; excess intake can be harmful",
+    "assess cause of suspected anemia"
+  ],
+  "next_review": "Define ferritin/CBC triage as clinician-facing information without automated diagnostic cutoffs."
+}
