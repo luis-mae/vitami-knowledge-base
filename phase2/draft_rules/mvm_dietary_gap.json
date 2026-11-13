@@ -1,7 +1,7 @@
 {
   "rule_id": "MVM_DIETARY_GAP",
   "supplement_id": "multivitamin_mineral",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,7 +14,7 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
+    "score_delta": 0,
     "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
@@ -22,8 +22,17 @@
       "supplements_current_use"
     ]
   },
-  "rationale": "A multivitamin/mineral can increase nutrient intakes but is not automatically indicated by a general wellness goal.",
+  "rationale": "General nutritional gaps do not establish a need for multivitamin supplementation; review actual diet and individual nutrients.",
   "evidence_refs": [
     "NIH_MVM_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/"
   ]
 }
