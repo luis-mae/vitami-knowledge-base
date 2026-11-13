@@ -1,7 +1,7 @@
 {
   "rule_id": "MELATONIN_JETLAG_SHIFT",
   "supplement_id": "melatonin",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [],
@@ -18,17 +18,27 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 4,
-    "recommendation_cap": "C_potential_benefit",
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
       "sleep_problem_type",
-      "medications_regular_use"
+      "medications_regular_use",
+      "profile_pregnancy"
     ]
   },
-  "rationale": "Melatonin may be relevant for selected circadian timing problems such as jet lag or shift-related sleep disruption.",
+  "rationale": "Frequent travel or shift work alone is not a diagnosis of jet lag; distinguish circadian timing, pregnancy and medications.",
   "evidence_refs": [
     "NCCIH_MELATONIN",
     "NCCIH_SLEEP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know"
   ]
 }
