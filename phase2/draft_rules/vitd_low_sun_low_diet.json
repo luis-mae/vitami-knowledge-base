@@ -1,7 +1,7 @@
 {
   "rule_id": "VITD_LOW_SUN_LOW_DIET",
   "supplement_id": "vitamin_d",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -28,13 +28,22 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 4,
-    "recommendation_cap": null,
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": []
   },
-  "rationale": "Low sun plus few dietary sources strengthens the case for reviewing vitamin D.",
+  "rationale": "Multiple dietary and sun-exposure proxies do not confirm vitamin D deficiency; verify actual intake and clinical context.",
   "evidence_refs": [
     "NIH_VITD_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
   ]
 }
