@@ -8,7 +8,7 @@ function compare(actual,expected){
   return m[1]===">="?n>=limit:m[1]==="<="?n<=limit:m[1]===">"?n>limit:n<limit;
  }
  if(Array.isArray(expected))return expected.some(x=>compare(actual,x)===true);
- if(typeof actual==="boolean"&&typeof expected==="string")return String(actual)===expected;
+ if(typeof actual==="boolean"&&typeof expected==="string")return ["yes","true","no","false"].includes(expected)?actual===["yes","true"].includes(expected):String(actual)===expected;
  if(typeof expected==="boolean"&&typeof actual==="string"&&["yes","no","true","false"].includes(actual))return ["yes","true"].includes(actual)===expected;
  return actual===expected;
 }
@@ -21,14 +21,14 @@ export function evaluateRuleCondition(pair,answers={}){
   if(!Array.isArray(value))return {match:false,unknown:true,reason:"INVALID_ARRAY:"+raw};
   return {match:value.includes(expected),unknown:false};
  }
- if(!Object.prototype.hasOwnProperty.call(answers,key)||answers[key]===null||answers[key]==="unknown"||answers[key]==="prefer_not")return {match:false,unknown:true,reason:"MISSING:"+key};
+ if(!Object.prototype.hasOwnProperty.call(answers,key)||answers[key]===null||answers[key]===undefined||answers[key]===""||answers[key]==="unknown"||answers[key]==="prefer_not"||answers[key]==="not_sure")return {match:false,unknown:true,reason:"MISSING:"+key};
  const result=compare(answers[key],expected);
  return result===null?{match:false,unknown:true,reason:"INVALID_VALUE:"+key}:{match:result,unknown:false};
 }
 export function evaluateDraftRules({rules=[],answers={},interactionReview=null}={}){
  const matches=[],unresolved=[],notMatched=[],questions=new Set(),scores=new Map(),caps=new Map(),overrides=new Map();
  for(const rule of asArray(rules)){
-  if(!rule||!rule.rule_id||!rule.supplement_id||!rule.conditions){unresolved.push({rule_id:rule?.rule_id??null,reason:"INVALID_RULE"});continue;}
+  if(!rule||!rule.rule_id||!rule.supplement_id||!rule.conditions||!Array.isArray(rule.conditions.all)||!Array.isArray(rule.conditions.any)){unresolved.push({rule_id:rule?.rule_id??null,reason:"INVALID_RULE"});continue;}
   const all=asArray(rule.conditions.all).map(x=>evaluateRuleCondition(x,answers));
   const any=asArray(rule.conditions.any).map(x=>evaluateRuleCondition(x,answers));
   const allMatch=all.every(x=>x.match),anyMatch=!any.length||any.some(x=>x.match);
@@ -46,6 +46,7 @@ export function evaluateDraftRules({rules=[],answers={},interactionReview=null}=
   if(effect.override_result)(overrides.get(rule.supplement_id)??overrides.set(rule.supplement_id,[]).get(rule.supplement_id)).push(effect.override_result);
  }
  const blockers=[];
+ if(asArray(rules).some(r=>!r?.safety_review||r.safety_review.clinical_approval!==false))blockers.push("RULE_SAFETY_METADATA_MISSING_OR_UNSAFE");
  if(!interactionReview||interactionReview.personalizedRecommendationAllowed!==false)blockers.push("INTERACTION_AUDIT_NOT_PRESENT_OR_INVALID");
  if(unresolved.length)blockers.push("RULE_INPUTS_UNRESOLVED");
  blockers.push("CLINICAL_PROTOCOL_NOT_APPROVED");
