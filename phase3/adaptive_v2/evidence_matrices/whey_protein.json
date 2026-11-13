@@ -1,0 +1,34 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Do not activate doses until population, indication, safety, source and QA are reviewed. RDA/UL are not supplement prescriptions.",
+  "ingredient": "whey_protein",
+  "priority": 2,
+  "source_refs": [
+    "NIH_EXERCISE_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "profile_weight_kg",
+    "activity_type",
+    "activity_days_per_week",
+    "diet_protein_sources",
+    "protein_intake_estimate",
+    "food_allergies",
+    "conditions_kidney"
+  ],
+  "supported_context": "help meet total protein requirements if dietary intake is insufficient",
+  "protocols": [
+    {
+      "kind": "individualized_gap",
+      "amount": "estimated evidence-based total protein target minus estimated dietary protein",
+      "status": "FORMULA_DESIGN_PENDING_SOURCE_AND_DIET_VALIDATION"
+    }
+  ],
+  "personalization": "Weight and training can inform total daily protein target, but powder dose depends on verified dietary gap; not automatic grams of whey per kg.",
+  "safety": [
+    "milk protein allergy blocks whey",
+    "kidney disease -> professional review"
+  ],
+  "next_review": "Source and validate age/activity-specific total protein ranges and feasible dietary assessment."
+}
