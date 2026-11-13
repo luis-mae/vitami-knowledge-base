@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_PENDING_INDEPENDENT_CLINICAL_REVIEW",
+  "ingredient_id": "creatine_monohydrate",
+  "claim_es": "En adultos sanos que realizan entrenamiento de fuerza o esfuerzos breves repetidos de alta intensidad, la creatina monohidrato puede mejorar rendimiento y adaptaciones al entrenamiento; no extrapolar a deportes de resistencia.",
+  "evidence_sources": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "publisher": "NIH ODS",
+      "updated": "2024-04-01",
+      "type": "authoritative_evidence_synthesis",
+      "supports": [
+        "efficacy",
+        "studied_protocols",
+        "safety"
+      ]
+    }
+  ],
+  "limitations_es": [
+    "Evidencia deportiva no implica beneficio general de energía o antienvejecimiento",
+    "Evidencia de seguridad en adultos sanos no equivale a ausencia de riesgos en enfermedad renal"
+  ],
+  "mandatory_precautions_es": [
+    "Preguntar antecedentes renales y uso de medicamentos",
+    "Comprobar formulación y cantidad total",
+    "Posible aumento de peso por retención de agua y síntomas gastrointestinales"
+  ],
+  "linked_existing_draft_rule_ids": [
+    "CREATINE_STRENGTH",
+    "CREATINE_HIGH_INTENSITY_SPORT",
+    "CREATINE_KIDNEY"
+  ],
+  "dose_policy": "El documento ODS describe protocolos estudiados, pero no se activa dosis individual hasta revisión clínica y comprobación de criterios.",
+  "reviewed_on": "2026-11-13",
+  "audit_method": "Source-based review of authoritative NIH ODS evidence synthesis; individual trial critical appraisal and full guideline reconciliation still pending",
+  "approval": {
+    "scientific": false,
+    "clinical": false,
+    "production": false
+  },
+  "report_requirements": [
+    "Present evidence source with publication/update date and URL",
+    "Display applicability and uncertainty",
+    "Show individual and combination precautions",
+    "Do not claim source proves individual clinical suitability"
+  ]
+}
