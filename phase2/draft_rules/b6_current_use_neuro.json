@@ -1,7 +1,7 @@
 {
   "rule_id": "B6_CURRENT_USE_NEURO",
   "supplement_id": "vitamin_b6",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
@@ -26,5 +26,16 @@
   "rationale": "Excess supplemental B6 can cause peripheral neuropathy; neurologic symptoms in a current user require professional review.",
   "evidence_refs": [
     "NIH_B6_HP"
+  ],
+  "safety_review": {
+    "unknown_inputs": "block_personalized_recommendation",
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "clinical_approval": false,
+    "expand_all_multivitamin_ingredients": true,
+    "require_total_b6_mg_per_day": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
   ]
 }
