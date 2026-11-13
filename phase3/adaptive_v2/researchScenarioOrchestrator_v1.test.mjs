@@ -1,0 +1,13 @@
+import assert from "node:assert/strict";
+import {evaluateVitamiResearchScenario as evaluate} from "./researchScenarioOrchestrator_v1.mjs";
+const rule={rule_id:"IRON_FATIGUE_ONLY",supplement_id:"iron",conditions:{all:[["symptom_fatigue",true]],any:[]},effect:{score_delta:0,recommendation_cap:"E_no_current_indication"}};
+const r=evaluate({rules:[rule],answers:{symptom_fatigue:true},products:[],medications:[],medicationListComplete:true,productLabelsComplete:true});
+assert.deepEqual(r.draft.matchedRuleIds,["IRON_FATIGUE_ONLY"]);
+assert.deepEqual(r.draft.draftCaps.iron,["E_no_current_indication"]);
+assert.equal(r.personalizedRecommendationAllowed,false);
+assert.equal(r.personalizedDoseAllowed,false);
+assert.equal(r.productionReady,false);
+const missing=evaluate({rules:[rule],answers:{},products:[],medications:[]});
+assert.equal(missing.draft.unresolved.length,1);
+assert.equal(missing.interactions.status,"BLOCKED_UNRESOLVED");
+console.log("7 research scenario orchestration checks passed");
