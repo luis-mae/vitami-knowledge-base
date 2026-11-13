@@ -1,0 +1,175 @@
+{
+  "version": "2.0.0-draft",
+  "status": "DESIGN_ONLY",
+  "rule_format": {
+    "when": "goal or answer predicates",
+    "ask": "canonical question ids",
+    "purpose": "decision relevance",
+    "safety_first": true
+  },
+  "branches": [
+    {
+      "when": {
+        "goal": "healthy_aging"
+      },
+      "ask": [
+        "strength_training_frequency",
+        "functional_decline",
+        "protein_intake_estimate",
+        "mobility_balance"
+      ],
+      "purpose": "differentiate muscle/functional goals from nonspecific aging claims"
+    },
+    {
+      "when": {
+        "goal": "strength_muscle"
+      },
+      "ask": [
+        "activity_type",
+        "activity_days_per_week",
+        "protein_intake_estimate",
+        "training_goal_detail",
+        "conditions_kidney"
+      ],
+      "purpose": "protein/creatine eligibility and safety"
+    },
+    {
+      "when": {
+        "goal": "sports_performance"
+      },
+      "ask": [
+        "activity_type",
+        "activity_duration",
+        "activity_days_per_week",
+        "lifestyle_caffeine_daily",
+        "symptom_sleep"
+      ],
+      "purpose": "event vs accumulation protocols"
+    },
+    {
+      "when": {
+        "goal": "joint_comfort"
+      },
+      "ask": [
+        "joint_symptom_duration",
+        "joint_symptom_severity",
+        "joint_swelling_redness",
+        "joint_diagnosis"
+      ],
+      "purpose": "triage symptoms before optional evidence review"
+    },
+    {
+      "when": {
+        "goal": "muscle_discomfort"
+      },
+      "ask": [
+        "muscle_symptom_onset",
+        "muscle_symptom_severity",
+        "exercise_relation",
+        "muscle_red_flags"
+      ],
+      "purpose": "triage, no default magnesium indication"
+    },
+    {
+      "when": {
+        "goal": "cognition"
+      },
+      "ask": [
+        "cognitive_change_onset",
+        "symptom_sleep",
+        "medications_current_use",
+        "cognitive_daily_impact"
+      ],
+      "purpose": "distinguish performance aim from new concerning symptoms"
+    },
+    {
+      "when": {
+        "goal": "skin"
+      },
+      "ask": [
+        "skin_goal_detail",
+        "sun_exposure",
+        "skin_diagnosis",
+        "current_skin_treatments"
+      ],
+      "purpose": "avoid broad cosmetic claims"
+    },
+    {
+      "when": {
+        "goal": "hair_nails"
+      },
+      "ask": [
+        "hair_symptom_duration",
+        "hair_loss_pattern",
+        "diet_restriction",
+        "known_deficiency_or_thyroid"
+      ],
+      "purpose": "avoid unsubstantiated biotin/iron use"
+    },
+    {
+      "when": {
+        "goal": "sleep"
+      },
+      "ask": [
+        "symptom_sleep",
+        "sleep_schedule",
+        "lifestyle_caffeine_daily",
+        "sleep_red_flags"
+      ],
+      "purpose": "sleep safety and context"
+    },
+    {
+      "when": {
+        "goal": "nutritional_adequacy"
+      },
+      "ask": [
+        "diet_type",
+        "diet_fortified_foods",
+        "diet_dairy_calcium_sources",
+        "diet_fatty_fish_weekly",
+        "supplements_current_use"
+      ],
+      "purpose": "reuse existing BASIC B12/D/calcium/zinc pathways"
+    },
+    {
+      "when": {
+        "answer": {
+          "diet_type": "vegan"
+        }
+      },
+      "ask": [
+        "diet_fortified_foods",
+        "supplements_current_use"
+      ],
+      "purpose": "B12 screening independent of chosen goal"
+    },
+    {
+      "when": {
+        "answer": {
+          "supplements_current_use": "yes"
+        }
+      },
+      "ask": [
+        "supplements_product_name",
+        "supplements_amount_frequency"
+      ],
+      "purpose": "prevent duplicate intake"
+    },
+    {
+      "when": {
+        "answer": {
+          "conditions_kidney": true
+        }
+      },
+      "action": "professional_review_for_creatine_and_other_relevant_supplements",
+      "purpose": "safety override"
+    }
+  ],
+  "resolution": [
+    "Global safety questions are always eligible",
+    "Questions are unique by canonical id even when multiple branches trigger",
+    "Unknown safety answers cannot be treated as negative",
+    "Symptom red flags trigger advice to seek care rather than supplement suggestion",
+    "Existing rule engine identifiers must be reconciled in implementation; no assumption of compatibility"
+  ]
+}
