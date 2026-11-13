@@ -1,0 +1,99 @@
+{
+  "version": "0.1.0",
+  "status": "EVIDENCE_REVIEW_QUEUE_NOT_VALIDATED",
+  "scope": "60 ingredients missing deep scientific records",
+  "groups": {
+    "botanical_and_extract": [
+      "ashwagandha",
+      "berberine",
+      "boswellia",
+      "cranberry_extract",
+      "elderberry",
+      "garlic_extract",
+      "ginger",
+      "ginseng_panax",
+      "green_tea_extract",
+      "milk_thistle",
+      "rhodiola",
+      "saw_palmetto",
+      "valerian"
+    ],
+    "sports_performance": [
+      "beetroot_nitrate",
+      "citrulline",
+      "hmb",
+      "sodium_bicarbonate",
+      "bcaa",
+      "essential_amino_acids",
+      "l_leucine",
+      "l_glutamine",
+      "l_carnitine",
+      "acetyl_l_carnitine",
+      "taurine",
+      "tyrosine",
+      "tart_cherry"
+    ],
+    "nutrient_and_formulation": [
+      "calcium_carbonate",
+      "chromium",
+      "copper",
+      "cyanocobalamin",
+      "ferrous_sulfate",
+      "magnesium_oxide",
+      "manganese",
+      "niacin_b3",
+      "pantothenic_acid_b5",
+      "riboflavin_b2",
+      "thiamin_b1",
+      "vitamin_d2",
+      "vitamin_k2_mk4",
+      "vitamin_k2_mk7",
+      "zinc_picolinate",
+      "beta_carotene"
+    ],
+    "lipids_and_antioxidants": [
+      "ala_omega3",
+      "dha",
+      "epa",
+      "astaxanthin",
+      "alpha_lipoic_acid",
+      "lycopene",
+      "mct_oil"
+    ],
+    "sleep_and_neuro": [
+      "glycine",
+      "l_theanine",
+      "inositol",
+      "tryptophan",
+      "nac"
+    ],
+    "protein_and_other": [
+      "casein_protein",
+      "pea_protein",
+      "plant_protein_blend",
+      "protein_supplement",
+      "glucosamine_chondroitin",
+      "spirulina"
+    ]
+  },
+  "unclassified": [],
+  "review_template": {
+    "population": "Required: studied population, age, sex/physiological context",
+    "indication": "Required: outcome and clinical context, not marketing claim",
+    "evidence": "Required: systematic reviews, guidelines and relevant trials with date/DOI/URL",
+    "effect_size": "Record clinically meaningful benefit and uncertainty; do not invent",
+    "protocol": "Record studied dose/form/timing/duration only when source verified",
+    "safety": "Interactions, contraindications, upper limits, product quality, special populations",
+    "question_dependencies": "Map to canonical question bank and new proposals",
+    "decision": "eligible / limited / insufficient / avoid / professional review",
+    "review": "Reviewer and date required before activation"
+  },
+  "review_rules": [
+    "Evaluate clinical effect and harms, not just mechanistic plausibility",
+    "Botanicals are extract- and standardization-specific",
+    "Strain-specific probiotics and compound-specific combinations cannot inherit generic claims",
+    "Salt and chemical forms must inherit cumulative intake safety checks",
+    "No default personalized dosing for 60 missing deep records"
+  ],
+  "next_action": "Research and create verified deep records in manageable source-backed batches; no automatic recommendation activation."
+}
