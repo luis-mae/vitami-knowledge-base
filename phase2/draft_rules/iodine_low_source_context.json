@@ -1,7 +1,7 @@
 {
   "rule_id": "IODINE_LOW_SOURCE_CONTEXT",
   "supplement_id": "iodine",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -24,16 +24,26 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 4,
-    "recommendation_cap": "C_potential_benefit",
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
       "supplements_current_use",
       "conditions_thyroid"
     ]
   },
-  "rationale": "Low iodized-salt use plus few animal-source foods can justify a closer iodine-intake review.",
+  "rationale": "Dietary proxies cannot confirm iodine deficiency; review thyroid status, seaweed, fortified foods, pregnancy and total iodine.",
   "evidence_refs": [
     "NIH_IODINE_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_total_iodine_mcg": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
   ]
 }
