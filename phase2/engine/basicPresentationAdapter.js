@@ -6,7 +6,7 @@ function validateCard(card) {
   if (!card || typeof card !== 'object') return {valid:false,missing:REQUIRED};
   const missing = REQUIRED.filter(k => typeof card[k] !== 'string' || !card[k].trim());
   if (POSITIVE.has(card.state)) {
-    if (!card.library_url || !/^https:\/\//.test(card.library_url)) missing.push('library_url');
+    if (!card.library_url || !/^https:\/\/[^/]+/.test(card.library_url)) missing.push('library_url');
     if (!Array.isArray(card.source_refs) || !card.source_refs.length) missing.push('source_refs');
     if (card.scientific_review_status !== 'reviewed') missing.push('scientific_review_status');
   }
@@ -18,8 +18,11 @@ function renderableBasicCards(engineResult, cardRecords=[]) {
   for (const recommendation of engineResult.recommendations || []) {
     const card=byId.get(recommendation.supplement_id);
     const check=validateCard(card);
-    if (!check.valid || !POSITIVE.has(recommendation.state) || card.state !== recommendation.state) {
-      withheld.push({supplement_id:recommendation.supplement_id,reason:'pending_verified_card',missing:check.missing});
+    const sourcesMatch=!!card && Array.isArray(recommendation.source_refs) && recommendation.source_refs.length>0 &&
+      Array.isArray(card.source_refs) && recommendation.source_refs.every(ref=>card.source_refs.includes(ref));
+    const identityMatch=!!card && card.supplement_id===recommendation.supplement_id;
+    if (!check.valid || !POSITIVE.has(recommendation.state) || card.state !== recommendation.state || !sourcesMatch || !identityMatch) {
+      withheld.push({supplement_id:recommendation.supplement_id,reason:'pending_verified_card',missing:[...check.missing,...(!sourcesMatch?['source_refs_mismatch']:[]),...(!identityMatch?['supplement_id_mismatch']:[])]});
       continue;
     }
     cards.push({...card,score:recommendation.score,matched_rules:recommendation.matched_rules});
