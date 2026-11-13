@@ -9,4 +9,7 @@ assert.equal(completed.status,'complete');
 assert.deepEqual(completed.presentation.cards,[]);
 assert.deepEqual(completed.presentation.professional_review,[]);
 assert.equal(completed.presentation.actions.pro,'optional');
-console.log('basicJourney: 5 assertions passed');
+assert.equal(evaluateBasicJourney({...common,selectedGoals:['energy'],answers:{age:35},answerAdapter:{field_aliases:{age:'profile_age'}}}).status,'complete');
+assert.equal(evaluateBasicJourney({...common,selectedGoals:['energy'],answers:{age:35,profile_age:36},answerAdapter:{field_aliases:{age:'profile_age'}}}).status,'configuration_error');
+assert.equal(evaluateBasicJourney({...common,selectedGoals:['energy'],flow:{...common.flow,goal_question_routes:[{goals:['energy'],questions:['missing_question']}]} }).status,'configuration_error');
+console.log('basicJourney: 8 assertions passed');
