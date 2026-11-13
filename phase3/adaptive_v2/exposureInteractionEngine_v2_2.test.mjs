@@ -1,0 +1,15 @@
+import assert from "node:assert/strict";
+import {auditExposureInteractions as audit} from "./exposureInteractionEngine_v2_2.mjs";
+const base={medications:[],medicationListComplete:true,productLabelsComplete:true};
+const p=(id,mg,timing="morning",durationDays=60)=>({productId:id,labelVerified:true,ingredients:[{ingredientId:id,elementalMgPerDay:mg,timing,durationDays}]});
+const nutrient={id:"IRON_ZINC",type:"nutrient",ingredient_ids:["zinc"],co_ingredient_ids:["iron"],condition:{co_elemental_iron_mg_gte:25,same_time:true}};
+const duration={id:"ZINC_COPPER",type:"nutrient_exposure",ingredient_ids:["zinc"],condition:{total_elemental_zinc_mg_per_day_gte:50,prolonged_use:true}};
+const run=(products,rules)=>audit({...base,products,rules});
+assert.equal(run([p("zinc",10),p("iron",30)],[nutrient]).alerts.length,1);
+assert.equal(run([p("zinc",10,"morning"),p("iron",30,"evening")],[nutrient]).alerts.length,0);
+assert.equal(run([p("zinc",10,null),p("iron",30)],[nutrient]).pending[0].reason,"COADMINISTRATION_TIMING_UNKNOWN");
+assert.equal(run([p("zinc",55)],[duration]).alerts.length,1);
+assert.equal(run([p("zinc",55,"morning",7)],[duration]).alerts.length,0);
+assert.equal(run([p("zinc",55,"morning",null)],[duration]).pending[0].reason,"DURATION_NOT_VERIFIED");
+assert.equal(run([p("zinc",55)],[duration]).personalizedRecommendationAllowed,false);
+console.log("7 exposure interaction checks passed");
