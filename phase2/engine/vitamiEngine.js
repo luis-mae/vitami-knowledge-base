@@ -340,7 +340,9 @@ function loadVitamiRepository(repoRoot) {
 
   const libraryRecords = fs.readdirSync(libraryDir)
     .filter(f => f.endsWith('.json') && !['LIBRARY_INDEX.json','recommendation_state_texts.json'].includes(f))
-    .map(f => loadJson(path.join(libraryDir, f)));
+    .map(f => loadJson(path.join(libraryDir, f)))
+    // Auxiliary library JSON documents are metadata, not ingredient records.
+    .filter(x => x && typeof x.id === 'string' && x.id.trim() && x.title);
 
   return {rules, doseRules, libraryRecords};
 }
