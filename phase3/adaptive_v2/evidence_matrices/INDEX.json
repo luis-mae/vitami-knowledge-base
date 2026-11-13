@@ -1,0 +1,46 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Do not activate doses until population, indication, safety, source and QA are reviewed. RDA/UL are not supplement prescriptions.",
+  "coverage": "First five of proposed fifteen priority ingredients",
+  "ingredients": [
+    {
+      "id": "creatine_monohydrate",
+      "priority": 1,
+      "path": "creatine_monohydrate.json"
+    },
+    {
+      "id": "whey_protein",
+      "priority": 2,
+      "path": "whey_protein.json"
+    },
+    {
+      "id": "vitamin_d",
+      "priority": 3,
+      "path": "vitamin_d.json"
+    },
+    {
+      "id": "vitamin_b12",
+      "priority": 4,
+      "path": "vitamin_b12.json"
+    },
+    {
+      "id": "magnesium",
+      "priority": 5,
+      "path": "magnesium.json"
+    }
+  ],
+  "next_ten": [
+    "omega_3_epa_dha",
+    "iron",
+    "calcium",
+    "zinc",
+    "vitamin_c",
+    "caffeine_performance",
+    "beta_alanine",
+    "electrolytes",
+    "psyllium",
+    "folate"
+  ],
+  "note": "Remaining identifiers are provisional and must be reconciled with repository canonical IDs."
+}
