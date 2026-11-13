@@ -1,0 +1,71 @@
+{
+  "version": "0.1.0",
+  "status": "MANDATORY_DESIGN_POLICY_NOT_DEPLOYED",
+  "locale": "es-AR",
+  "entry": {
+    "title": "Antes de comenzar",
+    "text": "VITAMI brinda información orientativa basada en la evidencia científica disponible, cuyo grado de certeza puede variar según el suplemento y el objetivo. No constituye diagnóstico, tratamiento ni indicación médica individual y no reemplaza la consulta con un médico, farmacéutico u otro profesional de salud. Los suplementos pueden causar efectos adversos e interactuar con medicamentos, enfermedades, análisis, cirugías y otros suplementos. Es indispensable leer y comprender las precauciones y contraindicaciones de cada producto, tanto por separado como en combinación. No suspendas ni reemplaces medicamentos indicados. Si tenés síntomas importantes, enfermedades, embarazo, lactancia o tomás medicación, consultá antes de usar suplementos. Podés continuar para recibir información, pero ello no garantiza que exista un suplemento apropiado.",
+    "acknowledgement": {
+      "required": true,
+      "label": "Leí y comprendí que VITAMI es orientativo y que debo revisar las precauciones individuales y combinadas; sé que puedo consultar a un profesional.",
+      "note": "Acknowledgement is not informed medical consent or waiver of liability; allow information-only use and accessible copy."
+    }
+  },
+  "results": {
+    "title": "Antes de revisar tus resultados",
+    "text": "Estas conclusiones dependen de tus respuestas y de la calidad de la evidencia disponible. Pueden existir contraindicaciones e interacciones no detectadas, especialmente si omitiste datos o no conocemos la composición exacta de los productos. Revisá las precauciones específicas de cada suplemento y del conjunto, sus dosis totales y los posibles riesgos con medicamentos. No inicies, combines ni cambies dosis por tu cuenta cuando VITAMI indique revisión profesional. Si no hay respaldo suficiente, no recomendaremos un suplemento.",
+    "acknowledgement": {
+      "required": true,
+      "label": "Entiendo que debo leer las advertencias individuales y combinadas antes de considerar cualquier producto."
+    }
+  },
+  "item": {
+    "required_fields": [
+      "ingredient_id",
+      "evidence_grade",
+      "evidence_summary",
+      "indication",
+      "benefit_limitations",
+      "adverse_effects",
+      "contraindications",
+      "drug_interactions",
+      "supplement_interactions",
+      "duplicate_ingredient_sources",
+      "special_populations",
+      "medical_review_triggers",
+      "source_refs",
+      "last_reviewed"
+    ],
+    "display": "All fields visible or explicitly marked 'evidence unavailable'; never hide precautions behind collapsed UI by default.",
+    "no_safety_data": "NO_RECOMMENDATION",
+    "unknown_interaction": "Do not state 'no interactions' when data is absent",
+    "dose_gate": "No personalized dose unless approved protocol and all applicable safety checks pass"
+  },
+  "combination": {
+    "required": true,
+    "checks": [
+      "duplicate nutrient and active ingredients across products and formulations",
+      "combined intake against verified upper limits when applicable",
+      "known pharmacologic interactions and additive adverse effects",
+      "medication interactions and contraindicated conditions",
+      "unknown formulation, medication or quantity triggers manual review"
+    ],
+    "unknown_policy": "BLOCK_PERSONALIZED_DOSE_AND_ESCALATE",
+    "no_clearance_claim": "Absence of detected interactions is not proof of safety"
+  },
+  "safety_events": {
+    "urgent": "Severe symptoms or suspected serious adverse reactions require urgent medical evaluation.",
+    "other": "Stop using the suspected product and seek professional advice if adverse effects occur; do not stop prescribed medicines without professional direction."
+  },
+  "privacy": {
+    "minimum_data": "Collect only needed health information",
+    "consent": "Separate privacy notice and explicit processing consent where legally required",
+    "retention": "Do not persist health answers without defined policy and legal review"
+  },
+  "sources": [
+    "https://www.fda.gov/consumers/consumer-updates/fda-101-dietary-supplements",
+    "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/",
+    "https://www.fda.gov/consumers/consumer-updates/mixing-medications-and-dietary-supplements-can-endanger-your-health"
+  ],
+  "legal_review": "Review Spanish copy and applicable Argentina/EU/other jurisdiction requirements before deployment."
+}
