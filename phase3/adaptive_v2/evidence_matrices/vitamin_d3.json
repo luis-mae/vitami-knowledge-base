@@ -1,0 +1,56 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "vitamin_d3",
+  "priority": 37,
+  "source_refs": [
+    "NIH_VITD_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "lifestyle_sun_exposure",
+    "diet_fatty_fish_weekly",
+    "diet_fortified_foods",
+    "conditions_kidney",
+    "conditions_other_relevant",
+    "supplements_current_use"
+  ],
+  "evidence_summary": [
+    "Vitamin D3 is one common supplemental form of vitamin D.",
+    "The biological reference values apply to vitamin D intake; D3 does not create a separate RDA.",
+    "Low sun exposure can justify evaluation but does not diagnose vitamin D deficiency."
+  ],
+  "reference_values": {
+    "adult_19_70_rda": {
+      "amount": 15,
+      "unit": "mcg/day",
+      "iu": 600
+    },
+    "adult_over_70_rda": {
+      "amount": 20,
+      "unit": "mcg/day",
+      "iu": 800
+    },
+    "adult_ul": {
+      "amount": 100,
+      "unit": "mcg/day",
+      "iu": 4000
+    }
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "form_superiority_claim": "not_assumed_without_specific_rule"
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Consider age, diet, relevant physiological state, medications and formulation where validated; do not automatically equate nutrient references with supplement dose.",
+  "safety": [
+    "conditions_kidney",
+    "conditions_other_relevant"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and population limits",
+    "Resolve question bank IDs and safety conditions",
+    "Review cumulative nutrient exposure and product formulation before dose activation"
+  ]
+}
