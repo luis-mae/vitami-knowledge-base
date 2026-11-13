@@ -1,7 +1,7 @@
 {
   "rule_id": "VITD_LOW_SUN",
   "supplement_id": "vitamin_d",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -17,16 +17,20 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
-    "recommendation_cap": null,
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
-      "diet_fatty_fish_weekly",
-      "diet_fortified_foods"
+      "diet_fortified_foods",
+      "pro_labs_available",
+      "supplements_current_list"
     ]
   },
-  "rationale": "Limited sun exposure increases relevance of reviewing vitamin D intake/status.",
+  "rationale": "Low sun exposure alone does not diagnose vitamin D deficiency or justify a personalized dose.",
   "evidence_refs": [
     "NIH_VITD_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
   ]
 }
