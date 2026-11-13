@@ -1,0 +1,50 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "methylcobalamin",
+  "priority": 31,
+  "source_refs": [
+    "NIH_B12_HP"
+  ],
+  "questions": [
+    "diet_type",
+    "diet_fortified_foods",
+    "profile_age",
+    "supplements_current_use",
+    "conditions_other_relevant"
+  ],
+  "evidence_summary": [
+    "Methylcobalamin is one supplemental form of vitamin B12.",
+    "The existence of different B12 forms does not by itself prove superior clinical outcomes for one form in all users.",
+    "Diet pattern, fortified foods, age and current supplementation are more important initial BASIC variables."
+  ],
+  "reference_values": {
+    "adult_rda": {
+      "amount": 2.4,
+      "unit": "mcg/day"
+    },
+    "pregnancy_rda": {
+      "amount": 2.6,
+      "unit": "mcg/day"
+    },
+    "lactation_rda": {
+      "amount": 2.8,
+      "unit": "mcg/day"
+    }
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "form_superiority": "not_assumed"
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Determine whether formulation-specific evidence differs from parent ingredient; no unvalidated dose conversion or automatic clinical claim.",
+  "safety": [
+    "conditions_other_relevant"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and formulation differences",
+    "Reconcile canonical questions and safety gates",
+    "Validate applicability before recommendation or dose activation"
+  ]
+}
