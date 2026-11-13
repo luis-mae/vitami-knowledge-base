@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "placement": "after complete BASIC result, never before safety information",
   "basic_free_includes": [
     "deterministic recommendation states",
@@ -13,8 +13,17 @@
     "detailed supplement-supplement compatibility analysis",
     "detailed supplement-medication interaction analysis",
     "complex product/formulation comparison",
-    "more extensive contextual follow-up"
+    "more extensive contextual follow-up",
+    "goal-specific follow-up questions selected from BASIC responses and objectives"
   ],
   "copy_rule": "Never imply the user must pay to see a safety warning already detected by BASIC.",
-  "cta_frequency": "one primary CTA at the end; optional discreet secondary CTA near advanced analysis, no repeated blocking popups"
+  "cta_frequency": "one primary CTA at the end; optional discreet secondary CTA near advanced analysis, no repeated blocking popups",
+  "pro_payment": {
+    "access": "paid_opt_in",
+    "position": "after_basic_results",
+    "requires_explicit_user_action": true,
+    "show_price_before_payment": true,
+    "never_block_free_safety": true,
+    "do_not_claim_pro_completed_before_payment_and_analysis": true
+  }
 }
