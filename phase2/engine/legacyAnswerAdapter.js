@@ -74,7 +74,11 @@ function adaptLegacyAnswers(raw = {}) {
   } else if (raw.alergias === 'No') set('conditions_allergies',false);
   const critical = ['conditions_kidney','medications_regular_use','supplements_current_use','safety_upcoming_surgery','profile_pregnancy','profile_lactation'];
   const missingCritical = critical.filter(k => answers[k] === undefined);
-  return {answers,unresolved:[...new Set(unresolved)],warnings,missing_critical:missingCritical,
-    eligible_for_automatic_recommendations:missingCritical.length===0 && unresolved.filter(x=>x.startsWith('profile_pregnancy')||x.startsWith('profile_lactation')).length===0 && !['yes','unknown'].includes(answers.profile_pregnancy) && !['yes','unknown'].includes(answers.profile_lactation)};
+  // This flag is only a conservative handoff gate, never a clinical approval.
+  // Conditions and medication/supplement use require the scientific rule engine to review interactions.
+  const flaggedRisks = ['conditions_kidney','conditions_liver','conditions_heart','conditions_allergies','safety_upcoming_surgery','medications_regular_use','supplements_current_use'].filter(k => answers[k] === true);
+  const safetyUnresolved = unresolved.filter(k => k.startsWith('conditions_') || k.startsWith('medications_') || k.startsWith('supplements_') || k.startsWith('profile_pregnancy') || k.startsWith('profile_lactation'));
+  return {answers,unresolved:[...new Set(unresolved)],warnings,missing_critical:missingCritical,flagged_risks:flaggedRisks,
+    eligible_for_automatic_recommendations:missingCritical.length===0 && safetyUnresolved.length===0 && flaggedRisks.length===0 && !['yes','unknown'].includes(answers.profile_pregnancy) && !['yes','unknown'].includes(answers.profile_lactation)};
 }
 module.exports = {adaptLegacyAnswers};
