@@ -1,0 +1,26 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "bcaa",
+  "priority": 53,
+  "source_refs_from_library": [
+    "NIH_EXERCISE_HP"
+  ],
+  "library_evidence_label": "context_dependent",
+  "library_summary_es": "La magnitud y consistencia del beneficio varían según deporte, dosis, duración y estado nutricional.",
+  "questions_to_resolve": [
+    "What specific clinical indication and population is studied?",
+    "Does benefit exceed placebo and meet clinically meaningful threshold?",
+    "What form, dose, duration and outcome were studied?",
+    "Which contraindications, interactions and special populations matter?",
+    "Which canonical questionnaire questions are required?"
+  ],
+  "safety_research": "Verify authoritative compound-specific warnings, medication interactions, pregnancy/lactation and comorbidities; do not infer safety from class.",
+  "personalized_dose": {
+    "status": "DISABLED_PENDING_VERIFIED_PROTOCOL"
+  },
+  "recommendation": {
+    "status": "INFORMATION_ONLY"
+  },
+  "note": "Catalog information and broad source pointers are not sufficient for clinical approval."
+}
