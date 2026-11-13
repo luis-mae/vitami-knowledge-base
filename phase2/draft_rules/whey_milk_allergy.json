@@ -1,26 +1,36 @@
 {
   "rule_id": "WHEY_MILK_ALLERGY",
   "supplement_id": "whey_protein",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
-    "all": [
+    "all": [],
+    "any": [
       [
         "food_allergies_contains",
         "milk"
+      ],
+      [
+        "conditions_allergies",
+        true
       ]
-    ],
-    "any": []
+    ]
   },
   "effect": {
     "type": "add_score",
     "score_delta": 0,
     "recommendation_cap": null,
     "override_result": "X_professional_review_required",
-    "ask_questions": []
+    "ask_questions": [
+      "food_allergies",
+      "conditions_allergies_list"
+    ]
   },
-  "rationale": "Whey is milk-derived and is inappropriate in milk-protein allergy without professional/product-specific review.",
+  "rationale": "Review milk protein allergy and verify product labels before recommending whey; generic allergy response requires clarification.",
   "evidence_refs": [
     "NIH_EXERCISE_HP"
+  ],
+  "correction_source_urls": [
+    "https://www.fda.gov/food/food-allergies/food-allergies-what-you-need-know"
   ]
 }
