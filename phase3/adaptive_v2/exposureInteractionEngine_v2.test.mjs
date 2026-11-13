@@ -1,0 +1,10 @@
+import assert from "node:assert/strict";import {auditExposureInteractions} from "./exposureInteractionEngine_v2.mjs";
+const base={medications:[],medicationListComplete:true,productLabelsComplete:true};
+const products=[{productId:"z",labelVerified:true,ingredients:[{ingredientId:"zinc",elementalMgPerDay:10}]},{productId:"i",labelVerified:true,ingredients:[{ingredientId:"iron",elementalMgPerDay:30}]}];
+const rule={id:"ZINC_IRON_25MG",type:"nutrient",ingredient_ids:["zinc"],co_ingredient_ids:["iron"],condition:{co_elemental_iron_mg_gte:25,same_time:true},source:{url:"https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"}};
+assert.equal(auditExposureInteractions({...base,products,rules:[rule]}).pending[0].reason,"COADMINISTRATION_TIMING_UNKNOWN");
+assert.equal(auditExposureInteractions({...base,products:[products[0]],rules:[rule]}).pending.length,0);
+assert.equal(auditExposureInteractions({...base,products:[{productId:"bad",labelVerified:false}],rules:[rule]}).status,"BLOCKED_UNRESOLVED");
+assert.equal(auditExposureInteractions({...base,products,rules:[rule],medicationListComplete:false}).status,"BLOCKED_UNRESOLVED");
+assert.equal(auditExposureInteractions({...base,products,rules:[rule]}).personalizedRecommendationAllowed,false);
+console.log("5 structural checks passed");
