@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.1",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_NOT_CLINICALLY_APPROVED",
+  "ingredient_id": "vitamin_b12",
+  "claim_es": "Vegan diet, malabsorption and certain medications increase B12 inadequacy risk; fatigue alone does not diagnose deficiency.",
+  "evidence_sources": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "publisher": "NIH Office of Dietary Supplements",
+      "source_type": "professional evidence synthesis",
+      "verified_access_date": "2026-11-13"
+    }
+  ],
+  "applicability": "Dietary adequacy and deficiency assessment, not nonspecific energy enhancement",
+  "mandatory_precautions": [
+    "Metformin and acid-suppressing medicines may reduce B12 status",
+    "Neurologic symptoms or anemia warrant clinical evaluation",
+    "Check fortified foods and other B12 supplements before adding products"
+  ],
+  "linked_rule_ids": [
+    "B12_VEGAN_LOW_FORTIFIED",
+    "B12_VEGAN_ALREADY_SUPPLEMENTED",
+    "B12_AGE50_CONTEXT"
+  ],
+  "proposed_rule_decision": "Consider nutritional assessment; no universal dose or energy claim",
+  "personalized_dose_allowed": false,
+  "independent_clinical_review": false,
+  "notes": "Source-linked critical appraisal intake; individual primary papers and jurisdictional guidelines require further verification."
+}
