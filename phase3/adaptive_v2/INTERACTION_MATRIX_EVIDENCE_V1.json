@@ -1,0 +1,162 @@
+{
+  "version": "1.0",
+  "status": "EVIDENCE_LINKED_INTERACTION_CATALOG_DRAFT_NOT_CLINICALLY_APPROVED",
+  "date": "2026-11-13",
+  "interactions": [
+    {
+      "id": "K_VKA",
+      "ingredients": [
+        "vitamin_k",
+        "vitamin_k2_mk4",
+        "vitamin_k2_mk7",
+        "multivitamin_mineral"
+      ],
+      "medications": [
+        "warfarin",
+        "acenocoumarol",
+        "phenprocoumon"
+      ],
+      "risk": "Cambio del efecto anticoagulante si cambia la ingesta de vitamina K; requiere estabilidad y seguimiento de INR.",
+      "action": "PROFESSIONAL_REVIEW_NO_AUTOMATIC_RECOMMENDATION",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "confidence": "established"
+    },
+    {
+      "id": "CALCIUM_LEVOTHYROXINE",
+      "ingredients": [
+        "calcium",
+        "calcium_citrate",
+        "calcium_carbonate",
+        "multivitamin_mineral"
+      ],
+      "medications": [
+        "levothyroxine"
+      ],
+      "risk": "Disminución de absorción de levotiroxina por calcio; la separación depende de formulación e indicaciones oficiales.",
+      "action": "MEDICATION_TIMING_REVIEW",
+      "source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "confidence": "established"
+    },
+    {
+      "id": "MINERALS_QUINOLONES",
+      "ingredients": [
+        "calcium",
+        "calcium_citrate",
+        "calcium_carbonate",
+        "magnesium",
+        "magnesium_citrate",
+        "magnesium_glycinate",
+        "magnesium_oxide",
+        "zinc",
+        "zinc_gluconate",
+        "zinc_picolinate",
+        "multivitamin_mineral"
+      ],
+      "medications": [
+        "ciprofloxacin",
+        "levofloxacin",
+        "moxifloxacin",
+        "doxycycline",
+        "tetracycline"
+      ],
+      "risk": "Ciertos cationes reducen absorción de determinados antibióticos; tiempos específicos dependen del medicamento.",
+      "action": "MEDICATION_TIMING_REVIEW",
+      "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "confidence": "established"
+    },
+    {
+      "id": "MAGNESIUM_BISPHOSPHONATE",
+      "ingredients": [
+        "magnesium",
+        "magnesium_citrate",
+        "magnesium_glycinate",
+        "magnesium_oxide"
+      ],
+      "medications": [
+        "alendronate",
+        "risedronate"
+      ],
+      "risk": "Magnesio puede reducir absorción de bisfosfonatos orales.",
+      "action": "MEDICATION_TIMING_REVIEW",
+      "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "confidence": "established"
+    },
+    {
+      "id": "VITAMIN_K_MULTIVITAMIN",
+      "ingredients": [
+        "vitamin_k",
+        "vitamin_k2_mk4",
+        "vitamin_k2_mk7",
+        "multivitamin_mineral"
+      ],
+      "medications": [
+        "warfarin"
+      ],
+      "risk": "Un multivitamínico puede modificar la ingesta de vitamina K aun cuando no se elija vitamina K como ingrediente principal.",
+      "action": "PROFESSIONAL_REVIEW_NO_AUTOMATIC_RECOMMENDATION",
+      "source": "https://www.nccih.nih.gov/health/vitamins-and-minerals",
+      "confidence": "established"
+    },
+    {
+      "id": "ZINC_COPPER",
+      "ingredients": [
+        "zinc",
+        "zinc_gluconate",
+        "zinc_picolinate",
+        "multivitamin_mineral"
+      ],
+      "co_nutrients": [
+        "copper"
+      ],
+      "risk": "Dosis elevadas y sostenidas de zinc pueden disminuir absorción de cobre; no es una contraindicación absoluta de combinarlos.",
+      "action": "CHECK_TOTAL_ELEMENTAL_ZINC_DURATION_AND_COPPER",
+      "source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "confidence": "established"
+    },
+    {
+      "id": "POTASSIUM_RENAL_DRUGS",
+      "ingredients": [
+        "potassium",
+        "electrolyte_mix"
+      ],
+      "medication_classes": [
+        "ACE_inhibitor",
+        "ARB",
+        "potassium_sparing_diuretic"
+      ],
+      "risk": "Posible hiperpotasemia, particularmente en enfermedad renal o con medicamentos que reducen excreción de potasio.",
+      "action": "PROFESSIONAL_REVIEW_NO_AUTOMATIC_RECOMMENDATION",
+      "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "confidence": "established"
+    },
+    {
+      "id": "MAGNESIUM_RENAL",
+      "ingredients": [
+        "magnesium",
+        "magnesium_citrate",
+        "magnesium_glycinate",
+        "magnesium_oxide"
+      ],
+      "conditions": [
+        "kidney_disease"
+      ],
+      "risk": "La reducción de excreción renal incrementa riesgo de hipermagnesemia.",
+      "action": "PROFESSIONAL_REVIEW_NO_AUTOMATIC_RECOMMENDATION",
+      "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "confidence": "established"
+    }
+  ],
+  "implementation_rules": [
+    "Match medications by normalized generic name and clinically validated class, not substring",
+    "Inspect all ingredients including multivitamins and electrolyte mixtures",
+    "Unknown or unparsed medication list blocks personalized recommendation",
+    "Do not give medication scheduling instructions without verifying product-specific label",
+    "All combinations and cumulative quantities must be assessed before approval",
+    "Source citations must appear with each user-facing warning"
+  ],
+  "approval": {
+    "scientific": false,
+    "clinical": false,
+    "production": false
+  }
+}
