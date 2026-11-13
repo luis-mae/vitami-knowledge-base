@@ -22,8 +22,10 @@ export function auditExposureInteractionsV3({products=[],medications=[],medicati
  const meds=new Set(list(medications).map(norm));
  const entries=ids=>list(ids).flatMap(id=>exposures.get(canonical(id))??[]);
  for(const rule of list(rules)){
-  const matched=entries(rule.ingredient_ids);if(!matched.length)continue;
+  const ingredientIds=list(rule.ingredient_ids).filter(x=>canonical(x)!=="multivitamin_mineral");
+  const matched=entries(ingredientIds);if(!matched.length)continue;
   if(rule.type==="drug"){
+   if(rule.id==="MULTIVITAMIN_WARFARIN")continue; // Covered only by confirmed vitamin K ingredient rule.
    if(!medicationListComplete){pending.push({id:rule.id,reason:"MEDICATION_LIST_UNKNOWN"});continue;}
    if(!list(rule.drug_names).some(x=>meds.has(norm(x))))continue;
    // A multivitamin is not proof of vitamin K; only actual ingredient rows match.
