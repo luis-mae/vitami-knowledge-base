@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "ingredient_id": "vitamin_a",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_NOT_CLINICALLY_APPROVED",
+  "evidence_claim_es": "Diferenciar retinol y ésteres de retinilo de carotenoides provitamina A; la toxicidad y los límites no son intercambiables.",
+  "primary_source": {
+    "publisher": "NIH ODS",
+    "type": "Health Professional Fact Sheet",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+    "access_date": "2026-11-13"
+  },
+  "mandatory_precautions_es": [
+    "Vitamina A preformada en exceso es teratógena; embarazo y posibilidad de embarazo requieren especial atención",
+    "Acumulación con multivitamínicos, retinoides y alimentos ricos en retinol",
+    "Diferenciar beta-caroteno suplementario en fumadores y exposición a asbesto"
+  ],
+  "related_existing_rule_ids": [
+    "VITA_PREG_CURRENT_USE",
+    "VITA_LOW_DIET_CONTEXT"
+  ],
+  "assessment": {
+    "source_checked": true,
+    "primary_studies_individually_appraised": false,
+    "clinical_signoff": false
+  },
+  "dose_policy": "NO_PERSONALIZED_DOSE",
+  "combination_check": "REQUIRED",
+  "user_report_requirements": [
+    "Fuente y alcance",
+    "Beneficio e incertidumbre",
+    "Contraindicaciones e interacciones",
+    "Riesgos acumulados y revisión profesional"
+  ]
+}
