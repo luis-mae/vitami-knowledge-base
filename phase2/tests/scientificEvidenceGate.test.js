@@ -1,0 +1,14 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {buildBasicResponse}=require('../engine/vitamiEngine');
+const rule={rule_id:'TEST_EVIDENCE',supplement_id:'test_ingredient',conditions:{all:[['profile_age','>=18']]},effect:{score_delta:5},evidence_refs:['source-rule']};
+const library={id:'test_ingredient',title:{es:'Prueba'},source_refs:['source-library']};
+const dose={supplement_id:'test_ingredient',status:'reviewed'};
+const run=(r=rule,l=library,d=dose)=>buildBasicResponse({rawAnswers:{profile_age:35},rules:[r],libraryRecords:[l],doseRules:[d]});
+assert.equal(run().recommendations.length,1);
+assert.equal(run({...rule,evidence_refs:[]}).recommendations.length,0);
+assert.equal(run(rule,{...library,source_refs:[]}).recommendations.length,0);
+assert.equal(run(rule,library,{...dose,status:'draft'}).recommendations.length,0);
+assert.equal(run(rule,{...library,id:'other'}).recommendations.length,0);
+assert.equal(run({...rule,evidence_refs:[]}).not_recommended[0].display_status,'pending_scientific_content_review');
+console.log('scientificEvidenceGate: 6 assertions passed');
