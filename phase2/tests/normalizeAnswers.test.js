@@ -1,0 +1,12 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {normalizeAnswers}=require('../engine/normalizeAnswers');
+const config=require('../engine/uiAnswerAdapter.json');
+assert.deepEqual(normalizeAnswers({age:35,diet:'Vegana',activity_level:'Sí, de manera regular'},config).answers,{profile_age:35,diet_type:'vegan',activity_level:'regular'});
+assert.equal(normalizeAnswers({age:35,profile_age:36},config).valid,false);
+assert.equal(normalizeAnswers({age:35,profile_age:35},config).valid,true);
+assert.equal(normalizeAnswers({diet:'No especificada'},config).answers.diet_type,'No especificada');
+assert.equal(normalizeAnswers({age:0},config).answers.profile_age,0);
+assert.equal(normalizeAnswers({age:null},config).answers.profile_age,null);
+assert.throws(()=>normalizeAnswers([]),TypeError);
+console.log('normalizeAnswers: 7 assertions passed');
