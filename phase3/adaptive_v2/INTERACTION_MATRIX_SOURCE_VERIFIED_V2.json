@@ -1,0 +1,128 @@
+{
+  "version": "2.0",
+  "status": "SOURCE_VERIFIED_DRAFT_NOT_CLINICALLY_APPROVED",
+  "reviewed_at": "2026-11-13",
+  "rules": [
+    {
+      "id": "K_ANTAGONIST_PROSPECTIVE",
+      "type": "drug",
+      "ingredient_ids": [
+        "vitamin_k",
+        "vitamin_k2_mk4",
+        "vitamin_k2_mk7",
+        "multivitamin_mineral"
+      ],
+      "drug_names": [
+        "warfarin",
+        "acenocoumarol",
+        "phenprocoumon"
+      ],
+      "severity": "professional_review",
+      "claim": "La vitamina K de alimentos y suplementos puede modificar el efecto de antagonistas de vitamina K; evitar cambios bruscos y consultar seguimiento de INR.",
+      "source": {
+        "url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "section": "Interactions with Medications / Warfarin and similar anticoagulants"
+      },
+      "evidence_level": "authoritative_review",
+      "action": "NO_PERSONALIZED_RECOMMENDATION"
+    },
+    {
+      "id": "ZINC_IRON_25MG",
+      "type": "nutrient",
+      "ingredient_ids": [
+        "zinc",
+        "zinc_gluconate",
+        "zinc_picolinate"
+      ],
+      "co_ingredient_ids": [
+        "iron",
+        "iron_bisglycinate",
+        "ferrous_sulfate"
+      ],
+      "condition": {
+        "co_elemental_iron_mg_gte": 25,
+        "same_time": true
+      },
+      "severity": "timing_review",
+      "claim": "Una dosis suplementaria de hierro elemental de 25 mg o más tomada simultáneamente puede disminuir la absorción del zinc.",
+      "source": {
+        "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "section": "Dietary Supplements"
+      },
+      "evidence_level": "authoritative_review",
+      "action": "REVIEW_TIMING_AND_QUANTITIES"
+    },
+    {
+      "id": "ZINC_HIGH_COPPER",
+      "type": "nutrient_exposure",
+      "ingredient_ids": [
+        "zinc",
+        "zinc_gluconate",
+        "zinc_picolinate",
+        "multivitamin_mineral"
+      ],
+      "condition": {
+        "total_elemental_zinc_mg_per_day_gte": 50,
+        "prolonged_use": true
+      },
+      "severity": "professional_review",
+      "claim": "El zinc en dosis altas durante semanas puede interferir con la absorción de cobre y ocasionar problemas clínicos.",
+      "source": {
+        "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "section": "Health Risks from Excessive Zinc"
+      },
+      "evidence_level": "authoritative_review",
+      "action": "NO_PERSONALIZED_RECOMMENDATION"
+    },
+    {
+      "id": "MAGNESIUM_TETRACYCLINE",
+      "type": "drug",
+      "ingredient_ids": [
+        "magnesium",
+        "magnesium_citrate",
+        "magnesium_glycinate",
+        "magnesium_oxide"
+      ],
+      "drug_names": [
+        "doxycycline",
+        "tetracycline",
+        "demeclocycline",
+        "ciprofloxacin",
+        "levofloxacin"
+      ],
+      "severity": "timing_review",
+      "claim": "El magnesio puede formar complejos y reducir la absorción de determinadas tetraciclinas y quinolonas.",
+      "source": {
+        "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "section": "Interactions with Medications / Antibiotics"
+      },
+      "evidence_level": "authoritative_review",
+      "action": "REVIEW_DRUG_SPECIFIC_LABEL"
+    },
+    {
+      "id": "MULTIVITAMIN_WARFARIN",
+      "type": "drug",
+      "ingredient_ids": [
+        "multivitamin_mineral"
+      ],
+      "drug_names": [
+        "warfarin"
+      ],
+      "severity": "professional_review",
+      "claim": "Los multivitamínicos que contienen vitamina K pueden interferir con warfarina; confirmar etiqueta y composición.",
+      "source": {
+        "url": "https://www.nccih.nih.gov/health/vitamins-and-minerals",
+        "section": "Safety"
+      },
+      "evidence_level": "authoritative_review",
+      "action": "NO_PERSONALIZED_RECOMMENDATION"
+    }
+  ],
+  "limitations": [
+    "A product category is not proof that a particular brand contains vitamin K or zinc; verify ingredient labels",
+    "No matches found does not establish safety",
+    "Dose-dependent findings require quantified elemental amounts and duration",
+    "These source sections are evidence syntheses, not individualized clinical advice"
+  ],
+  "clinical_approval": false
+}
