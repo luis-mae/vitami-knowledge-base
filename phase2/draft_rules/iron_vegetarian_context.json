@@ -1,7 +1,7 @@
 {
   "rule_id": "IRON_VEGETARIAN_CONTEXT",
   "supplement_id": "iron",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [],
@@ -18,15 +18,20 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 2,
-    "recommendation_cap": null,
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
-      "pro_labs_available"
+      "pro_prior_deficiencies",
+      "pro_labs_available",
+      "supplements_current_list"
     ]
   },
-  "rationale": "Vegetarian iron requirements are higher because nonheme iron is less bioavailable.",
+  "rationale": "Vegetarian diet can increase risk of inadequate iron but is not a diagnosis; avoid automatic iron recommendation.",
   "evidence_refs": [
     "NIH_IRON_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
   ]
 }
