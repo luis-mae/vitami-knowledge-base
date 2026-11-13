@@ -1,7 +1,7 @@
 {
   "rule_id": "BA_ENDURANCE_ONLY",
   "supplement_id": "beta_alanine",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -19,8 +19,17 @@
     "override_result": null,
     "ask_questions": []
   },
-  "rationale": "Evidence is less compelling for pure endurance contexts.",
+  "rationale": "Beta-alanine has limited relevance to pure endurance-only performance; avoid a positive recommendation without event-specific evidence.",
   "evidence_refs": [
     "NIH_EXERCISE_HP"
+  ],
+  "safety_review": {
+    "unknown_inputs": "block_personalized_recommendation",
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
   ]
 }
