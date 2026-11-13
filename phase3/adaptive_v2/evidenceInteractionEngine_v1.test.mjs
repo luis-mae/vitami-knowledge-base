@@ -1,0 +1,11 @@
+import assert from "node:assert/strict";
+import {evaluateEvidenceInteractions} from "./evidenceInteractionEngine_v1.mjs";
+const matrix={interactions:[{id:"K_VKA",ingredients:["vitamin_k2_mk7","multivitamin_mineral"],medications:["warfarin"],risk:"INR",action:"PROFESSIONAL_REVIEW_NO_AUTOMATIC_RECOMMENDATION",source:"https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"},{id:"MG_AB",ingredients:["magnesium"],medications:["doxycycline"],risk:"absorption",action:"MEDICATION_TIMING_REVIEW",source:"https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"}]};
+const opts={matrix,medicationListKnown:true,ingredientListKnown:true};
+assert.equal(evaluateEvidenceInteractions({...opts,ingredientIds:["multivitamin_mineral"],medicationGenericNames:["warfarin"]}).findings[0].id,"K_VKA");
+assert.equal(evaluateEvidenceInteractions({...opts,ingredientIds:["vitamin_k2_mk7"],medicationGenericNames:["warfarin"]}).findings.length,1);
+assert.equal(evaluateEvidenceInteractions({...opts,ingredientIds:["magnesium"],medicationGenericNames:["doxycycline"]}).findings[0].id,"MG_AB");
+assert.equal(evaluateEvidenceInteractions({...opts,ingredientIds:["magnesium"],medicationGenericNames:["warfarin"]}).status,"NO_MATCHES_FOUND_NOT_CLEARED");
+assert.equal(evaluateEvidenceInteractions({...opts,ingredientIds:["magnesium"],medicationGenericNames:["doxycycline"],medicationListKnown:false}).status,"BLOCKED_INCOMPLETE_DATA");
+assert.equal(evaluateEvidenceInteractions({...opts,ingredientIds:["magnesium"],medicationGenericNames:["doxycycline"]}).personalizedRecommendationAllowed,false);
+console.log("6 structural tests passed");
