@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "implementation_contract",
   "entry_step": {
     "id": "select_goals",
@@ -15,10 +15,12 @@
   },
   "flow": [
     "select_goals",
-    "shared_profile_and_safety",
+    "compact_profile_screen",
+    "shared_safety_questions",
     "goal_specific_questions",
     "rule_requested_followups",
-    "results"
+    "basic_results",
+    "optional_paid_pro_analysis"
   ],
   "selection_policy": {
     "deduplicate_questions": true,
@@ -39,9 +41,10 @@
         "sleep_rest"
       ],
       "questions": [
-        "sleep_quality",
-        "sleep_duration",
-        "caffeine_daily"
+        "symptom_sleep",
+        "sleep_hours",
+        "sleep_problem_type",
+        "lifestyle_caffeine_daily"
       ]
     },
     {
@@ -51,10 +54,12 @@
         "exercise_recovery"
       ],
       "questions": [
+        "activity_level",
         "activity_type",
         "activity_intensity",
         "activity_session_duration",
-        "activity_frequency"
+        "activity_days_per_week",
+        "diet_protein_sources"
       ]
     },
     {
@@ -64,10 +69,89 @@
       "questions": [
         "diet_type",
         "diet_fatty_fish_weekly",
-        "diet_fruit_veg_daily"
+        "diet_fruit_veg_daily",
+        "diet_fortified_foods"
+      ]
+    },
+    {
+      "goals": [
+        "digestive_health"
+      ],
+      "questions": [
+        "symptom_digestive",
+        "diet_fiber_sources",
+        "hydration_status"
+      ]
+    },
+    {
+      "goals": [
+        "energy_vitality"
+      ],
+      "questions": [
+        "symptom_fatigue",
+        "sleep_hours",
+        "diet_type"
       ]
     }
   ],
   "routing_note": "Route question IDs must be validated against the current question bank before enabling; unrecognized IDs must be ignored and flagged, never displayed as fabricated questions.",
-  "basic_pro": "Both tiers begin with goals; PRO can deepen goal-specific followups but BASIC safety information stays free."
+  "basic_pro": "Both tiers begin with goals; PRO can deepen goal-specific followups but BASIC safety information stays free.",
+  "compact_profile_screen": {
+    "layout": "single_responsive_screen",
+    "title": {
+      "es": "Contanos un poco sobre vos",
+      "en": "Tell us a little about yourself",
+      "it": "Raccontaci qualcosa di te"
+    },
+    "fields": [
+      {
+        "question_id": "profile_age",
+        "required": true
+      },
+      {
+        "question_id": "profile_sex_reference",
+        "required": "only_when_reference_depends_on_it"
+      },
+      {
+        "question_id": "pro_height",
+        "required": false,
+        "visibility": "when_needed_for_selected_goal_or_supported_calculation"
+      },
+      {
+        "question_id": "pro_weight",
+        "required": false,
+        "visibility": "when_needed_for_selected_goal_or_supported_calculation"
+      }
+    ],
+    "units": {
+      "height": [
+        "cm"
+      ],
+      "weight": [
+        "kg"
+      ]
+    },
+    "validation": "Use existing question-bank constraints; do not make height or weight universal mandatory inputs.",
+    "interaction": "Show compact grouped inputs, preserve answers on back navigation and allow edits."
+  },
+  "question_ui": {
+    "group_related_questions": true,
+    "conditional_subquestions": true,
+    "hide_irrelevant_questions": true,
+    "ask_once_for_multiple_goals": true,
+    "show_progress_by_section": true,
+    "never_skip_critical_safety": true
+  },
+  "results_actions": {
+    "paid_pro_analysis": {
+      "optional": true,
+      "after_basic": true,
+      "do_not_paywall_basic_safety": true
+    },
+    "existing_cart": {
+      "restore": true,
+      "show_only_when_valid_product_mapping_and_commerce_enabled": true,
+      "never_auto_add": true
+    }
+  }
 }
