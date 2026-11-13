@@ -1,0 +1,27 @@
+name: VITAMI science regression tests
+on:
+  push:
+    branches:
+      - main
+      - design/adaptive-questionnaire-v2
+  pull_request:
+  workflow_dispatch:
+jobs:
+  node-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax check
+        run: |
+          node --check phase2/engine/vitamiEngine.js
+          node --check phase2/engine/adaptiveQuestionnaire.js
+          node --check phase2/engine/legacyAnswerAdapter.js
+      - name: BASIC safety regression
+        run: node phase2/tests/basicSafetyRegression.test.js
+      - name: Goal-first questionnaire regression
+        run: node phase2/tests/adaptiveQuestionnaire.test.js
+      - name: Legacy answer safety regression
+        run: node phase2/tests/legacyAnswerAdapter.test.js
