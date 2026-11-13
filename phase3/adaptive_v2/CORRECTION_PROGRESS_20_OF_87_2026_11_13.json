@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-13",
+  "status": "PARTIAL_CORRECTIONS_COMMITTED_PENDING_CLINICAL_REVIEW",
+  "total_original_rules": 87,
+  "original_rule_files_updated": 20,
+  "remaining_original_rule_files_not_updated_this_session": 67,
+  "changed_rule_ids": [
+    "IRONBIS_FATIGUE_ONLY",
+    "MTHF_PREGNANT",
+    "MTHF_PREG_PLANNING",
+    "POTASSIUM_SWEAT_ONLY",
+    "ZINC_HAIR_ONLY",
+    "MVM_GENERAL_WELLNESS_ONLY",
+    "COQ10_GENERIC_ENERGY",
+    "CHOLINE_COGNITIVE_ONLY",
+    "VITK_BONE_GOAL_ONLY",
+    "MELATONIN_PREGNANCY",
+    "VITC_SMOKER",
+    "SEL_HAIR_NAILS",
+    "ZINC_VEGAN",
+    "VITD_LOW_SUN",
+    "IRON_VEGETARIAN_CONTEXT",
+    "POTASSIUM_MEDICATION_CONTEXT",
+    "PSYLLIUM_MEDICATIONS",
+    "VITA_PREG_CURRENT_USE",
+    "WHEY_MILK_ALLERGY",
+    "BIOTIN_LABS"
+  ],
+  "changes_applied": [
+    "Remove unsupported positive scoring from weak nonspecific indications",
+    "Add pregnancy prospective safety checks for melatonin and vitamin A",
+    "Require medication review for potassium and psyllium",
+    "Warn on biotin laboratory interference independent of prior test availability",
+    "Attach explicit supporting source URLs to corrected rules"
+  ],
+  "cross_product_policy_file": "phase3/adaptive_v2/MANDATORY_CROSS_PRODUCT_SAFETY_AND_TOTAL_DOSE_CONTRACT_V1.json",
+  "interaction_matrix_file": "phase3/adaptive_v2/INTERACTION_MATRIX_SOURCE_VERIFIED_V2.json",
+  "verification": "Four corrected rule files refetched and key changes verified; no end-to-end tests executed.",
+  "known_limitations": [
+    "67 other original rules remain without changes from this session, even though some may already be adequate",
+    "Cross-product contract is not yet enforced by the published application",
+    "Some corrected source reference IDs may need registry normalization",
+    "No clinical signoff or independent primary-study critical appraisal",
+    "No assertion of completed steps 1-3 across all 87 rules"
+  ],
+  "production_changes": false
+}
