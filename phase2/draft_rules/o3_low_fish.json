@@ -1,7 +1,7 @@
 {
   "rule_id": "O3_LOW_FISH",
   "supplement_id": "omega_3_epa_dha",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,15 +14,24 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 3,
-    "recommendation_cap": null,
+    "score_delta": 0,
+    "recommendation_cap": "D_optional_limited",
     "override_result": null,
     "ask_questions": [
       "diet_type"
     ]
   },
-  "rationale": "Low fish/seafood intake makes omega-3 intake worth reviewing, but does not establish a universal supplement dose.",
+  "rationale": "Low oily fish intake is a dietary context rather than a universal indication for omega-3 supplements; assess diet, dose and anticoagulants.",
   "evidence_refs": [
     "NIH_OMEGA3_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
   ]
 }
