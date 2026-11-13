@@ -1,0 +1,31 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "vitamin_d2",
+  "priority": 48,
+  "source_refs_from_library": [
+    "NIH_VITD_HP"
+  ],
+  "library_evidence_label": "form_specific_context",
+  "library_summary_es": "Vitami no asume que una forma sea superior a otra salvo que exista evidencia específica para el resultado buscado.",
+  "proposed_indication": "vitamin D nutritional adequacy/deficiency, not generic antiaging",
+  "known_safety_topics_to_verify": [
+    "kidney disease",
+    "hypercalcemia",
+    "cumulative vitamin D products"
+  ],
+  "research_tasks": [
+    "NIH ODS vitamin D: D2 vs D3 evidence and indication-specific dosing",
+    "Extract population, comparator, outcomes, effect sizes and study dates",
+    "Verify studied dose, formulation, duration and contraindications",
+    "Map canonical questions, unknown answers and medication interactions",
+    "Have scientific/clinical reviewer approve before any recommendation"
+  ],
+  "personalized_dose": {
+    "status": "DISABLED_PENDING_VERIFIED_PROTOCOL"
+  },
+  "recommendation": {
+    "status": "INFORMATION_ONLY"
+  },
+  "note": "This intake record is not equivalent to a verified scientific deep record."
+}
