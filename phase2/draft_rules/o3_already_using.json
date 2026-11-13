@@ -1,7 +1,7 @@
 {
   "rule_id": "O3_ALREADY_USING",
   "supplement_id": "omega_3_epa_dha",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -17,10 +17,23 @@
     "score_delta": 0,
     "recommendation_cap": null,
     "override_result": null,
-    "ask_questions": []
+    "ask_questions": [
+      "supplements_current_list",
+      "supplement_amount_per_unit"
+    ]
   },
   "rationale": "EPA+DHA per serving must be known before any additional recommendation.",
   "evidence_refs": [
     "NIH_OMEGA3_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_total_epa_and_dha_mg": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
   ]
 }
