@@ -1,0 +1,35 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "policy": "Do not activate doses until population, indication, safety, source and QA are reviewed. RDA/UL are not supplement prescriptions.",
+  "ingredient": "magnesium",
+  "priority": 5,
+  "source_refs": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "questions": [
+    "profile_age",
+    "profile_sex_reference",
+    "diet_legumes_nuts_seeds",
+    "supplements_current_use",
+    "medications_current_use",
+    "conditions_kidney",
+    "pregnancy_lactation_if_relevant",
+    "goal_detail"
+  ],
+  "supported_context": "nutritional adequacy, not generic remedy for all cramps, pain or insomnia",
+  "protocols": [
+    {
+      "kind": "nutritional_reference",
+      "amount": "Adult RDA varies by age/sex; adult supplemental UL 350 mg/day",
+      "status": "REFERENCE_ONLY_NOT_SUPPLEMENT_DOSE"
+    }
+  ],
+  "personalization": "Age/sex and dietary intake change reference requirements; supplemental form and elemental Mg matter.",
+  "safety": [
+    "renal disease -> professional review",
+    "bisphosphonate and some antibiotic interactions",
+    "UL applies to supplemental magnesium only"
+  ],
+  "next_review": "Evaluate indication-specific evidence for sleep, cramps and deficiency; distinguish elemental magnesium from compound weight."
+}
