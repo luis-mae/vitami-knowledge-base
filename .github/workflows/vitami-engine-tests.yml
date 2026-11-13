@@ -35,3 +35,5 @@ jobs:
         run: node phase2/tests/auditScientificReferences.test.js
       - name: Real goal-first questionnaire audit
         run: node phase2/tests/auditQuestionnaireConfig.test.js
+      - name: Strict clinical rule input regression
+        run: node phase2/tests/strictRuleInputs.test.js
