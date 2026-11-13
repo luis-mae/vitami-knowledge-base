@@ -1,7 +1,7 @@
 {
   "rule_id": "MTHF_PREGNANT",
   "supplement_id": "methylfolate_5mthf",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,17 +14,19 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 1,
-    "recommendation_cap": "D_optional_limited",
-    "override_result": null,
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
+    "override_result": "X_professional_review_required",
     "ask_questions": [
-      "supplements_current_use",
-      "medications_regular_use"
+      "supplements_current_list",
+      "medications_list"
     ]
   },
-  "rationale": "Pregnancy requires a folate plan, but formulation choice and total intake need context.",
+  "rationale": "5-MTHF must not be presented as clinically equivalent to folic acid for prevention of neural tube defects; pregnancy requires clinician review.",
   "evidence_refs": [
-    "NIH_FOLATE_HP",
-    "NIH_PREGNANCY_HP"
+    "NIH_FOLATE_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
   ]
 }
