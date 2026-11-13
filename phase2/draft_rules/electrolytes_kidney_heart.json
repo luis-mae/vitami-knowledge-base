@@ -1,7 +1,7 @@
 {
   "rule_id": "ELECTROLYTES_KIDNEY_HEART",
   "supplement_id": "electrolyte_mix",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [],
@@ -26,5 +26,20 @@
   "rationale": "Electrolyte formulas can contain substantial sodium or potassium; kidney or heart disease requires individualized review.",
   "evidence_refs": [
     "NIH_POTASSIUM_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "review_medication_classes": [
+      "ACE_inhibitor",
+      "ARB",
+      "potassium_sparing_diuretic"
+    ],
+    "require_electrolyte_label": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
   ]
 }
