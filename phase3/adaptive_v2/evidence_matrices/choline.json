@@ -1,0 +1,55 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "choline",
+  "priority": 26,
+  "source_refs": [
+    "NIH_CHOLINE_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "questions": [
+    "diet_type",
+    "profile_pregnancy",
+    "goals_primary",
+    "supplements_current_use",
+    "conditions_other_relevant"
+  ],
+  "evidence_summary": [
+    "Choline is an essential nutrient involved in cell membranes and methyl-group metabolism.",
+    "Pregnancy is a nutritionally important context because the AI rises to 450 mg/day.",
+    "General cognitive enhancement claims should not be inferred from choline's essential biological role."
+  ],
+  "reference_values": {
+    "adult_male_ai": {
+      "amount": 550,
+      "unit": "mg/day"
+    },
+    "adult_female_ai": {
+      "amount": 425,
+      "unit": "mg/day"
+    },
+    "pregnancy_ai": {
+      "amount": 450,
+      "unit": "mg/day"
+    },
+    "lactation_ai": {
+      "amount": 550,
+      "unit": "mg/day"
+    }
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "pregnancy": "dietary_gap_review"
+  },
+  "source_recommendation_ceiling": "C_potential_benefit",
+  "personalization": "Determine whether formulation-specific evidence differs from parent ingredient; no unvalidated dose conversion or automatic clinical claim.",
+  "safety": [
+    "conditions_other_relevant"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and formulation differences",
+    "Reconcile canonical questions and safety gates",
+    "Validate applicability before recommendation or dose activation"
+  ]
+}
