@@ -1,0 +1,24 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "copper",
+  "source_refs_from_library": [
+    "NIH_VITAMIN_MINERAL_FACTSHEETS"
+  ],
+  "library_evidence_label": "high_for_nutritional_requirement",
+  "library_summary_es": "La evidencia más sólida corresponde a cubrir requerimientos, no a usar dosis altas como estrategia general de bienestar.",
+  "research_tasks": [
+    "Verify specific clinical indication, study populations and effect sizes",
+    "Verify studied formulation, dose, timing and duration",
+    "Verify adverse effects, contraindications, drug and supplement interactions",
+    "Check cumulative ingredient intake and relevant upper limits",
+    "Map required safety questions and clinical review triggers"
+  ],
+  "mandatory_safety_policy": "phase3/adaptive_v2/MANDATORY_SAFETY_DISCLOSURE_POLICY.json",
+  "personalized_dose": {
+    "status": "DISABLED_PENDING_VERIFIED_PROTOCOL"
+  },
+  "recommendation": {
+    "status": "INFORMATION_ONLY"
+  }
+}
