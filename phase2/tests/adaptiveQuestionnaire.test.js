@@ -27,4 +27,12 @@ const broken = buildQuestionnaireStep({selectedGoals:['sleep_rest'],answers:{pro
 assert.equal(broken.complete,false);
 assert.deepEqual(broken.unknown_question_ids,['missing_critical_question']);
 assert.equal(broken.stage,'configuration_error');
-console.log('adaptiveQuestionnaire: 11 assertions passed');
+// Invalid route references must be detected immediately, even before profile answers.
+const earlyBroken = buildQuestionnaireStep({selectedGoals:['sleep_rest'],questionBank:bank,goalBank:goals,flow:brokenFlow});
+assert.equal(earlyBroken.stage,'configuration_error');
+assert.equal(earlyBroken.complete,false);
+// Unknown follow-up IDs must not be silently dropped or marked complete.
+const unknownFollowup = run(['sleep_rest'],{},['nonexistent_followup']);
+assert.equal(unknownFollowup.stage,'configuration_error');
+assert.deepEqual(unknownFollowup.unknown_question_ids,['nonexistent_followup']);
+console.log('adaptiveQuestionnaire: 15 assertions passed');
