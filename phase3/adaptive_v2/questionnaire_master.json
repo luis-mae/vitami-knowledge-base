@@ -1,0 +1,153 @@
+{
+  "version": "2.0.0-draft",
+  "status": "DESIGN_ONLY_NOT_DEPLOYED",
+  "purpose": "Goal-first adaptive questionnaire, with priority ranking and evidence-driven personalization",
+  "goal_selection": {
+    "max_selected": 5,
+    "minimum_selected": 1,
+    "rank_method": "selection_order_with_reorder",
+    "rank_weights": [
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "weights_usage": "navigation_and_ordering_only_not_evidence_or_safety",
+    "goals": [
+      {
+        "id": "healthy_aging",
+        "label_es": "Envejecer con vitalidad"
+      },
+      {
+        "id": "energy",
+        "label_es": "Energía y vitalidad"
+      },
+      {
+        "id": "strength_muscle",
+        "label_es": "Fuerza y masa muscular"
+      },
+      {
+        "id": "sports_performance",
+        "label_es": "Rendimiento deportivo"
+      },
+      {
+        "id": "joint_comfort",
+        "label_es": "Articulaciones y movilidad"
+      },
+      {
+        "id": "muscle_discomfort",
+        "label_es": "Molestias musculares"
+      },
+      {
+        "id": "cognition",
+        "label_es": "Concentración y memoria"
+      },
+      {
+        "id": "sleep",
+        "label_es": "Sueño y descanso"
+      },
+      {
+        "id": "skin",
+        "label_es": "Cuidado de la piel"
+      },
+      {
+        "id": "hair_nails",
+        "label_es": "Pelo y uñas"
+      },
+      {
+        "id": "bone_health",
+        "label_es": "Salud ósea"
+      },
+      {
+        "id": "nutritional_adequacy",
+        "label_es": "Complementar alimentación"
+      },
+      {
+        "id": "cardiovascular",
+        "label_es": "Salud cardiovascular"
+      },
+      {
+        "id": "digestive",
+        "label_es": "Bienestar digestivo"
+      },
+      {
+        "id": "immune",
+        "label_es": "Salud inmunitaria"
+      },
+      {
+        "id": "general_wellbeing",
+        "label_es": "Bienestar general"
+      },
+      {
+        "id": "other",
+        "label_es": "Otro objetivo"
+      }
+    ]
+  },
+  "common_questions": [
+    {
+      "id": "profile_age",
+      "type": "integer",
+      "purpose": "age-specific evidence and safety"
+    },
+    {
+      "id": "profile_sex_reference",
+      "type": "single_choice_with_opt_out",
+      "purpose": "only when relevant to physiological intake references, pregnancy or studied populations; do not assume from gender"
+    },
+    {
+      "id": "profile_weight_kg",
+      "type": "positive_number_optional",
+      "purpose": "weight-based protocols when validated"
+    },
+    {
+      "id": "diet_type",
+      "type": "single_choice",
+      "purpose": "nutrition risk"
+    },
+    {
+      "id": "activity_level",
+      "type": "single_choice",
+      "purpose": "activity context"
+    },
+    {
+      "id": "supplements_current_use",
+      "type": "yes_no_unknown",
+      "purpose": "duplicate intake and interactions"
+    },
+    {
+      "id": "medications_current_use",
+      "type": "yes_no_prefer_not",
+      "purpose": "interaction triage"
+    },
+    {
+      "id": "conditions_relevant",
+      "type": "multi_choice_with_unknown",
+      "purpose": "safety triage"
+    },
+    {
+      "id": "pregnancy_lactation_if_relevant",
+      "type": "yes_no_unknown_not_applicable",
+      "purpose": "safety"
+    }
+  ],
+  "principles": [
+    "Ask goal and rank before profile questions",
+    "Show questions only when answer changes indication, evidence-based protocol, safety or interpretation",
+    "Deduplicate questions shared across goals",
+    "All safety gates are free and override relevance scores",
+    "A goal ranking never strengthens clinical evidence or raises a dose",
+    "Do not infer deficiency from symptoms alone",
+    "For persistent, new or severe symptoms triage for medical assessment; do not substitute supplements for diagnosis",
+    "Do not auto-compute exact doses from demographic variables unless ingredient-specific evidence validates the formula",
+    "Existing 7 BASIC scenarios remain unchanged until separately tested",
+    "No product sales/commerce in this design stage"
+  ],
+  "next_artifacts": [
+    "ingredient-specific evidence matrices",
+    "canonical question mappings",
+    "branching test fixtures",
+    "clinical and technical review"
+  ]
+}
