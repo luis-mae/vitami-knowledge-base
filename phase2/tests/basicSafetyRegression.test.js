@@ -24,8 +24,12 @@ assert.equal(pending.not_recommended[0].display_status, 'pending_required_answer
 // Explicit 'no' is a valid answer and must not be treated as missing.
 const complete = run({ conditions_kidney: false });
 assert.equal(complete.overall_status, 'complete');
-assert.equal(complete.recommendations.length, 1);
-assert.equal(complete.recommendations[0].state, 'A_high_relevance');
+assert.equal(complete.recommendations.length, 0);
+assert.equal(complete.not_recommended[0].display_status, 'pending_scientific_content_review');
+// A reviewed dose and library record are prerequisites for actionable output.
+const reviewed = buildBasicResponse({rawAnswers:{conditions_kidney:false},rules,libraryRecords:[{id:'test_supplement'}],doseRules:[{supplement_id:'test_supplement',status:'reviewed'}]});
+assert.equal(reviewed.recommendations.length,1);
+assert.equal(reviewed.recommendations[0].state,'A_high_relevance');
 
 // A professional review flag must never become a positive card.
 const blocked = run({ conditions_kidney: true }, [
