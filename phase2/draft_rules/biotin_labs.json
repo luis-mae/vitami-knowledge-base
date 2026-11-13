@@ -1,14 +1,10 @@
 {
   "rule_id": "BIOTIN_LABS",
   "supplement_id": "biotin",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
-      [
-        "pro_labs_available",
-        true
-      ],
       [
         "supplements_current_use_contains",
         "biotin"
@@ -21,10 +17,16 @@
     "score_delta": 0,
     "recommendation_cap": null,
     "override_result": null,
-    "ask_questions": []
+    "ask_questions": [
+      "pro_labs_available",
+      "pro_labs_details"
+    ]
   },
-  "rationale": "High-dose biotin can interfere with some laboratory assays.",
+  "rationale": "Biotin can interfere with laboratory assays including thyroid tests and troponin; warn regardless of whether past lab results are available.",
   "evidence_refs": [
     "NIH_BIOTIN_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"
   ]
 }
