@@ -33,7 +33,9 @@ export function planAdaptiveIntake({questionBank=[],answers={},goalQuestionIds=[
  if(yes(answers.supplements_current_use))followups.push("supplements_current_list","supplement_product_form","supplement_amount_per_unit","supplement_amount_unit");
  if(yes(answers.conditions_allergies))followups.push("conditions_allergies_list");
  if(yes(answers.pro_labs_available))followups.push("pro_labs_details");
- const filteredFollowups=unique(followups).filter(id=>bank.has(id));
+ if(relevant.has("lifestyle_caffeine_daily")&&["1","2_3","4plus"].includes(answers.lifestyle_caffeine_daily))followups.push("lifestyle_caffeine_mg_estimate");
+ const extraFields=new Set(["lifestyle_caffeine_mg_estimate"]);
+ const filteredFollowups=unique(followups).filter(id=>bank.has(id)||extraFields.has(id));
  const pending=unique([...ordered,...filteredFollowups]).filter(id=>unknown(answers[id]));
  const safetyMissing=requiredSafety.filter(id=>!conditionalSafetyDetails.has(id)&&unknown(answers[id]));
  if(yes(answers.medications_regular_use)&&unknown(answers.medications_list))safetyMissing.push("medications_list");
