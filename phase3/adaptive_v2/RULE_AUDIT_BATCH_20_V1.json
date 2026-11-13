@@ -1,0 +1,143 @@
+{
+  "version": "1.0",
+  "status": "STRUCTURAL_AND_CLINICAL_TRIAGE_NOT_INDEPENDENTLY_APPROVED",
+  "date": "2026-11-13",
+  "rules_inspected": 20,
+  "ids": [
+    "ALGALO3_BLEEDING",
+    "ALGALO3_VEGAN_LOW_FISH",
+    "B12_AGE50_CONTEXT",
+    "B12_VEGAN_ALREADY_SUPPLEMENTED",
+    "B12_VEGAN_LOW_FORTIFIED",
+    "B6_CURRENT_USE_NEURO",
+    "B6_DIETARY_GAP_CONTEXT",
+    "BA_ENDURANCE_ONLY",
+    "BA_HIGH_INTENSITY",
+    "BIOTIN_LABS",
+    "CAFF_PERFORMANCE",
+    "CAFF_SLEEP",
+    "CALCIT_KIDNEY_STONES",
+    "CALCIT_LOW_DIET",
+    "CALCIUM_LOW_DIET",
+    "CALCIUM_STONES",
+    "CHOLINE_COGNITIVE_ONLY",
+    "CHOLINE_PREGNANCY_CONTEXT",
+    "COLLAGEN_SKIN",
+    "COQ10_GENERIC_ENERGY"
+  ],
+  "issues": [
+    {
+      "id": "B12_AGE50_CONTEXT",
+      "severity": "medium",
+      "issue": "Age >=50 encoded as string and must be interpreted by typed numeric comparator, not string equality.",
+      "action": "Define explicit comparator and validated age units."
+    },
+    {
+      "id": "B12_VEGAN_LOW_FORTIFIED",
+      "severity": "medium",
+      "issue": "Strong score from vegan diet and low fortified foods does not quantify current supplement B12; asks only boolean current use.",
+      "action": "Ask product ingredients and amount, verify diet and clinical context."
+    },
+    {
+      "id": "BIOTIN_LABS",
+      "severity": "high",
+      "issue": "Warning only when laboratory tests already available; biotin interference matters for planned and emergency tests, including troponin and thyroid tests.",
+      "action": "Warn for biotin use independently of pro_labs_available; confirm test and dose where possible."
+    },
+    {
+      "id": "CAFF_PERFORMANCE",
+      "severity": "high",
+      "issue": "Positive caffeine score without pre-check for pregnancy, cardiovascular conditions, sleep issues or medication interactions.",
+      "action": "Require explicit safety screening and total caffeine exposure before any recommendation."
+    },
+    {
+      "id": "CAFF_SLEEP",
+      "severity": "medium",
+      "issue": "Only score reduction for poor sleep/insomnia; may still recommend caffeine after scoring.",
+      "action": "Introduce safety or goal-specific block for worsening sleep when relevant."
+    },
+    {
+      "id": "CALCIUM_LOW_DIET",
+      "severity": "medium",
+      "issue": "Uses diet_dairy_calcium_sources='low' while related CALCIT_LOW_DIET uses never/occasional; likely inconsistent categorical vocabulary.",
+      "action": "Validate actual question options and map intake quantitatively."
+    },
+    {
+      "id": "CHOLINE_COGNITIVE_ONLY",
+      "severity": "medium",
+      "issue": "Cognitive concern alone awards benefit score despite uncertain supplementation outcomes in unselected healthy adults.",
+      "action": "Do not treat cognitive goal alone as established indication."
+    },
+    {
+      "id": "CHOLINE_PREGNANCY_CONTEXT",
+      "severity": "high",
+      "issue": "Pregnancy adds score and potential-benefit category but pregnancy requires clinical care and verified total intake.",
+      "action": "Require pregnancy-specific clinical review and nutrition assessment."
+    },
+    {
+      "id": "COLLAGEN_SKIN",
+      "severity": "medium",
+      "issue": "A positive score from skin goal alone risks implying effect despite heterogeneous trial quality and industry funding concerns.",
+      "action": "Appraise meta-analysis bias and effect size before user claim."
+    },
+    {
+      "id": "COQ10_GENERIC_ENERGY",
+      "severity": "medium",
+      "issue": "Generic energy goal is not an established indication for coenzyme Q10.",
+      "action": "Avoid positive scoring without indication-specific evidence."
+    },
+    {
+      "id": "ALGALO3_BLEEDING",
+      "severity": "medium",
+      "issue": "Bleeding/surgery review rule exists but does not inspect medication list or high-dose formulation.",
+      "action": "Add anticoagulant, antiplatelet and atrial-fibrillation context."
+    },
+    {
+      "id": "B6_CURRENT_USE_NEURO",
+      "severity": "high",
+      "issue": "Only triggers when current supplement list explicitly contains vitamin_b6; may miss B6 in multivitamins and other blends.",
+      "action": "Expand all product ingredients and total B6 exposure."
+    }
+  ],
+  "positive_controls": [
+    {
+      "id": "CALCIUM_STONES",
+      "observation": "Professional review for reported kidney stones is appropriately cautious, but not complete safety clearance."
+    },
+    {
+      "id": "CALCIT_KIDNEY_STONES",
+      "observation": "Same cautious review for calcium citrate."
+    },
+    {
+      "id": "B12_VEGAN_ALREADY_SUPPLEMENTED",
+      "observation": "Requests total-intake review, appropriate conceptually; requires actual amount and formulation."
+    },
+    {
+      "id": "BA_ENDURANCE_ONLY",
+      "observation": "Does not award strong evidence score to endurance-only beta-alanine use."
+    }
+  ],
+  "evidence_sources_to_verify": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "topic": "B12"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+      "topic": "Biotin laboratory interference"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "topic": "Caffeine and beta-alanine"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "topic": "Choline"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "topic": "Calcium"
+    }
+  ],
+  "conclusion": "20 source rule files inspected. This is targeted triage, not complete critical appraisal of primary studies; findings require reconciliation with source-specific evidence and clinical signoff."
+}
