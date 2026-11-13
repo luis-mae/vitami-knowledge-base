@@ -1,0 +1,111 @@
+{
+  "version": "0.1-draft",
+  "status": "DESIGN_ONLY_NOT_CLINICALLY_VALIDATED",
+  "policy": [
+    "Goal association only triggers assessment, not recommendation",
+    "Safety and evidence ceilings override rank weights",
+    "Do not recommend an ingredient on symptom alone",
+    "Different forms of same nutrient must not count as independent benefits"
+  ],
+  "goals": {
+    "healthy_aging": [
+      "creatine_monohydrate",
+      "whey_protein",
+      "vitamin_d",
+      "calcium",
+      "vitamin_b12"
+    ],
+    "energy": [
+      "iron",
+      "vitamin_b12",
+      "vitamin_d",
+      "magnesium",
+      "coenzyme_q10"
+    ],
+    "strength_muscle": [
+      "creatine_monohydrate",
+      "whey_protein",
+      "beta_alanine"
+    ],
+    "sports_performance": [
+      "creatine_monohydrate",
+      "caffeine_performance",
+      "beta_alanine",
+      "electrolyte_mix",
+      "whey_protein"
+    ],
+    "joint_comfort": [
+      "collagen_peptides",
+      "curcumin_turmeric",
+      "vitamin_d"
+    ],
+    "muscle_discomfort": [
+      "magnesium",
+      "vitamin_d",
+      "coenzyme_q10"
+    ],
+    "cognition": [
+      "vitamin_b12",
+      "iron",
+      "choline",
+      "omega_3_epa_dha"
+    ],
+    "sleep": [
+      "melatonin",
+      "magnesium",
+      "caffeine_performance"
+    ],
+    "skin": [
+      "collagen_peptides",
+      "biotin",
+      "vitamin_c",
+      "zinc"
+    ],
+    "hair_nails": [
+      "biotin",
+      "iron",
+      "zinc",
+      "selenium",
+      "vitamin_b12"
+    ],
+    "bone_health": [
+      "calcium",
+      "vitamin_d",
+      "vitamin_k",
+      "magnesium"
+    ],
+    "nutritional_adequacy": [
+      "multivitamin_mineral",
+      "vitamin_b12",
+      "iron",
+      "zinc",
+      "iodine",
+      "folate_folic_acid",
+      "calcium"
+    ],
+    "cardiovascular": [
+      "omega_3_epa_dha",
+      "psyllium_fiber",
+      "coenzyme_q10"
+    ],
+    "digestive": [
+      "psyllium_fiber",
+      "probiotics"
+    ],
+    "immune": [
+      "zinc",
+      "vitamin_c",
+      "vitamin_d",
+      "selenium"
+    ],
+    "general_wellbeing": [],
+    "other": []
+  },
+  "warnings": [
+    "These are candidate assessment links, not benefit claims",
+    "CoQ10, collagen, biotin and others often have limited or negative evidence for general wellness or cosmetic goals",
+    "Hair loss, persistent pain, cognitive decline, unexplained fatigue and other concerning symptoms need medical triage",
+    "Iron should not be recommended as treatment without clinical assessment",
+    "Probiotics require strain-specific evidence"
+  ]
+}
