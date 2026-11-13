@@ -1,0 +1,16 @@
+import assert from "node:assert/strict";
+import {parseMeasuredAnswer,compareMeasuredAnswer as compare} from "./typedQuestionnaireComparator_v1.mjs";
+import {evaluateRuleCondition} from "./draftRuleEngine_v1.mjs";
+assert.equal(compare(350,">=300mg",{declaredUnit:"mg"}).match,true);
+assert.equal(compare("0.4 g",">=300mg").match,true);
+assert.equal(compare("250 mg",">=300mg").match,false);
+assert.equal(compare("300 mcg",">=300mg").match,false);
+assert.equal(compare("4plus",">=300mg").unknown,true);
+assert.equal(compare("2_3",">=300mg").unknown,true);
+assert.equal(compare("300",">=300mg").unknown,true);
+assert.equal(compare("300",">=300mg",{declaredUnit:"mg"}).match,true);
+assert.equal(compare("300 ml",">=300mg").unknown,true);
+assert.equal(parseMeasuredAnswer("not_sure").ok,false);
+assert.equal(evaluateRuleCondition(["lifestyle_caffeine_daily",">=300mg"],{lifestyle_caffeine_daily:"4plus"}).unknown,true);
+assert.equal(evaluateRuleCondition(["lifestyle_caffeine_daily",">=300mg"],{lifestyle_caffeine_daily:"350 mg"}).match,true);
+console.log("12 typed comparator assertions passed");
