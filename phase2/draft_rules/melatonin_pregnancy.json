@@ -1,17 +1,13 @@
 {
   "rule_id": "MELATONIN_PREGNANCY",
   "supplement_id": "melatonin",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
       [
         "profile_pregnancy",
         true
-      ],
-      [
-        "goals_primary_contains",
-        "sleep_rest"
       ]
     ],
     "any": []
@@ -21,11 +17,16 @@
     "score_delta": 0,
     "recommendation_cap": null,
     "override_result": "X_professional_review_required",
-    "ask_questions": []
+    "ask_questions": [
+      "medications_list"
+    ]
   },
-  "rationale": "Pregnancy requires individualized review because evidence on supplement safety is limited.",
+  "rationale": "Pregnancy triggers professional review for any proposed melatonin use regardless of the user's selected goal.",
   "evidence_refs": [
     "NCCIH_MELATONIN",
     "NIH_PREGNANCY_HP"
+  ],
+  "correction_source_urls": [
+    "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know"
   ]
 }
