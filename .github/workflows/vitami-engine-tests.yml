@@ -33,3 +33,5 @@ jobs:
         run: node phase2/tests/auditAssetIds.test.js
       - name: Scientific cross-reference audit regression
         run: node phase2/tests/auditScientificReferences.test.js
+      - name: Real goal-first questionnaire audit
+        run: node phase2/tests/auditQuestionnaireConfig.test.js
