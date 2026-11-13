@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "input_from_engine": {
     "overall_status": "complete | needs_more_answers | professional_review_present",
     "recommendations": "array",
@@ -34,5 +34,12 @@
     "product_mapping": "must be verified before purchase",
     "no_mapping": "show educational library link without purchase action",
     "checkout": "use existing implementation, do not invent payment integration"
+  },
+  "post_results_actions": {
+    "layout": "parallel",
+    "independent": true,
+    "pro": "paid_optional_analysis",
+    "cart": "existing_cart_with_verified_product_mapping",
+    "both_optional": true
   }
 }
