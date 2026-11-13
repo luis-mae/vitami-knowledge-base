@@ -36,7 +36,7 @@ function parseNumber(value) {
 function compareNumber(actual, expression) {
   const n = parseNumber(actual);
   if (n === null) return false;
-  const m = String(expression).match(/^(>=|<=|>|<|==)\s*(-?\d+(?:\.\d+)?)/);
+  const m = String(expression).match(/^(>=|<=|>|<|==)\s*(-?\d+(?:\.\d+)?)$/);
   if (!m) return false;
   const op = m[1];
   const target = Number(m[2]);
