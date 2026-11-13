@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "status": "MANDATORY_DESIGN_CONTRACT_NOT_DEPLOYED",
+  "purpose": "Every evidence-backed user-facing recommendation must be reproducible and accompanied by source provenance and safety information; citations do not waive liability.",
+  "per_decision_required": [
+    "decision_id",
+    "ingredient_id",
+    "rule_id",
+    "rule_version",
+    "rule_outcome",
+    "indication",
+    "user_context_fields_used",
+    "source_ids",
+    "source_urls",
+    "source_publication_or_update_dates",
+    "evidence_certainty",
+    "applicability_limitations",
+    "expected_benefit",
+    "known_harms",
+    "contraindications",
+    "drug_interactions",
+    "supplement_interactions",
+    "cumulative_dose_checks",
+    "unknown_or_unresolved_risks",
+    "reviewer",
+    "review_date",
+    "user_disclaimer_acknowledgements"
+  ],
+  "fail_closed": [
+    "Missing source or applicability => no personalized recommendation",
+    "Missing adverse effects or contraindication data => no personalized recommendation",
+    "Unknown medication or overlapping ingredients => no personalized dose",
+    "A source describing a studied dose does not authorize a personalized dose",
+    "Clinical or scientific sign-off absent => research only"
+  ],
+  "report_copy_es": {
+    "justification": "VITAMI considera esta opción porque las fuentes citadas describen resultados en personas y condiciones similares a las indicadas. La evidencia puede tener limitaciones y no garantiza un beneficio individual.",
+    "sources": "Fuentes consultadas, fechas de actualización y alcance de la evidencia",
+    "warnings": "Precauciones, contraindicaciones e interacciones individuales y combinadas",
+    "disclaimer": "Esta información es orientativa y no sustituye una consulta médica, nutricional o farmacéutica. La existencia de estudios científicos no garantiza que el producto sea adecuado o seguro para usted. Lea las precauciones y consulte a un profesional antes de iniciar o combinar suplementos."
+  },
+  "legal_note": "Transparent provenance improves accountability but cannot legally eliminate developer/provider responsibility; obtain jurisdiction-specific legal and clinical review."
+}
