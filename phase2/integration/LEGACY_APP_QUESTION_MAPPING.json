@@ -1,0 +1,177 @@
+{
+  "version": "1.0.0",
+  "source_repository": "luis-mae/vitami",
+  "source_path": "frontend/src/data/questions.ts",
+  "target_repository": "luis-mae/vitami-knowledge-base",
+  "target_path": "data/questions/question_bank_master.json",
+  "status": "id_mapping_only_not_value_mapping",
+  "mapped": [
+    {
+      "legacy_id": "edad",
+      "canonical_id": "profile_age",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "sexo",
+      "canonical_id": "profile_sex_reference",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "altura",
+      "canonical_id": "pro_height",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "peso",
+      "canonical_id": "pro_weight",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "alimentacion",
+      "canonical_id": "diet_type",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "pescado",
+      "canonical_id": "diet_fatty_fish_weekly",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "carne",
+      "canonical_id": "diet_animal_products_frequency",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "lacteos",
+      "canonical_id": "diet_dairy_calcium_sources",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "actividad",
+      "canonical_id": "activity_level",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "tipoActividad",
+      "canonical_id": "activity_type",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "diasEntreno",
+      "canonical_id": "activity_days_per_week",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "duracionEntreno",
+      "canonical_id": "activity_session_duration",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "intensidad",
+      "canonical_id": "activity_intensity",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "sudoracion",
+      "canonical_id": "activity_sweat_level",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "sueno",
+      "canonical_id": "sleep_hours",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "sol",
+      "canonical_id": "lifestyle_sun_exposure",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "objetivos",
+      "canonical_id": "goals_primary",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "medicamentos",
+      "canonical_id": "medications_regular_use",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "medicamentosOtros",
+      "canonical_id": "medications_list",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "suplementos",
+      "canonical_id": "supplements_current_use",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "suplementosDetalle",
+      "canonical_id": "supplements_current_list",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "enfermedades",
+      "canonical_id": "conditions_other_relevant",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "embarazo",
+      "canonical_id": "profile_pregnancy",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "alergias",
+      "canonical_id": "conditions_allergies",
+      "value_conversion_required": true
+    },
+    {
+      "legacy_id": "cirugia",
+      "canonical_id": "safety_upcoming_surgery",
+      "value_conversion_required": true
+    }
+  ],
+  "unmapped_legacy_ids": [
+    "ciudad",
+    "alimentacionOtra",
+    "tipoActividadOtro",
+    "objetivosExtra",
+    "objetivoOtroTexto",
+    "objetivoPrioritario",
+    "suplementoMultiMarca",
+    "suplementoMultiOtra"
+  ],
+  "critical_semantic_mismatches": [
+    {
+      "legacy_id": "embarazo",
+      "issue": "One legacy field combines pregnancy and lactation; must map to separate canonical flags and preserve not-applicable/unknown."
+    },
+    {
+      "legacy_id": "enfermedades",
+      "issue": "Legacy multi-select must expand into kidney, liver, heart and other conditions; cannot map only to conditions_other_relevant."
+    },
+    {
+      "legacy_id": "medicamentos",
+      "issue": "Legacy multi-select includes categories and no-medication option; convert to boolean plus detailed list without discarding risk."
+    },
+    {
+      "legacy_id": "suplementos",
+      "issue": "Legacy multi-select must derive current-use boolean and supplement list."
+    },
+    {
+      "legacy_id": "sexo",
+      "issue": "Legacy biological sex categories do not exactly match nutritional-reference selection; no forced coercion."
+    },
+    {
+      "legacy_id": "pescado",
+      "issue": "Legacy frequency differs from fatty fish serving frequency; do not infer exact intake."
+    },
+    {
+      "legacy_id": "sueno",
+      "issue": "Legacy categorical hours need explicit conversion or remain unknown."
+    }
+  ],
+  "unmapped_policy": "Keep legacy answers intact until safe explicit conversion exists; missing safety information must block actionable recommendation.",
+  "commercial_warning": "Existing products.ts contains DEMO products, prices and stock. Never treat them as verified commercial catalog."
+}
