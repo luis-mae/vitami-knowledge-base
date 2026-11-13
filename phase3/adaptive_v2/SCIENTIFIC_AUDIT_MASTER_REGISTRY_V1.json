@@ -1,0 +1,968 @@
+{
+  "version": "1.0",
+  "date": "2026-11-13",
+  "scope": {
+    "catalog": 100,
+    "rules": 87,
+    "safety_gates": 31
+  },
+  "clinical_audit_state": "NOT_COMPLETE",
+  "rule_registry": [
+    {
+      "rule_id": "ALGALO3_BLEEDING",
+      "source_path": "phase2/draft_rules/algalo3_bleeding.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ALGALO3_VEGAN_LOW_FISH",
+      "source_path": "phase2/draft_rules/algalo3_vegan_low_fish.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "B12_AGE50_CONTEXT",
+      "source_path": "phase2/draft_rules/b12_age50_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "B12_VEGAN_ALREADY_SUPPLEMENTED",
+      "source_path": "phase2/draft_rules/b12_vegan_already_supplemented.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "B12_VEGAN_LOW_FORTIFIED",
+      "source_path": "phase2/draft_rules/b12_vegan_low_fortified.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "source_path": "phase2/draft_rules/b6_current_use_neuro.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "B6_DIETARY_GAP_CONTEXT",
+      "source_path": "phase2/draft_rules/b6_dietary_gap_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "BA_ENDURANCE_ONLY",
+      "source_path": "phase2/draft_rules/ba_endurance_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "BA_HIGH_INTENSITY",
+      "source_path": "phase2/draft_rules/ba_high_intensity.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "BIOTIN_HAIR_ONLY",
+      "source_path": "phase2/draft_rules/biotin_hair_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "BIOTIN_LABS",
+      "source_path": "phase2/draft_rules/biotin_labs.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CAFF_HIGH_BASELINE",
+      "source_path": "phase2/draft_rules/caff_high_baseline.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CAFF_PERFORMANCE",
+      "source_path": "phase2/draft_rules/caff_performance.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CAFF_SLEEP",
+      "source_path": "phase2/draft_rules/caff_sleep.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CALCIT_KIDNEY_STONES",
+      "source_path": "phase2/draft_rules/calcit_kidney_stones.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CALCIT_LOW_DIET",
+      "source_path": "phase2/draft_rules/calcit_low_diet.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CALCIUM_LOW_DIET",
+      "source_path": "phase2/draft_rules/calcium_low_diet.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CALCIUM_STONES",
+      "source_path": "phase2/draft_rules/calcium_stones.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CHOLINE_COGNITIVE_ONLY",
+      "source_path": "phase2/draft_rules/choline_cognitive_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CHOLINE_PREGNANCY_CONTEXT",
+      "source_path": "phase2/draft_rules/choline_pregnancy_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "COLLAGEN_SKIN",
+      "source_path": "phase2/draft_rules/collagen_skin.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "COQ10_GENERIC_ENERGY",
+      "source_path": "phase2/draft_rules/coq10_generic_energy.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CREATINE_ENDURANCE_ONLY",
+      "source_path": "phase2/draft_rules/creatine_endurance_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CREATINE_HIGH_INTENSITY_SPORT",
+      "source_path": "phase2/draft_rules/creatine_high_intensity_sport.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CREATINE_KIDNEY",
+      "source_path": "phase2/draft_rules/creatine_kidney.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CREATINE_STRENGTH",
+      "source_path": "phase2/draft_rules/creatine_strength.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CURCUMIN_JOINT",
+      "source_path": "phase2/draft_rules/curcumin_joint.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CURCUMIN_LIVER",
+      "source_path": "phase2/draft_rules/curcumin_liver.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "CURCUMIN_PREG",
+      "source_path": "phase2/draft_rules/curcumin_preg.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "D3_KIDNEY",
+      "source_path": "phase2/draft_rules/d3_kidney.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "D3_PARENT_LOW_SUN",
+      "source_path": "phase2/draft_rules/d3_parent_low_sun.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ELECTROLYTES_KIDNEY_HEART",
+      "source_path": "phase2/draft_rules/electrolytes_kidney_heart.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ELECTROLYTES_PROLONGED_HIGH_SWEAT",
+      "source_path": "phase2/draft_rules/electrolytes_prolonged_high_sweat.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ELECTROLYTES_SHORT_LOW_SWEAT",
+      "source_path": "phase2/draft_rules/electrolytes_short_low_sweat.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "IODINE_LOW_SOURCE_CONTEXT",
+      "source_path": "phase2/draft_rules/iodine_low_source_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "IODINE_THYROID_CONTEXT",
+      "source_path": "phase2/draft_rules/iodine_thyroid_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "IRONBIS_FATIGUE_ONLY",
+      "source_path": "phase2/draft_rules/ironbis_fatigue_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "IRONBIS_PREGNANCY",
+      "source_path": "phase2/draft_rules/ironbis_pregnancy.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "IRON_FATIGUE_ONLY",
+      "source_path": "phase2/draft_rules/iron_fatigue_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "IRON_KNOWN_HIGH_INTAKE",
+      "source_path": "phase2/draft_rules/iron_known_high_intake.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "IRON_PREGNANCY",
+      "source_path": "phase2/draft_rules/iron_pregnancy.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "IRON_VEGETARIAN_CONTEXT",
+      "source_path": "phase2/draft_rules/iron_vegetarian_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MAGCIT_KIDNEY",
+      "source_path": "phase2/draft_rules/magcit_kidney.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MAGCIT_PARENT_GAP",
+      "source_path": "phase2/draft_rules/magcit_parent_gap.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MAGGLY_KIDNEY",
+      "source_path": "phase2/draft_rules/maggly_kidney.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MAGGLY_PARENT_GAP",
+      "source_path": "phase2/draft_rules/maggly_parent_gap.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
+      "source_path": "phase2/draft_rules/melatonin_chronic_insomnia.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MELATONIN_JETLAG_SHIFT",
+      "source_path": "phase2/draft_rules/melatonin_jetlag_shift.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MELATONIN_PREGNANCY",
+      "source_path": "phase2/draft_rules/melatonin_pregnancy.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "METHYLB12_ALREADY_B12",
+      "source_path": "phase2/draft_rules/methylb12_already_b12.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "METHYLB12_VEGAN",
+      "source_path": "phase2/draft_rules/methylb12_vegan.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MTHF_PREGNANT",
+      "source_path": "phase2/draft_rules/mthf_pregnant.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MTHF_PREG_PLANNING",
+      "source_path": "phase2/draft_rules/mthf_preg_planning.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MVM_ALREADY_SUPPLEMENTED",
+      "source_path": "phase2/draft_rules/mvm_already_supplemented.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MVM_DIETARY_GAP",
+      "source_path": "phase2/draft_rules/mvm_dietary_gap.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "MVM_GENERAL_WELLNESS_ONLY",
+      "source_path": "phase2/draft_rules/mvm_general_wellness_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "O3_ALREADY_USING",
+      "source_path": "phase2/draft_rules/o3_already_using.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "O3_BLEEDING",
+      "source_path": "phase2/draft_rules/o3_bleeding.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "O3_LOW_FISH",
+      "source_path": "phase2/draft_rules/o3_low_fish.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
+      "source_path": "phase2/draft_rules/potassium_medication_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+      "source_path": "phase2/draft_rules/potassium_supplement_kidney.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "POTASSIUM_SWEAT_ONLY",
+      "source_path": "phase2/draft_rules/potassium_sweat_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "PROBIO_DIGESTIVE",
+      "source_path": "phase2/draft_rules/probio_digestive.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "PSYLLIUM_LOW_FIBER_DIGESTIVE",
+      "source_path": "phase2/draft_rules/psyllium_low_fiber_digestive.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "PSYLLIUM_MEDICATIONS",
+      "source_path": "phase2/draft_rules/psyllium_medications.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "source_path": "phase2/draft_rules/psyllium_swallowing.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "SEL_ANTIOXIDANT_ONLY",
+      "source_path": "phase2/draft_rules/sel_antioxidant_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "SEL_HAIR_NAILS",
+      "source_path": "phase2/draft_rules/sel_hair_nails.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITA_LOW_DIET_CONTEXT",
+      "source_path": "phase2/draft_rules/vita_low_diet_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "source_path": "phase2/draft_rules/vita_preg_current_use.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITC_KIDNEY_STONES",
+      "source_path": "phase2/draft_rules/vitc_kidney_stones.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITC_LOW_FRUITVEG",
+      "source_path": "phase2/draft_rules/vitc_low_fruitveg.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITC_SMOKER",
+      "source_path": "phase2/draft_rules/vitc_smoker.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITD_KIDNEY",
+      "source_path": "phase2/draft_rules/vitd_kidney.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITD_LOW_SUN",
+      "source_path": "phase2/draft_rules/vitd_low_sun.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITD_LOW_SUN_LOW_DIET",
+      "source_path": "phase2/draft_rules/vitd_low_sun_low_diet.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITE_ANTIOXIDANT_ONLY",
+      "source_path": "phase2/draft_rules/vite_antioxidant_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITE_BLEEDING",
+      "source_path": "phase2/draft_rules/vite_bleeding.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITK_BONE_GOAL_ONLY",
+      "source_path": "phase2/draft_rules/vitk_bone_goal_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "VITK_CURRENT_USE_MEDICATION",
+      "source_path": "phase2/draft_rules/vitk_current_use_medication.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "WHEY_MILK_ALLERGY",
+      "source_path": "phase2/draft_rules/whey_milk_allergy.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "WHEY_STRENGTH_LOW_PROTEIN",
+      "source_path": "phase2/draft_rules/whey_strength_low_protein.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ZGLU_ALREADY_ZINC",
+      "source_path": "phase2/draft_rules/zglu_already_zinc.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ZGLU_VEGAN_CONTEXT",
+      "source_path": "phase2/draft_rules/zglu_vegan_context.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ZINC_ALREADY_HIGH",
+      "source_path": "phase2/draft_rules/zinc_already_high.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ZINC_HAIR_ONLY",
+      "source_path": "phase2/draft_rules/zinc_hair_only.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    },
+    {
+      "rule_id": "ZINC_VEGAN",
+      "source_path": "phase2/draft_rules/zinc_vegan.json",
+      "review_state": "AWAITING_RULE_LEVEL_CRITICAL_APPRAISAL",
+      "source_verification": "PENDING",
+      "clinical_signoff": false,
+      "production_enabled": false
+    }
+  ],
+  "safety_gate_registry": [
+    {
+      "rule_id": "VITE_BLEEDING",
+      "ingredient_id": "vitamin_e",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "VITK_CURRENT_USE_MEDICATION",
+      "ingredient_id": "vitamin_k",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "IRONBIS_PREGNANCY",
+      "ingredient_id": "iron_bisglycinate",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "ingredient_id": "vitamin_b6",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "CAFF_SLEEP",
+      "ingredient_id": "caffeine_performance",
+      "override": null,
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "MAGCIT_KIDNEY",
+      "ingredient_id": "magnesium_citrate",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "ingredient_id": "vitamin_a",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "ingredient_id": "psyllium_fiber",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "CURCUMIN_PREG",
+      "ingredient_id": "curcumin_turmeric",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "IRON_KNOWN_HIGH_INTAKE",
+      "ingredient_id": "iron",
+      "override": null,
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "IRON_PREGNANCY",
+      "ingredient_id": "iron",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "ZINC_ALREADY_HIGH",
+      "ingredient_id": "zinc",
+      "override": null,
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "BIOTIN_LABS",
+      "ingredient_id": "biotin",
+      "override": null,
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "CAFF_HIGH_BASELINE",
+      "ingredient_id": "caffeine_performance",
+      "override": null,
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "CURCUMIN_LIVER",
+      "ingredient_id": "curcumin_turmeric",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "CREATINE_KIDNEY",
+      "ingredient_id": "creatine_monohydrate",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "O3_BLEEDING",
+      "ingredient_id": "omega_3_epa_dha",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "VITD_KIDNEY",
+      "ingredient_id": "vitamin_d",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "D3_KIDNEY",
+      "ingredient_id": "vitamin_d3",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "MAGGLY_KIDNEY",
+      "ingredient_id": "magnesium_glycinate",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
+      "ingredient_id": "potassium",
+      "override": null,
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "PSYLLIUM_MEDICATIONS",
+      "ingredient_id": "psyllium_fiber",
+      "override": null,
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "IODINE_THYROID_CONTEXT",
+      "ingredient_id": "iodine",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "CALCIUM_STONES",
+      "ingredient_id": "calcium",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "CALCIT_KIDNEY_STONES",
+      "ingredient_id": "calcium_citrate",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "MELATONIN_PREGNANCY",
+      "ingredient_id": "melatonin",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "VITC_KIDNEY_STONES",
+      "ingredient_id": "vitamin_c",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "WHEY_MILK_ALLERGY",
+      "ingredient_id": "whey_protein",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "ALGALO3_BLEEDING",
+      "ingredient_id": "algal_omega3_dha",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+      "ingredient_id": "potassium",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    },
+    {
+      "rule_id": "ELECTROLYTES_KIDNEY_HEART",
+      "ingredient_id": "electrolyte_mix",
+      "override": "X_professional_review_required",
+      "review_state": "PENDING_INDEPENDENT_VALIDATION"
+    }
+  ],
+  "mandatory_criteria": [
+    "Claim-to-source traceability with document version, access date, population, indication and outcomes",
+    "Independent evaluation of source quality, study bias and applicability",
+    "Interaction checks for each product alone and in combination",
+    "Fail closed on unknown safety answers and unverified cumulative doses",
+    "Distinguish treatment, prevention, nutritional adequacy and performance",
+    "No automatic clinical approval inferred from presence of source reference"
+  ],
+  "sampled_rule_review_count": 7,
+  "critical_findings": [
+    {
+      "rule": "VITK_CURRENT_USE_MEDICATION",
+      "severity": "high",
+      "finding": "Requires vitamin K already being used, so proposed initiation while taking a vitamin K antagonist may escape this gate.",
+      "fix": "Assess prospective addition and medication identity, particularly warfarin; no clearance based only on a generic medication boolean."
+    },
+    {
+      "rule": "CAFF_HIGH_BASELINE",
+      "severity": "high",
+      "finding": "Condition value '>=300mg' is a string and requires an explicit validated numeric comparator; cannot assume a threshold is evaluated.",
+      "fix": "Normalize mg/day caffeine from all sources, define numeric threshold and check pregnancy, arrhythmia, insomnia and medication context."
+    },
+    {
+      "rule": "IRON_FATIGUE_ONLY",
+      "severity": "medium",
+      "finding": "Requesting availability of lab data is not confirmation of deficiency.",
+      "fix": "No treatment recommendation without clinical context and verified deficiency workup."
+    },
+    {
+      "rule": "BIOTIN_HAIR_ONLY",
+      "severity": "medium",
+      "finding": "Positive score for hair concern risks implying efficacy without deficiency.",
+      "fix": "Do not award benefit score solely for cosmetic concern; evaluate lab assay interference."
+    },
+    {
+      "rule": "CREATINE_KIDNEY",
+      "severity": "review",
+      "finding": "Known kidney disease triggers review but unknown kidney status must not be treated as negative.",
+      "fix": "Explicit missing-data safety gate."
+    },
+    {
+      "rule": "MELATONIN_CHRONIC_INSOMNIA",
+      "severity": "review",
+      "finding": "Rule correctly avoids routine melatonin recommendation for chronic insomnia.",
+      "fix": "Verify guideline-supported behavioral treatment and red flags."
+    },
+    {
+      "rule": "O3_BLEEDING",
+      "severity": "review",
+      "finding": "Bleeding/surgery gate exists; individualized context and formulation matter.",
+      "fix": "Review anticoagulants, antiplatelets, high-dose omega-3, atrial fibrillation and product type."
+    }
+  ],
+  "verified_reference_urls": [
+    {
+      "topic": "sports supplements",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+    },
+    {
+      "topic": "iron",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+    },
+    {
+      "topic": "vitamin K",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+    },
+    {
+      "topic": "omega-3",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+    }
+  ],
+  "important": "A manifest covering all 87 rules is not an audit of all 87. Each rule remains pending until individually inspected and source-checked."
+}
