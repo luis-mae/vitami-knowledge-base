@@ -1,14 +1,10 @@
 {
   "rule_id": "VITK_CURRENT_USE_MEDICATION",
   "supplement_id": "vitamin_k",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "safety_first",
   "conditions": {
     "all": [
-      [
-        "supplements_current_use_contains",
-        "vitamin_k"
-      ],
       [
         "medications_regular_use",
         true
@@ -22,11 +18,22 @@
     "recommendation_cap": null,
     "override_result": "X_professional_review_required",
     "ask_questions": [
-      "medications_list"
+      "medications_list",
+      "supplements_current_list"
     ]
   },
-  "rationale": "Vitamin K supplementation can interact importantly with vitamin K antagonist anticoagulants; medication identification is required.",
+  "rationale": "Before initiating vitamin K, identify anticoagulant medicines including warfarin; a rule requiring prior vitamin K use misses prospective interactions.",
   "evidence_refs": [
     "NIH_VITK_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "review_vitamin_k_antagonists_and_inr": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
   ]
 }
