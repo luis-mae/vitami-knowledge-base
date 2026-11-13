@@ -1,7 +1,7 @@
 {
   "rule_id": "BA_HIGH_INTENSITY",
   "supplement_id": "beta_alanine",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -26,5 +26,16 @@
   "rationale": "Potential benefit is strongest for repeated/intense efforts in the studied duration range.",
   "evidence_refs": [
     "NIH_EXERCISE_HP"
+  ],
+  "safety_review": {
+    "candidate_exposure_required": true,
+    "check_combined_doses": true,
+    "unknown_inputs": "block_personalized_recommendation",
+    "clinical_approval": false,
+    "require_training_context": true,
+    "review_paresthesia_and_product_form": true
+  },
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
   ]
 }
