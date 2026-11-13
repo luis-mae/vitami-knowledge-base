@@ -1,0 +1,41 @@
+{
+  "version": "1.1",
+  "status": "DRAFT_ONLY",
+  "question_id": "lifestyle_caffeine_mg_estimate",
+  "tier": "CONDITIONAL",
+  "domain": "safety",
+  "text": {
+    "es": "¿Sabés aproximadamente cuántos miligramos de cafeína consumís por día?",
+    "en": "Do you know approximately how many milligrams of caffeine you consume per day?",
+    "it": "Sai approssimativamente quanti milligrammi di caffeina assumi al giorno?"
+  },
+  "help_text": {
+    "es": "Incluí café, mate, té, bebidas energizantes, preentrenos y suplementos. Si no sabés la cantidad, elegí «No sé». No convertiremos tazas a miligramos sin datos.",
+    "en": "Include all sources. Unknown is allowed and blocks dose-dependent assessment.",
+    "it": "Includi tutte le fonti. Se non lo sai, indica che non lo sai."
+  },
+  "response_type": "measured_number_or_unknown",
+  "unit": "mg/day",
+  "required_for_basic": false,
+  "required_for_safety": false,
+  "trigger": {
+    "question_id": "lifestyle_caffeine_daily",
+    "values": [
+      "1",
+      "2_3",
+      "4plus"
+    ],
+    "and_relevant_for_candidate": "caffeine_performance"
+  },
+  "data_quality": {
+    "allow_unknown": true,
+    "allow_skip": false,
+    "minimum": 0,
+    "maximum": "not clinically inferred",
+    "validation_notes": "Numeric input must be entered by user or established from verified product composition. Unknown cannot be treated as zero."
+  },
+  "used_by_rules": [
+    "CAFF_HIGH_BASELINE"
+  ],
+  "productionReady": false
+}
