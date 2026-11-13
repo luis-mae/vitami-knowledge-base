@@ -1,0 +1,37 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "lutein_zeaxanthin",
+  "priority": 28,
+  "source_refs": [
+    "NEI_AREDS2"
+  ],
+  "questions": [
+    "profile_age",
+    "goals_primary",
+    "conditions_other_relevant",
+    "lifestyle_smoking",
+    "supplements_current_use"
+  ],
+  "evidence_summary": [
+    "AREDS2 enrolled people with intermediate AMD in both eyes or intermediate AMD in one eye and advanced AMD in the other.",
+    "People without AMD or with early AMD were excluded because AREDS showed no benefit for them.",
+    "Lutein/zeaxanthin belongs to an AREDS2 formula context, not a universal 'eye-health' supplement."
+  ],
+  "reference_values": null,
+  "source_dose_logic": {
+    "basic_status": "professional_supervision_required",
+    "generic_eye_prevention": "not_recommended"
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Determine whether formulation-specific evidence differs from parent ingredient; no unvalidated dose conversion or automatic clinical claim.",
+  "safety": [
+    "lifestyle_smoking"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Verify primary evidence and formulation differences",
+    "Reconcile canonical questions and safety gates",
+    "Validate applicability before recommendation or dose activation"
+  ]
+}
