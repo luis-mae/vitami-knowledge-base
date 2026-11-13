@@ -1,0 +1,41 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "probiotics",
+  "priority": 20,
+  "source_refs": [
+    "NIH_PROBIOTICS_HP"
+  ],
+  "questions": [
+    "goals_primary",
+    "symptom_digestive",
+    "supplements_current_use",
+    "conditions_other_relevant",
+    "medications_regular_use"
+  ],
+  "evidence_summary": [
+    "Effects are strain-, dose-, product-, and condition-specific.",
+    "A generic CFU count is not enough to infer efficacy.",
+    "Products labelled as probiotics are not interchangeable."
+  ],
+  "reference_values": {
+    "rda": "not_applicable",
+    "ul": "not_established_as_single_generic_category"
+  },
+  "source_dose_logic": {
+    "basic_status": "not_applicable_as_generic_category",
+    "must_split_future_records_by_strain_or_validated_product": true
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Use only validated indication- and formulation-specific evidence; goals and symptoms alone do not establish deficiency or benefit.",
+  "safety": [
+    "conditions_other_relevant",
+    "medications_regular_use"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Validate source references and population-specific outcomes",
+    "Resolve canonical question IDs and conditional safety gates",
+    "Do not infer supplement dose from RDA, AI, UL or unrelated trial protocol"
+  ]
+}
