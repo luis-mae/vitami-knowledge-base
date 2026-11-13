@@ -1,7 +1,7 @@
 {
   "rule_id": "MVM_GENERAL_WELLNESS_ONLY",
   "supplement_id": "multivitamin_mineral",
-  "status": "draft",
+  "status": "draft_corrected_pending_clinical_review",
   "priority": "normal",
   "conditions": {
     "all": [
@@ -14,13 +14,19 @@
   },
   "effect": {
     "type": "add_score",
-    "score_delta": 1,
-    "recommendation_cap": "D_optional_limited",
+    "score_delta": 0,
+    "recommendation_cap": "E_no_current_indication",
     "override_result": null,
-    "ask_questions": []
+    "ask_questions": [
+      "diet_type",
+      "supplements_current_list"
+    ]
   },
-  "rationale": "General wellness alone does not justify a strong multivitamin recommendation or prevention claim.",
+  "rationale": "General wellness alone does not establish a supplement indication.",
   "evidence_refs": [
     "NIH_MVM_HP"
+  ],
+  "correction_source_urls": [
+    "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/"
   ]
 }
