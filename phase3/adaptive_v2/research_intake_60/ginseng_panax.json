@@ -1,0 +1,24 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "ginseng_panax",
+  "source_refs_from_library": [
+    "NCCIH_HERBS_AT_A_GLANCE",
+    "NCCIH_HEALTH_TOPICS_AZ"
+  ],
+  "library_evidence_label": "mixed_or_limited",
+  "library_summary_es": "La evidencia depende mucho de la preparación, dosis, población y objetivo; no debe extrapolarse entre extractos diferentes.",
+  "review_requirements": [
+    "Indication-specific human evidence and clinical effect size",
+    "Population, comparison, studied chemical form, dose and duration",
+    "Adverse effects, contraindications, interactions with medications and other supplements",
+    "Cumulative intake and duplicate ingredient forms",
+    "Special populations and missing safety answers",
+    "Evidence sources with dates and review sign-off"
+  ],
+  "mandatory_precautions": true,
+  "combination_review_required": true,
+  "personalized_dose": "DISABLED",
+  "recommendation": "INFORMATION_ONLY",
+  "note": "Research intake is not clinical approval."
+}
