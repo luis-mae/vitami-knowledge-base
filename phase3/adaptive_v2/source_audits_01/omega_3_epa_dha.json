@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_LINKED_PRELIMINARY_AUDIT_PENDING_INDEPENDENT_CLINICAL_REVIEW",
+  "ingredient_id": "omega_3_epa_dha",
+  "claim_es": "No generalizar resultados de EPA farmacéutico de alta pureza a mezclas de EPA/DHA ni a suplementos de venta libre; los resultados cardiovasculares difieren por formulación y población.",
+  "evidence_sources": [
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "publisher": "NIH ODS",
+      "updated": "2025-08-22",
+      "type": "authoritative_evidence_synthesis",
+      "supports": [
+        "formulation_specific_cardiovascular_trials",
+        "atrial_fibrillation",
+        "anticoagulant_interactions"
+      ]
+    }
+  ],
+  "limitations_es": [
+    "REDUCE-IT y STRENGTH no son intercambiables",
+    "No inferir prevención cardiovascular universal"
+  ],
+  "mandatory_precautions_es": [
+    "Distinguir EPA, DHA, formulación y dosis",
+    "Revisar anticoagulantes y antiagregantes",
+    "Considerar aumento de fibrilación auricular observado con dosis altas en poblaciones cardiovasculares",
+    "Verificar duplicaciones con aceite de pescado y omega-3 de algas"
+  ],
+  "linked_existing_draft_rule_ids": [
+    "O3_LOW_FISH",
+    "O3_BLEEDING",
+    "O3_ALREADY_USING"
+  ],
+  "dose_policy": "NO_GENERIC_CARDIOVASCULAR_DOSE",
+  "reviewed_on": "2026-11-13",
+  "audit_method": "Source-based review of authoritative NIH ODS evidence synthesis; individual trial critical appraisal and full guideline reconciliation still pending",
+  "approval": {
+    "scientific": false,
+    "clinical": false,
+    "production": false
+  },
+  "report_requirements": [
+    "Present evidence source with publication/update date and URL",
+    "Display applicability and uncertainty",
+    "Show individual and combination precautions",
+    "Do not claim source proves individual clinical suitability"
+  ]
+}
