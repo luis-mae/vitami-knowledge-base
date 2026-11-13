@@ -1,0 +1,52 @@
+{
+  "version": "0.1-draft",
+  "status": "RESEARCH_BACKLOG_NOT_CLINICALLY_APPROVED",
+  "ingredient": "biotin",
+  "priority": 21,
+  "source_refs": [
+    "NIH_BIOTIN_HP"
+  ],
+  "questions": [
+    "goals_primary",
+    "symptom_hair_nails",
+    "supplements_current_use",
+    "pro_labs_available",
+    "conditions_other_relevant"
+  ],
+  "evidence_summary": [
+    "Deficiency can include rash, hair loss and brittle nails.",
+    "Evidence for cosmetic supplementation in people without deficiency is supported mainly by a few case reports/small studies.",
+    "High biotin intake can interfere with laboratory tests, including hormone and 25(OH)D assays."
+  ],
+  "reference_values": {
+    "age_19_plus": {
+      "ai": 30,
+      "unit": "mcg/day"
+    },
+    "pregnancy": {
+      "ai": 30,
+      "unit": "mcg/day"
+    },
+    "lactation": {
+      "ai": 35,
+      "unit": "mcg/day"
+    },
+    "ul": "not_established"
+  },
+  "source_dose_logic": {
+    "basic_status": "reference_only",
+    "cosmetic_high_dose": "not_recommended_without_specific_evidence"
+  },
+  "source_recommendation_ceiling": null,
+  "personalization": "Use only validated indication- and formulation-specific evidence; goals and symptoms alone do not establish deficiency or benefit.",
+  "safety": [
+    "pro_labs_available",
+    "conditions_other_relevant"
+  ],
+  "activation": "BLOCKED_PENDING_SCIENTIFIC_AND_TECHNICAL_QA",
+  "review_tasks": [
+    "Validate source references and population-specific outcomes",
+    "Resolve canonical question IDs and conditional safety gates",
+    "Do not infer supplement dose from RDA, AI, UL or unrelated trial protocol"
+  ]
+}
