@@ -1,0 +1,22 @@
+{
+  "version": "0.1-research-intake",
+  "status": "DEEP_RESEARCH_INCOMPLETE_NOT_CLINICALLY_APPROVED",
+  "ingredient": "rhodiola",
+  "source_refs_from_library": [
+    "NCCIH_HERBS_AT_A_GLANCE",
+    "NCCIH_HEALTH_TOPICS_AZ"
+  ],
+  "library_evidence_label": "mixed_or_limited",
+  "library_summary_es": "La evidencia depende mucho de la preparación, dosis, población y objetivo; no debe extrapolarse entre extractos diferentes.",
+  "review_requirements": [
+    "Verify indication-specific human evidence, comparator and effect sizes",
+    "Verify studied dose, formulation, duration and target population",
+    "Verify precautions, contraindications, interactions and adverse effects",
+    "Check cumulative exposure, special populations and missing safety answers",
+    "Independent scientific and clinical review required before any activation"
+  ],
+  "mandatory_precautions": true,
+  "combination_review_required": true,
+  "personalized_dose": "DISABLED",
+  "recommendation": "INFORMATION_ONLY"
+}
