@@ -1,3 +1,4 @@
+import {compareMeasuredAnswer} from "./typedQuestionnaireComparator_v1.mjs";
 /** VITAMI rules evaluation prototype. Draft decisions only; never clinical clearance. */
 const norm=x=>String(x??"").trim().toLowerCase().replace(/[\s-]+/g,"_");
 const asArray=x=>Array.isArray(x)?x:[];
@@ -22,7 +23,8 @@ export function evaluateRuleCondition(pair,answers={}){
   return {match:value.includes(expected),unknown:false};
  }
  if(!Object.prototype.hasOwnProperty.call(answers,key)||answers[key]===null||answers[key]===undefined||answers[key]===""||answers[key]==="unknown"||answers[key]==="prefer_not"||answers[key]==="not_sure")return {match:false,unknown:true,reason:"MISSING:"+key};
- const result=compare(answers[key],expected);
+ const result=typeof expected==="string"&&/^[<>]=?/.test(expected)?compareMeasuredAnswer(answers[key],expected,{declaredUnit:key==="lifestyle_caffeine_daily"?"mg":null}):compare(answers[key],expected);
+ if(result&&typeof result==="object"&&"unknown" in result)return result;
  return result===null?{match:false,unknown:true,reason:"INVALID_VALUE:"+key}:{match:result,unknown:false};
 }
 export function evaluateDraftRules({rules=[],answers={},interactionReview=null}={}){
