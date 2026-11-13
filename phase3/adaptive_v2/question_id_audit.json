@@ -1,0 +1,186 @@
+{
+  "version": "0.1-draft",
+  "status": "AUDIT_ONLY_NO_RUNTIME_CHANGE",
+  "bank_version": "1.5.0",
+  "bank_question_count": 73,
+  "design_unique_question_refs": 45,
+  "exact_matches": [
+    "profile_age",
+    "profile_sex_reference",
+    "diet_type",
+    "activity_level",
+    "supplements_current_use",
+    "activity_type",
+    "activity_days_per_week",
+    "conditions_kidney",
+    "lifestyle_caffeine_daily",
+    "symptom_sleep",
+    "diet_fortified_foods",
+    "diet_dairy_calcium_sources",
+    "diet_fatty_fish_weekly"
+  ],
+  "unresolved": [
+    {
+      "id": "profile_weight_kg",
+      "possible_existing_equivalent": "pro_weight",
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "medications_current_use",
+      "possible_existing_equivalent": "medications_regular_use",
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "conditions_relevant",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "pregnancy_lactation_if_relevant",
+      "possible_existing_equivalent": "profile_pregnancy + profile_lactation",
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "strength_training_frequency",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "functional_decline",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "protein_intake_estimate",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "mobility_balance",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "training_goal_detail",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "activity_duration",
+      "possible_existing_equivalent": "activity_session_duration",
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "joint_symptom_duration",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "joint_symptom_severity",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "joint_swelling_redness",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "joint_diagnosis",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "muscle_symptom_onset",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "muscle_symptom_severity",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "exercise_relation",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "muscle_red_flags",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "cognitive_change_onset",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "cognitive_daily_impact",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "skin_goal_detail",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "sun_exposure",
+      "possible_existing_equivalent": "lifestyle_sun_exposure",
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "skin_diagnosis",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "current_skin_treatments",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "hair_symptom_duration",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "hair_loss_pattern",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "diet_restriction",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "known_deficiency_or_thyroid",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "sleep_schedule",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "sleep_red_flags",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "supplements_product_name",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    },
+    {
+      "id": "supplements_amount_frequency",
+      "possible_existing_equivalent": null,
+      "action": "confirm semantic equivalence or define new canonical question before integration"
+    }
+  ],
+  "hard_rule": "Do not silently rename existing canonical IDs or assume aliases are equivalent. Preserve safety meaning and requiredness.",
+  "next": "Review question wording, options, skip logic and safe default for each unresolved reference."
+}
