@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "status": "integration_contract_pending_existing_app_inspection",
+  "section": {
+    "id": "tracking",
+    "label": {
+      "es": "Mi seguimiento",
+      "en": "My progress",
+      "it": "Il mio monitoraggio"
+    },
+    "position": "primary_navigation"
+  },
+  "principles": [
+    "Reuse existing tracking functionality and user data; inspect actual application before modifying UI.",
+    "Track the user's selected goals, not merely supplement consumption.",
+    "BASIC follow-up and safety warnings remain accessible without PRO payment.",
+    "No automated medical diagnosis or claim of efficacy from self-reported changes.",
+    "Respect privacy, consent, and data deletion."
+  ],
+  "features": {
+    "goal_progress": {
+      "enabled": true,
+      "baseline": "user-reported goal-specific status",
+      "checkin": "short goal-specific questions",
+      "comparison": "changes over time without causal attribution"
+    },
+    "plan_adherence": {
+      "enabled": true,
+      "opt_in": true,
+      "items": [
+        "user-confirmed supplement use",
+        "user-entered amount and frequency",
+        "optional reminders"
+      ],
+      "do_not_assume_purchase_equals_use": true
+    },
+    "safety_checkin": {
+      "enabled": true,
+      "actions": [
+        "record adverse effects",
+        "record changes in medications or conditions",
+        "request re-evaluation"
+      ],
+      "warning": "New adverse effects or relevant medication changes require review; do not auto-clear safety blocks."
+    },
+    "history": {
+      "enabled": true,
+      "items": [
+        "previous BASIC analyses",
+        "goal selections",
+        "user-entered check-ins",
+        "PRO results only when purchased and available"
+      ]
+    }
+  },
+  "cadence": {
+    "default": "user_initiated",
+    "optional_reminders": true,
+    "never_force_daily_checkins": true
+  },
+  "integrations": {
+    "basic_results": "initialize tracking only with user consent",
+    "pro": "parallel optional paid analysis, not required for tracking",
+    "cart": "parallel optional shopping, purchase does not activate tracking automatically",
+    "library": "link to corresponding compound scientific sheet"
+  },
+  "implementation_note": "This contract does not claim that tracking UI or persistence has been implemented; verify the existing app's components, storage, and consent flow first."
+}
