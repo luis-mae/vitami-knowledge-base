@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "CALCIUM_LOW_DIET_TOTAL_INTAKE_001",
+  "ingredient_id": "calcium",
+  "claim_text": "Low dairy intake alone does not establish low calcium intake because non-dairy foods and fortified products also contribute; total intake should be assessed against age- and life-stage reference values before considering a supplement.",
+  "health_goal_or_outcome": "Support safe assessment of nutrient intake and avoid inappropriate or duplicate supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific reference values apply.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People reporting low dairy and fortified-food intake; assess all dietary sources and current products."
+  },
+  "ingredient_form_or_preparation": "Food, fortified foods and/or relevant supplement preparations; verify exact product form and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Calcium Health Professional Fact Sheet lists dietary sources, reference intakes and upper limits.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No supplement dose from this claim; account for kidney-stone history and total elemental calcium.",
+    "Source claim and cited underlying studies require full-text appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_CALCIUM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
