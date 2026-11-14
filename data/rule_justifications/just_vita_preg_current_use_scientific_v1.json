@@ -1,0 +1,47 @@
+{
+  "rule_justification_id": "JUST_VITA_PREG_CURRENT_USE_SCIENTIFIC_V1",
+  "rule_id": "VITA_PREG_CURRENT_USE",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "profile_pregnancy",
+    "supplements_current_use_contains",
+    "vitamin_a_product_form",
+    "vitamin_a_product_amount",
+    "prenatal_product_use",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ],
+      [
+        "supplements_current_use_contains",
+        "vitamin_a"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend additional vitamin A; identify preformed retinol versus beta-carotene and quantify total exposure from prenatal and other products, with clinician/pharmacist review.",
+  "safety_exclusions": [
+    "Do not recommend high-dose preformed vitamin A during pregnancy.",
+    "Do not assume retinol and beta-carotene have identical risk profiles.",
+    "Do not stop prescribed prenatal care without clinician advice."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy with preformed retinol use above recommended amounts, isotretinoin or other retinoid medicines, liver disease or suspected excessive exposure."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITA_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "population_and_context": "Pregnant people already taking vitamin A-containing supplements; preformed retinol exposure requires special attention because excessive intake can harm fetal development.",
+  "dose_constraints": "No dose from this rule. Distinguish preformed vitamin A from provitamin A carotenoids and follow local antenatal upper-limit guidance.",
+  "certainty_and_limitations": "NIH ODS Vitamin A and pregnancy information describes teratogenic risk from excessive preformed vitamin A; exact product form and total exposure are essential. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
