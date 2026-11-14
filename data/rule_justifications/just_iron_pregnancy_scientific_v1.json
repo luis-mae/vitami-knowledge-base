@@ -27,7 +27,9 @@
     "Low hemoglobin/ferritin, anemia symptoms, bleeding, gastrointestinal intolerance or suspected iron overload.",
     "Multiple iron-containing products or therapeutic-dose iron use."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "IRON_PREGNANCY_REQUIREMENT_001"
+  ],
   "source_ids": [
     "NIH_IRON_HP"
   ],
