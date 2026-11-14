@@ -216,6 +216,127 @@
         "NIH_CALCIUM_HP"
       ],
       "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CALCIUM_STONES",
+      "ingredient_id": "calcium",
+      "source_ids": [
+        "NIH_CALCIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CHOLINE_COGNITIVE_ONLY",
+      "ingredient_id": "choline",
+      "source_ids": [
+        "NIH_CHOLINE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CHOLINE_PREGNANCY_CONTEXT",
+      "ingredient_id": "choline",
+      "source_ids": [
+        "NIH_CHOLINE_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "COLLAGEN_SKIN",
+      "ingredient_id": "collagen_peptides",
+      "source_ids": [
+        "COLLAGEN_META_2025"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "COQ10_GENERIC_ENERGY",
+      "ingredient_id": "coenzyme_q10",
+      "source_ids": [
+        "NCCIH_COQ10"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CREATINE_ENDURANCE_ONLY",
+      "ingredient_id": "creatine_monohydrate",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CREATINE_HIGH_INTENSITY_SPORT",
+      "ingredient_id": "creatine_monohydrate",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CREATINE_KIDNEY",
+      "ingredient_id": "creatine_monohydrate",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CURCUMIN_LIVER",
+      "ingredient_id": "curcumin_turmeric",
+      "source_ids": [
+        "NCCIH_TURMERIC"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CURCUMIN_PREG",
+      "ingredient_id": "curcumin_turmeric",
+      "source_ids": [
+        "NCCIH_TURMERIC"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "D3_KIDNEY",
+      "ingredient_id": "vitamin_d3",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "D3_PARENT_LOW_SUN",
+      "ingredient_id": "vitamin_d3",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ELECTROLYTES_KIDNEY_HEART",
+      "ingredient_id": "electrolyte_mix",
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ELECTROLYTES_PROLONGED_HIGH_SWEAT",
+      "ingredient_id": "electrolyte_mix",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ELECTROLYTES_SHORT_LOW_SWEAT",
+      "ingredient_id": "electrolyte_mix",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
     }
   ],
   "library_entries_pending_source_specific_review": [
@@ -236,5 +357,5 @@
     "Review primary documents and current update dates before marking any source verified.",
     "Do not promote any draft rule to active from this mapping alone."
   ],
-  "expansion_count": 15
+  "expansion_count": 30
 }
