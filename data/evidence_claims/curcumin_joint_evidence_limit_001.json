@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "CURCUMIN_JOINT_EVIDENCE_LIMIT_001",
+  "ingredient_id": "curcumin",
+  "claim_text": "Curcumin/turmeric preparations have been studied for osteoarthritis symptoms, but evidence varies by formulation and study quality and does not establish a universal treatment effect or replacement for standard care.",
+  "health_goal_or_outcome": "Support safe, indication-specific recommendations and avoid unsupported supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People with joint discomfort considering curcumin products."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary and supplemental forms; verify exact product label and formulation.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NCCIH turmeric resources summarize research on osteoarthritis and uncertainty.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No standardized dose across formulations; safety and interactions need appraisal.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NCCIH_TURMERIC"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
