@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_BIOTIN_LABS_SCIENTIFIC_V1",
+  "rule_id": "BIOTIN_LABS",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "biotin_supplement_use",
+    "planned_lab_tests",
+    "lab_test_type"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "pro_labs_available",
+        true
+      ],
+      [
+        "supplements_current_use_contains",
+        "biotin"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If any required context is unknown, do not issue a positive recommendation; request clarification or professional review.",
+  "safety_exclusions": [
+    "Do not advise stopping prescribed therapy independently; tell user to disclose biotin dose and timing to clinician/laboratory."
+  ],
+  "professional_escalation_conditions": [
+    "Urgent cardiac or endocrine testing, abnormal results inconsistent with clinical picture, or high-dose biotin use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_BIOTIN_HP"
+  ],
+  "population_and_context": "Users taking biotin who undergo laboratory testing susceptible to biotin interference.",
+  "dose_constraints": "No dose; lab-specific washout guidance must come from the laboratory/clinician.",
+  "certainty_and_limitations": "NIH ODS Biotin fact sheet and FDA safety communications; interference varies by assay and dose. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
