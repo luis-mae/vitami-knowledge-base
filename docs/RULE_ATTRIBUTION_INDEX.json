@@ -848,7 +848,9 @@
     {
       "attribution_id": "RULE_ATTR_ELECTROLYTES_KIDNEY_HEART_NIH_POTASSIUM_HP",
       "rule_id": "ELECTROLYTES_KIDNEY_HEART",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "ELECTROLYTES_KIDNEY_HEART_SODIUM_POTASSIUM_REVIEW_001"
+      ],
       "source_id": "NIH_POTASSIUM_HP",
       "organization": "NIH ODS",
       "document_title": "Potassium — Health Professional Fact Sheet",
@@ -976,7 +978,9 @@
     {
       "attribution_id": "RULE_ATTR_IRONBIS_PREGNANCY_NIH_IRON_HP",
       "rule_id": "IRONBIS_PREGNANCY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "IRON_PREGNANCY_PRENATAL_DUPLICATION_001"
+      ],
       "source_id": "NIH_IRON_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Iron — Health Professional Fact Sheet",
@@ -997,7 +1001,9 @@
     {
       "attribution_id": "RULE_ATTR_IRONBIS_PREGNANCY_NIH_PREGNANCY_HP",
       "rule_id": "IRONBIS_PREGNANCY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "IRON_PREGNANCY_PRENATAL_DUPLICATION_001"
+      ],
       "source_id": "NIH_PREGNANCY_HP",
       "organization": "NIH ODS",
       "document_title": "Dietary Supplements and Life Stages: Pregnancy — Health Professional Fact Sheet",
@@ -1152,7 +1158,9 @@
     {
       "attribution_id": "RULE_ATTR_MELATONIN_CHRONIC_INSOMNIA_NCCIH_SLEEP",
       "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MELATONIN_CHRONIC_INSOMNIA_LIMIT_001"
+      ],
       "source_id": "NCCIH_SLEEP",
       "organization": "NCCIH",
       "document_title": "Sleep Disorders and Complementary Health Approaches",
@@ -1760,7 +1768,9 @@
     {
       "attribution_id": "RULE_ATTR_VITC_KIDNEY_STONES_NIH_VITC_HP",
       "rule_id": "VITC_KIDNEY_STONES",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITC_STONES_OXALATE_HIGH_DOSE_001"
+      ],
       "source_id": "NIH_VITC_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin C — Health Professional Fact Sheet",
@@ -1892,7 +1902,9 @@
     {
       "attribution_id": "RULE_ATTR_VITE_BLEEDING_NIH_VITE_HP",
       "rule_id": "VITE_BLEEDING",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITE_BLEEDING_HIGH_DOSE_INTERACTION_001"
+      ],
       "source_id": "NIH_VITE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin E — Health Professional Fact Sheet",
