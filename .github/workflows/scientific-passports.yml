@@ -1,0 +1,34 @@
+name: Scientific passport contract
+on:
+  push:
+    paths:
+      - 'schema/scientific_passport_v1.schema.json'
+      - 'scripts/validate_scientific_passports.py'
+      - 'tests/test_scientific_passports.py'
+      - 'data/scientific_passports/**'
+      - '.github/workflows/scientific-passports.yml'
+  pull_request:
+    paths:
+      - 'schema/scientific_passport_v1.schema.json'
+      - 'scripts/validate_scientific_passports.py'
+      - 'tests/test_scientific_passports.py'
+      - 'data/scientific_passports/**'
+      - '.github/workflows/scientific-passports.yml'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Regression tests
+        run: python -m unittest discover -s tests -p 'test_scientific_passports.py'
+      - name: Validate passports if any exist
+        shell: bash
+        run: |
+          if [ -d data/scientific_passports ] && find data/scientific_passports -type f -name '*.json' | grep -q .; then
+            python scripts/validate_scientific_passports.py
+          else
+            echo "No passports yet: regression tests passed; data coverage NOT validated."
+          fi
