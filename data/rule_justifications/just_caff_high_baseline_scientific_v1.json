@@ -29,7 +29,9 @@
     "Palpitations, arrhythmia, uncontrolled hypertension, panic symptoms, pregnancy or significant sleep disturbance.",
     "Use of stimulant medicines or multiple caffeine-containing products."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "CAFFEINE_HIGH_BASELINE_TOTAL_EXPOSURE_001"
+  ],
   "source_ids": [
     "NIH_EXERCISE_HP"
   ],
