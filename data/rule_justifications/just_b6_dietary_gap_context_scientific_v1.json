@@ -27,7 +27,9 @@
     "Tingling, numbness, burning pain, gait changes or other neurological symptoms.",
     "Current high-dose B6 use, pregnancy, kidney disease or relevant medication use."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "B6_DIETARY_GAP_REVIEW_001"
+  ],
   "source_ids": [
     "NIH_B6_HP"
   ],
