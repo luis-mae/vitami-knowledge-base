@@ -6,7 +6,7 @@
     "registered_sources": 76,
     "draft_rules": 87,
     "safety_gates": 31,
-    "evidence_claim_records": 91,
+    "evidence_claim_records": 96,
     "scientific_review_records": 11,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
@@ -15,19 +15,19 @@
     "integrity_audit_script": 1,
     "safety_gate_preliminary_claims": 31,
     "safety_gate_attribution_manifest_records": 39,
-    "rule_justification_records": 63,
+    "rule_justification_records": 68,
     "rule_attribution_manifest_records": 95,
-    "rules_with_dedicated_justifications": 63,
-    "rules_total": 89
+    "rules_with_dedicated_justifications": 68,
+    "rules_total": 87
   },
   "reconciliation": {
     "unregistered_rule_source_ids": [],
     "unregistered_safety_source_ids": []
   },
   "gaps": [
-    "63 of 89 draft rules have dedicated structured justifications; 26 remain without dedicated justifications.",
+    "68 of 87 draft rules have dedicated structured justifications; 19 remain without dedicated justifications.",
     "31 safety gates have preliminary claim records; 28 still require substantive source appraisal beyond the placeholder record.",
-    "40 additional rule claims have substantive drafts and source links but remain in evidence-review status, not approved for recommendations.",
+    "45 additional rule claims have substantive drafts and source links but remain in evidence-review status, not approved for recommendations.",
     "Attribution manifests are prepared but not yet rendered in BASIC/PRO screens.",
     "Full-text appraisal, risk-of-bias and GRADE remain incomplete for most claims; professional review is pending."
   ],
@@ -91,28 +91,28 @@
   ],
   "new_substantive_rule_claims": [
     {
-      "rule_id": "ELECTROLYTES_KIDNEY_HEART",
-      "claim_id": "ELECTROLYTES_KIDNEY_HEART_SODIUM_POTASSIUM_REVIEW_001",
+      "rule_id": "CHOLINE_PREGNANCY_CONTEXT",
+      "claim_id": "CHOLINE_PREGNANCY_INTAKE_REVIEW_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "IRONBIS_PREGNANCY",
-      "claim_id": "IRON_PREGNANCY_PRENATAL_DUPLICATION_001",
+      "rule_id": "D3_PARENT_LOW_SUN",
+      "claim_id": "VITD_LOW_SUN_NOT_DIAGNOSIS_002",
       "status": "evidence_review"
     },
     {
-      "rule_id": "VITC_KIDNEY_STONES",
-      "claim_id": "VITC_STONES_OXALATE_HIGH_DOSE_001",
+      "rule_id": "IODINE_LOW_SOURCE_CONTEXT",
+      "claim_id": "IODINE_LOW_DIETARY_SOURCE_REVIEW_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "VITE_BLEEDING",
-      "claim_id": "VITE_BLEEDING_HIGH_DOSE_INTERACTION_001",
+      "rule_id": "METHYLB12_ALREADY_B12",
+      "claim_id": "B12_EXISTING_PRODUCT_DUPLICATION_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
-      "claim_id": "MELATONIN_CHRONIC_INSOMNIA_LIMIT_001",
+      "rule_id": "VITK_BONE_GOAL_ONLY",
+      "claim_id": "VITK_BONE_GOAL_NO_AUTOMATIC_SUPPLEMENT_001",
       "status": "evidence_review"
     }
   ]
