@@ -28,7 +28,9 @@
   "professional_escalation_conditions": [
     "Pregnancy, diagnosed deficiency, malabsorption, chronic disease or medically prescribed supplementation."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "MVM_GENERAL_WELLNESS_EVIDENCE_LIMIT_001"
+  ],
   "source_ids": [
     "NIH_MVM_HP"
   ],
