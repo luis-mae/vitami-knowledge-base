@@ -1,0 +1,38 @@
+{
+  "attribution_id": "ATTR_INOSITOL_SOURCE_REVIEW_001_INOSITOL_PCOS_META_2024",
+  "source_id": "INOSITOL_PCOS_META_2024",
+  "claim_ids": [
+    "INOSITOL_SOURCE_REVIEW_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Inositol for Polycystic Ovary Syndrome: A Systematic Review and Meta-analysis to Inform the 2023 Update of the International Evidence-based PCOS Guidelines",
+  "document_title": "Inositol for Polycystic Ovary Syndrome: A Systematic Review and Meta-analysis to Inform the 2023 Update of the International Evidence-based PCOS Guidelines",
+  "organization_name": "Teede et al.; Journal of Clinical Endocrinology & Metabolism",
+  "original_url": "https://pubmed.ncbi.nlm.nih.gov/38163998/",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "PCOS-specific metabolic, hormonal and reproductive outcomes",
+  "limitations": [
+    "Do not generalize to people without PCOS.",
+    "No specific formulation or dose can be recommended from this evidence.",
+    "Pregnancy outcomes require separate evidence and assessment."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "international",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
