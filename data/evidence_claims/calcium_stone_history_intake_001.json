@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "CALCIUM_STONE_HISTORY_INTAKE_001",
+  "ingredient_id": "calcium",
+  "claim_text": "A history of kidney stones does not by itself establish a need to restrict dietary calcium or take calcium supplements; stone composition, total dietary intake, urinary risk factors and clinical guidance should inform decisions.",
+  "health_goal_or_outcome": "Support safe, context-specific assessment and prevent inappropriate supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific guidance applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People with a history of kidney stones being assessed for calcium intake or supplementation."
+  },
+  "ingredient_form_or_preparation": "Dietary and/or supplemental sources; verify product label and total exposure.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Calcium Health Professional Fact Sheet provides general intake and safety information; stone-specific prevention requires urology/nephrology guidance.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Do not generalize across stone types; no supplement dose from this claim.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_CALCIUM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
