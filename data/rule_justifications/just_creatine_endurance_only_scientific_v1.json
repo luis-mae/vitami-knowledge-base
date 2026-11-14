@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_CREATINE_ENDURANCE_ONLY_SCIENTIFIC_V1",
+  "rule_id": "CREATINE_ENDURANCE_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_type",
+    "training_volume",
+    "training_duration",
+    "goals_primary",
+    "creatine_current_use",
+    "renal_health_status"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_type",
+        "endurance_only"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend creatine solely for an endurance-only goal; clarify training type and intended outcome.",
+  "safety_exclusions": [
+    "Do not generalize strength/power findings to pure endurance performance.",
+    "Do not promise improved endurance capacity from creatine alone.",
+    "Do not overlook renal disease or existing use."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney disease, reduced eGFR, pregnancy, minors or relevant medication use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "People undertaking pure endurance activity; creatine evidence is stronger for repeated high-intensity efforts than for steady-state endurance performance.",
+  "dose_constraints": "No dose from this rule. No protocol from this context; if another indication exists, assess it separately.",
+  "certainty_and_limitations": "NIH ODS Exercise and Athletic Performance fact sheet summarizes creatine's activity-specific evidence; benefit for pure endurance is limited or inconsistent. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
