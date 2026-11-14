@@ -31,7 +31,9 @@
     "Pregnancy, heavy menstrual bleeding, gastrointestinal bleeding or malabsorption.",
     "Hemochromatosis, iron overload, chronic disease or current iron therapy."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "IRON_VEGETARIAN_NONHEME_BIOAVAILABILITY_001"
+  ],
   "source_ids": [
     "NIH_IRON_HP"
   ],
