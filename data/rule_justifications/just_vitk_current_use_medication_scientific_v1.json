@@ -30,7 +30,9 @@
   "professional_escalation_conditions": [
     "Warfarin or another vitamin K antagonist, unstable INR, bleeding, thrombosis, planned procedure or unexplained bruising."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "VITK_WARFARIN_INTAKE_CONSISTENCY_001"
+  ],
   "source_ids": [
     "NIH_VITK_HP"
   ],
