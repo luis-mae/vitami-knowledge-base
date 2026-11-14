@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://vitami.app/schema/vitami-source.schema.json",
-  "title": "Vitami Source Record",
+  "title": "Vitami Source Registry Record",
   "type": "object",
   "required": [
     "id",
@@ -37,6 +37,96 @@
     },
     "notes": {
       "type": "string"
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "updated_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "accessed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "registered",
+        "current",
+        "review_required",
+        "superseded",
+        "withdrawn",
+        "not_verified"
+      ]
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "object",
+      "properties": {
+        "asset_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "usage_status": {
+          "type": "string",
+          "enum": [
+            "not_applicable",
+            "permission_and_brand_guidelines_review_required",
+            "permission_confirmed",
+            "text_only"
+          ]
+        },
+        "attribution_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "usage_status"
+      ],
+      "additionalProperties": false
+    },
+    "supported_claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "supported_rule_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "access_notes": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
-  }
+  },
+  "additionalProperties": false
 }
