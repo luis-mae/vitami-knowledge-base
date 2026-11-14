@@ -1,5 +1,5 @@
 {
-  "policy_version": "1.0",
+  "policy_version": "1.1",
   "mandatory_rules": [
     "No evidence claim may be marked active without at least one source reference.",
     "No dose/reference intake/upper limit may be stored without a source reference and population/context.",
@@ -10,7 +10,15 @@
     "If evidence is uncertain or conflicting, the uncertainty must be stored and surfaced to the user when material.",
     "Source title, organization, URL/identifier, publication/update date when known, access date, and supported claim must be recorded.",
     "Claims intended for EU-facing user interfaces should record EU health-claim status when applicable.",
-    "Any automatic dosage adjustment must have an explicit evidence-backed formula/rule; otherwise dosage remains reference-only or requires professional review."
+    "Any automatic dosage adjustment must have an explicit evidence-backed formula/rule; otherwise dosage remains reference-only or requires professional review.",
+    "Every material scientific, safety, or regulatory criterion used in a user-facing result must display the actual source used, with a direct original-document link.",
+    "Source attribution must identify what the source supports and must not imply endorsement, certification, sponsorship, or partnership with Vitami.",
+    "Official logos may be displayed only after checking brand guidelines and permission/reuse conditions; otherwise display the organization name as text.",
+    "Distinguish binding legal requirements, regulator scientific opinions, government evidence summaries, clinical guidelines, systematic reviews, and individual studies.",
+    "Each claim must be specific to the ingredient, form/preparation, indication/outcome, population, dose context, and duration where relevant.",
+    "Record publication/update date and access/review date when available; flag sources whose currency has not been checked.",
+    "GRADE is used to assess certainty of evidence and strength of recommendations; PRISMA is used to report systematic reviews and is not a quality score.",
+    "Do not activate a claim or recommendation merely because an authoritative organization or database is listed; the specific document must support the specific claim."
   ],
   "preferred_source_order": [
     "Regulatory/scientific authorities and official monographs",
@@ -18,5 +26,14 @@
     "Systematic reviews/meta-analyses",
     "High-quality clinical guidelines",
     "Individual peer-reviewed studies when higher-level evidence is unavailable"
-  ]
+  ],
+  "logo_and_attribution_policy": {
+    "show_source_name": true,
+    "show_direct_original_link": true,
+    "show_document_title_when_available": true,
+    "show_publication_and_review_dates_when_available": true,
+    "show_what_the_source_supports": true,
+    "logos": "Only after checking brand guidelines and permission; use name-only attribution by default.",
+    "endorsement_disclaimer": "Attribution identifies information provenance and does not mean the organization endorses Vitami."
+  }
 }
