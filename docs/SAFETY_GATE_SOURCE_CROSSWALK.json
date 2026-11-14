@@ -51,9 +51,10 @@
         "NIH_B6_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_review_pending",
       "evidence_claim_ids": [
-        "SAFETY_B6_CURRENT_USE_NEURO_PRELIMINARY_001"
+        "SAFETY_B6_CURRENT_USE_NEURO_PRELIMINARY_001",
+        "B6_NEUROTOXICITY_UL_2023"
       ]
     },
     {
@@ -91,9 +92,10 @@
         "NIH_PREGNANCY_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_review_pending",
       "evidence_claim_ids": [
-        "SAFETY_VITA_PREG_CURRENT_USE_PRELIMINARY_001"
+        "SAFETY_VITA_PREG_CURRENT_USE_PRELIMINARY_001",
+        "VITA_PREFORMED_PREGNANCY_RISK_001"
       ]
     },
     {
@@ -104,9 +106,10 @@
         "FDA_PSYLLIUM_CHD"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_review_pending",
       "evidence_claim_ids": [
-        "SAFETY_PSYLLIUM_SWALLOWING_PRELIMINARY_001"
+        "SAFETY_PSYLLIUM_SWALLOWING_PRELIMINARY_001",
+        "PSYLLIUM_SWALLOWING_OBSTRUCTION_001"
       ]
     },
     {
