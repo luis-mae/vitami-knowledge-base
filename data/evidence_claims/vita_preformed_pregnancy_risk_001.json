@@ -1,0 +1,38 @@
+{
+  "evidence_claim_id": "VITA_PREFORMED_PREGNANCY_RISK_001",
+  "ingredient_id": "vitamin_a",
+  "claim_text": "Excessive intake of preformed vitamin A (retinol and retinyl esters), unlike provitamin A carotenoids such as beta-carotene, can cause congenital birth defects. NIH ODS advises pregnant people to keep preformed vitamin A intake below the applicable upper limit and avoid high-dose supplements containing preformed vitamin A.",
+  "health_goal_or_outcome": "Avoidance of excessive preformed vitamin A exposure during pregnancy.",
+  "population": {
+    "age_range": "Pregnant adolescents and adults; upper limits vary by age.",
+    "sex_or_life_stage": "Pregnancy and potential pregnancy.",
+    "health_status": "General pregnancy nutrition context; individual medical indications require clinical assessment.",
+    "other_context": "Differentiate preformed retinol/retinyl esters from provitamin A carotenoids."
+  },
+  "ingredient_form_or_preparation": "Preformed vitamin A: retinol and retinyl esters; not equivalent to beta-carotene.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mcg RAE/day",
+    "frequency": "total daily intake",
+    "duration": "pregnancy"
+  },
+  "comparator": "Preformed vitamin A compared with provitamin A carotenoids.",
+  "evidence_summary": "NIH ODS Pregnancy and Vitamin A fact sheets describe teratogenic risk from excessive preformed vitamin A and age-specific upper limits; beta-carotene does not share the same established reproductive toxicity in the cited source.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Exact risk depends on form, dose, total intake and life stage.",
+    "Do not apply preformed-vitamin-A UL to beta-carotene.",
+    "This record does not provide an individualized prenatal supplement dose."
+  ],
+  "source_ids": [
+    "NIH_VITA_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
