@@ -1,0 +1,37 @@
+{
+  "attribution_id": "ATTR_SPIRULINA_SOURCE_REVIEW_001_SPIRULINA_FDA_MICROCYSTINS",
+  "source_id": "SPIRULINA_FDA_MICROCYSTINS",
+  "claim_ids": [
+    "SPIRULINA_SOURCE_REVIEW_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Blue-Green Algae Products and Microcystins",
+  "document_title": "Blue-Green Algae Products and Microcystins",
+  "organization_name": "U.S. Food and Drug Administration",
+  "original_url": "https://www.fda.gov/food/natural-toxins-food/blue-green-algae-products-and-microcystins",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Product quality and cyanotoxin contamination",
+  "limitations": [
+    "Source attribution is not an endorsement of Vitami.",
+    "The claim remains under scientific review."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "not_specified",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
