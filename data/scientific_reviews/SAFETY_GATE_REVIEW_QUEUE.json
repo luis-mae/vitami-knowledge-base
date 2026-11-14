@@ -87,7 +87,8 @@
       ],
       "existing_override": "X_professional_review_required",
       "evidence_claim_ids": [
-        "SAFETY_B6_CURRENT_USE_NEURO_PRELIMINARY_001"
+        "SAFETY_B6_CURRENT_USE_NEURO_PRELIMINARY_001",
+        "B6_NEUROTOXICITY_UL_2023"
       ],
       "required_review_domains": [
         "verify exact source passage and population",
@@ -97,7 +98,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "preliminary_claim_created_full_appraisal_pending",
+      "review_status": "substantive_claim_linked_full_review_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -160,7 +161,8 @@
       ],
       "existing_override": "X_professional_review_required",
       "evidence_claim_ids": [
-        "SAFETY_VITA_PREG_CURRENT_USE_PRELIMINARY_001"
+        "SAFETY_VITA_PREG_CURRENT_USE_PRELIMINARY_001",
+        "VITA_PREFORMED_PREGNANCY_RISK_001"
       ],
       "required_review_domains": [
         "verify exact source passage and population",
@@ -170,7 +172,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "preliminary_claim_created_full_appraisal_pending",
+      "review_status": "substantive_claim_linked_full_review_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -184,7 +186,8 @@
       ],
       "existing_override": "X_professional_review_required",
       "evidence_claim_ids": [
-        "SAFETY_PSYLLIUM_SWALLOWING_PRELIMINARY_001"
+        "SAFETY_PSYLLIUM_SWALLOWING_PRELIMINARY_001",
+        "PSYLLIUM_SWALLOWING_OBSTRUCTION_001"
       ],
       "required_review_domains": [
         "verify exact source passage and population",
@@ -194,7 +197,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "preliminary_claim_created_full_appraisal_pending",
+      "review_status": "substantive_claim_linked_full_review_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
