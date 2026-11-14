@@ -54,7 +54,9 @@
     {
       "attribution_id": "RULE_ATTR_IRON_VEGETARIAN_CONTEXT_NIH_IRON_HP",
       "rule_id": "IRON_VEGETARIAN_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "IRON_VEGETARIAN_NONHEME_BIOAVAILABILITY_001"
+      ],
       "source_id": "NIH_IRON_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Iron — Health Professional Fact Sheet",
@@ -927,7 +929,7 @@
       "attribution_id": "RULE_ATTR_IODINE_THYROID_CONTEXT_NIH_IODINE_HP",
       "rule_id": "IODINE_THYROID_CONTEXT",
       "evidence_claim_ids": [
-        "IODINE_THYROID_DYSFUNCTION_001"
+        "IODINE_THYROID_BIDIRECTIONAL_RISK_001"
       ],
       "source_id": "NIH_IODINE_HP",
       "organization": "NIH ODS",
@@ -1012,7 +1014,9 @@
     {
       "attribution_id": "RULE_ATTR_IRON_FATIGUE_ONLY_NIH_IRON_HP",
       "rule_id": "IRON_FATIGUE_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "IRON_FATIGUE_NONSPECIFIC_001"
+      ],
       "source_id": "NIH_IRON_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Iron — Health Professional Fact Sheet",
@@ -1100,7 +1104,9 @@
     {
       "attribution_id": "RULE_ATTR_MAGGLY_KIDNEY_NIH_MAGNESIUM_HP",
       "rule_id": "MAGGLY_KIDNEY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MAGNESIUM_KIDNEY_CLEARANCE_SAFETY_001"
+      ],
       "source_id": "NIH_MAGNESIUM_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Magnesium — Health Professional Fact Sheet",
@@ -1272,7 +1278,9 @@
     {
       "attribution_id": "RULE_ATTR_METHYLB12_VEGAN_NIH_B12_HP",
       "rule_id": "METHYLB12_VEGAN",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "METHYLB12_FORM_SUPERIORITY_EVIDENCE_001"
+      ],
       "source_id": "NIH_B12_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin B12 — Health Professional Fact Sheet",
