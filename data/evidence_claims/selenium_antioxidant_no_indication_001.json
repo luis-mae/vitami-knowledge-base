@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "SELENIUM_ANTIOXIDANT_NO_INDICATION_001",
+  "ingredient_id": "selenium",
+  "claim_text": "Generic interest in antioxidants does not establish selenium deficiency or justify selenium supplementation; excessive intake can cause toxicity.",
+  "health_goal_or_outcome": "Support safe, indication-specific recommendations and avoid unsupported supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People considering selenium for general antioxidant interest."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary and supplemental forms; verify exact product label and formulation.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Selenium fact sheet describes intake, upper limits and evidence context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No dose from this claim; reconcile diet and all supplements.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_SELENIUM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
