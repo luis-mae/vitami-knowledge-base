@@ -27,7 +27,9 @@
   "professional_escalation_conditions": [
     "Persistent unexplained fatigue, cardiovascular disease, cancer treatment or warfarin use."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "COQ10_GENERIC_ENERGY_EVIDENCE_LIMIT_001"
+  ],
   "source_ids": [
     "NCCIH_COQ10"
   ],
