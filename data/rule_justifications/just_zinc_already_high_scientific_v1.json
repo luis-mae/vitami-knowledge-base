@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_ZINC_ALREADY_HIGH_SCIENTIFIC_V1",
+  "rule_id": "ZINC_ALREADY_HIGH",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "supplements_current_use",
+    "zinc_product_amount",
+    "zinc_frequency",
+    "diet_zinc_sources",
+    "copper_supplement_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "zinc"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not add another zinc product until elemental zinc per serving, frequency, duration and other sources are reconciled.",
+  "safety_exclusions": [
+    "Do not equate compound weight with elemental zinc amount.",
+    "Do not infer copper deficiency from zinc use alone.",
+    "Do not recommend chronic high-dose zinc for immune support or other nonspecific goals."
+  ],
+  "professional_escalation_conditions": [
+    "Long-term high-dose zinc, anemia, neutropenia, neurological symptoms or suspected copper deficiency.",
+    "Pregnancy, malabsorption or relevant medication interactions."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_ZINC_HP"
+  ],
+  "population_and_context": "Users already taking a zinc-containing supplement or multiple products; total daily elemental zinc exposure and duration need review.",
+  "dose_constraints": "No additional dose from this rule. Calculate total elemental zinc from all supplements and medications and compare with age-specific UL; clinician assessment may be needed for prolonged excess.",
+  "certainty_and_limitations": "NIH ODS Zinc fact sheet describes upper limits and copper-related adverse effects from excessive intake; actual risk depends on dose, duration and individual context. This justification remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
