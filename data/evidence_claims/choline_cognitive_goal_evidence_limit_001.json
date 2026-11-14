@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "CHOLINE_COGNITIVE_GOAL_EVIDENCE_LIMIT_001",
+  "ingredient_id": "choline",
+  "claim_text": "A cognitive-support goal alone does not establish choline deficiency or demonstrate that choline supplementation improves cognition in otherwise healthy people; intake and indication require assessment.",
+  "health_goal_or_outcome": "Avoid unsupported product claims and align recommendations with evidence and individual context.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People considering choline supplements for general cognitive support."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary or supplemental forms; verify exact formulation and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Choline fact sheet describes dietary sources, intake requirements and evidence context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No dose or cognitive benefit can be inferred from a wellness goal.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_CHOLINE_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
