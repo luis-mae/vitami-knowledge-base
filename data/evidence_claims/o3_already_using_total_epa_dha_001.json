@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "O3_ALREADY_USING_TOTAL_EPA_DHA_001",
+  "ingredient_id": "omega_3_epa_dha",
+  "claim_text": "Before adding an omega-3 product, the actual daily EPA and DHA amounts from all existing products should be reconciled; total fish-oil mass alone does not indicate EPA+DHA exposure.",
+  "health_goal_or_outcome": "Support safe assessment of nutrient intake and avoid inappropriate or duplicate supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific reference values apply.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People already taking fish-oil or algal omega-3 products; assess label, serving size and frequency."
+  },
+  "ingredient_form_or_preparation": "Food, fortified foods and/or relevant supplement preparations; verify exact product form and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Omega-3 Health Professional Fact Sheet describes product forms, EPA/DHA content and safety context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No additional dose from this claim; dose and indication require separate evidence and safety review.",
+    "Source claim and cited underlying studies require full-text appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
