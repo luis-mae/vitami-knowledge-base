@@ -1,0 +1,321 @@
+{
+  "version": "1.0.0",
+  "status": "draft_source_mapping_not_clinical_approval",
+  "gate_count": 31,
+  "gates": [
+    {
+      "rule_id": "VITE_BLEEDING",
+      "ingredient_id": "vitamin_e",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_VITE_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITK_CURRENT_USE_MEDICATION",
+      "ingredient_id": "vitamin_k",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_VITK_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IRONBIS_PREGNANCY",
+      "ingredient_id": "iron_bisglycinate",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_IRON_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "ingredient_id": "vitamin_b6",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_B6_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CAFF_SLEEP",
+      "ingredient_id": "caffeine_performance",
+      "override": null,
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MAGCIT_KIDNEY",
+      "ingredient_id": "magnesium_citrate",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "ingredient_id": "vitamin_a",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_VITA_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "ingredient_id": "psyllium_fiber",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "FDA_PSYLLIUM_CHD"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CURCUMIN_PREG",
+      "ingredient_id": "curcumin_turmeric",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NCCIH_TURMERIC"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IRON_KNOWN_HIGH_INTAKE",
+      "ingredient_id": "iron",
+      "override": null,
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IRON_PREGNANCY",
+      "ingredient_id": "iron",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ZINC_ALREADY_HIGH",
+      "ingredient_id": "zinc",
+      "override": null,
+      "source_ids": [
+        "NIH_ZINC_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "BIOTIN_LABS",
+      "ingredient_id": "biotin",
+      "override": null,
+      "source_ids": [
+        "NIH_BIOTIN_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CAFF_HIGH_BASELINE",
+      "ingredient_id": "caffeine_performance",
+      "override": null,
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CURCUMIN_LIVER",
+      "ingredient_id": "curcumin_turmeric",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NCCIH_TURMERIC"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CREATINE_KIDNEY",
+      "ingredient_id": "creatine_monohydrate",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "O3_BLEEDING",
+      "ingredient_id": "omega_3_epa_dha",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITD_KIDNEY",
+      "ingredient_id": "vitamin_d",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "D3_KIDNEY",
+      "ingredient_id": "vitamin_d3",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MAGGLY_KIDNEY",
+      "ingredient_id": "magnesium_glycinate",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
+      "ingredient_id": "potassium",
+      "override": null,
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "PSYLLIUM_MEDICATIONS",
+      "ingredient_id": "psyllium_fiber",
+      "override": null,
+      "source_ids": [
+        "FDA_PSYLLIUM_CHD"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IODINE_THYROID_CONTEXT",
+      "ingredient_id": "iodine",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_IODINE_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CALCIUM_STONES",
+      "ingredient_id": "calcium",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_CALCIUM_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CALCIT_KIDNEY_STONES",
+      "ingredient_id": "calcium_citrate",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_CALCIUM_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MELATONIN_PREGNANCY",
+      "ingredient_id": "melatonin",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NCCIH_MELATONIN",
+        "NIH_PREGNANCY_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITC_KIDNEY_STONES",
+      "ingredient_id": "vitamin_c",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_VITC_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "WHEY_MILK_ALLERGY",
+      "ingredient_id": "whey_protein",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ALGALO3_BLEEDING",
+      "ingredient_id": "algal_omega3_dha",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+      "ingredient_id": "potassium",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ELECTROLYTES_KIDNEY_HEART",
+      "ingredient_id": "electrolyte_mix",
+      "override": "X_professional_review_required",
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "unregistered_source_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    }
+  ],
+  "policy": "Safety gates are first-class and available in BASIC. Mapping a source does not establish clinical validity; each gate needs claim-level support, population context, and professional review before activation."
+}
