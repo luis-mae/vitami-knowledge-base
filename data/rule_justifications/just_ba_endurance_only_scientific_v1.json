@@ -1,0 +1,40 @@
+{
+  "rule_justification_id": "JUST_BA_ENDURANCE_ONLY_SCIENTIFIC_V1",
+  "rule_id": "BA_ENDURANCE_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_type",
+    "training_volume",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_type",
+        "endurance_only"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If training type, intensity and performance goal are unclear, do not add a positive recommendation score.",
+  "safety_exclusions": [
+    "Do not imply established benefit for all endurance exercise.",
+    "Do not infer a medical need or deficiency.",
+    "Do not extrapolate from mixed/high-intensity studies without qualification."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, minors, chronic disease or use of medicines/supplements with relevant interactions."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "Adults undertaking endurance-only activity; beta-alanine evidence is more context-specific and should not be generalized from high-intensity repeated-effort protocols.",
+  "dose_constraints": "No dose from this rule; any protocol must be based on separately reviewed evidence for the exact exercise modality and duration.",
+  "certainty_and_limitations": "NIH ODS Exercise and Athletic Performance fact sheet summarizes mixed and protocol-specific beta-alanine evidence; outcomes differ by activity. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
