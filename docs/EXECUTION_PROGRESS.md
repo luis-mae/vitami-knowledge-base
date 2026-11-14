@@ -70,3 +70,6 @@ Last recorded update: 2026-11-13
 
 - Added five structured scientific justifications and source-linked evidence claims for existing multivitamin use, general wellness-only multivitamin claims, folate formulation in pregnancy, magnesium glycinate/elemental intake and existing zinc use. All remain draft/evidence-review and inactive pending full appraisal and professional review.
 - Current repository counts: 73 dedicated rule justifications, 101 evidence-claim records, 87 draft rules.
+
+- Added five structured scientific justifications and source-linked evidence claims for calcium with low dairy intake, choline for cognitive-only goals, collagen for skin claims, CoQ10 for generic energy claims and creatine for endurance-only activity. All remain draft/evidence-review and inactive pending full appraisal and professional review.
+- Repository coverage snapshot: 78/87 draft rules have dedicated structured justifications (90%); 106 evidence-claim records.
