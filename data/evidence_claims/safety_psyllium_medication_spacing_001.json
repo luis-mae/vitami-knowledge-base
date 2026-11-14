@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "SAFETY_PSYLLIUM_MEDICATION_SPACING_001",
+  "ingredient_id": "psyllium",
+  "claim_text": "Psyllium can affect absorption of some oral medicines; timing and spacing instructions should follow the exact product label and pharmacist guidance rather than a generic schedule.",
+  "health_goal_or_outcome": "Identify safety constraints and prevent unsupported supplement recommendations.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People taking regular oral medicines and considering psyllium."
+  },
+  "ingredient_form_or_preparation": "Supplement products; verify exact formulation, concentration and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "Official product labeling provides medicine administration precautions; verify exact label.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Specific spacing varies by medicine and product; do not invent a universal interval.",
+    "Exact source passages, product-specific labeling and clinical applicability require full appraisal."
+  ],
+  "source_ids": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
