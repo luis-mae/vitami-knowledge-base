@@ -1,0 +1,34 @@
+{
+  "rule_justification_id": "JUST_PSYLLIUM_SWALLOWING_SCIENCE_V1",
+  "rule_id": "PSYLLIUM_SWALLOWING",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "swallowing_difficulty",
+    "esophageal_condition",
+    "psyllium_form"
+  ],
+  "activation_conditions": [
+    "User reports swallowing difficulty, esophageal narrowing/dysfunction, or intends to use dry/incompletely hydrated oral psyllium."
+  ],
+  "missing_information_behavior": "Do not recommend psyllium until swallowing history and product form are clarified; direct user to product-specific label and professional advice.",
+  "safety_exclusions": [
+    "Do not generalize the U.S. OTC drug regulation as a universal legal requirement for all food supplements or countries.",
+    "Do not present the 8-ounce direction as universal outside the regulation's scope."
+  ],
+  "professional_escalation_conditions": [
+    "Difficulty swallowing, known esophageal narrowing or dysfunction, chest pain, vomiting, breathing difficulty or suspected obstruction."
+  ],
+  "evidence_claim_ids": [
+    "PSYLLIUM_SWALLOWING_OBSTRUCTION_001"
+  ],
+  "source_ids": [
+    "US_CFR_21_201_319"
+  ],
+  "population_and_context": "Covered U.S. OTC drug products containing psyllium or other hydrophilic gums; legal applicability to dietary supplements and other jurisdictions requires review.",
+  "dose_constraints": "Follow the exact product label. The cited CFR requires at least 8 ounces of fluid for covered products.",
+  "certainty_and_limitations": "The cited U.S. regulation is authoritative for its defined scope; the claim remains in evidence_review pending legal and professional applicability review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
