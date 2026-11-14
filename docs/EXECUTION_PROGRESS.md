@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 65% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 68% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -13,6 +13,8 @@ Last recorded update: 2026-11-13
 - Eight preliminary evidence claims and eight preliminary scientific-review records created for those ingredients.
 - 17 claim-to-source attribution records created with organization/source names, original links, provenance scope, no-endorsement policy and logo-permission safeguards.
 - Library QA report updated: the eight ingredients remain under review and are not cleared for BASIC recommendations.
+- Created a structured review queue for all 31 safety gates, preserving current overrides and requiring claim-level appraisal before any approval.
+- Added a read-only Python integrity audit script to check source IDs, rule/gate mappings, claim links, attribution links, review references and logo-permission safeguards; execution in CI remains pending.
 - Four earlier draft claims and three draft rule justifications remain in place.
 - Source metadata, attribution, evidence-claim, scientific-review and rule-justification schemas are present.
 - Source policy requires direct original links, identification of what each source supports, dates where available, and no implied endorsement.
@@ -22,6 +24,7 @@ Last recorded update: 2026-11-13
 - Complete full-text extraction and critical appraisal for all eight newly sourced ingredients.
 - Apply risk-of-bias tools (RoB 2, AMSTAR 2 as appropriate) and assess certainty using GRADE where suitable.
 - Convert source-only mappings into atomic claim-level mappings across all 87 rules and 31 safety gates.
+- Execute the new integrity audit script, resolve any structural findings and integrate it into automated checks.
 - Reconcile deep-record directory and index counts.
 - Complete ingredient-by-ingredient safety review and source currency checks.
 - Expand the app-facing attribution layer and test display behavior, including permitted logos only.
