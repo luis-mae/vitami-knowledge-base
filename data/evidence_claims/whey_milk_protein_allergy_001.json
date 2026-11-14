@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "WHEY_MILK_PROTEIN_ALLERGY_001",
+  "ingredient_id": "whey_protein",
+  "claim_text": "Whey protein is derived from milk and is not an appropriate default protein supplement for people with confirmed cow's milk protein allergy; lactose-free labeling does not establish absence of milk proteins.",
+  "health_goal_or_outcome": "Prevent exposure to milk-derived whey in people with milk-protein allergy.",
+  "population": {
+    "age_range": "All ages; allergy severity and management differ.",
+    "sex_or_life_stage": "All life stages.",
+    "health_status": "People with confirmed or suspected cow's milk protein allergy.",
+    "other_context": "Check full ingredient list and allergen labeling of the specific product."
+  },
+  "ingredient_form_or_preparation": "Whey concentrate, isolate and hydrolysate; residual allergenic protein and product processing vary.",
+  "dose_context": {
+    "amount": null,
+    "unit": "g",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Exercise and Athletic Performance fact sheet identifies whey as a milk-derived protein source; allergen-specific decisions require product label and allergy guidance.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Lactose intolerance is distinct from milk-protein allergy.",
+    "Hydrolysis does not automatically guarantee safety for every allergic individual.",
+    "Use allergist/clinician guidance for confirmed allergy."
+  ],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
