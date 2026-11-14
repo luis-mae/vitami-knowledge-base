@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_CURCUMIN_PREG_SCIENTIFIC_V1",
+  "rule_id": "CURCUMIN_PREG",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "profile_pregnancy",
+    "breastfeeding_status",
+    "product_form",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend concentrated turmeric/curcumin products during pregnancy or breastfeeding without clinician review; clarify product formulation and dose.",
+  "safety_exclusions": [
+    "Do not equate culinary turmeric amounts with concentrated extracts or enhanced-bioavailability products.",
+    "Do not claim safety based on traditional food use.",
+    "Do not modify prescribed medicines."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, breastfeeding, fertility treatment, liver disease or concurrent anticoagulant/antiplatelet therapy.",
+    "Jaundice, dark urine, itching or abdominal pain during supplement use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NCCIH_TURMERIC"
+  ],
+  "population_and_context": "Pregnant or breastfeeding people considering concentrated turmeric/curcumin supplements; culinary use and concentrated supplement exposure must be distinguished.",
+  "dose_constraints": "No dose from this rule; no supplement-dose recommendation until pregnancy-specific safety and product formulation are assessed.",
+  "certainty_and_limitations": "NCCIH Turmeric page discusses evidence and safety, but pregnancy-specific human safety data for concentrated products are limited; absence of evidence is not proof of safety. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
