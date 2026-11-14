@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_CREATINE_HIGH_INTENSITY_SPORT_SCIENTIFIC_V1",
+  "rule_id": "CREATINE_HIGH_INTENSITY_SPORT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_type",
+    "goals_primary",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_type",
+        "mixed_high_intensity"
+      ],
+      [
+        "goals_primary_contains",
+        "sports_performance"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If any required safety or context information is missing, do not add positive recommendation score; request clarification or escalate.",
+  "safety_exclusions": [
+    "Do not generalize results from strength training to every sport; no medical indication; assess renal context and product quality."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney disease, pregnancy, minors, relevant medicines or abnormal renal markers require professional review."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "Adults in repeated high-intensity intermittent sports; evidence is protocol- and sport-specific.",
+  "dose_constraints": "No dose from rule; use only separately reviewed creatine monohydrate record.",
+  "certainty_and_limitations": "NIH ODS exercise fact sheet; assess exact performance endpoint, duration and training protocol. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
