@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "POTASSIUM_MEDICATION_HYPERKALEMIA_001",
+  "ingredient_id": "potassium",
+  "claim_text": "Certain medicines, including renin-angiotensin system inhibitors and potassium-sparing diuretics, can increase serum potassium; additional potassium from supplements or salt substitutes may increase hyperkalemia risk, particularly with impaired renal function.",
+  "health_goal_or_outcome": "Prevent excess potassium exposure and medication-related hyperkalemia.",
+  "population": {
+    "age_range": "Adults; medication and renal context must be individualized.",
+    "sex_or_life_stage": "All; pregnancy requires separate medication review.",
+    "health_status": "People taking medicines that affect potassium or with kidney/heart conditions.",
+    "other_context": "Medication class, dose, kidney function and serum potassium determine risk."
+  },
+  "ingredient_form_or_preparation": "Potassium-containing supplements, electrolyte products and potassium-based salt substitutes.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mg/day",
+    "frequency": "total daily exposure",
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Potassium Health Professional Fact Sheet describes medication interactions and hyperkalemia risk in susceptible individuals.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Not every medication raises potassium.",
+    "Do not advise stopping prescribed medicines.",
+    "Serum potassium and renal function may be needed for clinical decisions."
+  ],
+  "source_ids": [
+    "NIH_POTASSIUM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
