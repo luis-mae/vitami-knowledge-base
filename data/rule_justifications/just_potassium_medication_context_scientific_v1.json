@@ -27,7 +27,9 @@
     "ACE inhibitors, ARBs, potassium-sparing diuretics or other medicines affecting potassium.",
     "Chronic kidney disease, heart failure, known hyperkalemia or abnormal serum potassium."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "POTASSIUM_MEDICATION_HYPERKALEMIA_001"
+  ],
   "source_ids": [
     "NIH_POTASSIUM_HP"
   ],
