@@ -502,7 +502,10 @@
       "source_ids": [
         "NIH_MAGNESIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "MAGNESIUM_GLYCINATE_ELEMENTAL_INTAKE_001"
+      ]
     },
     {
       "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
@@ -565,7 +568,10 @@
         "NIH_FOLATE_HP",
         "NIH_PREGNANCY_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "FOLATE_PREGNANCY_FORMULATION_GUIDANCE_001"
+      ]
     },
     {
       "rule_id": "MTHF_PREG_PLANNING",
@@ -582,7 +588,10 @@
       "source_ids": [
         "NIH_MVM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "MVM_EXISTING_PRODUCT_TOTALS_001"
+      ]
     },
     {
       "rule_id": "MVM_DIETARY_GAP",
@@ -598,7 +607,10 @@
       "source_ids": [
         "NIH_MVM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "MVM_GENERAL_WELLNESS_EVIDENCE_LIMIT_001"
+      ]
     },
     {
       "rule_id": "O3_ALREADY_USING",
@@ -834,7 +846,10 @@
       "source_ids": [
         "NIH_ZINC_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "ZINC_EXISTING_PRODUCTS_ELEMENTAL_TOTAL_001"
+      ]
     },
     {
       "rule_id": "ZGLU_VEGAN_CONTEXT",
