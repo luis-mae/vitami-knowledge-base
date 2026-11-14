@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_D3_KIDNEY_SCIENTIFIC_V1",
+  "rule_id": "D3_KIDNEY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney",
+    "renal_function_known",
+    "pro_labs_available",
+    "medications_regular_use",
+    "supplements_current_use",
+    "vitd_product_amount"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not calculate or recommend vitamin D supplementation without kidney diagnosis/severity, relevant labs and current products; refer for clinician review.",
+  "safety_exclusions": [
+    "Do not infer vitamin D deficiency from kidney disease alone.",
+    "Do not recommend high-dose vitamin D or active vitamin D analogues through a general wellness rule.",
+    "Do not alter prescribed nephrology treatment."
+  ],
+  "professional_escalation_conditions": [
+    "Chronic kidney disease, dialysis, hypercalcemia, kidney stones, abnormal calcium/phosphate/PTH or active vitamin D prescription."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITD_HP"
+  ],
+  "population_and_context": "People with kidney disease considering vitamin D; renal disease can alter vitamin D metabolism and calcium/phosphate balance, so individual assessment is required.",
+  "dose_constraints": "No dose from this rule. Review 25(OH)D, calcium, phosphate, PTH and renal context as clinically indicated; clinician determines formulation and dose.",
+  "certainty_and_limitations": "NIH ODS Vitamin D fact sheet provides general vitamin D information; CKD-specific management requires nephrology guidance and may distinguish nutritional vitamin D from active analogues. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
