@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_VITE_ANTIOXIDANT_ONLY_SCIENTIFIC_V1",
+  "rule_id": "VITE_ANTIOXIDANT_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "diet_pattern",
+    "supplements_current_use",
+    "medications_regular_use",
+    "safety_upcoming_surgery"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "antioxidant_interest"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend vitamin E solely for antioxidant interest; review diet, current products, medications and clinical indication.",
+  "safety_exclusions": [
+    "Do not claim high-dose vitamin E prevents chronic disease or slows aging.",
+    "Do not infer deficiency from an antioxidant goal.",
+    "Do not overlook bleeding risk or anticoagulant interactions."
+  ],
+  "professional_escalation_conditions": [
+    "Anticoagulant/antiplatelet use, bleeding disorder, planned surgery, hemorrhagic stroke history or active bleeding."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITE_HP"
+  ],
+  "population_and_context": "People interested in antioxidants without a defined indication; high-dose vitamin E is not a generic prevention or anti-aging strategy.",
+  "dose_constraints": "No dose from this rule. Distinguish food intake from supplemental alpha-tocopherol and review total exposure.",
+  "certainty_and_limitations": "NIH ODS Vitamin E fact sheet describes evidence limitations and bleeding risk at high supplemental doses. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
