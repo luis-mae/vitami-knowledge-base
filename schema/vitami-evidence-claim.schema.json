@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-evidence-claim.schema.json",
+  "title": "Vitami Evidence Claim",
+  "type": "object",
+  "required": [
+    "evidence_claim_id",
+    "ingredient_id",
+    "claim_text",
+    "health_goal_or_outcome",
+    "population",
+    "certainty_level",
+    "limitations",
+    "source_ids",
+    "review_status",
+    "approved_for_user_display",
+    "approved_for_rule_activation",
+    "version"
+  ],
+  "properties": {
+    "evidence_claim_id": {
+      "type": "string"
+    },
+    "ingredient_id": {
+      "type": "string"
+    },
+    "claim_text": {
+      "type": "string",
+      "minLength": 10
+    },
+    "health_goal_or_outcome": {
+      "type": "string"
+    },
+    "population": {
+      "type": "object"
+    },
+    "ingredient_form_or_preparation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dose_context": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "comparator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "certainty_level": {
+      "enum": [
+        "high",
+        "moderate",
+        "low",
+        "very_low",
+        "insufficient",
+        "not_assessed"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "scientific_review_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "review_status": {
+      "enum": [
+        "draft",
+        "evidence_review",
+        "safety_review",
+        "approved",
+        "active",
+        "superseded"
+      ]
+    },
+    "approved_for_user_display": {
+      "type": "boolean"
+    },
+    "approved_for_rule_activation": {
+      "type": "boolean"
+    },
+    "reviewer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
