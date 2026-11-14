@@ -1,0 +1,119 @@
+{
+  "version": "1.0.0",
+  "status": "partial_documentary_mapping_not_scientific_approval",
+  "registered_source_count": 57,
+  "reviewed_rule_sample": [
+    {
+      "rule_id": "B12_VEGAN_LOW_FORTIFIED",
+      "ingredient_id": "vitamin_b12",
+      "source_ids": [
+        "NIH_B12_HP"
+      ],
+      "evidence_claim_ids": [
+        "B12_DIETARY_SOURCES_VEGAN_001"
+      ],
+      "mapping_status": "draft_mapped"
+    },
+    {
+      "rule_id": "VITD_LOW_SUN_LOW_DIET",
+      "ingredient_id": "vitamin_d",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "evidence_claim_ids": [
+        "VITD_STATUS_MARKER_001"
+      ],
+      "mapping_status": "draft_source_mapped_claim_context_incomplete"
+    },
+    {
+      "rule_id": "IRON_VEGETARIAN_CONTEXT",
+      "ingredient_id": "iron",
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "evidence_claim_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "O3_LOW_FISH",
+      "ingredient_id": "omega_3_epa_dha",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "evidence_claim_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CREATINE_STRENGTH",
+      "ingredient_id": "creatine_monohydrate",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "evidence_claim_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MAGCIT_PARENT_GAP",
+      "ingredient_id": "magnesium_citrate",
+      "source_ids": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "evidence_claim_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "PSYLLIUM_LOW_FIBER_DIGESTIVE",
+      "ingredient_id": "psyllium_fiber",
+      "source_ids": [
+        "FDA_PSYLLIUM_CHD"
+      ],
+      "evidence_claim_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CURCUMIN_JOINT",
+      "ingredient_id": "curcumin_turmeric",
+      "source_ids": [
+        "NCCIH_TURMERIC"
+      ],
+      "evidence_claim_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ZINC_VEGAN",
+      "ingredient_id": "zinc",
+      "source_ids": [
+        "NIH_ZINC_HP"
+      ],
+      "evidence_claim_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "BIOTIN_HAIR_ONLY",
+      "ingredient_id": "biotin",
+      "source_ids": [
+        "NIH_BIOTIN_HP"
+      ],
+      "evidence_claim_ids": [],
+      "mapping_status": "source_mapped_claim_required"
+    }
+  ],
+  "library_entries_pending_source_specific_review": [
+    "mct_oil",
+    "inositol",
+    "nac",
+    "alpha_lipoic_acid",
+    "astaxanthin",
+    "lycopene",
+    "beta_carotene",
+    "spirulina"
+  ],
+  "pending_placeholder_policy": "SOURCE_REVIEW_PENDING is an administrative placeholder, not an evidence source. Entries referencing it must remain excluded from active recommendations and user-facing evidence claims.",
+  "next_actions": [
+    "Create and scientifically review atomic claims for each sampled rule.",
+    "Complete source-specific evidence appraisal and safety mapping.",
+    "Expand the crosswalk to all 87 draft rules and 31 safety gates.",
+    "Review primary documents and current update dates before marking any source verified.",
+    "Do not promote any draft rule to active from this mapping alone."
+  ]
+}
