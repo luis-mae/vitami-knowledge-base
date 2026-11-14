@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "MVM_GENERAL_WELLNESS_EVIDENCE_LIMIT_001",
+  "ingredient_id": "multivitamin_mineral",
+  "claim_text": "A general wellness goal alone does not establish a micronutrient deficiency or justify claims that a multivitamin prevents chronic disease; evidence varies by outcome and population.",
+  "health_goal_or_outcome": "Prevent duplicate supplementation and unsupported wellness claims; support safe total-intake assessment.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "Adults selecting general wellness without a diagnosed deficiency or specific indication."
+  },
+  "ingredient_form_or_preparation": "Dietary and supplemental sources; verify exact product label and formulation.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Multivitamin/mineral Supplements fact sheet summarizes evidence and limitations for broad health outcomes.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Do not present a multivitamin as a substitute for diet or disease prevention care.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_MVM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
