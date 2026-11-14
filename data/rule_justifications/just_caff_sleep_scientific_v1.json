@@ -1,0 +1,46 @@
+{
+  "rule_justification_id": "JUST_CAFF_SLEEP_SCIENTIFIC_V1",
+  "rule_id": "CAFF_SLEEP",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "symptom_sleep",
+    "sleep_duration",
+    "caffeine_sources",
+    "lifestyle_caffeine_daily",
+    "caffeine_last_intake_time",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "symptom_sleep",
+        [
+          "poor",
+          "insomnia"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend caffeine for performance or alertness without reviewing sleep symptoms, intake and timing; encourage clinical assessment for persistent insomnia.",
+  "safety_exclusions": [
+    "Do not use caffeine as a treatment for chronic sleep problems.",
+    "Do not assume caffeine is the sole cause of insomnia.",
+    "Do not advise changing prescribed medicines."
+  ],
+  "professional_escalation_conditions": [
+    "Persistent insomnia, excessive daytime sleepiness, suspected sleep apnea, mood symptoms or safety-critical sleepiness.",
+    "Pregnancy, cardiovascular disease or stimulant medication use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "People reporting poor sleep or insomnia who may be exposed to caffeine; timing and total daily intake can affect sleep, but sleep symptoms have multiple possible causes.",
+  "dose_constraints": "No dose from this rule. Review total daily caffeine and timing; avoid prescribing a universal cut-off without considering sensitivity and sleep schedule.",
+  "certainty_and_limitations": "NIH ODS exercise fact sheet discusses caffeine use and adverse effects; sleep-specific guidance should be cross-checked against current sleep-medicine sources. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
