@@ -15,7 +15,15 @@
         "interactions",
         "deficiency_risk"
       ],
-      "notes": "Use the specific supplement fact sheet and its cited references when populating an individual claim."
+      "notes": "Use the specific supplement fact sheet and its cited references when populating an individual claim.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "EFSA_DRV",
@@ -29,7 +37,15 @@
         "upper_intake_levels",
         "population_reference_values"
       ],
-      "notes": "Prefer current EFSA opinions/tables for EU reference values."
+      "notes": "Prefer current EFSA opinions/tables for EU reference values.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "EU_HEALTH_CLAIMS_REGISTER",
@@ -43,7 +59,15 @@
         "non_authorized_health_claims",
         "claim_conditions"
       ],
-      "notes": "Use to distinguish scientific discussion from health claims that may be communicated under EU rules."
+      "notes": "Use to distinguish scientific discussion from health claims that may be communicated under EU rules.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_SUPPLEMENTS",
@@ -59,7 +83,15 @@
         "interactions",
         "evidence_uncertainty"
       ],
-      "notes": "Use specific NCCIH topic pages where available."
+      "notes": "Use specific NCCIH topic pages where available.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "EMA_HERBAL_MONOGRAPHS",
@@ -73,7 +105,15 @@
         "herbal_uses",
         "herbal_posology_when_applicable"
       ],
-      "notes": "Distinguish well-established medicinal use from traditional medicinal use."
+      "notes": "Distinguish well-established medicinal use from traditional medicinal use.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "USDA_FOODDATA_CENTRAL",
@@ -86,7 +126,15 @@
         "food_composition",
         "dietary_nutrient_estimation"
       ],
-      "notes": "Use for food composition/exposure estimation, not as evidence that a supplement should be recommended."
+      "notes": "Use for food composition/exposure estimation, not as evidence that a supplement should be recommended.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_DSLD",
@@ -100,7 +148,15 @@
         "label_ingredients",
         "label_amounts"
       ],
-      "notes": "Product presence or label information is not evidence of efficacy."
+      "notes": "Product presence or label information is not evidence of efficacy.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_VITA_HP",
@@ -108,7 +164,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_VITK_HP",
@@ -116,7 +180,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_THIAMIN_HP",
@@ -124,7 +196,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_RIBOFLAVIN_HP",
@@ -132,7 +212,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_NIACIN_HP",
@@ -140,7 +228,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_PANTOTHENIC_HP",
@@ -148,7 +244,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_B6_HP",
@@ -156,7 +260,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_IODINE_HP",
@@ -164,7 +276,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_COPPER_HP",
@@ -172,7 +292,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_MANGANESE_HP",
@@ -180,7 +308,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_CHROMIUM_HP",
@@ -188,7 +324,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_POTASSIUM_HP",
@@ -196,7 +340,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_CHOLINE_HP",
@@ -204,7 +356,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_MVM_HP",
@@ -212,7 +372,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_MELATONIN",
@@ -220,7 +388,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_ASHWAGANDHA",
@@ -228,7 +404,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/ashwagandha",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_BERBERINE",
@@ -236,7 +420,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_GREEN_TEA",
@@ -244,7 +436,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/green-tea",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_GARLIC",
@@ -252,7 +452,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/garlic",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_GINGER",
@@ -260,7 +468,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/ginger",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_SUPPLEMENTS_WISELY",
@@ -268,7 +484,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/using-dietary-supplements-wisely",
       "source_type": "official_fact_sheet",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_fact_sheet",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "SOURCE_PSYLLIUM_REVIEW_PENDING",
@@ -276,7 +500,15 @@
       "organization": "pending",
       "url": "",
       "source_type": "pending_validation",
-      "status": "needs_validation"
+      "status": "needs_validation",
+      "source_class": "pending_validation",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_PREGNANCY_HP",
@@ -284,7 +516,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
       "source_type": "official_primary_guidance",
-      "status": "verified_2026-08-09"
+      "status": "verified_2026-08-09",
+      "source_class": "official_primary_guidance",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_SLEEP",
@@ -292,7 +532,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/sleep-disorders-and-complementary-health-approaches",
       "source_type": "official_primary_guidance",
-      "status": "verified_2026-08-09"
+      "status": "verified_2026-08-09",
+      "source_class": "official_primary_guidance",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "FDA_PSYLLIUM_CHD",
@@ -300,7 +548,15 @@
       "organization": "FDA",
       "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/authorized-health-claims-meet-significant-scientific-agreement-ssa-standard",
       "source_type": "official_primary_guidance",
-      "status": "verified_2026-08-09"
+      "status": "verified_2026-08-09",
+      "source_class": "official_primary_guidance",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_VITAMIN_MINERAL_FACTSHEETS",
@@ -308,7 +564,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/list-VitaminsMinerals/",
       "source_type": "official_primary_index",
-      "status": "verified_2026-08-09"
+      "status": "verified_2026-08-09",
+      "source_class": "official_primary_index",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NIH_DIETARY_SUPPLEMENT_FACTSHEETS",
@@ -316,7 +580,15 @@
       "organization": "NIH ODS",
       "url": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_type": "official_primary_index",
-      "status": "verified_2026-08-09"
+      "status": "verified_2026-08-09",
+      "source_class": "official_primary_index",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_HERBS_AT_A_GLANCE",
@@ -324,7 +596,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/herbsataglance",
       "source_type": "official_primary_index",
-      "status": "verified_2026-08-09"
+      "status": "verified_2026-08-09",
+      "source_class": "official_primary_index",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "NCCIH_HEALTH_TOPICS_AZ",
@@ -332,7 +612,15 @@
       "organization": "NCCIH",
       "url": "https://www.nccih.nih.gov/health/atoz",
       "source_type": "official_primary_index",
-      "status": "verified_2026-08-09"
+      "status": "verified_2026-08-09",
+      "source_class": "official_primary_index",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "WHO_NUTRITION",
@@ -340,7 +628,15 @@
       "organization": "World Health Organization",
       "url": "https://www.who.int/health-topics/nutrition",
       "source_type": "official_primary_guidance",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "official_primary_guidance",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "SENASA_AR",
@@ -348,7 +644,15 @@
       "organization": "SENASA Argentina",
       "url": "https://www.argentina.gob.ar/senasa",
       "source_type": "national_regulatory_authority",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "national_regulatory_authority",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "ARGENTINE_FOOD_CODE",
@@ -356,7 +660,15 @@
       "organization": "Argentina — normativa alimentaria",
       "url": "https://www.argentina.gob.ar/anmat/codigoalimentario",
       "source_type": "national_legal_framework",
-      "status": "registered_review_current_text"
+      "status": "registered_review_current_text",
+      "source_class": "national_legal_framework",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "PUBMED",
@@ -364,7 +676,15 @@
       "organization": "US National Library of Medicine",
       "url": "https://pubmed.ncbi.nlm.nih.gov/",
       "source_type": "bibliographic_database",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "bibliographic_database",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "COCHRANE",
@@ -372,7 +692,15 @@
       "organization": "Cochrane",
       "url": "https://www.cochrane.org/",
       "source_type": "evidence_synthesis_organization",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "evidence_synthesis_organization",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "GRADE_WORKING_GROUP",
@@ -380,7 +708,15 @@
       "organization": "GRADE Working Group",
       "url": "https://www.gradeworkinggroup.org/",
       "source_type": "evidence_methodology",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "evidence_methodology",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     },
     {
       "id": "PRISMA_2020",
@@ -388,7 +724,15 @@
       "organization": "PRISMA",
       "url": "https://www.prisma-statement.org/",
       "source_type": "systematic_review_reporting_guideline",
-      "status": "registered"
+      "status": "registered",
+      "source_class": "systematic_review_reporting_guideline",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     }
   ],
   "attribution_policy": {
