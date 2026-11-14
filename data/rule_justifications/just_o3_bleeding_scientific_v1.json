@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_O3_BLEEDING_SCIENTIFIC_V1",
+  "rule_id": "O3_BLEEDING",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "bleeding_disorder",
+    "anticoagulants",
+    "antiplatelets",
+    "planned_surgery",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [],
+    "any": [
+      [
+        "conditions_bleeding",
+        true
+      ],
+      [
+        "safety_upcoming_surgery",
+        true
+      ]
+    ]
+  },
+  "missing_information_behavior": "If any required context is unknown, do not issue a positive recommendation; request clarification or professional review.",
+  "safety_exclusions": [
+    "Do not recommend or alter prescribed antithrombotic therapy; distinguish ordinary dietary intake from concentrated supplement doses."
+  ],
+  "professional_escalation_conditions": [
+    "Active bleeding, anticoagulant or antiplatelet use, planned surgery, atrial fibrillation or high-dose omega-3 use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "population_and_context": "People with bleeding disorders, anticoagulant/antiplatelet exposure or upcoming surgery considering EPA/DHA.",
+  "dose_constraints": "No dose; retain existing safety override and require clinician review.",
+  "certainty_and_limitations": "NIH ODS Omega-3 fact sheet; assess dose-dependent bleeding evidence and product-specific EPA/DHA content. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
