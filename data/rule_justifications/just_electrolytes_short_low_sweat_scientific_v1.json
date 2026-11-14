@@ -1,0 +1,48 @@
+{
+  "rule_justification_id": "JUST_ELECTROLYTES_SHORT_LOW_SWEAT_SCIENTIFIC_V1",
+  "rule_id": "ELECTROLYTES_SHORT_LOW_SWEAT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_session_duration",
+    "activity_sweat_level",
+    "climate_exposure",
+    "diet_pattern",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_session_duration",
+        "<30"
+      ],
+      [
+        "activity_sweat_level",
+        [
+          "low",
+          "moderate"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend electrolyte products by default; assess unusual heat exposure, illness, dietary context and total fluid intake if relevant.",
+  "safety_exclusions": [
+    "Do not imply every workout requires an electrolyte drink.",
+    "Do not confuse ordinary hydration needs with a need for supplemental electrolytes.",
+    "Do not recommend salt loading."
+  ],
+  "professional_escalation_conditions": [
+    "Heat illness symptoms, prolonged exercise despite reported short duration, significant dehydration, kidney/heart disease or prescribed fluid restriction."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "People doing short exercise sessions with low-to-moderate sweat loss; routine electrolyte supplements are generally not indicated solely by this activity profile.",
+  "dose_constraints": "No electrolyte supplement dose from this rule. Encourage ordinary hydration appropriate to thirst and conditions, without a universal volume prescription.",
+  "certainty_and_limitations": "NIH ODS exercise resources provide context for sports performance products; short low-sweat activity alone is not an indication for supplementation. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
