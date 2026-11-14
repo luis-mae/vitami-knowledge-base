@@ -28,7 +28,9 @@
     "Chronic kidney disease, dialysis, known hyperkalemia, heart failure or use of ACE inhibitors, ARBs or potassium-sparing diuretics.",
     "Weakness, palpitations, syncope or abnormal serum potassium."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "POTASSIUM_KIDNEY_HYPERKALEMIA_001"
+  ],
   "source_ids": [
     "NIH_POTASSIUM_HP"
   ],
