@@ -27,7 +27,9 @@
   "professional_escalation_conditions": [
     "Warfarin or other vitamin K antagonist, bleeding/thrombotic history, osteoporosis treatment or planned procedure."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "VITK_BONE_GOAL_NO_AUTOMATIC_SUPPLEMENT_001"
+  ],
   "source_ids": [
     "NIH_VITK_HP"
   ],
