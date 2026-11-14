@@ -28,7 +28,9 @@
   "professional_escalation_conditions": [
     "Persistent insomnia with daytime impairment, suspected sleep apnea, severe mood symptoms, pregnancy, epilepsy or anticoagulant use."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "MELATONIN_CHRONIC_INSOMNIA_LIMIT_001"
+  ],
   "source_ids": [
     "NCCIH_SLEEP"
   ],
