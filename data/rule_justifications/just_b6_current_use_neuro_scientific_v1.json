@@ -1,0 +1,46 @@
+{
+  "rule_justification_id": "JUST_B6_CURRENT_USE_NEURO_SCIENTIFIC_V1",
+  "rule_id": "B6_CURRENT_USE_NEURO",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "supplements_current_use",
+    "b6_product_amount",
+    "b6_frequency",
+    "symptom_neurologic",
+    "planned_lab_tests"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "vitamin_b6"
+      ],
+      [
+        "symptom_neurologic",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not suggest further B6; clarify product amount, frequency and duration and advise prompt clinical assessment of neurological symptoms.",
+  "safety_exclusions": [
+    "Do not assume neurological symptoms are caused by B6 without clinical assessment.",
+    "Do not add another B6-containing product.",
+    "Do not advise abrupt changes to prescribed treatment without clinician input."
+  ],
+  "professional_escalation_conditions": [
+    "New or progressive numbness, tingling, burning pain, weakness, balance or gait disturbance.",
+    "High-dose or prolonged B6 use, symptoms affecting function or concurrent neurotoxic medicines."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_B6_HP"
+  ],
+  "population_and_context": "Users currently taking vitamin B6 who report neurological symptoms; supplemental exposure and duration are relevant because excess pyridoxine can cause peripheral neuropathy.",
+  "dose_constraints": "No dose from this rule. Reconcile total supplemental B6 exposure and duration; suspected toxicity requires clinician evaluation.",
+  "certainty_and_limitations": "NIH ODS B6 fact sheet describes peripheral neuropathy associated with excessive supplemental intake. Dose thresholds and individual susceptibility require clinical interpretation. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
