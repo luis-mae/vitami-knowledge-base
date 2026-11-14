@@ -32,7 +32,9 @@
   "professional_escalation_conditions": [
     "Active bleeding, anticoagulant/antiplatelet use, bleeding disorder, planned surgery or prior hemorrhagic stroke."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "VITE_BLEEDING_HIGH_DOSE_INTERACTION_001"
+  ],
   "source_ids": [
     "NIH_VITE_HP"
   ],
