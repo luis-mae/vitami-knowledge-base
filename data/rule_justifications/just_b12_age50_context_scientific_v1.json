@@ -28,7 +28,9 @@
     "Numbness, gait disturbance, cognitive change, macrocytic anemia, malabsorption or prior gastrointestinal surgery.",
     "Abnormal B12-related labs or current B12 treatment."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "B12_AGE50_FOOD_BOUND_ABSORPTION_001"
+  ],
   "source_ids": [
     "NIH_B12_HP"
   ],
