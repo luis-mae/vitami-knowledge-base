@@ -1,0 +1,50 @@
+{
+  "rule_justification_id": "JUST_CALCIUM_LOW_DIET_SCIENTIFIC_V1",
+  "rule_id": "CALCIUM_LOW_DIET",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_dairy_calcium_sources",
+    "diet_fortified_foods",
+    "profile_age",
+    "profile_sex_reference",
+    "supplements_current_use",
+    "conditions_kidney_stones"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_dairy_calcium_sources",
+        "low"
+      ],
+      [
+        "diet_fortified_foods",
+        [
+          "low",
+          "none"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend a calcium supplement until total dietary calcium, age/life stage, current products and kidney-stone history are reviewed.",
+  "safety_exclusions": [
+    "Low dairy intake does not necessarily mean low calcium intake; include non-dairy sources and fortified foods.",
+    "Do not recommend supplementation without estimating total intake from food and products.",
+    "Do not advise indiscriminate calcium restriction or excess."
+  ],
+  "professional_escalation_conditions": [
+    "History of kidney stones, hypercalcemia, kidney disease, parathyroid disorders or malabsorption.",
+    "Pregnancy, osteoporosis treatment or abnormal calcium-related laboratory results."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_CALCIUM_HP"
+  ],
+  "population_and_context": "People reporting low dairy and fortified-food intake; assess all dietary calcium sources and life-stage requirements before estimating a dietary gap.",
+  "dose_constraints": "Only consider a supplement to bridge a verified dietary gap; calculate elemental calcium and total daily intake against age-specific references and UL. No dose from this rule.",
+  "certainty_and_limitations": "NIH ODS Calcium fact sheet provides food sources, reference intakes and upper limits. The questionnaire must estimate total intake rather than use dairy consumption as a proxy. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
