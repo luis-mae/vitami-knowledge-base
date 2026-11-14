@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "generated_from": "GitHub main recursive tree and current repository indexes",
+  "scope": "documentary_inventory_not_clinical_validation",
+  "counts": {
+    "library_records": 103,
+    "deep_record_files": 41,
+    "draft_rule_files": 87,
+    "safety_gate_index_files": 1,
+    "production_candidate_files": 14,
+    "production_ready_scenario_files": 7,
+    "dose_frequency_rule_files": 6,
+    "source_registry_records": 43,
+    "question_bank_files": 5,
+    "source_registry_file_present": true,
+    "source_review_snapshot_present": true
+  },
+  "existing_repository_index_claims": {
+    "catalog_components": 100,
+    "library_entries": 100,
+    "library_entries_with_specific_or_official_index_sources": 92,
+    "library_entries_needing_deeper_source_specific_review": 8,
+    "draft_rules": 87,
+    "safety_gates": 31,
+    "production_candidates": 13,
+    "basic_integration_ready_scenarios": 7,
+    "automated_engine_fixtures": "10/10 passed per manifest; historical result, rerun before release"
+  },
+  "priorities": [
+    "Reconcile source registry IDs with source_refs/evidence_refs used by phase2 records.",
+    "Review the 8 library entries flagged for deeper source-specific review.",
+    "Reconcile the manifest deep_records count with the current deep_records directory and DEEP_RECORDS_STATUS index.",
+    "Map all 87 draft rules and 31 safety gates to exact source records and atomic evidence claims.",
+    "Update the source review snapshot; current snapshot is dated 2026-08-09.",
+    "Do not activate draft rules or candidate pathways until source, safety, UI and professional review gates are completed."
+  ],
+  "cautions": [
+    "Counts describe files or repository index declarations, not independent scientific approval.",
+    "A listed source does not establish that every claim in a record is supported.",
+    "The 100-item library is a user-facing draft, not 100 clinically approved recommendation pathways.",
+    "The 7 BASIC scenarios are marked ready for technical integration, not deployed."
+  ]
+}
