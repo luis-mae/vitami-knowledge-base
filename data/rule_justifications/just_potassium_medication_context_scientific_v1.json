@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_POTASSIUM_MEDICATION_CONTEXT_SCIENTIFIC_V1",
+  "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "medications_regular_use",
+    "medications_list",
+    "kidney_disease",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "medications_regular_use",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend potassium supplements until medication names, dose, kidney history and existing potassium-containing products are reviewed.",
+  "safety_exclusions": [
+    "Do not infer potassium deficiency from medication use or nonspecific symptoms.",
+    "Do not advise stopping or changing prescribed medicines.",
+    "Do not recommend potassium supplements or potassium-based salt substitutes without checking hyperkalemia risk."
+  ],
+  "professional_escalation_conditions": [
+    "ACE inhibitors, ARBs, potassium-sparing diuretics or other medicines affecting potassium.",
+    "Chronic kidney disease, heart failure, known hyperkalemia or abnormal serum potassium."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_POTASSIUM_HP"
+  ],
+  "population_and_context": "Users taking regular medication who may be considering potassium supplementation; medication classes and renal function materially affect potassium balance.",
+  "dose_constraints": "No dose from this rule. Supplemental potassium requires assessment of serum potassium, renal function, indication and medication interactions.",
+  "certainty_and_limitations": "NIH ODS Potassium fact sheet identifies medication interactions and hyperkalemia risk; prescribing decisions require clinical and laboratory context. This justification remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
