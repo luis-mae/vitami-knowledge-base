@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "CURCUMIN_PREGNANCY_EVIDENCE_GAP_001",
+  "ingredient_id": "curcumin_turmeric",
+  "claim_text": "Safety evidence for concentrated turmeric/curcumin supplements during pregnancy and breastfeeding is insufficient to support routine supplement-dose recommendations; culinary use should not be equated with concentrated extracts or enhanced-bioavailability formulations.",
+  "health_goal_or_outcome": "Avoid unsupported concentrated turmeric/curcumin supplement recommendations during pregnancy or breastfeeding.",
+  "population": {
+    "age_range": "Adults of reproductive age.",
+    "sex_or_life_stage": "Pregnancy and breastfeeding.",
+    "health_status": "Pregnant or lactating people considering supplements.",
+    "other_context": "Product concentration, formulation and co-ingredients matter."
+  },
+  "ingredient_form_or_preparation": "Concentrated turmeric/curcumin extracts and enhanced-bioavailability formulations; distinguish from culinary spice use.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mg",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": "Culinary food use versus concentrated supplement exposure.",
+  "evidence_summary": "NCCIH Turmeric page summarizes evidence and safety limitations; pregnancy-specific data for concentrated supplement products are limited.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Insufficient evidence is not proof of harm or safety.",
+    "Do not generalize culinary use to supplements.",
+    "Professional review is required for pregnancy/lactation and medication interactions."
+  ],
+  "source_ids": [
+    "NCCIH_TURMERIC"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
