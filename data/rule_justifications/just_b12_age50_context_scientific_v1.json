@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_B12_AGE50_CONTEXT_SCIENTIFIC_V1",
+  "rule_id": "B12_AGE50_CONTEXT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "profile_age",
+    "diet_fortified_foods",
+    "diet_type",
+    "supplements_current_use",
+    "b12_labs_available"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "profile_age",
+        ">=50"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Check fortified-food frequency, dietary pattern and current supplement use before considering an additional product; do not infer deficiency from age alone.",
+  "safety_exclusions": [
+    "Age 50+ is a risk-context prompt, not a diagnosis of B12 deficiency.",
+    "Do not duplicate existing B12-containing multivitamins or supplements.",
+    "Do not delay assessment of neurological symptoms or suspected pernicious anemia."
+  ],
+  "professional_escalation_conditions": [
+    "Numbness, gait disturbance, cognitive change, macrocytic anemia, malabsorption or prior gastrointestinal surgery.",
+    "Abnormal B12-related labs or current B12 treatment."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "population_and_context": "Adults aged 50 years and older; some older adults have reduced ability to absorb naturally food-bound B12, while fortified foods and supplements provide free B12.",
+  "dose_constraints": "No dose from this rule. Determine whether a reliable fortified-food or supplemental source is already present; suspected deficiency requires clinical assessment.",
+  "certainty_and_limitations": "NIH ODS B12 fact sheet discusses reduced absorption of food-bound B12 in some older adults and the role of fortified foods. Individual deficiency cannot be inferred from age alone. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
