@@ -27,7 +27,9 @@
     "Pregnancy, breastfeeding, fertility treatment, liver disease or concurrent anticoagulant/antiplatelet therapy.",
     "Jaundice, dark urine, itching or abdominal pain during supplement use."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "CURCUMIN_PREGNANCY_EVIDENCE_GAP_001"
+  ],
   "source_ids": [
     "NCCIH_TURMERIC"
   ],
