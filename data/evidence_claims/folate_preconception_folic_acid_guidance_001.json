@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "FOLATE_PRECONCEPTION_FOLIC_ACID_GUIDANCE_001",
+  "ingredient_id": "folate",
+  "claim_text": "People planning pregnancy should follow current public-health and antenatal guidance for folic acid to reduce neural tube defect risk; methylfolate should not be represented as proven superior or automatically interchangeable for this outcome.",
+  "health_goal_or_outcome": "Support safe, indication-specific recommendations and avoid unsupported supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People planning pregnancy."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary and supplemental forms; verify exact product label and formulation.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Folate and pregnancy resources provide folate guidance and evidence context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No individualized dose; follow current jurisdictional recommendations and clinician advice for high-risk situations.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_FOLATE_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
