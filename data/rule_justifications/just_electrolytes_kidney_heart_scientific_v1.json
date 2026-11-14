@@ -1,0 +1,47 @@
+{
+  "rule_justification_id": "JUST_ELECTROLYTES_KIDNEY_HEART_SCIENTIFIC_V1",
+  "rule_id": "ELECTROLYTES_KIDNEY_HEART",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney",
+    "conditions_heart",
+    "renal_function_known",
+    "medications_regular_use",
+    "electrolyte_product_sodium",
+    "electrolyte_product_potassium",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [],
+    "any": [
+      [
+        "conditions_kidney",
+        true
+      ],
+      [
+        "conditions_heart",
+        true
+      ]
+    ]
+  },
+  "missing_information_behavior": "Do not recommend an electrolyte formula until kidney/heart diagnosis, medication list and exact sodium/potassium content are known; refer for clinician review.",
+  "safety_exclusions": [
+    "Do not assume all electrolyte products have similar composition.",
+    "Do not recommend potassium-containing products without renal and medication review.",
+    "Do not advise fluid or sodium restriction changes contrary to prescribed care."
+  ],
+  "professional_escalation_conditions": [
+    "Chronic kidney disease, heart failure, edema, hypertension, hyperkalemia, diuretic use or fluid restriction."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_POTASSIUM_HP"
+  ],
+  "population_and_context": "People with kidney or heart disease considering electrolyte products; sodium and potassium content can materially affect fluid balance, blood pressure and serum electrolyte status.",
+  "dose_constraints": "No dose from this rule. Review sodium and potassium per serving, total daily intake, renal function and clinician-directed fluid/electrolyte plan.",
+  "certainty_and_limitations": "NIH ODS Potassium fact sheet supports potassium safety context; sodium/fluid decisions in kidney and heart disease require condition-specific clinical guidance. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
