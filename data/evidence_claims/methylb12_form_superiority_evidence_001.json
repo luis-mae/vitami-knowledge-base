@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "METHYLB12_FORM_SUPERIORITY_EVIDENCE_001",
+  "ingredient_id": "methylcobalamin",
+  "claim_text": "Methylcobalamin is one supplemental form of vitamin B12, but available evidence does not establish that it is routinely clinically superior to other effective B12 forms for general supplementation.",
+  "health_goal_or_outcome": "Support safe, evidence-based nutrient assessment and avoid unsupported or unnecessary supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "Vegan users with low fortified-food intake considering methylcobalamin."
+  },
+  "ingredient_form_or_preparation": "Dietary and supplemental sources; verify exact product form and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Vitamin B12 Health Professional Fact Sheet describes supplemental forms and reliable B12 sources.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Product form does not remove the need to assess dose, adherence, absorption and clinical status.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
