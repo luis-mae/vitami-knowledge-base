@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_MTHF_PREG_PLANNING_SCIENTIFIC_V1",
+  "rule_id": "MTHF_PREG_PLANNING",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "pregnancy_planning",
+    "folate_product_form",
+    "folate_product_amount",
+    "prenatal_product_use",
+    "medications_regular_use",
+    "b12_status_known"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "pregnancy_planning",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend switching from folic acid to methylfolate without reviewing current product and current local preconception guidance.",
+  "safety_exclusions": [
+    "Do not delay folic acid while debating supplement forms; direct users to current local preconception guidance.",
+    "Do not claim 5-MTHF is proven superior for neural tube defect prevention.",
+    "Do not duplicate folate across products."
+  ],
+  "professional_escalation_conditions": [
+    "Prior neural tube defect-affected pregnancy, antiseizure medicines, diabetes, malabsorption, obesity-related high-risk protocols or other high-risk obstetric history."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_FOLATE_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "population_and_context": "People planning pregnancy; adequate folic acid before conception and in early pregnancy is important for neural tube defect prevention, and 5-MTHF should not be assumed interchangeable for this evidence-based public-health recommendation.",
+  "dose_constraints": "No individualized dose from this rule. Follow current local public-health/obstetric folic-acid recommendation; high-risk dosing requires clinician direction.",
+  "certainty_and_limitations": "NIH ODS Folate and pregnancy guidance provide reference information; recommendations and high-risk protocols vary by jurisdiction. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
