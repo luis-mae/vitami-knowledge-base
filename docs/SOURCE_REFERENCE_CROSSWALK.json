@@ -96,6 +96,126 @@
       ],
       "evidence_claim_ids": [],
       "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ALGALO3_BLEEDING",
+      "ingredient_id": "algal_omega3_dha",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ALGALO3_VEGAN_LOW_FISH",
+      "ingredient_id": "algal_omega3_dha",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "B12_AGE50_CONTEXT",
+      "ingredient_id": "vitamin_b12",
+      "source_ids": [
+        "NIH_B12_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "B12_VEGAN_ALREADY_SUPPLEMENTED",
+      "ingredient_id": "vitamin_b12",
+      "source_ids": [
+        "NIH_B12_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "ingredient_id": "vitamin_b6",
+      "source_ids": [
+        "NIH_B6_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "B6_DIETARY_GAP_CONTEXT",
+      "ingredient_id": "vitamin_b6",
+      "source_ids": [
+        "NIH_B6_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "BA_ENDURANCE_ONLY",
+      "ingredient_id": "beta_alanine",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "BA_HIGH_INTENSITY",
+      "ingredient_id": "beta_alanine",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "BIOTIN_LABS",
+      "ingredient_id": "biotin",
+      "source_ids": [
+        "NIH_BIOTIN_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CAFF_HIGH_BASELINE",
+      "ingredient_id": "caffeine_performance",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CAFF_PERFORMANCE",
+      "ingredient_id": "caffeine_performance",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CAFF_SLEEP",
+      "ingredient_id": "caffeine_performance",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CALCIT_KIDNEY_STONES",
+      "ingredient_id": "calcium_citrate",
+      "source_ids": [
+        "NIH_CALCIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CALCIT_LOW_DIET",
+      "ingredient_id": "calcium_citrate",
+      "source_ids": [
+        "NIH_CALCIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "CALCIUM_LOW_DIET",
+      "ingredient_id": "calcium",
+      "source_ids": [
+        "NIH_CALCIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
     }
   ],
   "library_entries_pending_source_specific_review": [
@@ -115,5 +235,6 @@
     "Expand the crosswalk to all 87 draft rules and 31 safety gates.",
     "Review primary documents and current update dates before marking any source verified.",
     "Do not promote any draft rule to active from this mapping alone."
-  ]
+  ],
+  "expansion_count": 15
 }
