@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "B12_VEGAN_ALREADY_SOURCE_REVIEW_001",
+  "ingredient_id": "vitamin_b12",
+  "claim_text": "For people following vegan diets, a reliable B12 source from fortified foods or supplements is important; existing supplement dose, frequency, adherence and fortified-food intake should be checked before suggesting an additional product.",
+  "health_goal_or_outcome": "Prevent unsupported supplementation and support context-specific evidence interpretation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "Vegan users already taking B12 products."
+  },
+  "ingredient_form_or_preparation": "Food sources and relevant supplement preparations; verify exact product label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS B12 fact sheet describes fortified foods and supplements as reliable B12 sources for people whose diets exclude animal foods.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Supplement use does not prove adequate status; absorption and adherence matter.",
+    "Underlying evidence and exact source passages require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
