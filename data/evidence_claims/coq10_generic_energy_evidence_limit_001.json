@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "COQ10_GENERIC_ENERGY_EVIDENCE_LIMIT_001",
+  "ingredient_id": "coenzyme_q10",
+  "claim_text": "Generic fatigue, energy or anti-aging goals do not establish a CoQ10 deficiency or a proven indication for supplementation; evidence differs across specific clinical conditions and medicine interactions may matter.",
+  "health_goal_or_outcome": "Avoid unsupported product claims and align recommendations with evidence and individual context.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People considering CoQ10 for nonspecific energy or vitality."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary or supplemental forms; verify exact formulation and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NCCIH CoQ10 resources summarize condition-specific evidence and potential medicine interactions.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No generic efficacy claim or dose from this evidence record.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NCCIH_COQ10"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
