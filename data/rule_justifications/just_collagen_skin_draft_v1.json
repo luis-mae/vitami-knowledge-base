@@ -1,0 +1,29 @@
+{
+  "rule_justification_id": "JUST_COLLAGEN_SKIN_DRAFT_V1",
+  "rule_id": "COLLAGEN_SKIN",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [],
+  "activation_conditions": [
+    "Primary goal includes skin health."
+  ],
+  "missing_information_behavior": "Do not present a strong recommendation when user context or evidence is insufficient.",
+  "safety_exclusions": [
+    "Ingredient- and product-specific safety review remains required."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy or lactation, relevant disease, medication use, allergy or adverse reaction."
+  ],
+  "evidence_claim_ids": [
+    "COLLAGEN_SKIN_2025_META_001"
+  ],
+  "source_ids": [
+    "COLLAGEN_META_2025"
+  ],
+  "population_and_context": "Oral collagen for skin-aging outcomes in adults; do not generalize to joint outcomes.",
+  "dose_constraints": "No individualized dose supported by this rule.",
+  "certainty_and_limitations": "Claim remains under evidence review; funding-source and study-quality subgroup findings challenge generic skin-aging benefit. No GRADE appraisal yet.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
