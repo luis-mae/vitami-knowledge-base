@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_CHOLINE_PREGNANCY_CONTEXT_SCIENTIFIC_V1",
+  "rule_id": "CHOLINE_PREGNANCY_CONTEXT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "profile_pregnancy",
+    "diet_egg_frequency",
+    "diet_animal_products_frequency",
+    "diet_choline_sources",
+    "prenatal_product_use",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend standalone choline until dietary intake and prenatal product contents are reviewed.",
+  "safety_exclusions": [
+    "Do not infer choline deficiency from pregnancy alone.",
+    "Do not duplicate choline already present in prenatal or other products.",
+    "Do not replace antenatal nutritional care with a supplement suggestion."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy with complicated medical/nutritional status, multiple supplements or clinician-prescribed products."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_CHOLINE_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "population_and_context": "Pregnant people; choline needs increase during pregnancy, but dietary intake and prenatal product composition vary.",
+  "dose_constraints": "No dose from this rule. Compare total dietary and supplemental intake with pregnancy-specific reference values and upper limits.",
+  "certainty_and_limitations": "NIH ODS Choline fact sheet provides pregnancy reference intake and sources; dietary assessment is required before supplement decisions. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
