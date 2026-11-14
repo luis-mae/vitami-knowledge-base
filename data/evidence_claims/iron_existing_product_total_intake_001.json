@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "IRON_EXISTING_PRODUCT_TOTAL_INTAKE_001",
+  "ingredient_id": "iron",
+  "claim_text": "Before adding an iron supplement, total elemental iron exposure from all current supplements and medicines should be reconciled; excess iron can cause gastrointestinal adverse effects and may be harmful, while therapeutic iron should be managed according to diagnosis and monitoring.",
+  "health_goal_or_outcome": "Prevent duplicate or excessive iron supplementation.",
+  "population": {
+    "age_range": "All ages; upper limits and treatment indications differ.",
+    "sex_or_life_stage": "Pregnancy and menstruation affect requirements but do not remove the need to count existing intake.",
+    "health_status": "People already using iron-containing products.",
+    "other_context": "Distinguish elemental iron from the mass of the iron salt."
+  },
+  "ingredient_form_or_preparation": "Elemental iron in multivitamins, prenatal products, standalone supplements and medicines.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mg/day elemental iron",
+    "frequency": "total daily intake",
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Iron Health Professional Fact Sheet describes upper intake levels, adverse effects and clinical treatment context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Upper limits do not replace clinician-directed treatment.",
+    "Iron deficiency and iron overload require laboratory assessment.",
+    "Do not infer elemental iron from compound weight."
+  ],
+  "source_ids": [
+    "NIH_IRON_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
