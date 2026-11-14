@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_IRONBIS_PREGNANCY_SCIENTIFIC_V1",
+  "rule_id": "IRONBIS_PREGNANCY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "profile_pregnancy",
+    "prenatal_product_use",
+    "iron_supplement_use",
+    "iron_product_amount",
+    "pro_labs_available",
+    "bleeding_symptoms"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not add standalone iron until prenatal product contents, current elemental iron exposure and antenatal/laboratory context are reviewed.",
+  "safety_exclusions": [
+    "Do not infer iron-deficiency anemia from pregnancy alone.",
+    "Do not duplicate iron already present in prenatal supplements.",
+    "Do not substitute a supplement recommendation for antenatal screening or prescribed treatment."
+  ],
+  "professional_escalation_conditions": [
+    "Low hemoglobin/ferritin, anemia symptoms, bleeding, iron overload, intolerance or multiple iron-containing products."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_IRON_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "population_and_context": "Pregnant people considering bisglycinate or other iron supplements; pregnancy increases iron requirements but supplemental dose depends on prenatal care, laboratory findings and existing products.",
+  "dose_constraints": "No dose from this rule. Count elemental iron from all products and follow local antenatal guidance and clinician-directed treatment.",
+  "certainty_and_limitations": "NIH ODS Iron and pregnancy reference information do not replace local antenatal protocols; dose and policy vary by jurisdiction. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
