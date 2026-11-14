@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_VITK_BONE_GOAL_ONLY_SCIENTIFIC_V1",
+  "rule_id": "VITK_BONE_GOAL_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "diet_leafy_greens_frequency",
+    "supplements_current_use",
+    "medications_regular_use",
+    "osteoporosis_diagnosis"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "bone_joint_health"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend vitamin K solely for a bone-health goal; review diet, existing products and relevant medicines.",
+  "safety_exclusions": [
+    "Do not claim vitamin K supplementation prevents or treats osteoporosis based only on a wellness goal.",
+    "Do not overlook warfarin/vitamin K antagonist interactions.",
+    "Do not alter prescribed osteoporosis or anticoagulant treatment."
+  ],
+  "professional_escalation_conditions": [
+    "Warfarin or other vitamin K antagonist, bleeding/thrombotic history, osteoporosis treatment or planned procedure."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITK_HP"
+  ],
+  "population_and_context": "People selecting bone health as a goal; a general wellness goal does not establish vitamin K deficiency or prove benefit from supplemental vitamin K.",
+  "dose_constraints": "No dose from this rule. Assess dietary intake and medication interactions; follow clinician guidance for anticoagulation.",
+  "certainty_and_limitations": "NIH ODS Vitamin K fact sheet provides intake and interaction context; bone-health outcomes and supplementation claims require separate appraisal. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
