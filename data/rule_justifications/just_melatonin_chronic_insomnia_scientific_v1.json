@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_MELATONIN_CHRONIC_INSOMNIA_SCIENTIFIC_V1",
+  "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "sleep_problem_type",
+    "sleep_duration",
+    "sleep_schedule",
+    "medications_regular_use",
+    "pregnancy_status",
+    "sleep_apnea_symptoms"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "sleep_problem_type",
+        "chronic_insomnia"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend melatonin as the default response; clarify sleep history, medicines and possible sleep disorders, and suggest clinical assessment for persistent symptoms.",
+  "safety_exclusions": [
+    "Do not present melatonin as an established first-line treatment for chronic insomnia.",
+    "Do not infer cause of insomnia from a questionnaire alone.",
+    "Do not ignore sleep apnea, mood disorders, pain or medication causes."
+  ],
+  "professional_escalation_conditions": [
+    "Persistent insomnia with daytime impairment, suspected sleep apnea, severe mood symptoms, pregnancy, epilepsy or anticoagulant use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NCCIH_SLEEP"
+  ],
+  "population_and_context": "People reporting chronic insomnia; chronic insomnia requires assessment of duration, contributing conditions and evidence-based treatment rather than defaulting to melatonin.",
+  "dose_constraints": "No dose from this rule. No supplement-dose recommendation; chronic insomnia management should follow current sleep-medicine guidance, including consideration of CBT-I.",
+  "certainty_and_limitations": "NCCIH sleep resources describe limitations in evidence for melatonin in chronic insomnia; clinical guidelines generally prioritize behavioral treatment such as CBT-I. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
