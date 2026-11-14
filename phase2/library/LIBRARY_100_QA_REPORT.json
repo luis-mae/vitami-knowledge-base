@@ -16,5 +16,6 @@
     "beta_carotene",
     "spirulina"
   ],
-  "note": "User-facing completeness and structural QA are complete. Pending scientific-source review does not permit those entries to become BASIC recommendations."
+  "note": "All eight entries now have specific source references, preliminary evidence claims and scientific review records. They remain in source-review-in-progress status and are not eligible for BASIC recommendations until full appraisal, safety review and professional approval are complete.",
+  "deeper_source_review_in_progress": 8
 }
