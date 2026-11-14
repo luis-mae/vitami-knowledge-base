@@ -1,0 +1,54 @@
+{
+  "rule_justification_id": "JUST_ELECTROLYTES_PROLONGED_HIGH_SWEAT_SCIENTIFIC_V1",
+  "rule_id": "ELECTROLYTES_PROLONGED_HIGH_SWEAT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_sweat_level",
+    "activity_session_duration",
+    "climate_exposure",
+    "activity_type",
+    "kidney_disease",
+    "conditions_heart",
+    "medications_regular_use",
+    "electrolyte_product_label"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_sweat_level",
+        [
+          "high",
+          "very_high"
+        ]
+      ],
+      [
+        "activity_session_duration",
+        [
+          ">90",
+          "60-90"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not calculate a formula or dose without session duration, conditions, product sodium/potassium content and relevant medical history.",
+  "safety_exclusions": [
+    "Do not assume all electrolyte products are equivalent.",
+    "Do not recommend excess fluid intake or a fixed replacement volume.",
+    "Do not use high-sodium/potassium products without reviewing kidney, heart and medication risks."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney disease, heart failure, hypertension, fluid restriction, heat illness symptoms, confusion, collapse or persistent vomiting."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "People undertaking prolonged exercise with high or very high sweat loss; electrolyte replacement may be relevant depending on duration, environment, individual sweat losses and product composition.",
+  "dose_constraints": "No dose from this rule. Individualize fluid and sodium strategy to event and sweat losses; distinguish sodium from potassium and follow sports-medicine guidance.",
+  "certainty_and_limitations": "NIH ODS Exercise and Athletic Performance materials provide general exercise context; sports hydration recommendations require protocol-specific appraisal. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
