@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_MAGCIT_PARENT_GAP_SCIENTIFIC_V1",
+  "rule_id": "MAGCIT_PARENT_GAP",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_magnesium_sources",
+    "supplements_current_use",
+    "kidney_disease",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "dietary_gaps"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend magnesium citrate when kidney function, current supplement intake or relevant medication use is unknown.",
+  "safety_exclusions": [
+    "Do not infer magnesium deficiency from nonspecific symptoms or dietary estimate alone.",
+    "Do not duplicate magnesium from multiple products.",
+    "Kidney impairment and interacting medicines require professional review."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney disease or reduced renal function.",
+    "Persistent diarrhea, significant gastrointestinal symptoms or suspected toxicity.",
+    "Use of medicines with clinically relevant magnesium interactions."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "population_and_context": "Adults whose dietary magnesium intake may be low; citrate is one magnesium salt and gastrointestinal tolerability differs by formulation.",
+  "dose_constraints": "No dose can be set by this rule. Total elemental magnesium and upper limits from supplements/medications must be checked separately from food magnesium.",
+  "certainty_and_limitations": "NIH ODS magnesium fact sheet provides reference intakes, upper limits and interactions; low dietary intake alone is not a diagnosis or automatic indication. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
