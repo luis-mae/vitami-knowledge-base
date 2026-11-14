@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_MELATONIN_PREGNANCY_SCIENTIFIC_V1",
+  "rule_id": "MELATONIN_PREGNANCY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "pregnancy_status",
+    "breastfeeding_status",
+    "melatonin_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ],
+      [
+        "goals_primary_contains",
+        "sleep_rest"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If any required context is unknown, do not issue a positive recommendation; request clarification or professional review.",
+  "safety_exclusions": [
+    "Do not recommend routine melatonin supplementation during pregnancy/lactation without clinician guidance; do not infer safety from natural hormone status."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, breastfeeding, fertility treatment, concurrent sedatives or significant sleep disorder."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NCCIH_MELATONIN",
+    "NIH_PREGNANCY_HP"
+  ],
+  "population_and_context": "Pregnant or breastfeeding users considering melatonin.",
+  "dose_constraints": "No dose; clinician assessment required.",
+  "certainty_and_limitations": "NCCIH melatonin information and pregnancy-specific evidence limitations; lack of adequate data is not proof of safety. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
