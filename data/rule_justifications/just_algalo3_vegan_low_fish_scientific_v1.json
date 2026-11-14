@@ -1,0 +1,45 @@
+{
+  "rule_justification_id": "JUST_ALGALO3_VEGAN_LOW_FISH_SCIENTIFIC_V1",
+  "rule_id": "ALGALO3_VEGAN_LOW_FISH",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_type",
+    "diet_fatty_fish_weekly",
+    "supplements_current_use",
+    "algal_product_epa_amount",
+    "algal_product_dha_amount"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_type",
+        "vegan"
+      ],
+      [
+        "diet_fatty_fish_weekly",
+        0
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Confirm whether the user already receives DHA/EPA from algal products or fortified foods; do not infer a universal need or dose.",
+  "safety_exclusions": [
+    "Do not assume every algal product contains both EPA and DHA.",
+    "Do not infer deficiency or clinical benefit from vegan status alone.",
+    "Do not duplicate existing omega-3 products."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy/lactation, bleeding disorders, anticoagulant use, planned surgery or significant cardiovascular disease."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "population_and_context": "Vegan adults with little or no oily-fish intake; algal products may provide preformed DHA and sometimes EPA, but diet and current supplement use must be assessed.",
+  "dose_constraints": "No dose from this rule; assess exact EPA and DHA amounts separately and use life-stage/indication-specific guidance.",
+  "certainty_and_limitations": "NIH ODS Omega-3 fact sheet describes sources and product forms. Evidence and requirements vary by life stage and outcome. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
