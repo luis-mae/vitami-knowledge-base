@@ -1375,6 +1375,42 @@
       "publication_date": null,
       "updated_date": null,
       "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "EFSA_VITB6_UL_2023",
+      "organization": "European Food Safety Authority (EFSA) Panel on Nutrition, Novel Foods and Food Allergens",
+      "resource_name": "Scientific opinion on the tolerable upper intake level for vitamin B6",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8006",
+      "source_class": "scientific_opinion_risk_assessment",
+      "jurisdiction": "European Union",
+      "publication_date": "2023-05-17",
+      "notes": "EFSA established an adult UL of 12 mg/day, including pregnancy and lactation, based on peripheral neuropathy evidence. Distinguish EFSA UL from NIH/FNB UL; do not conflate jurisdictions.",
+      "source_type": "scientific_opinion_risk_assessment",
+      "status": "registered",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "updated_date": null,
+      "accessed_at": "2026-11-14"
+    },
+    {
+      "id": "US_CFR_21_201_319",
+      "organization": "U.S. Food and Drug Administration / U.S. Government Publishing Office",
+      "resource_name": "21 CFR § 201.319 — Water-soluble gums, hydrophilic gums, and hydrophilic mucilloids; required warnings and directions",
+      "url": "https://www.govinfo.gov/app/details/CFR-2025-title21-vol4/CFR-2025-title21-vol4-sec201-319",
+      "source_class": "binding_regulation",
+      "jurisdiction": "United States",
+      "publication_date": "2025-04-01",
+      "notes": "Regulatory labeling requirement for covered OTC drug products containing psyllium and other hydrophilic gums. The section describes obstruction/asphyxiation risks without adequate fluid or in people with swallowing difficulty/esophageal narrowing; assess legal scope before applying to dietary supplements or non-US products.",
+      "source_type": "binding_regulation",
+      "status": "registered",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "updated_date": null,
+      "accessed_at": "2026-11-14"
     }
   ],
   "attribution_policy": {
