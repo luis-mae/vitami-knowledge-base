@@ -28,7 +28,9 @@
   "professional_escalation_conditions": [
     "Kidney disease, reduced renal function, pregnancy, significant gastrointestinal disease or interacting medicines."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "MAGNESIUM_GLYCINATE_ELEMENTAL_INTAKE_001"
+  ],
   "source_ids": [
     "NIH_MAGNESIUM_HP"
   ],
