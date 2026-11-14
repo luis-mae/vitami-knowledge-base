@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-scientific-attribution.schema.json",
+  "title": "Vitami Scientific Attribution",
+  "type": "object",
+  "required": [
+    "attribution_id",
+    "source_id",
+    "claim_ids",
+    "display_name",
+    "original_url",
+    "what_it_supports",
+    "display_policy",
+    "status"
+  ],
+  "properties": {
+    "attribution_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "claim_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "rule_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "document_title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "organization_name": {
+      "type": "string"
+    },
+    "original_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "updated_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "accessed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "what_it_supports": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "certainty_level": {
+      "enum": [
+        "high",
+        "moderate",
+        "low",
+        "very_low",
+        "insufficient",
+        "not_assessed",
+        "not_applicable"
+      ]
+    },
+    "jurisdiction": {
+      "type": [
+        "string",
+        "array"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "display_policy": {
+      "type": "object",
+      "required": [
+        "show_name",
+        "show_original_link",
+        "show_logo_only_if_permitted",
+        "no_endorsement_claim"
+      ],
+      "properties": {
+        "show_name": {
+          "const": true
+        },
+        "show_original_link": {
+          "const": true
+        },
+        "show_logo_only_if_permitted": {
+          "const": true
+        },
+        "no_endorsement_claim": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "logo": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "asset_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "permission_status": {
+          "enum": [
+            "not_checked",
+            "permission_required",
+            "permission_confirmed",
+            "not_permitted",
+            "not_applicable"
+          ]
+        },
+        "attribution_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "permission_status"
+      ],
+      "additionalProperties": false
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved",
+        "deprecated"
+      ]
+    },
+    "reviewer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}
