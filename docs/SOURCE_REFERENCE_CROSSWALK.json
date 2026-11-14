@@ -704,6 +704,22 @@
         "NIH_ZINC_HP"
       ],
       "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ZINC_ALREADY_HIGH",
+      "ingredient_id": "zinc",
+      "source_ids": [
+        "NIH_ZINC_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ZINC_HAIR_ONLY",
+      "ingredient_id": "zinc",
+      "source_ids": [
+        "NIH_ZINC_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
     }
   ],
   "library_entries_pending_source_specific_review": [
@@ -724,5 +740,5 @@
     "Review primary documents and current update dates before marking any source verified.",
     "Do not promote any draft rule to active from this mapping alone."
   ],
-  "expansion_count": 75
+  "expansion_count": 77
 }
