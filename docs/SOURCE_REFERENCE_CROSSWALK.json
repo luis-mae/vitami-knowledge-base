@@ -103,7 +103,10 @@
       "source_ids": [
         "NIH_OMEGA3_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "ALGAL_OMEGA3_BLEEDING_CONTEXT_001"
+      ]
     },
     {
       "rule_id": "ALGALO3_VEGAN_LOW_FISH",
@@ -394,7 +397,10 @@
       "source_ids": [
         "NIH_IRON_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "IRON_EXISTING_PRODUCT_TOTAL_INTAKE_001"
+      ]
     },
     {
       "rule_id": "IRON_PREGNANCY",
@@ -446,7 +452,10 @@
         "NCCIH_MELATONIN",
         "NCCIH_SLEEP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "MELATONIN_CIRCADIAN_TIMING_EVIDENCE_001"
+      ]
     },
     {
       "rule_id": "MELATONIN_PREGNANCY",
@@ -576,7 +585,10 @@
       "source_ids": [
         "FDA_PSYLLIUM_CHD"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "PSYLLIUM_MEDICATION_TIMING_REVIEW_001"
+      ]
     },
     {
       "rule_id": "PSYLLIUM_SWALLOWING",
@@ -641,7 +653,10 @@
       "source_ids": [
         "NIH_VITC_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITC_SMOKER_REFERENCE_INTAKE_001"
+      ]
     },
     {
       "rule_id": "VITD_KIDNEY",
