@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 87% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 89% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -53,3 +53,5 @@ Last recorded update: 2026-11-13
 - Logos are not displayed until usage permissions and brand guidelines are checked.
 - Do not modify production or imply a public launch.
 
+
+- Added five additional scientific justifications and linked evidence claims for B6 dietary-gap context, B12 after age 50, vitamin D with low sun exposure, calcium low-diet assessment and existing omega-3 use. All remain draft/evidence-review pending appraisal and professional review.
