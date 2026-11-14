@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 78% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 81% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -22,6 +22,9 @@ Last recorded update: 2026-11-13
 - Created a 39-entry source-attribution manifest for the 31 safety gates, including organization, exact document title, original URL, claim status and explicit logo-permission restrictions.
 - Added three substantive, source-linked safety claims and targeted review records for vitamin B6 neurotoxicity (EFSA 2023 vs U.S. FNB UL distinction), preformed vitamin A in pregnancy, and psyllium swallowing/obstruction risk under 21 CFR §201.319.
 - Added three corresponding draft rule justifications; all remain inactive pending full scientific, professional and jurisdictional review.
+- Expanded dedicated rule justifications to 21 of 87 rules, prioritizing creatine performance, iron, psyllium, omega-3 bleeding risk, magnesium, vitamin D, curcumin liver safety, vitamin A, zinc, biotin and melatonin pregnancy contexts.
+- Created a 95-entry rule attribution manifest covering the 87-rule crosswalk, with organization, exact source title, original URL, jurisdiction/status and logo-permission safeguards.
+- Extended automated integrity checks to validate rule-justification source/claim references and rule attribution manifest integrity.
 - Extended the automated integrity audit to require every safety gate to reference an existing preliminary claim and to prevent placeholder safety claims from being approved for display or activation.
 - Source metadata, attribution, evidence-claim, scientific-review and rule-justification schemas are present.
 - Source policy requires direct original links, identification of what each source supports, dates where available, and no implied endorsement.
