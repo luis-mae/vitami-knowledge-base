@@ -1,0 +1,38 @@
+{
+  "rule_justification_id": "JUST_IRON_FATIGUE_ONLY_SCIENTIFIC_V1",
+  "rule_id": "IRON_FATIGUE_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "fatigue",
+    "pro_labs_available",
+    "supplements_current_use",
+    "pregnancy_status"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "symptom_fatigue",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If any required safety or context information is missing, do not add positive recommendation score; request clarification or escalate.",
+  "safety_exclusions": [
+    "Never recommend iron based on fatigue alone; assess labs and other causes; avoid duplicate iron and iron overload."
+  ],
+  "professional_escalation_conditions": [
+    "Anemia symptoms, bleeding, pregnancy, chronic disease, hemochromatosis or abnormal labs require clinical evaluation."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_IRON_HP"
+  ],
+  "population_and_context": "Adults reporting fatigue; fatigue is nonspecific and must not be treated as evidence of iron deficiency.",
+  "dose_constraints": "No dose; iron treatment should follow diagnosis and clinician advice.",
+  "certainty_and_limitations": "NIH ODS Iron fact sheet; dietary reference data do not diagnose iron deficiency. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
