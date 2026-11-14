@@ -27,7 +27,9 @@
   "professional_escalation_conditions": [
     "Pregnancy, liver disease, neurological symptoms or diagnosed cognitive disorder requiring clinical assessment."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "CHOLINE_COGNITIVE_GOAL_EVIDENCE_LIMIT_001"
+  ],
   "source_ids": [
     "NIH_CHOLINE_HP"
   ],
