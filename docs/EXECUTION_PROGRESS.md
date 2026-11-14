@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 93% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 95% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -59,3 +59,5 @@ Last recorded update: 2026-11-13
 - Added five further structured rule justifications and linked evidence claims for algal omega-3 in vegan diets, existing B12 supplementation, beta-alanine in endurance-only and high-intensity contexts, and biotin for hair concerns. All remain draft/evidence-review and inactive pending appraisal and professional review.
 
 - Added five further structured rule justifications and source-linked evidence claims for B6 neurological symptoms in current users, high habitual caffeine intake, caffeine performance context, caffeine and sleep symptoms, and calcium assessment after kidney stones. All remain draft/evidence-review and inactive pending appraisal and professional review.
+
+- Added five structured scientific justifications and source-linked evidence claims for iodine/thyroid context, fatigue without confirmed iron deficiency, vegetarian iron bioavailability, magnesium with kidney impairment, and methylcobalamin form claims. All remain draft/evidence-review and inactive pending full appraisal and professional review.
