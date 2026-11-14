@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "PSYLLIUM_MEDICATION_TIMING_REVIEW_001",
+  "ingredient_id": "psyllium_fiber",
+  "claim_text": "Psyllium can alter the timing or absorption of some oral medicines; the appropriate separation interval is medicine- and product-specific, so users taking regular medication should check the exact product label or obtain pharmacist guidance rather than apply a universal interval.",
+  "health_goal_or_outcome": "Reduce potential medication-absorption interactions when using psyllium.",
+  "population": {
+    "age_range": "People taking oral medicines.",
+    "sex_or_life_stage": "All life stages.",
+    "health_status": "People using regular medication and considering psyllium.",
+    "other_context": "Medication type, formulation and product directions determine timing."
+  },
+  "ingredient_form_or_preparation": "Oral psyllium husk powder, granules, capsules and other fiber preparations.",
+  "dose_context": {
+    "amount": null,
+    "unit": "g",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "FDA/official psyllium product labeling and warnings support checking directions; exact medicine-specific intervals require product monographs and pharmacist review.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No universal separation interval is established by this general claim.",
+    "Source must be matched to exact product classification and formulation.",
+    "Pharmacist review is needed for narrow-therapeutic-index or timing-sensitive medicines."
+  ],
+  "source_ids": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
