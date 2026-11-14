@@ -27,7 +27,9 @@
     "Prior anaphylaxis, respiratory symptoms, angioedema or systemic reaction to milk.",
     "Any suspected allergic reaction after exposure; emergency symptoms require urgent care."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "WHEY_MILK_PROTEIN_ALLERGY_001"
+  ],
   "source_ids": [
     "NIH_EXERCISE_HP"
   ],
