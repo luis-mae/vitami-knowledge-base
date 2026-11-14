@@ -35,7 +35,9 @@
   "professional_escalation_conditions": [
     "Neurological symptoms, pernicious anemia, malabsorption, gastrointestinal surgery, pregnancy or abnormal B12-related labs."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "METHYLB12_FORM_SUPERIORITY_EVIDENCE_001"
+  ],
   "source_ids": [
     "NIH_B12_HP"
   ],
