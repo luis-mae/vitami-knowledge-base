@@ -1,0 +1,40 @@
+{
+  "rule_justification_id": "JUST_VITC_SMOKER_SCIENTIFIC_V1",
+  "rule_id": "VITC_SMOKER",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "lifestyle_smoking",
+    "diet_vitamin_c_sources",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "lifestyle_smoking",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Check current vitamin C intake and products; do not add a supplement automatically if dietary and existing supplemental intake are adequate.",
+  "safety_exclusions": [
+    "Do not frame vitamin C supplementation as a way to offset smoking harms.",
+    "Do not recommend high-dose vitamin C to prevent smoking-related disease.",
+    "Smoking cessation remains the key health intervention."
+  ],
+  "professional_escalation_conditions": [
+    "Respiratory symptoms, chronic disease, pregnancy or high-dose supplement use.",
+    "History of kidney stones or iron overload requires additional review."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITC_HP"
+  ],
+  "population_and_context": "Adults who smoke; U.S. dietary reference guidance sets higher vitamin C intake for smokers, but smoking status alone does not establish deficiency or a need for high-dose supplements.",
+  "dose_constraints": "Use jurisdiction-appropriate dietary reference values; no individualized supplemental dose from this rule.",
+  "certainty_and_limitations": "NIH ODS Vitamin C fact sheet describes higher reference intake for smokers; it does not establish that supplementation neutralizes tobacco-related risk. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
