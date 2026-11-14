@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_B6_DIETARY_GAP_CONTEXT_SCIENTIFIC_V1",
+  "rule_id": "B6_DIETARY_GAP_CONTEXT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "diet_type",
+    "diet_b6_sources",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "dietary_gaps"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If diet and current supplement intake are unknown, do not recommend additional B6; ask for details and total intake.",
+  "safety_exclusions": [
+    "Do not infer B6 deficiency from nonspecific symptoms or a broad dietary-gap goal.",
+    "Avoid chronic high-dose B6; account for all multivitamins and standalone products.",
+    "Do not treat neuropathy with B6 without clinical assessment."
+  ],
+  "professional_escalation_conditions": [
+    "Tingling, numbness, burning pain, gait changes or other neurological symptoms.",
+    "Current high-dose B6 use, pregnancy, kidney disease or relevant medication use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_B6_HP"
+  ],
+  "population_and_context": "Adults concerned about dietary gaps; review actual dietary B6 intake and current products rather than infer deficiency from a general dietary-gap goal.",
+  "dose_constraints": "No dose from this rule. Compare total intake with age- and jurisdiction-specific requirements and upper limits; avoid high-dose use without clinical indication.",
+  "certainty_and_limitations": "NIH ODS B6 fact sheet covers intake, upper limits and peripheral neuropathy risk. A dietary-gap flag is not a diagnosis or automatic supplement indication. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
