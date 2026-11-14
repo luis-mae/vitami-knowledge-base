@@ -1,0 +1,52 @@
+{
+  "rule_justification_id": "JUST_CAFF_PERFORMANCE_SCIENTIFIC_V1",
+  "rule_id": "CAFF_PERFORMANCE",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_type",
+    "goals_primary",
+    "caffeine_sources",
+    "lifestyle_caffeine_daily",
+    "symptom_sleep",
+    "pregnancy_status",
+    "cardiovascular_conditions",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_type",
+        [
+          "endurance",
+          "mixed_high_intensity"
+        ]
+      ],
+      [
+        "goals_primary_contains",
+        "sports_performance"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not calculate or suggest a performance dose without total habitual caffeine, event timing, sleep, pregnancy and cardiovascular/medication context.",
+  "safety_exclusions": [
+    "Do not generalize performance effects to all sports or individuals.",
+    "Do not recommend caffeine to compensate for inadequate sleep.",
+    "Do not infer a dose from body weight without a separately reviewed protocol and safety screening."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, cardiovascular disease/arrhythmia, uncontrolled hypertension, anxiety/panic, insomnia or stimulant medication use.",
+    "Adolescents, adverse reactions or very high habitual intake."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "Adults considering caffeine for endurance or selected intermittent high-intensity sports performance; effects and safety depend on dose, timing, habitual intake and individual context.",
+  "dose_constraints": "No dose from this rule. Any protocol must be separately appraised, account for all caffeine sources and follow life-stage guidance and product labeling.",
+  "certainty_and_limitations": "NIH ODS Exercise and Athletic Performance fact sheet reviews performance evidence and safety. Benefits vary by activity and dose; sleep disruption and individual sensitivity are important limitations. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
