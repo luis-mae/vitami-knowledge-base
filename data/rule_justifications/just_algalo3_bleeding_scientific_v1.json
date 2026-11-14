@@ -1,0 +1,46 @@
+{
+  "rule_justification_id": "JUST_ALGALO3_BLEEDING_SCIENTIFIC_V1",
+  "rule_id": "ALGALO3_BLEEDING",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_bleeding",
+    "safety_upcoming_surgery",
+    "medications_regular_use",
+    "supplements_current_use",
+    "omega3_product_dose"
+  ],
+  "activation_conditions": {
+    "all": [],
+    "any": [
+      [
+        "conditions_bleeding",
+        true
+      ],
+      [
+        "safety_upcoming_surgery",
+        true
+      ]
+    ]
+  },
+  "missing_information_behavior": "Do not issue a recommendation until bleeding history, medication list, surgery timing and product EPA/DHA dose are clarified.",
+  "safety_exclusions": [
+    "Do not assume all algal products contain the same EPA/DHA profile.",
+    "Do not advise stopping prescribed anticoagulants or antiplatelets.",
+    "Do not overstate bleeding risk at ordinary dietary doses."
+  ],
+  "professional_escalation_conditions": [
+    "Active bleeding, bleeding disorder, anticoagulant/antiplatelet use or planned surgery.",
+    "High-dose EPA/DHA or significant cardiovascular history."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "population_and_context": "Users considering algal DHA/EPA products who report bleeding disorders or upcoming surgery; product EPA/DHA content and medication use are relevant.",
+  "dose_constraints": "No dose from this rule; assess actual EPA/DHA amount and clinician-directed perioperative guidance.",
+  "certainty_and_limitations": "NIH ODS Omega-3 fact sheet summarizes safety and interactions; risk varies by dose and clinical context, and surgical decisions belong to the treating team. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
