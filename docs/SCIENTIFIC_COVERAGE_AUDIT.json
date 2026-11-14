@@ -15,25 +15,27 @@
     "integrity_audit_script": 1,
     "safety_gate_preliminary_claims": 31,
     "safety_gate_attribution_manifest_records": 39,
-    "rule_justification_records": 6
+    "rule_justification_records": 21,
+    "rule_attribution_manifest_records": 95,
+    "rules_with_dedicated_justifications": 21,
+    "rules_total": 87
   },
   "reconciliation": {
     "unregistered_rule_source_ids": [],
     "unregistered_safety_source_ids": []
   },
   "gaps": [
-    "All 31 safety gates have preliminary source-linked claim records, but only three have substantive source-appraised claim drafts; the other 28 remain operational placeholders pending source passage review.",
-    "Only six draft rules have dedicated rule-justification records; most of the 87 draft rules still need substantive claim-level justification.",
-    "Full-text and underlying-study appraisal, risk-of-bias assessment and GRADE remain incomplete.",
-    "Attribution metadata is prepared for safety gates but still needs application rendering and UX verification in BASIC and PRO.",
-    "Professional review and jurisdiction-specific regulatory review remain pending before any draft is approved or activated."
+    "21 of 87 draft rules now have dedicated structured justifications; the remaining 66 need claim-level rationale, source appraisal and safety constraints.",
+    "31 safety gates have preliminary claim records; only three have substantive claim drafts and targeted source reviews. The other 28 are placeholders pending appraisal.",
+    "Rule and safety attribution manifests are prepared but not yet rendered in BASIC/PRO screens.",
+    "Full-text extraction, risk-of-bias assessment and GRADE remain incomplete for most claims.",
+    "All rules and claims remain draft; professional review, jurisdiction-specific review and application regression testing remain mandatory."
   ],
   "next_execution_targets": [
-    "Expand substantive claim and rule-justification coverage across 87 rules, prioritizing high-risk and high-impact recommendations.",
-    "Appraise source passages and safety applicability for all 31 safety gates; do not alter gate behavior until approved review.",
-    "Implement source attribution display in BASIC and PRO recommendation screens, with source title, organization, original link and permitted-logo logic.",
-    "Finish full appraisal of the eight ingredients under source review.",
-    "Add schema-level validation and regression tests for rule-to-claim-to-source lineage."
+    "Continue writing dedicated rule justifications for the highest-risk and highest-impact rules, linking only verified claims and registered sources.",
+    "Convert the remaining 28 safety placeholders into substantive appraisable claims.",
+    "Integrate rule and safety attribution manifests into the recommendation UI, showing organization, source title and direct link; logos only with permission.",
+    "Complete full evidence appraisal and independent professional review before activation."
   ],
   "guardrails": [
     "Do not activate rules or safety gates based on this audit.",
