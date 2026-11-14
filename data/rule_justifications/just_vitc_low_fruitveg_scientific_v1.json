@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_VITC_LOW_FRUITVEG_SCIENTIFIC_V1",
+  "rule_id": "VITC_LOW_FRUITVEG",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_fruit_veg_daily",
+    "diet_fruit_sources",
+    "diet_vegetable_sources",
+    "supplements_current_use",
+    "smoking_status",
+    "pregnancy_status"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_fruit_veg_daily",
+        "low"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not infer vitamin C deficiency from a single low fruit/vegetable response; clarify food sources, fortified foods and existing supplements.",
+  "safety_exclusions": [
+    "Do not claim vitamin C supplements prevent common colds or replace dietary improvement.",
+    "Do not recommend high-dose vitamin C without indication and safety review.",
+    "Do not ignore kidney-stone or iron-overload context."
+  ],
+  "professional_escalation_conditions": [
+    "Scurvy-like symptoms, malabsorption, smoking, kidney stones, chronic kidney disease or hemochromatosis."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITC_HP"
+  ],
+  "population_and_context": "People reporting low fruit and vegetable intake; vitamin C intake may warrant dietary review, but intake should be assessed across all foods and fortified products.",
+  "dose_constraints": "No dose from this rule. Assess dietary intake against life-stage reference values and reconcile supplemental exposure.",
+  "certainty_and_limitations": "NIH ODS Vitamin C fact sheet describes food sources, reference values and high-dose risks; dietary pattern alone does not diagnose deficiency. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
