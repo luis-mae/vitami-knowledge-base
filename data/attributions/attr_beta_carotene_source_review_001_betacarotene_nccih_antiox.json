@@ -1,0 +1,38 @@
+{
+  "attribution_id": "ATTR_BETA_CAROTENE_SOURCE_REVIEW_001_BETACAROTENE_NCCIH_ANTIOX",
+  "source_id": "BETACAROTENE_NCCIH_ANTIOX",
+  "claim_ids": [
+    "BETA_CAROTENE_SOURCE_REVIEW_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Antioxidant Supplements: What You Need To Know",
+  "document_title": "Antioxidant Supplements: What You Need To Know",
+  "organization_name": "National Center for Complementary and Integrative Health",
+  "original_url": "https://www.nccih.nih.gov/health/antioxidant-supplements-what-you-need-to-know",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Cancer and cardiovascular disease prevention; supplement-related harms",
+  "limitations": [
+    "This does not apply to beta-carotene naturally present in foods in the same way.",
+    "Risk is particularly relevant to smokers and asbestos-exposed populations.",
+    "Do not use this ingredient as a generic antioxidant recommendation."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "US",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
