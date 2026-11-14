@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "PROBIOTIC_STRAIN_SPECIFIC_EVIDENCE_001",
+  "ingredient_id": "probiotics",
+  "claim_text": "Probiotic effects are strain-, product-, indication- and outcome-specific; evidence for one strain or condition cannot be generalized to an unspecified probiotic product for generic digestive health.",
+  "health_goal_or_outcome": "Support safe, indication-specific recommendations and avoid unsupported supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People considering probiotics for digestive health."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary and supplemental forms; verify exact product label and formulation.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Probiotics fact sheet emphasizes strain-specific evidence and safety context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No generic dose; exact strain and product must match studied evidence.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_PROBIOTICS_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
