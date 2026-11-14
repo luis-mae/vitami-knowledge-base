@@ -326,7 +326,10 @@
       "source_ids": [
         "NIH_EXERCISE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "CREATINE_KIDNEY_CLINICAL_REVIEW_001"
+      ]
     },
     {
       "rule_id": "CURCUMIN_LIVER",
@@ -353,7 +356,10 @@
       "source_ids": [
         "NIH_VITD_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITD_KIDNEY_METABOLISM_RENAL_REVIEW_001"
+      ]
     },
     {
       "rule_id": "D3_PARENT_LOW_SUN",
@@ -621,7 +627,10 @@
         "NIH_POTASSIUM_HP",
         "NIH_EXERCISE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "POTASSIUM_SWEAT_NOT_INDICATION_001"
+      ]
     },
     {
       "rule_id": "PROBIO_DIGESTIVE",
@@ -648,7 +657,10 @@
       "source_ids": [
         "FDA_PSYLLIUM_CHD"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "PSYLLIUM_DYSPHAGIA_CHOKING_SAFETY_001"
+      ]
     },
     {
       "rule_id": "SEL_ANTIOXIDANT_ONLY",
@@ -762,7 +774,10 @@
       "source_ids": [
         "NIH_VITK_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITK_WARFARIN_INTAKE_CONSISTENCY_001"
+      ]
     },
     {
       "rule_id": "WHEY_MILK_ALLERGY",
