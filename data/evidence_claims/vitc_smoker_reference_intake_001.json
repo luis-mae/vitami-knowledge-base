@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "VITC_SMOKER_REFERENCE_INTAKE_001",
+  "ingredient_id": "vitamin_c",
+  "claim_text": "U.S. dietary reference guidance sets a higher vitamin C recommended intake for people who smoke than for nonsmokers because smoking is associated with increased oxidative stress and vitamin C turnover; this does not establish that supplements prevent smoking-related disease.",
+  "health_goal_or_outcome": "Interpret vitamin C intake needs in adults who smoke.",
+  "population": {
+    "age_range": "Adults; age-specific values apply.",
+    "sex_or_life_stage": "Sex-specific reference values apply.",
+    "health_status": "People who smoke.",
+    "other_context": "Dietary intake, fortified foods and current supplements must be counted."
+  },
+  "ingredient_form_or_preparation": "Vitamin C from foods, fortified foods and supplements.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mg/day",
+    "frequency": "daily total intake",
+    "duration": null
+  },
+  "comparator": "Smokers versus nonsmokers under U.S. dietary reference guidance.",
+  "evidence_summary": "NIH ODS Vitamin C Health Professional Fact Sheet reports higher vitamin C reference intake for smokers.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Higher reference intake is not a prescription for a supplement.",
+    "Vitamin C does not neutralize tobacco harms.",
+    "Reference values vary by jurisdiction."
+  ],
+  "source_ids": [
+    "NIH_VITC_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
