@@ -46,6 +46,7 @@ class PassportValidationTests(unittest.TestCase):
                            certainty_assessed=True)
         p["safety"].update(professional_approval=True, contraindications_reviewed=True,
                            interactions_reviewed=True)
+        p["presentation"]["claim_text"] = "Example reviewed scientific statement"
         p["presentation"]["source_attribution"] = [{
             "source_id": "SOURCE_EXAMPLE", "organization": "Example organization",
             "title": "Example source", "url": "https://example.org/source",
@@ -64,6 +65,21 @@ class PassportValidationTests(unittest.TestCase):
         p = example()
         p["evidence_claim_ids"] = ["CLAIM_EXAMPLE", "CLAIM_EXAMPLE"]
         self.assertTrue(any("duplicates" in e for e in module.validate(p, "example")))
+
+    def test_missing_rule_id_is_reported_not_crash(self):
+        p = example()
+        del p["rule_id"]
+        self.assertTrue(any("rule_id" in e for e in module.validate(p, "example")))
+
+    def test_approved_empty_claim_text_rejected(self):
+        p = example()
+        p["review"]["status"] = "approved"
+        self.assertTrue(any("approved passport lacks" in e for e in module.validate(p, "example")))
+
+    def test_gate_ids_reject_nonstring_values(self):
+        p = example()
+        p["safety"]["gate_ids"] = [None]
+        self.assertTrue(any("gate_ids" in e for e in module.validate(p, "example")))
 
 
 if __name__ == "__main__":
