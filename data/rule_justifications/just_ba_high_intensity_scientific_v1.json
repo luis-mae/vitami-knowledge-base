@@ -30,7 +30,9 @@
   "professional_escalation_conditions": [
     "Pregnancy, minors, chronic disease or relevant medication use; persistent paresthesia/adverse effects."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "BETA_ALANINE_HIGH_INTENSITY_CONTEXT_001"
+  ],
   "source_ids": [
     "NIH_EXERCISE_HP"
   ],
