@@ -77,14 +77,16 @@
     {
       "attribution_id": "RULE_ATTR_O3_LOW_FISH_NIH_OMEGA3_HP",
       "rule_id": "O3_LOW_FISH",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "OMEGA3_LOW_FISH_DIETARY_SOURCE_REVIEW_001"
+      ],
       "source_id": "NIH_OMEGA3_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Omega-3 Fatty Acids — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -98,14 +100,16 @@
     {
       "attribution_id": "RULE_ATTR_CREATINE_STRENGTH_NIH_EXERCISE_HP",
       "rule_id": "CREATINE_STRENGTH",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CREATINE_STRENGTH_POWER_EVIDENCE_001"
+      ],
       "source_id": "NIH_EXERCISE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -119,14 +123,16 @@
     {
       "attribution_id": "RULE_ATTR_MAGCIT_PARENT_GAP_NIH_MAGNESIUM_HP",
       "rule_id": "MAGCIT_PARENT_GAP",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MAGNESIUM_GLYCINATE_ELEMENTAL_INTAKE_001"
+      ],
       "source_id": "NIH_MAGNESIUM_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Magnesium — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -140,14 +146,16 @@
     {
       "attribution_id": "RULE_ATTR_PSYLLIUM_LOW_FIBER_DIGESTIVE_FDA_PSYLLIUM_CHD",
       "rule_id": "PSYLLIUM_LOW_FIBER_DIGESTIVE",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "PSYLLIUM_LOW_FIBER_INTAKE_REVIEW_001"
+      ],
       "source_id": "FDA_PSYLLIUM_CHD",
       "organization": "FDA",
       "document_title": "Authorized Health Claims That Meet the Significant Scientific Agreement (SSA) Standard",
       "original_url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/authorized-health-claims-meet-significant-scientific-agreement-ssa-standard",
       "source_class": "official_primary_guidance",
       "source_status": "verified_2026-08-09",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "not_specified",
@@ -184,14 +192,16 @@
     {
       "attribution_id": "RULE_ATTR_ZINC_VEGAN_NIH_ZINC_HP",
       "rule_id": "ZINC_VEGAN",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "ZINC_VEGAN_BIOAVAILABILITY_REVIEW_001"
+      ],
       "source_id": "NIH_ZINC_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Zinc — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -412,14 +422,16 @@
     {
       "attribution_id": "RULE_ATTR_BIOTIN_LABS_NIH_BIOTIN_HP",
       "rule_id": "BIOTIN_LABS",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_BIOTIN_LAB_INTERFERENCE_001"
+      ],
       "source_id": "NIH_BIOTIN_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Biotin — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -732,14 +744,16 @@
     {
       "attribution_id": "RULE_ATTR_CREATINE_HIGH_INTENSITY_SPORT_NIH_EXERCISE_HP",
       "rule_id": "CREATINE_HIGH_INTENSITY_SPORT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CREATINE_STRENGTH_POWER_EVIDENCE_001"
+      ],
       "source_id": "NIH_EXERCISE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -776,14 +790,16 @@
     {
       "attribution_id": "RULE_ATTR_CURCUMIN_LIVER_NCCIH_TURMERIC",
       "rule_id": "CURCUMIN_LIVER",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_CURCUMIN_LIVER_INJURY_001"
+      ],
       "source_id": "NCCIH_TURMERIC",
       "organization": "National Center for Complementary and Integrative Health",
       "document_title": "Turmeric",
       "original_url": "https://www.nccih.nih.gov/health/turmeric",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -1119,14 +1135,16 @@
     {
       "attribution_id": "RULE_ATTR_MAGCIT_KIDNEY_NIH_MAGNESIUM_HP",
       "rule_id": "MAGCIT_KIDNEY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MAGNESIUM_KIDNEY_CLEARANCE_SAFETY_001"
+      ],
       "source_id": "NIH_MAGNESIUM_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Magnesium — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -1255,14 +1273,16 @@
     {
       "attribution_id": "RULE_ATTR_MELATONIN_PREGNANCY_NCCIH_MELATONIN",
       "rule_id": "MELATONIN_PREGNANCY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_MELATONIN_PREGNANCY_EVIDENCE_GAP_001"
+      ],
       "source_id": "NCCIH_MELATONIN",
       "organization": "NCCIH",
       "document_title": "Melatonin: What You Need to Know",
       "original_url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
       "source_class": "official_fact_sheet",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "not_specified",
@@ -1276,14 +1296,16 @@
     {
       "attribution_id": "RULE_ATTR_MELATONIN_PREGNANCY_NIH_PREGNANCY_HP",
       "rule_id": "MELATONIN_PREGNANCY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_MELATONIN_PREGNANCY_EVIDENCE_GAP_001"
+      ],
       "source_id": "NIH_PREGNANCY_HP",
       "organization": "NIH ODS",
       "document_title": "Dietary Supplements and Life Stages: Pregnancy — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
       "source_class": "official_primary_guidance",
       "source_status": "verified_2026-08-09",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "not_specified",
@@ -1527,14 +1549,16 @@
     {
       "attribution_id": "RULE_ATTR_O3_BLEEDING_NIH_OMEGA3_HP",
       "rule_id": "O3_BLEEDING",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_OMEGA3_ANTICOAGULANT_CONTEXT_001"
+      ],
       "source_id": "NIH_OMEGA3_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Omega-3 Fatty Acids — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
       "source_class": "government_evidence_summary",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "US",
@@ -1755,14 +1779,16 @@
     {
       "attribution_id": "RULE_ATTR_VITA_LOW_DIET_CONTEXT_NIH_VITA_HP",
       "rule_id": "VITA_LOW_DIET_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITAMIN_A_LOW_DIETARY_INTAKE_ASSESSMENT_001"
+      ],
       "source_id": "NIH_VITA_HP",
       "organization": "NIH ODS",
       "document_title": "Vitamin A — Health Professional Fact Sheet",
       "original_url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
       "source_class": "official_fact_sheet",
       "source_status": "registered",
-      "what_it_supports": "Registered source associated with this rule. The exact claim, passage and applicability must be confirmed before the rule is approved.",
+      "what_it_supports": "Substantive evidence claim linked; exact passage appraisal and professional review remain pending.",
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "not_specified",
