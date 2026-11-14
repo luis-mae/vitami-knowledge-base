@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
   "date": "2026-11-13",
-  "status": "coverage_audit_not_scientific_approval",
+  "status": "coverage_complete_pending_independent_scientific_appraisal",
   "counts": {
     "registered_sources": 76,
     "draft_rules": 87,
     "safety_gates": 31,
-    "evidence_claim_records": 121,
+    "evidence_claim_records": 141,
     "scientific_review_records": 11,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
@@ -17,25 +17,34 @@
     "safety_gate_attribution_manifest_records": 39,
     "rule_justification_records": 93,
     "rule_attribution_manifest_records": 95,
-    "rules_with_dedicated_justifications": 93,
-    "rules_total": 87
+    "rules_with_dedicated_justifications": 87,
+    "rules_total": 87,
+    "rule_rows_with_evidence_claim_links": 87,
+    "safety_gates_with_substantive_evidence_claim_links": 31,
+    "rule_rows_missing_evidence_claim_links": 0,
+    "safety_gates_missing_evidence_claim_links": 0,
+    "unregistered_rule_or_safety_source_ids": 0
   },
   "reconciliation": {
     "unregistered_rule_source_ids": [],
-    "unregistered_safety_source_ids": []
+    "unregistered_safety_source_ids": [],
+    "missing_rule_evidence_claim_links": 0,
+    "missing_safety_evidence_claim_links": 0,
+    "all_rules_justified": true,
+    "all_safety_gates_substantively_linked": true
   },
   "gaps": [
-    "93 of 87 draft rules have dedicated structured justifications; -6 remain without dedicated justifications.",
-    "Substantive evidence claims are linked for the rules added in this pass; claim records remain in evidence-review status pending exact source passage verification.",
-    "Source and attribution manifests are linked, but source-specific passages, publication/update dates and display-ready citations must be completed in a full-text appraisal.",
-    "Organization logos are not enabled for display; brand permissions and official asset provenance remain to be verified.",
-    "Full-text appraisal, risk-of-bias assessment, certainty grading and independent professional review remain required before activation."
+    "Coverage and traceability are complete: all 87 draft rules have a dedicated structured justification and at least one evidence-claim link; all 31 safety gates have substantive evidence-claim links.",
+    "Evidence-claim records remain in evidence-review status. Exact source passages, publication/update dates, study design and population applicability still require full-text verification.",
+    "Risk-of-bias assessment and certainty grading (e.g. GRADE where appropriate) are not complete for all claims; independent qualified professional review is required before any rule is approved or activated.",
+    "Organization logos are not enabled for display; official asset provenance, trademark/brand guidelines and permission status must be checked before use.",
+    "Source attribution is mapped in repository manifests but has not yet been rendered and verified in BASIC/PRO recommendation screens."
   ],
   "next_execution_targets": [
-    "Finish any remaining rules without dedicated justifications.",
-    "Appraise exact passages from registered primary/authoritative sources and record publication/update dates.",
-    "Complete risk-of-bias and certainty assessment and independent professional review.",
-    "Implement attribution rendering only after scientific and logo permissions are approved."
+    "Begin claim-by-claim full-text appraisal against the registered authoritative sources; record exact passages, dates, population, dose/form and limitations.",
+    "Complete risk-of-bias and certainty assessment and independent professional review; keep all unapproved claims inactive.",
+    "Implement source attribution rendering in BASIC/PRO after approval, with text citation first and logos only where permitted.",
+    "Run the scientific-integrity GitHub Actions workflow and resolve any failing checks before closing the repository work package."
   ],
   "guardrails": [
     "Do not activate rules or safety gates based on this audit.",
