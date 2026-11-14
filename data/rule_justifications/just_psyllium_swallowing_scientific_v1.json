@@ -27,7 +27,9 @@
   "professional_escalation_conditions": [
     "Known dysphagia, esophageal narrowing, bowel obstruction, severe abdominal pain, vomiting or inability to swallow fluids."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "PSYLLIUM_DYSPHAGIA_CHOKING_SAFETY_001"
+  ],
   "source_ids": [
     "FDA_PSYLLIUM_CHD"
   ],
