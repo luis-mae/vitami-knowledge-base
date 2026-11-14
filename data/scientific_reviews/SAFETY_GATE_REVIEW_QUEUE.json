@@ -13,7 +13,9 @@
         "NIH_VITE_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_VITE_BLEEDING_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -22,7 +24,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -35,7 +37,9 @@
         "NIH_VITK_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_VITK_CURRENT_USE_MEDICATION_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -44,7 +48,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -58,7 +62,9 @@
         "NIH_PREGNANCY_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_IRONBIS_PREGNANCY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -67,7 +73,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -80,7 +86,9 @@
         "NIH_B6_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_B6_CURRENT_USE_NEURO_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -89,7 +97,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -102,7 +110,9 @@
         "NIH_EXERCISE_HP"
       ],
       "existing_override": null,
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_CAFF_SLEEP_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -111,7 +121,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -124,7 +134,9 @@
         "NIH_MAGNESIUM_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_MAGCIT_KIDNEY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -133,7 +145,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -147,7 +159,9 @@
         "NIH_PREGNANCY_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_VITA_PREG_CURRENT_USE_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -156,7 +170,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -169,7 +183,9 @@
         "FDA_PSYLLIUM_CHD"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_PSYLLIUM_SWALLOWING_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -178,7 +194,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -191,7 +207,9 @@
         "NCCIH_TURMERIC"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_CURCUMIN_PREG_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -200,7 +218,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -213,7 +231,9 @@
         "NIH_IRON_HP"
       ],
       "existing_override": null,
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_IRON_KNOWN_HIGH_INTAKE_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -222,7 +242,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -235,7 +255,9 @@
         "NIH_IRON_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_IRON_PREGNANCY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -244,7 +266,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -257,7 +279,9 @@
         "NIH_ZINC_HP"
       ],
       "existing_override": null,
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_ZINC_ALREADY_HIGH_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -266,7 +290,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -279,7 +303,9 @@
         "NIH_BIOTIN_HP"
       ],
       "existing_override": null,
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_BIOTIN_LABS_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -288,7 +314,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -301,7 +327,9 @@
         "NIH_EXERCISE_HP"
       ],
       "existing_override": null,
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_CAFF_HIGH_BASELINE_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -310,7 +338,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -323,7 +351,9 @@
         "NCCIH_TURMERIC"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_CURCUMIN_LIVER_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -332,7 +362,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -345,7 +375,9 @@
         "NIH_EXERCISE_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_CREATINE_KIDNEY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -354,7 +386,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -367,7 +399,9 @@
         "NIH_OMEGA3_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_O3_BLEEDING_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -376,7 +410,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -389,7 +423,9 @@
         "NIH_VITD_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_VITD_KIDNEY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -398,7 +434,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -411,7 +447,9 @@
         "NIH_VITD_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_D3_KIDNEY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -420,7 +458,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -433,7 +471,9 @@
         "NIH_MAGNESIUM_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_MAGGLY_KIDNEY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -442,7 +482,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -455,7 +495,9 @@
         "NIH_POTASSIUM_HP"
       ],
       "existing_override": null,
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_POTASSIUM_MEDICATION_CONTEXT_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -464,7 +506,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -477,7 +519,9 @@
         "FDA_PSYLLIUM_CHD"
       ],
       "existing_override": null,
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_PSYLLIUM_MEDICATIONS_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -486,7 +530,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -499,7 +543,9 @@
         "NIH_IODINE_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_IODINE_THYROID_CONTEXT_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -508,7 +554,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -521,7 +567,9 @@
         "NIH_CALCIUM_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_CALCIUM_STONES_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -530,7 +578,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -543,7 +591,9 @@
         "NIH_CALCIUM_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_CALCIT_KIDNEY_STONES_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -552,7 +602,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -566,7 +616,9 @@
         "NIH_PREGNANCY_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_MELATONIN_PREGNANCY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -575,7 +627,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -588,7 +640,9 @@
         "NIH_VITC_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_VITC_KIDNEY_STONES_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -597,7 +651,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -610,7 +664,9 @@
         "NIH_EXERCISE_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_WHEY_MILK_ALLERGY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -619,7 +675,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -632,7 +688,9 @@
         "NIH_OMEGA3_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_ALGALO3_BLEEDING_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -641,7 +699,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -654,7 +712,9 @@
         "NIH_POTASSIUM_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_POTASSIUM_SUPPLEMENT_KIDNEY_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -663,7 +723,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
@@ -676,7 +736,9 @@
         "NIH_POTASSIUM_HP"
       ],
       "existing_override": "X_professional_review_required",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "SAFETY_ELECTROLYTES_KIDNEY_HEART_PRELIMINARY_001"
+      ],
       "required_review_domains": [
         "verify exact source passage and population",
         "verify ingredient form and exposure context",
@@ -685,7 +747,7 @@
         "confirm false-positive and false-negative handling"
       ],
       "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
-      "review_status": "pending_claim_level_appraisal",
+      "review_status": "preliminary_claim_created_full_appraisal_pending",
       "approved_for_activation": false,
       "reviewer": null,
       "reviewed_at": null
