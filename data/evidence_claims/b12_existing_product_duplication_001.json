@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "B12_EXISTING_PRODUCT_DUPLICATION_001",
+  "ingredient_id": "vitamin_b12",
+  "claim_text": "Before suggesting another vitamin B12 product, reconcile the amount, form, frequency and adherence of existing supplements and fortified foods; an alternative form is not automatically clinically superior.",
+  "health_goal_or_outcome": "Prevent unsupported or duplicate supplementation and support context-specific assessment.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People already taking vitamin B12 supplements and considering another product."
+  },
+  "ingredient_form_or_preparation": "Dietary and supplemental sources; verify product label and composition.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Vitamin B12 Health Professional Fact Sheet describes supplemental forms and reliable sources.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Reported supplement use does not prove adequate status; no additional dose from this claim.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
