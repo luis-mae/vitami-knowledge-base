@@ -201,7 +201,9 @@
     {
       "attribution_id": "RULE_ATTR_BIOTIN_HAIR_ONLY_NIH_BIOTIN_HP",
       "rule_id": "BIOTIN_HAIR_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "BIOTIN_HAIR_EVIDENCE_LIMIT_001"
+      ],
       "source_id": "NIH_BIOTIN_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Biotin — Health Professional Fact Sheet",
@@ -245,7 +247,9 @@
     {
       "attribution_id": "RULE_ATTR_ALGALO3_VEGAN_LOW_FISH_NIH_OMEGA3_HP",
       "rule_id": "ALGALO3_VEGAN_LOW_FISH",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "ALGALO3_VEGAN_LOW_FISH_SOURCE_001"
+      ],
       "source_id": "NIH_OMEGA3_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Omega-3 Fatty Acids — Health Professional Fact Sheet",
@@ -289,7 +293,9 @@
     {
       "attribution_id": "RULE_ATTR_B12_VEGAN_ALREADY_SUPPLEMENTED_NIH_B12_HP",
       "rule_id": "B12_VEGAN_ALREADY_SUPPLEMENTED",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "B12_VEGAN_ALREADY_SOURCE_REVIEW_001"
+      ],
       "source_id": "NIH_B12_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin B12 — Health Professional Fact Sheet",
@@ -354,7 +360,9 @@
     {
       "attribution_id": "RULE_ATTR_BA_ENDURANCE_ONLY_NIH_EXERCISE_HP",
       "rule_id": "BA_ENDURANCE_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "BETA_ALANINE_ENDURANCE_LIMIT_001"
+      ],
       "source_id": "NIH_EXERCISE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
@@ -375,7 +383,9 @@
     {
       "attribution_id": "RULE_ATTR_BA_HIGH_INTENSITY_NIH_EXERCISE_HP",
       "rule_id": "BA_HIGH_INTENSITY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "BETA_ALANINE_HIGH_INTENSITY_CONTEXT_001"
+      ],
       "source_id": "NIH_EXERCISE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
