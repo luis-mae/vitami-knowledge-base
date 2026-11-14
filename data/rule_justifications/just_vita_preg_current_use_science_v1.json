@@ -1,0 +1,37 @@
+{
+  "rule_justification_id": "JUST_VITA_PREG_CURRENT_USE_SCIENCE_V1",
+  "rule_id": "VITA_PREG_CURRENT_USE",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "pregnancy_status",
+    "vitamin_a_product_form",
+    "vitamin_a_amount"
+  ],
+  "activation_conditions": [
+    "User is pregnant or may be pregnant and current or proposed supplement contains preformed vitamin A."
+  ],
+  "missing_information_behavior": "Do not recommend or calculate an additional vitamin A supplement until retinol/retinyl ester versus beta-carotene composition and total intake are known.",
+  "safety_exclusions": [
+    "Do not treat beta-carotene as equivalent to preformed retinol.",
+    "Do not infer that all vitamin A forms carry identical reproductive risk.",
+    "Do not independently alter a prescribed prenatal product."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy or possible pregnancy with high-dose preformed vitamin A exposure.",
+    "Unknown formulation or total daily intake; use of retinoid medicines."
+  ],
+  "evidence_claim_ids": [
+    "VITA_PREFORMED_PREGNANCY_RISK_001"
+  ],
+  "source_ids": [
+    "NIH_VITA_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "population_and_context": "Pregnancy and potential pregnancy; preformed vitamin A specifically, with age-specific upper limits.",
+  "dose_constraints": "No personalized dose from this rule; assess preformed vitamin A contribution and clinician-managed prenatal needs.",
+  "certainty_and_limitations": "Source-linked claim remains in evidence_review status. Distinguish preformed vitamin A from provitamin A carotenoids and verify the product label.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
