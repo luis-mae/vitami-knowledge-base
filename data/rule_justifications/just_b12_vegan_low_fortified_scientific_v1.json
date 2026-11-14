@@ -1,0 +1,48 @@
+{
+  "rule_justification_id": "JUST_B12_VEGAN_LOW_FORTIFIED_SCIENTIFIC_V1",
+  "rule_id": "B12_VEGAN_LOW_FORTIFIED",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_type",
+    "diet_fortified_foods",
+    "supplements_current_use",
+    "b12_labs_available"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_type",
+        "vegan"
+      ],
+      [
+        "diet_fortified_foods",
+        [
+          "low",
+          "none"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Confirm current B12 supplement use and fortified-food intake before suggesting additional supplementation; if current use or dose is unknown, do not duplicate.",
+  "safety_exclusions": [
+    "Do not infer biochemical deficiency from vegan status alone.",
+    "Do not assume all fortified foods contain adequate B12; verify label and frequency.",
+    "Do not recommend duplicate high-dose products without total intake review."
+  ],
+  "professional_escalation_conditions": [
+    "Neurological symptoms, macrocytic anemia, malabsorption, pernicious anemia or prior gastrointestinal surgery.",
+    "Pregnancy/lactation, abnormal B12-related laboratory results or current B12 treatment."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "population_and_context": "People following a vegan diet with low or no fortified-food intake; dietary pattern is a risk context, not a diagnosis of deficiency.",
+  "dose_constraints": "No dose from this rule. Determine whether a reliable fortified-food/supplement source already exists; use life-stage and clinical guidance for dose decisions.",
+  "certainty_and_limitations": "NIH ODS Vitamin B12 fact sheet supports dietary source and risk context. Vegan status alone does not diagnose deficiency; review current intake and clinical context. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
