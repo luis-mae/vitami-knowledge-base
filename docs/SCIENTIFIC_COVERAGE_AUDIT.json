@@ -6,7 +6,7 @@
     "registered_sources": 76,
     "draft_rules": 87,
     "safety_gates": 31,
-    "evidence_claim_records": 71,
+    "evidence_claim_records": 76,
     "scientific_review_records": 11,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
@@ -15,9 +15,9 @@
     "integrity_audit_script": 1,
     "safety_gate_preliminary_claims": 31,
     "safety_gate_attribution_manifest_records": 39,
-    "rule_justification_records": 46,
+    "rule_justification_records": 51,
     "rule_attribution_manifest_records": 95,
-    "rules_with_dedicated_justifications": 46,
+    "rules_with_dedicated_justifications": 51,
     "rules_total": 89
   },
   "reconciliation": {
@@ -25,9 +25,9 @@
     "unregistered_safety_source_ids": []
   },
   "gaps": [
-    "46 of 89 draft rules have dedicated structured justifications; 43 remain without dedicated justifications.",
+    "51 of 89 draft rules have dedicated structured justifications; 38 remain without dedicated justifications.",
     "31 safety gates have preliminary claim records; 28 still require substantive source appraisal beyond the placeholder record.",
-    "20 further rule claims have substantive drafts and source links but remain in evidence-review status, not approved for recommendations.",
+    "25 additional rule claims have substantive drafts and source links but remain in evidence-review status, not approved for recommendations.",
     "Attribution manifests are prepared but not yet rendered in BASIC/PRO screens.",
     "Full-text appraisal, risk-of-bias and GRADE remain incomplete for most claims; professional review is pending."
   ],
@@ -91,28 +91,28 @@
   ],
   "new_substantive_rule_claims": [
     {
-      "rule_id": "ALGALO3_VEGAN_LOW_FISH",
-      "claim_id": "ALGALO3_VEGAN_LOW_FISH_SOURCE_001",
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "claim_id": "B6_CURRENT_USE_NEURO_EXCESS_RISK_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "B12_VEGAN_ALREADY_SUPPLEMENTED",
-      "claim_id": "B12_VEGAN_ALREADY_SOURCE_REVIEW_001",
+      "rule_id": "CAFF_HIGH_BASELINE",
+      "claim_id": "CAFFEINE_HIGH_BASELINE_TOTAL_EXPOSURE_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "BA_ENDURANCE_ONLY",
-      "claim_id": "BETA_ALANINE_ENDURANCE_LIMIT_001",
+      "rule_id": "CAFF_PERFORMANCE",
+      "claim_id": "CAFFEINE_PERFORMANCE_CONTEXT_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "BA_HIGH_INTENSITY",
-      "claim_id": "BETA_ALANINE_HIGH_INTENSITY_CONTEXT_001",
+      "rule_id": "CAFF_SLEEP",
+      "claim_id": "CAFFEINE_SLEEP_DISRUPTION_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "BIOTIN_HAIR_ONLY",
-      "claim_id": "BIOTIN_HAIR_EVIDENCE_LIMIT_001",
+      "rule_id": "CALCIT_KIDNEY_STONES",
+      "claim_id": "CALCIUM_STONE_HISTORY_INTAKE_001",
       "status": "evidence_review"
     }
   ]
