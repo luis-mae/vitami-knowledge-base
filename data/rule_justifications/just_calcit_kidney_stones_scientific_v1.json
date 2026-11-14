@@ -29,7 +29,9 @@
     "Recurrent stones, hypercalciuria, calcium phosphate stones, chronic kidney disease, hypercalcemia or current obstruction.",
     "Severe flank pain with fever, vomiting or inability to urinate requires urgent assessment."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "CALCIUM_STONE_HISTORY_INTAKE_001"
+  ],
   "source_ids": [
     "NIH_CALCIUM_HP"
   ],
