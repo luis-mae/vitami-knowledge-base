@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_BIOTIN_HAIR_ONLY_SCIENTIFIC_V1",
+  "rule_id": "BIOTIN_HAIR_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "hair_loss_duration",
+    "biotin_supplement_use",
+    "planned_lab_tests",
+    "diet_pattern"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "hair_loss_concern"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend biotin solely for hair loss; clarify duration, other symptoms, current supplements and relevant laboratory testing.",
+  "safety_exclusions": [
+    "Do not claim biotin improves hair in people without deficiency.",
+    "High-dose biotin can interfere with certain laboratory assays.",
+    "Do not delay evaluation of persistent or sudden hair loss."
+  ],
+  "professional_escalation_conditions": [
+    "Sudden, patchy or scarring hair loss, systemic symptoms, pregnancy/postpartum context or suspected endocrine/iron disorders.",
+    "Upcoming cardiac, thyroid or other laboratory tests while taking high-dose biotin."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_BIOTIN_HP"
+  ],
+  "population_and_context": "People concerned about hair loss without established biotin deficiency; cosmetic concern alone is not evidence of deficiency or benefit from biotin.",
+  "dose_constraints": "No dose from this rule; avoid high-dose cosmetic supplementation without indication and disclose biotin use before lab testing.",
+  "certainty_and_limitations": "NIH ODS Biotin fact sheet notes limited evidence for hair/skin/nail claims in people without deficiency and laboratory assay interference. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
