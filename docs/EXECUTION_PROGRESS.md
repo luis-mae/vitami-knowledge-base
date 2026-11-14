@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 76% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 78% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -19,7 +19,9 @@ Last recorded update: 2026-11-13
 - Extended source-registry integrity checks to require organization, document title, source class, review status, logo-use policy and valid original URLs (except explicit pending placeholders); second CI run also passed with 0 errors and 0 warnings.
 - Four earlier draft claims and three draft rule justifications remain in place.
 - Added 31 preliminary safety evidence records, one for each safety gate, and linked each record back into the gate crosswalk and structured review queue.
-- Created a 34-entry source-attribution manifest for the 31 safety gates, including organization, exact document title, original URL, claim status and explicit logo-permission restrictions.
+- Created a 39-entry source-attribution manifest for the 31 safety gates, including organization, exact document title, original URL, claim status and explicit logo-permission restrictions.
+- Added three substantive, source-linked safety claims and targeted review records for vitamin B6 neurotoxicity (EFSA 2023 vs U.S. FNB UL distinction), preformed vitamin A in pregnancy, and psyllium swallowing/obstruction risk under 21 CFR §201.319.
+- Added three corresponding draft rule justifications; all remain inactive pending full scientific, professional and jurisdictional review.
 - Extended the automated integrity audit to require every safety gate to reference an existing preliminary claim and to prevent placeholder safety claims from being approved for display or activation.
 - Source metadata, attribution, evidence-claim, scientific-review and rule-justification schemas are present.
 - Source policy requires direct original links, identification of what each source supports, dates where available, and no implied endorsement.
