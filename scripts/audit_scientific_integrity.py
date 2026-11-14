@@ -171,6 +171,9 @@ def main() -> int:
         for item in rule_manifest.get("records", []):
             if item.get("source_id") not in source_ids:
                 errors.append("Rule attribution {} references unknown source.".format(item.get("attribution_id")))
+            for cid in item.get("evidence_claim_ids", []):
+                if cid not in claims:
+                    errors.append("Rule attribution {} references unknown claim {}.".format(item.get("attribution_id"), cid))
 
     if len(rule_rows) != 87:
         warnings.append(f"Expected 87 mapped rules; found {len(rule_rows)}.")
