@@ -38,7 +38,9 @@
     "Pregnancy, cardiovascular disease/arrhythmia, uncontrolled hypertension, anxiety/panic, insomnia or stimulant medication use.",
     "Adolescents, adverse reactions or very high habitual intake."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "CAFFEINE_PERFORMANCE_CONTEXT_001"
+  ],
   "source_ids": [
     "NIH_EXERCISE_HP"
   ],
