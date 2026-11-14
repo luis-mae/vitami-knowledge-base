@@ -1046,6 +1046,28 @@
       "publication_date": null,
       "updated_date": null,
       "accessed_at": null
+    },
+    {
+      "id": "NCCIH_TURMERIC",
+      "organization": "National Center for Complementary and Integrative Health",
+      "resource_name": "Turmeric",
+      "url": "https://www.nccih.nih.gov/health/turmeric",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "turmeric and curcumin evidence",
+        "safety",
+        "interactions"
+      ],
+      "notes": "Use this specific NCCIH topic page and cited references; distinguish turmeric food use from concentrated supplement preparations.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     }
   ],
   "attribution_policy": {
