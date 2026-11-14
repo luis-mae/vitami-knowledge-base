@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "SAFETY_ALGAL_OMEGA3_BLEEDING_001",
+  "ingredient_id": "algal_omega3",
+  "claim_text": "Algal omega-3 products provide EPA and/or DHA depending on formulation; people taking anticoagulants or antiplatelet medicines should review concentrated supplementation with a clinician, especially at high doses.",
+  "health_goal_or_outcome": "Identify safety constraints and prevent unsupported supplement recommendations.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People using algal omega-3 products with antithrombotic medicines."
+  },
+  "ingredient_form_or_preparation": "Supplement products; verify exact formulation, concentration and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Omega-3 fact sheet describes EPA/DHA safety context and medication considerations.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Product composition varies; no dose from this claim.",
+    "Exact source passages, product-specific labeling and clinical applicability require full appraisal."
+  ],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
