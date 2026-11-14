@@ -1145,7 +1145,9 @@
     {
       "attribution_id": "RULE_ATTR_MAGGLY_PARENT_GAP_NIH_MAGNESIUM_HP",
       "rule_id": "MAGGLY_PARENT_GAP",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MAGNESIUM_GLYCINATE_ELEMENTAL_INTAKE_001"
+      ],
       "source_id": "NIH_MAGNESIUM_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Magnesium — Health Professional Fact Sheet",
@@ -1323,7 +1325,9 @@
     {
       "attribution_id": "RULE_ATTR_MTHF_PREGNANT_NIH_FOLATE_HP",
       "rule_id": "MTHF_PREGNANT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "FOLATE_PREGNANCY_FORMULATION_GUIDANCE_001"
+      ],
       "source_id": "NIH_FOLATE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Folate — Fact Sheet for Health Professionals",
@@ -1344,7 +1348,9 @@
     {
       "attribution_id": "RULE_ATTR_MTHF_PREGNANT_NIH_PREGNANCY_HP",
       "rule_id": "MTHF_PREGNANT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "FOLATE_PREGNANCY_FORMULATION_GUIDANCE_001"
+      ],
       "source_id": "NIH_PREGNANCY_HP",
       "organization": "NIH ODS",
       "document_title": "Dietary Supplements and Life Stages: Pregnancy — Health Professional Fact Sheet",
@@ -1407,7 +1413,9 @@
     {
       "attribution_id": "RULE_ATTR_MVM_ALREADY_SUPPLEMENTED_NIH_MVM_HP",
       "rule_id": "MVM_ALREADY_SUPPLEMENTED",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MVM_EXISTING_PRODUCT_TOTALS_001"
+      ],
       "source_id": "NIH_MVM_HP",
       "organization": "NIH ODS",
       "document_title": "Multivitamin/mineral Supplements — Health Professional Fact Sheet",
@@ -1449,7 +1457,9 @@
     {
       "attribution_id": "RULE_ATTR_MVM_GENERAL_WELLNESS_ONLY_NIH_MVM_HP",
       "rule_id": "MVM_GENERAL_WELLNESS_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MVM_GENERAL_WELLNESS_EVIDENCE_LIMIT_001"
+      ],
       "source_id": "NIH_MVM_HP",
       "organization": "NIH ODS",
       "document_title": "Multivitamin/mineral Supplements — Health Professional Fact Sheet",
@@ -2025,7 +2035,9 @@
     {
       "attribution_id": "RULE_ATTR_ZGLU_ALREADY_ZINC_NIH_ZINC_HP",
       "rule_id": "ZGLU_ALREADY_ZINC",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "ZINC_EXISTING_PRODUCTS_ELEMENTAL_TOTAL_001"
+      ],
       "source_id": "NIH_ZINC_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Zinc — Health Professional Fact Sheet",
