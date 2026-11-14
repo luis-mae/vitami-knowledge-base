@@ -28,7 +28,9 @@
     "Medicines with narrow therapeutic index or timing-sensitive absorption.",
     "Dysphagia, esophageal narrowing, suspected obstruction or complex polypharmacy."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "PSYLLIUM_MEDICATION_TIMING_REVIEW_001"
+  ],
   "source_ids": [
     "FDA_PSYLLIUM_CHD"
   ],
