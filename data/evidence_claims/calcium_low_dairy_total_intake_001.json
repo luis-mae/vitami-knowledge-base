@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "CALCIUM_LOW_DAIRY_TOTAL_INTAKE_001",
+  "ingredient_id": "calcium",
+  "claim_text": "Low dairy intake alone does not establish inadequate calcium intake because fortified foods and non-dairy foods can contribute substantially; total intake should be assessed before considering supplementation.",
+  "health_goal_or_outcome": "Avoid unsupported product claims and align recommendations with evidence and individual context.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People reporting little dairy intake."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary or supplemental forms; verify exact formulation and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Calcium fact sheet describes dairy and non-dairy sources, reference intakes and upper limits.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No supplement dose from this claim; assess total intake and relevant clinical risks.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_CALCIUM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
