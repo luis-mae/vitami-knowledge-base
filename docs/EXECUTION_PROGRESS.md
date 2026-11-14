@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 85% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 87% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -28,6 +28,8 @@ Last recorded update: 2026-11-13
 - Added five safety-first rule justifications and five substantive evidence-claim drafts for vitamin D with kidney disease, potassium-medication interactions, iodine-thyroid context, calcium/kidney-stone history and excess zinc/copper depletion.
 - Added five further structured justifications and substantive claim drafts for B12 in vegan diets, iron during pregnancy, potassium with kidney disease, concentrated curcumin during pregnancy, and whey/milk-protein allergy.
 - Linked the five new claims through the source crosswalk, individual rule justifications and source attribution manifest; all remain in evidence-review status.
+- Added five further rule justifications and substantive evidence claims for vitamin C in smokers, algal omega-3 with bleeding/surgery context, existing iron intake, psyllium-medication timing, and melatonin for circadian disruption versus chronic insomnia.
+- Linked these five claims to their rules, source records and attribution manifest; all remain draft/evidence-review, with no activation.
 - Linked the five new claims through the rule crosswalk, rule-justification records and source-attribution manifest; all remain in evidence-review/draft status.
 - Extended the automated integrity audit to require every safety gate to reference an existing preliminary claim and to prevent placeholder safety claims from being approved for display or activation.
 - Source metadata, attribution, evidence-claim, scientific-review and rule-justification schemas are present.
