@@ -98,6 +98,23 @@ def main() -> int:
             if cid not in claims:
                 errors.append("Rule {} references unknown evidence claim {}.".format(row.get("rule_id"), cid))
 
+    justifications = {}
+    for path in files("data/rule_justifications", exclude=("template",)):
+        item = load(path)
+        jid = item.get("rule_justification_id")
+        if not jid or jid in justifications:
+            errors.append("Missing or duplicate rule_justification_id: {}".format(path.name))
+            continue
+        justifications[jid] = item
+        for sid in item.get("source_ids", []):
+            if sid not in source_ids:
+                errors.append("Rule justification {} references unknown source {}.".format(jid, sid))
+        for cid in item.get("evidence_claim_ids", []):
+            if cid not in claims:
+                errors.append("Rule justification {} references unknown claim {}.".format(jid, cid))
+        if item.get("status") in ("approved", "active") and not item.get("reviewer"):
+            errors.append("Approved rule justification {} has no reviewer.".format(jid))
+
     attributions = {}
     for path in files("data/attributions", exclude=("template",)):
         item = load(path)
@@ -145,6 +162,15 @@ def main() -> int:
                 errors.append("Safety attribution {} references unknown source.".format(item.get("attribution_id")))
             if item.get("evidence_claim_id") not in claims:
                 errors.append("Safety attribution {} references unknown claim.".format(item.get("attribution_id")))
+
+    rule_attribution_path = ROOT / "docs/RULE_ATTRIBUTION_INDEX.json"
+    if rule_attribution_path.exists():
+        rule_manifest = load(rule_attribution_path)
+        if rule_manifest.get("record_count") != len(rule_manifest.get("records", [])):
+            errors.append("Rule attribution manifest count does not match its records.")
+        for item in rule_manifest.get("records", []):
+            if item.get("source_id") not in source_ids:
+                errors.append("Rule attribution {} references unknown source.".format(item.get("attribution_id")))
 
     if len(rule_rows) != 87:
         warnings.append(f"Expected 87 mapped rules; found {len(rule_rows)}.")
