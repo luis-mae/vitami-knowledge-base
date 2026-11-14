@@ -1,0 +1,47 @@
+{
+  "rule_justification_id": "JUST_PSYLLIUM_LOW_FIBER_DIGESTIVE_SCIENTIFIC_V1",
+  "rule_id": "PSYLLIUM_LOW_FIBER_DIGESTIVE",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "symptom_digestive",
+    "diet_fiber_sources",
+    "hydration_status",
+    "swallowing_difficulty",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "symptom_digestive",
+        true
+      ],
+      [
+        "diet_fiber_sources",
+        "low"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If hydration, swallowing or medication information is missing, do not issue a positive recommendation; ask for clarification.",
+  "safety_exclusions": [
+    "Do not recommend oral psyllium when swallowing difficulty or esophageal narrowing/dysfunction is reported without clinical clearance.",
+    "Do not recommend without adequate fluid or contrary to product-specific directions.",
+    "Check timing interactions with medicines and product label."
+  ],
+  "professional_escalation_conditions": [
+    "Dysphagia, known esophageal narrowing or dysfunction.",
+    "Severe abdominal pain, vomiting, inability to pass stool/gas, rectal bleeding or suspected obstruction.",
+    "Persistent or unexplained gastrointestinal symptoms."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "population_and_context": "Adults with low dietary fiber and a digestive goal; this is a possible dietary-fiber option, not a diagnosis or treatment for unexplained symptoms.",
+  "dose_constraints": "Use product-specific directions and adequate fluid. U.S. 21 CFR §201.319 requirements apply to covered OTC drug products; do not generalize to every supplement or jurisdiction.",
+  "certainty_and_limitations": "FDA health-claim page is not a clinical treatment guideline. Safety and legal requirements must be checked against exact product classification and jurisdiction. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
