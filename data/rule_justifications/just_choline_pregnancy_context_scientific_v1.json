@@ -28,7 +28,9 @@
   "professional_escalation_conditions": [
     "Pregnancy with complicated medical/nutritional status, multiple supplements or clinician-prescribed products."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "CHOLINE_PREGNANCY_INTAKE_REVIEW_001"
+  ],
   "source_ids": [
     "NIH_CHOLINE_HP",
     "NIH_PREGNANCY_HP"
