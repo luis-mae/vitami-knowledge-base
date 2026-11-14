@@ -1,0 +1,37 @@
+{
+  "attribution_id": "ATTR_VITD_STATUS_MARKER_001_NIH_VITD_HP",
+  "source_id": "NIH_VITD_HP",
+  "claim_ids": [
+    "VITD_STATUS_MARKER_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Vitamin D — Health Professional Fact Sheet",
+  "document_title": "Vitamin D — Health Professional Fact Sheet",
+  "organization_name": "NIH Office of Dietary Supplements",
+  "original_url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Appropriate biomarker for vitamin D status",
+  "limitations": [
+    "Source attribution is not an endorsement of Vitami.",
+    "The claim remains under scientific review."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "not_specified",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
