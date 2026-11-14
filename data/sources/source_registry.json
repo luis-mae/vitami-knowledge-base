@@ -172,7 +172,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Vitamin A — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_VITK_HP",
@@ -188,7 +189,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Vitamin K — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_THIAMIN_HP",
@@ -204,7 +206,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Thiamin — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_RIBOFLAVIN_HP",
@@ -220,7 +223,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Riboflavin — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_NIACIN_HP",
@@ -236,7 +240,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Niacin — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_PANTOTHENIC_HP",
@@ -252,7 +257,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Pantothenic Acid — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_B6_HP",
@@ -268,7 +274,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Vitamin B6 — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_IODINE_HP",
@@ -284,7 +291,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Iodine — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_COPPER_HP",
@@ -300,7 +308,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Copper — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_MANGANESE_HP",
@@ -316,7 +325,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Manganese — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_CHROMIUM_HP",
@@ -332,7 +342,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Chromium — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_POTASSIUM_HP",
@@ -348,7 +359,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Potassium — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_CHOLINE_HP",
@@ -364,7 +376,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Choline — Health Professional Fact Sheet"
     },
     {
       "id": "NIH_MVM_HP",
@@ -380,7 +393,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Multivitamin/mineral Supplements — Health Professional Fact Sheet"
     },
     {
       "id": "NCCIH_MELATONIN",
@@ -396,7 +410,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Melatonin: What You Need to Know"
     },
     {
       "id": "NCCIH_ASHWAGANDHA",
@@ -412,7 +427,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Ashwagandha"
     },
     {
       "id": "NCCIH_BERBERINE",
@@ -428,7 +444,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Berberine and Weight Loss: What You Need to Know"
     },
     {
       "id": "NCCIH_GREEN_TEA",
@@ -444,7 +461,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Green Tea"
     },
     {
       "id": "NCCIH_GARLIC",
@@ -460,7 +478,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Garlic"
     },
     {
       "id": "NCCIH_GINGER",
@@ -476,7 +495,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Ginger"
     },
     {
       "id": "NCCIH_SUPPLEMENTS_WISELY",
@@ -492,23 +512,26 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Using Dietary Supplements Wisely"
     },
     {
       "id": "SOURCE_PSYLLIUM_REVIEW_PENDING",
       "title": "Psyllium — source review pending",
       "organization": "pending",
-      "url": "",
+      "url": null,
       "source_type": "pending_validation",
       "status": "needs_validation",
-      "source_class": "pending_validation",
+      "source_class": "pending_source",
       "logo": {
         "asset_url": null,
         "usage_status": "permission_and_brand_guidelines_review_required"
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Psyllium source review pending",
+      "notes": "Placeholder only. Must not be cited in active claims or rules."
     },
     {
       "id": "NIH_PREGNANCY_HP",
@@ -524,7 +547,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Dietary Supplements and Life Stages: Pregnancy — Health Professional Fact Sheet"
     },
     {
       "id": "NCCIH_SLEEP",
@@ -540,7 +564,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Sleep Disorders and Complementary Health Approaches"
     },
     {
       "id": "FDA_PSYLLIUM_CHD",
@@ -556,7 +581,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Authorized Health Claims That Meet the Significant Scientific Agreement (SSA) Standard"
     },
     {
       "id": "NIH_VITAMIN_MINERAL_FACTSHEETS",
@@ -572,7 +598,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Vitamins and Minerals — Fact Sheets"
     },
     {
       "id": "NIH_DIETARY_SUPPLEMENT_FACTSHEETS",
@@ -588,7 +615,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Dietary Supplement Fact Sheets"
     },
     {
       "id": "NCCIH_HERBS_AT_A_GLANCE",
@@ -604,7 +632,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Herbs at a Glance"
     },
     {
       "id": "NCCIH_HEALTH_TOPICS_AZ",
@@ -620,7 +649,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Health Topics A–Z"
     },
     {
       "id": "WHO_NUTRITION",
@@ -636,7 +666,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Nutrition"
     },
     {
       "id": "SENASA_AR",
@@ -652,7 +683,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Official SENASA portal"
     },
     {
       "id": "ARGENTINE_FOOD_CODE",
@@ -668,7 +700,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Código Alimentario Argentino — official portal"
     },
     {
       "id": "PUBMED",
@@ -684,7 +717,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "PubMed bibliographic database"
     },
     {
       "id": "COCHRANE",
@@ -700,7 +734,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "Cochrane evidence synthesis resources"
     },
     {
       "id": "GRADE_WORKING_GROUP",
@@ -716,7 +751,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "GRADE Working Group methodology"
     },
     {
       "id": "PRISMA_2020",
@@ -732,7 +768,8 @@
       },
       "publication_date": null,
       "updated_date": null,
-      "accessed_at": null
+      "accessed_at": null,
+      "resource_name": "PRISMA 2020 statement"
     },
     {
       "id": "NIH_B12_HP",
