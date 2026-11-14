@@ -1,0 +1,53 @@
+{
+  "rule_justification_id": "JUST_IODINE_LOW_SOURCE_CONTEXT_SCIENTIFIC_V1",
+  "rule_id": "IODINE_LOW_SOURCE_CONTEXT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_iodized_salt",
+    "diet_animal_products_frequency",
+    "diet_seaweed_frequency",
+    "diet_fortified_foods",
+    "thyroid_diagnosis",
+    "thyroid_medications",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_iodized_salt",
+        [
+          "no",
+          "rarely"
+        ]
+      ],
+      [
+        "diet_animal_products_frequency",
+        [
+          "never",
+          "occasional"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Review all dietary iodine sources, thyroid history, medication and existing products before considering supplementation.",
+  "safety_exclusions": [
+    "Do not infer iodine deficiency from dietary pattern alone.",
+    "Do not use kelp/seaweed supplements with variable iodine content as a default source.",
+    "Do not recommend iodine in thyroid disease without clinician review."
+  ],
+  "professional_escalation_conditions": [
+    "Thyroid disease, pregnancy/lactation, amiodarone or lithium use, thyroid surgery or nodules."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_IODINE_HP"
+  ],
+  "population_and_context": "People reporting little iodized salt and few animal-source foods; iodine intake depends on local food fortification, seaweed and other dietary sources.",
+  "dose_constraints": "No dose from this rule. Compare total intake with life-stage reference values and local iodization policy; account for seaweed variability.",
+  "certainty_and_limitations": "NIH ODS Iodine fact sheet describes food sources and risks of both deficiency and excess; regional iodization context matters. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
