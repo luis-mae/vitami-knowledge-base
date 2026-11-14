@@ -1,0 +1,45 @@
+{
+  "rule_justification_id": "JUST_CALCIT_LOW_DIET_SCIENTIFIC_V1",
+  "rule_id": "CALCIT_LOW_DIET",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_dairy_calcium_sources",
+    "diet_fortified_foods",
+    "diet_calcium_non_dairy_sources",
+    "profile_age",
+    "supplements_current_use",
+    "conditions_kidney_stones"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_dairy_calcium_sources",
+        [
+          "never",
+          "occasional"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend calcium until total dietary intake, life stage and existing products are assessed.",
+  "safety_exclusions": [
+    "Do not equate low dairy intake with calcium deficiency.",
+    "Do not duplicate calcium from multivitamins or other products.",
+    "Do not advise indiscriminate high-dose calcium supplementation."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney stones, hypercalcemia, kidney disease, parathyroid disease, malabsorption or osteoporosis treatment."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_CALCIUM_HP"
+  ],
+  "population_and_context": "People reporting little dairy intake; total calcium may still be adequate from fortified foods and non-dairy sources.",
+  "dose_constraints": "No dose from this rule. Estimate total dietary calcium first; any supplement should bridge only a verified gap and account for elemental calcium.",
+  "certainty_and_limitations": "NIH ODS Calcium fact sheet lists dietary sources, reference intakes and upper limits. Dairy intake alone is not a proxy for total calcium. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
