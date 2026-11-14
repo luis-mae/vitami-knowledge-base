@@ -537,7 +537,9 @@
     {
       "attribution_id": "RULE_ATTR_CALCIUM_STONES_NIH_CALCIUM_HP",
       "rule_id": "CALCIUM_STONES",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CALCIUM_KIDNEY_STONE_INTAKE_001"
+      ],
       "source_id": "NIH_CALCIUM_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Calcium — Health Professional Fact Sheet",
@@ -894,7 +896,9 @@
     {
       "attribution_id": "RULE_ATTR_IODINE_THYROID_CONTEXT_NIH_IODINE_HP",
       "rule_id": "IODINE_THYROID_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "IODINE_THYROID_DYSFUNCTION_001"
+      ],
       "source_id": "NIH_IODINE_HP",
       "organization": "NIH ODS",
       "document_title": "Iodine — Health Professional Fact Sheet",
@@ -1440,7 +1444,9 @@
     {
       "attribution_id": "RULE_ATTR_POTASSIUM_MEDICATION_CONTEXT_NIH_POTASSIUM_HP",
       "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "POTASSIUM_MEDICATION_HYPERKALEMIA_001"
+      ],
       "source_id": "NIH_POTASSIUM_HP",
       "organization": "NIH ODS",
       "document_title": "Potassium — Health Professional Fact Sheet",
@@ -1755,7 +1761,9 @@
     {
       "attribution_id": "RULE_ATTR_VITD_KIDNEY_NIH_VITD_HP",
       "rule_id": "VITD_KIDNEY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITD_KIDNEY_METABOLISM_SAFETY_001"
+      ],
       "source_id": "NIH_VITD_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin D — Health Professional Fact Sheet",
@@ -1965,7 +1973,9 @@
     {
       "attribution_id": "RULE_ATTR_ZINC_ALREADY_HIGH_NIH_ZINC_HP",
       "rule_id": "ZINC_ALREADY_HIGH",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "ZINC_EXCESS_COPPER_DEFICIENCY_001"
+      ],
       "source_id": "NIH_ZINC_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Zinc — Health Professional Fact Sheet",
