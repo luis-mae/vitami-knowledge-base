@@ -28,7 +28,9 @@
     "Chronic kidney disease, dialysis, transplant, abnormal calcium/phosphate or parathyroid results.",
     "Known hypercalcemia, nephrolithiasis or use of active vitamin D analogues."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "VITD_KIDNEY_METABOLISM_SAFETY_001"
+  ],
   "source_ids": [
     "NIH_VITD_HP"
   ],
