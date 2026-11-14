@@ -1,0 +1,30 @@
+{
+  "passport_version": "1.0.0",
+  "rule_id": "PSYLLIUM_MEDICATIONS",
+  "evidence_claim_ids": [
+    "PSYLLIUM_MEDICATION_TIMING_REVIEW_001"
+  ],
+  "source_ids": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "review": {
+    "status": "draft",
+    "last_reviewed_at": null,
+    "reviewer": null,
+    "source_passage_verified": false,
+    "certainty_assessed": false,
+    "notes": "Traceability from just_psyllium_medications_scientific_v1.json; appraisal and approval pending."
+  },
+  "safety": {
+    "gate_ids": [],
+    "professional_approval": false,
+    "contraindications_reviewed": false,
+    "interactions_reviewed": false
+  },
+  "presentation": {
+    "locale": "es",
+    "claim_text": "",
+    "source_attribution": [],
+    "endorsement_disclaimer": true
+  }
+}
