@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "status": "active_work_queue",
+  "basis": "LIBRARY_100_QA_REPORT.json and repository indexes",
+  "priority_1_deeper_source_review": [
+    {
+      "ingredient_id": "mct_oil",
+      "reason": "Specific source review pending",
+      "source_review_status": "pending"
+    },
+    {
+      "ingredient_id": "inositol",
+      "reason": "Specific source review pending",
+      "source_review_status": "pending"
+    },
+    {
+      "ingredient_id": "nac",
+      "reason": "Specific source review pending",
+      "source_review_status": "pending"
+    },
+    {
+      "ingredient_id": "alpha_lipoic_acid",
+      "reason": "Specific source review pending",
+      "source_review_status": "pending"
+    },
+    {
+      "ingredient_id": "astaxanthin",
+      "reason": "Specific source review pending",
+      "source_review_status": "pending"
+    },
+    {
+      "ingredient_id": "lycopene",
+      "reason": "Specific source review pending",
+      "source_review_status": "pending"
+    },
+    {
+      "ingredient_id": "beta_carotene",
+      "reason": "Specific source review pending",
+      "source_review_status": "pending"
+    },
+    {
+      "ingredient_id": "spirulina",
+      "reason": "Specific source review pending",
+      "source_review_status": "pending"
+    }
+  ],
+  "priority_2_systematic_linkage": [
+    {
+      "scope": "87 draft rules",
+      "task": "Map every evidence_refs/source_refs ID to source_registry and one or more atomic evidence claims."
+    },
+    {
+      "scope": "31 safety gates",
+      "task": "Map every safety gate to exact primary safety source, population, trigger and response."
+    },
+    {
+      "scope": "40 deep record files",
+      "task": "Confirm deep record status index coverage and reconcile index counts."
+    },
+    {
+      "scope": "7 BASIC production-ready scenarios",
+      "task": "Confirm each source, rule, safety gate, question and user-facing attribution mapping."
+    }
+  ],
+  "acceptance_requirements": [
+    "No source identifier unresolved.",
+    "Every material claim has a direct source and context.",
+    "Every source has source type, jurisdiction, title, URL, review status and date metadata where available.",
+    "Each logo is either approved for use or omitted in favor of text attribution.",
+    "No draft rule or candidate becomes active by completing documentation alone; required clinical and product governance reviews still apply."
+  ]
+}
