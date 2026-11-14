@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "VITAMIN_A_LOW_DIETARY_INTAKE_ASSESSMENT_001",
+  "ingredient_id": "vitamin_a",
+  "claim_text": "Low intake of selected vitamin A-rich foods does not by itself diagnose vitamin A deficiency; total dietary sources, fortified foods, life stage and clinical context should be assessed before supplementation.",
+  "health_goal_or_outcome": "Support evidence-based nutrient assessment and avoid automatic supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People reporting low intake of vitamin A-rich foods."
+  },
+  "ingredient_form_or_preparation": "Food and/or supplemental sources; verify exact formulation and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Vitamin A fact sheet describes food sources, reference values and safety considerations.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Avoid high-dose preformed vitamin A, particularly in pregnancy; no dose from this claim.",
+    "Exact source passages and clinical applicability require full appraisal."
+  ],
+  "source_ids": [
+    "NIH_VITA_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
