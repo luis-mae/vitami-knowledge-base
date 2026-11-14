@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_COQ10_GENERIC_ENERGY_SCIENTIFIC_V1",
+  "rule_id": "COQ10_GENERIC_ENERGY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "symptom_fatigue",
+    "medications_regular_use",
+    "conditions_heart",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "energy_vitality"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend CoQ10 for generic energy or anti-aging claims; clarify symptoms, medicines and any specific diagnosis.",
+  "safety_exclusions": [
+    "Do not claim CoQ10 reverses aging or reliably treats nonspecific fatigue.",
+    "Do not infer mitochondrial disease or deficiency from low energy.",
+    "Do not duplicate existing CoQ10 products."
+  ],
+  "professional_escalation_conditions": [
+    "Persistent unexplained fatigue, cardiovascular disease, cancer treatment or warfarin use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NCCIH_COQ10"
+  ],
+  "population_and_context": "People selecting generic energy or vitality as a goal without a defined indication for coenzyme Q10.",
+  "dose_constraints": "No dose from this rule. Any indication-specific use requires separate evidence review and interaction assessment.",
+  "certainty_and_limitations": "NCCIH CoQ10 resources describe uncertainty across indications and potential medicine interactions; generic wellness claims are not established. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
