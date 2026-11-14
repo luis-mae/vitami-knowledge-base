@@ -32,7 +32,9 @@
     "New or progressive numbness, tingling, burning pain, weakness, balance or gait disturbance.",
     "High-dose or prolonged B6 use, symptoms affecting function or concurrent neurotoxic medicines."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "B6_CURRENT_USE_NEURO_EXCESS_RISK_001"
+  ],
   "source_ids": [
     "NIH_B6_HP"
   ],
