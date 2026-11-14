@@ -1,0 +1,46 @@
+{
+  "rule_justification_id": "JUST_VITE_BLEEDING_SCIENTIFIC_V1",
+  "rule_id": "VITE_BLEEDING",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_bleeding",
+    "safety_upcoming_surgery",
+    "medications_regular_use",
+    "medications_list",
+    "vite_product_amount",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [],
+    "any": [
+      [
+        "conditions_bleeding",
+        true
+      ],
+      [
+        "safety_upcoming_surgery",
+        true
+      ]
+    ]
+  },
+  "missing_information_behavior": "Do not recommend vitamin E until dose, medication list, bleeding history and procedure timing are reviewed by a clinician/pharmacist.",
+  "safety_exclusions": [
+    "Do not assume dietary vitamin E has the same risk profile as high-dose supplements.",
+    "Do not advise stopping anticoagulants or antiplatelet medicines.",
+    "Do not recommend high-dose vitamin E for general prevention."
+  ],
+  "professional_escalation_conditions": [
+    "Active bleeding, anticoagulant/antiplatelet use, bleeding disorder, planned surgery or prior hemorrhagic stroke."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITE_HP"
+  ],
+  "population_and_context": "People with bleeding disorders, taking antithrombotic medicines or approaching surgery who are considering vitamin E supplements; high supplemental doses may affect hemostasis.",
+  "dose_constraints": "No dose from this rule. Assess supplemental alpha-tocopherol amount and all medicines; perioperative decisions belong to treating clinician.",
+  "certainty_and_limitations": "NIH ODS Vitamin E fact sheet describes bleeding concerns at high supplemental doses and medication interactions; risk depends on dose and context. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
