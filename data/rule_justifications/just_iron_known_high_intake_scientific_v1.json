@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_IRON_KNOWN_HIGH_INTAKE_SCIENTIFIC_V1",
+  "rule_id": "IRON_KNOWN_HIGH_INTAKE",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "supplements_current_use",
+    "iron_product_amount",
+    "iron_frequency",
+    "prenatal_product_use",
+    "pro_labs_available"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "iron"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not add iron until elemental iron per serving, frequency, duration, prenatal products and clinical indication are reconciled.",
+  "safety_exclusions": [
+    "Do not equate iron salt mass with elemental iron.",
+    "Do not add iron on top of prescribed treatment without clinician instruction.",
+    "Do not infer iron deficiency from fatigue or diet alone."
+  ],
+  "professional_escalation_conditions": [
+    "Known iron overload/hemochromatosis, abnormal ferritin or transferrin saturation, gastrointestinal symptoms or suspected overdose.",
+    "Pregnancy or diagnosed anemia requires clinician-directed management."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_IRON_HP"
+  ],
+  "population_and_context": "Users already taking iron-containing products; total elemental iron exposure, treatment indication and laboratory context must be established before adding more.",
+  "dose_constraints": "No additional dose from this rule; calculate elemental iron from all products and follow clinician treatment plan.",
+  "certainty_and_limitations": "NIH ODS Iron fact sheet provides upper limits and adverse effects; individual treatment depends on diagnosis and laboratory monitoring. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
