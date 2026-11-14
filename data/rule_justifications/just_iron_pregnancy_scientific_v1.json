@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_IRON_PREGNANCY_SCIENTIFIC_V1",
+  "rule_id": "IRON_PREGNANCY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "profile_pregnancy",
+    "pro_labs_available",
+    "iron_supplement_use",
+    "prenatal_product_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not add a separate iron product until prenatal product contents, current iron use and available blood results are reviewed.",
+  "safety_exclusions": [
+    "Do not duplicate iron already present in prenatal multivitamins.",
+    "Do not infer iron-deficiency anemia from pregnancy alone.",
+    "Do not replace antenatal screening or prescribed treatment."
+  ],
+  "professional_escalation_conditions": [
+    "Low hemoglobin/ferritin, anemia symptoms, bleeding, gastrointestinal intolerance or suspected iron overload.",
+    "Multiple iron-containing products or therapeutic-dose iron use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_IRON_HP"
+  ],
+  "population_and_context": "Pregnant people; iron requirements rise during pregnancy, but supplementation and dose depend on prenatal care, laboratory status, local policy and existing prenatal products.",
+  "dose_constraints": "No dose from this rule. Follow local antenatal guidelines and clinician-directed iron/folate policy; account for elemental iron in all products.",
+  "certainty_and_limitations": "NIH ODS Iron fact sheet provides pregnancy reference intake and safety information, but universal supplementation policy and dose vary by jurisdiction and antenatal guideline. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
