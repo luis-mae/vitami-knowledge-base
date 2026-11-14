@@ -26,7 +26,9 @@
   "professional_escalation_conditions": [
     "Pregnancy, minors, chronic disease or use of medicines/supplements with relevant interactions."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "BETA_ALANINE_ENDURANCE_LIMIT_001"
+  ],
   "source_ids": [
     "NIH_EXERCISE_HP"
   ],
