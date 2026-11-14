@@ -11,9 +11,9 @@
         "NIH_VITE_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_VITE_BLEEDING_PRELIMINARY_001"
+        "VITE_BLEEDING_HIGH_DOSE_INTERACTION_001"
       ]
     },
     {
@@ -24,9 +24,9 @@
         "NIH_VITK_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_VITK_CURRENT_USE_MEDICATION_PRELIMINARY_001"
+        "VITK_WARFARIN_INTAKE_CONSISTENCY_001"
       ]
     },
     {
@@ -38,9 +38,9 @@
         "NIH_PREGNANCY_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_IRONBIS_PREGNANCY_PRELIMINARY_001"
+        "IRON_PREGNANCY_PRENATAL_DUPLICATION_001"
       ]
     },
     {
@@ -51,10 +51,9 @@
         "NIH_B6_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_B6_CURRENT_USE_NEURO_PRELIMINARY_001",
-        "B6_NEUROTOXICITY_UL_2023"
+        "B6_CURRENT_USE_NEURO_EXCESS_RISK_001"
       ]
     },
     {
@@ -65,9 +64,9 @@
         "NIH_EXERCISE_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_CAFF_SLEEP_PRELIMINARY_001"
+        "CAFFEINE_SLEEP_DISRUPTION_001"
       ]
     },
     {
@@ -78,9 +77,9 @@
         "NIH_MAGNESIUM_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_MAGCIT_KIDNEY_PRELIMINARY_001"
+        "MAGNESIUM_KIDNEY_CLEARANCE_SAFETY_001"
       ]
     },
     {
@@ -92,10 +91,9 @@
         "NIH_PREGNANCY_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_VITA_PREG_CURRENT_USE_PRELIMINARY_001",
-        "VITA_PREFORMED_PREGNANCY_RISK_001"
+        "VITAMIN_A_PREGNANCY_RETINOL_RISK_001"
       ]
     },
     {
@@ -106,10 +104,9 @@
         "FDA_PSYLLIUM_CHD"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_PSYLLIUM_SWALLOWING_PRELIMINARY_001",
-        "PSYLLIUM_SWALLOWING_OBSTRUCTION_001"
+        "PSYLLIUM_DYSPHAGIA_CHOKING_SAFETY_001"
       ]
     },
     {
@@ -120,9 +117,9 @@
         "NCCIH_TURMERIC"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_CURCUMIN_PREG_PRELIMINARY_001"
+        "SAFETY_CURCUMIN_PREGNANCY_REPRODUCTIVE_CAUTION_001"
       ]
     },
     {
@@ -133,9 +130,9 @@
         "NIH_IRON_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_IRON_KNOWN_HIGH_INTAKE_PRELIMINARY_001"
+        "SAFETY_IRON_HIGH_INTAKE_OVERLOAD_001"
       ]
     },
     {
@@ -146,9 +143,9 @@
         "NIH_IRON_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_IRON_PREGNANCY_PRELIMINARY_001"
+        "SAFETY_IRON_PREGNANCY_PRENATAL_REVIEW_001"
       ]
     },
     {
@@ -159,9 +156,9 @@
         "NIH_ZINC_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_ZINC_ALREADY_HIGH_PRELIMINARY_001"
+        "SAFETY_ZINC_EXCESS_COPPER_DEFICIENCY_001"
       ]
     },
     {
@@ -172,9 +169,9 @@
         "NIH_BIOTIN_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_BIOTIN_LABS_PRELIMINARY_001"
+        "SAFETY_BIOTIN_LAB_INTERFERENCE_001"
       ]
     },
     {
@@ -185,9 +182,9 @@
         "NIH_EXERCISE_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_CAFF_HIGH_BASELINE_PRELIMINARY_001"
+        "CAFFEINE_HIGH_BASELINE_TOTAL_EXPOSURE_001"
       ]
     },
     {
@@ -198,9 +195,9 @@
         "NCCIH_TURMERIC"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_CURCUMIN_LIVER_PRELIMINARY_001"
+        "SAFETY_CURCUMIN_LIVER_INJURY_001"
       ]
     },
     {
@@ -211,9 +208,9 @@
         "NIH_EXERCISE_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_CREATINE_KIDNEY_PRELIMINARY_001"
+        "CREATINE_KIDNEY_CLINICAL_REVIEW_001"
       ]
     },
     {
@@ -224,9 +221,9 @@
         "NIH_OMEGA3_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_O3_BLEEDING_PRELIMINARY_001"
+        "SAFETY_OMEGA3_ANTICOAGULANT_CONTEXT_001"
       ]
     },
     {
@@ -237,9 +234,9 @@
         "NIH_VITD_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_VITD_KIDNEY_PRELIMINARY_001"
+        "VITD_KIDNEY_METABOLISM_RENAL_REVIEW_001"
       ]
     },
     {
@@ -250,9 +247,9 @@
         "NIH_VITD_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_D3_KIDNEY_PRELIMINARY_001"
+        "VITD_KIDNEY_METABOLISM_RENAL_REVIEW_001"
       ]
     },
     {
@@ -263,9 +260,9 @@
         "NIH_MAGNESIUM_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_MAGGLY_KIDNEY_PRELIMINARY_001"
+        "MAGNESIUM_KIDNEY_CLEARANCE_SAFETY_001"
       ]
     },
     {
@@ -276,9 +273,9 @@
         "NIH_POTASSIUM_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_POTASSIUM_MEDICATION_CONTEXT_PRELIMINARY_001"
+        "SAFETY_POTASSIUM_MEDICATION_INTERACTION_001"
       ]
     },
     {
@@ -289,9 +286,9 @@
         "FDA_PSYLLIUM_CHD"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_PSYLLIUM_MEDICATIONS_PRELIMINARY_001"
+        "SAFETY_PSYLLIUM_MEDICATION_SPACING_001"
       ]
     },
     {
@@ -302,9 +299,9 @@
         "NIH_IODINE_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_IODINE_THYROID_CONTEXT_PRELIMINARY_001"
+        "IODINE_THYROID_BIDIRECTIONAL_RISK_001"
       ]
     },
     {
@@ -315,9 +312,9 @@
         "NIH_CALCIUM_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_CALCIUM_STONES_PRELIMINARY_001"
+        "CALCIUM_STONE_HISTORY_INTAKE_001"
       ]
     },
     {
@@ -328,9 +325,9 @@
         "NIH_CALCIUM_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_CALCIT_KIDNEY_STONES_PRELIMINARY_001"
+        "CALCIUM_STONE_HISTORY_INTAKE_001"
       ]
     },
     {
@@ -342,9 +339,9 @@
         "NIH_PREGNANCY_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_MELATONIN_PREGNANCY_PRELIMINARY_001"
+        "SAFETY_MELATONIN_PREGNANCY_EVIDENCE_GAP_001"
       ]
     },
     {
@@ -355,9 +352,9 @@
         "NIH_VITC_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_VITC_KIDNEY_STONES_PRELIMINARY_001"
+        "VITC_STONES_OXALATE_HIGH_DOSE_001"
       ]
     },
     {
@@ -368,9 +365,9 @@
         "NIH_EXERCISE_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_WHEY_MILK_ALLERGY_PRELIMINARY_001"
+        "SAFETY_WHEY_MILK_ALLERGY_001"
       ]
     },
     {
@@ -381,9 +378,9 @@
         "NIH_OMEGA3_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_ALGALO3_BLEEDING_PRELIMINARY_001"
+        "SAFETY_ALGAL_OMEGA3_BLEEDING_001"
       ]
     },
     {
@@ -394,9 +391,9 @@
         "NIH_POTASSIUM_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_POTASSIUM_SUPPLEMENT_KIDNEY_PRELIMINARY_001"
+        "SAFETY_POTASSIUM_KIDNEY_SUPPLEMENT_RISK_001"
       ]
     },
     {
@@ -407,9 +404,9 @@
         "NIH_POTASSIUM_HP"
       ],
       "unregistered_source_ids": [],
-      "mapping_status": "source_and_preliminary_claim_linked_full_appraisal_pending",
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
       "evidence_claim_ids": [
-        "SAFETY_ELECTROLYTES_KIDNEY_HEART_PRELIMINARY_001"
+        "ELECTROLYTES_KIDNEY_HEART_SODIUM_POTASSIUM_REVIEW_001"
       ]
     }
   ],
