@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "ALGALO3_VEGAN_LOW_FISH_SOURCE_001",
+  "ingredient_id": "algal_omega3_dha",
+  "claim_text": "Algal oils can provide preformed long-chain omega-3 fatty acids, particularly DHA and in some products EPA; vegan status and low fish intake alone do not establish a universal need for supplementation, so product composition and current intake must be reviewed.",
+  "health_goal_or_outcome": "Prevent unsupported supplementation and support context-specific evidence interpretation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "Vegan adults with low or no oily-fish intake; assess dietary pattern, fortified foods and current supplements."
+  },
+  "ingredient_form_or_preparation": "Food sources and relevant supplement preparations; verify exact product label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Omega-3 fact sheet describes algal oils as a source of omega-3s and differentiates EPA/DHA sources.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Products vary in EPA/DHA composition; no dose or clinical outcome is inferred.",
+    "Underlying evidence and exact source passages require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
