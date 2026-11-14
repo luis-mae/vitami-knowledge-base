@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "B12_VEGAN_LOW_FORTIFIED_RISK_001",
+  "ingredient_id": "vitamin_b12",
+  "claim_text": "People following vegan diets who do not regularly consume reliable B12-fortified foods or supplements are at increased risk of inadequate vitamin B12 intake because unfortified plant foods are not reliable natural sources of active B12.",
+  "health_goal_or_outcome": "Identify dietary patterns that may require a reliable vitamin B12 source.",
+  "population": {
+    "age_range": "All ages; requirements and clinical assessment vary.",
+    "sex_or_life_stage": "Pregnancy and lactation require particular attention.",
+    "health_status": "People following vegan diets.",
+    "other_context": "Assess fortified food labels, frequency and current supplement use."
+  },
+  "ingredient_form_or_preparation": "Vitamin B12 from fortified foods or supplements; verify the actual form and amount on product labels.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mcg",
+    "frequency": "daily or product-specific",
+    "duration": null
+  },
+  "comparator": "Reliable fortified food/supplement source versus no reliable source.",
+  "evidence_summary": "NIH ODS Vitamin B12 Health Professional Fact Sheet describes vegan diets as a risk context and identifies fortified foods and supplements as reliable sources.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Diet pattern does not diagnose biochemical deficiency.",
+    "Current supplement and fortified-food use may already meet needs.",
+    "Neurological symptoms or suspected deficiency require clinical assessment."
+  ],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
