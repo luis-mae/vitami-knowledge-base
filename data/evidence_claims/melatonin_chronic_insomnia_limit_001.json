@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "MELATONIN_CHRONIC_INSOMNIA_LIMIT_001",
+  "ingredient_id": "melatonin",
+  "claim_text": "Evidence supporting melatonin for chronic insomnia is limited and it should not be treated as a default substitute for assessment and established behavioral treatment such as cognitive behavioral therapy for insomnia.",
+  "health_goal_or_outcome": "Support context-specific safety assessment and prevent unsupported supplement recommendations.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People reporting chronic insomnia."
+  },
+  "ingredient_form_or_preparation": "Dietary and/or supplemental products; verify exact formulation and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NCCIH sleep resources summarize evidence limitations for melatonin; current sleep-medicine guidance should be checked for treatment pathways.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "This claim does not replace diagnosis or individualized insomnia treatment.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NCCIH_SLEEP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
