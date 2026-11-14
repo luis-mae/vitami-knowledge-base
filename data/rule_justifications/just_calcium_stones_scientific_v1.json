@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_CALCIUM_STONES_SCIENTIFIC_V1",
+  "rule_id": "CALCIUM_STONES",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney_stones",
+    "stone_type",
+    "diet_calcium_sources",
+    "supplements_current_use",
+    "kidney_disease"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney_stones",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend calcium supplementation until stone type, diet, kidney function and current products are clarified.",
+  "safety_exclusions": [
+    "Do not advise indiscriminate calcium restriction; dietary calcium may be protective in some calcium oxalate stone contexts.",
+    "Do not assume all stones are calcium stones.",
+    "Do not recommend supplements without reviewing total intake and meal timing."
+  ],
+  "professional_escalation_conditions": [
+    "Recurrent stones, calcium phosphate stones, hypercalciuria, chronic kidney disease or hypercalcemia.",
+    "Current stone episode, obstruction, severe pain, fever or hematuria."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_CALCIUM_HP"
+  ],
+  "population_and_context": "Users with a history of kidney stones being assessed for calcium intake; stone composition, dietary calcium and supplemental calcium source/timing matter.",
+  "dose_constraints": "No dose from this rule. If supplementation is clinically indicated, determine the dietary gap and product timing with meals in light of stone composition and clinician advice.",
+  "certainty_and_limitations": "NIH ODS Calcium fact sheet provides general intake and safety information; stone prevention is individualized and should follow urology/nephrology guidance. This justification remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
