@@ -83,6 +83,16 @@ def main() -> int:
         if item.get("approved_for_user_display") and item.get("review_status") not in ("approved", "active"):
             errors.append(f"Claim {cid} is display-approved without approved/active status.")
 
+    for row in gate_rows:
+        claim_ids = row.get("evidence_claim_ids", [])
+        if not claim_ids:
+            errors.append(f"Safety gate {row.get('rule_id')} has no preliminary evidence-claim link.")
+        for cid in claim_ids:
+            if cid not in claims:
+                errors.append(f"Safety gate {row.get('rule_id')} references unknown evidence claim {cid}.")
+            elif claims[cid].get("approved_for_rule_activation") or claims[cid].get("approved_for_user_display"):
+                errors.append(f"Safety gate placeholder claim {cid} must not be approved before full review.")
+
     attributions = {}
     for path in files("data/attributions", exclude=("template",)):
         item = load(path)
