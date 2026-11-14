@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-rule-justification.schema.json",
+  "title": "Vitami Rule Justification",
+  "type": "object",
+  "required": [
+    "rule_justification_id",
+    "rule_id",
+    "rule_version",
+    "activation_conditions",
+    "missing_information_behavior",
+    "safety_exclusions",
+    "professional_escalation_conditions",
+    "evidence_claim_ids",
+    "source_ids",
+    "status",
+    "version"
+  ],
+  "properties": {
+    "rule_justification_id": {
+      "type": "string"
+    },
+    "rule_id": {
+      "type": "string"
+    },
+    "rule_version": {
+      "type": "string"
+    },
+    "required_question_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "activation_conditions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "missing_information_behavior": {
+      "type": "string"
+    },
+    "safety_exclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "professional_escalation_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_claim_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "source_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "population_and_context": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dose_constraints": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "certainty_and_limitations": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "review",
+        "approved",
+        "active",
+        "superseded"
+      ]
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
