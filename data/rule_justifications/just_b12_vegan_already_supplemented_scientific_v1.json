@@ -1,0 +1,45 @@
+{
+  "rule_justification_id": "JUST_B12_VEGAN_ALREADY_SUPPLEMENTED_SCIENTIFIC_V1",
+  "rule_id": "B12_VEGAN_ALREADY_SUPPLEMENTED",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_type",
+    "supplements_current_use",
+    "b12_product_amount",
+    "b12_frequency",
+    "diet_fortified_foods"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_type",
+        "vegan"
+      ],
+      [
+        "supplements_current_use_contains",
+        "vitamin_b12"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend an additional B12 product until product amount, frequency and fortified-food intake are reconciled.",
+  "safety_exclusions": [
+    "Do not treat current supplement use as proof of adequate status without considering adherence and absorption.",
+    "Do not duplicate B12 products automatically.",
+    "Do not delay clinical evaluation of neurological symptoms or suspected malabsorption."
+  ],
+  "professional_escalation_conditions": [
+    "Neurological symptoms, pernicious anemia, malabsorption, gastrointestinal surgery or abnormal B12 labs."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "population_and_context": "Vegan users already taking B12; determine total intake from supplements and fortified foods before suggesting any additional product.",
+  "dose_constraints": "No additional dose from this rule; reconcile total reliable B12 sources and follow clinical advice if deficiency is suspected.",
+  "certainty_and_limitations": "NIH ODS B12 fact sheet supports reliable fortified and supplemental sources; actual adequacy depends on dose, adherence and absorption. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
