@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 72% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 76% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -18,6 +18,9 @@ Last recorded update: 2026-11-13
 - Stored the dated audit results and commit references in the repository.
 - Extended source-registry integrity checks to require organization, document title, source class, review status, logo-use policy and valid original URLs (except explicit pending placeholders); second CI run also passed with 0 errors and 0 warnings.
 - Four earlier draft claims and three draft rule justifications remain in place.
+- Added 31 preliminary safety evidence records, one for each safety gate, and linked each record back into the gate crosswalk and structured review queue.
+- Created a 34-entry source-attribution manifest for the 31 safety gates, including organization, exact document title, original URL, claim status and explicit logo-permission restrictions.
+- Extended the automated integrity audit to require every safety gate to reference an existing preliminary claim and to prevent placeholder safety claims from being approved for display or activation.
 - Source metadata, attribution, evidence-claim, scientific-review and rule-justification schemas are present.
 - Source policy requires direct original links, identification of what each source supports, dates where available, and no implied endorsement.
 - Existing repository coverage documented: 100 library entries, 40 deep-record files, 87 draft rules, 31 safety gates, 13 production candidates and 7 BASIC integration-ready scenarios.
@@ -25,7 +28,7 @@ Last recorded update: 2026-11-13
 ## Remaining in Stage 1
 - Complete full-text extraction and critical appraisal for all eight newly sourced ingredients.
 - Apply risk-of-bias tools (RoB 2, AMSTAR 2 as appropriate) and assess certainty using GRADE where suitable.
-- Convert source-only mappings into atomic claim-level mappings across all 87 rules and 31 safety gates.
+- Convert source-only mappings into substantive, appraisable claim-level mappings across all 87 rules and 31 safety gates; the 31 current safety records are preliminary placeholders, not clinical validation.
 - Extend automated checks to cover deeper schema validation, source metadata quality and user-facing attribution requirements.
 - Reconcile deep-record directory and index counts.
 - Complete ingredient-by-ingredient safety review and source currency checks.
