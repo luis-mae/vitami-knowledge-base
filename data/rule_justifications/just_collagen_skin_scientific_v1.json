@@ -28,7 +28,9 @@
   "professional_escalation_conditions": [
     "Significant skin disease, unexplained skin changes, pregnancy/lactation or relevant allergies."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "COLLAGEN_SKIN_CLAIMS_EVIDENCE_001"
+  ],
   "source_ids": [
     "COLLAGEN_META_2025"
   ],
