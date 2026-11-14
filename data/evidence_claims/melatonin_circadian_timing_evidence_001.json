@@ -1,0 +1,38 @@
+{
+  "evidence_claim_id": "MELATONIN_CIRCADIAN_TIMING_EVIDENCE_001",
+  "ingredient_id": "melatonin",
+  "claim_text": "Melatonin may be useful for selected circadian rhythm problems such as jet lag when timing is appropriate, but effects depend on the sleep/circadian indication and administration timing; evidence does not support treating it as a generic solution for chronic insomnia.",
+  "health_goal_or_outcome": "Differentiate circadian timing indications from chronic insomnia before considering melatonin.",
+  "population": {
+    "age_range": "Adults; children and adolescents require separate clinical assessment.",
+    "sex_or_life_stage": "Pregnancy and breastfeeding require clinician review.",
+    "health_status": "People with jet lag or shift-work-related circadian disruption.",
+    "other_context": "Travel direction, time zones, schedule and concomitant medicines matter."
+  },
+  "ingredient_form_or_preparation": "Melatonin supplements; formulation and release profile vary.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mg",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NCCIH Melatonin and Sleep Disorders pages describe evidence limitations, circadian indications and safety considerations.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No dose or timing protocol established in this claim.",
+    "Circadian indications differ from chronic insomnia.",
+    "Sedation, interactions and product-quality issues require review."
+  ],
+  "source_ids": [
+    "NCCIH_MELATONIN",
+    "NCCIH_SLEEP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
