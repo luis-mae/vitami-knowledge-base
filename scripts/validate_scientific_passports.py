@@ -28,7 +28,7 @@ def validate(data, location):
         fail(f"missing {key}")
     if data.get("passport_version") != "1.0.0":
         fail("passport_version must be 1.0.0")
-    if not isinstance(data.get("rule_id"), str) or not data["rule_id"].strip():
+    if not isinstance(data.get("rule_id"), str) or not data.get("rule_id", "").strip():
         fail("rule_id must be nonempty")
     for key in ("evidence_claim_ids", "source_ids"):
         values = data.get(key)
@@ -58,8 +58,13 @@ def validate(data, location):
     for field in ("professional_approval", "contraindications_reviewed", "interactions_reviewed"):
         if not isinstance(safety.get(field), bool):
             fail(f"safety.{field} must be boolean")
-    if not isinstance(safety.get("gate_ids"), list):
-        fail("safety.gate_ids must be a list")
+    gates = safety.get("gate_ids")
+    if not isinstance(gates, list) or any(not isinstance(g, str) or not g.strip() for g in gates):
+        fail("safety.gate_ids must contain only nonempty strings")
+    elif len(gates) != len(set(gates)):
+        fail("safety.gate_ids contains duplicates")
+    if not isinstance(presentation.get("claim_text"), str):
+        fail("presentation.claim_text must be a string")
     if presentation.get("locale") not in LOCALES:
         fail("invalid presentation.locale")
     if not isinstance(presentation.get("endorsement_disclaimer"), bool):
@@ -72,6 +77,9 @@ def validate(data, location):
             if not isinstance(attribution, dict):
                 fail(f"attribution {idx} must be an object")
                 continue
+            for field in ("source_id", "organization", "title"):
+                if not isinstance(attribution.get(field), str) or not attribution[field].strip():
+                    fail(f"attribution {idx} has missing {field}")
             if attribution.get("source_id") not in data.get("source_ids", []):
                 fail(f"attribution {idx} references an unlisted source")
             url = attribution.get("url")
@@ -88,7 +96,8 @@ def validate(data, location):
                     safety.get("contraindications_reviewed") is True,
                     safety.get("interactions_reviewed") is True,
                     presentation.get("endorsement_disclaimer") is True,
-                    bool(attributions))):
+                    bool(attributions),
+                    isinstance(presentation.get("claim_text"), str) and bool(presentation["claim_text"].strip()))):
             fail("approved passport lacks scientific, professional, safety or attribution gates")
     return errors
 
