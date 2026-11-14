@@ -3,29 +3,30 @@
   "date": "2026-11-13",
   "status": "coverage_audit_not_scientific_approval",
   "counts": {
-    "registered_sources": 74,
+    "registered_sources": 76,
     "draft_rules": 87,
     "safety_gates": 31,
-    "evidence_claim_records": 12,
-    "scientific_review_records": 8,
+    "evidence_claim_records": 46,
+    "scientific_review_records": 11,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
     "unique_source_ids_used_by_safety_gates": 19,
     "safety_gate_review_queue_records": 31,
     "integrity_audit_script": 1,
     "safety_gate_preliminary_claims": 31,
-    "safety_gate_attribution_manifest_records": 34
+    "safety_gate_attribution_manifest_records": 39,
+    "rule_justification_records": 6
   },
   "reconciliation": {
     "unregistered_rule_source_ids": [],
     "unregistered_safety_source_ids": []
   },
   "gaps": [
-    "Safety gates now have preliminary operational evidence records and source attribution metadata, but exact source passages and clinical applicability have not yet been appraised.",
-    "Only a small subset of the 87 draft rules has dedicated, substantive rule-justification records and claim-level scientific appraisal.",
-    "Attribution rendering in BASIC and PRO application screens is not yet integrated or tested.",
-    "Full-text appraisal, risk-of-bias assessment and GRADE remain incomplete for the eight ingredients under source review.",
-    "Repository structural checks do not establish clinical validity or regulatory compliance."
+    "All 31 safety gates have preliminary source-linked claim records, but only three have substantive source-appraised claim drafts; the other 28 remain operational placeholders pending source passage review.",
+    "Only six draft rules have dedicated rule-justification records; most of the 87 draft rules still need substantive claim-level justification.",
+    "Full-text and underlying-study appraisal, risk-of-bias assessment and GRADE remain incomplete.",
+    "Attribution metadata is prepared for safety gates but still needs application rendering and UX verification in BASIC and PRO.",
+    "Professional review and jurisdiction-specific regulatory review remain pending before any draft is approved or activated."
   ],
   "next_execution_targets": [
     "Expand substantive claim and rule-justification coverage across 87 rules, prioritizing high-risk and high-impact recommendations.",
@@ -38,5 +39,25 @@
     "Do not activate rules or safety gates based on this audit.",
     "Do not display draft claims as approved scientific recommendations.",
     "Do not display logos until brand permission is confirmed."
+  ],
+  "substantive_safety_claims": [
+    {
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "claim_id": "B6_NEUROTOXICITY_UL_2023",
+      "review_id": "REVIEW_B6_NEUROTOXICITY_20261114",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "claim_id": "VITA_PREFORMED_PREGNANCY_RISK_001",
+      "review_id": "REVIEW_VITA_PREGNANCY_20261114",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "claim_id": "PSYLLIUM_SWALLOWING_OBSTRUCTION_001",
+      "review_id": "REVIEW_PSYLLIUM_SWALLOWING_20261114",
+      "status": "evidence_review"
+    }
   ]
 }
