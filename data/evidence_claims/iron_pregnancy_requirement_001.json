@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "IRON_PREGNANCY_REQUIREMENT_001",
+  "ingredient_id": "iron",
+  "claim_text": "Iron requirements increase during pregnancy to support maternal and fetal needs; whether a pregnant person needs a separate iron supplement and at what dose depends on antenatal guidance, laboratory findings and iron already present in prenatal products.",
+  "health_goal_or_outcome": "Support safe assessment of iron intake during pregnancy without duplicate or inappropriate dosing.",
+  "population": {
+    "age_range": "Pregnant adolescents and adults; age-specific requirements differ.",
+    "sex_or_life_stage": "Pregnancy.",
+    "health_status": "Pregnant people receiving antenatal care.",
+    "other_context": "Country-specific screening and supplementation policies vary."
+  },
+  "ingredient_form_or_preparation": "Dietary iron and supplemental elemental iron; prenatal multivitamins may already contain iron.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mg/day",
+    "frequency": "daily intake",
+    "duration": "pregnancy"
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Iron Health Professional Fact Sheet provides pregnancy-specific reference intake and safety information; antenatal policies should be checked locally.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Reference intake is not automatically a prescribed supplemental dose.",
+    "Local antenatal policies vary.",
+    "Ferritin, hemoglobin, tolerability and existing products influence clinical decisions."
+  ],
+  "source_ids": [
+    "NIH_IRON_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
