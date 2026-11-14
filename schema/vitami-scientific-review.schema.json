@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vitami.app/schema/vitami-scientific-review.schema.json",
+  "title": "Vitami Scientific Review",
+  "type": "object",
+  "required": [
+    "scientific_review_id",
+    "evidence_claim_id",
+    "review_method",
+    "databases",
+    "search_date",
+    "domains",
+    "certainty_rating",
+    "conflicts_or_uncertainties",
+    "decision",
+    "version"
+  ],
+  "properties": {
+    "scientific_review_id": {
+      "type": "string"
+    },
+    "evidence_claim_id": {
+      "type": "string"
+    },
+    "review_method": {
+      "enum": [
+        "GRADE",
+        "systematic_review",
+        "rapid_review",
+        "regulatory_assessment",
+        "narrative_review",
+        "other"
+      ]
+    },
+    "protocol_or_search_strategy": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "databases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "search_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "inclusion_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exclusion_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "included_study_references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_of_bias_tool": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "risk_of_bias_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domains": {
+      "type": "object",
+      "properties": {
+        "risk_of_bias": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "inconsistency": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "indirectness": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "imprecision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_bias": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "certainty_rating": {
+      "enum": [
+        "high",
+        "moderate",
+        "low",
+        "very_low",
+        "not_assessed"
+      ]
+    },
+    "applicability": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "conflicts_or_uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reviewer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "decision": {
+      "enum": [
+        "draft",
+        "insufficient_evidence",
+        "revise",
+        "approved",
+        "rejected"
+      ]
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
