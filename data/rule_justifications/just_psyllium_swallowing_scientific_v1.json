@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_PSYLLIUM_SWALLOWING_SCIENTIFIC_V1",
+  "rule_id": "PSYLLIUM_SWALLOWING",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "swallowing_difficulty",
+    "dysphagia_diagnosis",
+    "hydration_status",
+    "bowel_obstruction_history",
+    "psyllium_product_form"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "swallowing_difficulty",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend psyllium until swallowing difficulty is clinically assessed and the specific product directions are reviewed.",
+  "safety_exclusions": [
+    "Do not suggest dry swallowing or taking powder without the required fluid.",
+    "Do not assume capsules are safer than powder in dysphagia.",
+    "Do not use in suspected bowel obstruction or severe swallowing impairment without medical advice."
+  ],
+  "professional_escalation_conditions": [
+    "Known dysphagia, esophageal narrowing, bowel obstruction, severe abdominal pain, vomiting or inability to swallow fluids."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "population_and_context": "People reporting difficulty swallowing who are considering psyllium; bulk-forming products expand with fluid and may pose choking or obstruction risks when swallowing is impaired.",
+  "dose_constraints": "No dose from this rule. Follow exact product label for fluid volume and administration; professional assessment is required where swallowing is impaired.",
+  "certainty_and_limitations": "FDA/product labeling for psyllium warns about choking and the need for adequate fluid; exact warnings must be matched to the marketed product and jurisdiction. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
