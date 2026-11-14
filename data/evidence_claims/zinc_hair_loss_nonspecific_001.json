@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "ZINC_HAIR_LOSS_NONSPECIFIC_001",
+  "ingredient_id": "zinc",
+  "claim_text": "Hair loss alone does not establish zinc deficiency; it has multiple possible causes and should not trigger routine zinc supplementation without assessment.",
+  "health_goal_or_outcome": "Support safe, indication-specific recommendations and avoid unsupported supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People concerned about hair loss."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary and supplemental forms; verify exact product label and formulation.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Zinc fact sheet describes zinc deficiency and toxicity context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Excess zinc can impair copper status; no cosmetic dose from this claim.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_ZINC_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
