@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_CREATINE_KIDNEY_SCIENTIFIC_V1",
+  "rule_id": "CREATINE_KIDNEY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney",
+    "renal_function_known",
+    "creatine_current_use",
+    "creatine_product_amount",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend creatine until kidney status and clinician advice are reviewed; clarify current use and product dose.",
+  "safety_exclusions": [
+    "Do not assume creatine is universally contraindicated in every renal condition.",
+    "Do not claim serum creatinine changes necessarily represent kidney injury without clinical interpretation.",
+    "Do not recommend unsupervised use in kidney disease."
+  ],
+  "professional_escalation_conditions": [
+    "Chronic kidney disease, reduced eGFR, dialysis, proteinuria, transplant or nephrotoxic medication use."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "People with known kidney disease considering creatine; renal diagnosis, kidney function, product composition and clinical monitoring matter.",
+  "dose_constraints": "No dose from this rule. Any use in kidney disease requires individualized clinician oversight and appropriate interpretation of renal markers.",
+  "certainty_and_limitations": "NIH ODS Exercise and Athletic Performance fact sheet reviews creatine evidence and safety; kidney disease-specific decisions need specialist assessment. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
