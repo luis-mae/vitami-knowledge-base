@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_CHOLINE_COGNITIVE_ONLY_SCIENTIFIC_V1",
+  "rule_id": "CHOLINE_COGNITIVE_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "diet_egg_frequency",
+    "diet_animal_products_frequency",
+    "diet_choline_sources",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "cognitive_support"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend choline solely for a cognitive-support goal; review diet and existing supplements.",
+  "safety_exclusions": [
+    "Do not claim choline supplements improve cognition in generally healthy people without condition-specific evidence.",
+    "Do not infer deficiency from memory or concentration complaints.",
+    "Do not duplicate choline in existing products."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, liver disease, neurological symptoms or diagnosed cognitive disorder requiring clinical assessment."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_CHOLINE_HP"
+  ],
+  "population_and_context": "People selecting cognitive support as a goal without an established choline deficiency or specific clinical indication.",
+  "dose_constraints": "No dose from this rule. Compare dietary and supplemental intake with age- and life-stage adequate intake and upper limit.",
+  "certainty_and_limitations": "NIH ODS Choline fact sheet provides intake and evidence context; a wellness goal does not establish benefit from supplementation. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
