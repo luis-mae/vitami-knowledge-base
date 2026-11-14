@@ -33,7 +33,9 @@
   "professional_escalation_conditions": [
     "Chronic kidney disease, heart failure, edema, hypertension, hyperkalemia, diuretic use or fluid restriction."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "ELECTROLYTES_KIDNEY_HEART_SODIUM_POTASSIUM_REVIEW_001"
+  ],
   "source_ids": [
     "NIH_POTASSIUM_HP"
   ],
