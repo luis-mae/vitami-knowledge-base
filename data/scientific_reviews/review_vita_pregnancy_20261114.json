@@ -1,0 +1,40 @@
+{
+  "scientific_review_id": "REVIEW_VITA_PREGNANCY_20261114",
+  "evidence_claim_id": "VITA_PREFORMED_PREGNANCY_RISK_001",
+  "review_method": "regulatory_assessment",
+  "protocol_or_search_strategy": "Targeted review of NIH ODS Vitamin A and Pregnancy Health Professional Fact Sheets, accessed 2026-11-14.",
+  "databases": [
+    "NIH Office of Dietary Supplements"
+  ],
+  "search_date": "2026-11-14",
+  "inclusion_criteria": [
+    "Official government nutrient and pregnancy fact sheets."
+  ],
+  "exclusion_criteria": [
+    "Commercial prenatal product claims."
+  ],
+  "included_study_references": [
+    "NIH ODS. Vitamin A and Carotenoids — Health Professional Fact Sheet.",
+    "NIH ODS. Dietary Supplements and Life Stages: Pregnancy — Health Professional Fact Sheet."
+  ],
+  "risk_of_bias_tool": "Not applied to government fact sheets; underlying studies and references require appraisal.",
+  "risk_of_bias_summary": "Pending source-level and underlying-study review.",
+  "domains": {
+    "risk_of_bias": "pending",
+    "inconsistency": "pending",
+    "indirectness": "pending",
+    "imprecision": "pending",
+    "publication_bias": "pending"
+  },
+  "certainty_rating": "not_assessed",
+  "applicability": "Pregnancy-related safety gate; preformed retinol/retinyl esters must be distinguished from provitamin A carotenoids.",
+  "conflicts_or_uncertainties": [
+    "Form-specific exposure and total intake matter.",
+    "Age-specific ULs apply.",
+    "Do not infer that all vitamin A forms carry identical reproductive risk."
+  ],
+  "reviewer": null,
+  "reviewed_at": null,
+  "decision": "draft",
+  "version": "1.0.0"
+}
