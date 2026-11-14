@@ -10,9 +10,9 @@
         "NIH_B12_HP"
       ],
       "evidence_claim_ids": [
-        "B12_DIETARY_SOURCES_VEGAN_001"
+        "B12_VEGAN_LOW_FORTIFIED_RISK_001"
       ],
-      "mapping_status": "draft_mapped"
+      "mapping_status": "substantive_claim_linked_full_review_pending"
     },
     {
       "rule_id": "VITD_LOW_SUN_LOW_DIET",
@@ -299,7 +299,10 @@
       "source_ids": [
         "NCCIH_TURMERIC"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "CURCUMIN_PREGNANCY_EVIDENCE_GAP_001"
+      ]
     },
     {
       "rule_id": "D3_KIDNEY",
@@ -399,7 +402,10 @@
       "source_ids": [
         "NIH_IRON_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "IRON_PREGNANCY_REQUIREMENT_001"
+      ]
     },
     {
       "rule_id": "MAGCIT_KIDNEY",
@@ -542,7 +548,10 @@
       "source_ids": [
         "NIH_POTASSIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "POTASSIUM_KIDNEY_HYPERKALEMIA_001"
+      ]
     },
     {
       "rule_id": "POTASSIUM_SWEAT_ONLY",
@@ -691,7 +700,10 @@
       "source_ids": [
         "NIH_EXERCISE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "WHEY_MILK_PROTEIN_ALLERGY_001"
+      ]
     },
     {
       "rule_id": "WHEY_STRENGTH_LOW_PROTEIN",
