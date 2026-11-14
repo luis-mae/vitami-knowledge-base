@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_O3_ALREADY_USING_SCIENTIFIC_V1",
+  "rule_id": "O3_ALREADY_USING",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "supplements_current_use",
+    "omega3_product_dose",
+    "omega3_epa_amount",
+    "omega3_dha_amount",
+    "product_serving_size",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "omega_3"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not add or suggest another omega-3 product until EPA and DHA amounts, serving frequency, product form and relevant medicines are confirmed.",
+  "safety_exclusions": [
+    "Do not use total fish-oil mass as a substitute for EPA+DHA content.",
+    "Do not assume products have equivalent EPA/DHA concentrations.",
+    "Do not duplicate an existing product or imply more is always better."
+  ],
+  "professional_escalation_conditions": [
+    "Anticoagulant/antiplatelet use, bleeding disorder, planned surgery, atrial fibrillation or high-dose use.",
+    "Pregnancy, significant cardiovascular disease or unexplained adverse effects."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "population_and_context": "People already using omega-3 products; total EPA and DHA per actual daily serving must be known before any additional suggestion.",
+  "dose_constraints": "Reconcile total EPA+DHA from all products; no additional dose from this rule. Use indication-specific guidance and clinician review where relevant.",
+  "certainty_and_limitations": "NIH ODS Omega-3 fact sheet distinguishes forms and EPA/DHA content and summarizes safety. Product label and actual serving are essential for exposure assessment. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
