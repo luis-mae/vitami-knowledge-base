@@ -31,8 +31,10 @@
       "source_ids": [
         "NIH_IRON_HP"
       ],
-      "evidence_claim_ids": [],
-      "mapping_status": "source_mapped_claim_required"
+      "evidence_claim_ids": [
+        "IRON_VEGETARIAN_NONHEME_BIOAVAILABILITY_001"
+      ],
+      "mapping_status": "substantive_claim_linked_full_review_pending"
     },
     {
       "rule_id": "O3_LOW_FISH",
@@ -401,7 +403,7 @@
       ],
       "mapping_status": "substantive_claim_linked_full_review_pending",
       "evidence_claim_ids": [
-        "IODINE_THYROID_DYSFUNCTION_001"
+        "IODINE_THYROID_BIDIRECTIONAL_RISK_001"
       ]
     },
     {
@@ -427,7 +429,10 @@
       "source_ids": [
         "NIH_IRON_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "IRON_FATIGUE_NONSPECIFIC_001"
+      ]
     },
     {
       "rule_id": "IRON_KNOWN_HIGH_INTAKE",
@@ -465,7 +470,10 @@
       "source_ids": [
         "NIH_MAGNESIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "MAGNESIUM_KIDNEY_CLEARANCE_SAFETY_001"
+      ]
     },
     {
       "rule_id": "MAGGLY_PARENT_GAP",
@@ -518,7 +526,10 @@
       "source_ids": [
         "NIH_B12_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "METHYLB12_FORM_SUPERIORITY_EVIDENCE_001"
+      ]
     },
     {
       "rule_id": "MTHF_PREGNANT",
