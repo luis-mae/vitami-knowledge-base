@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_MAGGLY_PARENT_GAP_SCIENTIFIC_V1",
+  "rule_id": "MAGGLY_PARENT_GAP",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "diet_magnesium_sources",
+    "diet_pattern",
+    "supplements_current_use",
+    "medications_regular_use",
+    "conditions_kidney"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "dietary_gaps"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Assess dietary magnesium and current products before considering supplementation; do not infer deficiency from a broad dietary-gap goal.",
+  "safety_exclusions": [
+    "Do not assume magnesium glycinate has proven sleep benefits solely because of its form.",
+    "Do not use total compound mass as elemental magnesium amount.",
+    "Do not duplicate magnesium across products."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney disease, reduced renal function, pregnancy, significant gastrointestinal disease or interacting medicines."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "population_and_context": "People reporting possible dietary gaps and considering magnesium glycinate; the relevant nutrient is elemental magnesium, not a presumed sleep effect of the glycinate form.",
+  "dose_constraints": "No dose from this rule. Compare elemental magnesium from supplements with age/life-stage guidance and supplemental upper limits; food magnesium is assessed separately.",
+  "certainty_and_limitations": "NIH ODS Magnesium fact sheet describes dietary sources, elemental magnesium and supplemental upper limit; form-specific sleep claims need separate evidence. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
