@@ -1,0 +1,30 @@
+{
+  "passport_version": "1.0.0",
+  "rule_id": "B6_DIETARY_GAP_CONTEXT",
+  "evidence_claim_ids": [
+    "B6_DIETARY_GAP_REVIEW_001"
+  ],
+  "source_ids": [
+    "NIH_B6_HP"
+  ],
+  "review": {
+    "status": "draft",
+    "last_reviewed_at": null,
+    "reviewer": null,
+    "source_passage_verified": false,
+    "certainty_assessed": false,
+    "notes": "Traceability from just_b6_dietary_gap_context_scientific_v1.json; appraisal and approval pending."
+  },
+  "safety": {
+    "gate_ids": [],
+    "professional_approval": false,
+    "contraindications_reviewed": false,
+    "interactions_reviewed": false
+  },
+  "presentation": {
+    "locale": "es",
+    "claim_text": "",
+    "source_attribution": [],
+    "endorsement_disclaimer": true
+  }
+}
