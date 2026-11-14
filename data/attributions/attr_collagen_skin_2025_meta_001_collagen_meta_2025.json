@@ -1,0 +1,38 @@
+{
+  "attribution_id": "ATTR_COLLAGEN_SKIN_2025_META_001_COLLAGEN_META_2025",
+  "source_id": "COLLAGEN_META_2025",
+  "claim_ids": [
+    "COLLAGEN_SKIN_2025_META_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+  "document_title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+  "organization_name": "Myung SK, Park Y",
+  "original_url": "https://pubmed.ncbi.nlm.nih.gov/40324552/",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Oral collagen supplementation for prevention or treatment of skin aging.",
+  "limitations": [
+    "This single review does not resolve all collagen indications, such as joint outcomes.",
+    "Do not generalize the skin-aging conclusion to every collagen product or outcome.",
+    "Formal GRADE appraisal has not yet been completed."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "international",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
