@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_IRONBIS_FATIGUE_ONLY_SCIENTIFIC_V1",
+  "rule_id": "IRONBIS_FATIGUE_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "symptom_fatigue",
+    "pro_labs_available",
+    "supplements_current_use",
+    "pregnancy_status",
+    "bleeding_symptoms",
+    "diet_iron_sources"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "symptom_fatigue",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend iron from fatigue alone; clarify laboratory status, current products, pregnancy and possible blood loss.",
+  "safety_exclusions": [
+    "Fatigue alone does not diagnose iron deficiency or anemia.",
+    "Do not add iron to existing therapeutic or prenatal products without review.",
+    "Do not assume bisglycinate is appropriate without an indication."
+  ],
+  "professional_escalation_conditions": [
+    "Shortness of breath, chest pain, syncope, significant bleeding, pregnancy, abnormal CBC/ferritin or suspected iron overload."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_IRON_HP"
+  ],
+  "population_and_context": "People reporting fatigue without established iron deficiency; fatigue is nonspecific and iron bisglycinate is not exempt from diagnostic requirements.",
+  "dose_constraints": "No dose from this rule. Iron supplementation for deficiency should follow diagnosis and clinician-directed treatment.",
+  "certainty_and_limitations": "NIH ODS Iron fact sheet provides deficiency and reference information; symptoms alone are insufficient for diagnosis. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
