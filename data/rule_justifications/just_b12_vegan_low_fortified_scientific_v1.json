@@ -34,7 +34,9 @@
     "Neurological symptoms, macrocytic anemia, malabsorption, pernicious anemia or prior gastrointestinal surgery.",
     "Pregnancy/lactation, abnormal B12-related laboratory results or current B12 treatment."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "B12_VEGAN_LOW_FORTIFIED_RISK_001"
+  ],
   "source_ids": [
     "NIH_B12_HP"
   ],
