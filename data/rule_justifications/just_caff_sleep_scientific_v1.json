@@ -32,7 +32,9 @@
     "Persistent insomnia, excessive daytime sleepiness, suspected sleep apnea, mood symptoms or safety-critical sleepiness.",
     "Pregnancy, cardiovascular disease or stimulant medication use."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "CAFFEINE_SLEEP_DISRUPTION_001"
+  ],
   "source_ids": [
     "NIH_EXERCISE_HP"
   ],
