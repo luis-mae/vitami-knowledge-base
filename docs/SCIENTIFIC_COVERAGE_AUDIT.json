@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-13",
+  "status": "coverage_audit_not_scientific_approval",
+  "counts": {
+    "registered_sources": 74,
+    "draft_rules": 87,
+    "safety_gates": 31,
+    "evidence_claim_records": 12,
+    "scientific_review_records": 8,
+    "attribution_records": 17,
+    "unique_source_ids_used_by_rules": 28,
+    "unique_source_ids_used_by_safety_gates": 19
+  },
+  "reconciliation": {
+    "unregistered_rule_source_ids": [],
+    "unregistered_safety_source_ids": []
+  },
+  "gaps": [
+    "Only four draft rules currently have dedicated rule-justification records; source mapping alone is not claim-level justification.",
+    "The majority of 87 draft rules have no atomic evidence claim linked yet.",
+    "The 31 safety gates are source-mapped but still need atomic safety claims and claim-level attribution.",
+    "Attribution records currently cover a small subset of the total evidence base; app rendering integration is pending.",
+    "Scientific review records are preliminary source discovery records; full text appraisal, risk-of-bias and GRADE remain incomplete."
+  ],
+  "next_execution_targets": [
+    "Create atomic claims and rule justifications for remaining draft rules in priority order, starting with safety-sensitive rules.",
+    "Create claim-level evidence records for each safety gate and link them to their source attribution records.",
+    "Implement and test source attribution rendering in BASIC and PRO user-facing screens.",
+    "Finish full appraisal for the eight ingredients currently marked source-review-in-progress."
+  ],
+  "guardrails": [
+    "Do not activate rules or safety gates based on this audit.",
+    "Do not display draft claims as approved scientific recommendations.",
+    "Do not display logos until brand permission is confirmed."
+  ]
+}
