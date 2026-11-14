@@ -1,0 +1,27 @@
+{
+  "scientific_review_id": "REVIEW_TEMPLATE_DO_NOT_ACTIVATE",
+  "evidence_claim_id": "REQUIRED_CLAIM_ID",
+  "review_method": "GRADE",
+  "protocol_or_search_strategy": null,
+  "databases": [],
+  "search_date": null,
+  "inclusion_criteria": [],
+  "exclusion_criteria": [],
+  "included_study_references": [],
+  "risk_of_bias_tool": null,
+  "risk_of_bias_summary": null,
+  "domains": {
+    "risk_of_bias": null,
+    "inconsistency": null,
+    "indirectness": null,
+    "imprecision": null,
+    "publication_bias": null
+  },
+  "certainty_rating": "not_assessed",
+  "applicability": null,
+  "conflicts_or_uncertainties": [],
+  "reviewer": null,
+  "reviewed_at": null,
+  "decision": "draft",
+  "version": "1.0.0"
+}
