@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 95% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 97% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -61,3 +61,5 @@ Last recorded update: 2026-11-13
 - Added five further structured rule justifications and source-linked evidence claims for B6 neurological symptoms in current users, high habitual caffeine intake, caffeine performance context, caffeine and sleep symptoms, and calcium assessment after kidney stones. All remain draft/evidence-review and inactive pending appraisal and professional review.
 
 - Added five structured scientific justifications and source-linked evidence claims for iodine/thyroid context, fatigue without confirmed iron deficiency, vegetarian iron bioavailability, magnesium with kidney impairment, and methylcobalamin form claims. All remain draft/evidence-review and inactive pending full appraisal and professional review.
+
+- Added five additional safety-first justifications and source-linked evidence claims for vitamin D and kidney disease, creatine and kidney disease, psyllium with swallowing difficulty, potassium supplementation based only on sweat loss, and vitamin K with regular medication. All remain draft/evidence-review and inactive pending full appraisal and professional review.
