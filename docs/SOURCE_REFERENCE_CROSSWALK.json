@@ -286,7 +286,10 @@
         "NIH_CHOLINE_HP",
         "NIH_PREGNANCY_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "CHOLINE_PREGNANCY_INTAKE_REVIEW_001"
+      ]
     },
     {
       "rule_id": "COLLAGEN_SKIN",
@@ -367,7 +370,10 @@
       "source_ids": [
         "NIH_VITD_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITD_LOW_SUN_NOT_DIAGNOSIS_002"
+      ]
     },
     {
       "rule_id": "ELECTROLYTES_KIDNEY_HEART",
@@ -402,7 +408,10 @@
       "source_ids": [
         "NIH_IODINE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "IODINE_LOW_DIETARY_SOURCE_REVIEW_001"
+      ]
     },
     {
       "rule_id": "IODINE_THYROID_CONTEXT",
@@ -533,7 +542,10 @@
       "source_ids": [
         "NIH_B12_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "B12_EXISTING_PRODUCT_DUPLICATION_001"
+      ]
     },
     {
       "rule_id": "METHYLB12_VEGAN",
@@ -781,7 +793,10 @@
       "source_ids": [
         "NIH_VITK_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITK_BONE_GOAL_NO_AUTOMATIC_SUPPLEMENT_001"
+      ]
     },
     {
       "rule_id": "VITK_CURRENT_USE_MEDICATION",
