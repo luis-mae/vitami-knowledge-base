@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "SAFETY_IRON_HIGH_INTAKE_OVERLOAD_001",
+  "ingredient_id": "iron",
+  "claim_text": "Unnecessary or excessive iron supplementation can cause gastrointestinal adverse effects and may be harmful in iron-overload conditions; existing intake and laboratory/clinical indication should be reviewed before adding iron.",
+  "health_goal_or_outcome": "Identify safety constraints and prevent unsupported supplement recommendations.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People with known high iron intake or suspected iron overload."
+  },
+  "ingredient_form_or_preparation": "Supplement products; verify exact formulation, concentration and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Iron fact sheet describes adverse effects, upper limits and iron overload context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No dose; do not recommend additional iron without indication.",
+    "Exact source passages, product-specific labeling and clinical applicability require full appraisal."
+  ],
+  "source_ids": [
+    "NIH_IRON_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
