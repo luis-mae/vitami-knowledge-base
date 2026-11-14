@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_ZGLU_ALREADY_ZINC_SCIENTIFIC_V1",
+  "rule_id": "ZGLU_ALREADY_ZINC",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "supplements_current_use",
+    "zinc_product_amount",
+    "zinc_frequency",
+    "multivitamin_product_label",
+    "diet_zinc_sources",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "zinc"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not suggest additional zinc until existing product labels, elemental zinc amounts, frequency and relevant medicines are reviewed.",
+  "safety_exclusions": [
+    "Do not confuse zinc gluconate compound mass with elemental zinc amount.",
+    "Do not duplicate zinc across multivitamins and standalone products.",
+    "Avoid chronic high intake that may cause copper deficiency."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, kidney disease, gastrointestinal malabsorption, prolonged high-dose use or concurrent tetracycline/quinolone antibiotics or penicillamine."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_ZINC_HP"
+  ],
+  "population_and_context": "People already using zinc supplements who are considering zinc gluconate or another zinc product; total elemental zinc from all sources must be considered.",
+  "dose_constraints": "No additional dose from this rule. Reconcile total elemental zinc against age/life-stage reference values and upper limits.",
+  "certainty_and_limitations": "NIH ODS Zinc fact sheet describes elemental zinc, upper limits and interactions; excess intake can impair copper status. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
