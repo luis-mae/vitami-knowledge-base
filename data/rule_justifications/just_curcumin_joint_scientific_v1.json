@@ -1,0 +1,46 @@
+{
+  "rule_justification_id": "JUST_CURCUMIN_JOINT_SCIENTIFIC_V1",
+  "rule_id": "CURCUMIN_JOINT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "symptom_muscle_joint",
+    "joint_diagnosis",
+    "medications_regular_use",
+    "safety_upcoming_surgery",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "bone_joint_health"
+      ],
+      [
+        "symptom_muscle_joint",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not present curcumin as an established treatment; clarify diagnosis, medicines, formulation and intended outcome.",
+  "safety_exclusions": [
+    "Do not claim to cure arthritis or replace prescribed treatment.",
+    "Do not generalize evidence across turmeric powders, extracts and bioavailability-enhanced formulations.",
+    "Do not overlook anticoagulant/antiplatelet medicines or gallbladder disease."
+  ],
+  "professional_escalation_conditions": [
+    "Persistent or worsening joint pain, swelling/redness/fever, anticoagulant use, gallstones/bile duct disease, liver injury symptoms or planned surgery."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NCCIH_TURMERIC"
+  ],
+  "population_and_context": "People with joint discomfort considering curcumin/turmeric products; evidence in knee osteoarthritis is promising but heterogeneous and not definitive.",
+  "dose_constraints": "No dose from this rule. Formulations vary markedly; do not transfer doses from one extract to another.",
+  "certainty_and_limitations": "NCCIH turmeric resources describe uncertainty and formulation-specific evidence; source passages and safety interactions require appraisal. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
