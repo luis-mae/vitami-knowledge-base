@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 81% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 83% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -24,7 +24,9 @@ Last recorded update: 2026-11-13
 - Added three corresponding draft rule justifications; all remain inactive pending full scientific, professional and jurisdictional review.
 - Expanded dedicated rule justifications to 21 of 87 rules, prioritizing creatine performance, iron, psyllium, omega-3 bleeding risk, magnesium, vitamin D, curcumin liver safety, vitamin A, zinc, biotin and melatonin pregnancy contexts.
 - Created a 95-entry rule attribution manifest covering the 87-rule crosswalk, with organization, exact source title, original URL, jurisdiction/status and logo-permission safeguards.
-- Extended automated integrity checks to validate rule-justification source/claim references and rule attribution manifest integrity.
+- Extended automated integrity checks to validate rule-justification source/claim references and rule attribution manifest integrity, including claim-to-source attribution links.
+- Added five safety-first rule justifications and five substantive evidence-claim drafts for vitamin D with kidney disease, potassium-medication interactions, iodine-thyroid context, calcium/kidney-stone history and excess zinc/copper depletion.
+- Linked the five new claims through the rule crosswalk, rule-justification records and source-attribution manifest; all remain in evidence-review/draft status.
 - Extended the automated integrity audit to require every safety gate to reference an existing preliminary claim and to prevent placeholder safety claims from being approved for display or activation.
 - Source metadata, attribution, evidence-claim, scientific-review and rule-justification schemas are present.
 - Source policy requires direct original links, identification of what each source supports, dates where available, and no implied endorsement.
