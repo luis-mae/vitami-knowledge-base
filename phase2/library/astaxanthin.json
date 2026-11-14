@@ -51,16 +51,18 @@
     "it": "Chiedi consiglio prima di usarlo se hai una patologia rilevante, sei in gravidanza o allatti, assumi farmaci, hai avuto reazioni precedenti o pensi a dosi elevate."
   },
   "source_refs": [
-    "SOURCE_REVIEW_PENDING"
+    "SOURCE_REVIEW_PENDING",
+    "ASTAXANTHIN_META_2022"
   ],
-  "source_status": "needs_specific_source_review",
+  "source_status": "specific_source_review_in_progress",
   "deep_record_status": "pending",
   "rules_status": "candidate_not_active",
   "library_status": "complete_user_facing_draft",
-  "review_date": "2026-08-09",
+  "review_date": "2026-11-13",
   "disclaimer": {
     "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
     "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
     "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
-  }
+  },
+  "source_review_note": "Specific sources registered and linked. Ingredient-specific full-text appraisal and professional approval remain pending; this entry is not cleared for BASIC recommendations."
 }
