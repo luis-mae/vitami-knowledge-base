@@ -1,0 +1,30 @@
+{
+  "passport_version": "1.0.0",
+  "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
+  "evidence_claim_ids": [
+    "MELATONIN_CHRONIC_INSOMNIA_LIMIT_001"
+  ],
+  "source_ids": [
+    "NCCIH_SLEEP"
+  ],
+  "review": {
+    "status": "draft",
+    "last_reviewed_at": null,
+    "reviewer": null,
+    "source_passage_verified": false,
+    "certainty_assessed": false,
+    "notes": "Traceability copied from just_melatonin_chronic_insomnia_scientific_v1.json; scientific and professional approval pending."
+  },
+  "safety": {
+    "gate_ids": [],
+    "professional_approval": false,
+    "contraindications_reviewed": false,
+    "interactions_reviewed": false
+  },
+  "presentation": {
+    "locale": "es",
+    "claim_text": "",
+    "source_attribution": [],
+    "endorsement_disclaimer": true
+  }
+}
