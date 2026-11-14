@@ -1,0 +1,39 @@
+{
+  "evidence_claim_id": "B6_NEUROTOXICITY_UL_2023",
+  "ingredient_id": "vitamin_b6",
+  "claim_text": "EFSA's 2023 scientific opinion identifies peripheral neuropathy as the critical adverse effect of excessive vitamin B6 intake and establishes an adult tolerable upper intake level of 12 mg/day, including pregnancy and lactation. NIH ODS describes a different U.S. Food and Nutrition Board UL of 100 mg/day for adults; these jurisdiction-specific reference limits must not be conflated.",
+  "health_goal_or_outcome": "Prevention of excessive supplemental vitamin B6 exposure and peripheral neuropathy.",
+  "population": {
+    "age_range": "Adults; EFSA separately derives child ULs.",
+    "sex_or_life_stage": "Includes pregnant and lactating adults under EFSA assessment.",
+    "health_status": "General population; medical treatment is a distinct context.",
+    "other_context": "EFSA and U.S. FNB values differ; jurisdiction and policy context must be explicit."
+  },
+  "ingredient_form_or_preparation": "Vitamin B6 from food and supplements; EFSA UL applies to total intake, but practical supplement-risk review must capture all sources.",
+  "dose_context": {
+    "amount": 12,
+    "unit": "mg/day",
+    "frequency": "total daily intake",
+    "duration": "chronic intake context"
+  },
+  "comparator": "EFSA 2023 risk assessment compared with U.S. FNB reference value described by NIH ODS.",
+  "evidence_summary": "EFSA 2023 scientific opinion DOI 10.2903/j.efsa.2023.8006. Peripheral neuropathy is the critical endpoint; EFSA adult UL is 12 mg/day. NIH ODS fact sheet reports the U.S. FNB adult UL as 100 mg/day and notes the EFSA opinion.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "This record does not determine a personalized safe dose.",
+    "UL is not a recommended intake target.",
+    "Jurisdiction-specific reference values differ materially.",
+    "People receiving medically supervised treatment require clinician oversight."
+  ],
+  "source_ids": [
+    "EFSA_VITB6_UL_2023",
+    "NIH_B6_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
