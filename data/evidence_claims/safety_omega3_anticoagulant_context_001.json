@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "SAFETY_OMEGA3_ANTICOAGULANT_CONTEXT_001",
+  "ingredient_id": "omega_3",
+  "claim_text": "High-dose omega-3 supplementation may affect bleeding risk and can interact with anticoagulant or antiplatelet treatment; dose and medication context should be reviewed before use.",
+  "health_goal_or_outcome": "Identify safety constraints and prevent unsupported supplement recommendations.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People using anticoagulants or antiplatelet medicines and considering omega-3 supplements."
+  },
+  "ingredient_form_or_preparation": "Supplement products; verify exact formulation, concentration and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Omega-3 fact sheet summarizes safety and medication considerations.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Do not generalize risk to normal food intake; no dose from this claim.",
+    "Exact source passages, product-specific labeling and clinical applicability require full appraisal."
+  ],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
