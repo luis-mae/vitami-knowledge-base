@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "BIOTIN_HAIR_EVIDENCE_LIMIT_001",
+  "ingredient_id": "biotin",
+  "claim_text": "Evidence that biotin supplementation improves hair growth in people without established biotin deficiency is limited; high-dose biotin can also interfere with certain laboratory assays.",
+  "health_goal_or_outcome": "Prevent unsupported supplementation and support context-specific evidence interpretation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People considering biotin for hair concerns without known deficiency."
+  },
+  "ingredient_form_or_preparation": "Food sources and relevant supplement preparations; verify exact product label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Biotin fact sheet summarizes limited evidence for cosmetic claims and laboratory assay interference.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Hair loss has many causes; clinical assessment may be needed and biotin use should be disclosed before testing.",
+    "Underlying evidence and exact source passages require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_BIOTIN_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
