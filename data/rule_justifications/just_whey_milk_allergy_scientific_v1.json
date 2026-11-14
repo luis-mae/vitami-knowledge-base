@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_WHEY_MILK_ALLERGY_SCIENTIFIC_V1",
+  "rule_id": "WHEY_MILK_ALLERGY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "food_allergies_contains",
+    "allergy_severity",
+    "prior_anaphylaxis",
+    "product_ingredients"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "food_allergies_contains",
+        "milk"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend whey unless allergy status and product composition are clarified by a qualified clinician/allergist; do not assume lactose-free means milk-protein-free.",
+  "safety_exclusions": [
+    "Do not confuse milk-protein allergy with lactose intolerance.",
+    "Do not rely solely on 'lactose-free' or marketing claims to establish allergen safety.",
+    "Do not recommend a product with undeclared or uncertain milk-protein content."
+  ],
+  "professional_escalation_conditions": [
+    "Prior anaphylaxis, respiratory symptoms, angioedema or systemic reaction to milk.",
+    "Any suspected allergic reaction after exposure; emergency symptoms require urgent care."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "People reporting milk-protein allergy who are considering whey protein; whey is milk-derived and may contain allergenic milk proteins.",
+  "dose_constraints": "No dose; whey is not appropriate as a default recommendation in confirmed milk-protein allergy.",
+  "certainty_and_limitations": "NIH ODS exercise fact sheet identifies whey as a milk-derived protein source; allergen risk and product labeling must be assessed against the actual ingredient list and applicable food-allergen rules. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
