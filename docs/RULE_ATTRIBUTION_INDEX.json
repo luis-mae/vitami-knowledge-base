@@ -266,7 +266,9 @@
     {
       "attribution_id": "RULE_ATTR_B12_AGE50_CONTEXT_NIH_B12_HP",
       "rule_id": "B12_AGE50_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "B12_AGE50_FOOD_BOUND_ABSORPTION_001"
+      ],
       "source_id": "NIH_B12_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin B12 — Health Professional Fact Sheet",
@@ -329,7 +331,9 @@
     {
       "attribution_id": "RULE_ATTR_B6_DIETARY_GAP_CONTEXT_NIH_B6_HP",
       "rule_id": "B6_DIETARY_GAP_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "B6_DIETARY_GAP_REVIEW_001"
+      ],
       "source_id": "NIH_B6_HP",
       "organization": "NIH ODS",
       "document_title": "Vitamin B6 — Health Professional Fact Sheet",
@@ -518,7 +522,9 @@
     {
       "attribution_id": "RULE_ATTR_CALCIUM_LOW_DIET_NIH_CALCIUM_HP",
       "rule_id": "CALCIUM_LOW_DIET",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CALCIUM_LOW_DIET_TOTAL_INTAKE_001"
+      ],
       "source_id": "NIH_CALCIUM_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Calcium — Health Professional Fact Sheet",
@@ -1414,7 +1420,9 @@
     {
       "attribution_id": "RULE_ATTR_O3_ALREADY_USING_NIH_OMEGA3_HP",
       "rule_id": "O3_ALREADY_USING",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "O3_ALREADY_USING_TOTAL_EPA_DHA_001"
+      ],
       "source_id": "NIH_OMEGA3_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Omega-3 Fatty Acids — Health Professional Fact Sheet",
@@ -1802,7 +1810,9 @@
     {
       "attribution_id": "RULE_ATTR_VITD_LOW_SUN_NIH_VITD_HP",
       "rule_id": "VITD_LOW_SUN",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITD_LOW_SUN_STATUS_NOT_DIAGNOSIS_001"
+      ],
       "source_id": "NIH_VITD_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin D — Health Professional Fact Sheet",
