@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "POTASSIUM_SWEAT_NOT_INDICATION_001",
+  "ingredient_id": "potassium",
+  "claim_text": "High sweat loss during exercise does not by itself establish potassium deficiency or justify isolated potassium supplementation; hydration and electrolyte strategies depend on exercise duration, sweat losses, diet and individual health context.",
+  "health_goal_or_outcome": "Prevent unsafe supplementation and ensure clinical context is considered.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People reporting high sweat levels during exercise."
+  },
+  "ingredient_form_or_preparation": "Dietary and supplemental sources; verify exact product form and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Potassium fact sheet and exercise-related nutrition guidance provide general context for potassium intake and physiological function.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Sweat composition and individual losses vary; no dose or electrolyte replacement protocol from this claim.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_POTASSIUM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
