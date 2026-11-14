@@ -1,0 +1,47 @@
+{
+  "rule_justification_id": "JUST_MELATONIN_JETLAG_SHIFT_SCIENTIFIC_V1",
+  "rule_id": "MELATONIN_JETLAG_SHIFT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "work_schedule_type",
+    "travel_frequency",
+    "sleep_problem_type",
+    "medications_regular_use",
+    "pregnancy_status"
+  ],
+  "activation_conditions": {
+    "all": [],
+    "any": [
+      [
+        "work_schedule_type",
+        "shift_work"
+      ],
+      [
+        "travel_frequency",
+        "frequent"
+      ]
+    ]
+  },
+  "missing_information_behavior": "Clarify whether the problem is jet lag, shift-work circadian disruption or chronic insomnia and review medicines before any suggestion.",
+  "safety_exclusions": [
+    "Do not recommend melatonin as a default treatment for chronic insomnia.",
+    "Do not infer a dose or timing without travel direction, time zones and schedule.",
+    "Do not ignore sedation, driving or medication interactions."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, breastfeeding, epilepsy, anticoagulant use, sedative medicines or significant chronic disease.",
+    "Persistent insomnia, excessive daytime sleepiness or suspected sleep apnea."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NCCIH_MELATONIN",
+    "NCCIH_SLEEP"
+  ],
+  "population_and_context": "Adults with jet lag or shift-work-related circadian disruption; melatonin may have selected timing-related uses, but chronic insomnia and general sleep problems are different conditions.",
+  "dose_constraints": "No dose from this rule; timing is context-specific and requires evidence-based protocol and product review.",
+  "certainty_and_limitations": "NCCIH Melatonin and Sleep Disorders pages summarize evidence limitations and safety; benefits differ by circadian indication and timing, not a generic sleep aid claim. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
