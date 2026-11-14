@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "VITD_KIDNEY_METABOLISM_SAFETY_001",
+  "ingredient_id": "vitamin_d",
+  "claim_text": "Kidney disease can alter vitamin D metabolism and the handling of calcium and phosphate; vitamin D supplementation in chronic kidney disease therefore requires assessment of renal status, biochemical context and existing treatment rather than an automatic dose based on questionnaire answers.",
+  "health_goal_or_outcome": "Avoid inappropriate vitamin D supplementation in people with kidney disease.",
+  "population": {
+    "age_range": "Not specified; requires age- and disease-specific clinical context.",
+    "sex_or_life_stage": "All; pregnancy requires separate assessment.",
+    "health_status": "Known or suspected kidney disease.",
+    "other_context": "This is a safety-screening statement, not a blanket contraindication."
+  },
+  "ingredient_form_or_preparation": "Vitamin D2 or D3 supplements; active vitamin D analogues are distinct medicines.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mcg or IU",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Vitamin D Health Professional Fact Sheet summarizes vitamin D metabolism, toxicity and clinical contexts. CKD-specific dosing and monitoring should follow current nephrology guidance.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No personalized dose established.",
+    "CKD stage and biochemical parameters materially affect management.",
+    "This claim requires review against current CKD-MBD guidance."
+  ],
+  "source_ids": [
+    "NIH_VITD_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
