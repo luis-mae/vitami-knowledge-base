@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_CAFF_HIGH_BASELINE_SCIENTIFIC_V1",
+  "rule_id": "CAFF_HIGH_BASELINE",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "lifestyle_caffeine_daily",
+    "caffeine_sources",
+    "caffeine_product_dose",
+    "medications_regular_use",
+    "symptom_sleep",
+    "cardiovascular_conditions"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "lifestyle_caffeine_daily",
+        ">=300mg"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not suggest additional caffeine until habitual intake, source amounts, sleep and relevant health/medication context are clarified.",
+  "safety_exclusions": [
+    "Do not treat 300 mg/day as a universal toxicity threshold.",
+    "Do not add event-linked caffeine on top of high baseline intake without individualized assessment.",
+    "Do not imply caffeine is suitable for every athlete or adult."
+  ],
+  "professional_escalation_conditions": [
+    "Palpitations, arrhythmia, uncontrolled hypertension, panic symptoms, pregnancy or significant sleep disturbance.",
+    "Use of stimulant medicines or multiple caffeine-containing products."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "Adults reporting high habitual caffeine intake; assess total caffeine from coffee, tea, energy drinks, pre-workout products and medicines before considering additional caffeine.",
+  "dose_constraints": "No additional dose from this rule. Count total caffeine in mg/day and compare with life-stage- and jurisdiction-specific guidance; individual sensitivity varies.",
+  "certainty_and_limitations": "NIH ODS Exercise and Athletic Performance fact sheet discusses caffeine performance use and safety. Total exposure and individual tolerance matter; a single numeric threshold is not universally safe. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
