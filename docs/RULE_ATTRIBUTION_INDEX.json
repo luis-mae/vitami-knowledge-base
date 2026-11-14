@@ -737,7 +737,9 @@
     {
       "attribution_id": "RULE_ATTR_CREATINE_KIDNEY_NIH_EXERCISE_HP",
       "rule_id": "CREATINE_KIDNEY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CREATINE_KIDNEY_CLINICAL_REVIEW_001"
+      ],
       "source_id": "NIH_EXERCISE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
@@ -802,7 +804,9 @@
     {
       "attribution_id": "RULE_ATTR_D3_KIDNEY_NIH_VITD_HP",
       "rule_id": "D3_KIDNEY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITD_KIDNEY_METABOLISM_RENAL_REVIEW_001"
+      ],
       "source_id": "NIH_VITD_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin D — Health Professional Fact Sheet",
@@ -1538,7 +1542,9 @@
     {
       "attribution_id": "RULE_ATTR_POTASSIUM_SWEAT_ONLY_NIH_POTASSIUM_HP",
       "rule_id": "POTASSIUM_SWEAT_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "POTASSIUM_SWEAT_NOT_INDICATION_001"
+      ],
       "source_id": "NIH_POTASSIUM_HP",
       "organization": "NIH ODS",
       "document_title": "Potassium — Health Professional Fact Sheet",
@@ -1559,7 +1565,9 @@
     {
       "attribution_id": "RULE_ATTR_POTASSIUM_SWEAT_ONLY_NIH_EXERCISE_HP",
       "rule_id": "POTASSIUM_SWEAT_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "POTASSIUM_SWEAT_NOT_INDICATION_001"
+      ],
       "source_id": "NIH_EXERCISE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
@@ -1624,7 +1632,9 @@
     {
       "attribution_id": "RULE_ATTR_PSYLLIUM_SWALLOWING_FDA_PSYLLIUM_CHD",
       "rule_id": "PSYLLIUM_SWALLOWING",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "PSYLLIUM_DYSPHAGIA_CHOKING_SAFETY_001"
+      ],
       "source_id": "FDA_PSYLLIUM_CHD",
       "organization": "FDA",
       "document_title": "Authorized Health Claims That Meet the Significant Scientific Agreement (SSA) Standard",
@@ -1924,7 +1934,9 @@
     {
       "attribution_id": "RULE_ATTR_VITK_CURRENT_USE_MEDICATION_NIH_VITK_HP",
       "rule_id": "VITK_CURRENT_USE_MEDICATION",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITK_WARFARIN_INTAKE_CONSISTENCY_001"
+      ],
       "source_id": "NIH_VITK_HP",
       "organization": "NIH ODS",
       "document_title": "Vitamin K — Health Professional Fact Sheet",
