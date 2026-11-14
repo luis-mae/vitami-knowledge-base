@@ -1,0 +1,29 @@
+{
+  "rule_justification_id": "JUST_COQ10_GENERIC_ENERGY_DRAFT_V1",
+  "rule_id": "COQ10_GENERIC_ENERGY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [],
+  "activation_conditions": [
+    "Primary goal includes generic energy or vitality."
+  ],
+  "missing_information_behavior": "Do not infer a CoQ10 indication from nonspecific fatigue or low energy.",
+  "safety_exclusions": [
+    "Review potential medication interactions, including anticoagulants and diabetes medicines, before any product consideration."
+  ],
+  "professional_escalation_conditions": [
+    "Persistent fatigue, diagnosed disease, cancer treatment, anticoagulant or insulin use, or unexplained symptoms."
+  ],
+  "evidence_claim_ids": [
+    "COQ10_GENERIC_ENERGY_001"
+  ],
+  "source_ids": [
+    "NCCIH_COQ10"
+  ],
+  "population_and_context": "Generic wellness/energy claim, not a diagnosed condition-specific indication.",
+  "dose_constraints": "No individualized dose supported by this rule.",
+  "certainty_and_limitations": "NCCIH source page last updated 2019; currentness review and GRADE appraisal required.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
