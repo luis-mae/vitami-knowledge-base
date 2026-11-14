@@ -32,7 +32,9 @@
     "Pregnancy, breastfeeding, epilepsy, anticoagulant use, sedative medicines or significant chronic disease.",
     "Persistent insomnia, excessive daytime sleepiness or suspected sleep apnea."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "MELATONIN_CIRCADIAN_TIMING_EVIDENCE_001"
+  ],
   "source_ids": [
     "NCCIH_MELATONIN",
     "NCCIH_SLEEP"
