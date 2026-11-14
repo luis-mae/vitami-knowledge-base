@@ -222,7 +222,9 @@
     {
       "attribution_id": "RULE_ATTR_ALGALO3_BLEEDING_NIH_OMEGA3_HP",
       "rule_id": "ALGALO3_BLEEDING",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "ALGAL_OMEGA3_BLEEDING_CONTEXT_001"
+      ],
       "source_id": "NIH_OMEGA3_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Omega-3 Fatty Acids — Health Professional Fact Sheet",
@@ -1005,7 +1007,9 @@
     {
       "attribution_id": "RULE_ATTR_IRON_KNOWN_HIGH_INTAKE_NIH_IRON_HP",
       "rule_id": "IRON_KNOWN_HIGH_INTAKE",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "IRON_EXISTING_PRODUCT_TOTAL_INTAKE_001"
+      ],
       "source_id": "NIH_IRON_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Iron — Health Professional Fact Sheet",
@@ -1133,7 +1137,9 @@
     {
       "attribution_id": "RULE_ATTR_MELATONIN_JETLAG_SHIFT_NCCIH_MELATONIN",
       "rule_id": "MELATONIN_JETLAG_SHIFT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MELATONIN_CIRCADIAN_TIMING_EVIDENCE_001"
+      ],
       "source_id": "NCCIH_MELATONIN",
       "organization": "NCCIH",
       "document_title": "Melatonin: What You Need to Know",
@@ -1154,7 +1160,9 @@
     {
       "attribution_id": "RULE_ATTR_MELATONIN_JETLAG_SHIFT_NCCIH_SLEEP",
       "rule_id": "MELATONIN_JETLAG_SHIFT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "MELATONIN_CIRCADIAN_TIMING_EVIDENCE_001"
+      ],
       "source_id": "NCCIH_SLEEP",
       "organization": "NCCIH",
       "document_title": "Sleep Disorders and Complementary Health Approaches",
@@ -1557,7 +1565,9 @@
     {
       "attribution_id": "RULE_ATTR_PSYLLIUM_MEDICATIONS_FDA_PSYLLIUM_CHD",
       "rule_id": "PSYLLIUM_MEDICATIONS",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "PSYLLIUM_MEDICATION_TIMING_REVIEW_001"
+      ],
       "source_id": "FDA_PSYLLIUM_CHD",
       "organization": "FDA",
       "document_title": "Authorized Health Claims That Meet the Significant Scientific Agreement (SSA) Standard",
@@ -1746,7 +1756,9 @@
     {
       "attribution_id": "RULE_ATTR_VITC_SMOKER_NIH_VITC_HP",
       "rule_id": "VITC_SMOKER",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITC_SMOKER_REFERENCE_INTAKE_001"
+      ],
       "source_id": "NIH_VITC_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin C — Health Professional Fact Sheet",
