@@ -1,0 +1,44 @@
+{
+  "rule_justification_id": "JUST_MTHF_PREGNANT_SCIENTIFIC_V1",
+  "rule_id": "MTHF_PREGNANT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "profile_pregnancy",
+    "pregnancy_week",
+    "prenatal_product_use",
+    "folate_product_form",
+    "folate_product_amount",
+    "b12_status_known",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "profile_pregnancy",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend adding or switching folate formulation until prenatal product composition, total folate exposure, gestational context and clinician advice are reviewed.",
+  "safety_exclusions": [
+    "Do not replace prescribed prenatal folic acid with methylfolate based on unsupported superiority claims.",
+    "Do not duplicate folate across prenatal and standalone products.",
+    "Do not delay antenatal care or neural-tube-defect prevention guidance."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, prior neural tube defect-affected pregnancy, antiseizure medicines, malabsorption, B12 deficiency or high-risk obstetric history."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_FOLATE_HP",
+    "NIH_PREGNANCY_HP"
+  ],
+  "population_and_context": "Pregnant people considering methylfolate or other folate products; prenatal folate strategy and formulation should follow current antenatal guidance and individual clinical context.",
+  "dose_constraints": "No dose from this rule. Follow current local antenatal folic-acid guidance and clinician-directed formulation/dose; distinguish dietary folate equivalents from supplemental folic acid.",
+  "certainty_and_limitations": "NIH ODS Folate and pregnancy resources provide reference information; formulation choice and dosing require current local obstetric guidance. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
