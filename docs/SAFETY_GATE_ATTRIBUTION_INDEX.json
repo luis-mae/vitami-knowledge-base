@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "status": "draft_attribution_manifest_not_approved_for_public_display",
   "generated_at": "2026-11-14",
-  "record_count": 34,
+  "record_count": 39,
   "records": [
     {
       "attribution_id": "ATTR_VITE_BLEEDING_NIH_VITE_HP",
@@ -676,6 +676,106 @@
       "publication_date": null,
       "updated_date": null,
       "jurisdiction": "not_specified",
+      "logo": {
+        "asset_url": null,
+        "permission_status": "permission_and_brand_guidelines_review_required",
+        "display_allowed": false
+      },
+      "claim_status": "draft_not_approved",
+      "source_review_status": "registered"
+    },
+    {
+      "attribution_id": "ATTR_B6_CURRENT_USE_NEURO_EFSA_VITB6_UL_2023",
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "evidence_claim_id": "B6_NEUROTOXICITY_UL_2023",
+      "source_id": "EFSA_VITB6_UL_2023",
+      "organization": "European Food Safety Authority (EFSA) Panel on Nutrition, Novel Foods and Food Allergens",
+      "document_title": "Scientific opinion on the tolerable upper intake level for vitamin B6",
+      "original_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8006",
+      "what_it_supports": "Specific evidence basis for the linked safety claim; display only after scientific and applicability review.",
+      "publication_date": "2023-05-17",
+      "updated_date": null,
+      "jurisdiction": "European Union",
+      "logo": {
+        "asset_url": null,
+        "permission_status": "permission_and_brand_guidelines_review_required",
+        "display_allowed": false
+      },
+      "claim_status": "draft_not_approved",
+      "source_review_status": "registered"
+    },
+    {
+      "attribution_id": "ATTR_B6_CURRENT_USE_NEURO_NIH_B6_HP",
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "evidence_claim_id": "B6_NEUROTOXICITY_UL_2023",
+      "source_id": "NIH_B6_HP",
+      "organization": "NIH ODS",
+      "document_title": "Vitamin B6 — Health Professional Fact Sheet",
+      "original_url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "what_it_supports": "Specific evidence basis for the linked safety claim; display only after scientific and applicability review.",
+      "publication_date": null,
+      "updated_date": null,
+      "jurisdiction": "not_specified",
+      "logo": {
+        "asset_url": null,
+        "permission_status": "permission_and_brand_guidelines_review_required",
+        "display_allowed": false
+      },
+      "claim_status": "draft_not_approved",
+      "source_review_status": "registered"
+    },
+    {
+      "attribution_id": "ATTR_VITA_PREG_CURRENT_USE_NIH_VITA_HP",
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "evidence_claim_id": "VITA_PREFORMED_PREGNANCY_RISK_001",
+      "source_id": "NIH_VITA_HP",
+      "organization": "NIH ODS",
+      "document_title": "Vitamin A — Health Professional Fact Sheet",
+      "original_url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "what_it_supports": "Specific evidence basis for the linked safety claim; display only after scientific and applicability review.",
+      "publication_date": null,
+      "updated_date": null,
+      "jurisdiction": "not_specified",
+      "logo": {
+        "asset_url": null,
+        "permission_status": "permission_and_brand_guidelines_review_required",
+        "display_allowed": false
+      },
+      "claim_status": "draft_not_approved",
+      "source_review_status": "registered"
+    },
+    {
+      "attribution_id": "ATTR_VITA_PREG_CURRENT_USE_NIH_PREGNANCY_HP",
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "evidence_claim_id": "VITA_PREFORMED_PREGNANCY_RISK_001",
+      "source_id": "NIH_PREGNANCY_HP",
+      "organization": "NIH ODS",
+      "document_title": "Dietary Supplements and Life Stages: Pregnancy — Health Professional Fact Sheet",
+      "original_url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "what_it_supports": "Specific evidence basis for the linked safety claim; display only after scientific and applicability review.",
+      "publication_date": null,
+      "updated_date": null,
+      "jurisdiction": "not_specified",
+      "logo": {
+        "asset_url": null,
+        "permission_status": "permission_and_brand_guidelines_review_required",
+        "display_allowed": false
+      },
+      "claim_status": "draft_not_approved",
+      "source_review_status": "verified_2026-08-09"
+    },
+    {
+      "attribution_id": "ATTR_PSYLLIUM_SWALLOWING_US_CFR_21_201_319",
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "evidence_claim_id": "PSYLLIUM_SWALLOWING_OBSTRUCTION_001",
+      "source_id": "US_CFR_21_201_319",
+      "organization": "U.S. Food and Drug Administration / U.S. Government Publishing Office",
+      "document_title": "21 CFR § 201.319 — Water-soluble gums, hydrophilic gums, and hydrophilic mucilloids; required warnings and directions",
+      "original_url": "https://www.govinfo.gov/app/details/CFR-2025-title21-vol4/CFR-2025-title21-vol4-sec201-319",
+      "what_it_supports": "Specific evidence basis for the linked safety claim; display only after scientific and applicability review.",
+      "publication_date": "2025-04-01",
+      "updated_date": null,
+      "jurisdiction": "United States",
       "logo": {
         "asset_url": null,
         "permission_status": "permission_and_brand_guidelines_review_required",
