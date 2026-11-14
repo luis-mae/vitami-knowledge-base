@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "CAFFEINE_HIGH_BASELINE_TOTAL_EXPOSURE_001",
+  "ingredient_id": "caffeine",
+  "claim_text": "Total caffeine exposure should include all dietary and supplemental sources; habitual intake, individual sensitivity, sleep, health conditions and medicines influence the safety of additional caffeine.",
+  "health_goal_or_outcome": "Support safe, context-specific assessment and prevent inappropriate supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific guidance applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "Adults reporting high habitual caffeine intake and considering additional caffeine for performance."
+  },
+  "ingredient_form_or_preparation": "Dietary and/or supplemental sources; verify product label and total exposure.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Exercise and Athletic Performance fact sheet summarizes caffeine use and safety considerations.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "A single threshold is not universally safe; total exposure and individual context matter.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
