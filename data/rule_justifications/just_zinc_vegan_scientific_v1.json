@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_ZINC_VEGAN_SCIENTIFIC_V1",
+  "rule_id": "ZINC_VEGAN",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_type",
+    "supplements_current_use",
+    "diet_zinc_sources"
+  ],
+  "activation_conditions": {
+    "all": [],
+    "any": [
+      [
+        "diet_type",
+        "vegan"
+      ],
+      [
+        "diet_type",
+        "vegetarian"
+      ]
+    ]
+  },
+  "missing_information_behavior": "If any required context is unknown, do not issue a positive recommendation; request clarification or professional review.",
+  "safety_exclusions": [
+    "Do not infer zinc deficiency from vegan status; check fortified foods and current supplements; avoid excess chronic zinc."
+  ],
+  "professional_escalation_conditions": [
+    "Known deficiency, malabsorption, pregnancy, chronic disease or concurrent high-dose zinc/copper imbalance."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_ZINC_HP"
+  ],
+  "population_and_context": "Vegan adults with potentially lower zinc bioavailability due to phytate-rich dietary patterns; dietary context only.",
+  "dose_constraints": "No individualized dose; total zinc intake and UL must be considered.",
+  "certainty_and_limitations": "NIH ODS Zinc fact sheet discusses bioavailability, phytate and upper limits; diet alone does not establish deficiency. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
