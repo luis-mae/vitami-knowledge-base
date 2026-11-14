@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_SEL_HAIR_NAILS_SCIENTIFIC_V1",
+  "rule_id": "SEL_HAIR_NAILS",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "symptom_hair_nails",
+    "diet_pattern",
+    "diet_selenium_sources",
+    "supplements_current_use",
+    "selenium_product_amount",
+    "thyroid_diagnosis"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "symptom_hair_nails",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend selenium for hair/nail symptoms without assessing dietary intake, current supplements, exposure and alternative causes.",
+  "safety_exclusions": [
+    "Do not assume hair/nail changes indicate selenium deficiency.",
+    "Do not add selenium to existing multivitamins without total-intake review.",
+    "Do not overlook selenium excess as a possible contributor."
+  ],
+  "professional_escalation_conditions": [
+    "Marked hair loss, nail changes with systemic symptoms, thyroid disease, suspected toxic exposure or persistent unexplained symptoms."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_SELENIUM_HP"
+  ],
+  "population_and_context": "People reporting hair or nail changes; selenium deficiency is uncommon in many settings and excess selenium can itself cause hair loss and nail brittleness.",
+  "dose_constraints": "No dose from this rule. Reconcile total selenium exposure; suspected excess or deficiency requires clinical assessment.",
+  "certainty_and_limitations": "NIH ODS Selenium fact sheet describes deficiency and selenosis manifestations; nonspecific hair/nail changes are not diagnostic. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
