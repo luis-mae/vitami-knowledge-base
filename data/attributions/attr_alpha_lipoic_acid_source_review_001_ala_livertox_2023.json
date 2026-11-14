@@ -1,0 +1,38 @@
+{
+  "attribution_id": "ATTR_ALPHA_LIPOIC_ACID_SOURCE_REVIEW_001_ALA_LIVERTOX_2023",
+  "source_id": "ALA_LIVERTOX_2023",
+  "claim_ids": [
+    "ALPHA_LIPOIC_ACID_SOURCE_REVIEW_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Alpha Lipoic Acid",
+  "document_title": "Alpha Lipoic Acid",
+  "organization_name": "NIH/NIDDK LiverTox",
+  "original_url": "https://www.ncbi.nlm.nih.gov/books/NBK591554/",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Safety and clinical context of alpha-lipoic acid supplementation",
+  "limitations": [
+    "Safety findings are not efficacy evidence.",
+    "The meta-analysis search ended in August 2020.",
+    "Specific indications and medication interactions require separate review."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "US",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
