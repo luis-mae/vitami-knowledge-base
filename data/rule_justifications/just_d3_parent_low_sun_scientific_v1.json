@@ -1,0 +1,45 @@
+{
+  "rule_justification_id": "JUST_D3_PARENT_LOW_SUN_SCIENTIFIC_V1",
+  "rule_id": "D3_PARENT_LOW_SUN",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "lifestyle_sun_exposure",
+    "diet_fatty_fish_weekly",
+    "diet_fortified_foods",
+    "supplements_current_use",
+    "profile_age",
+    "pregnancy_status"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "lifestyle_sun_exposure",
+        [
+          "low",
+          "very_low"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend a dose until age/life stage, dietary sources and current products are known; clinical testing only where indicated.",
+  "safety_exclusions": [
+    "Do not diagnose deficiency from sun exposure alone.",
+    "Do not encourage unprotected UV exposure as treatment.",
+    "Do not recommend high-dose vitamin D without clinical indication."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney disease, hypercalcemia, kidney stones, malabsorption, pregnancy or abnormal 25(OH)D/calcium results."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITD_HP"
+  ],
+  "population_and_context": "Adults reporting limited sun exposure; low sun exposure alone does not diagnose vitamin D deficiency or establish a personalized dose.",
+  "dose_constraints": "No dose from this rule. Use life-stage reference values and clinical assessment where indicated; avoid high-dose protocols from questionnaire data.",
+  "certainty_and_limitations": "NIH ODS Vitamin D fact sheet describes multiple determinants of status; low sun exposure is not a diagnostic test. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
