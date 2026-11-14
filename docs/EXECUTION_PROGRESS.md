@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 63% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 65% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -33,3 +33,4 @@ Last recorded update: 2026-11-13
 - Draft rules remain inactive until scientific, safety and professional review.
 - Logos are not displayed until usage permissions and brand guidelines are checked.
 - Do not modify production or imply a public launch.
+
