@@ -1,0 +1,30 @@
+{
+  "passport_version": "1.0.0",
+  "rule_id": "CHOLINE_COGNITIVE_ONLY",
+  "evidence_claim_ids": [
+    "CHOLINE_COGNITIVE_GOAL_EVIDENCE_LIMIT_001"
+  ],
+  "source_ids": [
+    "NIH_CHOLINE_HP"
+  ],
+  "review": {
+    "status": "draft",
+    "last_reviewed_at": null,
+    "reviewer": null,
+    "source_passage_verified": false,
+    "certainty_assessed": false,
+    "notes": "Scientific appraisal and professional review pending."
+  },
+  "safety": {
+    "gate_ids": [],
+    "professional_approval": false,
+    "contraindications_reviewed": false,
+    "interactions_reviewed": false
+  },
+  "presentation": {
+    "locale": "es",
+    "claim_text": "",
+    "source_attribution": [],
+    "endorsement_disclaimer": true
+  }
+}
