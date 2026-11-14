@@ -32,7 +32,9 @@
     "Active bleeding, bleeding disorder, anticoagulant/antiplatelet use or planned surgery.",
     "High-dose EPA/DHA or significant cardiovascular history."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "ALGAL_OMEGA3_BLEEDING_CONTEXT_001"
+  ],
   "source_ids": [
     "NIH_OMEGA3_HP"
   ],
