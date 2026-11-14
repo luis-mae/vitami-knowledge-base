@@ -1,0 +1,38 @@
+{
+  "attribution_id": "ATTR_B12_DIETARY_SOURCES_VEGAN_001_NIH_B12_HP",
+  "source_id": "NIH_B12_HP",
+  "claim_ids": [
+    "B12_DIETARY_SOURCES_VEGAN_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Vitamin B12 — Health Professional Fact Sheet",
+  "document_title": "Vitamin B12 — Health Professional Fact Sheet",
+  "organization_name": "NIH Office of Dietary Supplements",
+  "original_url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Assess whether dietary pattern provides a reliable vitamin B12 source.",
+  "limitations": [
+    "Does not diagnose deficiency.",
+    "Does not select a supplement form or individualized dose.",
+    "Does not replace assessment of malabsorption, medications, laboratory findings or life-stage needs."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "US",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
