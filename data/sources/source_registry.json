@@ -1086,6 +1086,74 @@
       "publication_date": null,
       "updated_date": null,
       "accessed_at": null
+    },
+    {
+      "id": "NIH_FOLATE_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Folate — Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/folate-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "notes": "Official nutrient overview and reference intakes. Pregnancy-related clinical prevention claims should also cite current CDC/clinical guidance.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "NIH_PROBIOTICS_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Probiotics — Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "notes": "Probiotic effects are strain-, population- and indication-specific; generic category claims are not justified by this source.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "NCCIH_COQ10",
+      "organization": "National Center for Complementary and Integrative Health",
+      "resource_name": "Coenzyme Q10",
+      "url": "https://www.nccih.nih.gov/health/coenzyme-q10",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "notes": "NCCIH evidence summary; page last updated January 2019 per source. Recheck currency before clinical rule activation.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "COLLAGEN_META_2025",
+      "organization": "Myung SK, Park Y",
+      "resource_name": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40324552/",
+      "source_class": "peer_reviewed_systematic_review_meta_analysis",
+      "jurisdiction": "international",
+      "notes": "Am J Med. 2025;138(9):1264-1277. DOI:10.1016/j.amjmed.2025.04.034. 23 RCTs, 1,474 participants; reported no benefit in non-pharma-funded and high-quality-study subgroups; authors concluded no clinical evidence to support collagen for skin aging.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
     }
   ],
   "attribution_policy": {
