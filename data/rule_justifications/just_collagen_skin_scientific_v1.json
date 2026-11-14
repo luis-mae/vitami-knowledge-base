@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_COLLAGEN_SKIN_SCIENTIFIC_V1",
+  "rule_id": "COLLAGEN_SKIN",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "skin_concerns",
+    "collagen_product_type",
+    "collagen_product_amount",
+    "supplements_current_use",
+    "allergy_history"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "skin_health"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not make a strong efficacy claim or recommend a product without clarifying formulation, dose, evidence quality and allergies.",
+  "safety_exclusions": [
+    "Do not promise wrinkle reduction, anti-aging or clinically meaningful skin outcomes.",
+    "Do not generalize findings across collagen peptides, sources and formulations.",
+    "Do not ignore fish, bovine or other source allergies."
+  ],
+  "professional_escalation_conditions": [
+    "Significant skin disease, unexplained skin changes, pregnancy/lactation or relevant allergies."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "COLLAGEN_META_2025"
+  ],
+  "population_and_context": "People considering oral collagen products for skin health; evidence varies by formulation, outcome and study quality, with potential sponsorship bias.",
+  "dose_constraints": "No dose from this rule. Do not infer a standardized effective dose across products; review exact formulation and evidence.",
+  "certainty_and_limitations": "The cited 2025 meta-analysis requires critical appraisal for heterogeneity, funding and risk of bias before claims are approved. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
