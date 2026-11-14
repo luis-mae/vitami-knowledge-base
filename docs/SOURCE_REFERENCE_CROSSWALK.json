@@ -247,7 +247,10 @@
       "source_ids": [
         "NIH_CALCIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "CALCIUM_LOW_DAIRY_TOTAL_INTAKE_001"
+      ]
     },
     {
       "rule_id": "CALCIUM_LOW_DIET",
@@ -277,7 +280,10 @@
       "source_ids": [
         "NIH_CHOLINE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "CHOLINE_COGNITIVE_GOAL_EVIDENCE_LIMIT_001"
+      ]
     },
     {
       "rule_id": "CHOLINE_PREGNANCY_CONTEXT",
@@ -297,7 +303,10 @@
       "source_ids": [
         "COLLAGEN_META_2025"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "COLLAGEN_SKIN_CLAIMS_EVIDENCE_001"
+      ]
     },
     {
       "rule_id": "COQ10_GENERIC_ENERGY",
@@ -305,7 +314,10 @@
       "source_ids": [
         "NCCIH_COQ10"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "COQ10_GENERIC_ENERGY_EVIDENCE_LIMIT_001"
+      ]
     },
     {
       "rule_id": "CREATINE_ENDURANCE_ONLY",
@@ -313,7 +325,10 @@
       "source_ids": [
         "NIH_EXERCISE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "CREATINE_ENDURANCE_EVIDENCE_LIMIT_001"
+      ]
     },
     {
       "rule_id": "CREATINE_HIGH_INTENSITY_SPORT",
