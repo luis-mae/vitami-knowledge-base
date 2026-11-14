@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_ZINC_HAIR_ONLY_SCIENTIFIC_V1",
+  "rule_id": "ZINC_HAIR_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "symptom_hair_nails",
+    "diet_zinc_sources",
+    "supplements_current_use",
+    "zinc_product_amount",
+    "thyroid_diagnosis"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "hair_loss_concern"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend zinc for hair loss without assessing diet, existing supplements, duration and possible medical causes.",
+  "safety_exclusions": [
+    "Do not infer zinc deficiency from hair loss alone.",
+    "Do not recommend chronic high-dose zinc for cosmetic goals.",
+    "Do not overlook copper deficiency from excessive zinc."
+  ],
+  "professional_escalation_conditions": [
+    "Sudden or patchy hair loss, scalp inflammation, systemic symptoms, pregnancy/postpartum, thyroid disease or suspected nutritional deficiency."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_ZINC_HP"
+  ],
+  "population_and_context": "People concerned about hair loss; hair loss is multifactorial and does not by itself establish zinc deficiency.",
+  "dose_constraints": "No dose from this rule. If deficiency is suspected, clinical assessment and appropriate testing should guide treatment.",
+  "certainty_and_limitations": "NIH ODS Zinc fact sheet describes deficiency and toxicity; hair loss alone is nonspecific and does not establish a zinc indication. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
