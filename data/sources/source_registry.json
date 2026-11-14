@@ -733,6 +733,282 @@
       "publication_date": null,
       "updated_date": null,
       "accessed_at": null
+    },
+    {
+      "id": "NIH_B12_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Vitamin B12 — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_VITD_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Vitamin D — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_EXERCISE_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_OMEGA3_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Omega-3 Fatty Acids — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_ZINC_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Zinc — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_VITC_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Vitamin C — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_CALCIUM_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Calcium — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_IRON_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Iron — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_MAGNESIUM_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Magnesium — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_SELENIUM_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Selenium — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_VITE_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Vitamin E — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
+    },
+    {
+      "id": "NIH_BIOTIN_HP",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Biotin — Health Professional Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "preferred_for": [
+        "ingredient-specific nutrient information",
+        "reference intakes",
+        "safety",
+        "interactions where covered"
+      ],
+      "notes": "Use the current fact sheet and inspect its cited primary references for each atomic claim. Verify current publication/update date before scientific approval.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": null
     }
   ],
   "attribution_policy": {
