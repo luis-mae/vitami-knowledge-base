@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_CALCIT_KIDNEY_STONES_SCIENTIFIC_V1",
+  "rule_id": "CALCIT_KIDNEY_STONES",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney_stones",
+    "stone_type",
+    "diet_calcium_sources",
+    "supplements_current_use",
+    "kidney_disease",
+    "pro_labs_available"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney_stones",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend calcium supplementation until stone type, total dietary calcium, kidney function and current products are clarified.",
+  "safety_exclusions": [
+    "Do not assume all kidney stones are calcium stones.",
+    "Do not advise indiscriminate restriction of dietary calcium; appropriate dietary calcium can be important in some stone-prevention plans.",
+    "Do not infer a calcium deficiency from stone history."
+  ],
+  "professional_escalation_conditions": [
+    "Recurrent stones, hypercalciuria, calcium phosphate stones, chronic kidney disease, hypercalcemia or current obstruction.",
+    "Severe flank pain with fever, vomiting or inability to urinate requires urgent assessment."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_CALCIUM_HP"
+  ],
+  "population_and_context": "People with a history of kidney stones being assessed for calcium supplementation; stone composition, dietary calcium, urinary risk factors and existing products matter.",
+  "dose_constraints": "No dose from this rule. Assess dietary calcium and stone-specific advice with a clinician; if supplementation is indicated, consider elemental calcium amount and timing.",
+  "certainty_and_limitations": "NIH ODS Calcium fact sheet provides general intake and safety information; individualized stone prevention requires current urology/nephrology guidance and stone-specific evaluation. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
