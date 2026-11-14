@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -31,6 +32,23 @@ def main() -> int:
         errors.append("Source registry contains a record without id.")
     if len(source_ids) != len(registry.get("sources", [])):
         errors.append("Duplicate or missing source IDs in source registry.")
+
+    for source in registry.get("sources", []):
+        sid = source.get("id", "<missing-id>")
+        if not source.get("organization"):
+            errors.append(f"Source {sid} has no organization.")
+        if not source.get("resource_name"):
+            errors.append(f"Source {sid} has no resource title.")
+        if not source.get("source_class"):
+            errors.append(f"Source {sid} has no source class.")
+        if not source.get("status"):
+            errors.append(f"Source {sid} has no review status.")
+        if not source.get("logo", {}).get("usage_status"):
+            errors.append(f"Source {sid} has no logo usage policy.")
+        if source.get("status") not in ("needs_validation", "not_verified", "withdrawn"):
+            parsed = urlparse(source.get("url") or "")
+            if parsed.scheme not in ("http", "https") or not parsed.netloc:
+                errors.append(f"Source {sid} has no valid original HTTP(S) URL.")
 
     crosswalk = load(ROOT / "docs/SOURCE_REFERENCE_CROSSWALK.json")
     rule_rows = crosswalk.get("reviewed_rule_sample", [])
