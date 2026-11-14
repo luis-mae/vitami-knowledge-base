@@ -6,7 +6,7 @@
     "registered_sources": 76,
     "draft_rules": 87,
     "safety_gates": 31,
-    "evidence_claim_records": 51,
+    "evidence_claim_records": 56,
     "scientific_review_records": 11,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
@@ -15,9 +15,9 @@
     "integrity_audit_script": 1,
     "safety_gate_preliminary_claims": 31,
     "safety_gate_attribution_manifest_records": 39,
-    "rule_justification_records": 26,
+    "rule_justification_records": 31,
     "rule_attribution_manifest_records": 95,
-    "rules_with_dedicated_justifications": 26,
+    "rules_with_dedicated_justifications": 31,
     "rules_total": 87
   },
   "reconciliation": {
@@ -25,15 +25,15 @@
     "unregistered_safety_source_ids": []
   },
   "gaps": [
-    "26 of 87 draft rules have dedicated structured justifications; 61 remain without dedicated justifications.",
-    "Five additional safety-sensitive rules now have substantive source-linked evidence claim drafts; these claims are not clinically approved.",
-    "28 of the 31 safety gate records remain preliminary placeholders rather than fully appraised claims.",
+    "31 of 87 draft rules have dedicated structured justifications; 56 remain without dedicated justifications.",
+    "31 safety gates have preliminary claim records; 28 still require substantive source appraisal beyond the placeholder record.",
+    "Five additional rule claims have substantive drafts but remain in evidence-review status, not approved for recommendations.",
     "Attribution manifests are prepared but not yet rendered in BASIC/PRO screens.",
     "Full-text appraisal, risk-of-bias and GRADE remain incomplete for most claims; professional review is pending."
   ],
   "next_execution_targets": [
-    "Continue structured justifications and substantive claims for the remaining high-risk rules.",
-    "Convert remaining safety gate placeholders into substantive evidence claims with exact source passages.",
+    "Continue structured justifications and substantive claims for remaining high-risk rules.",
+    "Convert remaining safety-gate placeholders into substantive claims with exact source passages.",
     "Implement attribution rendering in BASIC/PRO recommendation UI.",
     "Complete full-text appraisal, risk-of-bias assessment and professional review before any activation."
   ],
@@ -86,6 +86,33 @@
     {
       "rule_id": "ZINC_ALREADY_HIGH",
       "claim_id": "ZINC_EXCESS_COPPER_DEFICIENCY_001",
+      "status": "evidence_review"
+    }
+  ],
+  "new_substantive_rule_claims": [
+    {
+      "rule_id": "B12_VEGAN_LOW_FORTIFIED",
+      "claim_id": "B12_VEGAN_LOW_FORTIFIED_RISK_001",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "IRON_PREGNANCY",
+      "claim_id": "IRON_PREGNANCY_REQUIREMENT_001",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+      "claim_id": "POTASSIUM_KIDNEY_HYPERKALEMIA_001",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "CURCUMIN_PREG",
+      "claim_id": "CURCUMIN_PREGNANCY_EVIDENCE_GAP_001",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "WHEY_MILK_ALLERGY",
+      "claim_id": "WHEY_MILK_PROTEIN_ALLERGY_001",
       "status": "evidence_review"
     }
   ]
