@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "VITE_BLEEDING_HIGH_DOSE_INTERACTION_001",
+  "ingredient_id": "vitamin_e",
+  "claim_text": "High-dose supplemental vitamin E can inhibit platelet aggregation and antagonize vitamin K-dependent clotting factors, potentially increasing bleeding risk, particularly with anticoagulant or antiplatelet medicines.",
+  "health_goal_or_outcome": "Support context-specific safety assessment and prevent unsupported supplement recommendations.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People with bleeding disorders, taking antithrombotic medicines or approaching surgery."
+  },
+  "ingredient_form_or_preparation": "Dietary and/or supplemental products; verify exact formulation and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Vitamin E Health Professional Fact Sheet summarizes bleeding risk and medication interactions.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Risk depends on dose and context; do not extrapolate high-dose supplement effects to ordinary food intake.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_VITE_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
