@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "IODINE_THYROID_DYSFUNCTION_001",
+  "ingredient_id": "iodine",
+  "claim_text": "Both insufficient and excessive iodine intake can impair thyroid function; people with pre-existing thyroid disease may be more susceptible to adverse effects from excess iodine, so iodine supplementation should not be inferred from a thyroid diagnosis or symptoms alone.",
+  "health_goal_or_outcome": "Avoid iodine excess or inappropriate supplementation in people with thyroid disease.",
+  "population": {
+    "age_range": "Age- and life-stage-specific intake references apply.",
+    "sex_or_life_stage": "Pregnancy and lactation have distinct iodine requirements and require clinician context.",
+    "health_status": "People with thyroid disease or taking thyroid-active medicines.",
+    "other_context": "Total iodine exposure includes diet, iodized salt, seaweed and supplements."
+  },
+  "ingredient_form_or_preparation": "Iodine supplements, kelp/seaweed products and other iodine-containing preparations.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mcg/day",
+    "frequency": "total daily intake",
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Iodine Health Professional Fact Sheet describes iodine requirements, thyroid effects of deficiency and excess, and medication interactions.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "A thyroid diagnosis does not establish iodine deficiency.",
+    "Kelp iodine content can vary substantially.",
+    "Specific thyroid disorders require individualized endocrine guidance."
+  ],
+  "source_ids": [
+    "NIH_IODINE_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
