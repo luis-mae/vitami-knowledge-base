@@ -6,7 +6,7 @@
     "registered_sources": 76,
     "draft_rules": 87,
     "safety_gates": 31,
-    "evidence_claim_records": 76,
+    "evidence_claim_records": 81,
     "scientific_review_records": 11,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
@@ -15,19 +15,19 @@
     "integrity_audit_script": 1,
     "safety_gate_preliminary_claims": 31,
     "safety_gate_attribution_manifest_records": 39,
-    "rule_justification_records": 51,
+    "rule_justification_records": 56,
     "rule_attribution_manifest_records": 95,
-    "rules_with_dedicated_justifications": 51,
-    "rules_total": 89
+    "rules_with_dedicated_justifications": 56,
+    "rules_total": 87
   },
   "reconciliation": {
     "unregistered_rule_source_ids": [],
     "unregistered_safety_source_ids": []
   },
   "gaps": [
-    "51 of 89 draft rules have dedicated structured justifications; 38 remain without dedicated justifications.",
+    "56 of 87 draft rules have dedicated structured justifications; 31 remain without dedicated justifications.",
     "31 safety gates have preliminary claim records; 28 still require substantive source appraisal beyond the placeholder record.",
-    "25 additional rule claims have substantive drafts and source links but remain in evidence-review status, not approved for recommendations.",
+    "30 additional rule claims have substantive drafts and source links but remain in evidence-review status, not approved for recommendations.",
     "Attribution manifests are prepared but not yet rendered in BASIC/PRO screens.",
     "Full-text appraisal, risk-of-bias and GRADE remain incomplete for most claims; professional review is pending."
   ],
@@ -91,28 +91,28 @@
   ],
   "new_substantive_rule_claims": [
     {
-      "rule_id": "B6_CURRENT_USE_NEURO",
-      "claim_id": "B6_CURRENT_USE_NEURO_EXCESS_RISK_001",
+      "rule_id": "IODINE_THYROID_CONTEXT",
+      "claim_id": "IODINE_THYROID_BIDIRECTIONAL_RISK_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "CAFF_HIGH_BASELINE",
-      "claim_id": "CAFFEINE_HIGH_BASELINE_TOTAL_EXPOSURE_001",
+      "rule_id": "IRON_FATIGUE_ONLY",
+      "claim_id": "IRON_FATIGUE_NONSPECIFIC_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "CAFF_PERFORMANCE",
-      "claim_id": "CAFFEINE_PERFORMANCE_CONTEXT_001",
+      "rule_id": "IRON_VEGETARIAN_CONTEXT",
+      "claim_id": "IRON_VEGETARIAN_NONHEME_BIOAVAILABILITY_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "CAFF_SLEEP",
-      "claim_id": "CAFFEINE_SLEEP_DISRUPTION_001",
+      "rule_id": "MAGGLY_KIDNEY",
+      "claim_id": "MAGNESIUM_KIDNEY_CLEARANCE_SAFETY_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "CALCIT_KIDNEY_STONES",
-      "claim_id": "CALCIUM_STONE_HISTORY_INTAKE_001",
+      "rule_id": "METHYLB12_VEGAN",
+      "claim_id": "METHYLB12_FORM_SUPERIORITY_EVIDENCE_001",
       "status": "evidence_review"
     }
   ]
