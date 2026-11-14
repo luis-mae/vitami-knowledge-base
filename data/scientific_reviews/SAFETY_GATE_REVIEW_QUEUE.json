@@ -1,0 +1,700 @@
+{
+  "version": "1.0.0",
+  "status": "review_queue_not_clinical_approval",
+  "created_at": "2026-11-13",
+  "source_index_version": "1.0.0",
+  "gate_count": 31,
+  "records": [
+    {
+      "safety_review_id": "SAFETY_REVIEW_VITE_BLEEDING",
+      "rule_id": "VITE_BLEEDING",
+      "ingredient_id": "vitamin_e",
+      "source_ids": [
+        "NIH_VITE_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_VITK_CURRENT_USE_MEDICATION",
+      "rule_id": "VITK_CURRENT_USE_MEDICATION",
+      "ingredient_id": "vitamin_k",
+      "source_ids": [
+        "NIH_VITK_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_IRONBIS_PREGNANCY",
+      "rule_id": "IRONBIS_PREGNANCY",
+      "ingredient_id": "iron_bisglycinate",
+      "source_ids": [
+        "NIH_IRON_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_B6_CURRENT_USE_NEURO",
+      "rule_id": "B6_CURRENT_USE_NEURO",
+      "ingredient_id": "vitamin_b6",
+      "source_ids": [
+        "NIH_B6_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_CAFF_SLEEP",
+      "rule_id": "CAFF_SLEEP",
+      "ingredient_id": "caffeine_performance",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "existing_override": null,
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_MAGCIT_KIDNEY",
+      "rule_id": "MAGCIT_KIDNEY",
+      "ingredient_id": "magnesium_citrate",
+      "source_ids": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_VITA_PREG_CURRENT_USE",
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "ingredient_id": "vitamin_a",
+      "source_ids": [
+        "NIH_VITA_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_PSYLLIUM_SWALLOWING",
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "ingredient_id": "psyllium_fiber",
+      "source_ids": [
+        "FDA_PSYLLIUM_CHD"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_CURCUMIN_PREG",
+      "rule_id": "CURCUMIN_PREG",
+      "ingredient_id": "curcumin_turmeric",
+      "source_ids": [
+        "NCCIH_TURMERIC"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_IRON_KNOWN_HIGH_INTAKE",
+      "rule_id": "IRON_KNOWN_HIGH_INTAKE",
+      "ingredient_id": "iron",
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "existing_override": null,
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_IRON_PREGNANCY",
+      "rule_id": "IRON_PREGNANCY",
+      "ingredient_id": "iron",
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_ZINC_ALREADY_HIGH",
+      "rule_id": "ZINC_ALREADY_HIGH",
+      "ingredient_id": "zinc",
+      "source_ids": [
+        "NIH_ZINC_HP"
+      ],
+      "existing_override": null,
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_BIOTIN_LABS",
+      "rule_id": "BIOTIN_LABS",
+      "ingredient_id": "biotin",
+      "source_ids": [
+        "NIH_BIOTIN_HP"
+      ],
+      "existing_override": null,
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_CAFF_HIGH_BASELINE",
+      "rule_id": "CAFF_HIGH_BASELINE",
+      "ingredient_id": "caffeine_performance",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "existing_override": null,
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_CURCUMIN_LIVER",
+      "rule_id": "CURCUMIN_LIVER",
+      "ingredient_id": "curcumin_turmeric",
+      "source_ids": [
+        "NCCIH_TURMERIC"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_CREATINE_KIDNEY",
+      "rule_id": "CREATINE_KIDNEY",
+      "ingredient_id": "creatine_monohydrate",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_O3_BLEEDING",
+      "rule_id": "O3_BLEEDING",
+      "ingredient_id": "omega_3_epa_dha",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_VITD_KIDNEY",
+      "rule_id": "VITD_KIDNEY",
+      "ingredient_id": "vitamin_d",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_D3_KIDNEY",
+      "rule_id": "D3_KIDNEY",
+      "ingredient_id": "vitamin_d3",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_MAGGLY_KIDNEY",
+      "rule_id": "MAGGLY_KIDNEY",
+      "ingredient_id": "magnesium_glycinate",
+      "source_ids": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_POTASSIUM_MEDICATION_CONTEXT",
+      "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
+      "ingredient_id": "potassium",
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "existing_override": null,
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_PSYLLIUM_MEDICATIONS",
+      "rule_id": "PSYLLIUM_MEDICATIONS",
+      "ingredient_id": "psyllium_fiber",
+      "source_ids": [
+        "FDA_PSYLLIUM_CHD"
+      ],
+      "existing_override": null,
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_IODINE_THYROID_CONTEXT",
+      "rule_id": "IODINE_THYROID_CONTEXT",
+      "ingredient_id": "iodine",
+      "source_ids": [
+        "NIH_IODINE_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_CALCIUM_STONES",
+      "rule_id": "CALCIUM_STONES",
+      "ingredient_id": "calcium",
+      "source_ids": [
+        "NIH_CALCIUM_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_CALCIT_KIDNEY_STONES",
+      "rule_id": "CALCIT_KIDNEY_STONES",
+      "ingredient_id": "calcium_citrate",
+      "source_ids": [
+        "NIH_CALCIUM_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_MELATONIN_PREGNANCY",
+      "rule_id": "MELATONIN_PREGNANCY",
+      "ingredient_id": "melatonin",
+      "source_ids": [
+        "NCCIH_MELATONIN",
+        "NIH_PREGNANCY_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_VITC_KIDNEY_STONES",
+      "rule_id": "VITC_KIDNEY_STONES",
+      "ingredient_id": "vitamin_c",
+      "source_ids": [
+        "NIH_VITC_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_WHEY_MILK_ALLERGY",
+      "rule_id": "WHEY_MILK_ALLERGY",
+      "ingredient_id": "whey_protein",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_ALGALO3_BLEEDING",
+      "rule_id": "ALGALO3_BLEEDING",
+      "ingredient_id": "algal_omega3_dha",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_POTASSIUM_SUPPLEMENT_KIDNEY",
+      "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+      "ingredient_id": "potassium",
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    },
+    {
+      "safety_review_id": "SAFETY_REVIEW_ELECTROLYTES_KIDNEY_HEART",
+      "rule_id": "ELECTROLYTES_KIDNEY_HEART",
+      "ingredient_id": "electrolyte_mix",
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "existing_override": "X_professional_review_required",
+      "evidence_claim_ids": [],
+      "required_review_domains": [
+        "verify exact source passage and population",
+        "verify ingredient form and exposure context",
+        "verify medication and condition interactions where relevant",
+        "verify escalation threshold and user-facing wording",
+        "confirm false-positive and false-negative handling"
+      ],
+      "interim_control": "Preserve existing gate behavior; do not weaken, remove or bypass. If source or user context is insufficient, escalate to qualified professional review.",
+      "review_status": "pending_claim_level_appraisal",
+      "approved_for_activation": false,
+      "reviewer": null,
+      "reviewed_at": null
+    }
+  ],
+  "global_guardrails": [
+    "This queue records review requirements only; it does not validate the clinical correctness of a gate.",
+    "No gate may be removed or relaxed on the basis of this queue.",
+    "Every gate needs claim-level source linkage and professional review before approval.",
+    "Do not display regulator or organization logos without permission."
+  ]
+}
