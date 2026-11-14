@@ -78,8 +78,10 @@
       "source_ids": [
         "NCCIH_TURMERIC"
       ],
-      "evidence_claim_ids": [],
-      "mapping_status": "source_mapped_claim_required"
+      "evidence_claim_ids": [
+        "CURCUMIN_JOINT_EVIDENCE_LIMIT_001"
+      ],
+      "mapping_status": "substantive_claim_linked_full_review_pending"
     },
     {
       "rule_id": "ZINC_VEGAN",
@@ -407,7 +409,10 @@
       "source_ids": [
         "NIH_EXERCISE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "ELECTROLYTES_PROLONGED_EXERCISE_CONTEXT_001"
+      ]
     },
     {
       "rule_id": "ELECTROLYTES_SHORT_LOW_SWEAT",
@@ -415,7 +420,10 @@
       "source_ids": [
         "NIH_EXERCISE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "ELECTROLYTES_SHORT_SESSION_NO_ROUTINE_NEED_001"
+      ]
     },
     {
       "rule_id": "IODINE_LOW_SOURCE_CONTEXT",
@@ -445,7 +453,10 @@
       "source_ids": [
         "NIH_IRON_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "IRON_FATIGUE_BISGLYCINATE_NO_DIAGNOSIS_001"
+      ]
     },
     {
       "rule_id": "IRONBIS_PREGNANCY",
@@ -595,7 +606,10 @@
         "NIH_FOLATE_HP",
         "NIH_PREGNANCY_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "FOLATE_PRECONCEPTION_FOLIC_ACID_GUIDANCE_001"
+      ]
     },
     {
       "rule_id": "MVM_ALREADY_SUPPLEMENTED",
@@ -614,7 +628,10 @@
       "source_ids": [
         "NIH_MVM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "MVM_DIETARY_GAP_ASSESSMENT_001"
+      ]
     },
     {
       "rule_id": "MVM_GENERAL_WELLNESS_ONLY",
@@ -686,7 +703,10 @@
       "source_ids": [
         "NIH_PROBIOTICS_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "PROBIOTIC_STRAIN_SPECIFIC_EVIDENCE_001"
+      ]
     },
     {
       "rule_id": "PSYLLIUM_MEDICATIONS",
@@ -716,7 +736,10 @@
       "source_ids": [
         "NIH_SELENIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "SELENIUM_ANTIOXIDANT_NO_INDICATION_001"
+      ]
     },
     {
       "rule_id": "SEL_HAIR_NAILS",
@@ -724,7 +747,10 @@
       "source_ids": [
         "NIH_SELENIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "SELENIUM_HAIR_NAILS_BIDIRECTIONAL_001"
+      ]
     },
     {
       "rule_id": "VITA_LOW_DIET_CONTEXT",
@@ -741,7 +767,10 @@
         "NIH_VITA_HP",
         "NIH_PREGNANCY_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITAMIN_A_PREGNANCY_RETINOL_RISK_001"
+      ]
     },
     {
       "rule_id": "VITC_KIDNEY_STONES",
@@ -760,7 +789,10 @@
       "source_ids": [
         "NIH_VITC_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITC_LOW_FRUIT_VEGETABLE_INTAKE_001"
+      ]
     },
     {
       "rule_id": "VITC_SMOKER",
@@ -801,7 +833,10 @@
       "source_ids": [
         "NIH_VITE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITE_ANTIOXIDANT_HIGH_DOSE_LIMIT_001"
+      ]
     },
     {
       "rule_id": "VITE_BLEEDING",
@@ -853,7 +888,10 @@
       "source_ids": [
         "NIH_EXERCISE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "WHEY_STRENGTH_PROTEIN_GAP_001"
+      ]
     },
     {
       "rule_id": "ZGLU_ALREADY_ZINC",
@@ -872,7 +910,10 @@
       "source_ids": [
         "NIH_ZINC_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "ZINC_VEGAN_BIOAVAILABILITY_REVIEW_001"
+      ]
     },
     {
       "rule_id": "ZINC_ALREADY_HIGH",
@@ -891,7 +932,10 @@
       "source_ids": [
         "NIH_ZINC_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "ZINC_HAIR_LOSS_NONSPECIFIC_001"
+      ]
     }
   ],
   "library_entries_pending_source_specific_review": [
