@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_METHYLB12_ALREADY_B12_SCIENTIFIC_V1",
+  "rule_id": "METHYLB12_ALREADY_B12",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "supplements_current_use",
+    "b12_product_form",
+    "b12_product_amount",
+    "b12_frequency",
+    "diet_fortified_foods",
+    "b12_labs_available"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "vitamin_b12"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend an additional B12 product until current form, amount, frequency, adherence and fortified-food intake are reconciled.",
+  "safety_exclusions": [
+    "Do not duplicate existing B12 supplementation.",
+    "Do not claim methylcobalamin is routinely superior to other effective B12 forms.",
+    "Do not infer adequacy solely from reported use without considering adherence and absorption."
+  ],
+  "professional_escalation_conditions": [
+    "Neurological symptoms, pernicious anemia, malabsorption, gastrointestinal surgery or abnormal B12-related labs."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "population_and_context": "People already using vitamin B12 supplements who are considering methylcobalamin or another B12 product.",
+  "dose_constraints": "No additional dose from this rule. Reconcile reliable total intake and seek clinical assessment if deficiency is suspected.",
+  "certainty_and_limitations": "NIH ODS B12 fact sheet describes forms and sources; product form does not establish superior clinical outcomes. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
