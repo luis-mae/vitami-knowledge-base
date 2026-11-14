@@ -1,0 +1,45 @@
+{
+  "rule_justification_id": "JUST_IRON_VEGETARIAN_CONTEXT_SCIENTIFIC_V1",
+  "rule_id": "IRON_VEGETARIAN_CONTEXT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_type",
+    "pro_labs_available",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [],
+    "any": [
+      [
+        "diet_type",
+        "vegetarian"
+      ],
+      [
+        "diet_type",
+        "vegan"
+      ]
+    ]
+  },
+  "missing_information_behavior": "Do not recommend iron solely from vegetarian/vegan status. Use the dietary pattern as a prompt for assessment; without laboratory and current-use context, do not advance a supplement recommendation.",
+  "safety_exclusions": [
+    "Diet pattern alone does not diagnose iron deficiency or anemia.",
+    "Do not recommend iron when known high intake, iron overload, or current iron treatment is reported.",
+    "Pregnancy, gastrointestinal disease, bleeding, anemia symptoms or abnormal laboratory results require clinician review."
+  ],
+  "professional_escalation_conditions": [
+    "Known or suspected anemia or iron deficiency.",
+    "Pregnancy, heavy menstrual bleeding, gastrointestinal bleeding or malabsorption.",
+    "Hemochromatosis, iron overload, chronic disease or current iron therapy."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_IRON_HP"
+  ],
+  "population_and_context": "Vegetarian and vegan adults; non-heme iron bioavailability differs from heme iron, but individual status depends on intake, absorption, losses and physiology.",
+  "dose_constraints": "No dose can be calculated from dietary pattern alone; use laboratory and professional assessment where deficiency is suspected.",
+  "certainty_and_limitations": "NIH ODS describes iron forms, bioavailability and higher reference requirements for vegetarian diets; it does not justify universal supplementation of vegetarians. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
