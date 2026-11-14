@@ -1,0 +1,46 @@
+{
+  "rule_justification_id": "JUST_VITD_LOW_SUN_SCIENTIFIC_V1",
+  "rule_id": "VITD_LOW_SUN",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "lifestyle_sun_exposure",
+    "diet_fatty_fish_weekly",
+    "diet_fortified_foods",
+    "supplements_current_use",
+    "profile_age",
+    "pregnancy_status"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "lifestyle_sun_exposure",
+        [
+          "low",
+          "very_low"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If dietary intake, age/life stage or current supplement use is missing, do not calculate a dose; request context and consider clinical assessment where indicated.",
+  "safety_exclusions": [
+    "Do not diagnose vitamin D deficiency from low sun exposure alone.",
+    "Do not encourage unprotected UV exposure as a treatment.",
+    "Do not recommend high-dose vitamin D without clinical indication and safety review."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney disease, hypercalcemia, kidney stones, malabsorption, granulomatous disease or pregnancy.",
+    "Bone pain, muscle weakness, suspected deficiency or abnormal calcium/25(OH)D results."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITD_HP"
+  ],
+  "population_and_context": "People reporting limited sun exposure; sunlight is only one determinant of vitamin D status, alongside diet, skin synthesis, age, geography, season and health factors.",
+  "dose_constraints": "No dose from this rule. Use life-stage dietary reference values; serum 25(OH)D testing and dosing decisions depend on clinical indication and local guidance.",
+  "certainty_and_limitations": "NIH ODS Vitamin D fact sheet describes sources, status markers and risk factors. Sun exposure alone cannot establish deficiency or an individualized dose. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
