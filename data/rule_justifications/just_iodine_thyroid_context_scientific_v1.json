@@ -29,7 +29,7 @@
     "Pregnancy/lactation, amiodarone or lithium use, or high-dose iodine exposure."
   ],
   "evidence_claim_ids": [
-    "IODINE_THYROID_DYSFUNCTION_001"
+    "IODINE_THYROID_BIDIRECTIONAL_RISK_001"
   ],
   "source_ids": [
     "NIH_IODINE_HP"
