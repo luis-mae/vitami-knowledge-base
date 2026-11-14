@@ -5,43 +5,72 @@
   "priority_1_deeper_source_review": [
     {
       "ingredient_id": "mct_oil",
-      "reason": "Specific source review pending",
-      "source_review_status": "pending"
+      "source_ids": [
+        "MCT_LIPIDS_META_2021"
+      ],
+      "claim_id": "MCT_OIL_SOURCE_REVIEW_001",
+      "status": "source_linked_initial_claim_drafted_full_appraisal_pending"
     },
     {
       "ingredient_id": "inositol",
-      "reason": "Specific source review pending",
-      "source_review_status": "pending"
+      "source_ids": [
+        "INOSITOL_PCOS_META_2024",
+        "INOSITOL_PCOS_GUIDELINE_2023"
+      ],
+      "claim_id": "INOSITOL_SOURCE_REVIEW_001",
+      "status": "source_linked_initial_claim_drafted_full_appraisal_pending"
     },
     {
       "ingredient_id": "nac",
-      "reason": "Specific source review pending",
-      "source_review_status": "pending"
+      "source_ids": [
+        "NAC_NIH_ODS_IMMUNE",
+        "NAC_FDA_GUIDANCE_2022"
+      ],
+      "claim_id": "NAC_SOURCE_REVIEW_001",
+      "status": "source_linked_initial_claim_drafted_full_appraisal_pending"
     },
     {
       "ingredient_id": "alpha_lipoic_acid",
-      "reason": "Specific source review pending",
-      "source_review_status": "pending"
+      "source_ids": [
+        "ALA_LIVERTOX_2023",
+        "ALA_SAFETY_META_2020"
+      ],
+      "claim_id": "ALPHA_LIPOIC_ACID_SOURCE_REVIEW_001",
+      "status": "source_linked_initial_claim_drafted_full_appraisal_pending"
     },
     {
       "ingredient_id": "astaxanthin",
-      "reason": "Specific source review pending",
-      "source_review_status": "pending"
+      "source_ids": [
+        "ASTAXANTHIN_META_2022"
+      ],
+      "claim_id": "ASTAXANTHIN_SOURCE_REVIEW_001",
+      "status": "source_linked_initial_claim_drafted_full_appraisal_pending"
     },
     {
       "ingredient_id": "lycopene",
-      "reason": "Specific source review pending",
-      "source_review_status": "pending"
+      "source_ids": [
+        "LYCOPENE_ANTIOXIDANT_NCCIH",
+        "LYCOPENE_CVD_UMBRELLA_2025"
+      ],
+      "claim_id": "LYCOPENE_SOURCE_REVIEW_001",
+      "status": "source_linked_initial_claim_drafted_full_appraisal_pending"
     },
     {
       "ingredient_id": "beta_carotene",
-      "reason": "Specific source review pending",
-      "source_review_status": "pending"
+      "source_ids": [
+        "BETACAROTENE_NCCIH_ANTIOX"
+      ],
+      "claim_id": "BETA_CAROTENE_SOURCE_REVIEW_001",
+      "status": "source_linked_initial_claim_drafted_full_appraisal_pending"
     },
     {
       "ingredient_id": "spirulina",
-      "reason": "Specific source review pending",
-      "source_review_status": "pending"
+      "source_ids": [
+        "SPIRULINA_FDA_MICROCYSTINS",
+        "SPIRULINA_ANSES_2017"
+      ],
+      "claim_id": "SPIRULINA_SOURCE_REVIEW_001",
+      "status": "source_linked_initial_claim_drafted_full_appraisal_pending"
     }
   ],
   "priority_2_systematic_linkage": [
@@ -68,5 +97,12 @@
     "Every source has source type, jurisdiction, title, URL, review status and date metadata where available.",
     "Each logo is either approved for use or omitted in favor of text attribution.",
     "No draft rule or candidate becomes active by completing documentation alone; required clinical and product governance reviews still apply."
+  ],
+  "completed_in_this_block": [
+    "Registered 13 ingredient-specific primary, official and systematic-review sources, expanding source registry to 74.",
+    "Linked all eight previously flagged library entries to specific sources and marked them source-review-in-progress, not cleared for recommendations.",
+    "Created eight source-linked preliminary evidence claims and eight explicit preliminary scientific-review records.",
+    "Created 17 claim-to-source attribution records with original links, visible provenance requirements and logo-permission safeguards.",
+    "Kept all new claims and review records in draft/evidence-review status; none approved for user display or rule activation."
   ]
 }
