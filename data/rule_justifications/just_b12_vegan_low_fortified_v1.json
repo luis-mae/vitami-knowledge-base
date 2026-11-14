@@ -1,0 +1,54 @@
+{
+  "rule_justification_id": "JUST_B12_VEGAN_LOW_FORTIFIED_V1",
+  "rule_id": "B12_VEGAN_LOW_FORTIFIED",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_type",
+    "diet_fortified_foods"
+  ],
+  "activation_conditions": [
+    {
+      "all": [
+        {
+          "question_id": "diet_type",
+          "operator": "equals",
+          "value": "vegan"
+        },
+        {
+          "question_id": "diet_fortified_foods",
+          "operator": "in",
+          "value": [
+            "low",
+            "none"
+          ]
+        }
+      ]
+    }
+  ],
+  "missing_information_behavior": "Do not apply the positive scoring rule when either required answer is missing; ask for clarification or return insufficient information.",
+  "safety_exclusions": [
+    "Do not infer B12 deficiency from diet pattern or symptoms alone.",
+    "Current B12 supplement use must be checked before a new recommendation.",
+    "Pregnancy/lactation, known deficiency, malabsorption, relevant medication use or abnormal laboratory results require appropriate professional assessment."
+  ],
+  "professional_escalation_conditions": [
+    "Known or suspected deficiency",
+    "Malabsorption or relevant gastrointestinal condition",
+    "Pregnancy or lactation",
+    "Neurological symptoms or concerning symptoms",
+    "Current treatment or abnormal laboratory findings"
+  ],
+  "evidence_claim_ids": [
+    "B12_DIETARY_SOURCES_VEGAN_001"
+  ],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "population_and_context": "Vegan dietary pattern with low or absent fortified-food intake; not a diagnosis of deficiency.",
+  "dose_constraints": "No individualized dose supported by this rule. Existing deep-record BASIC dose logic remains reference_only; treatment requires professional assessment where deficiency or absorption issue is suspected.",
+  "certainty_and_limitations": "Claim and rule remain draft; certainty not assessed in this record. The current ODS source must be extracted and appraised before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
