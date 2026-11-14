@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "audit_type": "automated_structural_integrity",
+  "run_id": 43535630096,
+  "commit": "8ba5f3a87c8bbbed4b757a5d4fe8d7cacb9064af",
+  "workflow": "Scientific integrity audit",
+  "result": "success",
+  "executed_at": "2026-11-14T00:39:22Z",
+  "metrics": {
+    "registered_sources": 74,
+    "draft_rules_mapped": 87,
+    "safety_gates_mapped": 31,
+    "evidence_claim_records": 12,
+    "scientific_review_records": 8,
+    "attribution_records": 17,
+    "errors": 0,
+    "warnings": 0
+  },
+  "scope": "Checks source-ID reconciliation, rule and safety-gate mappings, evidence-claim source references, approval-state consistency, attribution references, logo permission safeguards, scientific-review references and review-queue counts.",
+  "limitation": "Structural integrity only. This run does not validate clinical correctness, evidence certainty, source currency, legal compliance or professional approval."
+}
