@@ -6,7 +6,7 @@
     "registered_sources": 76,
     "draft_rules": 87,
     "safety_gates": 31,
-    "evidence_claim_records": 81,
+    "evidence_claim_records": 86,
     "scientific_review_records": 11,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
@@ -15,19 +15,19 @@
     "integrity_audit_script": 1,
     "safety_gate_preliminary_claims": 31,
     "safety_gate_attribution_manifest_records": 39,
-    "rule_justification_records": 56,
+    "rule_justification_records": 58,
     "rule_attribution_manifest_records": 95,
-    "rules_with_dedicated_justifications": 56,
-    "rules_total": 87
+    "rules_with_dedicated_justifications": 58,
+    "rules_total": 89
   },
   "reconciliation": {
     "unregistered_rule_source_ids": [],
     "unregistered_safety_source_ids": []
   },
   "gaps": [
-    "56 of 87 draft rules have dedicated structured justifications; 31 remain without dedicated justifications.",
+    "58 of 89 draft rules have dedicated structured justifications; 31 remain without dedicated justifications.",
     "31 safety gates have preliminary claim records; 28 still require substantive source appraisal beyond the placeholder record.",
-    "30 additional rule claims have substantive drafts and source links but remain in evidence-review status, not approved for recommendations.",
+    "35 additional rule claims have substantive drafts and source links but remain in evidence-review status, not approved for recommendations.",
     "Attribution manifests are prepared but not yet rendered in BASIC/PRO screens.",
     "Full-text appraisal, risk-of-bias and GRADE remain incomplete for most claims; professional review is pending."
   ],
@@ -91,28 +91,28 @@
   ],
   "new_substantive_rule_claims": [
     {
-      "rule_id": "IODINE_THYROID_CONTEXT",
-      "claim_id": "IODINE_THYROID_BIDIRECTIONAL_RISK_001",
+      "rule_id": "D3_KIDNEY",
+      "claim_id": "VITD_KIDNEY_METABOLISM_RENAL_REVIEW_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "IRON_FATIGUE_ONLY",
-      "claim_id": "IRON_FATIGUE_NONSPECIFIC_001",
+      "rule_id": "CREATINE_KIDNEY",
+      "claim_id": "CREATINE_KIDNEY_CLINICAL_REVIEW_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "IRON_VEGETARIAN_CONTEXT",
-      "claim_id": "IRON_VEGETARIAN_NONHEME_BIOAVAILABILITY_001",
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "claim_id": "PSYLLIUM_DYSPHAGIA_CHOKING_SAFETY_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "MAGGLY_KIDNEY",
-      "claim_id": "MAGNESIUM_KIDNEY_CLEARANCE_SAFETY_001",
+      "rule_id": "POTASSIUM_SWEAT_ONLY",
+      "claim_id": "POTASSIUM_SWEAT_NOT_INDICATION_001",
       "status": "evidence_review"
     },
     {
-      "rule_id": "METHYLB12_VEGAN",
-      "claim_id": "METHYLB12_FORM_SUPERIORITY_EVIDENCE_001",
+      "rule_id": "VITK_CURRENT_USE_MEDICATION",
+      "claim_id": "VITK_WARFARIN_INTAKE_CONSISTENCY_001",
       "status": "evidence_review"
     }
   ]
