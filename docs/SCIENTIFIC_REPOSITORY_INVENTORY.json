@@ -3,17 +3,16 @@
   "generated_from": "GitHub main recursive tree and current repository indexes",
   "scope": "documentary_inventory_not_clinical_validation",
   "counts": {
-    "library_records": 103,
-    "deep_record_files": 41,
-    "draft_rule_files": 87,
-    "safety_gate_index_files": 1,
-    "production_candidate_files": 14,
-    "production_ready_scenario_files": 7,
-    "dose_frequency_rule_files": 6,
+    "library_entries": 100,
+    "library_json_files_including_indexes_and_reports": 104,
+    "deep_record_files": 40,
+    "draft_rule_records": 87,
+    "safety_gate_records": 31,
+    "production_candidate_records": 13,
+    "production_ready_scenarios": 7,
+    "dose_frequency_rules": 6,
     "source_registry_records": 43,
-    "question_bank_files": 5,
-    "source_registry_file_present": true,
-    "source_review_snapshot_present": true
+    "question_data_files": 5
   },
   "existing_repository_index_claims": {
     "catalog_components": 100,
@@ -27,11 +26,11 @@
     "automated_engine_fixtures": "10/10 passed per manifest; historical result, rerun before release"
   },
   "priorities": [
-    "Reconcile source registry IDs with source_refs/evidence_refs used by phase2 records.",
+    "Reconcile source registry IDs with source_refs/evidence_refs used by all phase2 records.",
     "Review the 8 library entries flagged for deeper source-specific review.",
-    "Reconcile the manifest deep_records count with the current deep_records directory and DEEP_RECORDS_STATUS index.",
+    "Reconcile manifest deep_records count (40) with DEEP_RECORDS_STATUS index (20).",
     "Map all 87 draft rules and 31 safety gates to exact source records and atomic evidence claims.",
-    "Update the source review snapshot; current snapshot is dated 2026-08-09.",
+    "Refresh the source review snapshot; current snapshot is dated 2026-08-09.",
     "Do not activate draft rules or candidate pathways until source, safety, UI and professional review gates are completed."
   ],
   "cautions": [
