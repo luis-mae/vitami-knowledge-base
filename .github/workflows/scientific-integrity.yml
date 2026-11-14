@@ -1,0 +1,35 @@
+name: Scientific integrity audit
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "docs/**"
+      - "phase2/library/**"
+      - "phase2/draft_rules/**"
+      - "scripts/audit_scientific_integrity.py"
+      - ".github/workflows/scientific-integrity.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "docs/**"
+      - "phase2/library/**"
+      - "phase2/draft_rules/**"
+      - "scripts/audit_scientific_integrity.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scientific-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run structural integrity audit
+        run: python scripts/audit_scientific_integrity.py
