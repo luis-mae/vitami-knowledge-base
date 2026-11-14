@@ -93,6 +93,11 @@ def main() -> int:
             elif claims[cid].get("approved_for_rule_activation") or claims[cid].get("approved_for_user_display"):
                 errors.append(f"Safety gate placeholder claim {cid} must not be approved before full review.")
 
+    for row in rule_rows:
+        for cid in row.get("evidence_claim_ids", []):
+            if cid not in claims:
+                errors.append("Rule {} references unknown evidence claim {}.".format(row.get("rule_id"), cid))
+
     attributions = {}
     for path in files("data/attributions", exclude=("template",)):
         item = load(path)
@@ -129,6 +134,17 @@ def main() -> int:
             errors.append("Safety gate review queue count does not match its records.")
         if len(queue.get("records", [])) != len(gate_rows):
             warnings.append("Safety gate review queue and source crosswalk counts differ.")
+
+    safety_attribution_path = ROOT / "docs/SAFETY_GATE_ATTRIBUTION_INDEX.json"
+    if safety_attribution_path.exists():
+        manifest = load(safety_attribution_path)
+        if manifest.get("record_count") != len(manifest.get("records", [])):
+            errors.append("Safety attribution manifest count does not match its records.")
+        for item in manifest.get("records", []):
+            if item.get("source_id") not in source_ids:
+                errors.append("Safety attribution {} references unknown source.".format(item.get("attribution_id")))
+            if item.get("evidence_claim_id") not in claims:
+                errors.append("Safety attribution {} references unknown claim.".format(item.get("attribution_id")))
 
     if len(rule_rows) != 87:
         warnings.append(f"Expected 87 mapped rules; found {len(rule_rows)}.")
