@@ -10,7 +10,9 @@
     "scientific_review_records": 8,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
-    "unique_source_ids_used_by_safety_gates": 19
+    "unique_source_ids_used_by_safety_gates": 19,
+    "safety_gate_review_queue_records": 31,
+    "integrity_audit_script": 1
   },
   "reconciliation": {
     "unregistered_rule_source_ids": [],
@@ -19,13 +21,15 @@
   "gaps": [
     "Only four draft rules currently have dedicated rule-justification records; source mapping alone is not claim-level justification.",
     "The majority of 87 draft rules have no atomic evidence claim linked yet.",
-    "The 31 safety gates are source-mapped but still need atomic safety claims and claim-level attribution.",
-    "Attribution records currently cover a small subset of the total evidence base; app rendering integration is pending.",
-    "Scientific review records are preliminary source discovery records; full text appraisal, risk-of-bias and GRADE remain incomplete."
+    "The 31 safety gates now have a structured review queue, but still need atomic safety claims, claim-level attribution and professional appraisal.",
+    "Attribution records cover only a small subset of the evidence base; app rendering integration is pending.",
+    "Scientific review records remain preliminary source discovery records; full-text appraisal, risk-of-bias and GRADE are incomplete.",
+    "The new integrity audit script has been committed but has not yet been executed in the repository's CI."
   ],
   "next_execution_targets": [
+    "Execute the scientific integrity audit and correct structural findings.",
     "Create atomic claims and rule justifications for remaining draft rules in priority order, starting with safety-sensitive rules.",
-    "Create claim-level evidence records for each safety gate and link them to their source attribution records.",
+    "Create claim-level evidence records for each safety gate and link them to source attribution records.",
     "Implement and test source attribution rendering in BASIC and PRO user-facing screens.",
     "Finish full appraisal for the eight ingredients currently marked source-review-in-progress."
   ],
