@@ -1,0 +1,44 @@
+{
+  "rule_justification_id": "JUST_BA_HIGH_INTENSITY_SCIENTIFIC_V1",
+  "rule_id": "BA_HIGH_INTENSITY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_type",
+    "goals_primary",
+    "training_duration",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_type",
+        "mixed_high_intensity"
+      ],
+      [
+        "goals_primary_contains",
+        "sports_performance"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend based solely on a generic exercise goal; clarify repeated high-intensity effort and training protocol.",
+  "safety_exclusions": [
+    "Do not generalize benefit to all sports or endurance-only activity.",
+    "Do not imply disease prevention or treatment.",
+    "Do not prescribe a protocol from this rule alone."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, minors, chronic disease or relevant medication use; persistent paresthesia/adverse effects."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "Adults performing repeated high-intensity efforts with a sports-performance goal; potential beta-alanine benefit depends on exercise duration, protocol and training context.",
+  "dose_constraints": "No dose from this rule; consult separately appraised sport-specific protocol and product form; consider known paresthesia risk.",
+  "certainty_and_limitations": "NIH ODS Exercise and Athletic Performance fact sheet discusses beta-alanine and exercise duration; source-level evidence and certainty require appraisal. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
