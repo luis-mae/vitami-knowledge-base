@@ -28,7 +28,9 @@
   "professional_escalation_conditions": [
     "Low hemoglobin/ferritin, anemia symptoms, bleeding, iron overload, intolerance or multiple iron-containing products."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "IRON_PREGNANCY_PRENATAL_DUPLICATION_001"
+  ],
   "source_ids": [
     "NIH_IRON_HP",
     "NIH_PREGNANCY_HP"
