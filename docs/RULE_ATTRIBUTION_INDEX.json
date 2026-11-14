@@ -9,7 +9,7 @@
       "attribution_id": "RULE_ATTR_B12_VEGAN_LOW_FORTIFIED_NIH_B12_HP",
       "rule_id": "B12_VEGAN_LOW_FORTIFIED",
       "evidence_claim_ids": [
-        "B12_DIETARY_SOURCES_VEGAN_001"
+        "B12_VEGAN_LOW_FORTIFIED_RISK_001"
       ],
       "source_id": "NIH_B12_HP",
       "organization": "NIH Office of Dietary Supplements",
@@ -749,7 +749,9 @@
     {
       "attribution_id": "RULE_ATTR_CURCUMIN_PREG_NCCIH_TURMERIC",
       "rule_id": "CURCUMIN_PREG",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CURCUMIN_PREGNANCY_EVIDENCE_GAP_001"
+      ],
       "source_id": "NCCIH_TURMERIC",
       "organization": "National Center for Complementary and Integrative Health",
       "document_title": "Turmeric",
@@ -1024,7 +1026,9 @@
     {
       "attribution_id": "RULE_ATTR_IRON_PREGNANCY_NIH_IRON_HP",
       "rule_id": "IRON_PREGNANCY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "IRON_PREGNANCY_REQUIREMENT_001"
+      ],
       "source_id": "NIH_IRON_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Iron — Health Professional Fact Sheet",
@@ -1467,7 +1471,9 @@
     {
       "attribution_id": "RULE_ATTR_POTASSIUM_SUPPLEMENT_KIDNEY_NIH_POTASSIUM_HP",
       "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "POTASSIUM_KIDNEY_HYPERKALEMIA_001"
+      ],
       "source_id": "NIH_POTASSIUM_HP",
       "organization": "NIH ODS",
       "document_title": "Potassium — Health Professional Fact Sheet",
@@ -1889,7 +1895,9 @@
     {
       "attribution_id": "RULE_ATTR_WHEY_MILK_ALLERGY_NIH_EXERCISE_HP",
       "rule_id": "WHEY_MILK_ALLERGY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "WHEY_MILK_PROTEIN_ALLERGY_001"
+      ],
       "source_id": "NIH_EXERCISE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
