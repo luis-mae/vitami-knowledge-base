@@ -1,0 +1,44 @@
+{
+  "rule_justification_id": "JUST_VITK_CURRENT_USE_MEDICATION_SCIENTIFIC_V1",
+  "rule_id": "VITK_CURRENT_USE_MEDICATION",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "supplements_current_use_contains",
+    "medications_regular_use",
+    "medications_list",
+    "vitk_product_amount"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "vitamin_k"
+      ],
+      [
+        "medications_regular_use",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Identify the exact medication and vitamin K exposure; do not recommend starting, stopping or changing vitamin K without prescriber/pharmacist review.",
+  "safety_exclusions": [
+    "Do not advise abrupt changes in vitamin K intake for people taking warfarin or other vitamin K antagonists.",
+    "Do not assume all anticoagulants interact identically with vitamin K.",
+    "Do not recommend vitamin K to reverse anticoagulation outside emergency medical care."
+  ],
+  "professional_escalation_conditions": [
+    "Warfarin or another vitamin K antagonist, unstable INR, bleeding, thrombosis, planned procedure or unexplained bruising."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITK_HP"
+  ],
+  "population_and_context": "People already using vitamin K supplements and taking regular medicines; vitamin K can materially interact with vitamin K antagonist anticoagulants such as warfarin.",
+  "dose_constraints": "No dose from this rule. Maintain consistency of vitamin K intake and follow anticoagulation-clinic instructions; any change requires clinician oversight.",
+  "certainty_and_limitations": "NIH ODS Vitamin K fact sheet describes clinically important interaction with warfarin and the need for consistent intake; drug-specific advice requires current product labeling and prescriber review. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
