@@ -1,0 +1,37 @@
+{
+  "attribution_id": "ATTR_LYCOPENE_SOURCE_REVIEW_001_LYCOPENE_CVD_UMBRELLA_2025",
+  "source_id": "LYCOPENE_CVD_UMBRELLA_2025",
+  "claim_ids": [
+    "LYCOPENE_SOURCE_REVIEW_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Role of lycopene from tomato on cardiovascular risk: an umbrella review of systematic reviews and meta-analyses of intervention studies",
+  "document_title": "Role of lycopene from tomato on cardiovascular risk: an umbrella review of systematic reviews and meta-analyses of intervention studies",
+  "organization_name": "Peer-reviewed umbrella review",
+  "original_url": "https://pubmed.ncbi.nlm.nih.gov/41369612/",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Tomato-derived lycopene and cardiovascular outcomes",
+  "limitations": [
+    "Source attribution is not an endorsement of Vitami.",
+    "The claim remains under scientific review."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "not_specified",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
