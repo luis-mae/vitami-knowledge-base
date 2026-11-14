@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_IODINE_THYROID_CONTEXT_SCIENTIFIC_V1",
+  "rule_id": "IODINE_THYROID_CONTEXT",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_thyroid",
+    "thyroid_diagnosis",
+    "thyroid_medications",
+    "diet_iodine_sources",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_thyroid",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If thyroid diagnosis, medication or iodine exposure is unclear, retain professional-review override and do not recommend iodine supplementation.",
+  "safety_exclusions": [
+    "Do not infer iodine deficiency from thyroid symptoms or diagnosis.",
+    "Do not recommend kelp/seaweed iodine products with highly variable iodine content without clinician review.",
+    "Do not modify levothyroxine, antithyroid therapy or prescribed iodine treatment."
+  ],
+  "professional_escalation_conditions": [
+    "Hashimoto thyroiditis, Graves disease, nodules, thyroid cancer or thyroid surgery.",
+    "Pregnancy/lactation, amiodarone or lithium use, or high-dose iodine exposure."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_IODINE_HP"
+  ],
+  "population_and_context": "Users with known thyroid disease or thyroid medication exposure being assessed for iodine intake; both deficiency and excess can affect thyroid function.",
+  "dose_constraints": "No individualized dose from this rule. Evaluate total iodine from diet, iodized salt, seaweed and supplements against life-stage reference values.",
+  "certainty_and_limitations": "NIH ODS Iodine fact sheet describes the U-shaped risk of inadequate and excessive iodine and relevant drug interactions; thyroid-specific care requires endocrinology guidance. This justification remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
