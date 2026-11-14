@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_O3_LOW_FISH_SCIENTIFIC_V1",
+  "rule_id": "O3_LOW_FISH",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "fish_intake_frequency",
+    "supplements_current_use",
+    "bleeding_risk",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_fatty_fish_weekly",
+        "<=1"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If fish intake, current omega-3 use or bleeding/medication context is unknown, do not calculate a supplement dose.",
+  "safety_exclusions": [
+    "Do not infer cardiovascular disease prevention benefit for an individual from low fish intake alone.",
+    "Do not duplicate existing EPA/DHA supplements.",
+    "Bleeding disorders, anticoagulants, antiplatelets, surgery or atrial fibrillation history require professional review."
+  ],
+  "professional_escalation_conditions": [
+    "Anticoagulant or antiplatelet use, bleeding disorder or planned surgery.",
+    "History of atrial fibrillation or significant cardiovascular disease.",
+    "Pregnancy/lactation or use of high-dose omega-3."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "population_and_context": "Adults with low oily-fish intake; food pattern and supplement use must be considered together.",
+  "dose_constraints": "No individualized dose from this rule. EPA+DHA amount and product formulation require separate evidence and safety review.",
+  "certainty_and_limitations": "NIH ODS omega-3 fact sheet summarizes intake, forms and safety; the rule must not promise disease prevention or infer deficiency. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
