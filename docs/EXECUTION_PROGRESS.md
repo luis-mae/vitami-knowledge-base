@@ -67,3 +67,6 @@ Last recorded update: 2026-11-13
 - Added five structured scientific justifications and source-linked claims for electrolyte products in kidney/heart disease, iron during pregnancy, vitamin C with kidney-stone history, vitamin E and bleeding risk, and melatonin for chronic insomnia. All remain draft/evidence-review and inactive pending appraisal and professional review.
 
 - Added five structured scientific justifications and source-linked claims for choline in pregnancy, vitamin D with low sun exposure, iodine dietary-source review, existing B12 supplementation and vitamin K for a general bone-health goal. All remain draft/evidence-review and inactive pending full appraisal and professional review.
+
+- Added five structured scientific justifications and source-linked evidence claims for existing multivitamin use, general wellness-only multivitamin claims, folate formulation in pregnancy, magnesium glycinate/elemental intake and existing zinc use. All remain draft/evidence-review and inactive pending full appraisal and professional review.
+- Current repository counts: 73 dedicated rule justifications, 101 evidence-claim records, 87 draft rules.
