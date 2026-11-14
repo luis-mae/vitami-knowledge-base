@@ -1,0 +1,45 @@
+{
+  "scientific_review_id": "REVIEW_BETA_CAROTENE_INITIAL_20261113",
+  "evidence_claim_id": "BETA_CAROTENE_SOURCE_REVIEW_001",
+  "review_method": "rapid_review",
+  "protocol_or_search_strategy": "Targeted preliminary source identification and extraction. This is not a completed systematic review. Search performed 2026-11-13; full-text appraisal, reproducible multi-database search and duplicate screening remain pending.",
+  "databases": [
+    "PubMed",
+    "NIH Office of Dietary Supplements",
+    "NCCIH",
+    "FDA/official regulator portals"
+  ],
+  "search_date": "2026-11-13",
+  "inclusion_criteria": [
+    "Human clinical evidence or official regulator/health-agency assessments relevant to the ingredient and stated outcome.",
+    "Systematic reviews, meta-analyses, clinical practice guidelines and authoritative safety documents."
+  ],
+  "exclusion_criteria": [
+    "Animal or in-vitro findings as sole basis for clinical claims.",
+    "Marketing pages and manufacturer promotional material.",
+    "Extrapolation across unrelated indications, formulations or populations."
+  ],
+  "included_study_references": [
+    "BETACAROTENE_NCCIH_ANTIOX"
+  ],
+  "risk_of_bias_tool": "Not yet applied; use RoB 2 for randomized trials and AMSTAR 2 for systematic reviews where appropriate.",
+  "risk_of_bias_summary": "Pending full-text review.",
+  "domains": {
+    "risk_of_bias": null,
+    "inconsistency": null,
+    "indirectness": null,
+    "imprecision": null,
+    "publication_bias": null
+  },
+  "certainty_rating": "not_assessed",
+  "applicability": "Ingredient-specific scope only; no individual dose or recommendation approved.",
+  "conflicts_or_uncertainties": [
+    "This record documents source discovery, not evidence certainty.",
+    "Source currency and all primary studies must be checked before approval.",
+    "Commercial formulation and jurisdiction may alter applicability."
+  ],
+  "reviewer": null,
+  "reviewed_at": null,
+  "decision": "draft",
+  "version": "1.0.0"
+}
