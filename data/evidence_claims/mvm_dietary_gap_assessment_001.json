@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "MVM_DIETARY_GAP_ASSESSMENT_001",
+  "ingredient_id": "multivitamin_mineral",
+  "claim_text": "A reported dietary gap warrants review of actual food intake and life-stage needs but does not automatically establish that a multivitamin/mineral is required.",
+  "health_goal_or_outcome": "Support safe, indication-specific recommendations and avoid unsupported supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People reporting dietary gaps."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary and supplemental forms; verify exact product label and formulation.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Multivitamin/mineral fact sheet describes product variability and limitations of broad claims.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No generic product or dose; assess specific nutrients and existing products.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_MVM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
