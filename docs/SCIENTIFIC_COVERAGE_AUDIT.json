@@ -6,7 +6,7 @@
     "registered_sources": 76,
     "draft_rules": 87,
     "safety_gates": 31,
-    "evidence_claim_records": 46,
+    "evidence_claim_records": 51,
     "scientific_review_records": 11,
     "attribution_records": 17,
     "unique_source_ids_used_by_rules": 28,
@@ -15,9 +15,9 @@
     "integrity_audit_script": 1,
     "safety_gate_preliminary_claims": 31,
     "safety_gate_attribution_manifest_records": 39,
-    "rule_justification_records": 21,
+    "rule_justification_records": 26,
     "rule_attribution_manifest_records": 95,
-    "rules_with_dedicated_justifications": 21,
+    "rules_with_dedicated_justifications": 26,
     "rules_total": 87
   },
   "reconciliation": {
@@ -25,17 +25,17 @@
     "unregistered_safety_source_ids": []
   },
   "gaps": [
-    "21 of 87 draft rules now have dedicated structured justifications; the remaining 66 need claim-level rationale, source appraisal and safety constraints.",
-    "31 safety gates have preliminary claim records; only three have substantive claim drafts and targeted source reviews. The other 28 are placeholders pending appraisal.",
-    "Rule and safety attribution manifests are prepared but not yet rendered in BASIC/PRO screens.",
-    "Full-text extraction, risk-of-bias assessment and GRADE remain incomplete for most claims.",
-    "All rules and claims remain draft; professional review, jurisdiction-specific review and application regression testing remain mandatory."
+    "26 of 87 draft rules have dedicated structured justifications; 61 remain without dedicated justifications.",
+    "Five additional safety-sensitive rules now have substantive source-linked evidence claim drafts; these claims are not clinically approved.",
+    "28 of the 31 safety gate records remain preliminary placeholders rather than fully appraised claims.",
+    "Attribution manifests are prepared but not yet rendered in BASIC/PRO screens.",
+    "Full-text appraisal, risk-of-bias and GRADE remain incomplete for most claims; professional review is pending."
   ],
   "next_execution_targets": [
-    "Continue writing dedicated rule justifications for the highest-risk and highest-impact rules, linking only verified claims and registered sources.",
-    "Convert the remaining 28 safety placeholders into substantive appraisable claims.",
-    "Integrate rule and safety attribution manifests into the recommendation UI, showing organization, source title and direct link; logos only with permission.",
-    "Complete full evidence appraisal and independent professional review before activation."
+    "Continue structured justifications and substantive claims for the remaining high-risk rules.",
+    "Convert remaining safety gate placeholders into substantive evidence claims with exact source passages.",
+    "Implement attribution rendering in BASIC/PRO recommendation UI.",
+    "Complete full-text appraisal, risk-of-bias assessment and professional review before any activation."
   ],
   "guardrails": [
     "Do not activate rules or safety gates based on this audit.",
@@ -59,6 +59,33 @@
       "rule_id": "PSYLLIUM_SWALLOWING",
       "claim_id": "PSYLLIUM_SWALLOWING_OBSTRUCTION_001",
       "review_id": "REVIEW_PSYLLIUM_SWALLOWING_20261114",
+      "status": "evidence_review"
+    }
+  ],
+  "new_safety_rule_claims": [
+    {
+      "rule_id": "VITD_KIDNEY",
+      "claim_id": "VITD_KIDNEY_METABOLISM_SAFETY_001",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
+      "claim_id": "POTASSIUM_MEDICATION_HYPERKALEMIA_001",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "IODINE_THYROID_CONTEXT",
+      "claim_id": "IODINE_THYROID_DYSFUNCTION_001",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "CALCIUM_STONES",
+      "claim_id": "CALCIUM_KIDNEY_STONE_INTAKE_001",
+      "status": "evidence_review"
+    },
+    {
+      "rule_id": "ZINC_ALREADY_HIGH",
+      "claim_id": "ZINC_EXCESS_COPPER_DEFICIENCY_001",
       "status": "evidence_review"
     }
   ]
