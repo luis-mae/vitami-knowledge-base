@@ -1,0 +1,49 @@
+{
+  "rule_justification_id": "JUST_METHYLB12_VEGAN_SCIENTIFIC_V1",
+  "rule_id": "METHYLB12_VEGAN",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "diet_type",
+    "diet_fortified_foods",
+    "supplements_current_use",
+    "b12_product_form",
+    "b12_product_amount",
+    "b12_labs_available"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "diet_type",
+        "vegan"
+      ],
+      [
+        "diet_fortified_foods",
+        [
+          "low",
+          "none"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Check current B12 products, dose, adherence and fortified-food intake before suggesting an additional product.",
+  "safety_exclusions": [
+    "Do not claim methylcobalamin is clinically superior to cyanocobalamin without evidence.",
+    "Do not duplicate existing B12 supplementation.",
+    "Do not infer deficiency from vegan status alone."
+  ],
+  "professional_escalation_conditions": [
+    "Neurological symptoms, pernicious anemia, malabsorption, gastrointestinal surgery, pregnancy or abnormal B12-related labs."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "population_and_context": "Vegan users with little or no fortified-food intake considering methylcobalamin; a reliable B12 source is important, but methylcobalamin is not automatically superior to other effective forms.",
+  "dose_constraints": "No dose from this rule; verify total reliable B12 intake and assess suspected deficiency clinically.",
+  "certainty_and_limitations": "NIH ODS B12 fact sheet describes B12 sources and forms; it does not establish routine superiority of methylcobalamin. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
