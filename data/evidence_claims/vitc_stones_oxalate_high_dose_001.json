@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "VITC_STONES_OXALATE_HIGH_DOSE_001",
+  "ingredient_id": "vitamin_c",
+  "claim_text": "High supplemental vitamin C intake can increase urinary oxalate in some people and may be relevant to kidney-stone risk; stone history and total intake should be reviewed before high-dose supplementation.",
+  "health_goal_or_outcome": "Support context-specific safety assessment and prevent unsupported supplement recommendations.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People with a history of kidney stones considering vitamin C supplements."
+  },
+  "ingredient_form_or_preparation": "Dietary and/or supplemental products; verify exact formulation and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Vitamin C Health Professional Fact Sheet discusses oxalate and kidney-stone concerns associated with high supplemental intake.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Risk depends on dose, stone type and individual susceptibility; no individualized dose from this claim.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_VITC_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
