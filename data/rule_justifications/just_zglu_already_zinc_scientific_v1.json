@@ -28,7 +28,9 @@
   "professional_escalation_conditions": [
     "Pregnancy, kidney disease, gastrointestinal malabsorption, prolonged high-dose use or concurrent tetracycline/quinolone antibiotics or penicillamine."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "ZINC_EXISTING_PRODUCTS_ELEMENTAL_TOTAL_001"
+  ],
   "source_ids": [
     "NIH_ZINC_HP"
   ],
