@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "ALGAL_OMEGA3_BLEEDING_CONTEXT_001",
+  "ingredient_id": "algal_omega3_dha",
+  "claim_text": "Omega-3 supplements can affect platelet function, but evidence does not support treating ordinary omega-3 intake as an automatic bleeding contraindication for everyone; high-dose use, anticoagulant/antiplatelet therapy, bleeding disorders and perioperative context require individualized review.",
+  "health_goal_or_outcome": "Assess bleeding and perioperative context before recommending algal EPA/DHA.",
+  "population": {
+    "age_range": "Adults; specific groups require individualized review.",
+    "sex_or_life_stage": "All life stages; pregnancy requires separate assessment.",
+    "health_status": "People with bleeding disorders, taking antithrombotic medicines or undergoing surgery.",
+    "other_context": "Actual EPA/DHA dose and product composition matter."
+  },
+  "ingredient_form_or_preparation": "Algal DHA or EPA/DHA supplements; verify EPA and DHA amounts separately.",
+  "dose_context": {
+    "amount": null,
+    "unit": "mg/day EPA+DHA",
+    "frequency": "daily",
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Omega-3 Health Professional Fact Sheet summarizes bleeding-related safety evidence and medication context.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Do not generalize findings across all doses and formulations.",
+    "Do not stop prescribed antithrombotic therapy.",
+    "Perioperative decisions belong to the treating clinician."
+  ],
+  "source_ids": [
+    "NIH_OMEGA3_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
