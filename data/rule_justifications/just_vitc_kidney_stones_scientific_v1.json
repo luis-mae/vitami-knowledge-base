@@ -28,7 +28,9 @@
   "professional_escalation_conditions": [
     "Recurrent calcium oxalate stones, chronic kidney disease, hyperoxaluria or prior oxalate nephropathy."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "VITC_STONES_OXALATE_HIGH_DOSE_001"
+  ],
   "source_ids": [
     "NIH_VITC_HP"
   ],
