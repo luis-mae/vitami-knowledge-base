@@ -1154,6 +1154,227 @@
       "publication_date": null,
       "updated_date": null,
       "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "MCT_LIPIDS_META_2021",
+      "organization": "McKenzie et al., The Journal of Nutrition",
+      "resource_name": "Medium-Chain Triglyceride Oil and Blood Lipids: A Systematic Review and Meta-Analysis of Randomized Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34255085/",
+      "source_class": "peer_reviewed_systematic_review_meta_analysis",
+      "jurisdiction": "international",
+      "notes": "Seven articles; MCT oil did not affect total, LDL or HDL cholesterol overall but slightly increased triglycerides. Compare oil composition and comparator.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "INOSITOL_PCOS_META_2024",
+      "organization": "Teede et al.; Journal of Clinical Endocrinology & Metabolism",
+      "resource_name": "Inositol for Polycystic Ovary Syndrome: A Systematic Review and Meta-analysis to Inform the 2023 Update of the International Evidence-based PCOS Guidelines",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38163998/",
+      "source_class": "peer_reviewed_systematic_review_meta_analysis",
+      "jurisdiction": "international",
+      "notes": "30 trials, 2,230 participants. Evidence limited/inconclusive; do not extrapolate beyond PCOS-specific outcomes or infer general wellness benefits.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "INOSITOL_PCOS_GUIDELINE_2023",
+      "organization": "International PCOS Guideline Collaboration",
+      "resource_name": "Recommendations From the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome",
+      "url": "https://academic.oup.com/jcem/article/108/10/2447/7242360",
+      "source_class": "international_clinical_practice_guideline",
+      "jurisdiction": "international",
+      "notes": "Inositol may be considered according to preferences with limited clinical benefits; specific types, doses or combinations cannot be recommended due to lack of quality evidence.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "NAC_NIH_ODS_IMMUNE",
+      "organization": "NIH Office of Dietary Supplements",
+      "resource_name": "Dietary Supplements for Immune Function and Infectious Diseases — N-acetylcysteine section",
+      "url": "https://ods.od.nih.gov/factsheets/ImmuneFunction-HealthProfessional/",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "notes": "Contains NAC mechanism, forms, safety and potential interactions; distinguish approved drug uses from dietary supplement claims.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "NAC_FDA_GUIDANCE_2022",
+      "organization": "U.S. Food and Drug Administration",
+      "resource_name": "Guidance for Industry: Policy Regarding N-acetyl-L-cysteine",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-policy-regarding-n-acetyl-l-cysteine",
+      "source_class": "regulatory_guidance",
+      "jurisdiction": "US",
+      "notes": "Regulatory interpretation and enforcement-discretion policy; guidance is not itself binding law and does not establish clinical efficacy.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "ALA_LIVERTOX_2023",
+      "organization": "NIH/NIDDK LiverTox",
+      "resource_name": "Alpha Lipoic Acid",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK591554/",
+      "source_class": "government_clinical_reference",
+      "jurisdiction": "US",
+      "notes": "Updated 2023-05-03; clinical pharmacology and liver safety context, not proof of efficacy for anti-aging or generic wellness.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "ALA_SAFETY_META_2020",
+      "organization": "Fogacci et al., Antioxidants",
+      "resource_name": "Safety Evaluation of α-Lipoic Acid Supplementation: A Systematic Review and Meta-Analysis of Randomized Placebo-Controlled Clinical Studies",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33086555/",
+      "source_class": "peer_reviewed_systematic_review_meta_analysis",
+      "jurisdiction": "international",
+      "notes": "71 clinical studies, 4,749 subjects; safety review only, search through 2020-08-15.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "ASTAXANTHIN_META_2022",
+      "organization": "Ursoniu et al.",
+      "resource_name": "Astaxanthin supplementation mildly reduced oxidative stress and inflammation biomarkers: a systematic review and meta-analysis of randomized controlled trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35091276/",
+      "source_class": "peer_reviewed_systematic_review_meta_analysis",
+      "jurisdiction": "international",
+      "notes": "12 RCTs, 380 participants; biomarker outcomes only; do not equate biomarker changes with clinical benefit.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "LYCOPENE_ANTIOXIDANT_NCCIH",
+      "organization": "National Center for Complementary and Integrative Health",
+      "resource_name": "Antioxidant Supplements: What You Need To Know",
+      "url": "https://www.nccih.nih.gov/health/antioxidant-supplements-what-you-need-to-know",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "notes": "General antioxidant supplement evidence; warns against beta-carotene supplements for prevention and notes high-dose risks in some populations.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "LYCOPENE_CVD_UMBRELLA_2025",
+      "organization": "Peer-reviewed umbrella review",
+      "resource_name": "Role of lycopene from tomato on cardiovascular risk: an umbrella review of systematic reviews and meta-analyses of intervention studies",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41369612/",
+      "source_class": "peer_reviewed_umbrella_review",
+      "jurisdiction": "international",
+      "notes": "Recent umbrella review; assess tomato-derived lycopene products, outcomes and certainty separately from isolated supplement products.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "BETACAROTENE_NCCIH_ANTIOX",
+      "organization": "National Center for Complementary and Integrative Health",
+      "resource_name": "Antioxidant Supplements: What You Need To Know",
+      "url": "https://www.nccih.nih.gov/health/antioxidant-supplements-what-you-need-to-know",
+      "source_class": "government_evidence_summary",
+      "jurisdiction": "US",
+      "notes": "Includes evidence and harms of beta-carotene supplements, especially increased lung cancer risk in smokers and asbestos-exposed populations.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "SPIRULINA_FDA_MICROCYSTINS",
+      "organization": "U.S. Food and Drug Administration",
+      "resource_name": "Blue-Green Algae Products and Microcystins",
+      "url": "https://www.fda.gov/food/natural-toxins-food/blue-green-algae-products-and-microcystins",
+      "source_class": "regulatory_safety_guidance",
+      "jurisdiction": "US",
+      "notes": "Contamination and toxin safety; distinguishes AFA and other cyanobacteria; requires attention to testing, manufacturing and batch quality.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
+    },
+    {
+      "id": "SPIRULINA_ANSES_2017",
+      "organization": "French Agency for Food, Environmental and Occupational Health & Safety (ANSES)",
+      "resource_name": "Opinion on the risks associated with the consumption of food supplements containing spirulina",
+      "url": "https://www.anses.fr/system/files/NUT2014SA0096EN.pdf",
+      "source_class": "government_risk_assessment",
+      "jurisdiction": "France",
+      "notes": "Risk assessment discusses cyanotoxins, bacteria, trace metals, phenylketonuria and allergic predisposition; distinguish Spirulina from other cyanobacteria.",
+      "logo": {
+        "asset_url": null,
+        "usage_status": "permission_and_brand_guidelines_review_required"
+      },
+      "status": "registered",
+      "publication_date": null,
+      "updated_date": null,
+      "accessed_at": "2026-11-13"
     }
   ],
   "attribution_policy": {
