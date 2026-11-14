@@ -1,0 +1,38 @@
+{
+  "attribution_id": "ATTR_LYCOPENE_SOURCE_REVIEW_001_LYCOPENE_ANTIOXIDANT_NCCIH",
+  "source_id": "LYCOPENE_ANTIOXIDANT_NCCIH",
+  "claim_ids": [
+    "LYCOPENE_SOURCE_REVIEW_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Antioxidant Supplements: What You Need To Know",
+  "document_title": "Antioxidant Supplements: What You Need To Know",
+  "organization_name": "National Center for Complementary and Integrative Health",
+  "original_url": "https://www.nccih.nih.gov/health/antioxidant-supplements-what-you-need-to-know",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Antioxidant and cardiovascular claims",
+  "limitations": [
+    "Tomato-derived food evidence is not automatically equivalent to isolated supplements.",
+    "Outcome-specific certainty must be assessed.",
+    "No generic anti-aging or disease-prevention claim is supported by this record."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "US",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
