@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 70% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 72% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -15,7 +15,8 @@ Last recorded update: 2026-11-13
 - Library QA report updated: the eight ingredients remain under review and are not cleared for BASIC recommendations.
 - Created a structured review queue for all 31 safety gates, preserving current overrides and requiring claim-level appraisal before any approval.
 - Added a read-only Python integrity audit script and GitHub Actions workflow; first automated run succeeded with 0 errors and 0 warnings (74 sources, 87 rule mappings, 31 safety gates, 12 claims, 8 review records and 17 attributions).
-- Stored the dated audit result and commit reference in the repository.
+- Stored the dated audit results and commit references in the repository.
+- Extended source-registry integrity checks to require organization, document title, source class, review status, logo-use policy and valid original URLs (except explicit pending placeholders); second CI run also passed with 0 errors and 0 warnings.
 - Four earlier draft claims and three draft rule justifications remain in place.
 - Source metadata, attribution, evidence-claim, scientific-review and rule-justification schemas are present.
 - Source policy requires direct original links, identification of what each source supports, dates where available, and no implied endorsement.
