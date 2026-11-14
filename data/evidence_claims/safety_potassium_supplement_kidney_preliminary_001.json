@@ -1,0 +1,38 @@
+{
+  "evidence_claim_id": "SAFETY_POTASSIUM_SUPPLEMENT_KIDNEY_PRELIMINARY_001",
+  "ingredient_id": "potassium",
+  "claim_text": "Operational safety record for POTASSIUM_SUPPLEMENT_KIDNEY: the existing rule index specifies X_professional_review_required. This record documents the current precaution and source trail only; it does not independently establish a clinical contraindication.",
+  "health_goal_or_outcome": "Safety screening and escalation associated with the existing Vitami rule.",
+  "population": {
+    "age_range": "Not established in this preliminary record.",
+    "sex_or_life_stage": "Requires rule-specific review.",
+    "health_status": "Users potentially matching the existing safety gate.",
+    "other_context": "Scope limited to the existing rule implementation."
+  },
+  "ingredient_form_or_preparation": "Exact ingredient form and preparation must be checked against the cited source.",
+  "dose_context": {
+    "amount": null,
+    "unit": null,
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "Source-linked safety-review placeholder. Exact supporting passages, population, dose, interactions and applicability remain to be verified.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Not a completed clinical evidence claim.",
+    "Source passages and currency not yet appraised.",
+    "Must not be used alone to activate, remove or weaken a safety gate.",
+    "Professional review is required before changing user-facing safety behavior."
+  ],
+  "source_ids": [
+    "NIH_POTASSIUM_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "draft",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
