@@ -1,0 +1,38 @@
+{
+  "rule_justification_id": "JUST_CURCUMIN_LIVER_SCIENTIFIC_V1",
+  "rule_id": "CURCUMIN_LIVER",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "liver_disease",
+    "liver_symptoms",
+    "medications_regular_use",
+    "product_form"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_liver",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If any required safety or context information is missing, do not add positive recommendation score; request clarification or escalate.",
+  "safety_exclusions": [
+    "Do not treat culinary turmeric as equivalent to concentrated supplements; do not recommend high-bioavailability formulations without safety assessment."
+  ],
+  "professional_escalation_conditions": [
+    "Jaundice, dark urine, pruritus, abdominal pain, known liver disease or hepatotoxic medicines require clinician review."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NCCIH_TURMERIC"
+  ],
+  "population_and_context": "Users with liver disease, symptoms or exposure to concentrated turmeric/curcumin products.",
+  "dose_constraints": "No dose; avoid recommending concentrated curcumin until liver safety and product formulation are assessed.",
+  "certainty_and_limitations": "NCCIH turmeric information; reports of liver injury are rare but clinically important; formulation and bioavailability matter. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
