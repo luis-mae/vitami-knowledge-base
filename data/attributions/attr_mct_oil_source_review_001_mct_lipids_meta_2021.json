@@ -1,0 +1,37 @@
+{
+  "attribution_id": "ATTR_MCT_OIL_SOURCE_REVIEW_001_MCT_LIPIDS_META_2021",
+  "source_id": "MCT_LIPIDS_META_2021",
+  "claim_ids": [
+    "MCT_OIL_SOURCE_REVIEW_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Medium-Chain Triglyceride Oil and Blood Lipids: A Systematic Review and Meta-Analysis of Randomized Trials",
+  "document_title": "Medium-Chain Triglyceride Oil and Blood Lipids: A Systematic Review and Meta-Analysis of Randomized Trials",
+  "organization_name": "McKenzie et al., The Journal of Nutrition",
+  "original_url": "https://pubmed.ncbi.nlm.nih.gov/34255085/",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Blood lipid concentrations in adults",
+  "limitations": [
+    "Source attribution is not an endorsement of Vitami.",
+    "The claim remains under scientific review."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "not_specified",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
