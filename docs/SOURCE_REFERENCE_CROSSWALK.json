@@ -42,8 +42,10 @@
       "source_ids": [
         "NIH_OMEGA3_HP"
       ],
-      "evidence_claim_ids": [],
-      "mapping_status": "source_mapped_claim_required"
+      "evidence_claim_ids": [
+        "OMEGA3_LOW_FISH_DIETARY_SOURCE_REVIEW_001"
+      ],
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending"
     },
     {
       "rule_id": "CREATINE_STRENGTH",
@@ -51,8 +53,10 @@
       "source_ids": [
         "NIH_EXERCISE_HP"
       ],
-      "evidence_claim_ids": [],
-      "mapping_status": "source_mapped_claim_required"
+      "evidence_claim_ids": [
+        "CREATINE_STRENGTH_POWER_EVIDENCE_001"
+      ],
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending"
     },
     {
       "rule_id": "MAGCIT_PARENT_GAP",
@@ -60,8 +64,10 @@
       "source_ids": [
         "NIH_MAGNESIUM_HP"
       ],
-      "evidence_claim_ids": [],
-      "mapping_status": "source_mapped_claim_required"
+      "evidence_claim_ids": [
+        "MAGNESIUM_GLYCINATE_ELEMENTAL_INTAKE_001"
+      ],
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending"
     },
     {
       "rule_id": "PSYLLIUM_LOW_FIBER_DIGESTIVE",
@@ -69,8 +75,10 @@
       "source_ids": [
         "FDA_PSYLLIUM_CHD"
       ],
-      "evidence_claim_ids": [],
-      "mapping_status": "source_mapped_claim_required"
+      "evidence_claim_ids": [
+        "PSYLLIUM_LOW_FIBER_INTAKE_REVIEW_001"
+      ],
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending"
     },
     {
       "rule_id": "CURCUMIN_JOINT",
@@ -89,8 +97,10 @@
       "source_ids": [
         "NIH_ZINC_HP"
       ],
-      "evidence_claim_ids": [],
-      "mapping_status": "source_mapped_claim_required"
+      "evidence_claim_ids": [
+        "ZINC_VEGAN_BIOAVAILABILITY_REVIEW_001"
+      ],
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending"
     },
     {
       "rule_id": "BIOTIN_HAIR_ONLY",
@@ -197,7 +207,10 @@
       "source_ids": [
         "NIH_BIOTIN_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
+      "evidence_claim_ids": [
+        "SAFETY_BIOTIN_LAB_INTERFERENCE_001"
+      ]
     },
     {
       "rule_id": "CAFF_HIGH_BASELINE",
@@ -338,7 +351,10 @@
       "source_ids": [
         "NIH_EXERCISE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
+      "evidence_claim_ids": [
+        "CREATINE_STRENGTH_POWER_EVIDENCE_001"
+      ]
     },
     {
       "rule_id": "CREATINE_KIDNEY",
@@ -357,7 +373,10 @@
       "source_ids": [
         "NCCIH_TURMERIC"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
+      "evidence_claim_ids": [
+        "SAFETY_CURCUMIN_LIVER_INJURY_001"
+      ]
     },
     {
       "rule_id": "CURCUMIN_PREG",
@@ -509,7 +528,10 @@
       "source_ids": [
         "NIH_MAGNESIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
+      "evidence_claim_ids": [
+        "MAGNESIUM_KIDNEY_CLEARANCE_SAFETY_001"
+      ]
     },
     {
       "rule_id": "MAGGLY_KIDNEY",
@@ -563,7 +585,10 @@
         "NCCIH_MELATONIN",
         "NIH_PREGNANCY_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
+      "evidence_claim_ids": [
+        "SAFETY_MELATONIN_PREGNANCY_EVIDENCE_GAP_001"
+      ]
     },
     {
       "rule_id": "METHYLB12_ALREADY_B12",
@@ -661,7 +686,10 @@
       "source_ids": [
         "NIH_OMEGA3_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
+      "evidence_claim_ids": [
+        "SAFETY_OMEGA3_ANTICOAGULANT_CONTEXT_001"
+      ]
     },
     {
       "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
@@ -758,7 +786,10 @@
       "source_ids": [
         "NIH_VITA_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_appraisal_pending",
+      "evidence_claim_ids": [
+        "VITAMIN_A_LOW_DIETARY_INTAKE_ASSESSMENT_001"
+      ]
     },
     {
       "rule_id": "VITA_PREG_CURRENT_USE",
