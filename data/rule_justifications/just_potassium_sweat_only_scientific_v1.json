@@ -1,0 +1,47 @@
+{
+  "rule_justification_id": "JUST_POTASSIUM_SWEAT_ONLY_SCIENTIFIC_V1",
+  "rule_id": "POTASSIUM_SWEAT_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_sweat_level",
+    "training_duration",
+    "climate_exposure",
+    "diet_pattern",
+    "supplements_current_use",
+    "kidney_disease",
+    "medications_regular_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_sweat_level",
+        [
+          "high",
+          "very_high"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend potassium based only on sweat level; assess duration, conditions, diet, hydration, product composition, kidney status and medicines.",
+  "safety_exclusions": [
+    "Do not infer potassium deficiency from sweating or cramps alone.",
+    "Do not recommend potassium tablets or salt substitutes without medical and medication review.",
+    "Do not conflate sodium and potassium replacement needs."
+  ],
+  "professional_escalation_conditions": [
+    "Kidney disease, heart failure, known hyperkalemia, ACE inhibitor/ARB or potassium-sparing diuretic use, palpitations or weakness."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_POTASSIUM_HP",
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "People reporting high sweat loss during exercise; sweat-related fluid and electrolyte losses do not by themselves establish a need for isolated potassium supplementation.",
+  "dose_constraints": "No potassium dose from this rule. Exercise hydration/electrolyte strategy must be based on event duration, sweat rate, diet and appropriate sports guidance.",
+  "certainty_and_limitations": "NIH ODS Potassium and Exercise fact sheets provide general potassium and exercise context; high sweat loss alone does not justify isolated potassium supplementation. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
