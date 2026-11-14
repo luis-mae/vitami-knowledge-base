@@ -1,0 +1,52 @@
+{
+  "rule_justification_id": "JUST_WHEY_STRENGTH_LOW_PROTEIN_SCIENTIFIC_V1",
+  "rule_id": "WHEY_STRENGTH_LOW_PROTEIN",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_type",
+    "goals_primary",
+    "diet_protein_sources",
+    "diet_protein_amount",
+    "protein_intolerance",
+    "milk_allergy",
+    "kidney_disease",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_type_contains",
+        "strength"
+      ],
+      [
+        "goals_primary_contains",
+        "strength_muscle"
+      ],
+      [
+        "diet_protein_sources",
+        "low"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend whey from training goal alone; estimate dietary protein, clarify allergy/intolerance and assess renal or other relevant health context.",
+  "safety_exclusions": [
+    "Do not promise muscle gain independent of resistance training and total diet.",
+    "Do not assume whey is required if food intake meets needs.",
+    "Do not recommend whey protein in milk-protein allergy."
+  ],
+  "professional_escalation_conditions": [
+    "Chronic kidney disease, milk allergy, severe gastrointestinal symptoms, pregnancy or medically prescribed protein restriction."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "Adults doing strength training who report low dietary protein; whey may be a convenient food-derived protein source when an actual intake gap is confirmed.",
+  "dose_constraints": "No dose from this rule. If needed, calculate total daily protein from food and products using an appropriate life-stage/activity context; avoid duplicate products.",
+  "certainty_and_limitations": "NIH ODS Exercise and Athletic Performance fact sheet discusses protein and exercise; individual needs vary and whey is not uniquely required. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
