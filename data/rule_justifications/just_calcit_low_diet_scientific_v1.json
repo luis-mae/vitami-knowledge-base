@@ -31,7 +31,9 @@
   "professional_escalation_conditions": [
     "Kidney stones, hypercalcemia, kidney disease, parathyroid disease, malabsorption or osteoporosis treatment."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "CALCIUM_LOW_DAIRY_TOTAL_INTAKE_001"
+  ],
   "source_ids": [
     "NIH_CALCIUM_HP"
   ],
