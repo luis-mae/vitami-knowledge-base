@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_MVM_DIETARY_GAP_SCIENTIFIC_V1",
+  "rule_id": "MVM_DIETARY_GAP",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "diet_pattern",
+    "dietary_restrictions",
+    "diet_quality",
+    "supplements_current_use",
+    "profile_age",
+    "pregnancy_status"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "dietary_gaps"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend a multivitamin automatically; identify likely dietary gaps and reconcile current products first.",
+  "safety_exclusions": [
+    "Do not claim a multivitamin replaces a varied diet or prevents chronic disease.",
+    "Do not infer a specific nutrient deficiency from a broad dietary-gap response.",
+    "Do not duplicate nutrients across products."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, diagnosed deficiency, malabsorption, chronic disease, restrictive eating disorder or medically prescribed supplementation."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_MVM_HP"
+  ],
+  "population_and_context": "People reporting dietary gaps; a multivitamin/mineral may increase intake but product choice depends on actual dietary pattern, life stage and existing products.",
+  "dose_constraints": "No dose from this rule. Compare each product nutrient with life-stage reference intakes and upper limits; avoid unnecessary high-dose formulations.",
+  "certainty_and_limitations": "NIH ODS Multivitamin/mineral fact sheet describes formulation variability and limitations in evidence for broad outcomes. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
