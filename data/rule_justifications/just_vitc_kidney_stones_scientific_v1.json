@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_VITC_KIDNEY_STONES_SCIENTIFIC_V1",
+  "rule_id": "VITC_KIDNEY_STONES",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney_stones",
+    "stone_type",
+    "kidney_disease",
+    "vitc_product_amount",
+    "supplements_current_use",
+    "pro_labs_available"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney_stones",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend high-dose vitamin C until stone history/type, kidney function and total intake from all products are clarified.",
+  "safety_exclusions": [
+    "Do not assume every kidney-stone type has the same relationship to vitamin C.",
+    "Do not infer vitamin C deficiency from stone history.",
+    "Do not recommend high-dose vitamin C as a general wellness measure."
+  ],
+  "professional_escalation_conditions": [
+    "Recurrent calcium oxalate stones, chronic kidney disease, hyperoxaluria or prior oxalate nephropathy."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITC_HP"
+  ],
+  "population_and_context": "People with a history of kidney stones considering vitamin C supplements; high supplemental vitamin C intake may increase urinary oxalate in some contexts.",
+  "dose_constraints": "No dose from this rule. Reconcile total vitamin C intake and obtain clinician/urology guidance for recurrent stone disease.",
+  "certainty_and_limitations": "NIH ODS Vitamin C fact sheet describes potential oxalate-related concerns at high supplemental intakes; individual stone risk requires clinical assessment. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
