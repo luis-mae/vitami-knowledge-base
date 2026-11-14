@@ -1,0 +1,54 @@
+{
+  "rule_justification_id": "JUST_VITD_LOW_SUN_LOW_DIET_SCIENTIFIC_V1",
+  "rule_id": "VITD_LOW_SUN_LOW_DIET",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "sun_exposure",
+    "diet_vitamin_d_sources",
+    "age",
+    "pregnancy_status",
+    "supplements_current_use",
+    "kidney_disease"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "lifestyle_sun_exposure",
+        [
+          "low",
+          "very_low"
+        ]
+      ],
+      [
+        "diet_fatty_fish_weekly",
+        "<=1"
+      ],
+      [
+        "diet_fortified_foods",
+        [
+          "low",
+          "none"
+        ]
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If any required safety or context information is missing, do not add positive recommendation score; request clarification or escalate.",
+  "safety_exclusions": [
+    "Do not infer serum deficiency or prescribe high doses from sunlight/diet questionnaire alone; account for fortified foods and existing supplements."
+  ],
+  "professional_escalation_conditions": [
+    "Hypercalcemia, kidney disease/stones, granulomatous disease, pregnancy, malabsorption or high-dose use require clinician review."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITD_HP"
+  ],
+  "population_and_context": "People with both low sunlight exposure and low dietary vitamin D sources; risk context only, not diagnosis of deficiency.",
+  "dose_constraints": "No individualized dose from this rule; use age- and jurisdiction-appropriate intake references and laboratory assessment when indicated.",
+  "certainty_and_limitations": "NIH ODS Vitamin D fact sheet; serum 25(OH)D is the status marker; evidence and screening indications vary. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
