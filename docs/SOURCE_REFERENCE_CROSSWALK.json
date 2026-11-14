@@ -583,6 +583,127 @@
         "NIH_SELENIUM_HP"
       ],
       "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITA_LOW_DIET_CONTEXT",
+      "ingredient_id": "vitamin_a",
+      "source_ids": [
+        "NIH_VITA_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITA_PREG_CURRENT_USE",
+      "ingredient_id": "vitamin_a",
+      "source_ids": [
+        "NIH_VITA_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITC_KIDNEY_STONES",
+      "ingredient_id": "vitamin_c",
+      "source_ids": [
+        "NIH_VITC_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITC_LOW_FRUITVEG",
+      "ingredient_id": "vitamin_c",
+      "source_ids": [
+        "NIH_VITC_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITC_SMOKER",
+      "ingredient_id": "vitamin_c",
+      "source_ids": [
+        "NIH_VITC_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITD_KIDNEY",
+      "ingredient_id": "vitamin_d",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITD_LOW_SUN",
+      "ingredient_id": "vitamin_d",
+      "source_ids": [
+        "NIH_VITD_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITE_ANTIOXIDANT_ONLY",
+      "ingredient_id": "vitamin_e",
+      "source_ids": [
+        "NIH_VITE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITE_BLEEDING",
+      "ingredient_id": "vitamin_e",
+      "source_ids": [
+        "NIH_VITE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITK_BONE_GOAL_ONLY",
+      "ingredient_id": "vitamin_k",
+      "source_ids": [
+        "NIH_VITK_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "VITK_CURRENT_USE_MEDICATION",
+      "ingredient_id": "vitamin_k",
+      "source_ids": [
+        "NIH_VITK_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "WHEY_MILK_ALLERGY",
+      "ingredient_id": "whey_protein",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "WHEY_STRENGTH_LOW_PROTEIN",
+      "ingredient_id": "whey_protein",
+      "source_ids": [
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ZGLU_ALREADY_ZINC",
+      "ingredient_id": "zinc_gluconate",
+      "source_ids": [
+        "NIH_ZINC_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "ZGLU_VEGAN_CONTEXT",
+      "ingredient_id": "zinc_gluconate",
+      "source_ids": [
+        "NIH_ZINC_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
     }
   ],
   "library_entries_pending_source_specific_review": [
@@ -603,5 +724,5 @@
     "Review primary documents and current update dates before marking any source verified.",
     "Do not promote any draft rule to active from this mapping alone."
   ],
-  "expansion_count": 60
+  "expansion_count": 75
 }
