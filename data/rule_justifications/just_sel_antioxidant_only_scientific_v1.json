@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_SEL_ANTIOXIDANT_ONLY_SCIENTIFIC_V1",
+  "rule_id": "SEL_ANTIOXIDANT_ONLY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "diet_pattern",
+    "diet_selenium_sources",
+    "supplements_current_use",
+    "multivitamin_product_label"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "antioxidant_interest"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend selenium solely for antioxidant interest; assess diet, current products and any clinical indication.",
+  "safety_exclusions": [
+    "Do not claim selenium supplements prevent cancer or broadly improve health in selenium-replete people.",
+    "Do not infer deficiency from an antioxidant goal.",
+    "Do not duplicate selenium from multivitamins or fortified products."
+  ],
+  "professional_escalation_conditions": [
+    "Thyroid disease, pregnancy, chronic kidney disease, known selenium deficiency or signs of excess exposure."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_SELENIUM_HP"
+  ],
+  "population_and_context": "People interested in antioxidants without a diagnosed selenium deficiency or specific indication; selenium supplementation is not justified by generic antioxidant interest alone.",
+  "dose_constraints": "No dose from this rule. Reconcile dietary and supplemental selenium against life-stage reference values and upper limits.",
+  "certainty_and_limitations": "NIH ODS Selenium fact sheet describes dietary needs, upper limits and mixed evidence for supplementation outcomes. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
