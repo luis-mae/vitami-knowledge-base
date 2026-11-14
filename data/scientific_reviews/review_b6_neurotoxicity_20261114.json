@@ -1,0 +1,40 @@
+{
+  "scientific_review_id": "REVIEW_B6_NEUROTOXICITY_20261114",
+  "evidence_claim_id": "B6_NEUROTOXICITY_UL_2023",
+  "review_method": "regulatory_assessment",
+  "protocol_or_search_strategy": "Targeted review of EFSA scientific opinion 10.2903/j.efsa.2023.8006 and NIH ODS Vitamin B6 Health Professional Fact Sheet, accessed 2026-11-14.",
+  "databases": [
+    "EFSA Journal",
+    "NIH Office of Dietary Supplements"
+  ],
+  "search_date": "2026-11-14",
+  "inclusion_criteria": [
+    "Official scientific risk assessments and government nutrient fact sheets."
+  ],
+  "exclusion_criteria": [
+    "Marketing claims and non-authoritative dosage summaries."
+  ],
+  "included_study_references": [
+    "EFSA Panel NDA. Scientific opinion on the tolerable upper intake level for vitamin B6. EFSA Journal. 2023;21(5):e08006. DOI:10.2903/j.efsa.2023.8006."
+  ],
+  "risk_of_bias_tool": "Not applicable to the risk-assessment document itself; underlying evidence appraisal to be reviewed.",
+  "risk_of_bias_summary": "EFSA reports systematic reviews of literature conducted by a contractor; underlying study-level appraisal has not been independently repeated for Vitami.",
+  "domains": {
+    "risk_of_bias": "pending",
+    "inconsistency": "pending",
+    "indirectness": "pending",
+    "imprecision": "pending",
+    "publication_bias": "pending"
+  },
+  "certainty_rating": "not_assessed",
+  "applicability": "Safety gate context only; distinguish EFSA and U.S. FNB ULs.",
+  "conflicts_or_uncertainties": [
+    "EFSA UL is 12 mg/day; U.S. FNB UL reported by NIH ODS is 100 mg/day.",
+    "A UL is not an intake target or personalized dose.",
+    "Symptoms require clinical evaluation."
+  ],
+  "reviewer": null,
+  "reviewed_at": null,
+  "decision": "draft",
+  "version": "1.0.0"
+}
