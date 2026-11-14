@@ -1,0 +1,38 @@
+{
+  "attribution_id": "ATTR_COQ10_GENERIC_ENERGY_001_NCCIH_COQ10",
+  "source_id": "NCCIH_COQ10",
+  "claim_ids": [
+    "COQ10_GENERIC_ENERGY_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Coenzyme Q10",
+  "document_title": "Coenzyme Q10",
+  "organization_name": "National Center for Complementary and Integrative Health",
+  "original_url": "https://www.nccih.nih.gov/health/coenzyme-q10",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Generic energy/vitality or anti-aging claims.",
+  "limitations": [
+    "Source page is dated 2019 and requires a current literature search.",
+    "This is not a conclusion about all CoQ10 indications.",
+    "No dose recommendation is supported by this claim."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "US",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
