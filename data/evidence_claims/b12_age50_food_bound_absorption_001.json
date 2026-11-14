@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "B12_AGE50_FOOD_BOUND_ABSORPTION_001",
+  "ingredient_id": "vitamin_b12",
+  "claim_text": "Some adults aged 50 years and older may have reduced absorption of naturally food-bound vitamin B12; fortified foods and supplements provide forms that do not require release from food proteins in the same way.",
+  "health_goal_or_outcome": "Support safe assessment of nutrient intake and avoid inappropriate or duplicate supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific reference values apply.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "Adults aged 50 years and older; assess fortified-food and supplement intake."
+  },
+  "ingredient_form_or_preparation": "Food, fortified foods and/or relevant supplement preparations; verify exact product form and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS B12 Health Professional Fact Sheet describes food-bound B12 absorption and fortified/supplemental sources.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Age alone does not diagnose deficiency; symptoms and laboratory findings require clinical evaluation.",
+    "Source claim and cited underlying studies require full-text appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_B12_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
