@@ -611,7 +611,9 @@
     {
       "attribution_id": "RULE_ATTR_CHOLINE_PREGNANCY_CONTEXT_NIH_CHOLINE_HP",
       "rule_id": "CHOLINE_PREGNANCY_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CHOLINE_PREGNANCY_INTAKE_REVIEW_001"
+      ],
       "source_id": "NIH_CHOLINE_HP",
       "organization": "NIH ODS",
       "document_title": "Choline — Health Professional Fact Sheet",
@@ -632,7 +634,9 @@
     {
       "attribution_id": "RULE_ATTR_CHOLINE_PREGNANCY_CONTEXT_NIH_PREGNANCY_HP",
       "rule_id": "CHOLINE_PREGNANCY_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CHOLINE_PREGNANCY_INTAKE_REVIEW_001"
+      ],
       "source_id": "NIH_PREGNANCY_HP",
       "organization": "NIH ODS",
       "document_title": "Dietary Supplements and Life Stages: Pregnancy — Health Professional Fact Sheet",
@@ -827,7 +831,9 @@
     {
       "attribution_id": "RULE_ATTR_D3_PARENT_LOW_SUN_NIH_VITD_HP",
       "rule_id": "D3_PARENT_LOW_SUN",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITD_LOW_SUN_NOT_DIAGNOSIS_002"
+      ],
       "source_id": "NIH_VITD_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin D — Health Professional Fact Sheet",
@@ -913,7 +919,9 @@
     {
       "attribution_id": "RULE_ATTR_IODINE_LOW_SOURCE_CONTEXT_NIH_IODINE_HP",
       "rule_id": "IODINE_LOW_SOURCE_CONTEXT",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "IODINE_LOW_DIETARY_SOURCE_REVIEW_001"
+      ],
       "source_id": "NIH_IODINE_HP",
       "organization": "NIH ODS",
       "document_title": "Iodine — Health Professional Fact Sheet",
@@ -1269,7 +1277,9 @@
     {
       "attribution_id": "RULE_ATTR_METHYLB12_ALREADY_B12_NIH_B12_HP",
       "rule_id": "METHYLB12_ALREADY_B12",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "B12_EXISTING_PRODUCT_DUPLICATION_001"
+      ],
       "source_id": "NIH_B12_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Vitamin B12 — Health Professional Fact Sheet",
@@ -1925,7 +1935,9 @@
     {
       "attribution_id": "RULE_ATTR_VITK_BONE_GOAL_ONLY_NIH_VITK_HP",
       "rule_id": "VITK_BONE_GOAL_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "VITK_BONE_GOAL_NO_AUTOMATIC_SUPPLEMENT_001"
+      ],
       "source_id": "NIH_VITK_HP",
       "organization": "NIH ODS",
       "document_title": "Vitamin K — Health Professional Fact Sheet",
