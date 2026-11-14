@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "B6_CURRENT_USE_NEURO_EXCESS_RISK_001",
+  "ingredient_id": "vitamin_b6",
+  "claim_text": "Excessive supplemental vitamin B6 intake, particularly with prolonged use, can cause sensory peripheral neuropathy; users with neurological symptoms who take B6-containing products require assessment of total dose and duration.",
+  "health_goal_or_outcome": "Support safe, context-specific assessment and prevent inappropriate supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific guidance applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People currently taking B6-containing supplements and reporting neurological symptoms."
+  },
+  "ingredient_form_or_preparation": "Dietary and/or supplemental sources; verify product label and total exposure.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Vitamin B6 Health Professional Fact Sheet describes neuropathy associated with excessive supplemental B6 exposure.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Symptoms have multiple causes; do not diagnose B6 toxicity from questionnaire data alone.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_B6_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
