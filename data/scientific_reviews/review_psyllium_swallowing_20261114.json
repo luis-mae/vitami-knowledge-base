@@ -1,0 +1,38 @@
+{
+  "scientific_review_id": "REVIEW_PSYLLIUM_SWALLOWING_20261114",
+  "evidence_claim_id": "PSYLLIUM_SWALLOWING_OBSTRUCTION_001",
+  "review_method": "regulatory_assessment",
+  "protocol_or_search_strategy": "Targeted review of 21 CFR §201.319, 2025 annual edition, accessed 2026-11-14.",
+  "databases": [
+    "U.S. Government Publishing Office eCFR/CFR"
+  ],
+  "search_date": "2026-11-14",
+  "inclusion_criteria": [
+    "Primary U.S. regulation governing warnings and directions for covered oral products containing hydrophilic gums including psyllium."
+  ],
+  "exclusion_criteria": [
+    "Unverified secondary product advice."
+  ],
+  "included_study_references": [
+    "21 CFR §201.319, 2025 annual edition, 90 FR 14780 (Apr. 1, 2025) citation source page."
+  ],
+  "risk_of_bias_tool": "Not applicable to binding regulation; legal scope review required.",
+  "risk_of_bias_summary": "Regulatory text is primary authority for its defined scope.",
+  "domains": {
+    "risk_of_bias": "not_applicable",
+    "inconsistency": "not_applicable",
+    "indirectness": "jurisdictional_scope_pending",
+    "imprecision": "not_applicable",
+    "publication_bias": "not_applicable"
+  },
+  "certainty_rating": "not_assessed",
+  "applicability": "Covered U.S. OTC drug products; applicability to dietary supplements and non-U.S. products requires separate legal review.",
+  "conflicts_or_uncertainties": [
+    "Do not generalize statutory labeling requirements beyond the covered product class and jurisdiction.",
+    "Product labels and clinical context remain relevant."
+  ],
+  "reviewer": null,
+  "reviewed_at": null,
+  "decision": "draft",
+  "version": "1.0.0"
+}
