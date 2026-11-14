@@ -223,7 +223,10 @@
       "source_ids": [
         "NIH_CALCIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "CALCIUM_KIDNEY_STONE_INTAKE_001"
+      ]
     },
     {
       "rule_id": "CHOLINE_COGNITIVE_ONLY",
@@ -352,7 +355,10 @@
       "source_ids": [
         "NIH_IODINE_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "IODINE_THYROID_DYSFUNCTION_001"
+      ]
     },
     {
       "rule_id": "IRONBIS_FATIGUE_ONLY",
@@ -525,7 +531,10 @@
       "source_ids": [
         "NIH_POTASSIUM_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "POTASSIUM_MEDICATION_HYPERKALEMIA_001"
+      ]
     },
     {
       "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
@@ -631,7 +640,10 @@
       "source_ids": [
         "NIH_VITD_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "VITD_KIDNEY_METABOLISM_SAFETY_001"
+      ]
     },
     {
       "rule_id": "VITD_LOW_SUN",
@@ -711,7 +723,10 @@
       "source_ids": [
         "NIH_ZINC_HP"
       ],
-      "mapping_status": "source_mapped_claim_required"
+      "mapping_status": "substantive_claim_linked_full_review_pending",
+      "evidence_claim_ids": [
+        "ZINC_EXCESS_COPPER_DEFICIENCY_001"
+      ]
     },
     {
       "rule_id": "ZINC_HAIR_ONLY",
