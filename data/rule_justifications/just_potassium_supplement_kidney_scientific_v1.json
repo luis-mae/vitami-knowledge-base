@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_POTASSIUM_SUPPLEMENT_KIDNEY_SCIENTIFIC_V1",
+  "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney",
+    "renal_function_known",
+    "medications_regular_use",
+    "medications_list",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend potassium until renal function, medication list, existing supplements and clinical indication have been reviewed.",
+  "safety_exclusions": [
+    "Do not infer potassium deficiency from kidney disease, fatigue or cramps alone.",
+    "Do not recommend potassium-based salt substitutes without checking renal and medication context.",
+    "Do not advise stopping prescribed medicines."
+  ],
+  "professional_escalation_conditions": [
+    "Chronic kidney disease, dialysis, known hyperkalemia, heart failure or use of ACE inhibitors, ARBs or potassium-sparing diuretics.",
+    "Weakness, palpitations, syncope or abnormal serum potassium."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_POTASSIUM_HP"
+  ],
+  "population_and_context": "People with kidney disease or impaired renal function considering potassium supplementation; impaired potassium excretion may raise risk of hyperkalemia.",
+  "dose_constraints": "No dose from this rule. Require clinician assessment of serum potassium, renal function, indication and interacting medicines.",
+  "certainty_and_limitations": "NIH ODS Potassium fact sheet describes potassium balance and medication-related hyperkalemia risks. Individual decisions require laboratory and clinical review. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
