@@ -1,0 +1,43 @@
+{
+  "rule_justification_id": "JUST_PROBIO_DIGESTIVE_SCIENTIFIC_V1",
+  "rule_id": "PROBIO_DIGESTIVE",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "goals_primary",
+    "digestive_symptoms",
+    "digestive_diagnosis",
+    "probiotic_product_strain",
+    "probiotic_product_cfu",
+    "medications_regular_use",
+    "immune_status"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "goals_primary_contains",
+        "digestive_health"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not make a generic probiotic recommendation; clarify the symptom/diagnosis and require evidence for the exact strain and formulation.",
+  "safety_exclusions": [
+    "Do not generalize evidence from one strain to all probiotics.",
+    "Do not promise treatment of unspecified digestive symptoms.",
+    "Do not assume CFU count alone establishes efficacy."
+  ],
+  "professional_escalation_conditions": [
+    "Immunocompromised status, severe illness, central venous catheter, recent major surgery, fever, blood in stool, severe pain or persistent symptoms."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_PROBIOTICS_HP"
+  ],
+  "population_and_context": "People selecting digestive health as a goal; probiotic evidence is strain-, product-, condition- and outcome-specific.",
+  "dose_constraints": "No generic dose from this rule. Any product-specific regimen must match studied strain(s), viable count, indication and label conditions.",
+  "certainty_and_limitations": "NIH ODS Probiotics fact sheet emphasizes strain- and condition-specific evidence; safety may differ in medically vulnerable users. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
