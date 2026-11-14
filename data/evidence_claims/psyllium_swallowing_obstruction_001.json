@@ -1,0 +1,37 @@
+{
+  "evidence_claim_id": "PSYLLIUM_SWALLOWING_OBSTRUCTION_001",
+  "ingredient_id": "psyllium_fiber",
+  "claim_text": "U.S. regulation 21 CFR §201.319 identifies esophageal obstruction and asphyxiation risks for oral products containing psyllium and other hydrophilic gums when taken without adequate fluid or by people with difficulty swallowing or esophageal narrowing/dysfunction. Covered OTC drug-product labeling must include a choking warning and directions to take with at least 8 ounces of fluid.",
+  "health_goal_or_outcome": "Prevention of choking, esophageal obstruction and asphyxiation associated with psyllium products.",
+  "population": {
+    "age_range": "People using covered oral products; age-specific product directions also apply.",
+    "sex_or_life_stage": "All life stages subject to product labeling.",
+    "health_status": "Particularly people with swallowing difficulty or esophageal narrowing/dysfunction.",
+    "other_context": "The cited regulation applies to covered U.S. OTC drug products; applicability to supplements and other jurisdictions requires legal review."
+  },
+  "ingredient_form_or_preparation": "Oral psyllium and other water-soluble gums in dry or incompletely hydrated dosage forms.",
+  "dose_context": {
+    "amount": null,
+    "unit": null,
+    "frequency": "with each covered dose",
+    "duration": "each administration"
+  },
+  "comparator": null,
+  "evidence_summary": "21 CFR §201.319, current annual CFR edition cited from GovInfo. The regulation requires a choking warning and at least 8 ounces of fluid for covered products; it identifies increased risk in people with swallowing difficulty or esophageal narrowing/dysfunction.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Regulatory scope is product- and jurisdiction-specific.",
+    "Do not present the 8-ounce direction as a universal legal requirement for every food supplement or country.",
+    "Product-specific label and professional assessment remain necessary."
+  ],
+  "source_ids": [
+    "US_CFR_21_201_319"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
