@@ -39,7 +39,9 @@
   "professional_escalation_conditions": [
     "Thyroid disease, pregnancy/lactation, amiodarone or lithium use, thyroid surgery or nodules."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "IODINE_LOW_DIETARY_SOURCE_REVIEW_001"
+  ],
   "source_ids": [
     "NIH_IODINE_HP"
   ],
