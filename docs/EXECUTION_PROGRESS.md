@@ -3,7 +3,7 @@
 Last recorded update: 2026-11-13
 
 ## Current stage
-**Stage 1 — Scientific knowledge consolidation: 98% (working estimate).**
+**Stage 1 — Scientific knowledge consolidation: 99% (working estimate).**
 
 ## Completed
 - Central source registry expanded to 74 records.
@@ -65,3 +65,5 @@ Last recorded update: 2026-11-13
 - Added five additional safety-first justifications and source-linked evidence claims for vitamin D and kidney disease, creatine and kidney disease, psyllium with swallowing difficulty, potassium supplementation based only on sweat loss, and vitamin K with regular medication. All remain draft/evidence-review and inactive pending full appraisal and professional review.
 
 - Added five structured scientific justifications and source-linked claims for electrolyte products in kidney/heart disease, iron during pregnancy, vitamin C with kidney-stone history, vitamin E and bleeding risk, and melatonin for chronic insomnia. All remain draft/evidence-review and inactive pending appraisal and professional review.
+
+- Added five structured scientific justifications and source-linked claims for choline in pregnancy, vitamin D with low sun exposure, iodine dietary-source review, existing B12 supplementation and vitamin K for a general bone-health goal. All remain draft/evidence-review and inactive pending full appraisal and professional review.
