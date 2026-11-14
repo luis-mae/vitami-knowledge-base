@@ -1,0 +1,19 @@
+{
+  "rule_justification_id": "RULE_JUSTIFICATION_TEMPLATE_DO_NOT_ACTIVATE",
+  "rule_id": "REQUIRED_RULE_ID",
+  "rule_version": "REQUIRED_RULE_VERSION",
+  "required_question_ids": [],
+  "activation_conditions": [],
+  "missing_information_behavior": "do_not_make_strong_recommendation",
+  "safety_exclusions": [],
+  "professional_escalation_conditions": [],
+  "evidence_claim_ids": [],
+  "source_ids": [],
+  "population_and_context": null,
+  "dose_constraints": null,
+  "certainty_and_limitations": null,
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
