@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "WHEY_STRENGTH_PROTEIN_GAP_001",
+  "ingredient_id": "whey_protein",
+  "claim_text": "Protein supplements such as whey can be a convenient way to address a confirmed dietary protein gap in strength-training adults, but they are not required when total dietary protein is adequate.",
+  "health_goal_or_outcome": "Support safe, indication-specific recommendations and avoid unsupported supplementation.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "Adults strength training who report low dietary protein intake."
+  },
+  "ingredient_form_or_preparation": "Relevant dietary and supplemental forms; verify exact product label and formulation.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "NIH ODS Exercise and Athletic Performance fact sheet discusses protein and exercise.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "No universal whey dose; assess total protein, life stage, renal status and milk allergy.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
