@@ -1,0 +1,38 @@
+{
+  "attribution_id": "ATTR_ALPHA_LIPOIC_ACID_SOURCE_REVIEW_001_ALA_SAFETY_META_2020",
+  "source_id": "ALA_SAFETY_META_2020",
+  "claim_ids": [
+    "ALPHA_LIPOIC_ACID_SOURCE_REVIEW_001"
+  ],
+  "rule_ids": [],
+  "display_name": "Safety Evaluation of α-Lipoic Acid Supplementation: A Systematic Review and Meta-Analysis of Randomized Placebo-Controlled Clinical Studies",
+  "document_title": "Safety Evaluation of α-Lipoic Acid Supplementation: A Systematic Review and Meta-Analysis of Randomized Placebo-Controlled Clinical Studies",
+  "organization_name": "Fogacci et al., Antioxidants",
+  "original_url": "https://pubmed.ncbi.nlm.nih.gov/33086555/",
+  "doi": null,
+  "publication_date": null,
+  "updated_date": null,
+  "accessed_at": "2026-11-13T00:00:00Z",
+  "what_it_supports": "Safety and clinical context of alpha-lipoic acid supplementation",
+  "limitations": [
+    "Safety findings are not efficacy evidence.",
+    "The meta-analysis search ended in August 2020.",
+    "Specific indications and medication interactions require separate review."
+  ],
+  "certainty_level": "not_assessed",
+  "jurisdiction": "international",
+  "display_policy": {
+    "show_name": true,
+    "show_original_link": true,
+    "show_logo_only_if_permitted": true,
+    "no_endorsement_claim": true
+  },
+  "logo": {
+    "asset_url": null,
+    "permission_status": "not_checked",
+    "attribution_text": null
+  },
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_at": null
+}
