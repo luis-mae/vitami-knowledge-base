@@ -1,0 +1,38 @@
+{
+  "rule_justification_id": "JUST_MAGCIT_KIDNEY_SCIENTIFIC_V1",
+  "rule_id": "MAGCIT_KIDNEY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "kidney_disease",
+    "renal_function_known",
+    "medications_regular_use",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If any required safety or context information is missing, do not add positive recommendation score; request clarification or escalate.",
+  "safety_exclusions": [
+    "Do not recommend magnesium supplementation where renal clearance may be impaired without clinician clearance."
+  ],
+  "professional_escalation_conditions": [
+    "Chronic kidney disease, reduced eGFR, dialysis, hypermagnesemia symptoms or relevant medicines."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "population_and_context": "Users with known or suspected renal impairment considering magnesium citrate; safety gate only.",
+  "dose_constraints": "No dose; maintain current safety override and professional review.",
+  "certainty_and_limitations": "NIH ODS Magnesium fact sheet describes toxicity risk with impaired renal function and medicine interactions. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
