@@ -28,7 +28,9 @@
     "Long-term high-dose zinc, anemia, neutropenia, neurological symptoms or suspected copper deficiency.",
     "Pregnancy, malabsorption or relevant medication interactions."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "ZINC_EXCESS_COPPER_DEFICIENCY_001"
+  ],
   "source_ids": [
     "NIH_ZINC_HP"
   ],
