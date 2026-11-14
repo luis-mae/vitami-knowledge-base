@@ -523,7 +523,9 @@
     {
       "attribution_id": "RULE_ATTR_CALCIT_LOW_DIET_NIH_CALCIUM_HP",
       "rule_id": "CALCIT_LOW_DIET",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CALCIUM_LOW_DAIRY_TOTAL_INTAKE_001"
+      ],
       "source_id": "NIH_CALCIUM_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Calcium — Health Professional Fact Sheet",
@@ -590,7 +592,9 @@
     {
       "attribution_id": "RULE_ATTR_CHOLINE_COGNITIVE_ONLY_NIH_CHOLINE_HP",
       "rule_id": "CHOLINE_COGNITIVE_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CHOLINE_COGNITIVE_GOAL_EVIDENCE_LIMIT_001"
+      ],
       "source_id": "NIH_CHOLINE_HP",
       "organization": "NIH ODS",
       "document_title": "Choline — Health Professional Fact Sheet",
@@ -657,7 +661,9 @@
     {
       "attribution_id": "RULE_ATTR_COLLAGEN_SKIN_COLLAGEN_META_2025",
       "rule_id": "COLLAGEN_SKIN",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "COLLAGEN_SKIN_CLAIMS_EVIDENCE_001"
+      ],
       "source_id": "COLLAGEN_META_2025",
       "organization": "Myung SK, Park Y",
       "document_title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
@@ -678,7 +684,9 @@
     {
       "attribution_id": "RULE_ATTR_COQ10_GENERIC_ENERGY_NCCIH_COQ10",
       "rule_id": "COQ10_GENERIC_ENERGY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "COQ10_GENERIC_ENERGY_EVIDENCE_LIMIT_001"
+      ],
       "source_id": "NCCIH_COQ10",
       "organization": "National Center for Complementary and Integrative Health",
       "document_title": "Coenzyme Q10",
@@ -699,7 +707,9 @@
     {
       "attribution_id": "RULE_ATTR_CREATINE_ENDURANCE_ONLY_NIH_EXERCISE_HP",
       "rule_id": "CREATINE_ENDURANCE_ONLY",
-      "evidence_claim_ids": [],
+      "evidence_claim_ids": [
+        "CREATINE_ENDURANCE_EVIDENCE_LIMIT_001"
+      ],
       "source_id": "NIH_EXERCISE_HP",
       "organization": "NIH Office of Dietary Supplements",
       "document_title": "Dietary Supplements for Exercise and Athletic Performance — Health Professional Fact Sheet",
