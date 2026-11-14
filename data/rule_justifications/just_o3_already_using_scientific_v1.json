@@ -29,7 +29,9 @@
     "Anticoagulant/antiplatelet use, bleeding disorder, planned surgery, atrial fibrillation or high-dose use.",
     "Pregnancy, significant cardiovascular disease or unexplained adverse effects."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "O3_ALREADY_USING_TOTAL_EPA_DHA_001"
+  ],
   "source_ids": [
     "NIH_OMEGA3_HP"
   ],
