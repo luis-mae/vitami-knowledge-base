@@ -1,0 +1,48 @@
+{
+  "rule_justification_id": "JUST_CREATINE_STRENGTH_SCIENTIFIC_V1",
+  "rule_id": "CREATINE_STRENGTH",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "activity_type",
+    "goals_primary"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "activity_type",
+        [
+          "strength",
+          "power",
+          "mixed_high_intensity"
+        ]
+      ],
+      [
+        "goals_primary_contains",
+        "strength_muscle"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If activity type or goal is missing, do not add positive score; request clarification.",
+  "safety_exclusions": [
+    "Do not infer benefit for endurance-only or low-intensity activity.",
+    "Do not recommend creatine to treat a medical condition.",
+    "Kidney disease, pregnancy, adolescence, medication use or abnormal renal tests require professional review."
+  ],
+  "professional_escalation_conditions": [
+    "Known kidney disease or reduced renal function.",
+    "Pregnancy, breastfeeding, minors, or relevant chronic disease.",
+    "Use of nephrotoxic medication or unexplained abnormal renal markers."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_EXERCISE_HP"
+  ],
+  "population_and_context": "Adults undertaking strength, power or repeated high-intensity exercise with a strength/muscle goal; exercise context alone is not a medical indication.",
+  "dose_constraints": "This rule only contributes a relevance score; dose must come from a separately reviewed ingredient record and must not be inferred from this rule.",
+  "certainty_and_limitations": "NIH ODS exercise fact sheet is a secondary government synthesis. Evidence for performance outcomes varies by exercise type, protocol and population; assess exact outcome and form before approval. This rule remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
