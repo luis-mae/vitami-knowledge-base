@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_VITD_KIDNEY_SCIENTIFIC_V1",
+  "rule_id": "VITD_KIDNEY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney",
+    "kidney_disease_type",
+    "renal_function_known",
+    "medications_regular_use",
+    "supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "If kidney condition type, renal status or medication context is unknown, retain professional-review override and do not generate an individualized vitamin D recommendation.",
+  "safety_exclusions": [
+    "Do not infer vitamin D deficiency or prescribe a dose from kidney disease status alone.",
+    "Do not treat all stages or causes of kidney disease as equivalent.",
+    "Do not override clinician-directed vitamin D or active CKD-mineral bone disorder treatment."
+  ],
+  "professional_escalation_conditions": [
+    "Chronic kidney disease, dialysis, transplant, abnormal calcium/phosphate or parathyroid results.",
+    "Known hypercalcemia, nephrolithiasis or use of active vitamin D analogues."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_VITD_HP"
+  ],
+  "population_and_context": "Users reporting kidney disease or impaired renal function who are being assessed for vitamin D; this is a safety escalation, not a contraindication for every kidney patient.",
+  "dose_constraints": "No dose from this rule. Assess 25(OH)D, calcium, phosphate, renal function and treatment context with the clinician where indicated.",
+  "certainty_and_limitations": "NIH ODS Vitamin D fact sheet describes vitamin D metabolism, toxicity and clinical context; kidney-specific management requires nephrology guidance and current CKD guidelines. This justification remains draft; source passage extraction, critical appraisal, certainty assessment and professional approval are required before activation.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
