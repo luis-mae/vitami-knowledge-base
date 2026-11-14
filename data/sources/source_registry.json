@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "sources": [
     {
       "id": "NIH_ODS_FACT_SHEETS",
@@ -333,6 +333,74 @@
       "url": "https://www.nccih.nih.gov/health/atoz",
       "source_type": "official_primary_index",
       "status": "verified_2026-08-09"
+    },
+    {
+      "id": "WHO_NUTRITION",
+      "title": "WHO — Nutrition",
+      "organization": "World Health Organization",
+      "url": "https://www.who.int/health-topics/nutrition",
+      "source_type": "official_primary_guidance",
+      "status": "registered"
+    },
+    {
+      "id": "SENASA_AR",
+      "title": "Servicio Nacional de Sanidad y Calidad Agroalimentaria",
+      "organization": "SENASA Argentina",
+      "url": "https://www.argentina.gob.ar/senasa",
+      "source_type": "national_regulatory_authority",
+      "status": "registered"
+    },
+    {
+      "id": "ARGENTINE_FOOD_CODE",
+      "title": "Código Alimentario Argentino",
+      "organization": "Argentina — normativa alimentaria",
+      "url": "https://www.argentina.gob.ar/anmat/codigoalimentario",
+      "source_type": "national_legal_framework",
+      "status": "registered_review_current_text"
+    },
+    {
+      "id": "PUBMED",
+      "title": "PubMed",
+      "organization": "US National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "source_type": "bibliographic_database",
+      "status": "registered"
+    },
+    {
+      "id": "COCHRANE",
+      "title": "Cochrane",
+      "organization": "Cochrane",
+      "url": "https://www.cochrane.org/",
+      "source_type": "evidence_synthesis_organization",
+      "status": "registered"
+    },
+    {
+      "id": "GRADE_WORKING_GROUP",
+      "title": "GRADE Working Group",
+      "organization": "GRADE Working Group",
+      "url": "https://www.gradeworkinggroup.org/",
+      "source_type": "evidence_methodology",
+      "status": "registered"
+    },
+    {
+      "id": "PRISMA_2020",
+      "title": "PRISMA 2020",
+      "organization": "PRISMA",
+      "url": "https://www.prisma-statement.org/",
+      "source_type": "systematic_review_reporting_guideline",
+      "status": "registered"
     }
-  ]
+  ],
+  "attribution_policy": {
+    "show_source_for_each_material_rule_application": true,
+    "require_original_document_or_publication_link": true,
+    "show_publication_and_access_or_review_dates_when_available": true,
+    "distinguish_regulatory_law_scientific_opinion_and_research": true,
+    "logos": {
+      "default": "organization_name_text",
+      "use_logo_only_after_brand_guideline_and_permission_review": true,
+      "never_imply_endorsement_or_sponsorship": true
+    },
+    "no_source_no_active_claim": true
+  }
 }
