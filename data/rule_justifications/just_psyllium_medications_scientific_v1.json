@@ -1,0 +1,42 @@
+{
+  "rule_justification_id": "JUST_PSYLLIUM_MEDICATIONS_SCIENTIFIC_V1",
+  "rule_id": "PSYLLIUM_MEDICATIONS",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "medications_regular_use",
+    "medications_list",
+    "swallowing_difficulty",
+    "hydration_status",
+    "psyllium_product_form"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "medications_regular_use",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not provide a universal timing interval; identify medicines and verify product labeling or pharmacist guidance before use.",
+  "safety_exclusions": [
+    "Do not assume psyllium is compatible with every oral medicine.",
+    "Do not apply one separation interval to all medications.",
+    "Retain swallowing and adequate-fluid safety checks."
+  ],
+  "professional_escalation_conditions": [
+    "Medicines with narrow therapeutic index or timing-sensitive absorption.",
+    "Dysphagia, esophageal narrowing, suspected obstruction or complex polypharmacy."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "population_and_context": "People taking regular medicines who are considering psyllium; timing and absorption interactions depend on the specific medication and product label.",
+  "dose_constraints": "Follow the specific product label and pharmacist/clinician advice on separation from medicines; no universal interval from this rule.",
+  "certainty_and_limitations": "FDA psyllium safety information and product labeling should be checked for exact formulation. Drug-specific interaction timing requires authoritative product monographs or pharmacist review. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
