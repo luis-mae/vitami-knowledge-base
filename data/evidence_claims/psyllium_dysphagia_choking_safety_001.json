@@ -1,0 +1,36 @@
+{
+  "evidence_claim_id": "PSYLLIUM_DYSPHAGIA_CHOKING_SAFETY_001",
+  "ingredient_id": "psyllium",
+  "claim_text": "Psyllium products require adequate fluid and safe swallowing; people with dysphagia or difficulty swallowing may be at risk of choking or obstruction and should not receive an automatic recommendation.",
+  "health_goal_or_outcome": "Prevent unsafe supplementation and ensure clinical context is considered.",
+  "population": {
+    "age_range": "As described in population context.",
+    "sex_or_life_stage": "Life-stage-specific assessment applies.",
+    "health_status": "Not a diagnostic claim.",
+    "other_context": "People reporting swallowing difficulty who are considering psyllium."
+  },
+  "ingredient_form_or_preparation": "Dietary and supplemental sources; verify exact product form and label.",
+  "dose_context": {
+    "amount": null,
+    "unit": "ingredient-specific units",
+    "frequency": null,
+    "duration": null
+  },
+  "comparator": null,
+  "evidence_summary": "Official psyllium product warnings describe choking risk and the need to take the product with adequate fluid.",
+  "certainty_level": "not_assessed",
+  "limitations": [
+    "Warnings and fluid instructions must be checked against the exact marketed product and jurisdiction.",
+    "Exact source passages and underlying evidence require full appraisal before approval."
+  ],
+  "source_ids": [
+    "FDA_PSYLLIUM_CHD"
+  ],
+  "scientific_review_ids": [],
+  "review_status": "evidence_review",
+  "approved_for_user_display": false,
+  "approved_for_rule_activation": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "version": "1.0.0"
+}
