@@ -1,0 +1,41 @@
+{
+  "rule_justification_id": "JUST_MAGGLY_KIDNEY_SCIENTIFIC_V1",
+  "rule_id": "MAGGLY_KIDNEY",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "conditions_kidney",
+    "renal_function_known",
+    "medications_regular_use",
+    "supplements_current_use",
+    "magnesium_product_amount"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "conditions_kidney",
+        true
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend magnesium until renal status, current products and medication context are clarified and clinician review is obtained where indicated.",
+  "safety_exclusions": [
+    "Do not infer magnesium deficiency from kidney disease or nonspecific symptoms.",
+    "Do not treat glycinate as exempt from magnesium-related safety concerns.",
+    "Do not duplicate magnesium across products."
+  ],
+  "professional_escalation_conditions": [
+    "Chronic kidney disease, reduced eGFR, dialysis, hypermagnesemia or medicines with relevant interactions."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_MAGNESIUM_HP"
+  ],
+  "population_and_context": "People with kidney disease considering magnesium glycinate; reduced renal clearance may increase risk of magnesium accumulation.",
+  "dose_constraints": "No dose from this rule; assess elemental magnesium, kidney function and total exposure with a clinician.",
+  "certainty_and_limitations": "NIH ODS Magnesium fact sheet describes toxicity risk in impaired renal function; salt form does not remove renal clearance concerns. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
