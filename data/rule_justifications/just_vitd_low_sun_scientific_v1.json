@@ -32,7 +32,9 @@
     "Kidney disease, hypercalcemia, kidney stones, malabsorption, granulomatous disease or pregnancy.",
     "Bone pain, muscle weakness, suspected deficiency or abnormal calcium/25(OH)D results."
   ],
-  "evidence_claim_ids": [],
+  "evidence_claim_ids": [
+    "VITD_LOW_SUN_STATUS_NOT_DIAGNOSIS_001"
+  ],
   "source_ids": [
     "NIH_VITD_HP"
   ],
