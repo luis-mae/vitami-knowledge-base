@@ -460,6 +460,129 @@
         "NIH_B12_HP"
       ],
       "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MTHF_PREGNANT",
+      "ingredient_id": "methylfolate_5mthf",
+      "source_ids": [
+        "NIH_FOLATE_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MTHF_PREG_PLANNING",
+      "ingredient_id": "methylfolate_5mthf",
+      "source_ids": [
+        "NIH_FOLATE_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MVM_ALREADY_SUPPLEMENTED",
+      "ingredient_id": "multivitamin_mineral",
+      "source_ids": [
+        "NIH_MVM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MVM_DIETARY_GAP",
+      "ingredient_id": "multivitamin_mineral",
+      "source_ids": [
+        "NIH_MVM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MVM_GENERAL_WELLNESS_ONLY",
+      "ingredient_id": "multivitamin_mineral",
+      "source_ids": [
+        "NIH_MVM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "O3_ALREADY_USING",
+      "ingredient_id": "omega_3_epa_dha",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "O3_BLEEDING",
+      "ingredient_id": "omega_3_epa_dha",
+      "source_ids": [
+        "NIH_OMEGA3_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "POTASSIUM_MEDICATION_CONTEXT",
+      "ingredient_id": "potassium",
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "POTASSIUM_SUPPLEMENT_KIDNEY",
+      "ingredient_id": "potassium",
+      "source_ids": [
+        "NIH_POTASSIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "POTASSIUM_SWEAT_ONLY",
+      "ingredient_id": "potassium",
+      "source_ids": [
+        "NIH_POTASSIUM_HP",
+        "NIH_EXERCISE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "PROBIO_DIGESTIVE",
+      "ingredient_id": "probiotics",
+      "source_ids": [
+        "NIH_PROBIOTICS_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "PSYLLIUM_MEDICATIONS",
+      "ingredient_id": "psyllium_fiber",
+      "source_ids": [
+        "FDA_PSYLLIUM_CHD"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "PSYLLIUM_SWALLOWING",
+      "ingredient_id": "psyllium_fiber",
+      "source_ids": [
+        "FDA_PSYLLIUM_CHD"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "SEL_ANTIOXIDANT_ONLY",
+      "ingredient_id": "selenium",
+      "source_ids": [
+        "NIH_SELENIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "SEL_HAIR_NAILS",
+      "ingredient_id": "selenium",
+      "source_ids": [
+        "NIH_SELENIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
     }
   ],
   "library_entries_pending_source_specific_review": [
@@ -480,5 +603,5 @@
     "Review primary documents and current update dates before marking any source verified.",
     "Do not promote any draft rule to active from this mapping alone."
   ],
-  "expansion_count": 45
+  "expansion_count": 60
 }
