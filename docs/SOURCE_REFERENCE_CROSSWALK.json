@@ -337,6 +337,129 @@
         "NIH_EXERCISE_HP"
       ],
       "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IODINE_LOW_SOURCE_CONTEXT",
+      "ingredient_id": "iodine",
+      "source_ids": [
+        "NIH_IODINE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IODINE_THYROID_CONTEXT",
+      "ingredient_id": "iodine",
+      "source_ids": [
+        "NIH_IODINE_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IRONBIS_FATIGUE_ONLY",
+      "ingredient_id": "iron_bisglycinate",
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IRONBIS_PREGNANCY",
+      "ingredient_id": "iron_bisglycinate",
+      "source_ids": [
+        "NIH_IRON_HP",
+        "NIH_PREGNANCY_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IRON_FATIGUE_ONLY",
+      "ingredient_id": "iron",
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IRON_KNOWN_HIGH_INTAKE",
+      "ingredient_id": "iron",
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "IRON_PREGNANCY",
+      "ingredient_id": "iron",
+      "source_ids": [
+        "NIH_IRON_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MAGCIT_KIDNEY",
+      "ingredient_id": "magnesium_citrate",
+      "source_ids": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MAGGLY_KIDNEY",
+      "ingredient_id": "magnesium_glycinate",
+      "source_ids": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MAGGLY_PARENT_GAP",
+      "ingredient_id": "magnesium_glycinate",
+      "source_ids": [
+        "NIH_MAGNESIUM_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MELATONIN_CHRONIC_INSOMNIA",
+      "ingredient_id": "melatonin",
+      "source_ids": [
+        "NCCIH_SLEEP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MELATONIN_JETLAG_SHIFT",
+      "ingredient_id": "melatonin",
+      "source_ids": [
+        "NCCIH_MELATONIN",
+        "NCCIH_SLEEP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "MELATONIN_PREGNANCY",
+      "ingredient_id": "melatonin",
+      "source_ids": [
+        "NCCIH_MELATONIN",
+        "NIH_PREGNANCY_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "METHYLB12_ALREADY_B12",
+      "ingredient_id": "methylcobalamin",
+      "source_ids": [
+        "NIH_B12_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
+    },
+    {
+      "rule_id": "METHYLB12_VEGAN",
+      "ingredient_id": "methylcobalamin",
+      "source_ids": [
+        "NIH_B12_HP"
+      ],
+      "mapping_status": "source_mapped_claim_required"
     }
   ],
   "library_entries_pending_source_specific_review": [
@@ -357,5 +480,5 @@
     "Review primary documents and current update dates before marking any source verified.",
     "Do not promote any draft rule to active from this mapping alone."
   ],
-  "expansion_count": 30
+  "expansion_count": 45
 }
