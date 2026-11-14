@@ -1,0 +1,40 @@
+{
+  "rule_justification_id": "JUST_MVM_ALREADY_SUPPLEMENTED_SCIENTIFIC_V1",
+  "rule_id": "MVM_ALREADY_SUPPLEMENTED",
+  "rule_version": "1.0.0-draft",
+  "required_question_ids": [
+    "supplements_current_use",
+    "multivitamin_product_label",
+    "multivitamin_frequency",
+    "additional_supplements_current_use"
+  ],
+  "activation_conditions": {
+    "all": [
+      [
+        "supplements_current_use_contains",
+        "multivitamin_mineral"
+      ]
+    ],
+    "any": []
+  },
+  "missing_information_behavior": "Do not recommend overlapping nutrients until the full product label, serving frequency and other supplements are reviewed.",
+  "safety_exclusions": [
+    "Do not assume all multivitamins have the same composition.",
+    "Do not stack additional single-nutrient products without calculating total intake.",
+    "Do not treat a multivitamin as treatment for a diagnosed deficiency."
+  ],
+  "professional_escalation_conditions": [
+    "Pregnancy, chronic disease, renal/hepatic disease, medication interactions or known micronutrient deficiency requiring treatment."
+  ],
+  "evidence_claim_ids": [],
+  "source_ids": [
+    "NIH_MVM_HP"
+  ],
+  "population_and_context": "People already taking a multivitamin/mineral product; overlapping micronutrients must be counted before recommending additional supplements.",
+  "dose_constraints": "No additional dose from this rule. Reconcile each relevant nutrient across all products against life-stage reference values and upper limits.",
+  "certainty_and_limitations": "NIH ODS Multivitamin/mineral fact sheet notes product variability and limited evidence for broad prevention claims; label-level review is essential. This justification remains draft pending source passage verification, critical appraisal, certainty assessment and professional review.",
+  "reviewer": null,
+  "reviewed_at": null,
+  "status": "draft",
+  "version": "1.0.0"
+}
