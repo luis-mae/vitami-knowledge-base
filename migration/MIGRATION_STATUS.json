@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "status": "structural_migration_complete_scientific_review_pending",
+  "total_compound_fiches": 101,
+  "migrated_fiches": 101,
+  "verified_claim_specific_citations": 0,
+  "scientific_review_completed": false,
+  "clinical_activation_allowed": false,
+  "legacy_records_preserved": true,
+  "notes": [
+    "All original library JSON objects retained verbatim inside migrated fiches",
+    "Source IDs are inherited at record level, not verified as individual claim support",
+    "Deep records and evidence claims are not yet fully attached to each fiche; migration script supports future local enrichment",
+    "No deployment or live app changes performed"
+  ],
+  "next_actions": [
+    "Run migration script locally on full checkout to attach deep records and evidence claims",
+    "Validate original source documents and exact claim-specific citations",
+    "Populate administration interactions and safety with cited evidence",
+    "Integrate into MVP only after validation"
+  ]
+}
