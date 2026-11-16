@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1.0",
+  "purpose": "Additive migration contract: preserve original evidence and source provenance; no automatic clinical activation.",
+  "source_repository": "luis-mae/vitami-knowledge-base",
+  "legacy_paths": [
+    "data/supplements/",
+    "data/rules/",
+    "data/sources/source_registry.json",
+    "data/questions/"
+  ],
+  "master_sections": [
+    "compound",
+    "claims",
+    "dosage",
+    "administration",
+    "contraindications",
+    "interactions",
+    "adverse_effects",
+    "question_links",
+    "rules",
+    "topics",
+    "articles",
+    "sources",
+    "regulatory",
+    "products"
+  ],
+  "migration_policy": {
+    "never_delete_legacy": true,
+    "preserve_original_ids": true,
+    "retain_original_source_ids": true,
+    "retain_exact_source_url_and_document_location": true,
+    "retain_source_document_version_and_access_date": true,
+    "retain_original_text": true,
+    "retain_legacy_path_and_json_pointer": true,
+    "missing_source": "flag_unverified_do_not_activate",
+    "source_registry_entry_alone": "insufficient_for_specific_claim",
+    "source_id_resolution": "source_registry plus specific document/section/locator",
+    "rules_require": "question_ids, evidence_claim_ids, source_ids, safety checks",
+    "clinical_status_default": "draft",
+    "public_recommendation_requires": "reviewed evidence, verified citations and safety approval"
+  },
+  "claim_provenance_template": {
+    "claim_id": null,
+    "legacy_claim_id": null,
+    "legacy_path": null,
+    "legacy_json_pointer": null,
+    "original_text": null,
+    "normalized_text": null,
+    "source_ids": [],
+    "source_locator": null,
+    "source_document_version": null,
+    "source_accessed_at": null,
+    "evidence_grade": null,
+    "review_status": "draft",
+    "migration_status": "pending_review"
+  },
+  "interaction_template": {
+    "compound_a_id": null,
+    "compound_b_id": null,
+    "mechanism": null,
+    "severity": null,
+    "can_separate_doses": "unknown",
+    "separation_interval_hours": null,
+    "separation_source_ids": [],
+    "risk_source_ids": [],
+    "decision": "professional_review",
+    "review_status": "draft"
+  },
+  "commercial_template": {
+    "product_id": null,
+    "compound_ids": [],
+    "supplier_id": null,
+    "brand": null,
+    "formulation": null,
+    "package_size": null,
+    "price": null,
+    "currency": null,
+    "country": null,
+    "price_checked_at": null,
+    "stock": null,
+    "regulatory_registration": null
+  },
+  "migration_progress": {
+    "inventory_completed": false,
+    "records_migrated": 0,
+    "records_reviewed": 0,
+    "records_activated": 0
+  }
+}
