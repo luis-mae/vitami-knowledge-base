@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "id": "caffeine_performance",
-  "migration_status": "migrated_pending_claim_specific_review",
+  "migration_status": "deep_record_linked_pending_scientific_review",
   "legacy_path": "phase2/library/caffeine_performance.json",
   "legacy_blob_sha": "cd2677efcaf6d7c86776a12ba4d9ec4231fd39fa",
   "original_record": {
@@ -160,5 +160,87 @@
   "regulatory": {
     "entries": []
   },
-  "activation_gate": "not_approved"
+  "activation_gate": "not_approved",
+  "deep_record": {
+    "legacy_path": "phase2/deep_records/caffeine_performance.json",
+    "original_record": {
+      "id": "caffeine_performance",
+      "status": "reviewed_draft",
+      "source_refs": [
+        "NIH_EXERCISE_HP"
+      ],
+      "evidence_doses": [
+        {
+          "amount_range": [
+            2,
+            6
+          ],
+          "unit": "mg/kg",
+          "timing": "15–60 min before exercise",
+          "status": "studied_range"
+        },
+        {
+          "adult_total_daily_safety_reference": 400,
+          "unit": "mg/day",
+          "status": "FDA general safety reference via NIH ODS"
+        }
+      ],
+      "key_evidence": [
+        "Can improve endurance and some intermittent high-intensity performance.",
+        "Higher doses are unlikely to improve performance further and increase adverse-effect risk.",
+        "Can disrupt sleep; half-life is about 4–5 hours."
+      ],
+      "required_questions": [
+        "pro_weight",
+        "activity_type",
+        "lifestyle_caffeine_daily",
+        "symptom_sleep",
+        "work_schedule_type"
+      ],
+      "safety_questions": [
+        "conditions_other_relevant",
+        "medications_regular_use",
+        "profile_age"
+      ],
+      "temporal_archetype": "acute_event_linked",
+      "dose_logic": {
+        "basic_status": "supplement_range_supported",
+        "daily_baseline": "not_required",
+        "event_timing_supported": true
+      },
+      "review_protocol": {
+        "status": "per_event_tolerance",
+        "automatic_event_count": null,
+        "dose_change_allowed_by_rule": false
+      }
+    }
+  },
+  "question_ids_preserved": [
+    "pro_weight",
+    "activity_type",
+    "lifestyle_caffeine_daily",
+    "symptom_sleep",
+    "work_schedule_type"
+  ],
+  "safety_question_ids_preserved": [
+    "conditions_other_relevant",
+    "medications_regular_use",
+    "profile_age"
+  ],
+  "dose_evidence_preserved": [
+    {
+      "amount_range": [
+        2,
+        6
+      ],
+      "unit": "mg/kg",
+      "timing": "15–60 min before exercise",
+      "status": "studied_range"
+    },
+    {
+      "adult_total_daily_safety_reference": 400,
+      "unit": "mg/day",
+      "status": "FDA general safety reference via NIH ODS"
+    }
+  ]
 }

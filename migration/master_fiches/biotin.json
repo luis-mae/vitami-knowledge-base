@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "id": "biotin",
-  "migration_status": "migrated_pending_claim_specific_review",
+  "migration_status": "deep_record_linked_pending_scientific_review",
   "legacy_path": "phase2/library/biotin.json",
   "legacy_blob_sha": "deabaa205d146446a4ca63a5b9c40d643db96a3c",
   "original_record": {
@@ -160,5 +160,63 @@
   "regulatory": {
     "entries": []
   },
-  "activation_gate": "not_approved"
+  "activation_gate": "not_approved",
+  "deep_record": {
+    "legacy_path": "phase2/deep_records/biotin.json",
+    "original_record": {
+      "id": "biotin",
+      "status": "reviewed_draft",
+      "source_refs": [
+        "NIH_BIOTIN_HP"
+      ],
+      "reference_values": {
+        "age_19_plus": {
+          "ai": 30,
+          "unit": "mcg/day"
+        },
+        "pregnancy": {
+          "ai": 30,
+          "unit": "mcg/day"
+        },
+        "lactation": {
+          "ai": 35,
+          "unit": "mcg/day"
+        },
+        "ul": "not_established"
+      },
+      "key_evidence": [
+        "Deficiency can include rash, hair loss and brittle nails.",
+        "Evidence for cosmetic supplementation in people without deficiency is supported mainly by a few case reports/small studies.",
+        "High biotin intake can interfere with laboratory tests, including hormone and 25(OH)D assays."
+      ],
+      "required_questions": [
+        "goals_primary",
+        "symptom_hair_nails",
+        "supplements_current_use"
+      ],
+      "safety_questions": [
+        "pro_labs_available",
+        "conditions_other_relevant"
+      ],
+      "temporal_archetype": "chronic_steady_exposure",
+      "dose_logic": {
+        "basic_status": "reference_only",
+        "cosmetic_high_dose": "not_recommended_without_specific_evidence"
+      },
+      "review_protocol": {
+        "status": "not_defined",
+        "automatic_days": null
+      }
+    }
+  },
+  "question_ids_preserved": [
+    "goals_primary",
+    "symptom_hair_nails",
+    "supplements_current_use"
+  ],
+  "safety_question_ids_preserved": [
+    "pro_labs_available",
+    "conditions_other_relevant"
+  ],
+  "dose_evidence_preserved": []
 }
