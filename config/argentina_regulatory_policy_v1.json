@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "country": "AR",
+  "default": "unverified",
+  "classes": [
+    "dietary_store",
+    "pharmacy_otc",
+    "pharmacy_prescription",
+    "restricted",
+    "not_available",
+    "unverified"
+  ],
+  "classification_unit": [
+    "ingredient_id",
+    "chemical_form",
+    "strength",
+    "route",
+    "product_registration",
+    "country",
+    "checked_at"
+  ],
+  "requirements": {
+    "verified": [
+      "official_regulatory_source",
+      "source_locator",
+      "date_checked",
+      "exact_product_or_regulatory_category"
+    ],
+    "otc_alternative": [
+      "same_indication",
+      "evidence_grade",
+      "contraindication_screen",
+      "source_ids"
+    ]
+  },
+  "safety_rules": [
+    "No inferir venta libre por nombre del ingrediente",
+    "No extrapolar categoría entre dosis, formas o vías",
+    "No recomendar sustituciones sin evidencia por indicación",
+    "Sin verificación, mostrar no verificado",
+    "No derivar dosis personalizadas de reglas proporcionales"
+  ],
+  "recommendation_display": {
+    "preferred": "ideal_según_evidencia_y_seguridad",
+    "alternative": "sin_receta_si_equivalencia_justificada",
+    "if_none": "No se identificó alternativa de venta libre respaldada para este objetivo"
+  }
+}
