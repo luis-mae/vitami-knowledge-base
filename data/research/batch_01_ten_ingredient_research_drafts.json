@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "batch": "01",
+  "disclaimer": "Preliminary research prompts, not verified medical facts or complete fiches.",
+  "records": [
+    {
+      "ingredient_id": "vitamin_d",
+      "name_es": "Vitamina D",
+      "status": "draft",
+      "candidate_indication_es": "Salud ósea e ingesta/exposición insuficiente",
+      "safety_review_prompt_es": "Evaluar hipercalcemia, enfermedad renal y medicación",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "vitamin_b12",
+      "name_es": "Vitamina B12",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente, particularmente dietas veganas",
+      "safety_review_prompt_es": "Distinguir prevención de tratamiento de deficiencia y malabsorción",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "iron",
+      "name_es": "Hierro",
+      "status": "draft",
+      "candidate_indication_es": "Deficiencia documentada o riesgo de ingesta insuficiente",
+      "safety_review_prompt_es": "No indicar por fatiga aislada; evaluar exceso y causas",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "magnesium",
+      "name_es": "Magnesio",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta nutricional insuficiente",
+      "safety_review_prompt_es": "Revisar función renal e interacciones por absorción",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "calcium",
+      "name_es": "Calcio",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente para objetivos óseos",
+      "safety_review_prompt_es": "Considerar litiasis, función renal e ingesta total",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "zinc",
+      "name_es": "Zinc",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Exceso crónico puede alterar cobre; revisar interacciones",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "folate",
+      "name_es": "Folato",
+      "status": "draft",
+      "candidate_indication_es": "Contextos reproductivos y riesgo de ingesta insuficiente",
+      "safety_review_prompt_es": "Distinguir formas y revisar situación de vitamina B12",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "potassium",
+      "name_es": "Potasio",
+      "status": "draft",
+      "candidate_indication_es": "Déficit documentado en contexto clínico",
+      "safety_review_prompt_es": "Precaución renal y con fármacos que elevan potasio",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "vitamin_b6",
+      "name_es": "Vitamina B6",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Dosis elevadas prolongadas pueden producir neuropatía",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "iodine",
+      "name_es": "Yodo",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Revisar enfermedad tiroidea y riesgo de exceso",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    }
+  ]
+}
