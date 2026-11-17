@@ -1,0 +1,130 @@
+{
+  "version": "1.0",
+  "status": "research_queue_not_clinically_verified",
+  "country": "AR",
+  "batches": [
+    {
+      "id": "01_vitamins",
+      "family": "Vitamins and related",
+      "priority": [
+        "vitamin D",
+        "vitamin B12",
+        "vitamin B6",
+        "folate",
+        "vitamin C",
+        "vitamin A",
+        "vitamin E",
+        "vitamin K",
+        "thiamin",
+        "riboflavin",
+        "niacin",
+        "biotin",
+        "pantothenic acid"
+      ],
+      "focus": [
+        "dose limits",
+        "pregnancy",
+        "drug interactions",
+        "form-specific Argentine availability"
+      ]
+    },
+    {
+      "id": "02_minerals",
+      "family": "Minerals",
+      "priority": [
+        "iron",
+        "magnesium",
+        "calcium",
+        "zinc",
+        "potassium",
+        "iodine",
+        "selenium",
+        "copper",
+        "chromium",
+        "manganese",
+        "phosphorus",
+        "sodium"
+      ],
+      "focus": [
+        "renal function",
+        "upper intake levels",
+        "drug interactions",
+        "salt/form/dose"
+      ]
+    },
+    {
+      "id": "03_sports",
+      "family": "Sports and amino acids",
+      "priority": [
+        "creatine",
+        "beta-alanine",
+        "caffeine",
+        "protein powder",
+        "whey protein",
+        "plant protein",
+        "citrulline",
+        "arginine",
+        "BCAA",
+        "leucine",
+        "taurine",
+        "carnitine"
+      ],
+      "focus": [
+        "evidence by sport",
+        "renal context",
+        "pregnancy",
+        "adverse effects"
+      ]
+    },
+    {
+      "id": "04_lipids_fiber",
+      "family": "Lipids, fibers and gut",
+      "priority": [
+        "omega-3 EPA DHA",
+        "algal omega-3",
+        "psyllium",
+        "inulin",
+        "probiotics",
+        "prebiotics",
+        "collagen",
+        "choline",
+        "CoQ10",
+        "melatonin"
+      ],
+      "focus": [
+        "strain-specific evidence",
+        "bleeding",
+        "drug spacing",
+        "formulation"
+      ]
+    },
+    {
+      "id": "05_botanicals",
+      "family": "Botanicals and other",
+      "priority": [
+        "curcumin",
+        "ginger",
+        "ashwagandha",
+        "green tea extract",
+        "ginseng",
+        "garlic extract",
+        "turmeric",
+        "echinacea",
+        "St John's wort",
+        "berberine"
+      ],
+      "focus": [
+        "liver safety",
+        "drug interactions",
+        "regulatory category",
+        "evidence by indication"
+      ]
+    }
+  ],
+  "notes": [
+    "These are research candidates, not the verified master list of 100.",
+    "Do not add candidate as a new ingredient until deduplicated against existing catalog.",
+    "Every claim requires passage-level citation and expert review.",
+    "No recommendations or Argentine regulatory statuses asserted by this queue."
+  ]
+}
