@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "batch": "02",
+  "disclaimer": "Research prompts only, not verified clinical claims or completed fiches.",
+  "records": [
+    {
+      "ingredient_id": "selenium",
+      "name_es": "Selenio",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Exceso crónico y toxicidad",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "vitamin_c",
+      "name_es": "Vitamina C",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Dosis altas y tolerancia gastrointestinal",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "vitamin_a",
+      "name_es": "Vitamina A",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Teratogenicidad de retinoides y exceso",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "vitamin_e",
+      "name_es": "Vitamina E",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Riesgo de sangrado e interacciones",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "vitamin_k",
+      "name_es": "Vitamina K",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Antagonistas de vitamina K",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "thiamin",
+      "name_es": "Tiamina B1",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Identificar riesgo de deficiencia clínica",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "riboflavin",
+      "name_es": "Riboflavina B2",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Revisar indicación específica",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "niacin",
+      "name_es": "Niacina B3",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Hepatotoxicidad y efectos metabólicos a dosis farmacológicas",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "copper",
+      "name_es": "Cobre",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "Exceso y relación con suplementación de zinc",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "chromium",
+      "name_es": "Cromo",
+      "status": "draft",
+      "candidate_indication_es": "Ingesta insuficiente",
+      "safety_review_prompt_es": "No asumir beneficio metabólico sin evidencia por indicación",
+      "source_ids": [],
+      "dose": "pending_source_review",
+      "argentina_availability": "unverified_by_form_and_strength",
+      "alternatives": "not_assessed",
+      "languages": {
+        "es": "draft",
+        "en": "pending",
+        "it": "pending"
+      },
+      "public_recommendation_allowed": false
+    }
+  ]
+}
