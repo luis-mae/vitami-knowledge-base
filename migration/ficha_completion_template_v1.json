@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "ingredient_id": null,
+  "review_status": "draft",
+  "scientific": {
+    "identity": null,
+    "indications": [],
+    "dosage": [],
+    "administration": [],
+    "contraindications": [],
+    "interactions": [],
+    "adverse_effects": []
+  },
+  "regulatory": {
+    "AR": [
+      {
+        "formulation": null,
+        "dose": null,
+        "status": "unverified",
+        "source_ids": [],
+        "checked_at": null
+      }
+    ]
+  },
+  "alternatives": [],
+  "translations": {
+    "es": {
+      "review_status": "draft"
+    },
+    "en": {
+      "review_status": "draft"
+    },
+    "it": {
+      "review_status": "draft"
+    }
+  },
+  "provenance": {
+    "legacy_paths": [],
+    "source_ids": []
+  }
+}
