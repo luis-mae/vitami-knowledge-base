@@ -1,0 +1,143 @@
+{
+  "version": "1.0",
+  "date": "2026-11-18",
+  "type": "INDEPENDENT_REAUDIT_OF_PREVIOUS_CLOSURE",
+  "baseline_commit": "6be87055cf53f557ac9faa406199297b05d6a745",
+  "catalog_previous_commit": "9c764d055ac297aef240cd3fe0f98746d929125b",
+  "scope": "55 records: independent structural and readiness inspection plus external spot-check of original NIH ODS exercise performance and EFSA vitamin B6 source",
+  "counts": {
+    "total": 55,
+    "trilingual_editorial": 55,
+    "source_urls": 55,
+    "dose_reference_audit_entries": 55,
+    "source_claim_verified_true": 0,
+    "automatic_recommendation_allowed_true": 0,
+    "source_passage_full_claim_audit_true": 0,
+    "nonempty_safety_flags": 12
+  },
+  "readiness_field_counts": {
+    "source_claim_verified": {
+      "false": 55
+    },
+    "release_gate.automatic_recommendation_allowed": {
+      "false": 55
+    },
+    "publication_readiness.eligible_for_automated_recommendation": {
+      "false": 55
+    },
+    "recommendation_decision.allow_automatic_recommendation": {
+      "false": 55
+    }
+  },
+  "findings": [
+    {
+      "severity": "BLOCKER",
+      "code": "NO_FULL_CLAIM_VERIFICATION",
+      "detail": "All 55 source_passage_audit entries explicitly say claim_by_claim_full_audit=false. Source URL plus dose note is not validation of indication, safety, interactions and translations."
+    },
+    {
+      "severity": "BLOCKER",
+      "code": "AUTOMATIC_RECOMMENDATION_DISABLED",
+      "detail": "All 55 release_gate.automatic_recommendation_allowed=false; user-defined no-professional-signoff policy is compatible with keeping evidence and safety gating."
+    },
+    {
+      "severity": "BLOCKER",
+      "code": "SAFETY_AND_RULES_NOT_VERIFIED",
+      "detail": "No evidence that all individual interactions, contraindications, age/pregnancy and formulation conditions are fully verified and wired to active decision rules."
+    },
+    {
+      "severity": "WARNING",
+      "code": "ASHWAGANDHA_FORMULATION",
+      "ids": [
+        "ashwagandha"
+      ],
+      "detail": "Prior audit explicitly marked dose/formulation precision partial."
+    },
+    {
+      "severity": "WARNING",
+      "code": "DIETARY_REFERENCE_NOT_SUPPLEMENT_DOSE",
+      "detail": "Many nutrient reference_intake fields are total dietary RDAs/AIs, not individualized supplemental dose."
+    },
+    {
+      "severity": "WARNING",
+      "code": "B6_JURISDICTION_DIFFERENCE",
+      "detail": "EFSA adult UL 12 mg/day versus US FNB adult UL 100 mg/day; locale-specific dose safety cannot be inferred from RDA alone.",
+      "sources": [
+        "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8006",
+        "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+      ]
+    }
+  ],
+  "verdict": {
+    "editorial_complete": true,
+    "dose_reference_screening_recorded": true,
+    "full_independent_claim_validation_complete": false,
+    "eligible_for_publication_as_informational_draft": "conditional_on_clear_nonpersonalized_labeling_and_source_integrity",
+    "eligible_for_automated_personalized_recommendations": false,
+    "approved_functional_55": false,
+    "professional_signoff_required_for_editorial_completion": false
+  },
+  "next_actions": [
+    "Map each indication, dosage, contraindication and interaction to specific original source passage with date and population/formulation.",
+    "Verify ES/EN/IT consistency and correct mismatches.",
+    "Implement and test evidence-backed decision rules, dose formulas, upper limits, interactions and safety exclusions.",
+    "Reaudit and enable release gates only after evidence/safety tests pass; no professional certification gate imposed."
+  ],
+  "record_ids": [
+    "vitamin_d",
+    "vitamin_b12",
+    "iron",
+    "magnesium",
+    "calcium",
+    "zinc",
+    "folate",
+    "potassium",
+    "vitamin_b6",
+    "iodine",
+    "selenium",
+    "vitamin_c",
+    "vitamin_a",
+    "vitamin_e",
+    "vitamin_k",
+    "thiamin",
+    "riboflavin",
+    "niacin",
+    "copper",
+    "chromium",
+    "pantothenic_acid",
+    "biotin",
+    "manganese",
+    "phosphorus",
+    "sodium",
+    "creatine",
+    "beta_alanine",
+    "caffeine",
+    "protein_powder",
+    "whey_protein",
+    "plant_protein",
+    "citrulline",
+    "arginine",
+    "bcaa",
+    "leucine",
+    "taurine",
+    "carnitine",
+    "omega3_epa_dha",
+    "algal_omega3",
+    "psyllium",
+    "inulin",
+    "probiotics",
+    "prebiotics",
+    "collagen",
+    "choline",
+    "coq10",
+    "melatonin",
+    "curcumin",
+    "ginger",
+    "ashwagandha",
+    "green_tea_extract",
+    "ginseng",
+    "garlic_extract",
+    "turmeric",
+    "echinacea"
+  ]
+}
