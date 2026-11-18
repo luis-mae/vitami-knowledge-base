@@ -3615,6 +3615,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "55 mcg/día adultos; embarazo 60; lactancia 70",
+        "upper_limit_scope_es": "400 mcg/día adultos (total); selenosis por exceso",
+        "contraindications_precautions_es": "400 mcg/día adultos (total); selenosis por exceso; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "Quimioterapia con cisplatino puede disminuir niveles; no se ha demostrado que suplementar prevenga sus efectos adversos",
+        "administration_es": "Oral según etiqueta, con o sin comida",
+        "recommendation_basis_es": "No suplementar automáticamente si ingesta suficiente; evaluar exposición total y fuentes concentradas.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -3874,6 +3914,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "Varones 90 mg/día; mujeres 75; embarazo 85; lactancia 120; fumadores +35 mg/día",
+        "upper_limit_scope_es": "2000 mg/día adultos (total); diarrea y molestias gastrointestinales con dosis elevadas",
+        "contraindications_precautions_es": "2000 mg/día adultos (total); diarrea y molestias gastrointestinales con dosis elevadas; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "Precaución con quimioterapia/radioterapia; posible interacción de suplementos antioxidantes con simvastatina+niacina",
+        "administration_es": "Oral con o sin alimentos; dividir si hay molestias",
+        "recommendation_basis_es": "La RDA es ingesta total, no dosis de tratamiento ni prueba de prevención de infecciones.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -4159,6 +4239,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "Varones 900 mcg RAE/día; mujeres 700; embarazo 770; lactancia 1300",
+        "upper_limit_scope_es": "3000 mcg/día de vitamina A preformada en adultos; no aplicar este UL a carotenoides provitamina A",
+        "contraindications_precautions_es": "3000 mcg/día de vitamina A preformada en adultos; no aplicar este UL a carotenoides provitamina A; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "Orlistat reduce absorción; retinoides sistémicos aumentan riesgo de toxicidad; evitar exceso de retinol durante embarazo",
+        "administration_es": "Con comida con grasa; diferenciar retinol de beta-caroteno",
+        "recommendation_basis_es": "No recomendar altas dosis de retinol en embarazo; no equiparar mcg RAE, IU y beta-caroteno sin conversión por forma.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -4418,6 +4538,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "15 mg/día alfa-tocoferol adultos y embarazo; lactancia 19",
+        "upper_limit_scope_es": "1000 mg/día alfa-tocoferol de suplementos adultos; riesgo hemorrágico con dosis altas",
+        "contraindications_precautions_es": "1000 mg/día alfa-tocoferol de suplementos adultos; riesgo hemorrágico con dosis altas; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "Anticoagulantes y antiagregantes (warfarina); simvastatina+niacina; precaución con quimioterapia/radioterapia",
+        "administration_es": "Con comida que contenga grasa",
+        "recommendation_basis_es": "No indicar megadosis antioxidantes para prevenir enfermedades; distinguir formas y unidades.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -4685,6 +4845,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "AI varones 120 mcg/día; mujeres 90; embarazo/lactancia 90",
+        "upper_limit_scope_es": "Sin UL establecido para K1/K2; ausencia de UL no excluye interacción grave",
+        "contraindications_precautions_es": "Sin UL establecido para K1/K2; ausencia de UL no excluye interacción grave; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "Warfarina y anticoagulantes antagonistas de vitamina K: mantener ingesta consistente y control clínico; orlistat y secuestrantes de ácidos biliares afectan absorción",
+        "administration_es": "Con alimentos, preferentemente con algo de grasa",
+        "recommendation_basis_es": "No modificar suplementación sin supervisión en usuarios de antagonistas de vitamina K.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -4953,6 +5153,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "Varones 1,2 mg/día; mujeres 1,1; embarazo/lactancia 1,4",
+        "upper_limit_scope_es": "Sin UL establecido; falta de UL no demuestra inocuidad ilimitada",
+        "contraindications_precautions_es": "Sin UL establecido; falta de UL no demuestra inocuidad ilimitada; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "Furosemida puede reducir niveles; fluorouracilo puede causar déficit funcional",
+        "administration_es": "Oral según formulación; con o sin comida",
+        "recommendation_basis_es": "Deficiencia grave, beriberi y sospecha de Wernicke requieren atención y protocolos específicos, no RDA.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -5219,6 +5459,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "Varones 1,3 mg/día; mujeres 1,1; embarazo 1,4; lactancia 1,6",
+        "upper_limit_scope_es": "Sin UL establecido; evidencia limitada para descartar toxicidad a dosis muy altas",
+        "contraindications_precautions_es": "Sin UL establecido; evidencia limitada para descartar toxicidad a dosis muy altas; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "NIH ODS: no se conocen interacciones farmacológicas clínicamente relevantes",
+        "administration_es": "Oral con o sin alimentos",
+        "recommendation_basis_es": "No extrapolar dosis investigadas para migraña a necesidades nutricionales generales.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -5494,6 +5774,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "Varones 16 mg NE/día; mujeres 14; embarazo 18; lactancia 17",
+        "upper_limit_scope_es": "35 mg/día adultos para niacina suplementaria/fortificada; no niacina natural alimentaria; rubor y hepatotoxicidad con dosis farmacológicas",
+        "contraindications_precautions_es": "35 mg/día adultos para niacina suplementaria/fortificada; no niacina natural alimentaria; rubor y hepatotoxicidad con dosis farmacológicas; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "Isoniazida y pirazinamida pueden afectar estado; antidiabéticos pueden interactuar; no confundir ácido nicotínico con nicotinamida",
+        "administration_es": "Con alimentos si causa molestias; formulaciones de liberación prolongada requieren precaución especial",
+        "recommendation_basis_es": "No usar dosis farmacológicas para lípidos sin supervisión; distinguir mg NE y formulaciones.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -5767,6 +6087,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "900 mcg/día adultos; embarazo 1000; lactancia 1300",
+        "upper_limit_scope_es": "10000 mcg/día adultos (total); toxicidad hepática por exceso",
+        "contraindications_precautions_es": "10000 mcg/día adultos (total); toxicidad hepática por exceso; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "No hay interacciones farmacológicas clínicamente relevantes conocidas según NIH ODS; zinc elevado reduce absorción de cobre",
+        "administration_es": "Oral según formulación; con alimentos si causa molestias",
+        "recommendation_basis_es": "En enfermedad de Wilson y trastornos del metabolismo del cobre, evitar recomendación automática.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
@@ -6035,6 +6395,46 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "source_sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Intake",
+          "Interactions with Medications (or Copper)"
+        ],
+        "reference_intake_by_population_es": "AI varones 19–50 35 mcg/día, 51+ 30; mujeres 19–50 25, 51+ 20; embarazo 30; lactancia 45",
+        "upper_limit_scope_es": "Sin UL establecido; datos de seguridad limitados y precaución en enfermedad renal/hepática",
+        "contraindications_precautions_es": "Sin UL establecido; datos de seguridad limitados y precaución en enfermedad renal/hepática; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+        "medication_interactions_es": "Insulina y metformina/otros antidiabéticos: hipoglucemia; picolinato de cromo reduce absorción de levotiroxina si se toma simultáneamente",
+        "administration_es": "Oral según producto; separar de levotiroxina conforme indicación farmacéutica",
+        "recommendation_basis_es": "No recomendar automáticamente para control de glucosa o peso: evidencia de beneficio clínico incierta.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "dieta",
+          "medicación",
+          "comorbilidades",
+          "formulación",
+          "objetivo"
+        ],
+        "source_opened_in_current_session": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "bibliographic_scope_pass": true,
+          "app_testing": false
+        },
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "source_claims_full_line_by_line_verified": false,
+        "clinical_release_approved": false,
+        "app_functionality_not_in_scope": true
       }
     },
     {
