@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-18",
+  "status": "active_not_clinically_approved",
+  "baseline_commit": "95db5e30811ea11b4b2ae89521fe75b1a6203878",
+  "method": "Six parallel workstreams; preserve original records; evidence and product regulation must be verified individually.",
+  "reconciliation": {
+    "clinical_specific_drafts_reported": 67,
+    "remaining_clinical_specific_drafts_reported": 33,
+    "editorial_audit_candidate_records": 100,
+    "editorial_audit_specific_source_links": 20,
+    "editorial_audit_es_en_it_indications": 20,
+    "editorial_audit_es_en_it_safety": 60,
+    "clinically_approved": 0,
+    "warning": "67 clinical-specific drafts and 20 source-linked structured editorial records measure different datasets; do not combine them or describe 67 as verified."
+  },
+  "streams": [
+    {
+      "id": 1,
+      "scope": "library entries 1-25",
+      "next": "Map canonical ingredient IDs to research drafts, flag missing source-specific citations and safety claims."
+    },
+    {
+      "id": 2,
+      "scope": "library entries 26-50",
+      "next": "Complete indication-specific draft evidence and contraindication fields, never infer unverified doses."
+    },
+    {
+      "id": 3,
+      "scope": "library entries 51-75",
+      "next": "Check clinical draft coverage and provenance at ingredient level."
+    },
+    {
+      "id": 4,
+      "scope": "library entries 76-100",
+      "next": "Prioritize remaining clinical drafts and check interactions, special populations, dose-form distinction."
+    },
+    {
+      "id": 5,
+      "scope": "Argentina commercial and regulatory",
+      "next": "Verify status per actual product and formulation; unknown until RNE/RNPA/ANMAT or applicable authority verified. Never assume prescription status from ingredient alone."
+    },
+    {
+      "id": 6,
+      "scope": "integration QA and localization",
+      "next": "Reconcile 100 candidate IDs vs canonical library, ES/EN/IT semantic parity, source URLs, audit safety gates, keep recommendation activation disabled."
+    }
+  ],
+  "acceptance": [
+    "100 canonical entries individually reviewed",
+    "100 source-specific references verified",
+    "100 multilingual indication and safety sets reviewed",
+    "regulatory status separated by product, form and dose",
+    "no public recommendation until clinical and governance signoff"
+  ]
+}
