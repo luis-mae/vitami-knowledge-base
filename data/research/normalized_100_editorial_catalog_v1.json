@@ -311,13 +311,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+          "reference_or_studied_dose": "15 mcg (600 UI)",
+          "safety_summary": "Hipercalcemia y toxicidad; precaución en enfermedad renal y trastornos granulomatosos",
+          "interaction_summary": "Orlistat; corticoides; tiazidas; estatinas: efectos específicos según fármaco",
+          "administration_summary": "Con una comida que contenga algo de grasa mejora absorción; no requiere horario fijo.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
@@ -631,13 +667,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+          "reference_or_studied_dose": "2,4 mcg",
+          "safety_summary": "Malabsorción, anemia perniciosa y cirugía gastrointestinal requieren valoración; RDA no trata déficit diagnosticado",
+          "interaction_summary": "Metformina; inhibidores de bomba de protones; antagonistas H2 pueden disminuir niveles/absorción",
+          "administration_summary": "Vía oral con o sin alimentos según producto; malabsorción diagnosticada exige esquema específico.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
@@ -995,13 +1067,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+          "reference_or_studied_dose": "8 mg varones; 18 mg mujeres 19–50",
+          "safety_summary": "Hemocromatosis, sobrecarga férrica y sobredosis pediátrica; no suplementar por síntomas inespecíficos",
+          "interaction_summary": "Levodopa; levotiroxina; inhibidores de bomba de protones",
+          "administration_summary": "Separar de levotiroxina y otros medicamentos según ficha; la tolerancia digestiva puede exigir con alimentos; no asumir dosis de tratamiento.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
@@ -1297,13 +1405,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+          "reference_or_studied_dose": "400–420 mg varones; 310–320 mg mujeres",
+          "safety_summary": "Insuficiencia renal aumenta riesgo de toxicidad; diarrea por dosis altas",
+          "interaction_summary": "Bisfosfonatos; tetraciclinas; quinolonas; diuréticos; inhibidores de bomba de protones",
+          "administration_summary": "Separar de tetraciclinas y quinolonas según intervalos del medicamento; formulación y tolerancia digestiva determinan tomas.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
@@ -1624,13 +1768,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+          "reference_or_studied_dose": "1000 mg (19–50 años)",
+          "safety_summary": "Hipercalcemia y litiasis; precaución con insuficiencia renal",
+          "interaction_summary": "Dolutegravir; levotiroxina; litio; quinolonas",
+          "administration_summary": "Carbonato de calcio preferentemente con alimentos; citrato con o sin alimentos; repartir cantidades grandes para optimizar absorción.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
@@ -1950,13 +2130,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+          "reference_or_studied_dose": "11 mg varones; 8 mg mujeres",
+          "safety_summary": "Exceso prolongado causa deficiencia de cobre y anemia",
+          "interaction_summary": "Quinolonas; tetraciclinas; penicilamina; diuréticos tiazídicos",
+          "administration_summary": "Separar de quinolonas/tetraciclinas según ficha; tomar con alimentos si provoca molestias.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
@@ -2274,13 +2490,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+          "reference_or_studied_dose": "400 mcg DFE",
+          "safety_summary": "Exceso de ácido fólico puede enmascarar anemia por déficit de B12; distinguir mcg DFE de mcg ácido fólico",
+          "interaction_summary": "Metotrexato (contexto terapéutico); antiepilépticos; sulfasalazina",
+          "administration_summary": "Oral con o sin alimentos; embarazo y prevención de defectos del tubo neural requieren pautas específicas distintas de la RDA.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
@@ -2639,13 +2891,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+          "reference_or_studied_dose": "3400 mg varones; 2600 mg mujeres (AI)",
+          "safety_summary": "Enfermedad renal e hiperpotasemia pueden causar arritmias graves",
+          "interaction_summary": "IECA; ARA-II; diuréticos ahorradores de potasio",
+          "administration_summary": "No establecer horario ni dosis de suplemento a partir de AI; uso depende de formulación y riesgo renal.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
@@ -2965,13 +3253,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+          "reference_or_studied_dose": "1,3 mg (19–50 años)",
+          "safety_summary": "Neuropatía sensitiva por exceso crónico",
+          "interaction_summary": "Cicloserina; algunos antiepilépticos; teofilina",
+          "administration_summary": "Con o sin alimentos según producto; no utilizar dosis altas crónicas sin indicación.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
@@ -3292,13 +3616,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+          "reference_or_studied_dose": "150 mcg",
+          "safety_summary": "Exceso puede provocar disfunción tiroidea, especialmente en personas susceptibles",
+          "interaction_summary": "Antitiroideos; IECA y diuréticos ahorradores de potasio cuando se usa yoduro potásico",
+          "administration_summary": "Oral según formulación; evitar indicaciones inespecíficas en enfermedad tiroidea.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
@@ -3608,13 +3968,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+          "reference_or_studied_dose": "55 mcg",
+          "safety_summary": "400 mcg/día adultos (total); selenosis por exceso; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "Quimioterapia con cisplatino puede disminuir niveles; no se ha demostrado que suplementar prevenga sus efectos adversos",
+          "administration_summary": "Oral según etiqueta, con o sin comida",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
@@ -3907,13 +4303,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+          "reference_or_studied_dose": "90 mg varones; 75 mg mujeres",
+          "safety_summary": "2000 mg/día adultos (total); diarrea y molestias gastrointestinales con dosis elevadas; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "Precaución con quimioterapia/radioterapia; posible interacción de suplementos antioxidantes con simvastatina+niacina",
+          "administration_summary": "Oral con o sin alimentos; dividir si hay molestias",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
@@ -4232,13 +4664,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+          "reference_or_studied_dose": "900 mcg RAE varones; 700 mcg RAE mujeres",
+          "safety_summary": "3000 mcg/día de vitamina A preformada en adultos; no aplicar este UL a carotenoides provitamina A; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "Orlistat reduce absorción; retinoides sistémicos aumentan riesgo de toxicidad; evitar exceso de retinol durante embarazo",
+          "administration_summary": "Con comida con grasa; diferenciar retinol de beta-caroteno",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
@@ -4531,13 +4999,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+          "reference_or_studied_dose": "15 mg alfa-tocoferol",
+          "safety_summary": "1000 mg/día alfa-tocoferol de suplementos adultos; riesgo hemorrágico con dosis altas; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "Anticoagulantes y antiagregantes (warfarina); simvastatina+niacina; precaución con quimioterapia/radioterapia",
+          "administration_summary": "Con comida que contenga grasa",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
@@ -4838,13 +5342,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+          "reference_or_studied_dose": "120 mcg varones; 90 mcg mujeres (AI)",
+          "safety_summary": "Sin UL establecido para K1/K2; ausencia de UL no excluye interacción grave; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "Warfarina y anticoagulantes antagonistas de vitamina K: mantener ingesta consistente y control clínico; orlistat y secuestrantes de ácidos biliares afectan absorción",
+          "administration_summary": "Con alimentos, preferentemente con algo de grasa",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
@@ -5146,13 +5686,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+          "reference_or_studied_dose": "1,2 mg varones; 1,1 mg mujeres",
+          "safety_summary": "Sin UL establecido; falta de UL no demuestra inocuidad ilimitada; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "Furosemida puede reducir niveles; fluorouracilo puede causar déficit funcional",
+          "administration_summary": "Oral según formulación; con o sin comida",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
@@ -5452,13 +6028,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+          "reference_or_studied_dose": "1,3 mg varones; 1,1 mg mujeres",
+          "safety_summary": "Sin UL establecido; evidencia limitada para descartar toxicidad a dosis muy altas; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "NIH ODS: no se conocen interacciones farmacológicas clínicamente relevantes",
+          "administration_summary": "Oral con o sin alimentos",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
@@ -5767,13 +6379,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+          "reference_or_studied_dose": "16 mg NE varones; 14 mg NE mujeres",
+          "safety_summary": "35 mg/día adultos para niacina suplementaria/fortificada; no niacina natural alimentaria; rubor y hepatotoxicidad con dosis farmacológicas; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "Isoniazida y pirazinamida pueden afectar estado; antidiabéticos pueden interactuar; no confundir ácido nicotínico con nicotinamida",
+          "administration_summary": "Con alimentos si causa molestias; formulaciones de liberación prolongada requieren precaución especial",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
@@ -6080,13 +6728,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+          "reference_or_studied_dose": "900 mcg",
+          "safety_summary": "10000 mcg/día adultos (total); toxicidad hepática por exceso; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "No hay interacciones farmacológicas clínicamente relevantes conocidas según NIH ODS; zinc elevado reduce absorción de cobre",
+          "administration_summary": "Oral según formulación; con alimentos si causa molestias",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
@@ -6388,13 +7072,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+          "reference_or_studied_dose": "35 mcg varones; 25 mcg mujeres (AI)",
+          "safety_summary": "Sin UL establecido; datos de seguridad limitados y precaución en enfermedad renal/hepática; considerar embarazo, enfermedades relevantes, aporte dietario y formulación.",
+          "interaction_summary": "Insulina y metformina/otros antidiabéticos: hipoglucemia; picolinato de cromo reduce absorción de levotiroxina si se toma simultáneamente",
+          "administration_summary": "Oral según producto; separar de levotiroxina conforme indicación farmacéutica",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
@@ -6736,13 +7456,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+          "reference_or_studied_dose": "AI 5 mg/day adults; pregnancy 6 mg/day; lactation 7 mg/day",
+          "safety_summary": "Sin UL establecido; dosis muy altas pueden causar diarrea y molestias gastrointestinales",
+          "interaction_summary": "No se conocen interacciones clínicamente relevantes con medicamentos",
+          "administration_summary": "Oral con o sin alimentos según producto",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
@@ -7086,13 +7842,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+          "reference_or_studied_dose": "AI 30 mcg/day adults; lactation 35 mcg/day",
+          "safety_summary": "Sin UL establecido; riesgo de resultados falsos en pruebas de troponina, tiroides y otras pruebas por interferencia con biotina; avisar al laboratorio.",
+          "interaction_summary": "Interferencia analítica relevante; algunos anticonvulsivos pueden reducir biotina",
+          "administration_summary": "Oral según formulación; informar al laboratorio antes de análisis",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
@@ -7419,13 +8211,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+          "reference_or_studied_dose": "AI 2.3 mg/day men, 1.8 mg/day women",
+          "safety_summary": "UL adultos 11 mg/día total; riesgo neurológico por exceso, especial cuidado en enfermedad hepática",
+          "interaction_summary": "Según NIH ODS, no se conocen interacciones farmacológicas clínicamente relevantes con manganeso.",
+          "administration_summary": "Oral según producto; no exigir separación de antibióticos sin evidencia específica.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
@@ -7752,13 +8580,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+          "reference_or_studied_dose": "RDA 700 mg/day adults",
+          "safety_summary": "UL: 19–70 años 4000 mg/día, 71+ 3000 mg/día; embarazo 19–50 3500 mg/día, lactancia 4000 mg/día. En enfermedad renal, riesgo de hiperfosfatemia.",
+          "interaction_summary": "Antiácidos con hidróxido de aluminio o carbonato de calcio reducen absorción de fósforo; laxantes con fosfato sódico pueden aumentar fosfatemia y ser peligrosos en enfermedad renal, cardíaca o deshidratación.",
+          "administration_summary": "Oral según producto; no indicar suplementos de fósforo por RDA",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
@@ -8095,13 +8959,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nationalacademies.org/read/25353/chapter/13 . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://www.nationalacademies.org/read/25353/chapter/13",
+          "reference_or_studied_dose": "Adults 19+: sodium AI 1500 mg/day total intake. CDRR: reduce intakes above 2300 mg/day. Neither is a supplement dose.",
+          "safety_summary": "CDRR 2300 mg/día no es UL ni dosis suplementaria",
+          "interaction_summary": "Diuréticos y medicamentos que alteran balance hidroelectrolítico requieren valoración individual",
+          "administration_summary": "No recomendar suplementos de sodio rutinarios para alcanzar AI",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://www.nationalacademies.org/read/25353/chapter/13",
@@ -8361,13 +9261,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "3–5 g/day maintenance in studied healthy adults; optional 20 g/day split loading for 5–7 days",
+          "safety_summary": "No existe UL nutricional establecido; evidencia mayormente en adultos sanos, precaución en enfermedad renal",
+          "interaction_summary": "Revisar medicación potencialmente nefrotóxica y comorbilidad renal; interacciones clínicas no establecidas universalmente",
+          "administration_summary": "Monohidrato de creatina diario, con o sin comidas; carga no obligatoria",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -8623,13 +9559,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "4–6 g/day divided doses for 2–4 weeks in athletic trials",
+          "safety_summary": "Parestesia con dosis únicas >=800 mg o >10 mg/kg; dividir dosis <=2 g y considerar tomas menores o liberación sostenida; datos de seguridad prolongada limitados.",
+          "interaction_summary": "No se documentan interacciones farmacológicas bien establecidas en fuente deportiva",
+          "administration_summary": "Repartir tomas pequeñas; formulaciones de liberación sostenida pueden reducir parestesias",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -8918,13 +9890,59 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "weight_based_studied_range",
+          "required_inputs": [
+            "body_weight_kg",
+            "goal",
+            "all_sources_daily_caffeine_mg",
+            "pregnancy",
+            "medications",
+            "sleep",
+            "cardiovascular_conditions",
+            "product_strength"
+          ],
+          "logic": "Compute 2–6 mg/kg studied pre-exercise range only for suitable adult performance context; subtract other caffeine exposures and enforce individualized safety constraints; do not choose a point dose automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "2–6 mg/kg before exercise in studies",
+          "safety_summary": "Estudios 2–6 mg/kg para rendimiento; en adultos sanos FDA indica que 400 mg/día generalmente no ocasionan efectos peligrosos, pero NO es umbral universal ni seguro para embarazadas, adolescentes, arritmias o sensibles. No usar cafeína pura en polvo.",
+          "interaction_summary": "Estimulantes y fármacos que afectan metabolismo de cafeína; revisar interacciones específicas del medicamento",
+          "administration_summary": "Habitualmente antes del ejercicio según estudio; evitar horario cercano al sueño",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [
+            {
+              "inputs": {
+                "weight_kg": 70
+              },
+              "studied_range_mg": [
+                140,
+                420
+              ],
+              "note": "NOT a prescription; all-source exposure and safety screen required"
+            }
+          ],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -9173,13 +10191,60 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "protein_dietary_gap",
+          "required_inputs": [
+            "body_weight_kg",
+            "goal",
+            "activity_level",
+            "estimated_dietary_protein_g_day",
+            "health_conditions",
+            "allergies",
+            "product_protein_fraction"
+          ],
+          "logic": "Calculate exercise-context total protein 1.2–2.0 g/kg/day, then subtract estimated dietary protein; translate only gap to actual protein grams and divide by product protein fraction; require goal and renal/allergy review.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "Athletic total protein intake often 1.2–2.0 g/kg/day from all sources",
+          "safety_summary": "No hay UL general establecido; evaluar enfermedad renal y alergias según fuente",
+          "interaction_summary": "Interacciones dependen de formulación e ingredientes agregados, no de proteína genérica",
+          "administration_summary": "Repartir ingesta total según preferencias y tolerancia; suplemento solo cubre déficit dietario",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [
+            {
+              "inputs": {
+                "weight_kg": 70,
+                "dietary_protein_g_day": 85
+              },
+              "total_athletic_range_g_day": [
+                84,
+                140
+              ],
+              "potential_gap_to_upper_target_g_day": 55,
+              "note": "Goal-specific; product powder grams depend on label"
+            }
+          ],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -9428,13 +10493,60 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "protein_dietary_gap",
+          "required_inputs": [
+            "body_weight_kg",
+            "goal",
+            "activity_level",
+            "estimated_dietary_protein_g_day",
+            "health_conditions",
+            "allergies",
+            "product_protein_fraction"
+          ],
+          "logic": "Calculate exercise-context total protein 1.2–2.0 g/kg/day, then subtract estimated dietary protein; translate only gap to actual protein grams and divide by product protein fraction; require goal and renal/allergy review.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+          "safety_summary": "Alergia a proteína de leche: evitar; intolerancia a lactosa depende de formulación",
+          "interaction_summary": "Revisar composición y medicación particular; no inventar interacciones genéricas",
+          "administration_summary": "Según tolerancia y etiqueta; dosis suplementaria = déficit alimentario, no objetivo total",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [
+            {
+              "inputs": {
+                "weight_kg": 70,
+                "dietary_protein_g_day": 85
+              },
+              "total_athletic_range_g_day": [
+                84,
+                140
+              ],
+              "potential_gap_to_upper_target_g_day": 55,
+              "note": "Goal-specific; product powder grams depend on label"
+            }
+          ],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -9683,13 +10795,60 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "protein_dietary_gap",
+          "required_inputs": [
+            "body_weight_kg",
+            "goal",
+            "activity_level",
+            "estimated_dietary_protein_g_day",
+            "health_conditions",
+            "allergies",
+            "product_protein_fraction"
+          ],
+          "logic": "Calculate exercise-context total protein 1.2–2.0 g/kg/day, then subtract estimated dietary protein; translate only gap to actual protein grams and divide by product protein fraction; require goal and renal/allergy review.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+          "safety_summary": "Alergia a legumbres/soja/guisante según producto; evaluar enfermedad renal.",
+          "interaction_summary": "Interacciones dependen de composición y aditivos.",
+          "administration_summary": "Suplementar solo brecha de proteína alimentaria, no 1,2–2,0 g/kg como polvo.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [
+            {
+              "inputs": {
+                "weight_kg": 70,
+                "dietary_protein_g_day": 85
+              },
+              "total_athletic_range_g_day": [
+                84,
+                140
+              ],
+              "potential_gap_to_upper_target_g_day": 55,
+              "note": "Goal-specific; product powder grams depend on label"
+            }
+          ],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -9940,13 +11099,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "No established evidence-based routine supplemental dose",
+          "safety_summary": "Seguridad en embarazo/lactancia no establecida; precaución hipotensión.",
+          "interaction_summary": "Posible efecto aditivo con antihipertensivos/nitratos/PDE5; evidencia de interacción clínica limitada.",
+          "administration_summary": "No existe dosis universal recomendada; resultados deportivos inconsistentes.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -10202,13 +11397,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "No established effective exercise-performance dose",
+          "safety_summary": "Precaución hipotensión, enfermedad renal, infarto reciente, herpes recurrente y embarazo.",
+          "interaction_summary": "Puede potenciar hipotensores, nitratos y fármacos para disfunción eréctil.",
+          "administration_summary": "Dosis estudiadas 2–20 g/día sin beneficio deportivo consistente; no prescribir por ese rango.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -10474,13 +11705,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "No established added-benefit dose with adequate complete protein",
+          "safety_summary": "Evitar dosis arbitrarias, considerar errores congénitos del metabolismo de aminoácidos.",
+          "interaction_summary": "No se establecen interacciones universales; revisar enfermedad y medicamentos.",
+          "administration_summary": "No evidencia convincente de beneficio añadido con proteína completa adecuada.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -10736,13 +12003,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "reference_or_studied_dose": "No established universal isolated supplemental dose",
+          "safety_summary": "Precaución enfermedad de orina con olor a jarabe de arce y trastornos metabólicos.",
+          "interaction_summary": "Sin interacciones universales establecidas para suplementación aislada.",
+          "administration_summary": "No usar 500 mg/kg/día como dosis recomendada: es estimación de tolerancia.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
@@ -11019,13 +12322,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://pubmed.ncbi.nlm.nih.gov/40852891/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/40852891/",
+          "reference_or_studied_dose": "2025 meta-analysis 23 RCTs (308 participants): acute 1–6 g studied before exercise; no significant dose-response, evidence GRADE low to very low. No established universally recommended performance dose.",
+          "safety_summary": "Evidencia de rendimiento de baja o muy baja certeza; seguridad embarazo/lactancia no establecida.",
+          "interaction_summary": "Interacciones específicas no bien caracterizadas; revisar medicación cardiovascular.",
+          "administration_summary": "1–6 g estudiados de forma aguda, sin recomendación universal.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://pubmed.ncbi.nlm.nih.gov/40852891/",
@@ -11283,13 +12622,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+          "reference_or_studied_dose": "No dietary reference intake established for healthy adults",
+          "safety_summary": "Dosis altas pueden causar molestias gastrointestinales, olor corporal y convulsiones en predispuestos.",
+          "interaction_summary": "Valproato puede alterar metabolismo; warfarina requiere revisión por reportes de aumento INR.",
+          "administration_summary": "No AI/RDA; no confundir tratamiento de deficiencia con suplemento general.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
@@ -11572,13 +12947,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+          "reference_or_studied_dose": "No US RDA for EPA+DHA; dose depends on clinical indication",
+          "safety_summary": "Precaución en anticoagulación, fibrilación auricular y dosis elevadas; valorar sangrado.",
+          "interaction_summary": "Warfarina y otros anticoagulantes requieren revisión, aunque sangrado clínico no siempre aumenta.",
+          "administration_summary": "Diferenciar EPA+DHA efectivos de aceite total; no hay RDA para EPA+DHA.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
@@ -11846,13 +13257,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+          "reference_or_studied_dose": "No US RDA for algal EPA+DHA; read label DHA and EPA content",
+          "safety_summary": "Verificar alérgenos/excipientes, oxidación y EPA/DHA reales; cautela con altas dosis.",
+          "interaction_summary": "Revisar anticoagulantes y antecedentes de arritmia según dosis total.",
+          "administration_summary": "Misma lógica de EPA+DHA, no extrapolar dosis desde volumen de aceite.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
@@ -12153,13 +13600,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://medlineplus.gov/druginfo/meds/a601104.html . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://medlineplus.gov/druginfo/meds/a601104.html",
+          "reference_or_studied_dose": "MedlinePlus: psyllium usually taken 1–3 times daily according to formulation label, each powder/granules dose with 240 mL liquid; no universal gram dose across products. EMA monograph distinguishes psyllium seed from ispaghula husk.",
+          "safety_summary": "Riesgo de obstrucción/asfixia sin suficiente líquido; evitar disfagia u obstrucción intestinal.",
+          "interaction_summary": "Puede disminuir absorción de fármacos orales; separar según medicamento y etiqueta.",
+          "administration_summary": "Tomar con al menos 240 mL agua; dosis y frecuencia según formulación.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://medlineplus.gov/druginfo/meds/a601104.html",
@@ -12413,13 +13896,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2 . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+          "reference_or_studied_dose": "Health Canada 2026 monograph: inulin 5–15 g/day for prebiotic use in adults 18+. Trial: chicory native inulin 10 g/day for 5 weeks in adults 40–75 with low stool frequency; small crossover trials with mixed results.",
+          "safety_summary": "Flatulencia y distensión; precaución intolerancia FODMAP/SII.",
+          "interaction_summary": "Sin interacción farmacológica universal bien establecida.",
+          "administration_summary": "5–15 g/día en monografía específica para adultos; titular por tolerancia.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
@@ -12701,13 +14220,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+          "reference_or_studied_dose": "Dose is strain-, indication-, and product-specific; expressed in CFU; no universal CFU/day.",
+          "safety_summary": "Precaución inmunosupresión grave, enfermedad crítica y catéter central por infecciones raras.",
+          "interaction_summary": "Efectos y riesgos dependen de cepa, producto y contexto; revisar antibióticos.",
+          "administration_summary": "No hay dosis CFU universal; exigir cepa e indicación respaldadas.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
@@ -12966,13 +14521,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2 . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+          "reference_or_studied_dose": "No single prebiotic-class dose. Health Canada adult 18+ monograph: inulin 5–15 g/day, acacia 10–20 g/day, FOS/scFOS 2.5–15 g/day for defined prebiotic purposes.",
+          "safety_summary": "Gas/distensión; precaución SII/FODMAP y obstrucción según ingrediente.",
+          "interaction_summary": "No interacción de clase universal; depende del tipo de fibra.",
+          "administration_summary": "No existe dosis única de clase; elegir ingrediente y objetivo.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
@@ -13235,13 +14826,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://pubmed.ncbi.nlm.nih.gov/40826844/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/40826844/",
+          "reference_or_studied_dose": "2025 systematic review of 10 trials: oral collagen 1–10 g/day studied for skin hydration/elasticity; most common 4 g/day. Conflicting 2025 meta-analysis of 23 RCTs found no benefit in independently funded or high-quality trials; therefore no evidence-established universal recommended dose.",
+          "safety_summary": "Alergia a fuente marina/bovina/porcina; evaluar calidad del producto.",
+          "interaction_summary": "No interacciones farmacológicas generales demostradas.",
+          "administration_summary": "1–10 g/día estudiados en piel; resultados heterogéneos, no dosis universal.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://pubmed.ncbi.nlm.nih.gov/40826844/",
@@ -13488,13 +15115,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "nutrient_reference_gap",
+          "required_inputs": [
+            "age",
+            "sex",
+            "pregnancy",
+            "lactation",
+            "estimated_dietary_intake",
+            "current_supplements",
+            "health_conditions",
+            "medications",
+            "product_strength"
+          ],
+          "logic": "Choose age/sex/life-stage total-intake RDA/AI from source; calculate max(0,target-total estimated intake); cap by remaining ingredient-specific UL after all sources; suppress if risk flags or missing reliable intake; never use deficiency-treatment doses automatically.",
+          "source": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+          "reference_or_studied_dose": "AI: 550 mg/day men 19+, 425 mg/day women 19+, 450 mg/day pregnancy, 550 mg/day lactation (total intake).",
+          "safety_summary": "UL adultos 3500 mg/día total; exceso puede causar hipotensión, olor corporal y toxicidad.",
+          "interaction_summary": "Sin interacciones medicamentosas clínicas comunes bien establecidas.",
+          "administration_summary": "AI 550 mg hombres, 425 mujeres, embarazo 450, lactancia 550; no son dosis automáticas.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
@@ -13775,13 +15438,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/coenzyme-q10 . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
+          "reference_or_studied_dose": "No established daily requirement or universal supplementation dose.",
+          "safety_summary": "Molestias digestivas, insomnio; evidencia por indicación variable.",
+          "interaction_summary": "Puede disminuir efecto anticoagulante de warfarina; revisar antihipertensivos.",
+          "administration_summary": "No ingesta recomendada ni dosis universal establecida.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
@@ -14094,13 +15793,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+          "reference_or_studied_dose": "No established universal dose; depends on circadian indication, timing, age and formulation.",
+          "safety_summary": "Somnolencia, alteración de vigilancia; embarazo/lactancia y pediatría requieren especial precaución.",
+          "interaction_summary": "Anticoagulantes, sedantes, anticonvulsivos y fármacos metabolizados por CYP1A2 requieren revisión.",
+          "administration_summary": "Importan hora, formulación e indicación; no asignar dosis universal.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
@@ -14380,13 +16115,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/turmeric . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://www.nccih.nih.gov/health/turmeric",
+          "reference_or_studied_dose": "No established RDA/AI/UL or universal therapeutic dose.",
+          "safety_summary": "Reportes de lesión hepática con formulaciones concentradas o alta biodisponibilidad; precaución biliar.",
+          "interaction_summary": "Revisar anticoagulantes y fármacos metabolizados; relevancia clínica depende de formulación.",
+          "administration_summary": "No RDA ni dosis terapéutica universal; distinguir cúrcuma alimentaria y extractos.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://www.nccih.nih.gov/health/turmeric",
@@ -14664,13 +16435,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/ginger . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://www.nccih.nih.gov/health/ginger",
+          "reference_or_studied_dose": "No established RDA/AI/UL or universal supplement dose.",
+          "safety_summary": "Puede causar acidez y molestias gastrointestinales; precaución embarazo y trastornos hemorrágicos.",
+          "interaction_summary": "Posibles interacciones con anticoagulantes; evidencia clínica variable.",
+          "administration_summary": "No dosis universal; evidencia depende de indicación y preparado.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://www.nccih.nih.gov/health/ginger",
@@ -14973,13 +16780,49 @@
         "full_safety_rule_verified": false,
         "automatic_recommendation_ready": false,
         "missing_for_execution": [
-          "source-specific numeric dose table or range with context and population verification",
-          "contraindication/interactions and UL rules",
-          "test against questionnaire inputs and product strengths"
+          "Machine-verifiable population-specific source table / studied regimen",
+          "Structured contraindication and interaction rules",
+          "Patient scenarios and product-label tests"
         ],
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
-        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
-        "updated_on": "2026-11-18"
+        "status": "PERSONALIZATION_PROTOCOL_DOCUMENTED_NOT_CLINICALLY_RELEASED",
+        "updated_on": "2026-11-18",
+        "personalization_protocol_v2": {
+          "schema": "vitami_dose_decision_protocol_v2",
+          "category": "indication_formulation_specific",
+          "required_inputs": [
+            "goal",
+            "age",
+            "pregnancy",
+            "lactation",
+            "medications",
+            "health_conditions",
+            "exact_formulation",
+            "product_strength",
+            "evidence_matched_to_indication"
+          ],
+          "logic": "No universal personalized numeric dose: match indication, studied population, preparation, concentration and duration to original evidence; otherwise return no numeric dose and reason.",
+          "source": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+          "reference_or_studied_dose": "Stress/anxiety trials: extracts 240–1250 mg/day for 6–8 weeks; several studies found greater effects at 500–600 mg/day.",
+          "safety_summary": "Evitar en embarazo; precaución enfermedad tiroidea, autoinmune, hepática; reportes de hepatotoxicidad.",
+          "interaction_summary": "Sedantes, inmunosupresores, hormona tiroidea, antihipertensivos y antidiabéticos requieren revisión.",
+          "administration_summary": "Extractos 240–1250 mg/día estudiados en estrés, sin equivalencia entre formulaciones.",
+          "output_contract": {
+            "dose_numeric_only_if_source_matched": true,
+            "allow_no_recommendation": true,
+            "distinguish_total_intake_from_supplement": true,
+            "explain_uncertainty": true,
+            "require_product_label_for_units": true
+          },
+          "examples": [],
+          "validation": {
+            "data_model_complete": true,
+            "reference_population_tables_machine_verified": false,
+            "drug_interaction_rules_machine_verified": false,
+            "patient_level_simulation_tested": false,
+            "release_approved": false
+          }
+        }
       },
       "bibliographic_validation_v2": {
         "source": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
