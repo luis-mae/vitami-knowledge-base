@@ -1,0 +1,728 @@
+{
+  "version": "2026-11-17",
+  "batch": "first_20",
+  "count": 20,
+  "disclaimer": "Research-only structured fiches. Intake reference values are not supplement prescriptions. EN/IT safety text retains Spanish specifics pending professional translation. Do not publish as validated.",
+  "records": [
+    {
+      "ingredient_id": "vitamin_d",
+      "names": {
+        "es": "Vitamina D",
+        "en": "Vitamin D",
+        "it": "Vitamina D"
+      },
+      "adult_reference_intake": "15 mcg (600 UI)",
+      "adult_upper_limit": "100 mcg (4000 UI)",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Hipercalcemia, enfermedad renal; precaución con diuréticos tiazídicos.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Hipercalcemia, enfermedad renal; precaución con diuréticos tiazídicos.",
+      "safety_it": "Necessaria revisione clinica: Hipercalcemia, enfermedad renal; precaución con diuréticos tiazídicos.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "vitamin_b12",
+      "names": {
+        "es": "Vitamina B12",
+        "en": "Vitamin B12",
+        "it": "Vitamina B12"
+      },
+      "adult_reference_intake": "2,4 mcg",
+      "adult_upper_limit": "No establecido",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Investigar malabsorción y anemia; metformina e inhibidores de ácido gástrico pueden reducir niveles.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Investigar malabsorción y anemia; metformina e inhibidores de ácido gástrico pueden reducir niveles.",
+      "safety_it": "Necessaria revisione clinica: Investigar malabsorción y anemia; metformina e inhibidores de ácido gástrico pueden reducir niveles.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "iron",
+      "names": {
+        "es": "Hierro",
+        "en": "Iron",
+        "it": "Ferro"
+      },
+      "adult_reference_intake": "8 mg varones; 18 mg mujeres 19–50",
+      "adult_upper_limit": "45 mg",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "No suplementar por cansancio aislado; descartar hemocromatosis; separar de levotiroxina y ciertos antibióticos.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: No suplementar por cansancio aislado; descartar hemocromatosis; separar de levotiroxina y ciertos antibióticos.",
+      "safety_it": "Necessaria revisione clinica: No suplementar por cansancio aislado; descartar hemocromatosis; separar de levotiroxina y ciertos antibióticos.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "magnesium",
+      "names": {
+        "es": "Magnesio",
+        "en": "Magnesium",
+        "it": "Magnesio"
+      },
+      "adult_reference_intake": "400–420 mg varones; 310–320 mg mujeres",
+      "adult_upper_limit": "350 mg solo suplementos",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Insuficiencia renal; separar de bisfosfonatos y antibióticos quinolonas/tetraciclinas.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Insuficiencia renal; separar de bisfosfonatos y antibióticos quinolonas/tetraciclinas.",
+      "safety_it": "Necessaria revisione clinica: Insuficiencia renal; separar de bisfosfonatos y antibióticos quinolonas/tetraciclinas.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "calcium",
+      "names": {
+        "es": "Calcio",
+        "en": "Calcium",
+        "it": "Calcio"
+      },
+      "adult_reference_intake": "1000 mg (19–50 años)",
+      "adult_upper_limit": "2500 mg (19–50 años)",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Litiasis, hipercalcemia; separar de levotiroxina; evaluar ingesta total.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Litiasis, hipercalcemia; separar de levotiroxina; evaluar ingesta total.",
+      "safety_it": "Necessaria revisione clinica: Litiasis, hipercalcemia; separar de levotiroxina; evaluar ingesta total.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "zinc",
+      "names": {
+        "es": "Zinc",
+        "en": "Zinc",
+        "it": "Zinco"
+      },
+      "adult_reference_intake": "11 mg varones; 8 mg mujeres",
+      "adult_upper_limit": "40 mg",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Exceso sostenido causa déficit de cobre; interacción con quinolonas y tetraciclinas.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Exceso sostenido causa déficit de cobre; interacción con quinolonas y tetraciclinas.",
+      "safety_it": "Necessaria revisione clinica: Exceso sostenido causa déficit de cobre; interacción con quinolonas y tetraciclinas.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "folate",
+      "names": {
+        "es": "Folato",
+        "en": "Folate",
+        "it": "Folato"
+      },
+      "adult_reference_intake": "400 mcg DFE",
+      "adult_upper_limit": "1000 mcg ácido fólico sintético",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "El ácido fólico puede enmascarar manifestaciones hematológicas de déficit de B12; planificación de embarazo requiere pauta específica.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: El ácido fólico puede enmascarar manifestaciones hematológicas de déficit de B12; planificación de embarazo requiere pauta específica.",
+      "safety_it": "Necessaria revisione clinica: El ácido fólico puede enmascarar manifestaciones hematológicas de déficit de B12; planificación de embarazo requiere pauta específica.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "potassium",
+      "names": {
+        "es": "Potasio",
+        "en": "Potassium",
+        "it": "Potassio"
+      },
+      "adult_reference_intake": "3400 mg varones; 2600 mg mujeres (AI)",
+      "adult_upper_limit": "No establecido",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Riesgo de hiperpotasemia en enfermedad renal, IECA, ARA-II y espironolactona; no automatizar dosis.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Riesgo de hiperpotasemia en enfermedad renal, IECA, ARA-II y espironolactona; no automatizar dosis.",
+      "safety_it": "Necessaria revisione clinica: Riesgo de hiperpotasemia en enfermedad renal, IECA, ARA-II y espironolactona; no automatizar dosis.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "vitamin_b6",
+      "names": {
+        "es": "Vitamina B6",
+        "en": "Vitamin B6",
+        "it": "Vitamina B6"
+      },
+      "adult_reference_intake": "1,3 mg (19–50 años)",
+      "adult_upper_limit": "100 mg EE. UU.; EFSA 12 mg adultos",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Neuropatía sensitiva por exceso crónico; adoptar criterio conservador y revisar múltiples productos.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Neuropatía sensitiva por exceso crónico; adoptar criterio conservador y revisar múltiples productos.",
+      "safety_it": "Necessaria revisione clinica: Neuropatía sensitiva por exceso crónico; adoptar criterio conservador y revisar múltiples productos.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "iodine",
+      "names": {
+        "es": "Yodo",
+        "en": "Iodine",
+        "it": "Iodio"
+      },
+      "adult_reference_intake": "150 mcg",
+      "adult_upper_limit": "1100 mcg",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Enfermedad tiroidea, amiodarona y exceso de algas; embarazo requiere valoración específica.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Enfermedad tiroidea, amiodarona y exceso de algas; embarazo requiere valoración específica.",
+      "safety_it": "Necessaria revisione clinica: Enfermedad tiroidea, amiodarona y exceso de algas; embarazo requiere valoración específica.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "selenium",
+      "names": {
+        "es": "Selenio",
+        "en": "Selenium",
+        "it": "Selenio"
+      },
+      "adult_reference_intake": "55 mcg",
+      "adult_upper_limit": "400 mcg EE. UU.; EFSA 255 mcg",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Selenosis: caída de cabello, uñas frágiles y síntomas gastrointestinales; no usar rutinariamente para tiroides.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Selenosis: caída de cabello, uñas frágiles y síntomas gastrointestinales; no usar rutinariamente para tiroides.",
+      "safety_it": "Necessaria revisione clinica: Selenosis: caída de cabello, uñas frágiles y síntomas gastrointestinales; no usar rutinariamente para tiroides.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "vitamin_c",
+      "names": {
+        "es": "Vitamina C",
+        "en": "Vitamin C",
+        "it": "Vitamina C"
+      },
+      "adult_reference_intake": "90 mg varones; 75 mg mujeres",
+      "adult_upper_limit": "2000 mg",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Dosis elevadas causan diarrea; precaución en sobrecarga de hierro y litiasis recurrente.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Dosis elevadas causan diarrea; precaución en sobrecarga de hierro y litiasis recurrente.",
+      "safety_it": "Necessaria revisione clinica: Dosis elevadas causan diarrea; precaución en sobrecarga de hierro y litiasis recurrente.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "vitamin_a",
+      "names": {
+        "es": "Vitamina A",
+        "en": "Vitamin A",
+        "it": "Vitamina A"
+      },
+      "adult_reference_intake": "900 mcg RAE varones; 700 mcg RAE mujeres",
+      "adult_upper_limit": "3000 mcg RAE retinol preformado",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Retinol preformado en exceso es teratogénico; embarazo y retinoides requieren bloqueo de recomendación.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Retinol preformado en exceso es teratogénico; embarazo y retinoides requieren bloqueo de recomendación.",
+      "safety_it": "Necessaria revisione clinica: Retinol preformado en exceso es teratogénico; embarazo y retinoides requieren bloqueo de recomendación.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "vitamin_e",
+      "names": {
+        "es": "Vitamina E",
+        "en": "Vitamin E",
+        "it": "Vitamina E"
+      },
+      "adult_reference_intake": "15 mg alfa-tocoferol",
+      "adult_upper_limit": "1000 mg alfa-tocoferol",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Dosis altas pueden aumentar riesgo hemorrágico; cautela con anticoagulantes.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Dosis altas pueden aumentar riesgo hemorrágico; cautela con anticoagulantes.",
+      "safety_it": "Necessaria revisione clinica: Dosis altas pueden aumentar riesgo hemorrágico; cautela con anticoagulantes.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "vitamin_k",
+      "names": {
+        "es": "Vitamina K",
+        "en": "Vitamin K",
+        "it": "Vitamina K"
+      },
+      "adult_reference_intake": "120 mcg varones; 90 mcg mujeres (AI)",
+      "adult_upper_limit": "No establecido",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Con warfarina mantener ingesta estable; no modificar sin seguimiento de INR.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Con warfarina mantener ingesta estable; no modificar sin seguimiento de INR.",
+      "safety_it": "Necessaria revisione clinica: Con warfarina mantener ingesta estable; no modificar sin seguimiento de INR.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "thiamin",
+      "names": {
+        "es": "Tiamina B1",
+        "en": "Thiamin B1",
+        "it": "Tiamina B1"
+      },
+      "adult_reference_intake": "1,2 mg varones; 1,1 mg mujeres",
+      "adult_upper_limit": "No establecido",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Sospecha de déficit grave, alcoholismo o realimentación requiere evaluación y tratamiento clínico.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Sospecha de déficit grave, alcoholismo o realimentación requiere evaluación y tratamiento clínico.",
+      "safety_it": "Necessaria revisione clinica: Sospecha de déficit grave, alcoholismo o realimentación requiere evaluación y tratamiento clínico.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "riboflavin",
+      "names": {
+        "es": "Riboflavina B2",
+        "en": "Riboflavin B2",
+        "it": "Riboflavina B2"
+      },
+      "adult_reference_intake": "1,3 mg varones; 1,1 mg mujeres",
+      "adult_upper_limit": "No establecido",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Dosis para prevención de migraña son distintas de ingesta nutricional y requieren evaluación individual.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Dosis para prevención de migraña son distintas de ingesta nutricional y requieren evaluación individual.",
+      "safety_it": "Necessaria revisione clinica: Dosis para prevención de migraña son distintas de ingesta nutricional y requieren evaluación individual.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "niacin",
+      "names": {
+        "es": "Niacina B3",
+        "en": "Niacin B3",
+        "it": "Niacina B3"
+      },
+      "adult_reference_intake": "16 mg NE varones; 14 mg NE mujeres",
+      "adult_upper_limit": "35 mg suplementos/fortificados",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Dosis farmacológicas: hepatotoxicidad, alteraciones glucémicas y rubor; no indicar para lípidos automáticamente.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Dosis farmacológicas: hepatotoxicidad, alteraciones glucémicas y rubor; no indicar para lípidos automáticamente.",
+      "safety_it": "Necessaria revisione clinica: Dosis farmacológicas: hepatotoxicidad, alteraciones glucémicas y rubor; no indicar para lípidos automáticamente.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "copper",
+      "names": {
+        "es": "Cobre",
+        "en": "Copper",
+        "it": "Rame"
+      },
+      "adult_reference_intake": "900 mcg",
+      "adult_upper_limit": "10000 mcg",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "Enfermedad de Wilson y hepatopatía; exceso de zinc puede provocar deficiencia.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: Enfermedad de Wilson y hepatopatía; exceso de zinc puede provocar deficiencia.",
+      "safety_it": "Necessaria revisione clinica: Enfermedad de Wilson y hepatopatía; exceso de zinc puede provocar deficiencia.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    },
+    {
+      "ingredient_id": "chromium",
+      "names": {
+        "es": "Cromo",
+        "en": "Chromium",
+        "it": "Cromo"
+      },
+      "adult_reference_intake": "35 mcg varones; 25 mcg mujeres (AI)",
+      "adult_upper_limit": "No establecido",
+      "reference_scope": "Adultos sanos; valores orientativos NIH ODS/NASEM, no dosis de tratamiento ni recomendación personalizada.",
+      "safety_screen_es": "No recomendar para control glucémico o pérdida de peso por evidencia inconsistente; precaución renal/hepática.",
+      "indication_es": "Prevención o corrección de ingesta insuficiente o deficiencia según evaluación individual; no inferir necesidad de suplemento solo a partir de síntomas.",
+      "indication_en": "Assess inadequate intake or deficiency individually; symptoms alone do not justify supplementation.",
+      "indication_it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione.",
+      "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
+      "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
+      "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
+      "safety_en": "Clinical review required: No recomendar para control glucémico o pérdida de peso por evidencia inconsistente; precaución renal/hepática.",
+      "safety_it": "Necessaria revisione clinica: No recomendar para control glucémico o pérdida de peso por evidencia inconsistente; precaución renal/hepática.",
+      "source": {
+        "publisher": "NIH Office of Dietary Supplements",
+        "fact_sheet": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+        "verification": "reference URL supplied; claim-by-claim independent source check pending"
+      },
+      "argentina": {
+        "status": "not_verified",
+        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
+        "source_required": true
+      },
+      "alternatives": {
+        "status": "not_verified",
+        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+      },
+      "public_recommendation_allowed": false,
+      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+    }
+  ]
+}
