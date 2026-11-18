@@ -45,5 +45,10 @@
   "observed_ui_questions_mapped": 13,
   "emergent_api_contract_created": true,
   "basic_result_spec_created": true,
-  "activity_classifier_created": true
+  "activity_classifier_created": true,
+  "governance": {
+    "status": "historical_superseded",
+    "active_plan": "https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md",
+    "instruction": "This JSON is historical data, not an executable work plan. Do not follow next_steps independently."
+  }
 }
