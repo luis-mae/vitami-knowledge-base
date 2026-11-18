@@ -55,6 +55,15 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+        "research_summary_en": "AI adults 19+: 5 mg/day; pregnancy 6 mg/day; lactation 7 mg/day.",
+        "critical_safety_or_interpretation_en": "AI ≠ supplement dose; no UL established.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -117,6 +126,15 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+        "research_summary_en": "AI adults 19+: 30 mcg/day; lactation 35 mcg/day.",
+        "critical_safety_or_interpretation_en": "Biotin supplements can interfere with laboratory tests including troponin and thyroid tests.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -167,6 +185,15 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+        "research_summary_en": "AI adult men 2.3 mg/day, women 1.8 mg/day; UL adults 11 mg/day.",
+        "critical_safety_or_interpretation_en": "High exposures may cause neurological toxicity; liver disease can increase risk.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -217,6 +244,15 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+        "research_summary_en": "RDA adults 19+: 700 mg/day; UL adults 19–70: 4,000 mg/day; 71+: 3,000 mg/day.",
+        "critical_safety_or_interpretation_en": "Kidney impairment changes phosphorus handling; do not extrapolate from healthy adults.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -267,6 +303,15 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://nap.nationalacademies.org/catalog/25353/dietary-reference-intakes-for-sodium-and-potassium",
+        "research_summary_en": "Sodium AI for adults 19–50 is 1,500 mg/day; chronic disease risk reduction intake 2,300 mg/day.",
+        "critical_safety_or_interpretation_en": "CDRR is not a tolerable upper intake level; distinguish dietary sodium from salt.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -1119,6 +1164,15 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "research_summary_en": "No established RDA or routine supplementation dose for taurine.",
+        "critical_safety_or_interpretation_en": "Insufficient ingredient-specific evidence to recommend as a performance supplement.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -1412,6 +1466,15 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://medlineplus.gov/druginfo/natural/866.html",
+        "research_summary_en": "Psyllium is a bulk-forming fiber; hydration is essential.",
+        "critical_safety_or_interpretation_en": "Avoid if swallowing difficulties or bowel obstruction; separate from interacting oral medications.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -1612,6 +1675,15 @@
         "product_or_dosing_guardrail": "Do not infer probiotic strain effects from prebiotic evidence.",
         "review_date": "2026-11-18",
         "status": "source_checked_claim_only_not_full_fiche"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "research_summary_en": "Prebiotics are substrates, not living probiotic microorganisms.",
+        "critical_safety_or_interpretation_en": "Do not substitute a prebiotic for a strain-specific probiotic indication.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -1662,6 +1734,15 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "research_completion_pass": {
+        "reference_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "research_summary_en": "Collagen is not equivalent to complete dietary protein for muscle protein synthesis.",
+        "critical_safety_or_interpretation_en": "Requires indication-specific trial review; do not transfer evidence from protein supplements.",
+        "status": "research_draft_needs_source_and_claim_validation",
+        "verified": false,
+        "auto_recommendation_allowed": false,
+        "reviewed_on": "2026-11-18"
       }
     },
     {
@@ -1734,6 +1815,7 @@
     "public_recommendation_enabled": 0,
     "source_supported_entries": 11,
     "independently_checked_claim_entries": 6,
-    "evidence_appraisal_entries": 11
+    "evidence_appraisal_entries": 11,
+    "additional_research_drafts": 9
   }
 }
