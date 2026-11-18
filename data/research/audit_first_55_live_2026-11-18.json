@@ -7,7 +7,7 @@
   "summary": {
     "records": 55,
     "trilingual_editorial_complete": 55,
-    "source_pointers": 20,
+    "source_pointers": 55,
     "claim_verified": 0,
     "product_verified": 0,
     "public_recommendation_ready": 0
@@ -18,6 +18,7 @@
       "id": "vitamin_d",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -27,6 +28,7 @@
       "id": "vitamin_b12",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -36,6 +38,7 @@
       "id": "iron",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -45,6 +48,7 @@
       "id": "magnesium",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -54,6 +58,7 @@
       "id": "calcium",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -63,6 +68,7 @@
       "id": "zinc",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -72,6 +78,7 @@
       "id": "folate",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -81,6 +88,7 @@
       "id": "potassium",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -90,6 +98,7 @@
       "id": "vitamin_b6",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -99,6 +108,7 @@
       "id": "iodine",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -108,6 +118,7 @@
       "id": "selenium",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -117,6 +128,7 @@
       "id": "vitamin_c",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -126,6 +138,7 @@
       "id": "vitamin_a",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -135,6 +148,7 @@
       "id": "vitamin_e",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -144,6 +158,7 @@
       "id": "vitamin_k",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -153,6 +168,7 @@
       "id": "thiamin",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -162,6 +178,7 @@
       "id": "riboflavin",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -171,6 +188,7 @@
       "id": "niacin",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -180,6 +198,7 @@
       "id": "copper",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -189,6 +208,7 @@
       "id": "chromium",
       "editorial_trilingual": true,
       "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -197,7 +217,8 @@
       "number": 21,
       "id": "pantothenic_acid",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -206,7 +227,8 @@
       "number": 22,
       "id": "biotin",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -215,7 +237,8 @@
       "number": 23,
       "id": "manganese",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -224,7 +247,8 @@
       "number": 24,
       "id": "phosphorus",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -233,7 +257,8 @@
       "number": 25,
       "id": "sodium",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -242,7 +267,8 @@
       "number": 26,
       "id": "creatine",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -251,7 +277,8 @@
       "number": 27,
       "id": "beta_alanine",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -260,7 +287,8 @@
       "number": 28,
       "id": "caffeine",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -269,7 +297,8 @@
       "number": 29,
       "id": "protein_powder",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -278,7 +307,8 @@
       "number": 30,
       "id": "whey_protein",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -287,7 +317,8 @@
       "number": 31,
       "id": "plant_protein",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -296,7 +327,8 @@
       "number": 32,
       "id": "citrulline",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -305,7 +337,8 @@
       "number": 33,
       "id": "arginine",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -314,7 +347,8 @@
       "number": 34,
       "id": "bcaa",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -323,7 +357,8 @@
       "number": 35,
       "id": "leucine",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -332,7 +367,8 @@
       "number": 36,
       "id": "taurine",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -341,7 +377,8 @@
       "number": 37,
       "id": "carnitine",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -350,7 +387,8 @@
       "number": 38,
       "id": "omega3_epa_dha",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -359,7 +397,8 @@
       "number": 39,
       "id": "algal_omega3",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -368,7 +407,8 @@
       "number": 40,
       "id": "psyllium",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://medlineplus.gov/druginfo/natural/866.html",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -377,7 +417,8 @@
       "number": 41,
       "id": "inulin",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -386,7 +427,8 @@
       "number": 42,
       "id": "probiotics",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -395,7 +437,8 @@
       "number": 43,
       "id": "prebiotics",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -404,7 +447,8 @@
       "number": 44,
       "id": "collagen",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -413,7 +457,8 @@
       "number": 45,
       "id": "choline",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -422,7 +467,8 @@
       "number": 46,
       "id": "coq10",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/coenzyme-q10",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -431,7 +477,8 @@
       "number": 47,
       "id": "melatonin",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -440,7 +487,8 @@
       "number": 48,
       "id": "curcumin",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/turmeric",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -449,7 +497,8 @@
       "number": 49,
       "id": "ginger",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/ginger",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -458,7 +507,8 @@
       "number": 50,
       "id": "ashwagandha",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -467,7 +517,8 @@
       "number": 51,
       "id": "green_tea_extract",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/green-tea",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -476,7 +527,8 @@
       "number": 52,
       "id": "ginseng",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/asian-ginseng",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -485,7 +537,8 @@
       "number": 53,
       "id": "garlic_extract",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/garlic",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -494,7 +547,8 @@
       "number": 54,
       "id": "turmeric",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/turmeric",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
@@ -503,10 +557,19 @@
       "number": 55,
       "id": "echinacea",
       "editorial_trilingual": true,
-      "source_pointer_present": false,
+      "source_pointer_present": true,
+      "source_pointer": "https://www.nccih.nih.gov/health/echinacea",
       "claim_verified": false,
       "argentina_product_verified": false,
       "automatic_recommendation_allowed": false
     }
-  ]
+  ],
+  "milestone": {
+    "name": "HITO 55 — cobertura bibliográfica",
+    "status": "COMPLETED_BIBLIOGRAPHIC_POINTERS_ONLY",
+    "date": "2026-11-18",
+    "catalog_commit": "499975889f1cf26f601f699a41a9103bba1ee680",
+    "completed": "35 missing source pointers added; all 55 now have editorial ES/EN/IT and a source pointer",
+    "not_completed": "individual claim verification, source passage validation, personalized dosing and safety approval, Argentina product authorization, clinical release"
+  }
 }
