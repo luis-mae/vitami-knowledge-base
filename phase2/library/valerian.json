@@ -11,9 +11,9 @@
     "it": "Ingrediente botanico usato negli integratori, spesso come estratto."
   },
   "common_uses": {
-    "es": "Se comercializa para distintos objetivos de bienestar según la planta y el extracto.",
-    "en": "It is marketed for different wellness goals depending on the plant and extract.",
-    "it": "È commercializzato per diversi obiettivi di benessere secondo pianta ed estratto."
+    "es": "Investigada para problemas de sueño; los resultados son inconsistentes y no se recomienda como tratamiento general del insomnio crónico.",
+    "en": "Investigated for sleep problems; findings are inconsistent and it is not generally recommended for chronic insomnia.",
+    "it": "Studiata per disturbi del sonno; risultati incoerenti e non generalmente raccomandata per l'insonnia cronica."
   },
   "why_vitami_may_show_it": {
     "es": "Vitami puede mostrarlo cuando tus respuestas coinciden con un contexto relevante o cuando lo consultás en la Biblioteca.",
@@ -21,9 +21,9 @@
     "it": "Vitami può mostrarlo quando le tue risposte coincidono con un contesto rilevante o quando lo cerchi nella Biblioteca."
   },
   "evidence_summary": {
-    "es": "La evidencia depende mucho de la preparación, dosis, población y objetivo; no debe extrapolarse entre extractos diferentes.",
-    "en": "Evidence depends heavily on preparation, dose, population, and goal; results should not be extrapolated across different extracts.",
-    "it": "Le evidenze dipendono molto da preparazione, dose, popolazione e obiettivo; i risultati non vanno extrapolati tra estratti diversi."
+    "es": "Evidencia insuficiente o inconsistente para mejorar el sueño; una guía clínica desaconseja su uso para insomnio crónico en adultos.",
+    "en": "Insufficient or inconsistent evidence for sleep improvement; a clinical guideline advises against its use for chronic insomnia in adults.",
+    "it": "Evidenze insufficienti o incoerenti per migliorare il sonno; una linea guida clinica ne sconsiglia l'uso nell'insonnia cronica degli adulti."
   },
   "evidence_label": "mixed_or_limited",
   "limits": {
@@ -32,9 +32,9 @@
     "it": "La popolarità o un meccanismo plausibile non significa che un integratore sia necessario o efficace per tutti."
   },
   "dose_reference": {
-    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
-    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
-    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+    "es": "Se han estudiado preparaciones de 300–600 mg/día durante períodos cortos; esto no constituye una recomendación de eficacia ni una dosis personalizada.",
+    "en": "Preparations of 300–600 mg/day have been studied short term; this is not an efficacy recommendation or personalized dose.",
+    "it": "Sono stati studiati preparati da 300–600 mg/die per brevi periodi; non è una raccomandazione di efficacia né una dose personalizzata."
   },
   "common_presentations": [
     "capsule",
@@ -42,9 +42,9 @@
     "drops"
   ],
   "precautions": {
-    "es": "Los botánicos pueden interactuar con medicamentos y no deben asumirse seguros por ser 'naturales'.",
-    "en": "Botanicals can interact with medicines and should not be assumed safe because they are 'natural'.",
-    "it": "I botanici possono interagire con farmaci e non vanno considerati sicuri solo perché 'naturali'."
+    "es": "Puede causar cefalea, malestar digestivo, embotamiento y sueños vívidos. Evitar combinación con alcohol y sedantes; seguridad a largo plazo, en embarazo y lactancia no establecida.",
+    "en": "May cause headache, digestive discomfort, mental dullness and vivid dreams. Avoid alcohol and sedatives; long-term, pregnancy and breastfeeding safety is not established.",
+    "it": "Può causare cefalea, disturbi digestivi, ottundimento e sogni vividi. Evitare alcol e sedativi; sicurezza a lungo termine, in gravidanza e allattamento non stabilita."
   },
   "when_to_consult": {
     "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
@@ -56,13 +56,23 @@
     "NCCIH_HEALTH_TOPICS_AZ"
   ],
   "source_status": "reviewed_or_official_index",
-  "deep_record_status": "pending",
+  "deep_record_status": "in_progress",
   "rules_status": "candidate_not_active",
   "library_status": "complete_user_facing_draft",
-  "review_date": "2026-08-09",
+  "review_date": "2026-11-18",
   "disclaimer": {
     "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
     "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
     "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  },
+  "scientific_detail": {
+    "source_url": "https://www.nccih.nih.gov/health/valerian",
+    "section": "Effectiveness and safety",
+    "review_status": "partial_evidence_review",
+    "safety_screen_complete": false,
+    "regulatory_product_registration": "pending",
+    "equivalent_alternatives": "not_established",
+    "clinical_approval": false,
+    "automatic_recommendation": false
   }
 }
