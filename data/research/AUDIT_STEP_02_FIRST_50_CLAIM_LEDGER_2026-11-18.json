@@ -1,14 +1,16 @@
 {
   "title": "VITAMI step 2 — first 50 source-claim audit ledger",
   "date": "2026-11-18",
-  "status": "STEP_2_STARTED_NOT_COMPLETE",
+  "status": "STEP_2_REPEATED_FOR_50_WITH_PRIOR_EVIDENCE_RECONCILIATION_AND_4_TARGETED_PRIMARY_SOURCE_SPOTCHECKS_NOT_COMPLETE",
   "catalog_blob_sha": "4fb3601c61f8f2da74d1e67178648a5a16bca428",
-  "method": "Directly extract every editorial indication/safety/use in ES EN IT plus dose reference and UL for first 50 fiches; attach original-source pointer and explicit unverified status. This is a source-check worklist, NOT independent validation of primary sources.",
+  "method": "Repeated for all 50: individually reconcile existing source passage audit and bibliographic evidence; retain each of 500 claims as unverified until independently checked. Four targeted original institutional source spotchecks recorded, not full 50 claim-by-claim verification.",
   "counts": {
     "ingredients": 50,
     "claims_extracted": 500,
-    "source_pointers_present": 50,
-    "fully_verified_in_this_pass": 0,
+    "prior_passage_audits_examined": 50,
+    "prior_full_claim_audits": 0,
+    "original_source_targeted_spotchecks": 4,
+    "fully_verified_fiches": 0,
     "passed": 0
   },
   "records": [
@@ -100,7 +102,26 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      },
+      "new_original_source_spotcheck": {
+        "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        "section": "Recommended Intakes / Tolerable Upper Intake Levels",
+        "findings": [
+          "Adult 19-70 RDA 15 mcg/day, 71+ 20 mcg/day; adult UL 100 mcg/day total intake.",
+          "RDA is not personalized supplement dose."
+        ],
+        "verified_scope": "NUMERIC_RDA_AND_UL_CONTEXT_ONLY",
+        "date": "2026-11-18",
+        "full_fiche_verified": false
+      }
     },
     {
       "index": 2,
@@ -190,7 +211,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 3,
@@ -280,7 +309,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 4,
@@ -370,7 +407,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 5,
@@ -460,7 +505,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 6,
@@ -550,7 +603,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 7,
@@ -640,7 +701,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 8,
@@ -730,7 +799,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 9,
@@ -820,7 +897,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 10,
@@ -910,7 +995,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 11,
@@ -1000,7 +1093,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 12,
@@ -1090,7 +1191,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 13,
@@ -1180,7 +1289,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 14,
@@ -1270,7 +1387,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 15,
@@ -1360,7 +1485,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 16,
@@ -1450,7 +1583,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 17,
@@ -1540,7 +1681,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 18,
@@ -1630,7 +1779,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 19,
@@ -1720,7 +1877,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 20,
@@ -1810,7 +1975,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 21,
@@ -1900,7 +2073,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 22,
@@ -1990,7 +2171,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 23,
@@ -2080,7 +2269,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 24,
@@ -2170,7 +2367,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 25,
@@ -2260,7 +2465,15 @@
         }
       ],
       "unverified_claim_count": 11,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "SOURCE_REPLACED_DOSE_SUPPORTED",
+        "prior_passage_scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 26,
@@ -2336,7 +2549,26 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "MATCH",
+        "prior_passage_scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      },
+      "new_original_source_spotcheck": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "section": "Creatine: Efficacy / Implications for use",
+        "findings": [
+          "Studied adult loading 20 g/day 5-7 days then 3-5 g/day; alternative weight-based loading 0.3 g/kg and protocols 0.03-0.1 g/kg without loading.",
+          "Studied protocol is not a universal individual prescription."
+        ],
+        "verified_scope": "STUDIED_DOSE_PROTOCOL_CONTEXT_ONLY",
+        "date": "2026-11-18",
+        "full_fiche_verified": false
+      }
     },
     {
       "index": 27,
@@ -2412,7 +2644,26 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "MATCH_WITH_EVIDENCE_LIMITATION",
+        "prior_passage_scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      },
+      "new_original_source_spotcheck": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "section": "Beta-alanine: Safety / Implications for use",
+        "findings": [
+          "Paresthesia may occur at >=800 mg per single dose or >10 mg/kg; divided doses mitigate.",
+          "Position statement discussed 4-6 g/day in divided doses, not a universal dose."
+        ],
+        "verified_scope": "SELECTED_STUDIED_DOSE_AND_ADVERSE_EFFECT_CONTEXT_ONLY",
+        "date": "2026-11-18",
+        "full_fiche_verified": false
+      }
     },
     {
       "index": 28,
@@ -2488,7 +2739,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "MATCH",
+        "prior_passage_scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 29,
@@ -2564,7 +2823,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 30,
@@ -2640,7 +2907,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": false,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 31,
@@ -2716,7 +2991,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 32,
@@ -2792,7 +3075,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 33,
@@ -2868,7 +3159,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 34,
@@ -2944,7 +3243,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 35,
@@ -3020,7 +3327,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "prior_passage_scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 36,
@@ -3096,7 +3411,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "SOURCE_REPLACED_DOSE_SUPPORTED_WITH_LOW_CERTAINTY",
+        "prior_passage_scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 37,
@@ -3172,7 +3495,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 38,
@@ -3248,7 +3579,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 39,
@@ -3324,7 +3663,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 40,
@@ -3400,7 +3747,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "SOURCE_REPLACED_DOSE_SUPPORTED",
+        "prior_passage_scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 41,
@@ -3476,7 +3831,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "SOURCE_REPLACED_DOSE_SUPPORTED",
+        "prior_passage_scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 42,
@@ -3552,7 +3915,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "DOSE_CLAIM_MATCH",
+        "prior_passage_scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 43,
@@ -3628,7 +3999,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "SOURCE_REPLACED_DOSE_SUPPORTED",
+        "prior_passage_scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 44,
@@ -3704,7 +4083,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "SOURCE_REPLACED_CONFLICTING_EVIDENCE",
+        "prior_passage_scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 45,
@@ -3780,7 +4167,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "MATCH",
+        "prior_passage_scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 46,
@@ -3856,7 +4251,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 47,
@@ -3932,7 +4335,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 48,
@@ -4008,7 +4419,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 49,
@@ -4084,7 +4503,15 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "prior_passage_scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      }
     },
     {
       "index": 50,
@@ -4160,7 +4587,26 @@
         }
       ],
       "unverified_claim_count": 9,
-      "step2_status": "BLOCKED_PENDING_INDEPENDENT_ORIGINAL_SOURCE_REVIEW"
+      "step2_status": "INCOMPLETE_ORIGINAL_SOURCE_CLAIM_BY_CLAIM",
+      "existing_evidence_crosscheck": {
+        "prior_passage_result": "PARTIAL_MATCH_NEEDS_FORMULATION_PRECISION",
+        "prior_passage_scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "prior_full_claim_audit": false,
+        "bibliographic_review_exists": true,
+        "prior_source_audit_reused": true,
+        "claims_verified_as_complete": false
+      },
+      "new_original_source_spotcheck": {
+        "source": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+        "section": "Stress and anxiety / Safety / Implications for use",
+        "findings": [
+          "Clinical trials used varying formulations and doses, precluding universal extract-equivalent dosing.",
+          "Liver injury and thyroid effects reported; pregnancy and lactation safety concerns."
+        ],
+        "verified_scope": "SELECTED_EFFICACY_AND_SAFETY_CONTEXT_ONLY",
+        "date": "2026-11-18",
+        "full_fiche_verified": false
+      }
     }
   ],
   "exit_rule": "Open and verify each source and section, assess exact support for each claim and its qualifiers, log URL/DOI, section, date, evidence level, conflicts and correction; PASS only when all claims verified or explicitly removed/qualified."
