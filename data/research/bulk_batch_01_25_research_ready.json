@@ -334,6 +334,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "Evidencia favorable para fuerza/potencia y esfuerzos intensos intermitentes; escaso valor para resistencia.",
+        "safety_summary_es": "Aumento de peso por retención hídrica; molestias gastrointestinales posibles.",
+        "studied_dose_not_prescription": "3–5 g/día mantenimiento; estudios de hasta 12 semanas",
+        "evidence_interpretation": "favorable para contexto específico",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -401,6 +413,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "Resultados inconsistentes para esfuerzos intensos cortos; beneficio escaso en esfuerzos >10 minutos.",
+        "safety_summary_es": "Parestesias y prurito, especialmente con dosis únicas elevadas.",
+        "studied_dose_not_prescription": "1,6–6,4 g/día estudiados hasta 8 semanas",
+        "evidence_interpretation": "mixta",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -480,6 +504,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "Puede mejorar resistencia y ejercicio intermitente prolongado.",
+        "safety_summary_es": "Insomnio, inquietud, náuseas, taquicardia y arritmias; sumar todas las fuentes de cafeína.",
+        "studied_dose_not_prescription": "No extrapolar límite general de seguridad a dosis de rendimiento",
+        "evidence_interpretation": "favorable para contexto específico",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -547,6 +583,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "Proteína dietaria suficiente favorece respuesta al entrenamiento y recuperación.",
+        "safety_summary_es": "Evaluar dieta completa y enfermedades concomitantes.",
+        "studied_dose_not_prescription": "1,2–2,0 g/kg/día de proteína TOTAL en atletas, NO de polvo",
+        "evidence_interpretation": "favorable para suficiencia proteica",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -614,6 +662,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "La evidencia de proteína total no equivale a superioridad clínica de suero sobre otras fuentes.",
+        "safety_summary_es": "Revisar alergia a proteína de leche y composición.",
+        "studied_dose_not_prescription": null,
+        "evidence_interpretation": "no específica",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -681,6 +741,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "La evidencia de proteína total no equivale a equivalencia automática entre formulaciones vegetales.",
+        "safety_summary_es": "Revisar alérgenos y perfil de aminoácidos.",
+        "studied_dose_not_prescription": null,
+        "evidence_interpretation": "no específica",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -748,6 +820,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "Pocos ensayos y resultados contradictorios; escaso respaldo para rendimiento.",
+        "safety_summary_es": "Malestar gastrointestinal; seguridad prolongada insuficientemente establecida.",
+        "studied_dose_not_prescription": "Hasta 9 g un día o 6 g/día 16 días estudiados; NO dosis recomendada",
+        "evidence_interpretation": "insuficiente",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -815,6 +899,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "Poco o ningún beneficio demostrado en fuerza, resistencia o recuperación.",
+        "safety_summary_es": "Diarrea, náuseas y descenso de presión arterial con dosis altas.",
+        "studied_dose_not_prescription": "2–20 g/día en estudios de eficacia; NO recomendación",
+        "evidence_interpretation": "desfavorable",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -882,6 +978,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "Poca evidencia de mejora del rendimiento aeróbico; posibles efectos sobre masa muscular sin conclusión firme.",
+        "safety_summary_es": "Datos de seguridad limitados en el tiempo.",
+        "studied_dose_not_prescription": "Hasta 20 g/día por 6 semanas estudiados; NO recomendación",
+        "evidence_interpretation": "limitada",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -949,6 +1057,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "La evidencia de BCAA como conjunto no prueba beneficios de leucina aislada.",
+        "safety_summary_es": "No extrapolar seguridad del conjunto a leucina aislada.",
+        "studied_dose_not_prescription": null,
+        "evidence_interpretation": "no evaluada individualmente en tabla",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -1066,6 +1186,18 @@
         "review_status": "source_supported_summary_not_full_clinical_validation",
         "not_a_personalized_recommendation": true,
         "requires_specific_product_review": true
+      },
+      "evidence_appraisal": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Table 1 and ingredient discussion",
+        "scope": "exercise_performance_only",
+        "efficacy_summary_es": "No extrapolar desde otros suplementos; requiere revisar sección específica de carnitina.",
+        "safety_summary_es": "Pendiente de extracción individual de seguridad.",
+        "studied_dose_not_prescription": null,
+        "evidence_interpretation": "pendiente",
+        "source_checked_on": "2026-11-18",
+        "clinical_validation": false,
+        "requires_full_interaction_review": true
       }
     },
     {
@@ -1601,6 +1733,7 @@
     "fully_verified": 0,
     "public_recommendation_enabled": 0,
     "source_supported_entries": 11,
-    "independently_checked_claim_entries": 6
+    "independently_checked_claim_entries": 6,
+    "evidence_appraisal_entries": 11
   }
 }
