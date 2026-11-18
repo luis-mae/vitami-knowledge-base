@@ -156,7 +156,36 @@
         "dose_verified": false,
         "regulatory_verified": false
       },
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "safety_evidence_review": {
+        "source": {
+          "publisher": "NCCIH",
+          "url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+          "sections": [
+            "Is it safe to take melatonin?",
+            "Is melatonin safe for children?"
+          ]
+        },
+        "claims": {
+          "es": "La seguridad del uso prolongado de melatonina no está establecida. Se requiere supervisión en personas con epilepsia o anticoagulantes; faltan datos suficientes en embarazo y lactancia. En niños debe evaluarse con un profesional, y existen problemas documentados de discrepancia entre contenido y etiqueta.",
+          "en": "Long-term melatonin safety is not established. People with epilepsy or taking anticoagulants need medical supervision; pregnancy and breastfeeding data are insufficient. Children require professional assessment, and product-label content discrepancies have been documented.",
+          "it": "La sicurezza a lungo termine della melatonina non è stabilita. Le persone con epilessia o in terapia anticoagulante richiedono supervisione medica; i dati in gravidanza e allattamento sono insufficienti. Nei bambini è necessaria una valutazione professionale e sono state documentate discrepanze tra contenuto ed etichetta."
+        },
+        "screening_triggers": [
+          "children",
+          "pregnancy",
+          "lactation",
+          "epilepsy",
+          "anticoagulants",
+          "product labeling"
+        ],
+        "dose_interpretation": "No universal dose established by this safety review.",
+        "evidence_quality": "NCCIH_safety_summary_not_indication_grade",
+        "source_passage_status": "previously_recorded_checked_claims_requiring_full_independent_reassessment",
+        "full_documentary_status": "incomplete",
+        "professional_approval": false
+      },
+      "public_recommendation_allowed": false
     },
     {
       "ingredient_id": "curcumin",
@@ -782,7 +811,38 @@
         "reviewed_date": "2026-11-18",
         "source_checked": true
       },
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "safety_evidence_review": {
+        "source": {
+          "publisher": "NCCIH",
+          "url": "https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth",
+          "sections": [
+            "What Does the Research Say About Safety?",
+            "More To Consider"
+          ]
+        },
+        "claims": {
+          "es": "La hierba de San Juan puede reducir la eficacia de anticonceptivos orales, ciclosporina, digoxina, warfarina y algunos medicamentos para VIH y cáncer. Combinada con ciertos antidepresivos puede provocar toxicidad serotoninérgica. No sustituye el tratamiento profesional de la depresión.",
+          "en": "St John's wort may reduce effectiveness of oral contraceptives, cyclosporine, digoxin, warfarin, and some HIV and cancer medicines. Combining it with certain antidepressants can cause serotonin toxicity. It does not replace professional depression care.",
+          "it": "L'iperico può ridurre l'efficacia di contraccettivi orali, ciclosporina, digossina, warfarin e alcuni farmaci per HIV e tumori. Associato ad alcuni antidepressivi può causare tossicità serotoninergica. Non sostituisce le cure professionali per la depressione."
+        },
+        "screening_triggers": [
+          "antidepressants",
+          "contraceptives",
+          "cyclosporine",
+          "digoxin",
+          "warfarin",
+          "HIV medications",
+          "cancer medications",
+          "pregnancy"
+        ],
+        "dose_interpretation": "No general-purpose self-medication dose authorized.",
+        "evidence_quality": "NCCIH_interaction_summary_not_indication_grade",
+        "source_passage_status": "previously_recorded_checked_claims_requiring_full_independent_reassessment",
+        "full_documentary_status": "incomplete",
+        "professional_approval": false
+      },
+      "public_recommendation_allowed": false
     },
     {
       "ingredient_id": "berberine",
