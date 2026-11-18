@@ -36,7 +36,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -61,7 +73,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -103,7 +117,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -128,7 +154,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -170,7 +198,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -195,7 +235,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -237,7 +279,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -262,7 +316,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "350 mg/day UL applies to supplemental/pharmacologic magnesium only, not magnesium from food.",
       "recommendation_logic": {
@@ -304,7 +360,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -329,7 +397,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -371,7 +441,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -396,7 +478,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -438,7 +522,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -463,7 +559,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "UL refers to synthetic folic acid, not naturally occurring food folate; 400 mcg DFE RDA differs from 400 mcg folic acid pregnancy planning advice.",
       "recommendation_logic": {
@@ -505,7 +603,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -530,7 +640,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Adequate Intake is not a supplementation target. No general adult UL does not mean supplemental potassium is safe.",
       "recommendation_logic": {
@@ -572,7 +684,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -597,9 +721,22 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off.",
+        "confirmed_claims": [
+          {
+            "claim": "US FNB adult UL 100 mg/day; EFSA adult UL 12 mg/day including diet and supplements",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+          },
+          {
+            "claim": "EFSA 2023 UL 12 mg/day",
+            "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8006"
+          }
+        ],
+        "individual_review": "partial_verified"
       },
-      "upper_limit_interpretation": "EFSA adult UL 12 mg/day; US FNB 100 mg/day. Conservative screening should use 12 mg/day; age/pregnancy nuances require review.",
+      "upper_limit_interpretation": "EFSA 12 mg/day applies to total intake, not just supplements. Do not treat US 100 mg/day as the default safety threshold.",
       "recommendation_logic": {
         "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
@@ -639,7 +776,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -664,7 +813,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -706,7 +857,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -731,7 +894,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "EFSA adult UL 255 mcg/day; US FNB 400 mcg/day. Apply conservative 255 mcg/day screen.",
       "recommendation_logic": {
@@ -773,7 +938,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -798,7 +975,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -840,7 +1019,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -865,7 +1056,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "UL is for preformed retinol only, not provitamin A carotenoids.",
       "recommendation_logic": {
@@ -907,7 +1100,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -932,7 +1137,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "US UL 1000 mg/day applies to supplemental alpha-tocopherol; lower limits may be used by other authorities.",
       "recommendation_logic": {
@@ -974,7 +1181,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -999,7 +1218,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -1041,7 +1262,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -1066,7 +1299,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -1108,7 +1343,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -1133,7 +1380,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -1175,7 +1424,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -1200,7 +1461,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "35 mg/day UL applies to supplements/fortified foods and does not represent a pharmacologic therapeutic dose.",
       "recommendation_logic": {
@@ -1242,7 +1505,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -1267,7 +1542,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
       "recommendation_logic": {
@@ -1309,7 +1586,19 @@
         "official_sources": [
           "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
           "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
-        ]
+        ],
+        "official_product_lookup": "https://inal.sifega.anmat.gob.ar/consultadealimentos/",
+        "required_product_fields": [
+          "brand",
+          "form",
+          "strength",
+          "RNPA",
+          "RNE",
+          "label_warning",
+          "expiry",
+          "registered_category"
+        ],
+        "registration_rule": "No afirmar venta libre ni disponibilidad comercial de un ingrediente sin registro de producto individual."
       },
       "alternatives": {
         "status": "requires_indication_specific_review",
@@ -1334,7 +1623,9 @@
         "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
         "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
         "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
-        "verified_product_registration": false
+        "verified_product_registration": false,
+        "last_reviewed": "2026-11-17",
+        "review_note": "General ODS and ANMAT sources reviewed; ingredient-specific source and therapeutic claims not yet independently signed off."
       },
       "upper_limit_interpretation": "No established UL does not demonstrate safety or effectiveness; routine metabolic claims are unsupported.",
       "recommendation_logic": {
@@ -1348,8 +1639,9 @@
   "verification_summary": {
     "fiches_structured": 20,
     "scientific_individual_claim_validation": "pending",
-    "product_specific_argentina_validation": "pending",
+    "product_specific_argentina_validation": "pending for all 20; needs real brand and registration data",
     "ready_for_automated_recommendations": 0,
-    "why": "Do not confuse RDA/AI and UL with individualized dosing; do not claim OTC status at ingredient level."
+    "why": "Do not confuse RDA/AI and UL with individualized dosing; do not claim OTC status at ingredient level.",
+    "individually_partially_source_checked": 1
   }
 }
