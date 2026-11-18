@@ -83,6 +83,20 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/elderberry",
+        "claim": {
+          "es": "La evidencia preliminar sobre síntomas respiratorios es limitada. Las bayas crudas o inmaduras, hojas y tallos contienen sustancias tóxicas; la cocción elimina esa toxina.",
+          "en": "Evidence for respiratory symptom relief is preliminary and limited. Raw/unripe berries, leaves and stems contain toxic substances; cooking eliminates this toxin.",
+          "it": "Le prove per i sintomi respiratori sono preliminari e limitate. Bacche crude o acerbe, foglie e steli contengono sostanze tossiche; la cottura elimina la tossina."
+        },
+        "decision_rule": "BLOCK_RAW_UNPROCESSED_PREPARATIONS",
+        "studied_dose_not_prescription": null,
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+        "clinical_validation": false
       }
     },
     {
@@ -130,6 +144,20 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/cranberry",
+        "claim": {
+          "es": "Puede reducir las infecciones urinarias sintomáticas recurrentes en algunas mujeres, pero no trata una infección urinaria activa. El procesamiento modifica el contenido de proantocianidinas.",
+          "en": "May reduce symptomatic recurrent UTIs in some women, but does not treat an active UTI. Processing can alter proanthocyanidin content.",
+          "it": "Può ridurre le infezioni urinarie sintomatiche ricorrenti in alcune donne, ma non tratta un'infezione attiva. La lavorazione può modificare le proantocianidine."
+        },
+        "decision_rule": "BLOCK_ACTIVE_UTI_AS_TREATMENT",
+        "studied_dose_not_prescription": null,
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+        "clinical_validation": false
       }
     },
     {
@@ -211,6 +239,20 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/saw-palmetto",
+        "claim": {
+          "es": "La evidencia indica que Serenoa repens sola produce poco o ningún beneficio para los síntomas urinarios de hiperplasia prostática benigna.",
+          "en": "Evidence indicates saw palmetto alone provides little or no benefit for urinary symptoms of benign prostatic hyperplasia.",
+          "it": "Le prove indicano che Serenoa repens da sola offre benefici scarsi o nulli per i sintomi urinari dell'iperplasia prostatica benigna."
+        },
+        "decision_rule": "DO_NOT_RECOMMEND_FOR_BPH_SYMPTOMS",
+        "studied_dose_not_prescription": null,
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+        "clinical_validation": false
       }
     },
     {
@@ -258,6 +300,20 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/valerian",
+        "claim": {
+          "es": "Los resultados para trastornos del sueño son inconsistentes; una guía clínica desaconseja valeriana para insomnio crónico en adultos. Se estudiaron 300–600 mg/día hasta seis semanas, sin establecer seguridad prolongada.",
+          "en": "Sleep results are inconsistent; a clinical guideline recommends against valerian for chronic insomnia in adults. Doses of 300–600 mg/day were studied for up to six weeks; long-term safety is unknown.",
+          "it": "Risultati incoerenti per il sonno; una linea guida sconsiglia la valeriana nell'insonnia cronica degli adulti. Studiati 300–600 mg/die fino a sei settimane; sicurezza a lungo termine ignota."
+        },
+        "decision_rule": "DO_NOT_RECOMMEND_FOR_CHRONIC_INSOMNIA",
+        "studied_dose_not_prescription": "300–600 mg/day studied up to six weeks; not recommended dose",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+        "clinical_validation": false
       }
     },
     {
@@ -1012,6 +1068,7 @@
     "safety_priorities": 10,
     "clinically_validated": 0,
     "targeted_review_sources_added": 14,
-    "fully_clinically_verified": 0
+    "fully_clinically_verified": 0,
+    "source_verified_claim_entries": 4
   }
 }
