@@ -40,5 +40,10 @@
     "coenzyme_q10",
     "curcumin_turmeric"
   ],
-  "total_deep_records": 20
+  "total_deep_records": 20,
+  "governance": {
+    "document_status": "HISTORICAL_SNAPSHOT_NOT_CURRENT_PRODUCT_AUDIT",
+    "as_of": "historical_date_not_set",
+    "instruction": "Do not use this file as the current VITAMI product status, active work plan, or master audit. The only active plan is luis-mae/vitami/VITAMI_PLAN_MAESTRO_UNICO.md; the only consolidated audit is luis-mae/vitami/AUDITORIA.md. This file remains historical evidence for its original scope and date."
+  }
 }
