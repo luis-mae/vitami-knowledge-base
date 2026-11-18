@@ -1,5 +1,5 @@
 {
-  "version": "2.8",
+  "version": "2.9",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -208,7 +208,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -361,7 +375,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -566,7 +594,21 @@
         "verified_safety_claim_en": "Ferritin interpretation is influenced by inflammation; supplementation for suspected anemia needs diagnostic context. Elemental iron amount differs from compound mass.",
         "clinical_decision_gate": "REQUIRE_IRON_STATUS_AND_OVERLOAD_SCREEN",
         "verification_date": "2026-11-18",
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -724,7 +766,21 @@
         "verified_safety_claim_en": "Supplemental/pharmacologic UL for adults 350 mg/day, excludes food and beverage magnesium; kidney impairment increases toxicity risk.",
         "clinical_decision_gate": "BLOCK_UNSUPERVISED_RENAL_DISEASE",
         "verification_date": "2026-11-18",
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -884,7 +940,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -1044,7 +1114,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -1202,7 +1286,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -1400,7 +1498,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -1558,7 +1670,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -1719,7 +1845,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -1877,7 +2017,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -2035,7 +2189,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -2205,7 +2373,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -2363,7 +2545,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -2515,7 +2711,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -2668,7 +2878,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -2819,7 +3043,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -2978,7 +3216,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -3136,7 +3388,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -3289,7 +3555,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/"
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -3476,7 +3756,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": null
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": null,
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -3686,7 +3980,21 @@
         "verified_safety_claim_en": "High-dose biotin can interfere with immunoassays including troponin and thyroid testing; no established UL does not prove unlimited safety.",
         "clinical_decision_gate": "REQUIRE_LAB_TEST_DISCLOSURE",
         "verification_date": "2026-11-18",
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": null,
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -3879,7 +4187,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": null
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": null,
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -4072,7 +4394,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": null
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": null,
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -4261,7 +4597,21 @@
           "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
           "source_candidate": null
         },
-        "full_clinical_validation": false
+        "full_clinical_validation": false,
+        "clinical_review_worklist": {
+          "evidence_source": null,
+          "claim_level": "unverified_until_primary_source_checked",
+          "review_required": [
+            "population_specific_intake_and_upper_limit",
+            "indication_specific_effectiveness",
+            "dose_route_duration",
+            "medication_interactions",
+            "pregnancy_lactation",
+            "kidney_liver_disease",
+            "regulatory_product_verification"
+          ],
+          "publication_blocked": true
+        }
       }
     },
     {
@@ -15631,6 +15981,7 @@
     "product_regulatory_validated": 0,
     "status": "25 REFERENCE ENTRIES + 25 PRELIMINARY SCREENING RULES; INDIVIDUAL SCIENTIFIC VERIFICATION PENDING",
     "source_claims_directly_reviewed_this_pass": 3,
-    "clinical_screening_rule_drafts_added": 22
+    "clinical_screening_rule_drafts_added": 22,
+    "clinical_review_worklists_added": 25
   }
 }
