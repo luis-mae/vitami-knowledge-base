@@ -1,5 +1,5 @@
 {
-  "version": "1.8",
+  "version": "1.9",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -7575,6 +7575,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "anticoagulant_antiplatelet_screen",
+          "no_longevity_claim",
+          "dose_formulation_unknown"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7682,6 +7698,22 @@
         "review_date": "2026-11-18",
         "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
         "clinical_validation": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/elderberry",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "raw_unripe_plant_toxicity",
+          "respiratory_efficacy_uncertain",
+          "immunosuppression_review"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7790,6 +7822,22 @@
         "review_date": "2026-11-18",
         "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
         "clinical_validation": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/cranberry",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "not_active_UTI_treatment",
+          "warfarin_screen",
+          "recurrent_UTI_context"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7858,6 +7906,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "recurrent_UTI_prevention_evidence_uncertain",
+          "not_active_UTI_treatment",
+          "diabetes_and_glycemic_context"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7965,6 +8029,22 @@
         "review_date": "2026-11-18",
         "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
         "clinical_validation": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/saw-palmetto",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "BPH_symptoms_no_meaningful_efficacy",
+          "pregnancy_avoid",
+          "prostate_symptoms_medical_evaluation"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8085,6 +8165,22 @@
         "review_date": "2026-11-18",
         "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
         "clinical_validation": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/valerian",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "sedatives_and_alcohol",
+          "driving_impairment",
+          "chronic_insomnia_guideline_not_recommended"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8210,6 +8306,22 @@
         "dose_verified": false,
         "interactions_complete": false,
         "product_registration_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/rhodiola",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "losartan_possible_interaction",
+          "insomnia",
+          "pregnancy_lactation_unknown"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8289,6 +8401,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "hypotension_medication_screen",
+          "oral_antiseptic_mouthwash_interaction",
+          "nitrate_quantity_vs_beetroot_mass"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8357,6 +8485,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "sodium_potassium_content",
+          "kidney_heart_failure_screen",
+          "diuretics_ACE_ARB_screen"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8488,6 +8632,22 @@
         "dose_verified": false,
         "interactions_complete": false,
         "product_registration_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "individual_nutrient_UL_totals",
+          "warfarin_vitamin_K",
+          "pregnancy_retinol_screen"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8601,6 +8761,22 @@
         "source_verified": true,
         "full_clinical_review": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/",
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "no_RDA_or_AI",
+          "UL_and_age_review",
+          "no_deficiency_claim"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8723,6 +8899,22 @@
         "source_verified": true,
         "full_clinical_review": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/",
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "AI_vs_RDA_distinction",
+          "high_dose_toxicity",
+          "dietary_intake_first"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8789,6 +8981,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "sodium_chloride_coexposure",
+          "heart_kidney_disease",
+          "AI_not_supplement_dose"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8913,6 +9121,22 @@
         "source_verified": true,
         "full_clinical_review": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/",
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "drinking_water_exposure",
+          "fluorosis_risk_children",
+          "dental_products_swallowing"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8979,6 +9203,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "AREDS2_formula_not_single_ingredient",
+          "eye_disease_diagnosis",
+          "dose_evidence_specific"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9045,6 +9285,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "AREDS2_combination_evidence",
+          "eye_disease_diagnosis",
+          "no_general_prevention_claim"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9111,6 +9367,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "resistance_training_context",
+          "evidence_by_population",
+          "renal_liver_disease_screen"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9177,6 +9449,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "TMG_vs_betaine_HCl_formulation",
+          "LDL_changes",
+          "sport_evidence_uncertain"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9255,6 +9543,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "serotonergic_medications",
+          "sedation",
+          "eosinophilia_myalgia_historical_contamination"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9333,6 +9637,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "serotonin_syndrome_SSRI_SNRI_MAOI",
+          "pregnancy_avoid",
+          "product_quality"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9399,6 +9719,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "source_identification_or_verification_pending",
+        "safety_checks": [
+          "GI_adverse_effects",
+          "thyroid_medication_review",
+          "sedation"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9534,6 +9870,22 @@
         "full_interactions_verified": false,
         "regulatory_verified": false,
         "clinical_validation": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/milk-thistle",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "liver_disease_not_established_treatment",
+          "asteraceae_allergy",
+          "silymarin_content_variability"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9667,6 +10019,22 @@
         "full_interactions_verified": false,
         "regulatory_verified": false,
         "clinical_validation": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/peppermint-oil",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "enteric_coated_only_for_IBS_evidence",
+          "GERD_reflux_worsening",
+          "not_raw_essential_oil"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9802,6 +10170,22 @@
         "dose_verified": false,
         "interactions_complete": false,
         "product_registration_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/passionflower",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "pregnancy_avoid",
+          "sedation_driving",
+          "surgery_sedation"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9937,6 +10321,22 @@
         "full_interactions_verified": false,
         "regulatory_verified": false,
         "clinical_validation": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/chamomile",
+        "reference_status": "partial_claim_review",
+        "safety_checks": [
+          "asteraceae_allergy",
+          "warfarin_interaction",
+          "sedatives"
+        ],
+        "clinical_dose_status": "pending_indication_and_formulation_specific_review",
+        "interactions_status": "pending_full_check",
+        "evidence_grade_status": "pending",
+        "argentina_regulatory_status": "pending_real_product_verification",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10348,9 +10748,9 @@
   },
   "batch_completion_pass": {
     "date": "2026-11-18",
-    "range": "46-70",
+    "range": "71-95",
     "processed": 25,
     "scientifically_complete": 0,
-    "meaning": "25 botanical/specialty ingredient-specific contraindication and interaction gates, without asserting clinical verification"
+    "meaning": "25 individualized evidence/safety review packets, not complete validation"
   }
 }
