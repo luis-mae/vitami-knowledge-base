@@ -1,0 +1,999 @@
+{
+  "title": "VITAMI step 1 — 50 individual inventory and gap register",
+  "date": "2026-11-18",
+  "status": "STEP_1_PRELIMINARY_INVENTORY_RECORDED_CANONICAL_CONTENT_RECONCILIATION_PENDING",
+  "method": "Cross-check first 50 IDs from independent reaudit with per-ingredient 55-record dosing-gap audit; NOT a full direct read of the canonical 100-record catalog. The large catalog fetch returned no complete parseable content in this pass.",
+  "counts": {
+    "records": 50,
+    "matched_existing_gap_entries": 50,
+    "numeric_source_tables_verified": 0,
+    "personalized_dosing_verified": 0,
+    "safety_verified": 0,
+    "automatic_ready": 0
+  },
+  "records": [
+    {
+      "number": 1,
+      "id": "vitamin_d",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "dose_text": "15 mcg (600 UI)",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 2,
+      "id": "vitamin_b12",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "dose_text": "2,4 mcg",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 3,
+      "id": "iron",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "dose_text": "8 mg varones; 18 mg mujeres 19–50",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 4,
+      "id": "magnesium",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "dose_text": "400–420 mg varones; 310–320 mg mujeres",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 5,
+      "id": "calcium",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "dose_text": "1000 mg (19–50 años)",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 6,
+      "id": "zinc",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "dose_text": "11 mg varones; 8 mg mujeres",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 7,
+      "id": "folate",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "dose_text": "400 mcg DFE",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 8,
+      "id": "potassium",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "dose_text": "3400 mg varones; 2600 mg mujeres (AI)",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 9,
+      "id": "vitamin_b6",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "dose_text": "1,3 mg (19–50 años)",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 10,
+      "id": "iodine",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "dose_text": "150 mcg",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 11,
+      "id": "selenium",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "dose_text": "55 mcg",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 12,
+      "id": "vitamin_c",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "dose_text": "90 mg varones; 75 mg mujeres",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 13,
+      "id": "vitamin_a",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "dose_text": "900 mcg RAE varones; 700 mcg RAE mujeres",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 14,
+      "id": "vitamin_e",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "dose_text": "15 mg alfa-tocoferol",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 15,
+      "id": "vitamin_k",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "dose_text": "120 mcg varones; 90 mcg mujeres (AI)",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 16,
+      "id": "thiamin",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "dose_text": "1,2 mg varones; 1,1 mg mujeres",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 17,
+      "id": "riboflavin",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+      "dose_text": "1,3 mg varones; 1,1 mg mujeres",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 18,
+      "id": "niacin",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+      "dose_text": "16 mg NE varones; 14 mg NE mujeres",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 19,
+      "id": "copper",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+      "dose_text": "900 mcg",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 20,
+      "id": "chromium",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+      "dose_text": "35 mcg varones; 25 mcg mujeres (AI)",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 21,
+      "id": "pantothenic_acid",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+      "dose_text": "AI 5 mg/day adults; pregnancy 6 mg/day; lactation 7 mg/day",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 22,
+      "id": "biotin",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+      "dose_text": "AI 30 mcg/day adults; lactation 35 mcg/day",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 23,
+      "id": "manganese",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+      "dose_text": "AI 2.3 mg/day men, 1.8 mg/day women",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 24,
+      "id": "phosphorus",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+      "dose_text": "RDA 700 mg/day adults",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 25,
+      "id": "sodium",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://www.nationalacademies.org/read/25353/chapter/13",
+      "dose_text": "Adults 19+: sodium AI 1500 mg/day total intake. CDRR: reduce intakes above 2300 mg/day. Neither is a supplement dose.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 26,
+      "id": "creatine",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "3–5 g/day maintenance in studied healthy adults; optional 20 g/day split loading for 5–7 days",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 27,
+      "id": "beta_alanine",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "4–6 g/day divided doses for 2–4 weeks in athletic trials",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 28,
+      "id": "caffeine",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "2–6 mg/kg before exercise in studies",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 29,
+      "id": "protein_powder",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "Athletic total protein intake often 1.2–2.0 g/kg/day from all sources",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 30,
+      "id": "whey_protein",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 31,
+      "id": "plant_protein",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 32,
+      "id": "citrulline",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "No established evidence-based routine supplemental dose",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 33,
+      "id": "arginine",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "No established effective exercise-performance dose",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 34,
+      "id": "bcaa",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "No established added-benefit dose with adequate complete protein",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 35,
+      "id": "leucine",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "dose_text": "No established universal isolated supplemental dose",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 36,
+      "id": "taurine",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://pubmed.ncbi.nlm.nih.gov/40852891/",
+      "dose_text": "2025 meta-analysis 23 RCTs (308 participants): acute 1–6 g studied before exercise; no significant dose-response, evidence GRADE low to very low. No established universally recommended performance dose.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 37,
+      "id": "carnitine",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+      "dose_text": "No dietary reference intake established for healthy adults",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 38,
+      "id": "omega3_epa_dha",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "dose_text": "No US RDA for EPA+DHA; dose depends on clinical indication",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 39,
+      "id": "algal_omega3",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "dose_text": "No US RDA for algal EPA+DHA; read label DHA and EPA content",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 40,
+      "id": "psyllium",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://medlineplus.gov/druginfo/meds/a601104.html",
+      "dose_text": "MedlinePlus: psyllium usually taken 1–3 times daily according to formulation label, each powder/granules dose with 240 mL liquid; no universal gram dose across products. EMA monograph distinguishes psyllium seed from ispaghula husk.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 41,
+      "id": "inulin",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+      "dose_text": "Health Canada 2026 monograph: inulin 5–15 g/day for prebiotic use in adults 18+. Trial: chicory native inulin 10 g/day for 5 weeks in adults 40–75 with low stool frequency; small crossover trials with mixed results.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 42,
+      "id": "probiotics",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+      "dose_text": "Dose is strain-, indication-, and product-specific; expressed in CFU; no universal CFU/day.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 43,
+      "id": "prebiotics",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+      "dose_text": "No single prebiotic-class dose. Health Canada adult 18+ monograph: inulin 5–15 g/day, acacia 10–20 g/day, FOS/scFOS 2.5–15 g/day for defined prebiotic purposes.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 44,
+      "id": "collagen",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://pubmed.ncbi.nlm.nih.gov/40826844/",
+      "dose_text": "2025 systematic review of 10 trials: oral collagen 1–10 g/day studied for skin hydration/elasticity; most common 4 g/day. Conflicting 2025 meta-analysis of 23 RCTs found no benefit in independently funded or high-quality trials; therefore no evidence-established universal recommended dose.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 45,
+      "id": "choline",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "dose_text": "AI: 550 mg/day men 19+, 425 mg/day women 19+, 450 mg/day pregnancy, 550 mg/day lactation (total intake).",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "MISSING_AGE_SEX_LIFESTAGE_REFERENCE_TABLE",
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 46,
+      "id": "coq10",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://www.nccih.nih.gov/health/coenzyme-q10",
+      "dose_text": "No established daily requirement or universal supplementation dose.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 47,
+      "id": "melatonin",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+      "dose_text": "No established universal dose; depends on circadian indication, timing, age and formulation.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 48,
+      "id": "curcumin",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://www.nccih.nih.gov/health/turmeric",
+      "dose_text": "No established RDA/AI/UL or universal therapeutic dose.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 49,
+      "id": "ginger",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://www.nccih.nih.gov/health/ginger",
+      "dose_text": "No established RDA/AI/UL or universal supplement dose.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    },
+    {
+      "number": 50,
+      "id": "ashwagandha",
+      "inventory_source": "existing_55_record_dosing_gap_audit",
+      "editorial_structure": "REPORTED_PRESENT",
+      "source_reference": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+      "dose_text": "Stress/anxiety trials: extracts 240–1250 mg/day for 6–8 weeks; several studies found greater effects at 500–600 mg/day.",
+      "source_numeric_table_verified": false,
+      "personalized_dose_verified": false,
+      "safety_verified": false,
+      "automatic_recommendation_ready": false,
+      "known_gaps": [
+        "NUMERIC_SOURCE_TABLE_NOT_VERIFIED_IN_RECORD",
+        "SAFETY_RULES_NOT_VERIFIED",
+        "NOT_FUNCTIONAL_FOR_AUTOMATED_DOSING",
+        "PRIOR_SOURCE_AUDIT_PARTIAL"
+      ],
+      "step_1_status": "OPEN_GAPS",
+      "canonical_catalog_direct_read": "NOT_VERIFIED_IN_THIS_PASS"
+    }
+  ],
+  "next_required": "Read/reconcile canonical fiches directly; enumerate absent fields across efficacy, evidence, safety, dose, regulatory and translations; retain no-ready status until verified.",
+  "audit_integrity": "Step 1 is an evidence-based inventory of known gaps, not a certification of completeness or a direct canonical catalog field-by-field audit.",
+  "sources": [
+    "data/research/all_55_dosing_evidence_gap_audit_2026-11-18.json",
+    "data/research/independent_reaudit_first_55_2026-11-18.json"
+  ]
+}
