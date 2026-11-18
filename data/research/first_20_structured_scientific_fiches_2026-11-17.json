@@ -326,7 +326,36 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
-      }
+      },
+      "safety_evidence_review": {
+        "source": {
+          "publisher": "NIH ODS",
+          "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+          "sections": [
+            "Health Risks from Excessive Magnesium",
+            "Interactions with Medications"
+          ]
+        },
+        "claims": {
+          "es": "El límite superior de 350 mg/día para adultos se refiere al magnesio de suplementos y medicamentos, no al de alimentos. Dosis altas pueden provocar diarrea y toxicidad, especialmente con insuficiencia renal. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; diuréticos e inhibidores de bomba de protones pueden modificar el estado de magnesio.",
+          "en": "The adult 350 mg/day upper limit applies to supplemental and medicinal magnesium, not food magnesium. High doses may cause diarrhea and toxicity, especially with impaired renal function. Magnesium may impair absorption of tetracyclines, quinolones and oral bisphosphonates; diuretics and proton-pump inhibitors may affect magnesium status.",
+          "it": "Il limite massimo di 350 mg/die per gli adulti riguarda il magnesio da integratori e farmaci, non dagli alimenti. Dosi elevate possono causare diarrea e tossicità, soprattutto con insufficienza renale. Il magnesio può ridurre l'assorbimento di tetracicline, chinoloni e bifosfonati orali; diuretici e inibitori di pompa protonica possono alterarne lo stato."
+        },
+        "screening_triggers": [
+          "renal impairment",
+          "oral bisphosphonates",
+          "tetracyclines",
+          "quinolones",
+          "diuretics",
+          "proton pump inhibitors"
+        ],
+        "dose_interpretation": "350 mg/day UL for supplemental/medicinal magnesium in adults; not a target or personalized dose.",
+        "evidence_quality": "authoritative_nutrient_fact_sheet_not_indication_grade",
+        "source_passage_status": "previously_recorded_checked_claims_requiring_full_independent_reassessment",
+        "full_documentary_status": "incomplete",
+        "professional_approval": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "calcium",
