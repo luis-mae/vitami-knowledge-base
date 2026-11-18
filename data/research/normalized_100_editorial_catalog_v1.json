@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "status": "editorial_draft_not_validated",
   "counts": {
     "total": 100,
@@ -7,7 +7,9 @@
     "tri_language_safety": 100,
     "tri_language_use": 100,
     "source_pointer": 20,
-    "clinically_approved": 0
+    "clinically_approved": 0,
+    "safety_flags_added": 19,
+    "ingredients_with_targeted_safety_flags": 18
   },
   "records": [
     {
@@ -48,7 +50,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "vitamin_b12",
@@ -88,7 +91,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "iron",
@@ -128,7 +132,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": [
+        {
+          "rule_id": "iron_toxicity",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "No indicar hierro sin evaluación de necesidad; la sobredosis puede ser grave, especialmente en niños.",
+            "en": "Do not recommend iron without assessing need; overdose can be serious, especially in children.",
+            "it": "Non raccomandare ferro senza valutare la necessità; il sovradosaggio può essere grave, specie nei bambini."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "magnesium",
@@ -168,7 +185,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "calcium",
@@ -208,7 +226,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "zinc",
@@ -248,7 +267,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "folate",
@@ -288,7 +308,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "potassium",
@@ -328,7 +349,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": [
+        {
+          "rule_id": "potassium_renal_drugs",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar función renal y medicamentos que aumentan el potasio antes de cualquier suplemento.",
+            "en": "Review kidney function and potassium-raising medicines before supplementation.",
+            "it": "Valutare funzione renale e farmaci che aumentano il potassio prima dell'integrazione."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "vitamin_b6",
@@ -368,7 +402,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "iodine",
@@ -408,7 +443,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "selenium",
@@ -448,7 +484,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "vitamin_c",
@@ -488,7 +525,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "vitamin_a",
@@ -528,7 +566,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": [
+        {
+          "rule_id": "vitamin_a_pregnancy",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Evitar dosis elevadas de vitamina A preformada durante el embarazo por riesgo teratogénico.",
+            "en": "Avoid high doses of preformed vitamin A in pregnancy due to teratogenic risk.",
+            "it": "Evitare alte dosi di vitamina A preformata in gravidanza per rischio teratogeno."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "vitamin_e",
@@ -568,7 +619,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "vitamin_k",
@@ -608,7 +660,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "thiamin",
@@ -648,7 +701,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "riboflavin",
@@ -688,7 +742,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "niacin",
@@ -728,7 +783,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "copper",
@@ -768,7 +824,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "chromium",
@@ -808,7 +865,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
+      "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "pantothenic_acid",
@@ -848,7 +906,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "biotin",
@@ -888,7 +947,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": [
+        {
+          "rule_id": "biotin_lab_interference",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Puede alterar resultados de pruebas de laboratorio, incluidas algunas de troponina y función tiroidea; informar al equipo de salud.",
+            "en": "May interfere with laboratory tests, including some troponin and thyroid assays; inform healthcare staff.",
+            "it": "Può interferire con esami di laboratorio, inclusi alcuni test della troponina e tiroidei; informare il personale sanitario."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "manganese",
@@ -928,7 +1000,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "phosphorus",
@@ -968,7 +1041,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "sodium",
@@ -1008,7 +1082,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "creatine",
@@ -1048,7 +1123,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "beta_alanine",
@@ -1088,7 +1164,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "caffeine",
@@ -1128,7 +1205,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": [
+        {
+          "rule_id": "caffeine_stimulant",
+          "severity": "moderate",
+          "review_required": true,
+          "reason": {
+            "es": "Evaluar cafeína total, insomnio, ansiedad, embarazo y afecciones cardiovasculares.",
+            "en": "Assess total caffeine, insomnia, anxiety, pregnancy and cardiovascular conditions.",
+            "it": "Valutare caffeina totale, insonnia, ansia, gravidanza e condizioni cardiovascolari."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "protein_powder",
@@ -1168,7 +1258,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "whey_protein",
@@ -1208,7 +1299,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "plant_protein",
@@ -1248,7 +1340,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "citrulline",
@@ -1288,7 +1381,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "arginine",
@@ -1328,7 +1422,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "bcaa",
@@ -1368,7 +1463,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "leucine",
@@ -1408,7 +1504,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "taurine",
@@ -1448,7 +1545,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "carnitine",
@@ -1488,7 +1586,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "omega3_epa_dha",
@@ -1528,7 +1627,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": [
+        {
+          "rule_id": "omega3_anticoagulant",
+          "severity": "moderate",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar anticoagulantes, dosis total de EPA/DHA y antecedentes de sangrado.",
+            "en": "Review anticoagulants, total EPA/DHA exposure and bleeding history.",
+            "it": "Valutare anticoagulanti, dose totale EPA/DHA e precedenti emorragici."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "algal_omega3",
@@ -1568,7 +1680,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": [
+        {
+          "rule_id": "omega3_anticoagulant",
+          "severity": "moderate",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar anticoagulantes, dosis total de EPA/DHA y antecedentes de sangrado.",
+            "en": "Review anticoagulants, total EPA/DHA exposure and bleeding history.",
+            "it": "Valutare anticoagulanti, dose totale EPA/DHA e precedenti emorragici."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "psyllium",
@@ -1608,7 +1733,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json"
+      "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
+      "safety_flags": [
+        {
+          "rule_id": "psyllium_swallowing",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Tomar con líquido suficiente; riesgo de obstrucción en personas con dificultades para tragar.",
+            "en": "Take with sufficient fluid; obstruction risk in people with swallowing difficulties.",
+            "it": "Assumere con liquidi sufficienti; rischio di ostruzione in persone con difficoltà di deglutizione."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "inulin",
@@ -1648,7 +1786,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "probiotics",
@@ -1688,7 +1827,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "probiotics_high_risk",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Requiere evaluación profesional en inmunosupresión grave o enfermedad crítica.",
+            "en": "Requires professional assessment in severe immunosuppression or critical illness.",
+            "it": "Richiede valutazione professionale in immunosoppressione grave o malattia critica."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "prebiotics",
@@ -1728,7 +1880,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "collagen",
@@ -1768,7 +1921,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "choline",
@@ -1808,7 +1962,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "coq10",
@@ -1848,7 +2003,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "melatonin",
@@ -1888,7 +2044,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "melatonin_sedation",
+          "severity": "moderate",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar sedantes, somnolencia y tareas que requieran alerta.",
+            "en": "Review sedatives, drowsiness and tasks requiring alertness.",
+            "it": "Valutare sedativi, sonnolenza e attività che richiedono attenzione."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "curcumin",
@@ -1928,7 +2097,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "ginger",
@@ -1968,7 +2138,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "ashwagandha",
@@ -2008,7 +2179,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "ashwagandha_liver_thyroid",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar embarazo, enfermedad tiroidea y hepática; se han comunicado casos de lesión hepática.",
+            "en": "Review pregnancy, thyroid and liver conditions; liver injury cases have been reported.",
+            "it": "Valutare gravidanza e patologie tiroidee ed epatiche; segnalati casi di danno epatico."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "green_tea_extract",
@@ -2048,7 +2232,31 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "caffeine_stimulant",
+          "severity": "moderate",
+          "review_required": true,
+          "reason": {
+            "es": "Evaluar cafeína total, insomnio, ansiedad, embarazo y afecciones cardiovasculares.",
+            "en": "Assess total caffeine, insomnia, anxiety, pregnancy and cardiovascular conditions.",
+            "it": "Valutare caffeina totale, insonnia, ansia, gravidanza e condizioni cardiovascolari."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        },
+        {
+          "rule_id": "green_tea_liver",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Los extractos concentrados se han asociado a lesión hepática; no equipararlos al té como bebida.",
+            "en": "Concentrated extracts have been associated with liver injury; do not equate them with brewed tea.",
+            "it": "Gli estratti concentrati sono stati associati a danno epatico; non equipararli all'infuso."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "ginseng",
@@ -2088,7 +2296,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "garlic_extract",
@@ -2128,7 +2337,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "turmeric",
@@ -2168,7 +2378,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "echinacea",
@@ -2208,7 +2419,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "st_johns_wort",
@@ -2248,7 +2460,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "st_johns_wort_drug_interactions",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Numerosas interacciones farmacológicas relevantes, incluidos anticonceptivos y ciertos antidepresivos; requiere revisión profesional.",
+            "en": "Major drug interactions, including hormonal contraceptives and some antidepressants; requires professional review.",
+            "it": "Importanti interazioni farmacologiche, inclusi contraccettivi ormonali e alcuni antidepressivi; richiede revisione professionale."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "berberine",
@@ -2288,7 +2513,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "alpha_lipoic_acid",
@@ -2328,7 +2554,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "astaxanthin",
@@ -2368,7 +2595,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "beta_carotene",
@@ -2408,7 +2636,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "inositol",
@@ -2448,7 +2677,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "lycopene",
@@ -2488,7 +2718,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "mct_oil",
@@ -2528,7 +2759,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "nac",
@@ -2568,7 +2800,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "spirulina",
@@ -2608,7 +2841,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "glucosamine",
@@ -2648,7 +2882,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "chondroitin",
@@ -2688,7 +2923,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "msm",
@@ -2728,7 +2964,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "l_theanine",
@@ -2768,7 +3005,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "quercetin",
@@ -2808,7 +3046,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "resveratrol",
@@ -2848,7 +3087,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "elderberry",
@@ -2888,7 +3128,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "cranberry",
@@ -2928,7 +3169,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "d_mannose",
@@ -2968,7 +3210,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "saw_palmetto",
@@ -3008,7 +3251,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "valerian",
@@ -3048,7 +3292,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "melatonin_sedation",
+          "severity": "moderate",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar sedantes, somnolencia y tareas que requieran alerta.",
+            "en": "Review sedatives, drowsiness and tasks requiring alertness.",
+            "it": "Valutare sedativi, sonnolenza e attività che richiedono attenzione."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "rhodiola",
@@ -3088,7 +3345,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "beetroot_nitrate",
@@ -3128,7 +3386,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "electrolytes",
@@ -3168,7 +3427,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "multivitamin",
@@ -3208,7 +3468,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json"
+      "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "boron",
@@ -3248,7 +3509,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "molybdenum",
@@ -3288,7 +3550,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "chloride",
@@ -3328,7 +3591,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "fluoride",
@@ -3368,7 +3632,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "lutein",
@@ -3408,7 +3673,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "zeaxanthin",
@@ -3448,7 +3714,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "hmb",
@@ -3488,7 +3755,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "betaine",
@@ -3528,7 +3796,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "l_tryptophan",
@@ -3568,7 +3837,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "5htp_serotonergic",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar uso de fármacos serotoninérgicos por riesgo de interacciones potencialmente graves.",
+            "en": "Review serotonergic medicines for potentially serious interactions.",
+            "it": "Valutare farmaci serotoninergici per possibili interazioni gravi."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "5_htp",
@@ -3608,7 +3890,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "5htp_serotonergic",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar uso de fármacos serotoninérgicos por riesgo de interacciones potencialmente graves.",
+            "en": "Review serotonergic medicines for potentially serious interactions.",
+            "it": "Valutare farmaci serotoninergici per possibili interazioni gravi."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "bacopa",
@@ -3648,7 +3943,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "milk_thistle",
@@ -3688,7 +3984,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "peppermint_oil",
@@ -3728,7 +4025,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "passionflower",
@@ -3768,7 +4066,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "melatonin_sedation",
+          "severity": "moderate",
+          "review_required": true,
+          "reason": {
+            "es": "Revisar sedantes, somnolencia y tareas que requieran alerta.",
+            "en": "Review sedatives, drowsiness and tasks requiring alertness.",
+            "it": "Valutare sedativi, sonnolenza e attività che richiedono attenzione."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "chamomile",
@@ -3808,7 +4119,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "licorice_root",
@@ -3848,7 +4160,20 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": [
+        {
+          "rule_id": "licorice_electrolyte_blood_pressure",
+          "severity": "high",
+          "review_required": true,
+          "reason": {
+            "es": "La glicirricina puede elevar la presión arterial y reducir el potasio; evitar recomendar sin revisión clínica.",
+            "en": "Glycyrrhizin may raise blood pressure and lower potassium; do not recommend without clinical review.",
+            "it": "La glicirrizina può aumentare la pressione e ridurre il potassio; non raccomandare senza revisione clinica."
+          },
+          "claim_verification_status": "pending_primary_source_review"
+        }
+      ]
     },
     {
       "ingredient_id": "bromelain",
@@ -3888,7 +4213,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "propolis",
@@ -3928,7 +4254,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "maca",
@@ -3968,7 +4295,8 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     },
     {
       "ingredient_id": "glutamine",
@@ -4008,7 +4336,9 @@
         "clinical_review_required": true,
         "claim_validation_required": true
       },
-      "source_file": "data/research/batch_05_final_20_candidate_drafts.json"
+      "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
+      "safety_flags": []
     }
-  ]
+  ],
+  "safety_rules_version": "2026-11-18"
 }
