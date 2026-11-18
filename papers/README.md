@@ -41,3 +41,7 @@ La presencia de una referencia no equivale a cotejo independiente de cada afirma
 ## Cuarto Paper
 
 Pendiente de desarrollo como documento final de la biblioteca.
+
+
+## Inventario real de archivos respaldados (18/11/2026)
+En este directorio están guardados únicamente este README y `AUDITORIA_100_FICHAS_18-11-2026.md`. Los archivos completos Paper 1, Paper 2, Paper 3 integrado, Paper 0.5 y los PDFs/DOCX de las 100 fichas no están presentes en el árbol actual de GitHub. No declarar esos artefactos como guardados ni recuperables desde este repositorio hasta que se suban y se verifique su presencia. La auditoría documental es evidencia sobre su revisión, no sustituto de los papers.
