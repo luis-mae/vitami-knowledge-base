@@ -1,3 +1,5 @@
+> **GOBERNANZA Y DATOS — PRECEDENCIA OBLIGATORIA (18/11/2026):** El único plan operativo es [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md); el único concepto es [CONCEPTO_DIRECTOR_VITAMI.md](https://github.com/luis-mae/vitami/blob/main/frontend/CONCEPTO_DIRECTOR_VITAMI.md); la única auditoría maestra es [AUDITORIA.md](https://github.com/luis-mae/vitami/blob/main/AUDITORIA.md). Este repositorio es la **fuente científica maestra**. Su base canónica es `main/phase2/library/` (100 registros según `LIBRARY_INDEX.json`). Las ramas alternativas y planes/auditorías antiguos son históricos o material de trabajo; no son fuentes maestras paralelas. La copia `frontend/src/vitami/data/library.json` del repositorio de app es un snapshot de ejecución que debe derivarse de esta base, no editarse como fuente independiente.
+
 > **GOBERNANZA ÚNICA VITAMI (18/11/2026):** El único plan operativo vigente es [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md), regido por [CONCEPTO_DIRECTOR_VITAMI.md](https://github.com/luis-mae/vitami/blob/main/frontend/CONCEPTO_DIRECTOR_VITAMI.md). Este archivo se conserva como referencia técnica/histórica, NO como roadmap independiente. Las tareas científicas útiles se ejecutan exclusivamente dentro de los bloques E3–E4 del plan único; no crear motores ni cuestionarios alternativos.
 
 # Vitami Knowledge Base
@@ -57,22 +59,9 @@ La ficha pública podrá mostrar:
 - fuentes;
 - fecha de revisión.
 
-## Flujo de trabajo recomendado
+## Flujo de trabajo
 
-### Fase 1 — arquitectura
-Definir estructura, fuentes, trazabilidad, seguridad, niveles y versionado. **Este repositorio está en esta fase.**
-
-### Fase 2 — carga de evidencia
-Crear fichas reales de suplementos y afirmaciones científicas con fuentes.
-
-### Fase 3 — cuestionario y reglas
-Cruzar la evidencia con las preguntas de Vitami. Agregar, modificar o eliminar preguntas y crear reglas ponderadas/condicionales.
-
-### Fase 4 — ampliación
-Añadir suplementos menos frecuentes, botánicos, compuestos bioactivos y registros informativos de evidencia insuficiente.
-
-### Fase 5 — implementación
-Emergent u otro desarrollador integra estos archivos en la aplicación.
+Las fases históricas descritas en este README explican la evolución del repositorio; **no constituyen un plan activo**. Toda ejecución debe seguir exclusivamente los bloques A/B/C del Plan Maestro Único del repositorio de la app. La base maestra permanece en `main/phase2/library/`; las ramas alternativas son fuentes de comparación selectiva, no bases independientes.
 
 ## Estados
 
