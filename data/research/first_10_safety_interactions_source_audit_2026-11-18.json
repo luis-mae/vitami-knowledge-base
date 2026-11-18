@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-18",
+  "scope": "First 10 ingredients safety cross-check",
+  "method": "Opened NIH ODS health professional pages for all ten; located and reviewed excess-risk and medication interaction sections; extracted key warnings, not an exhaustive full-text claim-by-claim audit.",
+  "result": "Ten first-ingredient safety dossiers created with direct source traceability; do not claim full final validation of all fields or app functionality.",
+  "items": [
+    {
+      "id": "vitamin_d",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Hipercalcemia, toxicidad por exceso, enfermedad granulomatosa y alteraciones renales requieren evaluación; no inferir dosis terapéutica de RDA.",
+      "interactions": [
+        "orlistat",
+        "estatinas (posible interacción dependiente del fármaco)",
+        "corticoides",
+        "diuréticos tiazídicos"
+      ],
+      "upper_limit_or_warning": "UL adulto 100 mcg (4000 UI)/día de ingesta total.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "vitamin_b12",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Deficiencia por anemia perniciosa, malabsorción o cirugía gastrointestinal requiere diagnóstico y tratamiento individual; no sustituirlo por RDA.",
+      "interactions": [
+        "metformina",
+        "inhibidores de bomba de protones",
+        "antagonistas H2"
+      ],
+      "upper_limit_or_warning": "Sin UL establecido; esto no implica ausencia de necesidad de evaluación.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "iron",
+      "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Sobrecarga férrica/hemocromatosis, anemia de causa desconocida, toxicidad por sobredosis (especialmente niños).",
+      "interactions": [
+        "levodopa",
+        "levotiroxina",
+        "inhibidores de bomba de protones"
+      ],
+      "upper_limit_or_warning": "UL adulto 45 mg/día de ingesta total; tratamiento de deficiencia no se deduce de RDA.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "magnesium",
+      "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Enfermedad renal y exceso de suplementos: diarrea, hipotensión y toxicidad en insuficiencia renal.",
+      "interactions": [
+        "bisfosfonatos orales",
+        "tetraciclinas",
+        "quinolonas",
+        "diuréticos",
+        "inhibidores de bomba de protones"
+      ],
+      "upper_limit_or_warning": "UL 350 mg/día adulto solo de suplementos/medicamentos, no magnesio alimentario.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "calcium",
+      "source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Hipercalcemia, cálculos renales y riesgo de ingesta excesiva; enfermedad renal requiere evaluación.",
+      "interactions": [
+        "dolutegravir",
+        "levotiroxina",
+        "litio",
+        "quinolonas"
+      ],
+      "upper_limit_or_warning": "UL total adulto 2500 mg/día 19–50; 2000 mg/día desde 51.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "zinc",
+      "source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Exceso: náuseas, alteraciones del cobre, anemia y problemas inmunitarios.",
+      "interactions": [
+        "quinolonas",
+        "tetraciclinas",
+        "penicilamina",
+        "diuréticos tiazídicos"
+      ],
+      "upper_limit_or_warning": "UL total adulto 40 mg/día.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "folate",
+      "source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Dosis altas de ácido fólico pueden ocultar manifestaciones hematológicas de déficit B12; embarazo requiere distinción DFE/ácido fólico.",
+      "interactions": [
+        "metotrexato (según indicación clínica)",
+        "antiepilépticos",
+        "sulfasalazina"
+      ],
+      "upper_limit_or_warning": "UL adulto 1000 mcg/día de ácido fólico sintético, no folato alimentario.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "potassium",
+      "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Enfermedad renal, hiperpotasemia, insuficiencia suprarrenal y riesgo de arritmias; no recomendar automáticamente suplementos para alcanzar AI.",
+      "interactions": [
+        "IECA",
+        "ARA-II",
+        "diuréticos ahorradores de potasio"
+      ],
+      "upper_limit_or_warning": "No UL establecido en adultos sanos; riesgo de hiperpotasemia sigue siendo grave en grupos susceptibles.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "vitamin_b6",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Neuropatía periférica por ingesta excesiva crónica; considerar UL EFSA 12 mg/día adultos (más conservador que UL estadounidense).",
+      "interactions": [
+        "cicloserina",
+        "antiepilépticos",
+        "teofilina"
+      ],
+      "upper_limit_or_warning": "UL EFSA 12 mg/día adulto; NIH menciona UL estadounidense 100 mg/día, discrepancia regulatoria explícita.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    },
+    {
+      "id": "iodine",
+      "source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "sections_checked": [
+        "Health Risks from Excessive",
+        "Interactions with Medications"
+      ],
+      "contraindications_and_precautions": "Trastornos tiroideos, exceso o déficit de yodo, susceptibilidad autoinmune y alteraciones por dosis altas.",
+      "interactions": [
+        "antitiroideos como metimazol",
+        "IECA con yoduro potásico",
+        "diuréticos ahorradores de potasio con yoduro potásico"
+      ],
+      "upper_limit_or_warning": "UL total adulto 1100 mcg/día.",
+      "audit": "SOURCE_SECTIONS_REVIEWED",
+      "clinical_content_validation": "REVIEWED_MAJOR_SAFETY_CLAIMS_NOT_EXHAUSTIVE",
+      "automatic_engine_validation": false
+    }
+  ]
+}
