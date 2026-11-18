@@ -1,0 +1,508 @@
+{
+  "version": "2026-11-18",
+  "batch": "next_20_unique_candidates",
+  "count": 20,
+  "disclaimer": "Research scaffolds only. No clinical or regulatory approval, doses or equivalences asserted. Deduplicate against canonical master before promotion.",
+  "records": [
+    {
+      "ingredient_id": "pantothenic_acid",
+      "names": {
+        "es": "Ácido pantoténico",
+        "en": "Pantothenic acid",
+        "it": "Acido pantotenico"
+      },
+      "editorial_safety_focus_es": "No inferir déficit por cansancio; revisar ingesta y causas alternativas.",
+      "source_to_verify": "NIH ODS",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "biotin",
+      "names": {
+        "es": "Biotina",
+        "en": "Biotin",
+        "it": "Biotina"
+      },
+      "editorial_safety_focus_es": "La suplementación puede interferir con análisis de laboratorio, incluidos ensayos de troponina y tiroides.",
+      "source_to_verify": "NIH ODS; FDA",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "manganese",
+      "names": {
+        "es": "Manganeso",
+        "en": "Manganese",
+        "it": "Manganese"
+      },
+      "editorial_safety_focus_es": "Revisar exposición acumulada y enfermedad hepática; no indicar para bienestar general.",
+      "source_to_verify": "NIH ODS",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "phosphorus",
+      "names": {
+        "es": "Fósforo",
+        "en": "Phosphorus",
+        "it": "Fosforo"
+      },
+      "editorial_safety_focus_es": "La insuficiencia dietaria aislada es poco frecuente; revisar enfermedad renal.",
+      "source_to_verify": "NIH ODS",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "sodium",
+      "names": {
+        "es": "Sodio",
+        "en": "Sodium",
+        "it": "Sodio"
+      },
+      "editorial_safety_focus_es": "La suplementación depende de pérdidas y contexto; considerar hipertensión y enfermedad cardíaca o renal.",
+      "source_to_verify": "WHO; National Academies",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "creatine",
+      "names": {
+        "es": "Creatina",
+        "en": "Creatine",
+        "it": "Creatina"
+      },
+      "editorial_safety_focus_es": "Distinguir evidencia para fuerza/potencia de usos no establecidos; revisar enfermedad renal.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "beta_alanine",
+      "names": {
+        "es": "Beta-alanina",
+        "en": "Beta-alanine",
+        "it": "Beta-alanina"
+      },
+      "editorial_safety_focus_es": "Evidencia dependiente del tipo y duración del esfuerzo; parestesias relacionadas con la dosis.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "caffeine",
+      "names": {
+        "es": "Cafeína",
+        "en": "Caffeine",
+        "it": "Caffeina"
+      },
+      "editorial_safety_focus_es": "Contabilizar todas las fuentes; revisar sueño, arritmias, embarazo y medicación.",
+      "source_to_verify": "NIH ODS Exercise; EFSA",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "protein_powder",
+      "names": {
+        "es": "Proteína en polvo",
+        "en": "Protein powder",
+        "it": "Proteine in polvere"
+      },
+      "editorial_safety_focus_es": "La utilidad depende del déficit proteico total, no de la presentación comercial.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "whey_protein",
+      "names": {
+        "es": "Proteína de suero",
+        "en": "Whey protein",
+        "it": "Proteine del siero"
+      },
+      "editorial_safety_focus_es": "Revisar alergia a proteínas lácteas y objetivo proteico total.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "plant_protein",
+      "names": {
+        "es": "Proteína vegetal",
+        "en": "Plant protein",
+        "it": "Proteine vegetali"
+      },
+      "editorial_safety_focus_es": "Evaluar perfil de aminoácidos y aporte total; no equiparar todas las mezclas.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "citrulline",
+      "names": {
+        "es": "Citrulina",
+        "en": "Citrulline",
+        "it": "Citrullina"
+      },
+      "editorial_safety_focus_es": "Evidencia deportiva limitada/heterogénea; revisar hipotensión e interacciones.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "arginine",
+      "names": {
+        "es": "Arginina",
+        "en": "Arginine",
+        "it": "Arginina"
+      },
+      "editorial_safety_focus_es": "No asumir beneficio deportivo; revisar presión arterial y fármacos vasoactivos.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "bcaa",
+      "names": {
+        "es": "Aminoácidos ramificados",
+        "en": "Branched-chain amino acids",
+        "it": "Aminoacidi ramificati"
+      },
+      "editorial_safety_focus_es": "No sustituir proteína completa; evaluar suficiencia dietaria.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "leucine",
+      "names": {
+        "es": "Leucina",
+        "en": "Leucine",
+        "it": "Leucina"
+      },
+      "editorial_safety_focus_es": "Contextualizar dentro de ingesta proteica total; evitar promesas sobre masa muscular.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "taurine",
+      "names": {
+        "es": "Taurina",
+        "en": "Taurine",
+        "it": "Taurina"
+      },
+      "editorial_safety_focus_es": "No extrapolar resultados de bebidas energéticas a taurina aislada.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "carnitine",
+      "names": {
+        "es": "Carnitina",
+        "en": "Carnitine",
+        "it": "Carnitina"
+      },
+      "editorial_safety_focus_es": "Diferenciar deficiencia documentada de objetivos deportivos o de peso.",
+      "source_to_verify": "NIH ODS Exercise",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "omega3_epa_dha",
+      "names": {
+        "es": "Omega-3 EPA/DHA",
+        "en": "Omega-3 EPA/DHA",
+        "it": "Omega-3 EPA/DHA"
+      },
+      "editorial_safety_focus_es": "Distinguir aporte dietario, triglicéridos y formulaciones farmacológicas; revisar anticoagulantes.",
+      "source_to_verify": "NIH ODS Omega-3",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "algal_omega3",
+      "names": {
+        "es": "Omega-3 de algas",
+        "en": "Algal omega-3",
+        "it": "Omega-3 da alghe"
+      },
+      "editorial_safety_focus_es": "Comparar contenido real de EPA y DHA, no solo aceite total.",
+      "source_to_verify": "NIH ODS Omega-3",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    },
+    {
+      "ingredient_id": "psyllium",
+      "names": {
+        "es": "Psyllium",
+        "en": "Psyllium",
+        "it": "Psillio"
+      },
+      "editorial_safety_focus_es": "Requiere agua suficiente; revisar disfagia, obstrucción y separación de medicamentos.",
+      "source_to_verify": "MedlinePlus",
+      "source_claim_verified": false,
+      "clinical_status": "research_draft_not_validated",
+      "argentina_product_status": "unknown_requires_brand_RNE_RNPA_or_ANMAT_check",
+      "public_recommendation_allowed": false,
+      "required_review": [
+        "indication_specific_evidence",
+        "reference_intake_or_trial_dose_with_population",
+        "contraindications",
+        "medication_interactions",
+        "pregnancy_lactation",
+        "product_form_and_strength",
+        "argentina_product_registration",
+        "source_passage_and_review_date",
+        "es_en_it_full_content"
+      ]
+    }
+  ]
+}
