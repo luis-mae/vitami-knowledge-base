@@ -1,3 +1,5 @@
+> **PLAN OPERATIVO SUSTITUIDO (2026-11-18).** Único plan vigente: [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md). Único tablero de avance: [VITAMI_TABLERO_UNICO.md](https://github.com/luis-mae/vitami/blob/feature/vitami-express/docs/VITAMI_TABLERO_UNICO.md). Este documento se conserva como referencia histórica/técnica y no debe dirigir tareas independientes.
+
 # VITAMI research branch — reproducible validation
 
 No part of this package is clinically approved or connected to the published app.
