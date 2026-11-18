@@ -1,5 +1,5 @@
 {
-  "version": "2.4",
+  "version": "2.5",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -163,6 +163,17 @@
           "total_supplement_and_fortified_food_intake"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No usar dosis altas sin evaluar hipercalcemia, función renal y aporte total.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Absorption improves with a fat-containing meal; avoid high doses without assessing hypercalcemia risk.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. L'assorbimento migliora con un pasto contenente grassi; evitare dosi elevate senza valutare il rischio di ipercalcemia."
+        },
+        "review_note_es": "No usar dosis altas sin evaluar hipercalcemia, función renal y aporte total.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -270,6 +281,17 @@
           "neurologic_symptoms_medical_review"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Investigar deficiencia y malabsorción; no atribuir síntomas neurológicos exclusivamente a falta de B12.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. May be taken with or without food; neurologic deficiency or anemia requires medical evaluation.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Può essere assunta con o senza cibo; deficit neurologici o anemia richiedono valutazione medica."
+        },
+        "review_note_es": "Investigar deficiencia y malabsorción; no atribuir síntomas neurológicos exclusivamente a falta de B12.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -431,6 +453,17 @@
           "child_accidental_ingestion"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No indicar hierro sin evaluar anemia, ferritina y causas; evitar en sobrecarga de hierro.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Separate from calcium, antacids, tea and coffee; nausea and constipation are possible; avoid without established need.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Separare da calcio, antiacidi, tè e caffè; possibili nausea e stitichezza; evitare senza necessità accertata."
+        },
+        "review_note_es": "No indicar hierro sin evaluar anemia, ferritina y causas; evitar en sobrecarga de hierro.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -545,6 +578,17 @@
           "diarrhea_formulation"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "En enfermedad renal, evitar suplementos sin supervisión; distinguir límite para suplementos del aporte alimentario.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. May cause diarrhea; separate by several hours from certain antibiotics and bisphosphonates.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Può causare diarrea; distanziare di diverse ore da alcuni antibiotici e bisfosfonati."
+        },
+        "review_note_es": "En enfermedad renal, evitar suplementos sin supervisión; distinguir límite para suplementos del aporte alimentario.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -659,6 +703,17 @@
           "total_dietary_intake"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Calcular calcio total y revisar cálculos renales, hipercalcemia e interacciones farmacológicas.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Calcium carbonate is best taken with food; split elemental calcium doses above 500 mg.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Il carbonato di calcio va assunto con il cibo; suddividere dosi di calcio elementare superiori a 500 mg."
+        },
+        "review_note_es": "Calcular calcio total y revisar cálculos renales, hipercalcemia e interacciones farmacológicas.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -773,6 +828,17 @@
           "nausea"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar uso prolongado de dosis altas: puede producir deficiencia de cobre.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Take with food if nausea occurs; separate from chelating antibiotics.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Assumere con cibo in caso di nausea; distanziare dagli antibiotici che formano chelati."
+        },
+        "review_note_es": "Evitar uso prolongado de dosis altas: puede producir deficiencia de cobre.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -885,6 +951,17 @@
           "synthetic_folic_acid_UL"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evaluar vitamina B12 antes de usar dosis altas de ácido fólico; considerar embarazo.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. For pregnancy planning, folic acid 400 mcg/day is commonly advised before conception; high-risk cases require clinical guidance.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Nella pianificazione della gravidanza si consigliano spesso 400 mcg/die di acido folico prima del concepimento; i casi ad alto rischio richiedono indicazione clinica."
+        },
+        "review_note_es": "Evaluar vitamina B12 antes de usar dosis altas de ácido fólico; considerar embarazo.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1037,6 +1114,17 @@
           "elemental_potassium_not_salt_mass"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "En enfermedad renal o con medicamentos que retienen potasio, no suplementar sin control médico.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not recommend potassium supplements without checking kidney function and medication; excess can cause arrhythmias.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non raccomandare integratori di potassio senza valutare funzione renale e farmaci; l'eccesso può causare aritmie."
+        },
+        "review_note_es": "En enfermedad renal o con medicamentos que retienen potasio, no suplementar sin control médico.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1149,6 +1237,17 @@
           "UL_jurisdiction_difference"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar dosis elevadas prolongadas por riesgo de neuropatía periférica.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Avoid chronic megadoses; tingling or sensory loss warrants stopping and seeking care.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Evitare megadosi croniche; formicolii o perdita di sensibilità richiedono sospensione e valutazione."
+        },
+        "review_note_es": "Evitar dosis elevadas prolongadas por riesgo de neuropatía periférica.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1263,6 +1362,17 @@
           "seaweed_variability"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Revisar enfermedades tiroideas, medicación y embarazo antes de suplementar yodo.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Avoid seaweed supplements with variable iodine content; seek advice with thyroid disease.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Evitare integratori di alghe con contenuto variabile di iodio; consultare in caso di malattie tiroidee."
+        },
+        "review_note_es": "Revisar enfermedades tiroideas, medicación y embarazo antes de suplementar yodo.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1375,6 +1485,17 @@
           "total_intake_brazil_nuts"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar combinar productos ricos en selenio por riesgo de toxicidad acumulada.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not stack selenium-containing supplements; long-term excess can cause selenosis.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non combinare più integratori contenenti selenio; l'eccesso cronico può causare selenosi."
+        },
+        "review_note_es": "Evitar combinar productos ricos en selenio por riesgo de toxicidad acumulada.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1487,6 +1608,17 @@
           "iron_overload_context"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No asumir beneficios de megadosis; revisar cálculos renales y molestias digestivas.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. May be taken with food if it irritates the stomach; high doses do not reliably prevent colds.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Può essere assunta con il cibo se irrita lo stomaco; dosi elevate non prevengono in modo affidabile il raffreddore."
+        },
+        "review_note_es": "No asumir beneficios de megadosis; revisar cálculos renales y molestias digestivas.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1611,6 +1743,17 @@
           "preformed_retinol_vs_beta_carotene"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar exceso de retinol, especialmente durante embarazo; diferenciarlo del betacaroteno.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Avoid high-dose preformed retinol, especially during pregnancy; beta-carotene is not interchangeable with retinol.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Evitare alte dosi di retinolo preformato, soprattutto in gravidanza; il beta-carotene non è intercambiabile con il retinolo."
+        },
+        "review_note_es": "Evitar exceso de retinol, especialmente durante embarazo; diferenciarlo del betacaroteno.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1723,6 +1866,17 @@
           "no_cardiovascular_prevention_claim"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No recomendar dosis altas para prevenir enfermedades cardiovasculares; revisar anticoagulantes.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Avoid high doses with anticoagulants without supervision; not indicated for cardiovascular prevention.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Evitare dosi elevate con anticoagulanti senza supervisione; non indicata per prevenzione cardiovascolare."
+        },
+        "review_note_es": "No recomendar dosis altas para prevenir enfermedades cardiovasculares; revisar anticoagulantes.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1830,6 +1984,17 @@
           "newborn_prevention_not_equivalent_to_supplements"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Con warfarina, mantener ingesta consistente y coordinar cualquier cambio con el equipo tratante.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. With warfarin, keep intake consistent and coordinate changes with INR monitoring.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Con warfarin mantenere un apporto costante e concordare modifiche con monitoraggio INR."
+        },
+        "review_note_es": "Con warfarina, mantener ingesta consistente y coordinar cualquier cambio con el equipo tratante.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -1937,6 +2102,17 @@
           "no_unqualified_energy_claim"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Ante sospecha de encefalopatía de Wernicke, derivación urgente; no reemplazar atención médica con suplementos.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Suspected severe deficiency or refeeding syndrome requires urgent clinical care.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Il sospetto di grave carenza o sindrome da rialimentazione richiede assistenza clinica urgente."
+        },
+        "review_note_es": "Ante sospecha de encefalopatía de Wernicke, derivación urgente; no reemplazar atención médica con suplementos.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -2044,6 +2220,17 @@
           "yellow_urine_benign"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer mejora de energía sin deficiencia; la prevención de migraña requiere evaluación específica.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Bright yellow urine is common and usually harmless; migraine dosing requires a specific indication.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Urine giallo intenso sono comuni e generalmente innocue; le dosi per emicrania richiedono indicazione specifica."
+        },
+        "review_note_es": "No prometer mejora de energía sin deficiencia; la prevención de migraña requiere evaluación específica.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -2156,6 +2343,17 @@
           "lipid_therapy_requires_medical_supervision"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Las dosis farmacológicas pueden causar hepatotoxicidad y alterar glucosa; no usarlas sin supervisión.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not use pharmacologic niacin doses for cholesterol without supervision; liver injury is possible.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non usare dosi farmacologiche di niacina per il colesterolo senza supervisione; possibile danno epatico."
+        },
+        "review_note_es": "Las dosis farmacológicas pueden causar hepatotoxicidad y alterar glucosa; no usarlas sin supervisión.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -2268,6 +2466,17 @@
           "liver_disease"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No suplementar sin indicación, especialmente ante enfermedad de Wilson o hepatopatía.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not supplement in Wilson disease; review prolonged zinc use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non integrare in caso di malattia di Wilson; valutare l'uso prolungato di zinco."
+        },
+        "review_note_es": "No suplementar sin indicación, especialmente ante enfermedad de Wilson o hepatopatía.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -2375,6 +2584,17 @@
           "no_automatic_weight_loss_claim"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer adelgazamiento ni control de diabetes; revisar función renal y antidiabéticos.",
+          "en": "Safety review required: Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not claim diabetes or weight-loss benefits; assess interactions with diabetes medication.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non attribuire benefici certi per diabete o dimagrimento; valutare interazioni con farmaci antidiabetici."
+        },
+        "review_note_es": "No prometer adelgazamiento ni control de diabetes; revisar función renal y antidiabéticos.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -10236,6 +10456,17 @@
           "dose_formulation_unknown"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No atribuir beneficios demostrados de longevidad; revisar anticoagulantes.",
+          "en": "Safety review required: Clinical longevity benefits unproven; review anticoagulants.",
+          "it": "È necessaria una valutazione di sicurezza: Benefici clinici per longevità non dimostrati; valutare anticoagulanti."
+        },
+        "review_note_es": "No atribuir beneficios demostrados de longevidad; revisar anticoagulantes.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -10383,6 +10614,17 @@
           "immunosuppression_review"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/elderberry"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No usar partes crudas de saúco ni sustituir tratamiento de infecciones respiratorias.",
+          "en": "Safety review required: Limited infection evidence; avoid homemade preparations from toxic raw plant parts.",
+          "it": "È necessaria una valutazione di sicurezza: Prove limitate nelle infezioni; evitare preparati da parti crude tossiche."
+        },
+        "review_note_es": "No usar partes crudas de saúco ni sustituir tratamiento de infecciones respiratorias.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -10531,6 +10773,17 @@
           "recurrent_UTI_context"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/cranberry"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No usar arándano rojo para tratar una infección urinaria activa; evaluar recurrencias y medicación.",
+          "en": "Safety review required: UTI prevention in some groups does not treat an active infection.",
+          "it": "È necessaria una valutazione di sicurezza: La prevenzione delle IVU in alcuni gruppi non tratta infezioni attive."
+        },
+        "review_note_es": "No usar arándano rojo para tratar una infección urinaria activa; evaluar recurrencias y medicación.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -10639,6 +10892,17 @@
           "diabetes_and_glycemic_context"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No tratar infección urinaria activa con D-manosa; evidencia preventiva insuficiente.",
+          "en": "Safety review required: Recent evidence does not support routine recurrent-UTI prevention.",
+          "it": "È necessaria una valutazione di sicurezza: Prove recenti non supportano la prevenzione routinaria delle IVU ricorrenti."
+        },
+        "review_note_es": "No tratar infección urinaria activa con D-manosa; evidencia preventiva insuficiente.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -10786,6 +11050,17 @@
           "prostate_symptoms_medical_evaluation"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/saw-palmetto"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No presentarlo como tratamiento eficaz de síntomas prostáticos; investigar síntomas urinarios.",
+          "en": "Safety review required: Inconsistent urinary benefit; assess prostate symptoms professionally.",
+          "it": "È necessaria una valutazione di sicurezza: Benefici urinari incostanti; valutare sintomi prostatici con professionista."
+        },
+        "review_note_es": "No presentarlo como tratamiento eficaz de síntomas prostáticos; investigar síntomas urinarios.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -10946,6 +11221,17 @@
           "chronic_insomnia_guideline_not_recommended"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/valerian"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No recomendar para insomnio crónico por defecto; revisar sedantes y somnolencia.",
+          "en": "Safety review required: Insufficient insomnia evidence; caution with sedatives and driving.",
+          "it": "È necessaria una valutazione di sicurezza: Prove insufficienti per insonnia; cautela con sedativi e guida."
+        },
+        "review_note_es": "No recomendar para insomnio crónico por defecto; revisar sedantes y somnolencia.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -11111,6 +11397,17 @@
           "pregnancy_lactation_unknown"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/rhodiola"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer beneficios contra fatiga o estrés; revisar losartán y trastornos del sueño.",
+          "en": "Safety review required: Small heterogeneous studies; review interactions and extract quality.",
+          "it": "È necessaria una valutazione di sicurezza: Studi piccoli ed eterogenei; valutare interazioni e qualità dell'estratto."
+        },
+        "review_note_es": "No prometer beneficios contra fatiga o estrés; revisar losartán y trastornos del sueño.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -11230,6 +11527,17 @@
           "nitrate_quantity_vs_beetroot_mass"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Cuantificar nitratos, no solo gramos de remolacha; revisar presión arterial y medicamentos.",
+          "en": "Safety review required: Benefits depend on sport and dose; review hypotension and mouthwash effects.",
+          "it": "È necessaria una valutazione di sicurezza: Benefici dipendono da sport e dose; valutare ipotensione e collutori."
+        },
+        "review_note_es": "Cuantificar nitratos, no solo gramos de remolacha; revisar presión arterial y medicamentos.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -11338,6 +11646,17 @@
           "diuretics_ACE_ARB_screen"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Revisar sodio, potasio y pérdidas reales; precaución en enfermedad renal o cardíaca.",
+          "en": "Safety review required: Not routinely needed for short exercise; review sodium, potassium and kidney disease.",
+          "it": "È necessaria una valutazione di sicurezza: Non necessari di routine per esercizio breve; valutare sodio, potassio e reni."
+        },
+        "review_note_es": "Revisar sodio, potasio y pérdidas reales; precaución en enfermedad renal o cardíaca.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -11509,6 +11828,17 @@
           "pregnancy_retinol_screen"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Sumar dosis de todos los nutrientes y evitar superar límites máximos por combinación.",
+          "en": "Safety review required: Review duplication, pregnancy retinol and each nutrient's upper limit.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare duplicazioni, retinolo in gravidanza e limiti di ogni nutriente."
+        },
+        "review_note_es": "Sumar dosis de todos los nutrientes y evitar superar límites máximos por combinación.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -11662,6 +11992,17 @@
           "no_deficiency_claim"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No asumir deficiencia de boro ni inventar una ingesta recomendada.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "No asumir deficiencia de boro ni inventar una ingesta recomendada.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -11824,6 +12165,17 @@
           "dietary_intake_first"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "La ingesta de referencia no es una dosis terapéutica; evitar suplementos sin necesidad.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "La ingesta de referencia no es una dosis terapéutica; evitar suplementos sin necesidad.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -11930,6 +12282,17 @@
           "AI_not_supplement_dose"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Considerar aporte de sal y salud renal/cardiovascular; no indicar cloruro aislado rutinariamente.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Considerar aporte de sal y salud renal/cardiovascular; no indicar cloruro aislado rutinariamente.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -12094,6 +12457,17 @@
           "dental_products_swallowing"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Considerar agua y productos dentales antes de indicar aporte; prevenir exceso y fluorosis.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Considerar agua y productos dentales antes de indicar aporte; prevenir exceso y fluorosis.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -12200,6 +12574,17 @@
           "dose_evidence_specific"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No extrapolar resultados de fórmulas AREDS2 a luteína aislada ni prometer prevención general.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "No extrapolar resultados de fórmulas AREDS2 a luteína aislada ni prometer prevención general.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -12306,6 +12691,17 @@
           "no_general_prevention_claim"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No atribuir a zeaxantina sola los resultados de combinaciones AREDS2.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "No atribuir a zeaxantina sola los resultados de combinaciones AREDS2.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -12412,6 +12808,17 @@
           "renal_liver_disease_screen"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer mejoras musculares generales sin evaluar población, entrenamiento y evidencia.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "No prometer mejoras musculares generales sin evaluar población, entrenamiento y evidencia.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -12518,6 +12925,17 @@
           "sport_evidence_uncertain"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Diferenciar betaína TMG de betaína HCl; no considerarlas intercambiables.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Diferenciar betaína TMG de betaína HCl; no considerarlas intercambiables.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -12636,6 +13054,17 @@
           "eosinophilia_myalgia_historical_contamination"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Revisar antidepresivos serotoninérgicos y sedantes por interacciones potencialmente graves.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Revisar antidepresivos serotoninérgicos y sedantes por interacciones potencialmente graves.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -12754,6 +13183,17 @@
           "product_quality"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar combinar 5-HTP con fármacos serotoninérgicos sin evaluación por riesgo de síndrome serotoninérgico.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Evitar combinar 5-HTP con fármacos serotoninérgicos sin evaluación por riesgo de síndrome serotoninérgico.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -12860,6 +13300,17 @@
           "sedation"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer mejora cognitiva clínica; revisar sedación, molestias digestivas y tiroides.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "No prometer mejora cognitiva clínica; revisar sedación, molestias digestivas y tiroides.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13035,6 +13486,17 @@
           "silymarin_content_variability"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/milk-thistle"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No reemplazar tratamiento de enfermedad hepática por cardo mariano.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "No reemplazar tratamiento de enfermedad hepática por cardo mariano.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13208,6 +13670,17 @@
           "not_raw_essential_oil"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/peppermint-oil"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Para síntomas intestinales, distinguir cápsulas entéricas de aceite esencial; precaución con reflujo.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Para síntomas intestinales, distinguir cápsulas entéricas de aceite esencial; precaución con reflujo.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13383,6 +13856,17 @@
           "surgery_sedation"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/passionflower"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar durante embarazo y revisar sedantes, somnolencia y cirugías.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Evitar durante embarazo y revisar sedantes, somnolencia y cirugías.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13558,6 +14042,17 @@
           "sedatives"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/chamomile"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Revisar alergias a asteráceas y warfarina; no prometer tratamiento del insomnio.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Revisar alergias a asteráceas y warfarina; no prometer tratamiento del insomnio.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13681,6 +14176,17 @@
           "pregnancy_avoid"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar regaliz con glicirricina ante hipertensión, hipopotasemia o uso de diuréticos.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Evitar regaliz con glicirricina ante hipertensión, hipopotasemia o uso de diuréticos.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13792,6 +14298,17 @@
           "surgery_screen"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Revisar alergia a ananá, anticoagulantes y cirugías antes de usar bromelina.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Revisar alergia a ananá, anticoagulantes y cirugías antes de usar bromelina.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13903,6 +14420,17 @@
           "product_composition_variability"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar si hay alergia a productos apícolas; composición variable entre preparados.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Evitar si hay alergia a productos apícolas; composición variable entre preparados.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -14014,6 +14542,17 @@
           "endocrine_claims_unverified"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer efectos hormonales ni fertilidad; datos insuficientes en embarazo y lactancia.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "No prometer efectos hormonales ni fertilidad; datos insuficientes en embarazo y lactancia.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -14125,6 +14664,17 @@
           "not_routine_performance_claim"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Diferenciar nutrición clínica de uso deportivo; revisar enfermedad hepática o renal.",
+          "en": "Safety review required: Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "È necessaria una valutazione di sicurezza: Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "review_note_es": "Diferenciar nutrición clínica de uso deportivo; revisar enfermedad hepática o renal.",
+        "rule_status": "editorial_draft_not_source_verified",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     }
   ],
@@ -14191,5 +14741,12 @@
     "updated": 25,
     "description": "25 trilingual, ingredient-specific patient-facing cautions; not full clinical signoff",
     "date": "2026-11-18"
+  },
+  "editorial_decision_coverage": {
+    "total": 100,
+    "added_in_this_commit": 50,
+    "source_verified_cautions": 0,
+    "clinical_signoff": 0,
+    "notes": "All 100 now have patient-facing safety wording; new EN/IT text derives from existing editorials, not certified translation or source verification."
   }
 }
