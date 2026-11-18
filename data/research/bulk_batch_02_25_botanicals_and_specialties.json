@@ -238,7 +238,7 @@
         }
       ],
       "research_source_candidate": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
-      "source_verified": false,
+      "source_verified": true,
       "priority_safety_screen": [
         "liver injury reports",
         "pregnancy avoidance",
@@ -258,7 +258,25 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/ashwagandha",
+        "evidence": {
+          "es": "Algunas preparaciones pueden ayudar al insomnio y al estrés; evidencia incierta para ansiedad.",
+          "en": "Some preparations may help insomnia and stress; evidence for anxiety is unclear.",
+          "it": "Alcune preparazioni possono aiutare insonnia e stress; prove incerte per l'ansia."
+        },
+        "safety": {
+          "es": "Evitar en embarazo y lactancia; se han notificado lesiones hepáticas. Revisar enfermedad tiroidea/autoinmune, cirugía y medicación.",
+          "en": "Avoid in pregnancy and breastfeeding; liver injury has been reported. Screen thyroid/autoimmune disease, surgery and medicines.",
+          "it": "Evitare in gravidanza e allattamento; segnalate lesioni epatiche. Valutare malattie tiroidee/autoimmuni, chirurgia e farmaci."
+        },
+        "decision_rule": "BLOCK_PREGNANCY_BREASTFEEDING_AND_REVIEW",
+        "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+        "reviewed_date": "2026-11-18",
+        "source_checked": true
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "green_tea_extract",
@@ -309,7 +327,7 @@
         }
       ],
       "research_source_candidate": "https://www.nccih.nih.gov/health/green-tea",
-      "source_verified": false,
+      "source_verified": true,
       "priority_safety_screen": [
         "liver injury risk with concentrated extracts",
         "caffeine exposure"
@@ -328,7 +346,25 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/green-tea",
+        "evidence": {
+          "es": "Los efectos sobre peso y colesterol LDL son modestos; no hay evidencia concluyente para la mayoría de los usos promocionados.",
+          "en": "Effects on weight and LDL cholesterol are modest; evidence remains inconclusive for most promoted uses.",
+          "it": "Effetti modesti su peso e colesterolo LDL; prove non conclusive per la maggior parte degli usi promossi."
+        },
+        "safety": {
+          "es": "Los extractos concentrados se han asociado infrecuentemente con lesión hepática; revisar cafeína e interacciones con nadolol, atorvastatina y raloxifeno.",
+          "en": "Concentrated extracts have rarely been linked to liver injury; check caffeine and interactions with nadolol, atorvastatin and raloxifene.",
+          "it": "Gli estratti concentrati sono stati raramente associati a danno epatico; controllare caffeina e interazioni con nadololo, atorvastatina e raloxifene."
+        },
+        "decision_rule": "BLOCK_IF_LIVER_RISK_OR_MEDICATIONS_UNREVIEWED",
+        "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+        "reviewed_date": "2026-11-18",
+        "source_checked": true
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "ginseng",
@@ -545,7 +581,7 @@
         }
       ],
       "research_source_candidate": "https://www.nccih.nih.gov/health/st-johns-wort",
-      "source_verified": false,
+      "source_verified": true,
       "priority_safety_screen": [
         "strong CYP/P-glycoprotein interactions",
         "serotonergic toxicity risk",
@@ -565,7 +601,25 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/st-johns-wort",
+        "evidence": {
+          "es": "Puede ayudar en depresión leve o moderada; incertidumbre en depresión grave y tratamientos superiores a 12 semanas.",
+          "en": "May help mild-to-moderate depression; uncertain for severe depression or use beyond 12 weeks.",
+          "it": "Può aiutare nella depressione lieve o moderata; incerto nei casi gravi o oltre 12 settimane."
+        },
+        "safety": {
+          "es": "Interacciones potencialmente graves: anticonceptivos, ciclosporina, warfarina, antiepilépticos, antirretrovirales y fármacos serotoninérgicos.",
+          "en": "Potentially severe interactions with contraceptives, cyclosporine, warfarin, anticonvulsants, antiretrovirals and serotonergic drugs.",
+          "it": "Interazioni potenzialmente gravi con contraccettivi, ciclosporina, warfarin, antiepilettici, antiretrovirali e farmaci serotoninergici."
+        },
+        "decision_rule": "BLOCK_WHEN_MEDICATIONS_UNREVIEWED",
+        "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+        "reviewed_date": "2026-11-18",
+        "source_checked": true
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "berberine",
@@ -1085,6 +1139,7 @@
     "source_candidates": 15,
     "ingredient_specific_safety_screens": 12,
     "fully_clinically_verified": 0,
-    "safety_triage_added": 15
+    "safety_triage_added": 15,
+    "source_verified_claim_entries": 3
   }
 }
