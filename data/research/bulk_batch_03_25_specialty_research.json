@@ -577,6 +577,24 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "checked_intake": {
+        "source": "https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/",
+        "reference_values": {
+          "type": "NO_RDA_AI_EAR",
+          "adult_value": null
+        },
+        "claim": {
+          "es": "El boro no está clasificado como nutriente esencial humano y no tiene RDA ni ingesta adecuada establecida; no asignar una dosis diaria por supuesta deficiencia.",
+          "en": "Boron is not classified as an essential human nutrient and has no established RDA or AI; do not assign a daily dose for presumed deficiency.",
+          "it": "Il boro non è classificato come nutriente essenziale umano e non ha RDA o AI; non assegnare dosi per presunta carenza."
+        },
+        "decision_rule": "DO_NOT_INFER_DEFICIENCY_OR_RDA",
+        "checked_on": "2026-11-18",
+        "scope": "NIH ODS introduction and recommended intakes only",
+        "source_verified": true,
+        "full_clinical_review": false,
+        "regulatory_verified": false
       }
     },
     {
@@ -621,6 +639,26 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "checked_intake": {
+        "source": "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/",
+        "reference_values": {
+          "type": "RDA",
+          "adult_19_plus_mcg_day": 45,
+          "pregnancy_mcg_day": 50,
+          "lactation_mcg_day": 50
+        },
+        "claim": {
+          "es": "La ingesta recomendada en adultos es 45 mcg/día; en embarazo y lactancia, 50 mcg/día. La deficiencia es rara y estos valores no son dosis de suplementación.",
+          "en": "Adult RDA is 45 mcg/day; pregnancy and lactation 50 mcg/day. Deficiency is rare and these are not supplement doses.",
+          "it": "RDA adulti 45 mcg/die; gravidanza e allattamento 50 mcg/die. La carenza è rara e non sono dosi di integratori."
+        },
+        "decision_rule": "NO_ROUTINE_SUPPLEMENT_WITHOUT_IDENTIFIED_NEED",
+        "checked_on": "2026-11-18",
+        "scope": "NIH ODS introduction and recommended intakes only",
+        "source_verified": true,
+        "full_clinical_review": false,
+        "regulatory_verified": false
       }
     },
     {
@@ -698,6 +736,27 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "checked_intake": {
+        "source": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/",
+        "reference_values": {
+          "type": "AI",
+          "adult_male_19_plus_mg_day": 4,
+          "adult_female_19_plus_mg_day": 3,
+          "pregnancy_mg_day": 3,
+          "lactation_mg_day": 3
+        },
+        "claim": {
+          "es": "La ingesta adecuada desde los 19 años es 4 mg/día en varones y 3 mg/día en mujeres. Considerar exposición por agua y productos dentales; no equivale a indicar un suplemento.",
+          "en": "AI at age 19+ is 4 mg/day for men and 3 mg/day for women. Account for water and dental-product exposure; this is not a supplement recommendation.",
+          "it": "AI dai 19 anni: 4 mg/die uomini e 3 mg/die donne. Considerare acqua e prodotti dentali; non è una raccomandazione di integrazione."
+        },
+        "decision_rule": "REQUIRE_WATER_DENTAL_EXPOSURE_AND_AGE_SCREEN",
+        "checked_on": "2026-11-18",
+        "scope": "NIH ODS introduction and recommended intakes only",
+        "source_verified": true,
+        "full_clinical_review": false,
+        "regulatory_verified": false
       }
     },
     {
@@ -1224,6 +1283,7 @@
     "clinically_validated": 0,
     "targeted_review_sources_added": 14,
     "fully_clinically_verified": 0,
-    "source_verified_claim_entries": 10
+    "source_verified_claim_entries": 10,
+    "source_checked_intake_entries": 3
   }
 }
