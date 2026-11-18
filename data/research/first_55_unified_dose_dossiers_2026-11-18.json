@@ -1,0 +1,1348 @@
+{
+  "version": "1.0",
+  "date": "2026-11-18",
+  "purpose": "Unified full set of 55 dose dossiers; distinguish scientifically established numeric guidance from study exposures and missing evidence.",
+  "count": 55,
+  "all_55_present": true,
+  "additional_source_context_entries": 9,
+  "clinical_complete_count": 0,
+  "source_policy": "Never infer dose from a total intake reference, upper safe intake, trial exposure, or a formula unsupported by indication-specific evidence.",
+  "entries": [
+    {
+      "ingredient_id": "vitamin_d",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "existing_dose_context": "15 mcg (600 UI)",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "vitamin_b12",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "existing_dose_context": "2,4 mcg",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "iron",
+      "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "existing_dose_context": "8 mg varones; 18 mg mujeres 19–50",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "magnesium",
+      "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "existing_dose_context": "400–420 mg varones; 310–320 mg mujeres",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "calcium",
+      "source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "existing_dose_context": "1000 mg (19–50 años)",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "zinc",
+      "source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "existing_dose_context": "11 mg varones; 8 mg mujeres",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "folate",
+      "source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "existing_dose_context": "400 mcg DFE",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "potassium",
+      "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "existing_dose_context": "3400 mg varones; 2600 mg mujeres (AI)",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "vitamin_b6",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "existing_dose_context": "1,3 mg (19–50 años)",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "iodine",
+      "source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "existing_dose_context": "150 mcg",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "selenium",
+      "source": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "existing_dose_context": "55 mcg",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "vitamin_c",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "existing_dose_context": "90 mg varones; 75 mg mujeres",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "vitamin_a",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "existing_dose_context": "900 mcg RAE varones; 700 mcg RAE mujeres",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "vitamin_e",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "existing_dose_context": "15 mg alfa-tocoferol",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "vitamin_k",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "existing_dose_context": "120 mcg varones; 90 mcg mujeres (AI)",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "thiamin",
+      "source": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "existing_dose_context": "1,2 mg varones; 1,1 mg mujeres",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "riboflavin",
+      "source": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+      "existing_dose_context": "1,3 mg varones; 1,1 mg mujeres",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "niacin",
+      "source": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+      "existing_dose_context": "16 mg NE varones; 14 mg NE mujeres",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "copper",
+      "source": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+      "existing_dose_context": "900 mcg",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "chromium",
+      "source": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+      "existing_dose_context": "35 mcg varones; 25 mcg mujeres (AI)",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "pantothenic_acid",
+      "source": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+      "existing_dose_context": "AI 5 mg/day adults; pregnancy 6 mg/day; lactation 7 mg/day",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "biotin",
+      "source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+      "existing_dose_context": "AI 30 mcg/day adults; lactation 35 mcg/day",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "manganese",
+      "source": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+      "existing_dose_context": "AI 2.3 mg/day men, 1.8 mg/day women",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "phosphorus",
+      "source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+      "existing_dose_context": "RDA 700 mg/day adults",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "sodium",
+      "source": "https://www.nationalacademies.org/read/25353/chapter/13",
+      "existing_dose_context": "Adults 19+: sodium AI 1500 mg/day total intake. CDRR: reduce intakes above 2300 mg/day. Neither is a supplement dose.",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "creatine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "3–5 g/day maintenance in studied healthy adults; optional 20 g/day split loading for 5–7 days",
+      "personalization_mode": "studied_range_contextual",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+      "additional_verified_dose_context": {
+        "rule": "Adult athletic context: loading 0.3 g/kg/day divided into four doses for 5–7 days; maintenance 3–5 g/day. Optional no-loading approach exists. Not a general clinical prescription.",
+        "unit": "g/day",
+        "variables": [
+          "body_weight_kg",
+          "exercise_goal",
+          "loading_phase",
+          "renal_condition"
+        ],
+        "cautions": [
+          "Avoid automated recommendation in kidney disease or pregnancy without professional evaluation."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "beta_alanine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "4–6 g/day divided doses for 2–4 weeks in athletic trials",
+      "personalization_mode": "studied_range_contextual",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+      "additional_verified_dose_context": {
+        "rule": "Studied 4–6 g/day in divided doses for 2–4 weeks. Avoid large single doses due to paresthesia; individual tolerance and product formulation matter.",
+        "unit": "g/day",
+        "variables": [
+          "exercise_goal",
+          "single_dose_g",
+          "duration_weeks"
+        ],
+        "cautions": [
+          "Paresthesia risk with larger single doses; use divided portions."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "caffeine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "2–6 mg/kg before exercise in studies",
+      "personalization_mode": "weight_studied_range",
+      "required_inputs": [
+        "body_weight_kg",
+        "goal",
+        "caffeine_from_all_sources_mg_day",
+        "medications",
+        "health_conditions",
+        "pregnancy"
+      ],
+      "rule": "For supported exercise goals only, 2–6 mg/kg studied range; do not automatically choose a point or exceed population-specific safety thresholds; account for all caffeine sources and contraindications.",
+      "additional_verified_dose_context": {
+        "rule": "Studied 2–6 mg/kg 15–60 min before exercise; account for all daily caffeine sources; 400 mg/day is general FDA healthy-adult reference, not universally safe threshold.",
+        "unit": "mg",
+        "variables": [
+          "body_weight_kg",
+          "total_daily_caffeine_mg",
+          "goal",
+          "pregnancy",
+          "heart_rhythm_condition",
+          "medications"
+        ],
+        "cautions": [
+          "Do not exceed 400 mg/day by automatically applying weight-based study range.",
+          "Pregnancy, arrhythmias, sleep disturbance and stimulant medications require separate exclusions."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "protein_powder",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "Athletic total protein intake often 1.2–2.0 g/kg/day from all sources",
+      "personalization_mode": "protein_weight_gap",
+      "required_inputs": [
+        "body_weight_kg",
+        "activity_level",
+        "goal",
+        "estimated_dietary_protein_g_day",
+        "health_conditions"
+      ],
+      "rule": "For exercise-related goals only, target total daily protein range 1.2–2.0 g/kg/day as source context allows; supplemental amount is only the gap after estimated dietary protein; evaluate health exclusions.",
+      "additional_verified_dose_context": {
+        "rule": "Athletic total protein target 1.2–2.0 g/kg/day from all sources; supplement only if dietary protein intake is insufficient.",
+        "unit": "g/day total protein",
+        "variables": [
+          "body_weight_kg",
+          "estimated_dietary_protein_g_day",
+          "exercise_goal",
+          "renal_condition"
+        ],
+        "cautions": [
+          "Total intake target must not be displayed as supplemental dose."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "whey_protein",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+      "personalization_mode": "protein_weight_gap",
+      "required_inputs": [
+        "body_weight_kg",
+        "activity_level",
+        "goal",
+        "estimated_dietary_protein_g_day",
+        "health_conditions"
+      ],
+      "rule": "For exercise-related goals only, target total daily protein range 1.2–2.0 g/kg/day as source context allows; supplemental amount is only the gap after estimated dietary protein; evaluate health exclusions.",
+      "additional_verified_dose_context": {
+        "rule": "Athletic total protein target 1.2–2.0 g/kg/day from all sources; whey may fill the dietary gap; check milk allergy.",
+        "unit": "g/day total protein",
+        "variables": [
+          "body_weight_kg",
+          "estimated_dietary_protein_g_day",
+          "exercise_goal",
+          "milk_allergy"
+        ],
+        "cautions": [
+          "Milk allergy exclusion.",
+          "Do not equate total protein target to whey supplement amount."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "plant_protein",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+      "personalization_mode": "protein_weight_gap",
+      "required_inputs": [
+        "body_weight_kg",
+        "activity_level",
+        "goal",
+        "estimated_dietary_protein_g_day",
+        "health_conditions"
+      ],
+      "rule": "For exercise-related goals only, target total daily protein range 1.2–2.0 g/kg/day as source context allows; supplemental amount is only the gap after estimated dietary protein; evaluate health exclusions.",
+      "additional_verified_dose_context": {
+        "rule": "Athletic total protein target 1.2–2.0 g/kg/day from all sources; plant protein may fill the dietary gap; account for protein quality and allergens.",
+        "unit": "g/day total protein",
+        "variables": [
+          "body_weight_kg",
+          "estimated_dietary_protein_g_day",
+          "exercise_goal",
+          "allergies"
+        ],
+        "cautions": [
+          "Total protein intake target is not a supplement prescription."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "citrulline",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "No established evidence-based routine supplemental dose",
+      "personalization_mode": "no_established_personalized_dose",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+      "additional_verified_dose_context": {
+        "rule": "Evidence for exercise performance inconsistent; studied safety exposures include up to 9 g for one day or 6 g/day up to 16 days. These are NOT validated effective doses.",
+        "unit": "g/day safety observations",
+        "variables": [
+          "goal",
+          "formulation",
+          "duration_days"
+        ],
+        "cautions": [
+          "Do not transform studied safety exposures into routine prescription."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "arginine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "No established effective exercise-performance dose",
+      "personalization_mode": "no_established_personalized_dose",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "bcaa",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "No established added-benefit dose with adequate complete protein",
+      "personalization_mode": "no_established_personalized_dose",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+      "additional_verified_dose_context": {
+        "rule": "Studies have used 10–14 g/day; evidence for added benefit over adequate complete protein is inconsistent. Do not auto-recommend based on studied range.",
+        "unit": "g/day studied",
+        "variables": [
+          "goal",
+          "dietary_protein_adequacy"
+        ],
+        "cautions": [
+          "Study dose does not establish an effective routine recommendation."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "leucine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "existing_dose_context": "No established universal isolated supplemental dose",
+      "personalization_mode": "no_established_personalized_dose",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+      "additional_verified_dose_context": {
+        "rule": "Source reports a studied upper safe intake of 500 mg/kg/day in healthy adult men, NOT an effective or recommended supplement dose.",
+        "unit": "mg/kg/day safety observation",
+        "variables": [
+          "body_weight_kg",
+          "goal",
+          "dietary_protein_adequacy"
+        ],
+        "cautions": [
+          "Never use safety observation as a target dose."
+        ],
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "validation_status": "SOURCE_CONTEXT_CHECKED_SAFETY_AND_ENGINE_NOT_COMPLETE",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "taurine",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40852891/",
+      "existing_dose_context": "2025 meta-analysis 23 RCTs (308 participants): acute 1–6 g studied before exercise; no significant dose-response, evidence GRADE low to very low. No established universally recommended performance dose.",
+      "personalization_mode": "studied_range_contextual",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "carnitine",
+      "source": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+      "existing_dose_context": "No dietary reference intake established for healthy adults",
+      "personalization_mode": "no_established_personalized_dose",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "omega3_epa_dha",
+      "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "existing_dose_context": "No US RDA for EPA+DHA; dose depends on clinical indication",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "algal_omega3",
+      "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "existing_dose_context": "No US RDA for algal EPA+DHA; read label DHA and EPA content",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "psyllium",
+      "source": "https://medlineplus.gov/druginfo/meds/a601104.html",
+      "existing_dose_context": "MedlinePlus: psyllium usually taken 1–3 times daily according to formulation label, each powder/granules dose with 240 mL liquid; no universal gram dose across products. EMA monograph distinguishes psyllium seed from ispaghula husk.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "inulin",
+      "source": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+      "existing_dose_context": "Health Canada 2026 monograph: inulin 5–15 g/day for prebiotic use in adults 18+. Trial: chicory native inulin 10 g/day for 5 weeks in adults 40–75 with low stool frequency; small crossover trials with mixed results.",
+      "personalization_mode": "studied_range_contextual",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "probiotics",
+      "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+      "existing_dose_context": "Dose is strain-, indication-, and product-specific; expressed in CFU; no universal CFU/day.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "prebiotics",
+      "source": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+      "existing_dose_context": "No single prebiotic-class dose. Health Canada adult 18+ monograph: inulin 5–15 g/day, acacia 10–20 g/day, FOS/scFOS 2.5–15 g/day for defined prebiotic purposes.",
+      "personalization_mode": "studied_range_contextual",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "collagen",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40826844/",
+      "existing_dose_context": "2025 systematic review of 10 trials: oral collagen 1–10 g/day studied for skin hydration/elasticity; most common 4 g/day. Conflicting 2025 meta-analysis of 23 RCTs found no benefit in independently funded or high-quality trials; therefore no evidence-established universal recommended dose.",
+      "personalization_mode": "studied_range_contextual",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "choline",
+      "source": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "existing_dose_context": "AI: 550 mg/day men 19+, 425 mg/day women 19+, 450 mg/day pregnancy, 550 mg/day lactation (total intake).",
+      "personalization_mode": "nutrient_gap",
+      "required_inputs": [
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "estimated_total_dietary_intake",
+        "current_supplements",
+        "goal",
+        "medications",
+        "health_conditions"
+      ],
+      "rule": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "coq10",
+      "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
+      "existing_dose_context": "No established daily requirement or universal supplementation dose.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "melatonin",
+      "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+      "existing_dose_context": "No established universal dose; depends on circadian indication, timing, age and formulation.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "curcumin",
+      "source": "https://www.nccih.nih.gov/health/turmeric",
+      "existing_dose_context": "No established RDA/AI/UL or universal therapeutic dose.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "ginger",
+      "source": "https://www.nccih.nih.gov/health/ginger",
+      "existing_dose_context": "No established RDA/AI/UL or universal supplement dose.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "ashwagandha",
+      "source": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+      "existing_dose_context": "Stress/anxiety trials: extracts 240–1250 mg/day for 6–8 weeks; several studies found greater effects at 500–600 mg/day.",
+      "personalization_mode": "studied_range_contextual",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "green_tea_extract",
+      "source": "https://www.nccih.nih.gov/health/green-tea",
+      "existing_dose_context": "No established universal supplemental dose or RDA/AI/UL for green tea extract.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "ginseng",
+      "source": "https://www.nccih.nih.gov/health/asian-ginseng",
+      "existing_dose_context": "No established universal dose across species, extracts or indications.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "garlic_extract",
+      "source": "https://www.nccih.nih.gov/health/garlic",
+      "existing_dose_context": "No established universal dose across garlic powders, oils, aged extracts and preparations.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "turmeric",
+      "source": "https://www.nccih.nih.gov/health/turmeric",
+      "existing_dose_context": "No established RDA/AI/UL or universal dose for turmeric root preparations.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    },
+    {
+      "ingredient_id": "echinacea",
+      "source": "https://www.nccih.nih.gov/health/echinacea",
+      "existing_dose_context": "No established universal dose; species, plant part, extraction and intended use differ.",
+      "personalization_mode": "formulation_indication_specific",
+      "required_inputs": [
+        "goal",
+        "age",
+        "sex",
+        "pregnancy",
+        "lactation",
+        "health_conditions",
+        "medications",
+        "product_formulation",
+        "product_strength",
+        "other_supplements"
+      ],
+      "rule": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+      "additional_verified_dose_context": null,
+      "validation_status": "REQUIRES_INDEPENDENT_SOURCE_AND_NUMERIC_VALIDATION",
+      "source_claim_full_audit_complete": false,
+      "automatic_recommendation_ready": false
+    }
+  ]
+}
