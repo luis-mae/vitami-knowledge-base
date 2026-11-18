@@ -335,7 +335,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Con una comida que contenga algo de grasa mejora absorción; no requiere horario fijo.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "Diferenciar mantenimiento nutricional de tratamiento de deficiencia, que depende de 25(OH)D, contexto clínico y riesgo de hipercalcemia.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -621,7 +638,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Vía oral con o sin alimentos según producto; malabsorción diagnosticada exige esquema específico.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "Distinguir prevención de baja ingesta (p. ej. dieta vegana) del tratamiento de deficiencia o malabsorción, que requiere pauta diferente.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -951,7 +985,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Separar de levotiroxina y otros medicamentos según ficha; la tolerancia digestiva puede exigir con alimentos; no asumir dosis de tratamiento.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "No indicar hierro por síntomas inespecíficos. Requiere confirmar contexto de ferropenia y considerar laboratorios, pérdidas y causa. La RDA no es dosis terapéutica.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -1219,7 +1270,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Separar de tetraciclinas y quinolonas según intervalos del medicamento; formulación y tolerancia digestiva determinan tomas.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -1512,7 +1580,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Carbonato de calcio preferentemente con alimentos; citrato con o sin alimentos; repartir cantidades grandes para optimizar absorción.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -1804,7 +1889,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Separar de quinolonas/tetraciclinas según ficha; tomar con alimentos si provoca molestias.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -2094,7 +2196,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Oral con o sin alimentos; embarazo y prevención de defectos del tubo neural requieren pautas específicas distintas de la RDA.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "Distinguir RDA en mcg DFE de suplemento en mcg ácido fólico; para prevención periconcepcional aplicar recomendación específica, no convertir directamente 600 mcg DFE a dosis de comprimido.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -2425,7 +2544,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "No establecer horario ni dosis de suplemento a partir de AI; uso depende de formulación y riesgo renal.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "No calcular dosis suplementaria automática a partir de AI. Ante enfermedad renal o fármacos que retienen potasio, abstenerse y solicitar evaluación.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -2717,7 +2853,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Con o sin alimentos según producto; no utilizar dosis altas crónicas sin indicación.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
@@ -3010,7 +3163,24 @@
         "source_opened_in_current_session": true,
         "source_claims_full_line_by_line_verified": false,
         "clinical_release_approved": false,
-        "app_functionality_not_in_scope": true
+        "app_functionality_not_in_scope": true,
+        "administration_es": "Oral según formulación; evitar indicaciones inespecíficas en enfermedad tiroidea.",
+        "recommendation_basis_es": "El requerimiento depende de edad, sexo y estado fisiológico. Si existe ingesta insuficiente documentada, considerar la diferencia con el aporte alimentario; si existe deficiencia o enfermedad, aplicar evidencia y evaluación específicas. No recomendar automáticamente un suplemento solo porque exista una RDA/AI.",
+        "personalization_inputs": [
+          "edad",
+          "sexo/requerimientos fisiológicos",
+          "embarazo",
+          "lactancia",
+          "ingesta dietaria estimada",
+          "suplementos existentes",
+          "medicamentos",
+          "función renal y enfermedades relevantes",
+          "indicación y evidencia específica",
+          "forma y concentración del producto"
+        ],
+        "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
+        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
+        "app_testing_out_of_scope": true
       }
     },
     {
