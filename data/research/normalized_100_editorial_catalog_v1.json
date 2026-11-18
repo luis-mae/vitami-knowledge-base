@@ -6765,9 +6765,16 @@
           "formulación"
         ],
         "source_review_status": "ORIGINAL_SOURCE_OPENED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_PAGE",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -7091,7 +7098,7 @@
         "source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
         "source_kind": "NIH ODS Health Professional Fact Sheet",
         "reference_intake_or_studied_dose_es": "AI 30 mcg/día adultos; embarazo 30 mcg; lactancia 35 mcg",
-        "upper_limit_and_safety_es": "Sin UL establecido; dosis altas interfieren con pruebas de laboratorio (troponina y pruebas tiroideas)",
+        "upper_limit_and_safety_es": "Sin UL establecido; riesgo de resultados falsos en pruebas de troponina, tiroides y otras pruebas por interferencia con biotina; avisar al laboratorio.",
         "medication_interactions_es": "Interferencia analítica relevante; algunos anticonvulsivos pueden reducir biotina",
         "administration_es": "Oral según formulación; informar al laboratorio antes de análisis",
         "recommendation_basis_es": "No recomendar dosis altas para cabello/uñas sin indicación sustentada.",
@@ -7108,9 +7115,16 @@
           "formulación"
         ],
         "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_INDEXED_CONTENT",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -7418,8 +7432,8 @@
         "source_kind": "NIH ODS Health Professional Fact Sheet",
         "reference_intake_or_studied_dose_es": "AI varones 2,3 mg/día; mujeres 1,8 mg; embarazo 2 mg; lactancia 2,6 mg",
         "upper_limit_and_safety_es": "UL adultos 11 mg/día total; riesgo neurológico por exceso, especial cuidado en enfermedad hepática",
-        "medication_interactions_es": "Antibióticos quinolonas y tetraciclinas: posibles interacciones de absorción; revisar separación",
-        "administration_es": "Oral según etiqueta; separar de fármacos que formen quelatos",
+        "medication_interactions_es": "Según NIH ODS, no se conocen interacciones farmacológicas clínicamente relevantes con manganeso.",
+        "administration_es": "Oral según producto; no exigir separación de antibióticos sin evidencia específica.",
         "recommendation_basis_es": "No recomendar automáticamente para enfermedades metabólicas.",
         "personalization_inputs": [
           "edad",
@@ -7434,9 +7448,16 @@
           "formulación"
         ],
         "source_review_status": "ORIGINAL_SOURCE_OPENED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_PAGE",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -7743,8 +7764,8 @@
         "source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
         "source_kind": "NIH ODS Health Professional Fact Sheet",
         "reference_intake_or_studied_dose_es": "RDA adultos 700 mg/día; embarazo/lactancia adultos 700 mg",
-        "upper_limit_and_safety_es": "UL adultos 19–70: 4000 mg/día; 71+: 3000 mg/día; riesgo elevado en enfermedad renal",
-        "medication_interactions_es": "Antiácidos con aluminio, calcio o magnesio pueden reducir absorción de fósforo; laxantes con fosfato aportan fósforo",
+        "upper_limit_and_safety_es": "UL: 19–70 años 4000 mg/día, 71+ 3000 mg/día; embarazo 19–50 3500 mg/día, lactancia 4000 mg/día. En enfermedad renal, riesgo de hiperfosfatemia.",
+        "medication_interactions_es": "Antiácidos con hidróxido de aluminio o carbonato de calcio reducen absorción de fósforo; laxantes con fosfato sódico pueden aumentar fosfatemia y ser peligrosos en enfermedad renal, cardíaca o deshidratación.",
         "administration_es": "Oral según producto; no indicar suplementos de fósforo por RDA",
         "recommendation_basis_es": "Enfermedad renal o hiperfosfatemia: bloquear recomendación automática.",
         "personalization_inputs": [
@@ -7760,9 +7781,16 @@
           "formulación"
         ],
         "source_review_status": "ORIGINAL_SOURCE_OPENED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_PAGE",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -8096,9 +8124,16 @@
           "formulación"
         ],
         "source_review_status": "ORIGINAL_SOURCE_OPENED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://www.nationalacademies.org/read/25353/chapter/13",
+          "source_retrieval": "NATIONAL_ACADEMIES_ORIGINAL_CHAPTER",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -8355,9 +8390,16 @@
           "formulación"
         ],
         "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_INDEXED_CONTENT",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -8593,7 +8635,7 @@
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
         "source_kind": "NIH ODS Health Professional Fact Sheet",
         "reference_intake_or_studied_dose_es": "4–6 g/día divididos, durante 2–4 semanas en estudios de rendimiento",
-        "upper_limit_and_safety_es": "Parestesias por dosis individuales elevadas; seguridad prolongada insuficientemente establecida",
+        "upper_limit_and_safety_es": "Parestesia con dosis únicas >=800 mg o >10 mg/kg; dividir dosis <=2 g y considerar tomas menores o liberación sostenida; datos de seguridad prolongada limitados.",
         "medication_interactions_es": "No se documentan interacciones farmacológicas bien establecidas en fuente deportiva",
         "administration_es": "Repartir tomas pequeñas; formulaciones de liberación sostenida pueden reducir parestesias",
         "recommendation_basis_es": "Dosis estudiada no es recomendación general para cualquier objetivo.",
@@ -8610,9 +8652,16 @@
           "formulación"
         ],
         "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_INDEXED_CONTENT",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -8881,7 +8930,7 @@
         "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
         "source_kind": "NIH ODS Health Professional Fact Sheet",
         "reference_intake_or_studied_dose_es": "2–6 mg/kg antes de ejercicio en estudios; revisar exposición diaria total",
-        "upper_limit_and_safety_es": "Puede provocar ansiedad, taquicardia e insomnio; dosis altas peligrosas; embarazo requiere límite diferente",
+        "upper_limit_and_safety_es": "Estudios 2–6 mg/kg para rendimiento; en adultos sanos FDA indica que 400 mg/día generalmente no ocasionan efectos peligrosos, pero NO es umbral universal ni seguro para embarazadas, adolescentes, arritmias o sensibles. No usar cafeína pura en polvo.",
         "medication_interactions_es": "Estimulantes y fármacos que afectan metabolismo de cafeína; revisar interacciones específicas del medicamento",
         "administration_es": "Habitualmente antes del ejercicio según estudio; evitar horario cercano al sueño",
         "recommendation_basis_es": "Calcular mg/kg con tope de exposición total y exclusiones; no aplicar fórmula universal.",
@@ -8898,9 +8947,16 @@
           "formulación"
         ],
         "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_INDEXED_CONTENT",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -9146,9 +9202,16 @@
           "formulación"
         ],
         "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_INDEXED_CONTENT",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
@@ -9394,9 +9457,16 @@
           "formulación"
         ],
         "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
-        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "bibliographic_completion": "BIBLIOGRAPHIC_BASELINE_COMPLETE",
         "app_functionality_not_in_scope": true,
-        "clinical_release_approved": false
+        "clinical_release_approved": false,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+          "source_retrieval": "NIH_ODS_ORIGINAL_INDEXED_CONTENT",
+          "intake_dose_safety_interactions_checked": true,
+          "app_testing": false
+        }
       }
     },
     {
