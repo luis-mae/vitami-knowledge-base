@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -1574,6 +1574,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "dietary_reference_not_supplement_dose",
+          "no_established_UL",
+          "deficiency_risk_screen"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -1689,6 +1716,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "lab_assay_interference_troponin_thyroid",
+          "inform_laboratory_and_clinician",
+          "no_routine_hair_growth_claim"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -1785,6 +1839,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "neurologic_toxicity_with_excess",
+          "hepatic_disease_screen",
+          "total_intake_and_UL"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -1881,6 +1962,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "chronic_kidney_disease_screen",
+          "serum_phosphate_and_calcium_context",
+          "total_intake_and_UL"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -1972,6 +2080,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "hypertension_heart_failure_kidney_disease_screen",
+          "avoid_routine_salt_supplement",
+          "heat_exercise_losses_context"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2056,6 +2191,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "renal_disease_medication_screen",
+          "distinguish_creatine_monohydrate_from_other_forms",
+          "exercise_goal_context"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2140,6 +2302,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "paresthesia_dose_dependence",
+          "sport_specific_evidence",
+          "split_dose_formulation_review"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2248,6 +2437,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "pregnancy_screen",
+          "arrhythmia_anxiety_insomnia_screen",
+          "medication_and_total_caffeine_intake"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2332,6 +2548,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "renal_disease_screen",
+          "food_allergy_screen",
+          "total_dietary_protein_target"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2416,6 +2659,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "milk_allergy_screen",
+          "lactose_tolerance_screen",
+          "total_protein_intake"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2500,6 +2770,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "soy_pea_or_other_allergen_screen",
+          "amino_acid_profile_and_total_protein",
+          "contaminant_quality_check"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2584,6 +2881,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "blood_pressure_medication_screen",
+          "limited_sport_evidence",
+          "do_not_extrapolate_to_arginine"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2668,6 +2992,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "hypotension_drug_interaction_screen",
+          "herpes_history_screen",
+          "limited_performance_evidence"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2752,6 +3103,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "not_equivalent_to_complete_protein",
+          "check_total_protein_and_energy",
+          "no_superiority_assumption"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2836,6 +3214,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "not_equivalent_to_complete_protein",
+          "check_total_protein",
+          "renal_disease_screen"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -2927,6 +3332,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "limited_indication_specific_evidence",
+          "energy_drink_caffeine_coexposure",
+          "medication_screen"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3011,6 +3443,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "do_not_claim_weight_loss_without_evidence",
+          "seizure_history_screen",
+          "kidney_disease_screen"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3119,6 +3578,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "anticoagulant_screen",
+          "atrial_fibrillation_risk_at_high_doses",
+          "distinguish_EPA_DHA_from_fish_oil_mass"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3227,6 +3713,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "verify_DHA_EPA_per_serving",
+          "anticoagulant_screen",
+          "do_not_assume_same_EPA_DHA_ratio"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3342,6 +3855,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/DietaryFiber-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "adequate_water_required",
+          "swallowing_difficulty_or_obstruction_screen",
+          "separate_from_medicines_if_relevant"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3424,6 +3964,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "gas_bloating_tolerance",
+          "IBS_FODMAP_screen",
+          "not_equivalent_to_probiotic"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3532,6 +4099,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "strain_specific_evidence",
+          "immunocompromised_critical_illness_screen",
+          "CFU_at_expiry_and_storage"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3623,6 +4217,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "not_equivalent_to_probiotics",
+          "gas_bloating_tolerance",
+          "ingredient_specific_dose_evidence"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3714,6 +4335,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "limited_indication_specific_evidence",
+          "animal_source_allergy_screen",
+          "not_complete_protein"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -3801,6 +4449,33 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+        "reference_status": "candidate_pending_direct_claim_validation",
+        "safety_checks": [
+          "total_intake_and_UL",
+          "pregnancy_lactation_requirements",
+          "fishy_body_odor_and_hypotension_with_excess"
+        ],
+        "evidence_grade": "pending_indication_specific_appraisal",
+        "dose": {
+          "status": "pending_indication_specific_review",
+          "unit": null,
+          "value": null
+        },
+        "interaction_review": "pending_comprehensive_review",
+        "argentina": {
+          "status": "pending_actual_product_RNE_RNPA_and_category_check",
+          "OTC_status": "not_inferred_from_ingredient"
+        },
+        "recommendation_policy": {
+          "es": "Ficha en revisión: no recomendar automáticamente hasta validar dosis por indicación, interacciones y producto registrado.",
+          "en": "Under review: do not recommend automatically until indication-specific dose, interactions and registered product are validated.",
+          "it": "Scheda in revisione: non raccomandare automaticamente prima di verificare dose per indicazione, interazioni e prodotto registrato."
+        },
+        "automatic_recommendation_allowed": false,
+        "editorial_review_date": "2026-11-18"
       }
     },
     {
@@ -9091,5 +9766,12 @@
     "source_claim_entries_in_batches": 24,
     "clinical_signoff_count": 0,
     "method": "Copy structured batch research into existing canonical 100-record catalog without inventing verification"
+  },
+  "batch_completion_pass": {
+    "date": "2026-11-18",
+    "range": "21-45",
+    "processed": 25,
+    "scientifically_complete": 0,
+    "meaning": "25 explicit ingredient-specific safety review packets; all clinical and regulatory approvals still pending"
   }
 }
