@@ -1,0 +1,936 @@
+{
+  "version": "batch-21-60-source-triage-v1",
+  "parent_catalog": "data/research/normalized_100_editorial_catalog_v1.json",
+  "scope": "40 ingredients positions 21-60",
+  "source_review_date": "2026-11-18",
+  "method": "source triage only; checked claims are not complete clinical monographs",
+  "counts": {
+    "records": 40,
+    "checked_claims": 4,
+    "source_identified_pending_claim_check": 10,
+    "pending_targeted_source": 26,
+    "clinically_approved": 0
+  },
+  "records": [
+    {
+      "position": 21,
+      "ingredient_id": "pantothenic_acid",
+      "names": {
+        "es": "Ácido pantoténico",
+        "en": "Pantothenic acid",
+        "it": "Acido pantotenico"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 22,
+      "ingredient_id": "biotin",
+      "names": {
+        "es": "Biotina",
+        "en": "Biotin",
+        "it": "Biotina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 23,
+      "ingredient_id": "manganese",
+      "names": {
+        "es": "Manganeso",
+        "en": "Manganese",
+        "it": "Manganese"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 24,
+      "ingredient_id": "phosphorus",
+      "names": {
+        "es": "Fósforo",
+        "en": "Phosphorus",
+        "it": "Fosforo"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 25,
+      "ingredient_id": "sodium",
+      "names": {
+        "es": "Sodio",
+        "en": "Sodium",
+        "it": "Sodio"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 26,
+      "ingredient_id": "creatine",
+      "names": {
+        "es": "Creatina",
+        "en": "Creatine",
+        "it": "Creatina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Performance benefit is context-specific, mainly repeated high-intensity activity; formulation and safety review required.",
+        "status": "source_checked"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 27,
+      "ingredient_id": "beta_alanine",
+      "names": {
+        "es": "Beta-alanina",
+        "en": "Beta-alanine",
+        "it": "Beta-alanina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Mixed performance results and dose-associated paresthesia; no universal recommendation.",
+        "status": "source_checked"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 28,
+      "ingredient_id": "caffeine",
+      "names": {
+        "es": "Cafeína",
+        "en": "Caffeine",
+        "it": "Caffeina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 29,
+      "ingredient_id": "protein_powder",
+      "names": {
+        "es": "Proteína en polvo",
+        "en": "Protein powder",
+        "it": "Proteine in polvere"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 30,
+      "ingredient_id": "whey_protein",
+      "names": {
+        "es": "Proteína de suero",
+        "en": "Whey protein",
+        "it": "Proteine del siero"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 31,
+      "ingredient_id": "plant_protein",
+      "names": {
+        "es": "Proteína vegetal",
+        "en": "Plant protein",
+        "it": "Proteine vegetali"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 32,
+      "ingredient_id": "citrulline",
+      "names": {
+        "es": "Citrulina",
+        "en": "Citrulline",
+        "it": "Citrullina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 33,
+      "ingredient_id": "arginine",
+      "names": {
+        "es": "Arginina",
+        "en": "Arginine",
+        "it": "Arginina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Limited/conflicting athletic evidence and gastrointestinal adverse effects.",
+        "status": "source_checked"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 34,
+      "ingredient_id": "bcaa",
+      "names": {
+        "es": "Aminoácidos ramificados",
+        "en": "Branched-chain amino acids",
+        "it": "Aminoacidi ramificati"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 35,
+      "ingredient_id": "leucine",
+      "names": {
+        "es": "Leucina",
+        "en": "Leucine",
+        "it": "Leucina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 36,
+      "ingredient_id": "taurine",
+      "names": {
+        "es": "Taurina",
+        "en": "Taurine",
+        "it": "Taurina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 37,
+      "ingredient_id": "carnitine",
+      "names": {
+        "es": "Carnitina",
+        "en": "Carnitine",
+        "it": "Carnitina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 38,
+      "ingredient_id": "omega3_epa_dha",
+      "names": {
+        "es": "Omega-3 EPA/DHA",
+        "en": "Omega-3 EPA/DHA",
+        "it": "Omega-3 EPA/DHA"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 39,
+      "ingredient_id": "algal_omega3",
+      "names": {
+        "es": "Omega-3 de algas",
+        "en": "Algal omega-3",
+        "it": "Omega-3 da alghe"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 40,
+      "ingredient_id": "psyllium",
+      "names": {
+        "es": "Psyllium",
+        "en": "Psyllium",
+        "it": "Psillio"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 41,
+      "ingredient_id": "inulin",
+      "names": {
+        "es": "Inulina",
+        "en": "Inulin",
+        "it": "Inulina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 42,
+      "ingredient_id": "probiotics",
+      "names": {
+        "es": "Probióticos",
+        "en": "Probiotics",
+        "it": "Probiotici"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 43,
+      "ingredient_id": "prebiotics",
+      "names": {
+        "es": "Prebióticos",
+        "en": "Prebiotics",
+        "it": "Prebiotici"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 44,
+      "ingredient_id": "collagen",
+      "names": {
+        "es": "Colágeno",
+        "en": "Collagen",
+        "it": "Collagene"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 45,
+      "ingredient_id": "choline",
+      "names": {
+        "es": "Colina",
+        "en": "Choline",
+        "it": "Colina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 46,
+      "ingredient_id": "coq10",
+      "names": {
+        "es": "Coenzima Q10",
+        "en": "Coenzyme Q10",
+        "it": "Coenzima Q10"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "claim": "Relevant source identified; ingredient-specific section and indication not individually verified in this pass.",
+        "status": "source_identified_pending_claim_check"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 47,
+      "ingredient_id": "melatonin",
+      "names": {
+        "es": "Melatonina",
+        "en": "Melatonin",
+        "it": "Melatonina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 48,
+      "ingredient_id": "curcumin",
+      "names": {
+        "es": "Curcumina",
+        "en": "Curcumin",
+        "it": "Curcumina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 49,
+      "ingredient_id": "ginger",
+      "names": {
+        "es": "Jengibre",
+        "en": "Ginger",
+        "it": "Zenzero"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 50,
+      "ingredient_id": "ashwagandha",
+      "names": {
+        "es": "Ashwagandha",
+        "en": "Ashwagandha",
+        "it": "Ashwagandha"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": "https://www.nccih.nih.gov/health/ashwagandha",
+        "claim": "Limited evidence for some stress/sleep preparations; avoid in pregnancy and breastfeeding; review liver, thyroid, autoimmune disease and drug interactions.",
+        "status": "source_checked"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 51,
+      "ingredient_id": "green_tea_extract",
+      "names": {
+        "es": "Extracto de té verde",
+        "en": "Green tea extract",
+        "it": "Estratto di tè verde"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 52,
+      "ingredient_id": "ginseng",
+      "names": {
+        "es": "Ginseng",
+        "en": "Ginseng",
+        "it": "Ginseng"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 53,
+      "ingredient_id": "garlic_extract",
+      "names": {
+        "es": "Extracto de ajo",
+        "en": "Garlic extract",
+        "it": "Estratto di aglio"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 54,
+      "ingredient_id": "turmeric",
+      "names": {
+        "es": "Cúrcuma",
+        "en": "Turmeric",
+        "it": "Curcuma"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 55,
+      "ingredient_id": "echinacea",
+      "names": {
+        "es": "Equinácea",
+        "en": "Echinacea",
+        "it": "Echinacea"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 56,
+      "ingredient_id": "st_johns_wort",
+      "names": {
+        "es": "Hierba de San Juan",
+        "en": "St John's wort",
+        "it": "Iperico"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 57,
+      "ingredient_id": "berberine",
+      "names": {
+        "es": "Berberina",
+        "en": "Berberine",
+        "it": "Berberina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 58,
+      "ingredient_id": "alpha_lipoic_acid",
+      "names": {
+        "es": "Ácido alfa lipoico",
+        "en": "Alpha-lipoic acid",
+        "it": "Acido alfa-lipoico"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 59,
+      "ingredient_id": "astaxanthin",
+      "names": {
+        "es": "Astaxantina",
+        "en": "Astaxanthin",
+        "it": "Astaxantina"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    },
+    {
+      "position": 60,
+      "ingredient_id": "beta_carotene",
+      "names": {
+        "es": "Betacaroteno",
+        "en": "Beta-carotene",
+        "it": "Beta-carotene"
+      },
+      "existing_source_pointer": null,
+      "evidence_review": {
+        "url": null,
+        "claim": null,
+        "status": "pending_targeted_source"
+      },
+      "checks": {
+        "dose_verified": false,
+        "drug_interactions_verified": false,
+        "contraindications_verified": false,
+        "regulatory_argentina_verified": false,
+        "clinical_approved": false
+      },
+      "release_gate": "blocked"
+    }
+  ]
+}
