@@ -32,5 +32,9 @@
     "product-specific Argentine regulatory status"
   ],
   "canonical_catalog_commit": "230bb168185938c586fd1c26bc8833ac6a9d138e",
-  "important": "This closure means bibliographic baseline according to the same limited criteria used for first ten, not app or clinical release."
+  "important": "This closure means bibliographic baseline according to the same limited criteria used for first ten, not app or clinical release.",
+  "governance": {
+    "document_status": "DATED_RESEARCH_EVIDENCE_NOT_MASTER_AUDIT_OR_ACTIVE_PLAN",
+    "instruction": "This file records a bounded research/audit milestone for its named ingredients and date. It is not the current consolidated VITAMI audit and must not be used to infer global completion or current status. Consult luis-mae/vitami/AUDITORIA.md and VITAMI_PLAN_MAESTRO_UNICO.md before acting."
+  }
 }
