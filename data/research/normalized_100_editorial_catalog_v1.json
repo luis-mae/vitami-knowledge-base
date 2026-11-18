@@ -1,5 +1,5 @@
 {
-  "version": "2.12",
+  "version": "2.13",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -2447,6 +2447,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Vitamin C deficiency/scurvy prevention; routine high-dose supplementation is not established as universal infection prevention.",
+          "risk": "Large doses can cause gastrointestinal effects; caution in iron overload.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -2646,6 +2653,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Vitamin A deficiency; distinguish preformed retinol from provitamin A carotenoids.",
+          "risk": "Preformed retinol is teratogenic in excess; systemic retinoids warrant review.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -2833,6 +2847,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Prevent and treat confirmed deficiency in appropriate settings.",
+          "risk": "High-dose supplements can increase bleeding risk; no routine cardiovascular prevention claim.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -3014,6 +3035,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Maintain adequate vitamin K for coagulation and bone metabolism.",
+          "risk": "Warfarin requires consistent intake and INR follow-up, not unsupervised changes.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -3196,6 +3224,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Prevent and treat thiamin deficiency; suspected Wernicke encephalopathy requires urgent clinical treatment.",
+          "risk": "Nutrition RDA is not adequate treatment for Wernicke encephalopathy.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -3376,6 +3411,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Correct deficiency; migraine prophylaxis evidence involves doses above nutritional requirements.",
+          "risk": "Distinguish clinical prophylaxis from daily nutrient intake.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -3564,6 +3606,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Treat deficiency; pharmacologic lipid doses are not routine supplement recommendations.",
+          "risk": "High doses can cause hepatotoxicity, hyperglycemia and flushing.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -3751,6 +3800,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Correct confirmed copper deficiency, including some cases associated with excess zinc.",
+          "risk": "Wilson disease and significant liver disease require specialist review.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -16424,6 +16480,7 @@
     "clinical_review_worklists_added": 25,
     "quality_control_checks_added": 25,
     "source_audits": 25,
-    "indication_specific_editorial_reviews_added": 8
+    "indication_specific_editorial_reviews_added": 8,
+    "additional_indication_editorial_reviews": 8
   }
 }
