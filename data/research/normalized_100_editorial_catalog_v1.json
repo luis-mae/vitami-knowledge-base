@@ -276,6 +276,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "15 mcg (600 IU) adults 19–70; 20 mcg (800 IU) 71+",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminD-DatosEnEspanol/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -502,6 +513,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "RDA 2.4 mcg/day adults; 2.6 pregnancy; 2.8 lactation",
+        "url": "https://ods.od.nih.gov/factsheets/Vitaminb12-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -772,6 +794,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "RDA 8 mg/day men 19–50; 18 mg/day women 19–50; 27 pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -980,6 +1013,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "RDA 400–420 mg/day men, 310–320 women; total dietary requirement, not supplement dose",
+        "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -1445,6 +1489,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "RDA 11 mg/day men 19+, 8 mg/day women 19+",
+        "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -1675,6 +1730,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "RDA 400 mcg DFE/day adults; not equivalent to 400 mcg folic acid supplement",
+        "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -1946,6 +2012,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "AI 3400 mg/day men, 2600 women; not a supplement dose; renal/medication exceptions",
+        "url": "https://ods.od.nih.gov/factsheets/Potassium%20-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -2409,6 +2486,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "RDA 150 mcg/day adults; 220 pregnancy, 290 lactation",
+        "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -2631,6 +2719,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "RDA 55 mcg/day adults; 60 pregnancy, 70 lactation",
+        "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -7345,6 +7444,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "Evidence conflicting; 8 g citrulline malate in one trial; no established recommended performance dose",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -7727,16 +7837,14 @@
         "checked_on": "2026-11-18"
       },
       "source_passage_audit": {
-        "sections": [
-          "Branched-chain amino acids",
-          "Safety",
-          "Implications for use"
-        ],
-        "verified": "No consistently demonstrated added benefit; up to 20 g/day studied short-term, not a recommended dose.",
-        "result": "MATCH",
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "No consistent exercise benefit; up to 20 g/day divided doses studied for safety, not recommended dose",
         "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
         "checked_on": "2026-11-18",
-        "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
       }
     },
@@ -9303,6 +9411,17 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH",
+        "verified": "CFU count is strain- and outcome-dependent; higher CFU not necessarily better; no universal CFU/day",
+        "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Efficacy / Safety, as applicable"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -19448,17 +19567,28 @@
       "individual_claim_verification": "not certified"
     },
     "source_passage_audit": {
-      "checked": 6,
-      "total": 55,
-      "full_claim_validation": false,
-      "ids": [
+      "dose_or_reference_checked_ids": [
         "choline",
         "ashwagandha",
         "creatine",
         "beta_alanine",
         "caffeine",
-        "bcaa"
-      ]
+        "bcaa",
+        "vitamin_d",
+        "vitamin_b12",
+        "iron",
+        "magnesium",
+        "zinc",
+        "folate",
+        "potassium",
+        "iodine",
+        "selenium",
+        "citrulline",
+        "probiotics"
+      ],
+      "dose_or_reference_checked_count": 17,
+      "total": 55,
+      "full_claim_validation": false
     }
   },
   "editorial_completion_policy": {
