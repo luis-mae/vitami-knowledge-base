@@ -1,5 +1,5 @@
 {
-  "version": "2.27",
+  "version": "2.28",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -3623,6 +3623,20 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Differentiate nutritional adequacy from urgent treatment of suspected Wernicke encephalopathy.",
+        "screen": [
+          "alcohol_use_disorder",
+          "malnutrition",
+          "refeeding_risk",
+          "confusion_or_ataxia"
+        ],
+        "form": "Oral nutritional thiamin is not interchangeable with parenteral emergency treatment.",
+        "decision": "Urgent referral for possible Wernicke encephalopathy; do not rely on routine supplement advice.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -6688,6 +6702,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Assess total dietary protein and amino acid quality before recommending supplements.",
+        "screen": [
+          "soy_or_pea_allergy",
+          "kidney_disease",
+          "pregnancy",
+          "low_total_energy_intake"
+        ],
+        "form": "Record grams protein per serving and source-specific amino acid profile.",
+        "decision": "Do not infer equivalence of all plant protein blends or need for supplementation.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -12947,6 +12975,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Osteoarthritis symptom evidence depends on studied formulation and outcome.",
+        "screen": [
+          "warfarin",
+          "shellfish_derived_product",
+          "pregnancy",
+          "planned_surgery"
+        ],
+        "form": "Identify chondroitin sulfate amount and source, standalone versus combined.",
+        "decision": "Review anticoagulant interactions; do not extrapolate across formulations.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17850,6 +17892,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Claims for infection prevention or immune support require product-specific clinical evidence.",
+        "screen": [
+          "bee_product_allergy",
+          "asthma_or_atopy",
+          "pregnancy",
+          "children"
+        ],
+        "form": "Specify propolis extract composition and concentration; batches vary.",
+        "decision": "Avoid use in bee-product allergy and unsubstantiated infection treatment claims.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -18210,10 +18266,10 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "vitamin_k",
-    "block_2": "whey_protein",
-    "block_3": "turmeric",
-    "block_4": "milk_thistle",
+    "block_1": "thiamin",
+    "block_2": "plant_protein",
+    "block_3": "chondroitin",
+    "block_4": "propolis",
     "block_5": {
       "verified_products": 0,
       "pending": 100
@@ -18224,7 +18280,7 @@
       "missing_trilingual_safety": 0,
       "verified_products": 0,
       "auto_enabled": 0,
-      "clinical_case_drafts": 43
+      "clinical_case_drafts": 47
     },
     "new_editorial_cases": 4,
     "scientific_signoff_added": 0
