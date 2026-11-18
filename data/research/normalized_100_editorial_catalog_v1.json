@@ -2264,6 +2264,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "RDA 1.3 mg/day ages 19–50; EFSA adult UL 12 mg/day differs from US UL 100 mg/day.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -2956,6 +2969,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "RDA men 90 mg/day, women 75 mg/day (19+).",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -3197,6 +3223,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "RDA men 900 mcg RAE/day, women 700 mcg RAE/day (19+); distinguish preformed retinol safety.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -3412,6 +3451,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "RDA 15 mg/day alpha-tocopherol adults.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -3635,6 +3687,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "AI men 120 mcg/day, women 90 mcg/day adults.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -3859,6 +3924,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "RDA men 1.2 mg/day, women 1.1 mg/day adults.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -4081,6 +4159,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "RDA men 1.3 mg/day, women 1.1 mg/day adults.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -4312,6 +4403,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "RDA men 16 mg NE/day, women 14 mg NE/day adults; UL applies to supplemental niacin.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -4541,6 +4645,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "RDA 900 mcg/day adults.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -4765,6 +4882,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "AI men 35 mcg/day, women 25 mcg/day ages 19–50; values decrease after age 50.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -6124,6 +6254,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "SOURCE_MISMATCH_OR_NOT_VERIFIED",
+        "verified": null,
+        "issue": "Existing source URL returned 404; sodium AI/CDRR cannot be counted as verified against this pointer.",
+        "url": "https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/",
+        "sections": [
+          "Source link or ingredient-specific dosing support"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -8333,6 +8476,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "SOURCE_MISMATCH_OR_NOT_VERIFIED",
+        "verified": null,
+        "issue": "NIH ODS athletic performance page does not clearly establish taurine-specific dose; absence cannot be inferred from unrelated section.",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "sections": [
+          "Source link or ingredient-specific dosing support"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -8518,6 +8674,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "No established RDA/AI for healthy individuals; synthesized endogenously.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -8728,6 +8897,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "No US RDA specifically for EPA+DHA; ALA has AI; do not conflate.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -8923,6 +9105,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_OR_NO_RDA_SOURCE_SUPPORTED",
+        "verified": "No US RDA for algal EPA+DHA; algae-derived DHA/EPA differ by product.",
+        "issue": null,
+        "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes / Dietary Reference Intakes"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -9139,6 +9334,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "SOURCE_MISMATCH_OR_NOT_VERIFIED",
+        "verified": null,
+        "issue": "Existing MedlinePlus source now redirects to herbs index (TRC content unavailable since 2025); replace with current ingredient-specific source.",
+        "url": "https://medlineplus.gov/druginfo/natural/866.html",
+        "sections": [
+          "Source link or ingredient-specific dosing support"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -9310,6 +9518,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "SOURCE_MISMATCH_OR_NOT_VERIFIED",
+        "verified": null,
+        "issue": "NIH ODS probiotics fact sheet does not establish an inulin-specific dose; source mismatch.",
+        "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "sections": [
+          "Source link or ingredient-specific dosing support"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -9712,6 +9933,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "SOURCE_MISMATCH_OR_NOT_VERIFIED",
+        "verified": null,
+        "issue": "NIH ODS probiotics fact sheet is not a prebiotic-specific dosing source; source mismatch.",
+        "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "sections": [
+          "Source link or ingredient-specific dosing support"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -9892,6 +10126,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "SOURCE_MISMATCH_OR_NOT_VERIFIED",
+        "verified": null,
+        "issue": "NCCIH generic /health homepage does not support a collagen-specific dose; source mismatch.",
+        "url": "https://www.nccih.nih.gov/health",
+        "sections": [
+          "Source link or ingredient-specific dosing support"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -10289,6 +10536,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH discusses studies and uncertainties, not a universal supplement dose.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/coenzyme-q10",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -10529,6 +10789,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH discusses differing conditions, timing and unknown long-term safety; no universal dosing.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -10736,6 +11009,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH turmeric page describes differing curcumin preparations and uncertainties, not a standard therapeutic dose.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/turmeric",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -10941,6 +11227,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH ginger page reviews evidence and side effects, not a universal preparation-independent dose.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/ginger",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -11429,6 +11728,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH discusses extract-associated liver injury; no default extract/EGCG dose.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/green-tea",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -11634,6 +11946,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH Asian ginseng evidence and risks vary; no universal cross-preparation dose.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/asian-ginseng",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -11857,6 +12182,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH garlic evidence and interactions; no universal powder/oil/extract-equivalent dose.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/garlic",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -12061,6 +12399,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH turmeric page does not support a universal turmeric root dose.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/turmeric",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -12280,6 +12631,19 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "result": "NO_UNIVERSAL_DOSE_CONTEXT_SUPPORTED",
+        "verified": "NCCIH echinacea describes multiple species/preparations; no universal dose.",
+        "issue": null,
+        "url": "https://www.nccih.nih.gov/health/echinacea",
+        "sections": [
+          "What the Science Says / Safety / Research Summary"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
+        "claim_by_claim_full_audit": false,
+        "automatic_personalized_dose_allowed": false
       }
     },
     {
@@ -19678,37 +20042,75 @@
     },
     "source_passage_audit": {
       "dose_or_reference_checked_ids": [
-        "choline",
-        "ashwagandha",
-        "creatine",
-        "beta_alanine",
-        "caffeine",
-        "bcaa",
         "vitamin_d",
         "vitamin_b12",
         "iron",
         "magnesium",
+        "calcium",
         "zinc",
         "folate",
         "potassium",
+        "vitamin_b6",
         "iodine",
         "selenium",
-        "citrulline",
-        "probiotics",
-        "calcium",
+        "vitamin_c",
+        "vitamin_a",
+        "vitamin_e",
+        "vitamin_k",
+        "thiamin",
+        "riboflavin",
+        "niacin",
+        "copper",
+        "chromium",
         "pantothenic_acid",
         "biotin",
         "manganese",
         "phosphorus",
+        "sodium",
+        "creatine",
+        "beta_alanine",
+        "caffeine",
         "protein_powder",
         "whey_protein",
         "plant_protein",
+        "citrulline",
         "arginine",
-        "leucine"
+        "bcaa",
+        "leucine",
+        "taurine",
+        "carnitine",
+        "omega3_epa_dha",
+        "algal_omega3",
+        "psyllium",
+        "inulin",
+        "probiotics",
+        "prebiotics",
+        "collagen",
+        "choline",
+        "coq10",
+        "melatonin",
+        "curcumin",
+        "ginger",
+        "ashwagandha",
+        "green_tea_extract",
+        "ginseng",
+        "garlic_extract",
+        "turmeric",
+        "echinacea"
       ],
-      "dose_or_reference_checked_count": 27,
+      "dose_or_reference_checked_count": 55,
       "total": 55,
-      "full_claim_validation": false
+      "full_claim_validation": false,
+      "source_issues": [
+        "sodium",
+        "psyllium",
+        "inulin",
+        "prebiotics",
+        "collagen",
+        "taurine"
+      ],
+      "status": "DOSE_REFERENCE_SCREENED_WITH_OPEN_ISSUES",
+      "remaining_unreviewed_dose_claims": 0
     }
   },
   "editorial_completion_policy": {
