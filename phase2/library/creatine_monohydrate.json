@@ -11,9 +11,9 @@
     "it": "Composto utilizzato per aumentare la disponibilità rapida di energia nel muscolo durante sforzi intensi e ripetuti."
   },
   "common_uses": {
-    "es": "Puede ser relevante en contextos específicos según dieta, objetivos y seguridad.",
-    "en": "It may be relevant in specific contexts depending on diet, goals, and safety.",
-    "it": "Può essere rilevante in contesti specifici secondo dieta, obiettivi e sicurezza."
+    "es": "Mejora del rendimiento en series breves de ejercicio intenso y entrenamiento de fuerza; no es una intervención general para toda actividad física.",
+    "en": "Performance in repeated short bouts of high-intensity exercise and resistance training; not a general intervention for all exercise.",
+    "it": "Prestazione in sforzi brevi e intensi ripetuti e allenamento di forza; non è un intervento generale per ogni attività."
   },
   "why_vitami_may_show_it": {
     "es": "Puede ser relevante en entrenamiento de fuerza, potencia o esfuerzos intermitentes de alta intensidad.",
@@ -21,9 +21,9 @@
     "it": "Può essere rilevante per allenamenti di forza, potenza o sforzi intermittenti ad alta intensità."
   },
   "evidence_summary": {
-    "es": "Vitami utiliza evidencia específica de indicación y evita extrapolar beneficios generales.",
-    "en": "Vitami uses indication-specific evidence and avoids extrapolating broad benefits.",
-    "it": "Vitami usa evidenze specifiche per indicazione ed evita di extrapolare benefici generali."
+    "es": "La creatina monohidrato tiene evidencia favorable para esfuerzos intensos repetidos y fuerza, con menor utilidad en resistencia aeróbica.",
+    "en": "Creatine monohydrate has favorable evidence for repeated high-intensity efforts and strength, with less benefit for aerobic endurance.",
+    "it": "La creatina monoidrato ha evidenze favorevoli per sforzi intensi ripetuti e forza, con benefici minori nella resistenza aerobica."
   },
   "evidence_label": "high_for_selected_performance_contexts",
   "limits": {
@@ -32,17 +32,17 @@
     "it": "Non va considerata semplicemente come un integratore 'pre-allenamento'. I protocolli studiati si basano in genere su un uso regolare per giorni o settimane."
   },
   "dose_reference": {
-    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
-    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
-    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+    "es": "Protocolos estudiados en adultos: 3–5 g diarios de mantenimiento; carga opcional de unos 20 g/día divididos durante 5–7 días. No es una prescripción personalizada.",
+    "en": "Studied adult protocols: 3–5 g daily maintenance; optional loading around 20 g/day in divided doses for 5–7 days. Not personalized advice.",
+    "it": "Protocolli studiati negli adulti: mantenimento 3–5 g al giorno; carico facoltativo di circa 20 g/die in dosi frazionate per 5–7 giorni. Non è una prescrizione personalizzata."
   },
   "common_presentations": [
     "powder_or_capsule"
   ],
   "precautions": {
-    "es": "Las precauciones dependen del ingrediente y se aplican antes que cualquier puntuación positiva.",
-    "en": "Ingredient-specific precautions are applied before any positive scoring.",
-    "it": "Le precauzioni specifiche dell'ingrediente vengono applicate prima di qualsiasi punteggio positivo."
+    "es": "Puede aumentar el peso por agua corporal y provocar molestias gastrointestinales. La seguridad se estudió principalmente en adultos sanos; consultar ante enfermedad renal, embarazo, lactancia o medicación relevante.",
+    "en": "May increase body weight through water retention and cause gastrointestinal discomfort. Safety evidence mostly concerns healthy adults; seek advice for kidney disease, pregnancy, breastfeeding or relevant medication.",
+    "it": "Può aumentare il peso per ritenzione idrica e causare disturbi gastrointestinali. I dati di sicurezza riguardano soprattutto adulti sani; chiedere consiglio in caso di malattia renale, gravidanza, allattamento o farmaci rilevanti."
   },
   "when_to_consult": {
     "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
@@ -53,13 +53,23 @@
     "NIH_EXERCISE_HP"
   ],
   "source_status": "reviewed_or_official_index",
-  "deep_record_status": "pending",
-  "rules_status": "draft",
+  "deep_record_status": "in_progress",
+  "rules_status": "candidate_not_active",
   "library_status": "complete_user_facing_draft",
-  "review_date": "2026-08-09",
+  "review_date": "2026-11-18",
   "disclaimer": {
     "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
     "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
     "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  },
+  "scientific_detail": {
+    "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+    "section": "Creatine",
+    "review_status": "partial_evidence_review",
+    "safety_screen_complete": false,
+    "regulatory_product_registration": "pending",
+    "equivalent_alternatives": "not_established",
+    "clinical_approval": false,
+    "automatic_recommendation": false
   }
 }
