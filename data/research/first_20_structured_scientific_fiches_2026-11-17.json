@@ -1,8 +1,8 @@
 {
-  "version": "2026-11-17",
+  "version": "2026-11-17-revision-2",
   "batch": "first_20",
   "count": 20,
-  "disclaimer": "Research-only structured fiches. Intake reference values are not supplement prescriptions. EN/IT safety text retains Spanish specifics pending professional translation. Do not publish as validated.",
+  "disclaimer": "Twenty detailed multilingual editorial fiches, NOT twenty clinically validated recommendations. Reference intakes are not treatment doses. Argentina product registration cannot be established at ingredient level.",
   "records": [
     {
       "ingredient_id": "vitamin_d",
@@ -21,24 +21,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Hipercalcemia, enfermedad renal; precaución con diuréticos tiazídicos.",
-      "safety_it": "Necessaria revisione clinica: Hipercalcemia, enfermedad renal; precaución con diuréticos tiazídicos.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Absorption improves with a fat-containing meal; avoid high doses without assessing hypercalcemia risk.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. L'assorbimento migliora con un pasto contenente grassi; evitare dosi elevate senza valutare il rischio di ipercalcemia.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Absorción mejor con comida que contenga grasa; no iniciar dosis altas sin evaluar riesgo de hipercalcemia.",
+        "en": "Absorption improves with a fat-containing meal; avoid high doses without assessing hypercalcemia risk.",
+        "it": "L'assorbimento migliora con un pasto contenente grassi; evitare dosi elevate senza valutare il rischio di ipercalcemia."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "vitamin_b12",
@@ -57,24 +72,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Investigar malabsorción y anemia; metformina e inhibidores de ácido gástrico pueden reducir niveles.",
-      "safety_it": "Necessaria revisione clinica: Investigar malabsorción y anemia; metformina e inhibidores de ácido gástrico pueden reducir niveles.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. May be taken with or without food; neurologic deficiency or anemia requires medical evaluation.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Può essere assunta con o senza cibo; deficit neurologici o anemia richiedono valutazione medica.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Puede tomarse con o sin alimentos; deficiencia neurológica o anemia requiere evaluación médica.",
+        "en": "May be taken with or without food; neurologic deficiency or anemia requires medical evaluation.",
+        "it": "Può essere assunta con o senza cibo; deficit neurologici o anemia richiedono valutazione medica."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "iron",
@@ -93,24 +123,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: No suplementar por cansancio aislado; descartar hemocromatosis; separar de levotiroxina y ciertos antibióticos.",
-      "safety_it": "Necessaria revisione clinica: No suplementar por cansancio aislado; descartar hemocromatosis; separar de levotiroxina y ciertos antibióticos.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Separate from calcium, antacids, tea and coffee; nausea and constipation are possible; avoid without established need.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Separare da calcio, antiacidi, tè e caffè; possibili nausea e stitichezza; evitare senza necessità accertata.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Tomar separado de calcio, antiácidos, té y café; puede causar náuseas y estreñimiento; evitar sin deficiencia demostrada.",
+        "en": "Separate from calcium, antacids, tea and coffee; nausea and constipation are possible; avoid without established need.",
+        "it": "Separare da calcio, antiacidi, tè e caffè; possibili nausea e stitichezza; evitare senza necessità accertata."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "magnesium",
@@ -129,24 +174,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Insuficiencia renal; separar de bisfosfonatos y antibióticos quinolonas/tetraciclinas.",
-      "safety_it": "Necessaria revisione clinica: Insuficiencia renal; separar de bisfosfonatos y antibióticos quinolonas/tetraciclinas.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. May cause diarrhea; separate by several hours from certain antibiotics and bisphosphonates.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Può causare diarrea; distanziare di diverse ore da alcuni antibiotici e bisfosfonati.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Puede causar diarrea; separar varias horas de ciertos antibióticos y bisfosfonatos.",
+        "en": "May cause diarrhea; separate by several hours from certain antibiotics and bisphosphonates.",
+        "it": "Può causare diarrea; distanziare di diverse ore da alcuni antibiotici e bisfosfonati."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "calcium",
@@ -165,24 +225,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Litiasis, hipercalcemia; separar de levotiroxina; evaluar ingesta total.",
-      "safety_it": "Necessaria revisione clinica: Litiasis, hipercalcemia; separar de levotiroxina; evaluar ingesta total.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Calcium carbonate is best taken with food; split elemental calcium doses above 500 mg.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Il carbonato di calcio va assunto con il cibo; suddividere dosi di calcio elementare superiori a 500 mg.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "El carbonato se absorbe mejor con comidas; dividir dosis de calcio elemental mayores a 500 mg.",
+        "en": "Calcium carbonate is best taken with food; split elemental calcium doses above 500 mg.",
+        "it": "Il carbonato di calcio va assunto con il cibo; suddividere dosi di calcio elementare superiori a 500 mg."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "zinc",
@@ -201,24 +276,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Exceso sostenido causa déficit de cobre; interacción con quinolonas y tetraciclinas.",
-      "safety_it": "Necessaria revisione clinica: Exceso sostenido causa déficit de cobre; interacción con quinolonas y tetraciclinas.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Take with food if nausea occurs; separate from chelating antibiotics.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Assumere con cibo in caso di nausea; distanziare dagli antibiotici che formano chelati.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Tomar con comida si provoca náuseas; separar de antibióticos que forman quelatos.",
+        "en": "Take with food if nausea occurs; separate from chelating antibiotics.",
+        "it": "Assumere con cibo in caso di nausea; distanziare dagli antibiotici che formano chelati."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "folate",
@@ -237,24 +327,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: El ácido fólico puede enmascarar manifestaciones hematológicas de déficit de B12; planificación de embarazo requiere pauta específica.",
-      "safety_it": "Necessaria revisione clinica: El ácido fólico puede enmascarar manifestaciones hematológicas de déficit de B12; planificación de embarazo requiere pauta específica.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. For pregnancy planning, folic acid 400 mcg/day is commonly advised before conception; high-risk cases require clinical guidance.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Nella pianificazione della gravidanza si consigliano spesso 400 mcg/die di acido folico prima del concepimento; i casi ad alto rischio richiedono indicazione clinica.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "En planificación de embarazo suele indicarse ácido fólico 400 mcg/día antes de concebir; situaciones de alto riesgo requieren pauta clínica.",
+        "en": "For pregnancy planning, folic acid 400 mcg/day is commonly advised before conception; high-risk cases require clinical guidance.",
+        "it": "Nella pianificazione della gravidanza si consigliano spesso 400 mcg/die di acido folico prima del concepimento; i casi ad alto rischio richiedono indicazione clinica."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "potassium",
@@ -273,24 +378,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Riesgo de hiperpotasemia en enfermedad renal, IECA, ARA-II y espironolactona; no automatizar dosis.",
-      "safety_it": "Necessaria revisione clinica: Riesgo de hiperpotasemia en enfermedad renal, IECA, ARA-II y espironolactona; no automatizar dosis.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not recommend potassium supplements without checking kidney function and medication; excess can cause arrhythmias.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non raccomandare integratori di potassio senza valutare funzione renale e farmaci; l'eccesso può causare aritmie.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "No recomendar suplementos de potasio sin revisar función renal y medicación; el exceso puede causar arritmias.",
+        "en": "Do not recommend potassium supplements without checking kidney function and medication; excess can cause arrhythmias.",
+        "it": "Non raccomandare integratori di potassio senza valutare funzione renale e farmaci; l'eccesso può causare aritmie."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "vitamin_b6",
@@ -309,24 +429,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Neuropatía sensitiva por exceso crónico; adoptar criterio conservador y revisar múltiples productos.",
-      "safety_it": "Necessaria revisione clinica: Neuropatía sensitiva por exceso crónico; adoptar criterio conservador y revisar múltiples productos.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Avoid chronic megadoses; tingling or sensory loss warrants stopping and seeking care.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Evitare megadosi croniche; formicolii o perdita di sensibilità richiedono sospensione e valutazione.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Evitar megadosis crónicas; hormigueos o pérdida de sensibilidad obligan a suspender y consultar.",
+        "en": "Avoid chronic megadoses; tingling or sensory loss warrants stopping and seeking care.",
+        "it": "Evitare megadosi croniche; formicolii o perdita di sensibilità richiedono sospensione e valutazione."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "iodine",
@@ -345,24 +480,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Enfermedad tiroidea, amiodarona y exceso de algas; embarazo requiere valoración específica.",
-      "safety_it": "Necessaria revisione clinica: Enfermedad tiroidea, amiodarona y exceso de algas; embarazo requiere valoración específica.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Avoid seaweed supplements with variable iodine content; seek advice with thyroid disease.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Evitare integratori di alghe con contenuto variabile di iodio; consultare in caso di malattie tiroidee.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "No usar suplementos de algas con contenido variable; consultar ante enfermedad tiroidea.",
+        "en": "Avoid seaweed supplements with variable iodine content; seek advice with thyroid disease.",
+        "it": "Evitare integratori di alghe con contenuto variabile di iodio; consultare in caso di malattie tiroidee."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "selenium",
@@ -381,24 +531,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Selenosis: caída de cabello, uñas frágiles y síntomas gastrointestinales; no usar rutinariamente para tiroides.",
-      "safety_it": "Necessaria revisione clinica: Selenosis: caída de cabello, uñas frágiles y síntomas gastrointestinales; no usar rutinariamente para tiroides.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not stack selenium-containing supplements; long-term excess can cause selenosis.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non combinare più integratori contenenti selenio; l'eccesso cronico può causare selenosi.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "No combinar varios suplementos con selenio; el exceso prolongado puede causar selenosis.",
+        "en": "Do not stack selenium-containing supplements; long-term excess can cause selenosis.",
+        "it": "Non combinare più integratori contenenti selenio; l'eccesso cronico può causare selenosi."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "vitamin_c",
@@ -417,24 +582,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Dosis elevadas causan diarrea; precaución en sobrecarga de hierro y litiasis recurrente.",
-      "safety_it": "Necessaria revisione clinica: Dosis elevadas causan diarrea; precaución en sobrecarga de hierro y litiasis recurrente.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. May be taken with food if it irritates the stomach; high doses do not reliably prevent colds.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Può essere assunta con il cibo se irrita lo stomaco; dosi elevate non prevengono in modo affidabile il raffreddore.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Puede tomarse con comida si irrita el estómago; dosis altas no previenen de forma fiable resfríos.",
+        "en": "May be taken with food if it irritates the stomach; high doses do not reliably prevent colds.",
+        "it": "Può essere assunta con il cibo se irrita lo stomaco; dosi elevate non prevengono in modo affidabile il raffreddore."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "vitamin_a",
@@ -453,24 +633,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Retinol preformado en exceso es teratogénico; embarazo y retinoides requieren bloqueo de recomendación.",
-      "safety_it": "Necessaria revisione clinica: Retinol preformado en exceso es teratogénico; embarazo y retinoides requieren bloqueo de recomendación.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Avoid high-dose preformed retinol, especially during pregnancy; beta-carotene is not interchangeable with retinol.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Evitare alte dosi di retinolo preformato, soprattutto in gravidanza; il beta-carotene non è intercambiabile con il retinolo.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Evitar retinol preformado en dosis altas, especialmente durante embarazo; no equiparar beta-caroteno con retinol.",
+        "en": "Avoid high-dose preformed retinol, especially during pregnancy; beta-carotene is not interchangeable with retinol.",
+        "it": "Evitare alte dosi di retinolo preformato, soprattutto in gravidanza; il beta-carotene non è intercambiabile con il retinolo."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "vitamin_e",
@@ -489,24 +684,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Dosis altas pueden aumentar riesgo hemorrágico; cautela con anticoagulantes.",
-      "safety_it": "Necessaria revisione clinica: Dosis altas pueden aumentar riesgo hemorrágico; cautela con anticoagulantes.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Avoid high doses with anticoagulants without supervision; not indicated for cardiovascular prevention.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Evitare dosi elevate con anticoagulanti senza supervisione; non indicata per prevenzione cardiovascolare.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Evitar dosis altas con anticoagulantes sin supervisión; no indicar para prevención cardiovascular.",
+        "en": "Avoid high doses with anticoagulants without supervision; not indicated for cardiovascular prevention.",
+        "it": "Evitare dosi elevate con anticoagulanti senza supervisione; non indicata per prevenzione cardiovascolare."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "vitamin_k",
@@ -525,24 +735,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Con warfarina mantener ingesta estable; no modificar sin seguimiento de INR.",
-      "safety_it": "Necessaria revisione clinica: Con warfarina mantener ingesta estable; no modificar sin seguimiento de INR.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. With warfarin, keep intake consistent and coordinate changes with INR monitoring.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Con warfarin mantenere un apporto costante e concordare modifiche con monitoraggio INR.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Con warfarina, mantener aporte estable y coordinar cambios con control de INR.",
+        "en": "With warfarin, keep intake consistent and coordinate changes with INR monitoring.",
+        "it": "Con warfarin mantenere un apporto costante e concordare modifiche con monitoraggio INR."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "thiamin",
@@ -561,24 +786,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Sospecha de déficit grave, alcoholismo o realimentación requiere evaluación y tratamiento clínico.",
-      "safety_it": "Necessaria revisione clinica: Sospecha de déficit grave, alcoholismo o realimentación requiere evaluación y tratamiento clínico.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Suspected severe deficiency or refeeding syndrome requires urgent clinical care.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Il sospetto di grave carenza o sindrome da rialimentazione richiede assistenza clinica urgente.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "Sospecha de déficit grave o síndrome de realimentación requiere atención clínica urgente.",
+        "en": "Suspected severe deficiency or refeeding syndrome requires urgent clinical care.",
+        "it": "Il sospetto di grave carenza o sindrome da rialimentazione richiede assistenza clinica urgente."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "riboflavin",
@@ -597,24 +837,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Dosis para prevención de migraña son distintas de ingesta nutricional y requieren evaluación individual.",
-      "safety_it": "Necessaria revisione clinica: Dosis para prevención de migraña son distintas de ingesta nutricional y requieren evaluación individual.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Bright yellow urine is common and usually harmless; migraine dosing requires a specific indication.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Urine giallo intenso sono comuni e generalmente innocue; le dosi per emicrania richiedono indicazione specifica.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "La orina amarilla intensa es frecuente y generalmente inocua; dosis para migraña requieren indicación específica.",
+        "en": "Bright yellow urine is common and usually harmless; migraine dosing requires a specific indication.",
+        "it": "Urine giallo intenso sono comuni e generalmente innocue; le dosi per emicrania richiedono indicazione specifica."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "niacin",
@@ -633,24 +888,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Dosis farmacológicas: hepatotoxicidad, alteraciones glucémicas y rubor; no indicar para lípidos automáticamente.",
-      "safety_it": "Necessaria revisione clinica: Dosis farmacológicas: hepatotoxicidad, alteraciones glucémicas y rubor; no indicar para lípidos automáticamente.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not use pharmacologic niacin doses for cholesterol without supervision; liver injury is possible.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non usare dosi farmacologiche di niacina per il colesterolo senza supervisione; possibile danno epatico.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "No usar niacina en dosis farmacológicas para colesterol sin supervisión; puede dañar hígado.",
+        "en": "Do not use pharmacologic niacin doses for cholesterol without supervision; liver injury is possible.",
+        "it": "Non usare dosi farmacologiche di niacina per il colesterolo senza supervisione; possibile danno epatico."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "copper",
@@ -669,24 +939,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: Enfermedad de Wilson y hepatopatía; exceso de zinc puede provocar deficiencia.",
-      "safety_it": "Necessaria revisione clinica: Enfermedad de Wilson y hepatopatía; exceso de zinc puede provocar deficiencia.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not supplement in Wilson disease; review prolonged zinc use.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non integrare in caso di malattia di Wilson; valutare l'uso prolungato di zinco.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "No suplementar ante enfermedad de Wilson; revisar uso prolongado de zinc.",
+        "en": "Do not supplement in Wilson disease; review prolonged zinc use.",
+        "it": "Non integrare in caso di malattia di Wilson; valutare l'uso prolungato di zinco."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     },
     {
       "ingredient_id": "chromium",
@@ -705,24 +990,39 @@
       "how_to_take_es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
       "how_to_take_en": "Set formulation, dose, schedule, food timing and interactions after individual and product review.",
       "how_to_take_it": "Definire formulazione, dose, frequenza, pasti e interazioni dopo valutazione individuale e del prodotto.",
-      "safety_en": "Clinical review required: No recomendar para control glucémico o pérdida de peso por evidencia inconsistente; precaución renal/hepática.",
-      "safety_it": "Necessaria revisione clinica: No recomendar para control glucémico o pérdida de peso por evidencia inconsistente; precaución renal/hepática.",
+      "safety_en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. Do not claim diabetes or weight-loss benefits; assess interactions with diabetes medication.",
+      "safety_it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Non attribuire benefici certi per diabete o dimagrimento; valutare interazioni con farmaci antidiabetici.",
       "source": {
         "publisher": "NIH Office of Dietary Supplements",
         "fact_sheet": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
         "verification": "reference URL supplied; claim-by-claim independent source check pending"
       },
       "argentina": {
-        "status": "not_verified",
-        "classification": "No inferir venta libre, farmacia o receta sin comprobar presentación, concentración y registro ANMAT.",
-        "source_required": true
+        "category": "dietary_supplement_or_medicine_depends_on_registered_product",
+        "dietary_supplement_rule": "A registered dietary supplement is a food, not a medicine; verify RNE/RNPA and label for each product.",
+        "medicine_rule": "If registered as a medicine, verify its specific prescription status with ANMAT.",
+        "verified_for_specific_brand": false,
+        "official_sources": [
+          "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+          "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat"
+        ]
       },
       "alternatives": {
-        "status": "not_verified",
-        "rule": "No sustituir ingredientes sin equivalencia por indicación respaldada."
+        "status": "requires_indication_specific_review",
+        "principle": "No ingredient-level equivalence asserted; formulation changes require indication, bioavailability, elemental dose and safety review."
       },
       "public_recommendation_allowed": false,
-      "review_status": "structured_scientific_draft_requires_clinical_and_regulatory_validation"
+      "review_status": "editorially_expanded_pending_individual_source_and_product_verification",
+      "practical_guidance": {
+        "es": "No afirmar que mejora diabetes o adelgazamiento; controlar interacciones con antidiabéticos.",
+        "en": "Do not claim diabetes or weight-loss benefits; assess interactions with diabetes medication.",
+        "it": "Non attribuire benefici certi per diabete o dimagrimento; valutare interazioni con farmaci antidiabetici."
+      },
+      "languages": {
+        "es": "content_prepared",
+        "en": "content_prepared",
+        "it": "content_prepared"
+      }
     }
   ]
 }
