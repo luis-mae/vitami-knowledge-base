@@ -1,0 +1,124 @@
+{
+  "version": "2026-11-18",
+  "status": "source_passage_checked_not_professionally_approved",
+  "method": "Direct review of NIH ODS Health Professional fact sheets. Source passages checked for narrow claims only; no complete ingredient validation or product approval.",
+  "reviews": [
+    {
+      "ingredient_id": "vitamin_d",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "claims": [
+        {
+          "topic": "physiological_role",
+          "finding_es": "La vitamina D favorece la absorción intestinal de calcio y la mineralización ósea.",
+          "finding_en": "Vitamin D supports intestinal calcium absorption and bone mineralization.",
+          "finding_it": "La vitamina D favorisce l'assorbimento intestinale del calcio e la mineralizzazione ossea.",
+          "source_section": "Introduction",
+          "status": "source_passage_checked"
+        },
+        {
+          "topic": "assessment",
+          "finding_es": "La 25(OH)D sérica es el principal indicador del estado de vitamina D; la exposición solar baja no diagnostica deficiencia.",
+          "finding_en": "Serum 25(OH)D is the main status marker; low sun exposure alone does not diagnose deficiency.",
+          "finding_it": "La 25(OH)D sierica è il principale indicatore; poca esposizione solare da sola non diagnostica una carenza.",
+          "source_section": "Assessing vitamin D status",
+          "status": "source_passage_checked"
+        },
+        {
+          "topic": "adult_intake",
+          "finding_es": "Las ingestas de referencia varían según la edad; no son dosis terapéuticas.",
+          "finding_en": "Reference intakes vary by age and are not treatment doses.",
+          "finding_it": "Le assunzioni di riferimento variano con l'età e non sono dosi terapeutiche.",
+          "source_section": "Recommended Intakes",
+          "status": "source_passage_checked"
+        }
+      ],
+      "unresolved": [
+        "Complete medication interaction review",
+        "Age- and condition-specific upper limits",
+        "Product-specific Argentina registration",
+        "Clinical signoff"
+      ]
+    },
+    {
+      "ingredient_id": "vitamin_b12",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "claims": [
+        {
+          "topic": "physiological_role",
+          "finding_es": "La vitamina B12 participa en la función neurológica, formación de glóbulos rojos y síntesis de ADN.",
+          "finding_en": "Vitamin B12 supports neurological function, red blood cell formation and DNA synthesis.",
+          "finding_it": "La vitamina B12 contribuisce alla funzione neurologica, alla formazione dei globuli rossi e alla sintesi del DNA.",
+          "source_section": "Introduction",
+          "status": "source_passage_checked"
+        },
+        {
+          "topic": "adult_intake",
+          "finding_es": "La ingesta de referencia para adultos de 19 años o más es 2,4 mcg/día; embarazo y lactancia tienen valores diferentes.",
+          "finding_en": "The reference intake for adults aged 19+ is 2.4 mcg/day; pregnancy and lactation differ.",
+          "finding_it": "L'assunzione di riferimento per adulti dai 19 anni è 2,4 mcg/die; gravidanza e allattamento differiscono.",
+          "source_section": "Recommended Intakes Table 1",
+          "status": "source_passage_checked"
+        },
+        {
+          "topic": "dietary_source",
+          "finding_es": "Los alimentos vegetales no contienen naturalmente B12; algunos alimentos están fortificados.",
+          "finding_en": "Plant foods do not naturally contain B12; some foods are fortified.",
+          "finding_it": "Gli alimenti vegetali non contengono naturalmente B12; alcuni sono fortificati.",
+          "source_section": "Sources of Vitamin B12",
+          "status": "source_passage_checked"
+        }
+      ],
+      "unresolved": [
+        "Specific supplementation dose by indication",
+        "Full medication interaction review",
+        "Product-specific Argentina registration",
+        "Clinical signoff"
+      ]
+    },
+    {
+      "ingredient_id": "iron",
+      "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "claims": [
+        {
+          "topic": "physiological_role",
+          "finding_es": "El hierro forma parte de la hemoglobina y participa en el transporte de oxígeno.",
+          "finding_en": "Iron is part of hemoglobin and supports oxygen transport.",
+          "finding_it": "Il ferro fa parte dell'emoglobina e contribuisce al trasporto dell'ossigeno.",
+          "source_section": "Introduction",
+          "status": "source_passage_checked"
+        },
+        {
+          "topic": "assessment",
+          "finding_es": "La ferritina sérica ayuda a evaluar reservas de hierro, pero puede aumentar con inflamación; no diagnosticar deficiencia solo por síntomas.",
+          "finding_en": "Serum ferritin helps assess iron stores but may rise with inflammation; symptoms alone do not establish deficiency.",
+          "finding_it": "La ferritina sierica aiuta a valutare le riserve ma può aumentare con l'infiammazione; i soli sintomi non diagnosticano carenza.",
+          "source_section": "Assessing iron status",
+          "status": "source_passage_checked"
+        },
+        {
+          "topic": "adult_intake",
+          "finding_es": "Las necesidades de hierro varían por edad, sexo, embarazo y patrón alimentario; no usar la ingesta de referencia como dosis de tratamiento.",
+          "finding_en": "Iron needs vary by age, sex, pregnancy and dietary pattern; reference intake is not a treatment dose.",
+          "finding_it": "Il fabbisogno di ferro varia per età, sesso, gravidanza e dieta; l'assunzione di riferimento non è una dose terapeutica.",
+          "source_section": "Recommended Intakes",
+          "status": "source_passage_checked"
+        }
+      ],
+      "unresolved": [
+        "Elemental dose and salt-specific interactions",
+        "Overload and special populations",
+        "Product-specific Argentina registration",
+        "Clinical signoff"
+      ]
+    }
+  ],
+  "regulatory_control": {
+    "country": "AR",
+    "rule": "No sale channel or prescription classification inferred from ingredient. Verify registered product and formulation.",
+    "products_verified": 0
+  },
+  "integration_control": {
+    "clinical_recommendation_activation": false,
+    "source_passage_checked_is_not_documentary_verification": true
+  }
+}
