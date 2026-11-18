@@ -36,7 +36,36 @@
         "check Argentina RNE/RNPA per actual product"
       ],
       "regulatory_status": "pending_specific_product",
-      "recommendation_enabled": false
+      "recommendation_enabled": false,
+      "safety_evidence_review": {
+        "source": {
+          "publisher": "NCCIH",
+          "url": "https://www.nccih.nih.gov/health/licorice-root",
+          "sections": [
+            "What Do We Know About Safety?"
+          ]
+        },
+        "claims": {
+          "es": "El regaliz con glicirricina puede producir efectos cardiovasculares graves, especialmente con consumo elevado o prolongado, hipertensión, enfermedad cardíaca o renal. Se han informado interacciones con corticosteroides. El uso oral de grandes cantidades durante el embarazo es inseguro; el regaliz desglicirrizinado es una formulación distinta.",
+          "en": "Glycyrrhizin-containing licorice can cause serious cardiovascular effects, particularly with high or prolonged exposure, hypertension, heart or kidney disease. Corticosteroid interactions have been reported. High oral exposure during pregnancy is unsafe; deglycyrrhizinated licorice is a distinct formulation.",
+          "it": "La liquirizia contenente glicirrizina può causare gravi effetti cardiovascolari, soprattutto con esposizione elevata o prolungata, ipertensione o malattie cardiache o renali. Sono state segnalate interazioni con corticosteroidi. Un'elevata assunzione orale in gravidanza non è sicura; la liquirizia deglicirrizinata è una formulazione distinta."
+        },
+        "screening_triggers": [
+          "hypertension",
+          "heart disease",
+          "kidney disease",
+          "pregnancy",
+          "corticosteroids",
+          "glycyrrhizin content"
+        ],
+        "dose_interpretation": "No safe general supplemental dose inferred.",
+        "evidence_quality": "NCCIH_safety_summary_not_indication_grade",
+        "source_passage_status": "previously_recorded_checked_claims_requiring_full_independent_reassessment",
+        "full_documentary_status": "incomplete",
+        "professional_approval": false
+      },
+      "public_recommendation_allowed": false,
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "bromelain",
