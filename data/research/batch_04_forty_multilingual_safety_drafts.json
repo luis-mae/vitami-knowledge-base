@@ -1,0 +1,1248 @@
+{
+  "version": "2026-11-18",
+  "count": 40,
+  "kind": "multilingual_safety_research_drafts",
+  "disclaimer": "Editorial research drafts, not clinically reviewed, not authorized for automated recommendations. No product availability or regulatory category inferred from ingredient alone.",
+  "records": [
+    {
+      "ingredient_id": "inulin",
+      "names": {
+        "es": "Inulina",
+        "en": "Inulin",
+        "it": "Inulina"
+      },
+      "safety_focus": {
+        "es": "Puede causar gases y distensión; ajustar según tolerancia.",
+        "en": "May cause gas and bloating; adjust to tolerance.",
+        "it": "Può causare gas e gonfiore; adattare alla tolleranza."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "probiotics",
+      "names": {
+        "es": "Probióticos",
+        "en": "Probiotics",
+        "it": "Probiotici"
+      },
+      "safety_focus": {
+        "es": "La evidencia depende de cepa y dosis; precaución en inmunosupresión grave.",
+        "en": "Evidence depends on strain and dose; caution in severe immunosuppression.",
+        "it": "Le prove dipendono da ceppo e dose; cautela nell'immunosoppressione grave."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "prebiotics",
+      "names": {
+        "es": "Prebióticos",
+        "en": "Prebiotics",
+        "it": "Prebiotici"
+      },
+      "safety_focus": {
+        "es": "El efecto depende del sustrato; vigilar intolerancia digestiva.",
+        "en": "Effects depend on substrate; monitor digestive intolerance.",
+        "it": "Gli effetti dipendono dal substrato; monitorare l'intolleranza digestiva."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "collagen",
+      "names": {
+        "es": "Colágeno",
+        "en": "Collagen",
+        "it": "Collagene"
+      },
+      "safety_focus": {
+        "es": "La evidencia es específica por resultado; revisar alergias a origen marino o bovino.",
+        "en": "Evidence is outcome-specific; review marine or bovine allergies.",
+        "it": "Le prove dipendono dall'esito; valutare allergie marine o bovine."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "choline",
+      "names": {
+        "es": "Colina",
+        "en": "Choline",
+        "it": "Colina"
+      },
+      "safety_focus": {
+        "es": "Evaluar ingesta y embarazo; dosis excesivas pueden causar hipotensión y olor corporal.",
+        "en": "Assess intake and pregnancy; excessive doses can cause hypotension and body odor.",
+        "it": "Valutare apporto e gravidanza; dosi eccessive possono causare ipotensione e odore corporeo."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "coq10",
+      "names": {
+        "es": "Coenzima Q10",
+        "en": "Coenzyme Q10",
+        "it": "Coenzima Q10"
+      },
+      "safety_focus": {
+        "es": "No atribuir beneficios energéticos generales; revisar interacción con warfarina.",
+        "en": "Do not assume general energy benefits; review warfarin interaction.",
+        "it": "Non presumere benefici energetici generali; valutare interazione con warfarin."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "melatonin",
+      "names": {
+        "es": "Melatonina",
+        "en": "Melatonin",
+        "it": "Melatonina"
+      },
+      "safety_focus": {
+        "es": "Distinguir trastornos circadianos de insomnio crónico; revisar somnolencia y embarazo.",
+        "en": "Distinguish circadian conditions from chronic insomnia; review drowsiness and pregnancy.",
+        "it": "Distinguere disturbi circadiani da insonnia cronica; valutare sonnolenza e gravidanza."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "curcumin",
+      "names": {
+        "es": "Curcumina",
+        "en": "Curcumin",
+        "it": "Curcumina"
+      },
+      "safety_focus": {
+        "es": "Extractos concentrados pueden asociarse con lesión hepática; revisar interacciones.",
+        "en": "Concentrated extracts may be associated with liver injury; review interactions.",
+        "it": "Estratti concentrati possono associarsi a danno epatico; valutare interazioni."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "ginger",
+      "names": {
+        "es": "Jengibre",
+        "en": "Ginger",
+        "it": "Zenzero"
+      },
+      "safety_focus": {
+        "es": "Distinguir uso alimentario de extractos; revisar anticoagulantes y embarazo.",
+        "en": "Distinguish food use from extracts; review anticoagulants and pregnancy.",
+        "it": "Distinguere uso alimentare dagli estratti; valutare anticoagulanti e gravidanza."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "ashwagandha",
+      "names": {
+        "es": "Ashwagandha",
+        "en": "Ashwagandha",
+        "it": "Ashwagandha"
+      },
+      "safety_focus": {
+        "es": "Precaución por reportes de lesión hepática, tiroides y embarazo.",
+        "en": "Caution due to liver injury reports, thyroid effects and pregnancy.",
+        "it": "Cautela per segnalazioni di danno epatico, effetti tiroidei e gravidanza."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "green_tea_extract",
+      "names": {
+        "es": "Extracto de té verde",
+        "en": "Green tea extract",
+        "it": "Estratto di tè verde"
+      },
+      "safety_focus": {
+        "es": "Los extractos concentrados pueden implicar riesgo hepático; no equiparar con infusión.",
+        "en": "Concentrated extracts may pose liver risk; not equivalent to tea infusion.",
+        "it": "Gli estratti concentrati possono comportare rischio epatico; non equivalgono all'infuso."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "ginseng",
+      "names": {
+        "es": "Ginseng",
+        "en": "Ginseng",
+        "it": "Ginseng"
+      },
+      "safety_focus": {
+        "es": "Revisar hipoglucemia, anticoagulantes e insomnio; distinguir especies.",
+        "en": "Review hypoglycemia, anticoagulants and insomnia; distinguish species.",
+        "it": "Valutare ipoglicemia, anticoagulanti e insonnia; distinguere le specie."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "garlic_extract",
+      "names": {
+        "es": "Extracto de ajo",
+        "en": "Garlic extract",
+        "it": "Estratto di aglio"
+      },
+      "safety_focus": {
+        "es": "Revisar riesgo hemorrágico e interacciones antes de cirugía.",
+        "en": "Review bleeding risk and interactions before surgery.",
+        "it": "Valutare rischio emorragico e interazioni prima di interventi."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "turmeric",
+      "names": {
+        "es": "Cúrcuma",
+        "en": "Turmeric",
+        "it": "Curcuma"
+      },
+      "safety_focus": {
+        "es": "No equiparar especia culinaria con extractos concentrados de curcuminoides.",
+        "en": "Do not equate culinary spice with concentrated curcuminoid extracts.",
+        "it": "Non equiparare spezia culinaria a estratti concentrati di curcuminoidi."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "echinacea",
+      "names": {
+        "es": "Equinácea",
+        "en": "Echinacea",
+        "it": "Echinacea"
+      },
+      "safety_focus": {
+        "es": "La evidencia para resfriado es heterogénea; revisar alergias a asteráceas.",
+        "en": "Cold evidence is heterogeneous; review Asteraceae allergies.",
+        "it": "Le prove sul raffreddore sono eterogenee; valutare allergie alle Asteraceae."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "st_johns_wort",
+      "names": {
+        "es": "Hierba de San Juan",
+        "en": "St John's wort",
+        "it": "Iperico"
+      },
+      "safety_focus": {
+        "es": "Interacciones graves por inducción enzimática, incluidos anticonceptivos y antidepresivos.",
+        "en": "Major enzyme-induction interactions, including contraceptives and antidepressants.",
+        "it": "Interazioni importanti per induzione enzimatica, inclusi contraccettivi e antidepressivi."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "berberine",
+      "names": {
+        "es": "Berberina",
+        "en": "Berberine",
+        "it": "Berberina"
+      },
+      "safety_focus": {
+        "es": "Revisar interacciones, embarazo y variabilidad de preparados; no sustituir tratamientos.",
+        "en": "Review interactions, pregnancy and preparation variability; do not replace treatment.",
+        "it": "Valutare interazioni, gravidanza e variabilità dei preparati; non sostituire terapie."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "alpha_lipoic_acid",
+      "names": {
+        "es": "Ácido alfa lipoico",
+        "en": "Alpha-lipoic acid",
+        "it": "Acido alfa-lipoico"
+      },
+      "safety_focus": {
+        "es": "Vigilar hipoglucemia con fármacos antidiabéticos; evidencia según indicación.",
+        "en": "Monitor hypoglycemia with diabetes drugs; evidence varies by indication.",
+        "it": "Monitorare ipoglicemia con antidiabetici; prove variabili per indicazione."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "astaxanthin",
+      "names": {
+        "es": "Astaxantina",
+        "en": "Astaxanthin",
+        "it": "Astaxantina"
+      },
+      "safety_focus": {
+        "es": "No extrapolar efectos antioxidantes de laboratorio a resultados clínicos.",
+        "en": "Do not extrapolate laboratory antioxidant effects to clinical outcomes.",
+        "it": "Non estrapolare effetti antiossidanti di laboratorio a esiti clinici."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "beta_carotene",
+      "names": {
+        "es": "Betacaroteno",
+        "en": "Beta-carotene",
+        "it": "Beta-carotene"
+      },
+      "safety_focus": {
+        "es": "Evitar suplementación de altas dosis en fumadores por riesgos demostrados.",
+        "en": "Avoid high-dose supplementation in smokers due to established risks.",
+        "it": "Evitare alte dosi nei fumatori per rischi documentati."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "inositol",
+      "names": {
+        "es": "Inositol",
+        "en": "Inositol",
+        "it": "Inositolo"
+      },
+      "safety_focus": {
+        "es": "En SOP, evidencia y formulaciones son heterogéneas; no sustituir atención clínica.",
+        "en": "In PCOS, evidence and formulations vary; do not replace clinical care.",
+        "it": "Nella PCOS, prove e formulazioni variano; non sostituire l'assistenza clinica."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "lycopene",
+      "names": {
+        "es": "Licopeno",
+        "en": "Lycopene",
+        "it": "Licopene"
+      },
+      "safety_focus": {
+        "es": "La asociación dietaria no demuestra beneficio de cápsulas para prevenir enfermedades.",
+        "en": "Dietary association does not establish capsule benefit for disease prevention.",
+        "it": "L'associazione alimentare non dimostra benefici delle capsule nella prevenzione."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "mct_oil",
+      "names": {
+        "es": "Aceite MCT",
+        "en": "MCT oil",
+        "it": "Olio MCT"
+      },
+      "safety_focus": {
+        "es": "Puede causar diarrea y molestias gastrointestinales; no prometer adelgazamiento.",
+        "en": "May cause diarrhea and gastrointestinal symptoms; avoid weight-loss claims.",
+        "it": "Può causare diarrea e disturbi gastrointestinali; evitare promesse dimagranti."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "nac",
+      "names": {
+        "es": "N-acetilcisteína",
+        "en": "N-acetylcysteine",
+        "it": "N-acetilcisteina"
+      },
+      "safety_focus": {
+        "es": "Distinguir usos farmacológicos de suplementación; revisar interacciones y regulación.",
+        "en": "Distinguish medical uses from supplementation; review interactions and regulation.",
+        "it": "Distinguere usi farmacologici dall'integrazione; valutare interazioni e normativa."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "spirulina",
+      "names": {
+        "es": "Espirulina",
+        "en": "Spirulina",
+        "it": "Spirulina"
+      },
+      "safety_focus": {
+        "es": "Controlar calidad y contaminación por microcistinas y metales; no asumir equivalencia a B12.",
+        "en": "Check quality and microcystin/heavy-metal contamination; not a reliable B12 substitute.",
+        "it": "Controllare qualità e contaminazione da microcistine/metalli; non sostituisce B12."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "glucosamine",
+      "names": {
+        "es": "Glucosamina",
+        "en": "Glucosamine",
+        "it": "Glucosamina"
+      },
+      "safety_focus": {
+        "es": "Evidencia variable en artrosis; revisar warfarina y origen de mariscos.",
+        "en": "Variable osteoarthritis evidence; review warfarin and shellfish source.",
+        "it": "Prove variabili nell'artrosi; valutare warfarin e origine da crostacei."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "chondroitin",
+      "names": {
+        "es": "Condroitina",
+        "en": "Chondroitin",
+        "it": "Condroitina"
+      },
+      "safety_focus": {
+        "es": "Evidencia variable por formulación; revisar anticoagulantes.",
+        "en": "Evidence varies by formulation; review anticoagulants.",
+        "it": "Prove variabili per formulazione; valutare anticoagulanti."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "msm",
+      "names": {
+        "es": "Metilsulfonilmetano",
+        "en": "Methylsulfonylmethane",
+        "it": "Metilsulfonilmetano"
+      },
+      "safety_focus": {
+        "es": "Datos clínicos limitados para dolor articular y seguridad prolongada.",
+        "en": "Limited clinical data for joint pain and long-term safety.",
+        "it": "Dati clinici limitati per dolore articolare e sicurezza a lungo termine."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "l_theanine",
+      "names": {
+        "es": "L-teanina",
+        "en": "L-theanine",
+        "it": "L-teanina"
+      },
+      "safety_focus": {
+        "es": "Evidencia limitada para sueño y ansiedad; revisar sedantes.",
+        "en": "Limited evidence for sleep and anxiety; review sedatives.",
+        "it": "Prove limitate per sonno e ansia; valutare sedativi."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "quercetin",
+      "names": {
+        "es": "Quercetina",
+        "en": "Quercetin",
+        "it": "Quercetina"
+      },
+      "safety_focus": {
+        "es": "No asumir prevención de infecciones; revisar interacciones y dosis altas.",
+        "en": "Do not assume infection prevention; review interactions and high doses.",
+        "it": "Non presumere prevenzione delle infezioni; valutare interazioni e alte dosi."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "resveratrol",
+      "names": {
+        "es": "Resveratrol",
+        "en": "Resveratrol",
+        "it": "Resveratrolo"
+      },
+      "safety_focus": {
+        "es": "Beneficios clínicos no establecidos para longevidad; revisar anticoagulantes.",
+        "en": "Clinical longevity benefits unproven; review anticoagulants.",
+        "it": "Benefici clinici per longevità non dimostrati; valutare anticoagulanti."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "elderberry",
+      "names": {
+        "es": "Saúco",
+        "en": "Elderberry",
+        "it": "Sambuco"
+      },
+      "safety_focus": {
+        "es": "Evidencia limitada en infecciones; evitar preparados caseros de partes crudas tóxicas.",
+        "en": "Limited infection evidence; avoid homemade preparations from toxic raw plant parts.",
+        "it": "Prove limitate nelle infezioni; evitare preparati da parti crude tossiche."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "cranberry",
+      "names": {
+        "es": "Arándano rojo",
+        "en": "Cranberry",
+        "it": "Mirtillo rosso americano"
+      },
+      "safety_focus": {
+        "es": "Prevención de ITU en ciertos grupos no equivale a tratamiento de infección activa.",
+        "en": "UTI prevention in some groups does not treat an active infection.",
+        "it": "La prevenzione delle IVU in alcuni gruppi non tratta infezioni attive."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "d_mannose",
+      "names": {
+        "es": "D-manosa",
+        "en": "D-mannose",
+        "it": "D-mannosio"
+      },
+      "safety_focus": {
+        "es": "Evidencia reciente no apoya uso rutinario para prevenir ITU recurrente.",
+        "en": "Recent evidence does not support routine recurrent-UTI prevention.",
+        "it": "Prove recenti non supportano la prevenzione routinaria delle IVU ricorrenti."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "saw_palmetto",
+      "names": {
+        "es": "Serenoa repens",
+        "en": "Saw palmetto",
+        "it": "Serenoa repens"
+      },
+      "safety_focus": {
+        "es": "Beneficio urinario inconsistente; evaluar síntomas prostáticos con profesional.",
+        "en": "Inconsistent urinary benefit; assess prostate symptoms professionally.",
+        "it": "Benefici urinari incostanti; valutare sintomi prostatici con professionista."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "valerian",
+      "names": {
+        "es": "Valeriana",
+        "en": "Valerian",
+        "it": "Valeriana"
+      },
+      "safety_focus": {
+        "es": "Evidencia insuficiente para insomnio; precaución con sedantes y conducción.",
+        "en": "Insufficient insomnia evidence; caution with sedatives and driving.",
+        "it": "Prove insufficienti per insonnia; cautela con sedativi e guida."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "rhodiola",
+      "names": {
+        "es": "Rodiola",
+        "en": "Rhodiola",
+        "it": "Rodiola"
+      },
+      "safety_focus": {
+        "es": "Estudios pequeños y heterogéneos; revisar interacciones y calidad del extracto.",
+        "en": "Small heterogeneous studies; review interactions and extract quality.",
+        "it": "Studi piccoli ed eterogenei; valutare interazioni e qualità dell'estratto."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "beetroot_nitrate",
+      "names": {
+        "es": "Nitratos de remolacha",
+        "en": "Beetroot nitrates",
+        "it": "Nitrati di barbabietola"
+      },
+      "safety_focus": {
+        "es": "Beneficios dependen de deporte y dosis; revisar hipotensión y enjuagues bucales.",
+        "en": "Benefits depend on sport and dose; review hypotension and mouthwash effects.",
+        "it": "Benefici dipendono da sport e dose; valutare ipotensione e collutori."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "electrolytes",
+      "names": {
+        "es": "Electrolitos",
+        "en": "Electrolytes",
+        "it": "Elettroliti"
+      },
+      "safety_focus": {
+        "es": "No indicar automáticamente en ejercicio corto; revisar sodio, potasio y enfermedad renal.",
+        "en": "Not routinely needed for short exercise; review sodium, potassium and kidney disease.",
+        "it": "Non necessari di routine per esercizio breve; valutare sodio, potassio e reni."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    },
+    {
+      "ingredient_id": "multivitamin",
+      "names": {
+        "es": "Multivitamínico",
+        "en": "Multivitamin",
+        "it": "Multivitaminico"
+      },
+      "safety_focus": {
+        "es": "Revisar duplicaciones, retinol en embarazo y límites superiores de cada nutriente.",
+        "en": "Review duplication, pregnancy retinol and each nutrient's upper limit.",
+        "it": "Valutare duplicazioni, retinolo in gravidanza e limiti di ogni nutriente."
+      },
+      "editorial_status": "draft_not_verified",
+      "public_recommendation_allowed": false,
+      "dose": "not_established_pending_indication_specific_source_review",
+      "evidence": "requires_indication_specific_appraisal",
+      "argentina": {
+        "ingredient_level_sale_status": "not_determinable",
+        "product_specific_RNE_RNPA_ANMAT_verification_required": true
+      },
+      "review_checklist": [
+        "primary_source_passage",
+        "dose_population_duration",
+        "adverse_events",
+        "pregnancy_lactation",
+        "drug_interactions",
+        "clinical_indication",
+        "argentina_product_registration",
+        "professional_review"
+      ]
+    }
+  ]
+}
