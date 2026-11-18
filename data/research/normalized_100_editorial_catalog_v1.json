@@ -1,5 +1,5 @@
 {
-  "version": "2.9",
+  "version": "2.10",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -222,6 +222,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -389,6 +397,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -608,6 +624,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "HIGH",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -780,6 +804,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -954,6 +986,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -1128,6 +1168,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -1300,6 +1348,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -1512,6 +1568,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "HIGH",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -1684,6 +1748,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "HIGH",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -1859,6 +1931,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "HIGH",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -2031,6 +2111,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "HIGH",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -2203,6 +2291,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -2387,6 +2483,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "HIGH",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -2559,6 +2663,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -2725,6 +2837,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -2892,6 +3012,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -3057,6 +3185,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -3230,6 +3366,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "HIGH",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -3402,6 +3546,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -3569,6 +3721,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": true,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -3770,6 +3930,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": false,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -3994,6 +4162,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": false,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -4201,6 +4377,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": false,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -4408,6 +4592,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": false,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -4611,6 +4803,14 @@
             "regulatory_product_verification"
           ],
           "publication_blocked": true
+        },
+        "review_priority": "STANDARD",
+        "quality_control": {
+          "intake_present": true,
+          "upper_limit_field_present": true,
+          "source_pointer_present": false,
+          "automated_release_blocked": true,
+          "scientific_signoff_pending": true
         }
       }
     },
@@ -15982,6 +16182,7 @@
     "status": "25 REFERENCE ENTRIES + 25 PRELIMINARY SCREENING RULES; INDIVIDUAL SCIENTIFIC VERIFICATION PENDING",
     "source_claims_directly_reviewed_this_pass": 3,
     "clinical_screening_rule_drafts_added": 22,
-    "clinical_review_worklists_added": 25
+    "clinical_review_worklists_added": 25,
+    "quality_control_checks_added": 25
   }
 }
