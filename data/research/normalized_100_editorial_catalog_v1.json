@@ -1,5 +1,5 @@
 {
-  "version": "2.19",
+  "version": "2.20",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -1832,6 +1832,21 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Dietary adequacy and clinically diagnosed hypokalemia are separate indications.",
+        "screen": [
+          "kidney_disease",
+          "ace_inhibitors",
+          "arbs",
+          "spironolactone",
+          "documented_serum_potassium"
+        ],
+        "form": "Elemental potassium content and salt form must be explicit.",
+        "decision": "Do not recommend potassium supplements automatically with renal disease or potassium-retaining medication.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -8028,6 +8043,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Fiber supplementation may be relevant for constipation or cholesterol management; evaluate specific goal.",
+        "screen": [
+          "dysphagia",
+          "bowel_obstruction",
+          "fluid_intake",
+          "medication_absorption_timing"
+        ],
+        "form": "Specify grams of psyllium husk and adequate water; not interchangeable with total capsule mass.",
+        "decision": "Block if swallowing difficulty or suspected obstruction; assess medication timing.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/DietaryFiber-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -12110,6 +12139,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Do not extrapolate prescription acetylcysteine indications to routine OTC antioxidant claims.",
+        "screen": [
+          "asthma",
+          "nitroglycerin",
+          "pregnancy",
+          "active_disease_requiring_treatment"
+        ],
+        "form": "Specify oral vs inhaled vs intravenous formulation; indications differ.",
+        "decision": "Avoid substituting supplement for prescribed therapy.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -15781,6 +15824,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Distinguish betaine anhydrous (TMG) from betaine hydrochloride.",
+        "screen": [
+          "kidney_disease",
+          "gastrointestinal_ulcer",
+          "pregnancy",
+          "lipid_disorders"
+        ],
+        "form": "TMG and betaine HCl are not therapeutically interchangeable.",
+        "decision": "Require precise formulation and indication before any recommendation.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17774,22 +17831,23 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "blocks_1_to_4": {
-      "vitamin_a": "editorial case added",
-      "melatonin": "editorial case added",
-      "green_tea_extract": "editorial case added",
-      "l_tryptophan": "editorial case added"
-    },
+    "block_1": "potassium",
+    "block_2": "psyllium",
+    "block_3": "nac",
+    "block_4": "betaine",
     "block_5": {
-      "products_verified": 0,
-      "remaining_product_specific_checks": 100
+      "verified_actual_products": 0,
+      "regulatory_gate_active": true
     },
     "block_6": {
-      "total": 100,
-      "unique": 100,
-      "missing_trilingual_use": 0,
-      "auto_enabled": 0
+      "missing_id": 0,
+      "duplicate_ids": 0,
+      "missing_es_en_it_indications": 0,
+      "missing_es_en_it_safety": 0,
+      "missing_es_en_it_use": 0,
+      "automatic_recommendations_enabled": 0
     },
-    "scientific_signoffs_added": 0
+    "new_editorial_cases": 4,
+    "scientific_signoff_added": 0
   }
 }
