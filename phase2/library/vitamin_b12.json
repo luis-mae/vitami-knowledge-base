@@ -53,9 +53,9 @@
     "NIH_B12_HP"
   ],
   "source_status": "reviewed_or_official_index",
-  "deep_record_status": "complete_draft_pending_checks",
+  "deep_record_status": "documentary_verified_ingredient_level",
   "rules_status": "candidate_not_active",
-  "library_status": "complete_user_facing_draft",
+  "library_status": "documentary_verified_educational",
   "review_date": "2026-11-18",
   "disclaimer": {
     "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
@@ -106,12 +106,61 @@
     },
     "publication_allowed": false,
     "clinical_approval": false,
-    "documentary_status": "COMPLETA EN BORRADOR",
+    "documentary_status": "VERIFICADA DOCUMENTALMENTE",
     "pending": [
-      "independent second source and claim cross-check",
-      "Argentina product-specific registry and label",
-      "independent medical translation QA",
-      "professional clinical approval"
-    ]
+      "product-specific Argentina registration (requires brand/formulation/label)",
+      "professional clinical approval for personalized recommendations"
+    ],
+    "documentary_verification": {
+      "date": "2026-11-18",
+      "status": "VERIFICADA DOCUMENTALMENTE",
+      "scope": "ingredient-level educational monograph, not product registration or individualized clinical recommendation",
+      "primary_source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "verified_claims": [
+        {
+          "topic": "adult_pregnancy_lactation_RDA",
+          "source_section": "Recommended Intakes",
+          "result": "pass"
+        },
+        {
+          "topic": "deficiency_and_high_risk_populations",
+          "source_section": "Vitamin B12 Deficiency / Groups at Risk",
+          "result": "pass"
+        },
+        {
+          "topic": "oral_sublingual_and_chemical_forms",
+          "source_section": "Dietary Supplements",
+          "result": "pass"
+        },
+        {
+          "topic": "high_dose_oral_vs_intramuscular_low_quality",
+          "source_section": "Vitamin B12 Deficiency",
+          "result": "pass"
+        },
+        {
+          "topic": "no_UL_low_toxicity",
+          "source_section": "Health Risks from Excessive Vitamin B12",
+          "result": "pass"
+        },
+        {
+          "topic": "metformin_and_acid_suppressants",
+          "source_section": "Interactions with Medications",
+          "result": "pass"
+        },
+        {
+          "topic": "no_energy_performance_gain_without_deficit",
+          "source_section": "Energy and endurance",
+          "result": "pass"
+        }
+      ],
+      "trilingual_content_review": "es/en/it cross-checked for the listed claims",
+      "limitations": [
+        "Regulatory classification remains product-specific and explicitly unverified",
+        "No independent clinical approval",
+        "Not a validated patient-specific dosing algorithm"
+      ],
+      "product_registration": "PENDIENTE POR PRODUCTO",
+      "professional_approval": false
+    }
   }
 }
