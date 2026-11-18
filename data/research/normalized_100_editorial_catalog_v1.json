@@ -351,8 +351,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "Diferenciar mantenimiento nutricional de tratamiento de deficiencia, que depende de 25(OH)D, contexto clínico y riesgo de hipercalcemia.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Orlistat, statins, steroids and thiazide diuretics are listed by NIH ODS. UL refers to total vitamin D intake.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -654,8 +671,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "Distinguir prevención de baja ingesta (p. ej. dieta vegana) del tratamiento de deficiencia o malabsorción, que requiere pauta diferente.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Metformin and gastric acid inhibitors may reduce B12 status; no UL established.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -1001,8 +1035,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "No indicar hierro por síntomas inespecíficos. Requiere confirmar contexto de ferropenia y considerar laboratorios, pérdidas y causa. La RDA no es dosis terapéutica.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Levodopa and levothyroxine interactions; proton pump inhibitors can reduce absorption; do not mistake nutritional RDA for iron-deficiency treatment.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -1286,8 +1337,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Oral bisphosphonates, tetracyclines and quinolones: absorption interactions. Diuretics and PPIs affect status. UL 350 mg/day is for supplemental/pharmacologic magnesium only.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -1596,8 +1664,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Dolutegravir, levothyroxine, lithium and quinolones: drug interactions. UL age-dependent total intake.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -1905,8 +1990,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Quinolone and tetracycline absorption; penicillamine; thiazides affect zinc status. UL 40 mg/day for adults.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -2212,8 +2314,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "Distinguir RDA en mcg DFE de suplemento en mcg ácido fólico; para prevención periconcepcional aplicar recomendación específica, no convertir directamente 600 mcg DFE a dosis de comprimido.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Methotrexate interaction depends on cancer vs autoimmune indication; antiepileptics and sulfasalazine. UL applies to synthetic folate forms, not food folate.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -2560,8 +2679,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "No calcular dosis suplementaria automática a partir de AI. Ante enfermedad renal o fármacos que retienen potasio, abstenerse y solicitar evaluación.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "ACE inhibitors, ARBs and potassium-sparing diuretics can lead to hyperkalemia; AI is not a supplement dose.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -2869,8 +3005,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Cycloserine, antiepileptic medications, theophylline; chronic high doses may cause neuropathy. US FNB vs EFSA UL differ.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
@@ -3179,8 +3332,25 @@
           "forma y concentración del producto"
         ],
         "recommendation_rule_es": "Seleccionar RDA/AI por edad y etapa de vida, estimar aporte dietario, comprobar UL según ámbito (total o suplemento) y evitar automatización ante interacciones, enfermedad o dosis terapéuticas.",
-        "bibliographic_dossier_status": "REFERENCE_INTAKE_SAFETY_INTERACTIONS_ADMINISTRATION_DOCUMENTED_NOT_FINAL_CERTIFICATION",
-        "app_testing_out_of_scope": true
+        "bibliographic_dossier_status": "BIBLIOGRAPHIC_BASELINE_VALIDATED_WITH_SCOPE_LIMITS",
+        "app_testing_out_of_scope": true,
+        "bibliographic_source_check": {
+          "checked_on": "2026-11-18",
+          "source_url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+          "source_organization": "NIH Office of Dietary Supplements",
+          "source_sections_directly_opened": [
+            "Recommended Intakes",
+            "Health Risks from Excessive Intake",
+            "Interactions with Medications"
+          ],
+          "reference_intake_review": "CHECKED_AGAINST_SOURCE",
+          "medication_interactions_review": "CHECKED_AGAINST_SOURCE",
+          "excess_risk_review": "CHECKED_AGAINST_SOURCE",
+          "finding_en": "Antithyroid drugs and potassium iodide with ACE inhibitors or potassium-sparing diuretics; thyroid disease requires special caution.",
+          "bibliographic_scope_pass": true,
+          "full_claim_by_claim_review": false,
+          "app_testing": false
+        }
       }
     },
     {
