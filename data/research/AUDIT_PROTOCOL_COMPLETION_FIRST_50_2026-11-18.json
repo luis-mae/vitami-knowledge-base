@@ -1,0 +1,90 @@
+{
+  "title": "VITAMI — protocolo obligatorio de finalización y auditoría de las primeras 50 fichas",
+  "date": "2026-11-18",
+  "scope": "Primeros 50 ingredientes del catálogo canónico",
+  "current_status": "NOT_COMPLETE_NOT_RELEASE_READY",
+  "purpose": "Criterios binarios verificables y registro para futura auditoría crítica del propio proceso",
+  "steps": [
+    {
+      "id": "01_inventory",
+      "requirement": "Congelar lista e identificadores de las primeras 50 fichas, versiones y fuentes; registrar estado real y campos faltantes individualmente.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "02_evidence",
+      "requirement": "Contrastar CADA afirmación de eficacia, indicación, equivalencia y seguridad con fuente primaria o guía reconocida; guardar URL/DOI, sección, fecha, población, calidad y resultado. Marcar no verificado cuando corresponda.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "03_dose",
+      "requirement": "Completar dosis numéricas sustentadas por indicación, edad, sexo, embarazo/lactancia, condición, formulación, vía y duración, SOLO donde la evidencia lo permita. Distinguir ingesta total, déficit dietario, dosis de suplemento, dosis estudiada y límite máximo.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "04_personalization",
+      "requirement": "Definir algoritmo explícito y verificable para ajustar o abstenerse según datos disponibles; no inventar precisión ni extrapolar dosis de estudios a perfiles no estudiados.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "05_safety",
+      "requirement": "Verificar contraindicaciones, interacciones con medicamentos y otros suplementos, toxicidad, límites máximos, poblaciones vulnerables, señales de derivación y exclusiones automáticas.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "06_use",
+      "requirement": "Registrar cómo tomarlo, horario, comidas, frecuencia, seguimiento, duración y criterios de suspensión, con evidencia y excepciones según formulación.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "07_alternatives",
+      "requirement": "Documentar alternativas terapéuticas o comerciales con evidencia de equivalencia o indicar que no son equivalentes; situación de venta libre/farmacia/receta por país, comenzando por Argentina, con fuente y fecha.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "08_languages",
+      "requirement": "Verificar ES/EN/IT campo por campo, sin perder cifras, unidades, advertencias, incertidumbre ni restricciones.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "09_functional_tests",
+      "requirement": "Probar por ingrediente casos típicos, límites, falta de datos, interacciones, embarazo, enfermedad, dosis máximas y combinaciones; exigir salida segura, abstención y explicación trazable.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    },
+    {
+      "id": "10_independent_gate",
+      "requirement": "Auditoría independiente por ficha de contenido y pruebas, con evidencia reproducible, responsable, fecha y resultado. Aprobar SOLO si 01-09 pasan y no hay bloqueadores; si no, dejar OPEN_BLOCKER.",
+      "pass_rule": "Evidencia por ficha verificable y sin bloqueadores; si falta evidencia, FAIL o NOT_APPLICABLE_JUSTIFIED (solo cuando la ciencia no permite esa afirmación)"
+    }
+  ],
+  "per_fiche_required_log": [
+    "ingredient_id",
+    "catalog_commit_sha",
+    "audit_date",
+    "source_claim_matrix_with_URL_DOI_section_date",
+    "numeric_dosing_matrix_with_population_indication_formulation_units",
+    "total_intake_vs_supplement_distinction",
+    "safety_and_interactions",
+    "administration_and_followup",
+    "alternatives_and_regulatory_status",
+    "es_en_it_review",
+    "functional_test_cases_and_results",
+    "open_gaps",
+    "reviewer",
+    "status_PASS_FAIL_BLOCKED"
+  ],
+  "closure_rule": "50/50 fichas PASS en los diez controles; ninguna con riesgo crítico o afirmación clínica no sustentada; toda ausencia de evidencia explícita y con abstención funcional; jamás inferir aprobación desde campos presentes o auditorías anteriores.",
+  "nonnegotiable": "No declarar completas ni listas para recomendaciones personalizadas por simple presencia de texto, referencias o protocolos de dosis. No inventar dosificaciones. Registrar los fallos, contradicciones y cambios de criterio para reauditoría posterior.",
+  "related_audits": [
+    "AUDIT_MILESTONE_55_FALSE_COMPLETION_2026-11-18.json",
+    "independent_reaudit_first_55_2026-11-18.json",
+    "dosing_numeric_source_audit_first_55_2026-11-18.json"
+  ],
+  "audit_of_audit_questions": [
+    "¿Se comprobó el contenido original o solo el campo?",
+    "¿Las dosis son numéricas, pertinentes y comprobadas o solo texto?",
+    "¿La personalización es una regla probada o una promesa?",
+    "¿La revisión fue independiente?",
+    "¿Qué evidencia sustenta cada PASS?",
+    "¿Qué afirmaciones previas de completitud fueron incorrectas?"
+  ]
+}
