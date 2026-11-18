@@ -360,6 +360,29 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/rhodiola",
+        "claims": {
+          "es": [
+            "No hay evidencia fiable suficiente para afirmar eficacia en fatiga, ánimo, estrés o rendimiento.",
+            "Se han comunicado mareos, cefalea, insomnio e interacción con losartán; seguridad en embarazo y lactancia desconocida."
+          ],
+          "en": [
+            "Reliable evidence is insufficient to establish efficacy for fatigue, mood, stress or performance.",
+            "Dizziness, headache, insomnia and a reported losartan interaction; pregnancy and breastfeeding safety unknown."
+          ],
+          "it": [
+            "Prove affidabili insufficienti per efficacia su stanchezza, umore, stress o prestazioni.",
+            "Segnalati vertigini, cefalea, insonnia e interazione con losartan; sicurezza in gravidanza e allattamento sconosciuta."
+          ]
+        },
+        "decision_rule": "REVIEW_LOSARTAN_AND_PREGNANCY",
+        "review_date": "2026-11-18",
+        "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+        "dose_verified": false,
+        "interactions_complete": false,
+        "product_registration_verified": false
       }
     },
     {
@@ -487,6 +510,29 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+        "claims": {
+          "es": [
+            "Los multivitamínicos no tienen composición uniforme: comparar cantidades reales por nutriente, edad y situación fisiológica.",
+            "Sumar nutrientes de dieta y suplementos para evitar exceder límites máximos tolerables; revisar interacciones según fórmula."
+          ],
+          "en": [
+            "Multivitamins have no uniform composition: compare actual nutrient amounts by age and physiological status.",
+            "Account for nutrients from diet and other supplements to avoid exceeding tolerable upper intake levels; screen formulation-specific interactions."
+          ],
+          "it": [
+            "I multivitaminici non hanno composizione uniforme: confrontare quantità effettive per età e condizione fisiologica.",
+            "Sommare nutrienti di dieta e integratori per evitare limiti massimi; valutare interazioni della formula."
+          ]
+        },
+        "decision_rule": "REQUIRE_FULL_PRODUCT_FORMULA_AND_UL_SUM",
+        "review_date": "2026-11-18",
+        "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+        "dose_verified": false,
+        "interactions_complete": false,
+        "product_registration_verified": false
       }
     },
     {
@@ -1072,6 +1118,29 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/passionflower",
+        "claims": {
+          "es": [
+            "Estudios pequeños sugieren posibles beneficios para ansiedad y duración total del sueño, pero no permiten conclusiones firmes.",
+            "Evitar durante embarazo; puede causar somnolencia, mareos y confusión. Consultar si hay cirugía prevista dentro de dos semanas."
+          ],
+          "en": [
+            "Small studies suggest possible anxiety and total-sleep-time benefits, but conclusions are uncertain.",
+            "Avoid during pregnancy; may cause drowsiness, dizziness and confusion. Review if surgery is planned within two weeks."
+          ],
+          "it": [
+            "Piccoli studi suggeriscono possibili benefici per ansia e durata totale del sonno, ma le conclusioni sono incerte.",
+            "Evitare in gravidanza; possibili sonnolenza, vertigini e confusione. Valutare interventi chirurgici entro due settimane."
+          ]
+        },
+        "decision_rule": "BLOCK_PREGNANCY_REVIEW_SURGERY_SEDATIVES",
+        "review_date": "2026-11-18",
+        "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+        "dose_verified": false,
+        "interactions_complete": false,
+        "product_registration_verified": false
       }
     },
     {
@@ -1155,6 +1224,6 @@
     "clinically_validated": 0,
     "targeted_review_sources_added": 14,
     "fully_clinically_verified": 0,
-    "source_verified_claim_entries": 7
+    "source_verified_claim_entries": 10
   }
 }
