@@ -1,3 +1,5 @@
+> **PLAN OPERATIVO SUSTITUIDO (2026-11-18).** Único plan vigente: [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md). Único tablero de avance: [VITAMI_TABLERO_UNICO.md](https://github.com/luis-mae/vitami/blob/feature/vitami-express/docs/VITAMI_TABLERO_UNICO.md). Este documento se conserva como referencia histórica/técnica y no debe dirigir tareas independientes.
+
 # VITAMI EXPRESS — Guion de ejecución autónoma
 Fecha: 2026-11-13. Fuente de verdad: PROJECT_MASTER_PLAN.md.
 Objetivo: ejecutar sin consultas repetidas, en bloques pequeños, con código real, pruebas y commits. Este documento permite retomar el trabajo desde cualquier dispositivo o conversación.
