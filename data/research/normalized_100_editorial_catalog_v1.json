@@ -1,5 +1,5 @@
 {
-  "version": "2.3",
+  "version": "2.4",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -6415,6 +6415,16 @@
           "chemotherapy_discuss_with_oncologist"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/coenzyme-q10"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No sustituye tratamientos cardiovasculares; revisar warfarina y medicación antihipertensiva.",
+          "en": "Does not replace cardiovascular treatment; review warfarin and blood-pressure drugs.",
+          "it": "Non sostituisce le terapie cardiovascolari; valutare warfarin e antipertensivi."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -6604,6 +6614,16 @@
           "product_label_variability"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Diferenciar trastornos circadianos de insomnio crónico; revisar somnolencia, edad y uso prolongado.",
+          "en": "Distinguish circadian disorders from chronic insomnia; review drowsiness, age and prolonged use.",
+          "it": "Distinguere disturbi circadiani da insonnia cronica; valutare sonnolenza, età e uso prolungato."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -6760,6 +6780,16 @@
           "gallbladder_disease"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/turmeric"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No extrapolar cúrcuma culinaria a extractos concentrados; revisar daño hepático y piperina.",
+          "en": "Do not extrapolate culinary turmeric to concentrated extracts; review liver injury and piperine.",
+          "it": "Non estrapolare curcuma alimentare a estratti concentrati; valutare danno epatico e piperina."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -6928,6 +6958,16 @@
           "GI_tolerance"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/ginger"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Distinguir náuseas de embarazo de otros usos; revisar anticoagulantes y tolerancia digestiva.",
+          "en": "Distinguish pregnancy nausea from other uses; review anticoagulants and GI tolerance.",
+          "it": "Distinguere nausea gravidica da altri usi; valutare anticoagulanti e tolleranza digestiva."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -7105,6 +7145,16 @@
           "liver_injury_reports"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/ashwagandha"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evitar recomendaciones automáticas ante embarazo, trastornos tiroideos, autoinmunidad o antecedentes hepáticos.",
+          "en": "Avoid automatic recommendations with pregnancy, thyroid or autoimmune disorders, or liver history.",
+          "it": "Evitare raccomandazioni automatiche in gravidanza, patologie tiroidee o autoimmuni o epatopatie."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -7290,6 +7340,16 @@
           "fasting_high_dose"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/green-tea"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Diferenciar bebida de extracto concentrado; revisar hepatotoxicidad y cafeína total.",
+          "en": "Distinguish tea beverage from concentrated extract; review liver toxicity and total caffeine.",
+          "it": "Distinguere bevanda da estratto concentrato; valutare epatotossicità e caffeina totale."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -7444,6 +7504,16 @@
           "insomnia_and_stimulants"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/asian-ginseng"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No afirmar beneficio general para energía; revisar glucemia, anticoagulantes e insomnio.",
+          "en": "Do not claim general energy benefits; review glycemia, anticoagulants and insomnia.",
+          "it": "Non promettere benefici energetici generali; valutare glicemia, anticoagulanti e insonnia."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -7616,6 +7686,16 @@
           "GI_adverse_effects"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/garlic"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No reemplaza antihipertensivos ni hipolipemiantes; revisar riesgo de sangrado y cirugías.",
+          "en": "Does not replace antihypertensives or lipid drugs; review bleeding risk and surgery.",
+          "it": "Non sostituisce antipertensivi o ipolipemizzanti; valutare sanguinamento e interventi."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -7769,6 +7849,16 @@
           "gallbladder_disease"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/turmeric"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Separar especia alimentaria de suplemento; no asumir eficacia ni seguridad de extractos de alta absorción.",
+          "en": "Separate food spice from supplements; do not assume efficacy or safety of high-absorption extracts.",
+          "it": "Distinguere spezia alimentare da integratore; non presumere efficacia o sicurezza di estratti ad alto assorbimento."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -7937,6 +8027,16 @@
           "limited_cold_prevention_evidence"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/echinacea"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer prevención de resfríos; revisar alergias a asteráceas e inmunosupresión.",
+          "en": "Do not promise cold prevention; review Asteraceae allergy and immunosuppression.",
+          "it": "Non promettere prevenzione del raffreddore; valutare allergia alle Asteraceae e immunosoppressione."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -8114,6 +8214,16 @@
           "transplant_and_HIV_medications"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/st-johns-wort"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No recomendar sin revisar toda la medicación: puede reducir eficacia de anticonceptivos y otros tratamientos.",
+          "en": "Do not recommend without full medication review: may reduce effectiveness of contraceptives and other treatments.",
+          "it": "Non raccomandare senza controllo completo dei farmaci: può ridurre efficacia di contraccettivi e altre terapie."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -8270,6 +8380,16 @@
           "drug_transporters_and_metabolism"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No sustituye tratamiento de diabetes; revisar hipoglucemiantes y evitar embarazo y lactancia.",
+          "en": "Does not replace diabetes treatment; review glucose-lowering drugs and avoid in pregnancy and breastfeeding.",
+          "it": "Non sostituisce terapia diabetica; valutare ipoglicemizzanti ed evitare gravidanza e allattamento."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -8384,6 +8504,16 @@
           "hypoglycemia_risk"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No presentar como tratamiento establecido para neuropatía; revisar antidiabéticos y episodios de hipoglucemia.",
+          "en": "Do not present as established neuropathy treatment; review diabetes drugs and hypoglycemia.",
+          "it": "Non presentare come terapia consolidata della neuropatia; valutare antidiabetici e ipoglicemia."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -8498,6 +8628,16 @@
           "pregnancy_lactation_data_gap"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No afirmar beneficios antienvejecimiento sin ensayos adecuados; revisar dosis y formulación.",
+          "en": "Do not claim antiaging benefits without adequate trials; review dose and formulation.",
+          "it": "Non affermare benefici anti-invecchiamento senza studi adeguati; valutare dose e formulazione."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -8624,6 +8764,16 @@
           "do_not_substitute_for_preformed_retinol"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No recomendar suplementos de betacaroteno para prevención de cáncer, especialmente en fumadores o exfumadores.",
+          "en": "Do not recommend beta-carotene supplements for cancer prevention, especially in current or former smokers.",
+          "it": "Non raccomandare beta-carotene per prevenire il cancro, specie in fumatori o ex fumatori."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -8738,6 +8888,16 @@
           "pregnancy_and_fertility_context"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "En síndrome de ovario poliquístico, revisar evidencia específica y no prometer fertilidad ni resultados metabólicos.",
+          "en": "For PCOS, review indication-specific evidence; do not promise fertility or metabolic outcomes.",
+          "it": "Nella PCOS, valutare prove specifiche; non promettere fertilità o risultati metabolici."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -8852,6 +9012,16 @@
           "pregnancy_lactation_data_gap"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No atribuir prevención de cáncer de próstata a suplementos de licopeno.",
+          "en": "Do not attribute prostate-cancer prevention to lycopene supplements.",
+          "it": "Non attribuire prevenzione del tumore prostatico agli integratori di licopene."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -8966,6 +9136,16 @@
           "no_unqualified_weight_loss_claim"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer adelgazamiento; considerar diarrea, molestias digestivas y aporte calórico.",
+          "en": "Do not promise weight loss; consider diarrhea, GI discomfort and caloric intake.",
+          "it": "Non promettere dimagrimento; considerare diarrea, disturbi digestivi e calorie."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -9080,6 +9260,16 @@
           "asthma_and_bronchospasm_route"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Diferenciar acetilcisteína medicinal de suplementos; revisar indicación, país y medicamentos.",
+          "en": "Distinguish medicinal acetylcysteine from supplements; review indication, jurisdiction and medications.",
+          "it": "Distinguere acetilcisteina medicinale da integratori; valutare indicazione, paese e farmaci."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -9194,6 +9384,16 @@
           "phenylketonuria_ingredient_check"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer detoxificación; verificar controles de contaminantes y calidad del lote.",
+          "en": "Do not promise detoxification; verify contaminant testing and batch quality.",
+          "it": "Non promettere disintossicazione; verificare contaminanti e qualità del lotto."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -9366,6 +9566,16 @@
           "joint_specific_evidence"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer regeneración de cartílago; revisar anticoagulantes y formulación.",
+          "en": "Do not promise cartilage regeneration; review anticoagulants and formulation.",
+          "it": "Non promettere rigenerazione della cartilagine; valutare anticoagulanti e formulazione."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -9536,6 +9746,16 @@
           "product_purity"
         ],
         "existing_evidence_reference": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No equiparar todas las formulaciones; revisar anticoagulantes y evidencia por articulación.",
+          "en": "Do not equate all formulations; review anticoagulants and joint-specific evidence.",
+          "it": "Non equiparare tutte le formulazioni; valutare anticoagulanti e prove per articolazione."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -9650,6 +9870,16 @@
           "long_term_safety_unknown"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No afirmar eficacia clínica establecida para dolor articular; revisar tolerancia y seguridad prolongada.",
+          "en": "Do not claim established efficacy for joint pain; review tolerance and long-term safety.",
+          "it": "Non affermare efficacia consolidata per dolore articolare; valutare tolleranza e sicurezza a lungo termine."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -9764,6 +9994,16 @@
           "caffeine_coformulation"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer tratamiento de ansiedad o insomnio; revisar cafeína añadida y sedación.",
+          "en": "Do not promise treatment of anxiety or insomnia; review added caffeine and sedation.",
+          "it": "Non promettere trattamento di ansia o insonnia; valutare caffeina aggiunta e sedazione."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -9878,6 +10118,16 @@
           "clinical_efficacy_not_established"
         ],
         "existing_evidence_reference": null
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No afirmar prevención de infecciones ni beneficios cardiovasculares sin evidencia clínica adecuada.",
+          "en": "Do not claim infection prevention or cardiovascular benefits without adequate clinical evidence.",
+          "it": "Non affermare prevenzione delle infezioni o benefici cardiovascolari senza prove cliniche adeguate."
+        },
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13937,9 +14187,9 @@
     "interpretation": "All 100 have normalized release readiness and a checklist; source-claim presence is not a full review."
   },
   "editorial_decision_batch": {
-    "range": "21-45",
+    "range": "46-70",
     "updated": 25,
-    "description": "25 ingredient-specific, trilingual, patient-facing decision cautions; not independently source-verified",
+    "description": "25 trilingual, ingredient-specific patient-facing cautions; not full clinical signoff",
     "date": "2026-11-18"
   }
 }
