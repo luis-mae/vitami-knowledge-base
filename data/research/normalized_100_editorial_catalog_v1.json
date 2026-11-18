@@ -1,5 +1,5 @@
 {
-  "version": "2.10",
+  "version": "2.11",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -230,6 +230,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -405,6 +412,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -632,6 +646,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -812,6 +833,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -994,6 +1022,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -1176,6 +1211,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -1356,6 +1398,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -1576,6 +1625,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -1756,6 +1812,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -1939,6 +2002,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -2119,6 +2189,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -2299,6 +2376,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -2491,6 +2575,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -2671,6 +2762,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -2845,6 +2943,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -3020,6 +3125,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -3193,6 +3305,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -3374,6 +3493,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -3554,6 +3680,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -3729,6 +3862,13 @@
           "source_pointer_present": true,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -3938,6 +4078,13 @@
           "source_pointer_present": false,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": null,
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -4170,6 +4317,13 @@
           "source_pointer_present": false,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": null,
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -4385,6 +4539,13 @@
           "source_pointer_present": false,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": null,
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -4600,6 +4761,13 @@
           "source_pointer_present": false,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": null,
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -4811,6 +4979,13 @@
           "source_pointer_present": false,
           "automated_release_blocked": true,
           "scientific_signoff_pending": true
+        },
+        "source_audit": {
+          "reference_url": null,
+          "reference_type": "NIH ODS or National Academies reference candidate",
+          "claim_verification": "pending unless explicitly marked source checked",
+          "last_audit": "2026-11-18",
+          "cannot_publish_as_verified": true
         }
       }
     },
@@ -16183,6 +16358,7 @@
     "source_claims_directly_reviewed_this_pass": 3,
     "clinical_screening_rule_drafts_added": 22,
     "clinical_review_worklists_added": 25,
-    "quality_control_checks_added": 25
+    "quality_control_checks_added": 25,
+    "source_audits": 25
   }
 }
