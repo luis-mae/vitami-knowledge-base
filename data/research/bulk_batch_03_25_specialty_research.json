@@ -1,0 +1,860 @@
+{
+  "schema": "vitami-research-batch-3",
+  "date": "2026-11-18",
+  "source_catalog": "data/research/normalized_100_editorial_catalog_v1.json",
+  "range": "positions 71-95",
+  "records": [
+    {
+      "ingredient_id": "resveratrol",
+      "names": {
+        "es": "Resveratrol",
+        "en": "Resveratrol",
+        "it": "Resveratrolo"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Polifenol investigado en envejecimiento y metabolismo; no está demostrado que prolongue la vida.",
+          "en": "Polyphenol studied in aging and metabolism; lifespan extension is unproven.",
+          "it": "Polifenolo studiato per invecchiamento e metabolismo; prolungamento della vita non dimostrato."
+        },
+        "safety": {
+          "es": "Beneficios clínicos no establecidos para longevidad; revisar anticoagulantes.",
+          "en": "Clinical longevity benefits unproven; review anticoagulants.",
+          "it": "Benefici clinici per longevità non dimostrati; valutare anticoagulanti."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://www.nccih.nih.gov/health/resveratrol",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "antiplatelet interaction screening"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "elderberry",
+      "names": {
+        "es": "Saúco",
+        "en": "Elderberry",
+        "it": "Sambuco"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Investigado para síntomas respiratorios; evidencia limitada y heterogénea.",
+          "en": "Studied for respiratory symptoms; evidence is limited and heterogeneous.",
+          "it": "Studiato per sintomi respiratori; prove limitate ed eterogenee."
+        },
+        "safety": {
+          "es": "Evidencia limitada en infecciones; evitar preparados caseros de partes crudas tóxicas.",
+          "en": "Limited infection evidence; avoid homemade preparations from toxic raw plant parts.",
+          "it": "Prove limitate nelle infezioni; evitare preparati da parti crude tossiche."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://www.nccih.nih.gov/health/elderberry",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "uncooked plant parts may be toxic"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "cranberry",
+      "names": {
+        "es": "Arándano rojo",
+        "en": "Cranberry",
+        "it": "Mirtillo rosso americano"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Investigado para prevención de infecciones urinarias recurrentes en grupos seleccionados, no tratamiento activo.",
+          "en": "Studied for prevention of recurrent UTIs in selected groups, not active treatment.",
+          "it": "Studiato per prevenzione di IVU ricorrenti in gruppi selezionati, non trattamento attivo."
+        },
+        "safety": {
+          "es": "Prevención de ITU en ciertos grupos no equivale a tratamiento de infección activa.",
+          "en": "UTI prevention in some groups does not treat an active infection.",
+          "it": "La prevenzione delle IVU in alcuni gruppi non tratta infezioni attive."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://www.nccih.nih.gov/health/cranberry",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "warfarin interaction reports"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "d_mannose",
+      "names": {
+        "es": "D-manosa",
+        "en": "D-mannose",
+        "it": "D-mannosio"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Investigada para prevención de infección urinaria recurrente; evidencia actual no justifica uso rutinario.",
+          "en": "Studied for recurrent UTI prevention; current evidence does not support routine use.",
+          "it": "Studiato per prevenzione di IVU ricorrenti; prove attuali non supportano uso routinario."
+        },
+        "safety": {
+          "es": "Evidencia reciente no apoya uso rutinario para prevenir ITU recurrente.",
+          "en": "Recent evidence does not support routine recurrent-UTI prevention.",
+          "it": "Prove recenti non supportano la prevenzione routinaria delle IVU ricorrenti."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [
+        "limited evidence for recurrent UTI prevention"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "saw_palmetto",
+      "names": {
+        "es": "Serenoa repens",
+        "en": "Saw palmetto",
+        "it": "Serenoa repens"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Investigada para síntomas urinarios masculinos; beneficios inconsistentes.",
+          "en": "Studied for male urinary symptoms; benefits are inconsistent.",
+          "it": "Studiata per sintomi urinari maschili; benefici incostanti."
+        },
+        "safety": {
+          "es": "Beneficio urinario inconsistente; evaluar síntomas prostáticos con profesional.",
+          "en": "Inconsistent urinary benefit; assess prostate symptoms professionally.",
+          "it": "Benefici urinari incostanti; valutare sintomi prostatici con professionista."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://www.nccih.nih.gov/health/saw-palmetto",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "pregnancy avoidance"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "valerian",
+      "names": {
+        "es": "Valeriana",
+        "en": "Valerian",
+        "it": "Valeriana"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Investigada para sueño; evidencia insuficiente para recomendarla de manera general.",
+          "en": "Studied for sleep; evidence insufficient for general recommendation.",
+          "it": "Studiata per sonno; prove insufficienti per raccomandazione generale."
+        },
+        "safety": {
+          "es": "Evidencia insuficiente para insomnio; precaución con sedantes y conducción.",
+          "en": "Insufficient insomnia evidence; caution with sedatives and driving.",
+          "it": "Prove insufficienti per insonnia; cautela con sedativi e guida."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://www.nccih.nih.gov/health/valerian",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "sedation",
+        "other sedatives"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "rhodiola",
+      "names": {
+        "es": "Rodiola",
+        "en": "Rhodiola",
+        "it": "Rodiola"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Investigada para fatiga y estrés; ensayos pequeños y formulaciones variables.",
+          "en": "Studied for fatigue and stress; small trials and variable preparations.",
+          "it": "Studiata per fatica e stress; studi piccoli e preparati variabili."
+        },
+        "safety": {
+          "es": "Estudios pequeños y heterogéneos; revisar interacciones y calidad del extracto.",
+          "en": "Small heterogeneous studies; review interactions and extract quality.",
+          "it": "Studi piccoli ed eterogenei; valutare interazioni e qualità dell'estratto."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://www.nccih.nih.gov/health/rhodiola",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "potential interactions with psychiatric medications"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "beetroot_nitrate",
+      "names": {
+        "es": "Nitratos de remolacha",
+        "en": "Beetroot nitrates",
+        "it": "Nitrati di barbabietola"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Fuente dietaria de nitratos estudiada para rendimiento en algunos ejercicios; depende de protocolo.",
+          "en": "Dietary nitrate source studied for performance in some exercise types; protocol-dependent.",
+          "it": "Fonte di nitrati alimentari studiata per prestazioni in alcuni esercizi; dipende dal protocollo."
+        },
+        "safety": {
+          "es": "Beneficios dependen de deporte y dosis; revisar hipotensión y enjuagues bucales.",
+          "en": "Benefits depend on sport and dose; review hypotension and mouthwash effects.",
+          "it": "Benefici dipendono da sport e dose; valutare ipotensione e collutori."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "blood pressure lowering effects"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "electrolytes",
+      "names": {
+        "es": "Electrolitos",
+        "en": "Electrolytes",
+        "it": "Elettroliti"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Mezclas para reposición de pérdidas en condiciones específicas; no necesarias en todo ejercicio.",
+          "en": "Mixtures for replacing losses in specific settings; not needed for all exercise.",
+          "it": "Miscele per reintegrare perdite in contesti specifici; non necessarie per ogni esercizio."
+        },
+        "safety": {
+          "es": "No indicar automáticamente en ejercicio corto; revisar sodio, potasio y enfermedad renal.",
+          "en": "Not routinely needed for short exercise; review sodium, potassium and kidney disease.",
+          "it": "Non necessari di routine per esercizio breve; valutare sodio, potassio e reni."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "kidney disease and potassium disturbances"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "multivitamin",
+      "names": {
+        "es": "Multivitamínico",
+        "en": "Multivitamin",
+        "it": "Multivitaminico"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Combinación de micronutrientes a valorar según dieta y necesidades; no garantiza prevención de enfermedades.",
+          "en": "Micronutrient combination assessed against diet and needs; does not guarantee disease prevention.",
+          "it": "Combinazione di micronutrienti da valutare secondo dieta e bisogni; non garantisce prevenzione."
+        },
+        "safety": {
+          "es": "Revisar duplicaciones, retinol en embarazo y límites superiores de cada nutriente.",
+          "en": "Review duplication, pregnancy retinol and each nutrient's upper limit.",
+          "it": "Valutare duplicazioni, retinolo in gravidanza e limiti di ogni nutriente."
+        },
+        "use": {
+          "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+          "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+          "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+        }
+      },
+      "source_candidate": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+      "source_checked": false,
+      "priority_safety_screen": [
+        "duplicate nutrient intake and UL exceedance"
+      ],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "boron",
+      "names": {
+        "es": "Boro",
+        "en": "Boron",
+        "it": "Boro"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Micronutriente no esencial establecido para humanos; no hay recomendación rutinaria de suplementación.",
+          "en": "Not established as essential for humans; routine supplementation is not recommended.",
+          "it": "Non riconosciuto essenziale per l'uomo; integrazione routinaria non raccomandata."
+        },
+        "safety": {
+          "es": "No establecer beneficios óseos sin evaluar evidencia y exposición total.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "molybdenum",
+      "names": {
+        "es": "Molibdeno",
+        "en": "Molybdenum",
+        "it": "Molibdeno"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Oligoelemento esencial; suplementar solo ante contexto de ingesta o deficiencia pertinente.",
+          "en": "Essential trace element; supplementation requires a relevant intake or deficiency context.",
+          "it": "Oligoelemento essenziale; integrare solo in contesto di apporto o carenza pertinente."
+        },
+        "safety": {
+          "es": "La deficiencia es rara; evitar suplementación indiscriminada.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "chloride",
+      "names": {
+        "es": "Cloruro",
+        "en": "Chloride",
+        "it": "Cloruro"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Electrolito dietario; la reposición depende de pérdidas y evaluación clínica.",
+          "en": "Dietary electrolyte; replacement depends on losses and clinical assessment.",
+          "it": "Elettrolita alimentare; reintegro dipende da perdite e valutazione clinica."
+        },
+        "safety": {
+          "es": "Evaluar balance hidroelectrolítico y condiciones renales.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "fluoride",
+      "names": {
+        "es": "Fluoruro",
+        "en": "Fluoride",
+        "it": "Fluoruro"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Su uso preventivo dental no equivale a indicación de suplementación sistémica.",
+          "en": "Dental preventive uses do not imply a systemic supplement indication.",
+          "it": "Gli usi odontoiatrici preventivi non implicano integrazione sistemica."
+        },
+        "safety": {
+          "es": "Riesgo de fluorosis por exposición excesiva; verificar regulación local.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "lutein",
+      "names": {
+        "es": "Luteína",
+        "en": "Lutein",
+        "it": "Luteina"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Carotenoide estudiado en salud ocular; resultados dependen de población y combinación.",
+          "en": "Carotenoid studied for eye health; outcomes depend on population and combination.",
+          "it": "Carotenoide studiato per salute oculare; esiti dipendono da popolazione e combinazione."
+        },
+        "safety": {
+          "es": "La evidencia ocular depende de población y combinación específica.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "zeaxanthin",
+      "names": {
+        "es": "Zeaxantina",
+        "en": "Zeaxanthin",
+        "it": "Zeaxantina"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Carotenoide estudiado en formulaciones oculares específicas; no extrapolar a dosis aisladas.",
+          "en": "Carotenoid studied in specific eye formulations; do not extrapolate to isolated dosing.",
+          "it": "Carotenoide studiato in formulazioni oculari; non estrapolare a dosi isolate."
+        },
+        "safety": {
+          "es": "No extrapolar estudios de formulaciones combinadas a uso aislado.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "hmb",
+      "names": {
+        "es": "HMB",
+        "en": "Beta-hydroxy beta-methylbutyrate",
+        "it": "HMB"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Metabolito de leucina investigado para masa y función muscular en contextos definidos.",
+          "en": "Leucine metabolite studied for muscle mass and function in defined settings.",
+          "it": "Metabolita della leucina studiato per massa e funzione muscolare in contesti definiti."
+        },
+        "safety": {
+          "es": "Resultados de rendimiento y masa muscular dependen del contexto.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "betaine",
+      "names": {
+        "es": "Betaína",
+        "en": "Betaine",
+        "it": "Betaina"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Compuesto con formulaciones y usos diferentes; identificar forma antes de evaluar evidencia.",
+          "en": "Compound with distinct forms and uses; identify form before assessing evidence.",
+          "it": "Composto con forme e usi differenti; identificare la forma prima di valutare le prove."
+        },
+        "safety": {
+          "es": "Distinguir betaína anhidra de betaína HCl y usos clínicos.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "l_tryptophan",
+      "names": {
+        "es": "L-triptófano",
+        "en": "L-tryptophan",
+        "it": "L-triptofano"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Aminoácido precursor de serotonina; no usar como tratamiento autónomo de trastornos del ánimo.",
+          "en": "Serotonin precursor amino acid; not a standalone mood-disorder treatment.",
+          "it": "Aminoacido precursore della serotonina; non terapia autonoma dei disturbi dell'umore."
+        },
+        "safety": {
+          "es": "Revisar fármacos serotoninérgicos y somnolencia.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "5_htp",
+      "names": {
+        "es": "5-HTP",
+        "en": "5-HTP",
+        "it": "5-HTP"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Precursor de serotonina estudiado para diversos objetivos; evidencia insuficiente para uso general.",
+          "en": "Serotonin precursor studied for several outcomes; insufficient evidence for general use.",
+          "it": "Precursore della serotonina studiato per vari esiti; prove insufficienti per uso generale."
+        },
+        "safety": {
+          "es": "Riesgo de interacción con antidepresivos serotoninérgicos.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "bacopa",
+      "names": {
+        "es": "Bacopa monnieri",
+        "en": "Bacopa monnieri",
+        "it": "Bacopa monnieri"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Planta estudiada para resultados cognitivos; ensayos heterogéneos y preparados variables.",
+          "en": "Botanical studied for cognition; heterogeneous trials and variable preparations.",
+          "it": "Pianta studiata per cognizione; studi eterogenei e preparati variabili."
+        },
+        "safety": {
+          "es": "Evidencia cognitiva limitada; revisar tolerancia e interacciones.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "milk_thistle",
+      "names": {
+        "es": "Cardo mariano",
+        "en": "Milk thistle",
+        "it": "Cardo mariano"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Investigado para afecciones hepáticas; no reemplaza diagnóstico ni tratamiento.",
+          "en": "Studied for liver conditions; does not replace diagnosis or treatment.",
+          "it": "Studiato per condizioni epatiche; non sostituisce diagnosi o trattamento."
+        },
+        "safety": {
+          "es": "No afirmar tratamiento de enfermedad hepática sin evidencia clínica.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "peppermint_oil",
+      "names": {
+        "es": "Aceite de menta",
+        "en": "Peppermint oil",
+        "it": "Olio di menta piperita"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Aceite estudiado para algunos síntomas digestivos; forma de liberación relevante.",
+          "en": "Oil studied for certain digestive symptoms; release formulation matters.",
+          "it": "Olio studiato per alcuni sintomi digestivi; importante la formulazione."
+        },
+        "safety": {
+          "es": "Distinguir formulaciones entéricas; puede agravar reflujo.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "passionflower",
+      "names": {
+        "es": "Pasiflora",
+        "en": "Passionflower",
+        "it": "Passiflora"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Investigada para ansiedad y sueño; evidencia limitada y variable.",
+          "en": "Studied for anxiety and sleep; evidence is limited and variable.",
+          "it": "Studiata per ansia e sonno; prove limitate e variabili."
+        },
+        "safety": {
+          "es": "Precaución con sedantes y embarazo.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "chamomile",
+      "names": {
+        "es": "Manzanilla",
+        "en": "Chamomile",
+        "it": "Camomilla"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Planta usada tradicionalmente para síntomas leves; evidencia depende del resultado.",
+          "en": "Traditionally used for mild symptoms; evidence depends on outcome.",
+          "it": "Pianta usata tradizionalmente per sintomi lievi; prove dipendono dall'esito."
+        },
+        "safety": {
+          "es": "Revisar alergias a asteráceas e interacciones.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_candidate": null,
+      "source_checked": false,
+      "priority_safety_screen": [],
+      "safety_status": "research_lead_unverified",
+      "evidence_status": "pending_indication_specific_review",
+      "dose_status": "pending",
+      "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
+      "automatic_recommendation_allowed": false
+    }
+  ],
+  "summary": {
+    "count": 25,
+    "source_candidates": 9,
+    "safety_priorities": 10,
+    "clinically_validated": 0
+  }
+}
