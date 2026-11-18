@@ -1,5 +1,5 @@
 {
-  "version": "2.16",
+  "version": "2.17",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -473,6 +473,21 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Suspected deficiency, vegan dietary patterns, or malabsorption risk; confirm indication.",
+        "screen": [
+          "neurological_symptoms",
+          "metformin_use",
+          "long_term_acid_suppression",
+          "pernicious_anemia_suspected"
+        ],
+        "decision": "Neurological symptoms or suspected pernicious anemia require clinical assessment; RDA is not a deficiency treatment dose.",
+        "form": "Oral versus parenteral route depends on etiology and severity.",
+        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
+        "evidence_claim_approved": false,
+        "patient_specific_dosing_allowed": false,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -6006,6 +6021,23 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Acute alertness or sport performance only with indication-specific evidence.",
+        "screen": [
+          "pregnancy",
+          "arrhythmia",
+          "uncontrolled_hypertension",
+          "anxiety_or_insomnia",
+          "stimulant_medication",
+          "total_daily_caffeine"
+        ],
+        "decision": "Count caffeine from all beverages and supplements; avoid generic high-dose advice.",
+        "form": "Distinguish caffeine anhydrous powder from measured beverage servings.",
+        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
+        "evidence_claim_approved": false,
+        "patient_specific_dosing_allowed": false,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -10855,6 +10887,23 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Do not offer as general mood support without clinical assessment.",
+        "screen": [
+          "antidepressants_or_serotonergic_drugs",
+          "oral_contraceptives",
+          "anticoagulants",
+          "transplant_immunosuppressants",
+          "antiretrovirals",
+          "bipolar_disorder"
+        ],
+        "decision": "High interaction burden via enzyme induction and serotonergic effects: hard-stop unsupervised recommendation.",
+        "form": "Extract standardization and product-drug interaction profile matter.",
+        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
+        "evidence_claim_approved": false,
+        "patient_specific_dosing_allowed": false,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -15920,6 +15969,22 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "No default recommendation for sleep or mood; clinical evidence and safety remain uncertain.",
+        "screen": [
+          "ssri_snri_maoi_or_other_serotonergic",
+          "tramadol",
+          "triptans",
+          "pregnancy_or_lactation",
+          "bipolar_disorder"
+        ],
+        "decision": "Potential serotonin syndrome risk with serotonergic medications; hard-stop combination.",
+        "form": "Verify actual ingredient, dose, and possible combination formulas.",
+        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
+        "evidence_claim_approved": false,
+        "patient_specific_dosing_allowed": false,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17589,24 +17654,40 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "method": "six_parallel_blocks",
-    "sampled_ingredient_ids": [
-      "vitamin_d",
-      "creatine",
-      "green_tea_extract",
-      "valerian"
+    "workstreams": [
+      "block_1",
+      "block_2",
+      "block_3",
+      "block_4",
+      "block_5",
+      "block_6"
     ],
+    "case_reviews_added": 4,
+    "per_block": {
+      "block_1": "vitamin_b12",
+      "block_2": "caffeine",
+      "block_3": "st_johns_wort",
+      "block_4": "5_htp"
+    },
     "block_5": {
-      "records_with_product_specific_decision_tree": 100,
-      "verified_real_products": 0
+      "products_verified": 0,
+      "records_missing_actual_brand": 100,
+      "required_for_legal_sale_classification": [
+        "actual_product_name",
+        "brand",
+        "strength",
+        "dosage_form",
+        "label",
+        "registration_or_authorization",
+        "sales_channel"
+      ]
     },
     "block_6": {
-      "records_checked": 100,
-      "missing_ingredient_ids": 0,
-      "missing_es_en_it_names": 0,
-      "missing_es_en_it_editorial_safety": 0,
-      "automatic_recommendation_enabled": 0
+      "records": 100,
+      "unique_ingredient_ids": 100,
+      "missing_translations": 0,
+      "unsafe_release_enabled": 0
     },
-    "notes": "Editorial and rule design progress, not scientific validation or regulatory approval."
+    "note": "No source-claim validation or product approval inferred from these drafts."
   }
 }
