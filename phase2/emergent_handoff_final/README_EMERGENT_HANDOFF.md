@@ -1,3 +1,5 @@
+> **ARCHIVO HISTÓRICO / INSTRUCCIONES NO OPERATIVAS.** Único plan vigente de VITAMI: [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md). No seguir este documento como plan independiente ni ejecutar sus instrucciones sin contrastarlas con el plan único.
+
 # Vitami → Emergent: paquete final de integración
 
 Este directorio contiene las instrucciones para integrar la Knowledge Base de Vitami en la app existente.
