@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-18",
+  "scope": "Compounds 1–30 of 100",
+  "status": "30_OF_100_BIBLIOGRAPHIC_BASELINE_COMPLETE",
+  "criterion": "Same basic bibliographic closure as first 20: documented source, reference/studied dose, key precautions and interactions, use and personalization limits",
+  "latest_batch_21_30": [
+    "pantothenic_acid",
+    "biotin",
+    "manganese",
+    "phosphorus",
+    "sodium",
+    "creatine",
+    "beta_alanine",
+    "caffeine",
+    "protein_powder",
+    "whey_protein"
+  ],
+  "verified_corrections": [
+    "Manganese: NIH ODS states no known clinically relevant medication interactions; removed unsupported antibiotic separation claim.",
+    "Phosphorus: pregnancy UL 3500 mg/day for 19–50; corrected source detail.",
+    "Biotin: assay interference with troponin and thyroid tests.",
+    "Beta-alanine: paresthesia at >=800 mg single dose or >10 mg/kg.",
+    "Caffeine: 400 mg/day general FDA healthy adult context is not universal safe dose.",
+    "Protein: 1.2–2.0 g/kg/day is total intake, not supplement dose."
+  ],
+  "exclusions": [
+    "No app integration or functionality testing",
+    "No automatic recommendation release",
+    "No exhaustive claim-by-claim clinical certification",
+    "No Argentine product-specific regulatory approval"
+  ],
+  "canonical_commit": "a34bdb5b0ac9ae1934a5e6db269d259e814dea0e",
+  "source_urls": [
+    "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+    "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+    "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+    "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+    "https://www.nationalacademies.org/read/25353/chapter/13",
+    "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+  ]
+}
