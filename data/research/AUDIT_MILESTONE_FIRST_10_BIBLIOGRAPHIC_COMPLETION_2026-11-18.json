@@ -35,5 +35,9 @@
     "canonical_catalog": "data/research/normalized_100_editorial_catalog_v1.json",
     "bibliographic_commit": "95a263e0a22bd9ee3dfebdc7864f591799d24064"
   },
-  "audit_integrity_note": "This is a dated record of the assistant's declared bibliographic completion for these ten; it is not a separate independent clinical sign-off. Do not later silently reinterpret 'complete' as tested in the app."
+  "audit_integrity_note": "This is a dated record of the assistant's declared bibliographic completion for these ten; it is not a separate independent clinical sign-off. Do not later silently reinterpret 'complete' as tested in the app.",
+  "governance": {
+    "document_status": "DATED_RESEARCH_EVIDENCE_NOT_MASTER_AUDIT_OR_ACTIVE_PLAN",
+    "instruction": "This file records a bounded research/audit milestone for its named ingredients and date. It is not the current consolidated VITAMI audit and must not be used to infer global completion or current status. Consult luis-mae/vitami/AUDITORIA.md and VITAMI_PLAN_MAESTRO_UNICO.md before acting."
+  }
 }
