@@ -1,5 +1,5 @@
 {
-  "version": "1.9",
+  "version": "2.0",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -10420,6 +10420,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_validation_pending",
+        "safety_checks": [
+          "glycyrrhizin_hypokalemia_hypertension",
+          "diuretics_corticosteroids_digoxin",
+          "pregnancy_avoid"
+        ],
+        "evidence_grade_status": "pending_indication_specific_review",
+        "dose_status": "pending",
+        "interactions_status": "pending_comprehensive_review",
+        "argentina_product_status": "pending_actual_product_RNE_RNPA_and_category",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10491,6 +10507,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_validation_pending",
+        "safety_checks": [
+          "bleeding_anticoagulants",
+          "pineapple_allergy",
+          "surgery_screen"
+        ],
+        "evidence_grade_status": "pending_indication_specific_review",
+        "dose_status": "pending",
+        "interactions_status": "pending_comprehensive_review",
+        "argentina_product_status": "pending_actual_product_RNE_RNPA_and_category",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10562,6 +10594,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_validation_pending",
+        "safety_checks": [
+          "bee_products_allergy",
+          "asthma_contact_dermatitis",
+          "product_composition_variability"
+        ],
+        "evidence_grade_status": "pending_indication_specific_review",
+        "dose_status": "pending",
+        "interactions_status": "pending_comprehensive_review",
+        "argentina_product_status": "pending_actual_product_RNE_RNPA_and_category",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10633,6 +10681,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_validation_pending",
+        "safety_checks": [
+          "limited_clinical_evidence",
+          "pregnancy_lactation_unknown",
+          "endocrine_claims_unverified"
+        ],
+        "evidence_grade_status": "pending_indication_specific_review",
+        "dose_status": "pending",
+        "interactions_status": "pending_comprehensive_review",
+        "argentina_product_status": "pending_actual_product_RNE_RNPA_and_category",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10704,6 +10768,22 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_validation_pending",
+        "safety_checks": [
+          "liver_kidney_disease_review",
+          "clinical_indication_specific_evidence",
+          "not_routine_performance_claim"
+        ],
+        "evidence_grade_status": "pending_indication_specific_review",
+        "dose_status": "pending",
+        "interactions_status": "pending_comprehensive_review",
+        "argentina_product_status": "pending_actual_product_RNE_RNPA_and_category",
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     }
   ],
@@ -10748,9 +10828,16 @@
   },
   "batch_completion_pass": {
     "date": "2026-11-18",
-    "range": "71-95",
-    "processed": 25,
-    "scientifically_complete": 0,
-    "meaning": "25 individualized evidence/safety review packets, not complete validation"
+    "range": "96-100",
+    "processed": 5,
+    "scientifically_complete": 0
+  },
+  "safety_review_coverage": {
+    "batch_21_45": 25,
+    "batch_46_70": 25,
+    "batch_71_95": 25,
+    "batch_96_100": 5,
+    "total_specific_packets": 80,
+    "remaining_first_20_to_audit": 20
   }
 }
