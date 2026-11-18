@@ -1,8 +1,8 @@
 {
-  "version": "2026-11-18",
+  "version": "2026-11-18-expanded",
   "batch": "next_20_unique_candidates",
   "count": 20,
-  "disclaimer": "Research scaffolds only. No clinical or regulatory approval, doses or equivalences asserted. Deduplicate against canonical master before promotion.",
+  "disclaimer": "Multilingual indications are preliminary editorial summaries; no claim-by-claim source verification or clinical approval.",
   "records": [
     {
       "ingredient_id": "pantothenic_acid",
@@ -27,7 +27,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Nutriente esencial para metabolismo energético; deficiencia aislada infrecuente.",
+        "en": "Essential nutrient for energy metabolism; isolated deficiency is uncommon.",
+        "it": "Nutriente essenziale per metabolismo energetico; carenza isolata rara."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "biotin",
@@ -52,7 +63,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Nutriente esencial; la suplementación para cabello o uñas sin deficiencia carece de evidencia sólida.",
+        "en": "Essential nutrient; hair or nail supplementation without deficiency lacks strong evidence.",
+        "it": "Nutriente essenziale; integrazione per capelli o unghie senza carenza priva di prove solide."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "manganese",
@@ -77,7 +99,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Oligoelemento esencial; el exceso puede producir toxicidad neurológica.",
+        "en": "Essential trace element; excess exposure can cause neurologic toxicity.",
+        "it": "Oligoelemento essenziale; esposizione eccessiva può causare tossicità neurologica."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "phosphorus",
@@ -102,7 +135,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Mineral esencial; suplementación rara vez necesaria con dieta habitual.",
+        "en": "Essential mineral; supplementation is rarely needed with usual diets.",
+        "it": "Minerale essenziale; integrazione raramente necessaria con dieta comune."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "sodium",
@@ -127,7 +171,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Electrolito esencial; su reposición depende de pérdidas y salud cardiovascular.",
+        "en": "Essential electrolyte; replacement depends on losses and cardiovascular health.",
+        "it": "Elettrolita essenziale; reintegro dipende da perdite e salute cardiovascolare."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "creatine",
@@ -152,7 +207,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Estudiada para fuerza y ejercicios de alta intensidad; no equivale a beneficio universal.",
+        "en": "Studied for strength and high-intensity exercise; benefits are not universal.",
+        "it": "Studiata per forza ed esercizio intenso; benefici non universali."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "beta_alanine",
@@ -177,7 +243,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Estudiada para esfuerzos intensos de duración específica; efecto depende del protocolo.",
+        "en": "Studied for high-intensity efforts of specific duration; effects depend on protocol.",
+        "it": "Studiata per sforzi intensi di durata specifica; effetti dipendono dal protocollo."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "caffeine",
@@ -202,7 +279,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Puede mejorar rendimiento en ciertos esfuerzos; requiere evaluar dosis total y sueño.",
+        "en": "May improve performance in selected efforts; total exposure and sleep matter.",
+        "it": "Può migliorare alcune prestazioni; contano esposizione totale e sonno."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "protein_powder",
@@ -227,7 +315,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Complementa una ingesta proteica insuficiente; no reemplaza alimentación variada.",
+        "en": "Can complement insufficient protein intake; does not replace a varied diet.",
+        "it": "Può integrare apporto proteico insufficiente; non sostituisce dieta varia."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "whey_protein",
@@ -252,7 +351,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Fuente de proteína láctea para alcanzar objetivos dietarios cuando corresponda.",
+        "en": "Dairy protein source to meet dietary targets when appropriate.",
+        "it": "Fonte di proteine del latte per raggiungere obiettivi alimentari quando appropriato."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "plant_protein",
@@ -277,7 +387,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Fuente proteica vegetal; comparar composición, digestibilidad y necesidades individuales.",
+        "en": "Plant protein source; compare composition, digestibility and individual needs.",
+        "it": "Fonte proteica vegetale; confrontare composizione, digeribilità e bisogni."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "citrulline",
@@ -302,7 +423,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para rendimiento físico; evidencia limitada y variable.",
+        "en": "Studied for exercise performance; evidence limited and variable.",
+        "it": "Studiata per prestazioni fisiche; prove limitate e variabili."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "arginine",
@@ -327,7 +459,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para flujo sanguíneo y ejercicio; beneficios clínicos no establecidos de modo general.",
+        "en": "Studied for blood flow and exercise; general clinical benefits unproven.",
+        "it": "Studiata per flusso sanguigno ed esercizio; benefici clinici generali non dimostrati."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "bcaa",
@@ -352,7 +495,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "No ha demostrado ventajas generales sobre proteína completa suficiente.",
+        "en": "No general advantage over adequate complete protein has been established.",
+        "it": "Nessun vantaggio generale dimostrato rispetto a proteine complete adeguate."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "leucine",
@@ -377,7 +531,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Aminoácido esencial relevante para síntesis proteica; utilidad adicional depende de dieta.",
+        "en": "Essential amino acid involved in protein synthesis; extra benefit depends on diet.",
+        "it": "Aminoacido essenziale per sintesi proteica; beneficio aggiuntivo dipende dalla dieta."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "taurine",
@@ -402,7 +567,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada en rendimiento y otros desenlaces; evidencia dependiente de formulación.",
+        "en": "Studied for performance and other outcomes; evidence depends on formulation.",
+        "it": "Studiata per prestazioni e altri esiti; prove dipendono dalla formulazione."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "carnitine",
@@ -427,7 +603,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Tiene usos médicos específicos; evidencia deportiva y de peso variable.",
+        "en": "Has specific medical uses; sports and weight evidence varies.",
+        "it": "Ha usi medici specifici; prove per sport e peso variabili."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "omega3_epa_dha",
@@ -452,7 +639,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "EPA y DHA son grasas omega-3; indicaciones y dosis dependen de objetivo clínico.",
+        "en": "EPA and DHA are omega-3 fats; indications and doses depend on clinical goal.",
+        "it": "EPA e DHA sono grassi omega-3; indicazioni e dosi dipendono dall'obiettivo clinico."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "algal_omega3",
@@ -477,7 +675,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Fuente no animal de DHA y a veces EPA; comparar contenido real por porción.",
+        "en": "Non-animal DHA and sometimes EPA source; compare actual amount per serving.",
+        "it": "Fonte non animale di DHA e talvolta EPA; confrontare quantità effettiva."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     },
     {
       "ingredient_id": "psyllium",
@@ -502,7 +711,18 @@
         "argentina_product_registration",
         "source_passage_and_review_date",
         "es_en_it_full_content"
-      ]
+      ],
+      "indication": {
+        "es": "Fibra soluble estudiada para estreñimiento y colesterol; requiere suficiente líquido.",
+        "en": "Soluble fiber studied for constipation and cholesterol; requires adequate fluids.",
+        "it": "Fibra solubile studiata per stitichezza e colesterolo; richiede liquidi adeguati."
+      },
+      "how_to_take": {
+        "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+        "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
+        "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
+      },
+      "review_status": "multilingual_editorial_draft_pending_source_validation"
     }
   ]
 }
