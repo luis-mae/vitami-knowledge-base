@@ -5920,7 +5920,17 @@
         "automatic_recommendation_allowed": false,
         "completed_on": "2026-11-18"
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "targeted_evidence_review": {
+        "section": "Creatine > Implications for use",
+        "claim": "In healthy adults, creatine monohydrate improves repeated high-intensity exercise performance; evidence for endurance benefit is limited.",
+        "dose": "3–5 g/day maintenance; optional loading 20 g/day in four 5 g doses for 5–7 days; alternative 3–6 g/day without loading.",
+        "safety": "Water-weight gain and gastrointestinal symptoms; do not extrapolate to kidney disease or minors.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "review_date": "2026-11-18",
+        "scope": "Specific claim and studied adult dose only; not full monograph clinical validation",
+        "status": "targeted_claim_and_dose_crosschecked"
+      }
     },
     {
       "ingredient_id": "beta_alanine",
@@ -6287,7 +6297,17 @@
         "patient_specific_dosing_allowed": false,
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "targeted_evidence_review": {
+        "section": "Caffeine > Efficacy; Safety; Implications for use",
+        "claim": "May improve endurance and intermittent exercise performance, with variable individual response.",
+        "dose": "Studies use 2–6 mg/kg 15–60 minutes before exercise; total caffeine intake up to 400 mg/day is generally considered safe for most healthy adults, not an individualized recommendation.",
+        "safety": "Insomnia, anxiety, tachycardia and arrhythmia; avoid pure caffeine powder; not a pediatric recommendation.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "review_date": "2026-11-18",
+        "scope": "Specific claim and studied adult dose only; not full monograph clinical validation",
+        "status": "targeted_claim_and_dose_crosschecked"
+      }
     },
     {
       "ingredient_id": "protein_powder",
@@ -7307,7 +7327,17 @@
         "source_candidate": null,
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "targeted_evidence_review": {
+        "section": "Branched-chain amino acids > Efficacy; Safety; Implications for use",
+        "claim": "Evidence does not consistently show additional performance or muscle benefit beyond adequate high-quality protein intake.",
+        "dose": "No established effective routine supplemental dose; studies have examined approximately 10–14 g/day, which is not a recommended dose.",
+        "safety": "Short-term studies of up to 20 g/day do not establish long-term or individual safety.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "review_date": "2026-11-18",
+        "scope": "Specific claim and studied adult dose only; not full monograph clinical validation",
+        "status": "targeted_claim_and_dose_crosschecked"
+      }
     },
     {
       "ingredient_id": "leucine",
@@ -18605,6 +18635,12 @@
     "scientific_claims_validated": "NOT CERTIFIED",
     "clinical_approval": "NOT CERTIFIED",
     "regulatory_product_approval": "NOT CERTIFIED",
-    "note": "Source pointer completion is bibliographic, not claim-level verification; generic sources require ingredient-specific passage checking."
+    "note": "Source pointer completion is bibliographic, not claim-level verification; generic sources require ingredient-specific passage checking.",
+    "targeted_claim_dose_reviews": [
+      "creatine",
+      "caffeine",
+      "bcaa"
+    ],
+    "targeted_claim_dose_review_count": 3
   }
 }
