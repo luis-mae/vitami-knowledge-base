@@ -2579,5 +2579,9 @@
       "status": "NOT_COMPLETE"
     }
   ],
-  "closure": "Paso 1: inventario de presencia/ausencia y bloqueadores registrado para 50/50. Ninguna ficha queda certificada como completa."
+  "closure": "Paso 1: inventario de presencia/ausencia y bloqueadores registrado para 50/50. Ninguna ficha queda certificada como completa.",
+  "governance": {
+    "document_status": "DATED_RESEARCH_EVIDENCE_NOT_MASTER_AUDIT_OR_ACTIVE_PLAN",
+    "instruction": "This file records a bounded research/audit milestone for its named ingredients and date. It is not the current consolidated VITAMI audit and must not be used to infer global completion or current status. Consult luis-mae/vitami/AUDITORIA.md and VITAMI_PLAN_MAESTRO_UNICO.md before acting."
+  }
 }
