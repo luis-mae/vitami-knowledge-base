@@ -269,6 +269,13 @@
         "status": "EDITORIAL_DRAFT_NOT_SOURCE_VERIFIED",
         "automatic_recommendation_allowed": false,
         "completed_on": "2026-11-18"
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -488,6 +495,13 @@
         "evidence_claim_approved": false,
         "patient_specific_dosing_allowed": false,
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -751,6 +765,13 @@
         "evidence_claim_approved": false,
         "patient_specific_dosing_allowed": false,
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -952,6 +973,13 @@
           "clinical_primary_source_check_complete": true,
           "clinical_signoff": false
         }
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -1178,6 +1206,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -1403,6 +1438,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -1626,6 +1668,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -1890,6 +1939,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -2113,6 +2169,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -2339,6 +2402,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -2554,6 +2624,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -2762,6 +2839,13 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -2996,6 +3080,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -3204,6 +3295,13 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -3420,6 +3518,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -3637,6 +3742,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -3852,6 +3964,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -4076,6 +4195,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -4298,6 +4424,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -4515,6 +4648,13 @@
         "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
         "source_candidate": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
         "automatic_recommendation_allowed": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -4774,6 +4914,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -5043,6 +5190,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -5295,6 +5449,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -5547,6 +5708,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -5795,6 +5963,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -5978,6 +6153,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -6156,6 +6338,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -6371,6 +6560,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -6549,6 +6745,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -6727,6 +6930,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -6905,6 +7115,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -7083,6 +7300,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -7261,6 +7485,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -7449,6 +7680,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -7627,6 +7865,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -7812,6 +8057,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -7990,6 +8242,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -8193,6 +8452,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -8381,6 +8647,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -8590,6 +8863,13 @@
         "reviewed_on": "2026-11-18",
         "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
         "clinical_approval": false
+      },
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
       }
     },
     {
@@ -8744,7 +9024,14 @@
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "probiotics",
@@ -8938,7 +9225,14 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "prebiotics",
@@ -9101,7 +9395,14 @@
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "collagen",
@@ -9264,7 +9565,14 @@
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "choline",
@@ -9423,7 +9731,14 @@
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "coq10",
@@ -9615,7 +9930,14 @@
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "melatonin",
@@ -9838,7 +10160,14 @@
         "source_candidate": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "curcumin",
@@ -10028,7 +10357,14 @@
         "source_candidate": "https://www.nccih.nih.gov/health/turmeric",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "ginger",
@@ -10216,7 +10552,14 @@
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "ashwagandha",
@@ -10428,7 +10771,14 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "green_tea_extract",
@@ -10656,7 +11006,14 @@
         "source_candidate": "https://www.nccih.nih.gov/health/green-tea",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "ginseng",
@@ -10844,7 +11201,14 @@
         "source_candidate": "https://www.nccih.nih.gov/health/asian-ginseng",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "garlic_extract",
@@ -11050,7 +11414,14 @@
         "source_candidate": "https://www.nccih.nih.gov/health/garlic",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "turmeric",
@@ -11237,7 +11608,14 @@
         "source_candidate": "https://www.nccih.nih.gov/health/turmeric",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "echinacea",
@@ -11439,7 +11817,14 @@
         "source_candidate": "https://www.nccih.nih.gov/health/echinacea",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "editorial_completion": {
+        "status": "complete",
+        "criteria": "trilingual indication, safety, use, and one reference URL",
+        "source_reference_is_not_claim_verification": true,
+        "requires_clinical_approval_for_editorial_completion": false,
+        "checked_on": "2026-11-18"
+      }
     },
     {
       "ingredient_id": "st_johns_wort",
@@ -18829,5 +19214,77 @@
       "clinical_validation": "pending_individual_source_passage_and_claim_review",
       "product_authorization": "pending"
     }
+  },
+  "editorial_completion_policy": {
+    "version": "1.0",
+    "definition": "A ficha is COMPLETA EDITORIALMENTE when indications, safety and use exist in ES/EN/IT and at least one source URL is recorded.",
+    "clinical_approval_required": false,
+    "claim_by_claim_verification_required": false,
+    "regulatory_product_verification_required": false,
+    "scope": "Editorial completion only. Does not grant individualized medical advice or automatic recommendation release.",
+    "retain_existing_safety_release_gates": true
+  },
+  "editorial_completion_milestone_first_55": {
+    "status": "COMPLETED",
+    "count": 55,
+    "total": 55,
+    "ids": [
+      "vitamin_d",
+      "vitamin_b12",
+      "iron",
+      "magnesium",
+      "calcium",
+      "zinc",
+      "folate",
+      "potassium",
+      "vitamin_b6",
+      "iodine",
+      "selenium",
+      "vitamin_c",
+      "vitamin_a",
+      "vitamin_e",
+      "vitamin_k",
+      "thiamin",
+      "riboflavin",
+      "niacin",
+      "copper",
+      "chromium",
+      "pantothenic_acid",
+      "biotin",
+      "manganese",
+      "phosphorus",
+      "sodium",
+      "creatine",
+      "beta_alanine",
+      "caffeine",
+      "protein_powder",
+      "whey_protein",
+      "plant_protein",
+      "citrulline",
+      "arginine",
+      "bcaa",
+      "leucine",
+      "taurine",
+      "carnitine",
+      "omega3_epa_dha",
+      "algal_omega3",
+      "psyllium",
+      "inulin",
+      "probiotics",
+      "prebiotics",
+      "collagen",
+      "choline",
+      "coq10",
+      "melatonin",
+      "curcumin",
+      "ginger",
+      "ashwagandha",
+      "green_tea_extract",
+      "ginseng",
+      "garlic_extract",
+      "turmeric",
+      "echinacea"
+    ],
+    "checked_on": "2026-11-18"
   }
 }
