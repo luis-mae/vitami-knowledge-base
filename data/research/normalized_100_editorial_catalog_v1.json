@@ -1,5 +1,5 @@
 {
-  "version": "2.22",
+  "version": "2.23",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -2497,6 +2497,20 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Avoid routine selenium for thyroid conditions without documented indication and evidence.",
+        "screen": [
+          "multiple_selenium_products",
+          "brazil_nut_high_intake",
+          "hair_loss_or_nail_changes",
+          "kidney_disease"
+        ],
+        "form": "Quantify elemental selenium; distinguish selenomethionine and other forms.",
+        "decision": "Review cumulative selenium exposure and selenosis symptoms.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -9501,6 +9515,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Do not extrapolate turmeric spice safety to concentrated curcuminoid extracts.",
+        "screen": [
+          "liver_disease",
+          "anticoagulants",
+          "gallbladder_disease",
+          "pregnancy"
+        ],
+        "form": "Record curcuminoid amount, bioavailability enhancers such as piperine and exact extract.",
+        "decision": "Avoid unqualified anti-inflammatory claims; screen hepatotoxicity and drug interactions.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/turmeric",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -12547,6 +12575,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Osteoarthritis symptom evidence varies by formulation and study quality.",
+        "screen": [
+          "warfarin",
+          "shellfish_allergy_product_source",
+          "diabetes",
+          "pregnancy"
+        ],
+        "form": "Distinguish glucosamine sulfate from hydrochloride and combination products.",
+        "decision": "Do not assume all glucosamine formulations equivalent; review warfarin.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17147,6 +17189,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Do not claim proven treatment for chronic insomnia from chamomile tea or extracts.",
+        "screen": [
+          "asteraceae_allergy",
+          "warfarin",
+          "sedatives",
+          "pregnancy"
+        ],
+        "form": "Distinguish infusion, extract and essential oil; oral essential oil is not interchangeable.",
+        "decision": "Flag allergy and interacting medicines; avoid pregnancy claims.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/chamomile",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17929,13 +17985,13 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "iodine",
-    "block_2": "ashwagandha",
-    "block_3": "alpha_lipoic_acid",
-    "block_4": "rhodiola",
+    "block_1": "selenium",
+    "block_2": "curcumin",
+    "block_3": "glucosamine",
+    "block_4": "chamomile",
     "block_5": {
       "verified_products": 0,
-      "product_checks_pending": 100
+      "product_specific_checks_pending": 100
     },
     "block_6": {
       "total": 100,
