@@ -65,7 +65,26 @@
         "professional_approval": false
       },
       "public_recommendation_allowed": false,
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "verify evidence by indication",
+          "verify dose, formulation, and route",
+          "verify drug interactions and vulnerable populations",
+          "check Argentina RNE/RNPA per actual product"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "bromelain",
@@ -99,7 +118,26 @@
         "check Argentina RNE/RNPA per actual product"
       ],
       "regulatory_status": "pending_specific_product",
-      "recommendation_enabled": false
+      "recommendation_enabled": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "verify evidence by indication",
+          "verify dose, formulation, and route",
+          "verify drug interactions and vulnerable populations",
+          "check Argentina RNE/RNPA per actual product"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "propolis",
@@ -133,7 +171,26 @@
         "check Argentina RNE/RNPA per actual product"
       ],
       "regulatory_status": "pending_specific_product",
-      "recommendation_enabled": false
+      "recommendation_enabled": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "verify evidence by indication",
+          "verify dose, formulation, and route",
+          "verify drug interactions and vulnerable populations",
+          "check Argentina RNE/RNPA per actual product"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "maca",
@@ -167,7 +224,26 @@
         "check Argentina RNE/RNPA per actual product"
       ],
       "regulatory_status": "pending_specific_product",
-      "recommendation_enabled": false
+      "recommendation_enabled": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "verify evidence by indication",
+          "verify dose, formulation, and route",
+          "verify drug interactions and vulnerable populations",
+          "check Argentina RNE/RNPA per actual product"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "glutamine",
@@ -201,7 +277,26 @@
         "check Argentina RNE/RNPA per actual product"
       ],
       "regulatory_status": "pending_specific_product",
-      "recommendation_enabled": false
+      "recommendation_enabled": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "verify evidence by indication",
+          "verify dose, formulation, and route",
+          "verify drug interactions and vulnerable populations",
+          "check Argentina RNE/RNPA per actual product"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     }
   ],
   "summary": {
