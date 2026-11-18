@@ -1,5 +1,5 @@
 {
-  "version": "2.17",
+  "version": "2.18",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -736,6 +736,21 @@
           "clinical_primary_source_check_complete": true,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Suspected iron deficiency requires anemia and iron status workup; do not treat fatigue alone.",
+        "screen": [
+          "iron_overload",
+          "unexplained_anemia",
+          "levothyroxine",
+          "tetracyclines_or_quinolones"
+        ],
+        "form": "Specify elemental iron, not total salt mass.",
+        "decision": "Do not recommend automatically without iron status and cause assessment.",
+        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
+        "evidence_claim_approved": false,
+        "patient_specific_dosing_allowed": false,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -7619,6 +7634,21 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Separate triglyceride-lowering prescription indications from general wellness supplement claims.",
+        "screen": [
+          "anticoagulants",
+          "atrial_fibrillation_history",
+          "fish_allergy",
+          "planned_surgery"
+        ],
+        "form": "Quantify EPA and DHA separately, not just total fish-oil capsule weight.",
+        "decision": "Do not imply OTC fish oil equals prescription omega-3 products.",
+        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
+        "evidence_claim_approved": false,
+        "patient_specific_dosing_allowed": false,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -11079,6 +11109,22 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Avoid unqualified glucose-lowering or weight-loss claims.",
+        "screen": [
+          "pregnancy",
+          "lactation",
+          "antidiabetic_drugs",
+          "transplant_drugs",
+          "infants"
+        ],
+        "form": "Identify berberine salt, combination ingredients and standardization.",
+        "decision": "Hard-stop in pregnancy/lactation; require drug interaction review.",
+        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
+        "evidence_claim_approved": false,
+        "patient_specific_dosing_allowed": false,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17032,6 +17078,23 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "No routine recommendation for digestive complaints without checking glycyrrhizin content.",
+        "screen": [
+          "hypertension",
+          "hypokalemia",
+          "heart_failure",
+          "kidney_disease",
+          "diuretics",
+          "digoxin"
+        ],
+        "form": "Distinguish glycyrrhizin-containing licorice from deglycyrrhizinated licorice (DGL).",
+        "decision": "Hard-stop glycyrrhizin products with high-risk cardiovascular or electrolyte conditions.",
+        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
+        "evidence_claim_approved": false,
+        "patient_specific_dosing_allowed": false,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17654,40 +17717,21 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "workstreams": [
-      "block_1",
-      "block_2",
-      "block_3",
-      "block_4",
-      "block_5",
-      "block_6"
-    ],
-    "case_reviews_added": 4,
-    "per_block": {
-      "block_1": "vitamin_b12",
-      "block_2": "caffeine",
-      "block_3": "st_johns_wort",
-      "block_4": "5_htp"
-    },
+    "block_1": "iron",
+    "block_2": "omega3_epa_dha",
+    "block_3": "berberine",
+    "block_4": "licorice_root",
     "block_5": {
-      "products_verified": 0,
-      "records_missing_actual_brand": 100,
-      "required_for_legal_sale_classification": [
-        "actual_product_name",
-        "brand",
-        "strength",
-        "dosage_form",
-        "label",
-        "registration_or_authorization",
-        "sales_channel"
-      ]
+      "real_products_verified": 0,
+      "ingredient_only_legal_classification_prohibited": true
     },
     "block_6": {
       "records": 100,
-      "unique_ingredient_ids": 100,
-      "missing_translations": 0,
-      "unsafe_release_enabled": 0
+      "unique_ids": 100,
+      "missing_trilingual_safety": 0,
+      "auto_recommendation_allowed": 0
     },
-    "note": "No source-claim validation or product approval inferred from these drafts."
+    "cases_added": 4,
+    "scientific_signoff_this_pass": 0
   }
 }
