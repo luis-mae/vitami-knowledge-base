@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-18",
+  "scope": "First 10 of 55; source-based dose-reference audit",
+  "method": "Opened each of ten NIH ODS original source fact sheets and inspected their recommended intake tables. Checked catalog's existing_dose_evidence against tables.",
+  "result": "10/10 source-backed baseline claims confirmed within their stated age groups; 10/10 require contextual age/life-stage and safety rules before clinical or app completion",
+  "entries": [
+    {
+      "ingredient_id": "vitamin_d",
+      "original_source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "15 mcg (600 IU) adults 19–70; 20 mcg (800 IU) >70",
+      "finding": "Adult RDA total intake; older-adult exception missing",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "vitamin_b12",
+      "original_source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "2.4 mcg adults; pregnancy 2.6; lactation 2.8",
+      "finding": "RDA total intake; pregnancy/lactation exceptions missing",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "iron",
+      "original_source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "8 mg men and 18 mg women 19–50; pregnancy 27; lactation 9; women 51+ 8",
+      "finding": "RDA total intake, not iron treatment dose",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "magnesium",
+      "original_source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "400 mg men 19–30, 420 mg men 31+; 310 mg women 19–30, 320 mg women 31+",
+      "finding": "RDA total intake, supplemental UL separate",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "calcium",
+      "original_source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "1000 mg adults 19–50",
+      "finding": "RDA total intake; older adults age/sex vary",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "zinc",
+      "original_source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "11 mg men 19+, 8 mg women 19+; pregnancy 11, lactation 12",
+      "finding": "RDA total intake; excess zinc can impair copper status",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "folate",
+      "original_source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "400 mcg DFE adults; pregnancy 600 mcg DFE; lactation 500 mcg DFE",
+      "finding": "RDA total intake; DFE differs from folic acid mcg and supplemental UL",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "potassium",
+      "original_source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "3400 mg men 19+, 2600 mg women 19+ (AI)",
+      "finding": "AI total intake; not a supplement prescription; renal/medication risks",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "vitamin_b6",
+      "original_source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "1.3 mg 19–50; men 51+ 1.7, women 51+ 1.5",
+      "finding": "RDA total intake; toxicity/UL requires separate guard",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    },
+    {
+      "ingredient_id": "iodine",
+      "original_source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "source_section": "Recommended Intakes / RDA or AI table",
+      "verified_claim": "150 mcg adults; pregnancy 220; lactation 290",
+      "finding": "RDA total intake; thyroid disease requires precautions",
+      "dose_claim_checked": true,
+      "all_other_claims_checked": false,
+      "full_clinical_validation": false,
+      "app_functional_test": false
+    }
+  ]
+}
