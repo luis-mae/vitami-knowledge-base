@@ -1,5 +1,5 @@
 {
-  "version": "2.32",
+  "version": "2.33",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -4752,6 +4752,19 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Pantothenic acid deficiency is rare; distinguish nutritional adequacy from unsupported skin or energy claims.",
+        "screen": [
+          "multiple_b_complex_products",
+          "pregnancy",
+          "gastrointestinal_symptoms"
+        ],
+        "form": "Specify D-pantothenate versus pantethine, mg per serving and total exposure.",
+        "decision": "Do not assume pantethine lipid studies apply to pantothenic acid supplements.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -7780,6 +7793,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Evidence for athletic performance and fatigue is population-specific and inconsistent.",
+        "screen": [
+          "seizure_disorder",
+          "kidney_disease",
+          "thyroid_medications",
+          "warfarin"
+        ],
+        "form": "Differentiate L-carnitine, acetyl-L-carnitine and propionyl-L-carnitine; report actual compound dose.",
+        "decision": "Do not claim routine fat loss or performance improvement.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -12148,6 +12175,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "PCOS and mental health evidence differs by outcome and myo-/D-chiro-inositol ratio.",
+        "screen": [
+          "pregnancy",
+          "diabetes_medications",
+          "bipolar_disorder",
+          "fertility_treatment"
+        ],
+        "form": "Record myo-inositol and D-chiro-inositol amounts separately and ratio.",
+        "decision": "Do not treat formulations as interchangeable or replace fertility/psychiatric care.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -15965,6 +16006,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Eye-health claims require indication-specific evidence and often studied combinations rather than lutein alone.",
+        "screen": [
+          "existing_retinal_disease",
+          "smoking_history",
+          "pregnancy",
+          "multiple_eye_supplements"
+        ],
+        "form": "Record lutein amount and accompanying zeaxanthin or AREDS2 ingredients.",
+        "decision": "Do not generalize AREDS2 findings to healthy eyes or single-ingredient lutein.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -18489,10 +18544,10 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "chromium",
-    "block_2": "taurine",
-    "block_3": "lycopene",
-    "block_4": "hmb",
+    "block_1": "pantothenic_acid",
+    "block_2": "carnitine",
+    "block_3": "inositol",
+    "block_4": "lutein",
     "block_5": {
       "verified_products": 0,
       "pending": 100
@@ -18503,7 +18558,7 @@
       "missing_trilingual_safety": 0,
       "verified_products": 0,
       "auto_enabled": 0,
-      "clinical_case_drafts": 63
+      "clinical_case_drafts": 67
     },
     "new_editorial_cases": 4,
     "scientific_signoff_added": 0
