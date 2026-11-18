@@ -1,7 +1,7 @@
 {
-  "version": "2026-11-18",
+  "version": "2026-11-18-multilingual-expanded",
   "count": 20,
-  "status": "research_drafts_not_clinically_validated",
+  "status": "multilingual_editorial_drafts_not_clinically_validated",
   "notice": "Candidate list. Deduplicate against canonical catalog before activation. Source registry is a starting point, not evidence for each specific claim.",
   "records": [
     {
@@ -13,22 +13,36 @@
       },
       "research_note_es": "No establecer beneficios óseos sin evaluar evidencia y exposición total.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Micronutriente no esencial establecido para humanos; no hay recomendación rutinaria de suplementación.",
+        "en": "Not established as essential for humans; routine supplementation is not recommended.",
+        "it": "Non riconosciuto essenziale per l'uomo; integrazione routinaria non raccomandata."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "No establecer beneficios óseos sin evaluar evidencia y exposición total.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "molybdenum",
@@ -39,22 +53,36 @@
       },
       "research_note_es": "La deficiencia es rara; evitar suplementación indiscriminada.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Oligoelemento esencial; suplementar solo ante contexto de ingesta o deficiencia pertinente.",
+        "en": "Essential trace element; supplementation requires a relevant intake or deficiency context.",
+        "it": "Oligoelemento essenziale; integrare solo in contesto di apporto o carenza pertinente."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "La deficiencia es rara; evitar suplementación indiscriminada.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "chloride",
@@ -65,22 +93,36 @@
       },
       "research_note_es": "Evaluar balance hidroelectrolítico y condiciones renales.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Electrolito dietario; la reposición depende de pérdidas y evaluación clínica.",
+        "en": "Dietary electrolyte; replacement depends on losses and clinical assessment.",
+        "it": "Elettrolita alimentare; reintegro dipende da perdite e valutazione clinica."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Evaluar balance hidroelectrolítico y condiciones renales.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "fluoride",
@@ -91,22 +133,36 @@
       },
       "research_note_es": "Riesgo de fluorosis por exposición excesiva; verificar regulación local.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Su uso preventivo dental no equivale a indicación de suplementación sistémica.",
+        "en": "Dental preventive uses do not imply a systemic supplement indication.",
+        "it": "Gli usi odontoiatrici preventivi non implicano integrazione sistemica."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Riesgo de fluorosis por exposición excesiva; verificar regulación local.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "lutein",
@@ -117,22 +173,36 @@
       },
       "research_note_es": "La evidencia ocular depende de población y combinación específica.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Carotenoide estudiado en salud ocular; resultados dependen de población y combinación.",
+        "en": "Carotenoid studied for eye health; outcomes depend on population and combination.",
+        "it": "Carotenoide studiato per salute oculare; esiti dipendono da popolazione e combinazione."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "La evidencia ocular depende de población y combinación específica.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "zeaxanthin",
@@ -143,22 +213,36 @@
       },
       "research_note_es": "No extrapolar estudios de formulaciones combinadas a uso aislado.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Carotenoide estudiado en formulaciones oculares específicas; no extrapolar a dosis aisladas.",
+        "en": "Carotenoid studied in specific eye formulations; do not extrapolate to isolated dosing.",
+        "it": "Carotenoide studiato in formulazioni oculari; non estrapolare a dosi isolate."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "No extrapolar estudios de formulaciones combinadas a uso aislado.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "hmb",
@@ -169,22 +253,36 @@
       },
       "research_note_es": "Resultados de rendimiento y masa muscular dependen del contexto.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Metabolito de leucina investigado para masa y función muscular en contextos definidos.",
+        "en": "Leucine metabolite studied for muscle mass and function in defined settings.",
+        "it": "Metabolita della leucina studiato per massa e funzione muscolare in contesti definiti."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Resultados de rendimiento y masa muscular dependen del contexto.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "betaine",
@@ -195,22 +293,36 @@
       },
       "research_note_es": "Distinguir betaína anhidra de betaína HCl y usos clínicos.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Compuesto con formulaciones y usos diferentes; identificar forma antes de evaluar evidencia.",
+        "en": "Compound with distinct forms and uses; identify form before assessing evidence.",
+        "it": "Composto con forme e usi differenti; identificare la forma prima di valutare le prove."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Distinguir betaína anhidra de betaína HCl y usos clínicos.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "l_tryptophan",
@@ -221,22 +333,36 @@
       },
       "research_note_es": "Revisar fármacos serotoninérgicos y somnolencia.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Aminoácido precursor de serotonina; no usar como tratamiento autónomo de trastornos del ánimo.",
+        "en": "Serotonin precursor amino acid; not a standalone mood-disorder treatment.",
+        "it": "Aminoacido precursore della serotonina; non terapia autonoma dei disturbi dell'umore."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Revisar fármacos serotoninérgicos y somnolencia.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "5_htp",
@@ -247,22 +373,36 @@
       },
       "research_note_es": "Riesgo de interacción con antidepresivos serotoninérgicos.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Precursor de serotonina estudiado para diversos objetivos; evidencia insuficiente para uso general.",
+        "en": "Serotonin precursor studied for several outcomes; insufficient evidence for general use.",
+        "it": "Precursore della serotonina studiato per vari esiti; prove insufficienti per uso generale."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Riesgo de interacción con antidepresivos serotoninérgicos.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "bacopa",
@@ -273,22 +413,36 @@
       },
       "research_note_es": "Evidencia cognitiva limitada; revisar tolerancia e interacciones.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Planta estudiada para resultados cognitivos; ensayos heterogéneos y preparados variables.",
+        "en": "Botanical studied for cognition; heterogeneous trials and variable preparations.",
+        "it": "Pianta studiata per cognizione; studi eterogenei e preparati variabili."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Evidencia cognitiva limitada; revisar tolerancia e interacciones.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "milk_thistle",
@@ -299,22 +453,36 @@
       },
       "research_note_es": "No afirmar tratamiento de enfermedad hepática sin evidencia clínica.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Investigado para afecciones hepáticas; no reemplaza diagnóstico ni tratamiento.",
+        "en": "Studied for liver conditions; does not replace diagnosis or treatment.",
+        "it": "Studiato per condizioni epatiche; non sostituisce diagnosi o trattamento."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "No afirmar tratamiento de enfermedad hepática sin evidencia clínica.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "peppermint_oil",
@@ -325,22 +493,36 @@
       },
       "research_note_es": "Distinguir formulaciones entéricas; puede agravar reflujo.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Aceite estudiado para algunos síntomas digestivos; forma de liberación relevante.",
+        "en": "Oil studied for certain digestive symptoms; release formulation matters.",
+        "it": "Olio studiato per alcuni sintomi digestivi; importante la formulazione."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Distinguir formulaciones entéricas; puede agravar reflujo.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "passionflower",
@@ -351,22 +533,36 @@
       },
       "research_note_es": "Precaución con sedantes y embarazo.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Investigada para ansiedad y sueño; evidencia limitada y variable.",
+        "en": "Studied for anxiety and sleep; evidence is limited and variable.",
+        "it": "Studiata per ansia e sonno; prove limitate e variabili."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Precaución con sedantes y embarazo.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "chamomile",
@@ -377,22 +573,36 @@
       },
       "research_note_es": "Revisar alergias a asteráceas e interacciones.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Planta usada tradicionalmente para síntomas leves; evidencia depende del resultado.",
+        "en": "Traditionally used for mild symptoms; evidence depends on outcome.",
+        "it": "Pianta usata tradizionalmente per sintomi lievi; prove dipendono dall'esito."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Revisar alergias a asteráceas e interacciones.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "licorice_root",
@@ -403,22 +613,36 @@
       },
       "research_note_es": "Puede elevar presión y reducir potasio; precaución cardiovascular.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "No recomendar para bienestar general por posibles efectos cardiovasculares y electrolíticos.",
+        "en": "Not recommended for general wellness due to possible cardiovascular and electrolyte effects.",
+        "it": "Non raccomandata per benessere generale per possibili effetti cardiovascolari ed elettrolitici."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Puede elevar presión y reducir potasio; precaución cardiovascular.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "bromelain",
@@ -429,22 +653,36 @@
       },
       "research_note_es": "Revisar alergia a piña e interacciones con anticoagulantes.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Enzimas de piña investigadas para inflamación y otros objetivos; evidencia específica limitada.",
+        "en": "Pineapple enzymes studied for inflammation and other outcomes; indication-specific evidence is limited.",
+        "it": "Enzimi dell'ananas studiati per infiammazione e altri esiti; prove specifiche limitate."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Revisar alergia a piña e interacciones con anticoagulantes.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "propolis",
@@ -455,22 +693,36 @@
       },
       "research_note_es": "Revisar alergias a productos apícolas y calidad.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Producto apícola estudiado para diversos usos; evidencia y calidad variables.",
+        "en": "Bee product studied for several uses; evidence and quality vary.",
+        "it": "Prodotto apistico studiato per vari usi; prove e qualità variabili."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Revisar alergias a productos apícolas y calidad.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "maca",
@@ -481,22 +733,36 @@
       },
       "research_note_es": "Evidencia insuficiente para promesas hormonales o reproductivas.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Raíz investigada para síntomas sexuales y bienestar; no asumir efecto hormonal clínico.",
+        "en": "Root studied for sexual symptoms and wellness; do not assume clinical hormonal effects.",
+        "it": "Radice studiata per sintomi sessuali e benessere; non presumere effetti ormonali clinici."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Evidencia insuficiente para promesas hormonales o reproductivas.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     },
     {
       "ingredient_id": "glutamine",
@@ -507,22 +773,36 @@
       },
       "research_note_es": "Distinguir usos clínicos específicos de suplementación deportiva.",
       "language_completion": {
-        "es": "partial",
-        "en": "name_only",
-        "it": "name_only"
+        "es": "editorial_draft",
+        "en": "editorial_draft",
+        "it": "editorial_draft"
       },
       "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
       "source_match_status": "requires_specific_fact_sheet_or_primary_study",
       "evidence_status": "not_verified",
       "clinical_review_status": "pending",
       "dose": "not_assigned",
-      "indication": "not_approved",
+      "indication": {
+        "es": "Aminoácido investigado en nutrición clínica y ejercicio; indicación depende de contexto.",
+        "en": "Amino acid studied in clinical nutrition and exercise; indication depends on context.",
+        "it": "Aminoacido studiato in nutrizione clinica ed esercizio; indicazione dipende dal contesto."
+      },
       "argentina": {
         "availability": "unverified",
         "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
         "prescription_status": "unknown"
       },
-      "public_recommendation_allowed": false
+      "public_recommendation_allowed": false,
+      "safety_focus": {
+        "es": "Distinguir usos clínicos específicos de suplementación deportiva.",
+        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+      },
+      "how_to_take": {
+        "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+        "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+        "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+      }
     }
   ]
 }
