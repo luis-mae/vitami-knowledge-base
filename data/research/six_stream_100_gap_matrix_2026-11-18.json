@@ -1,0 +1,2636 @@
+{
+  "generated_on": "2026-11-18",
+  "kind": "six_stream_evidence_gap_matrix",
+  "note": "This is a presence and verification-gap audit, not an independent scientific appraisal. Candidate research list may differ from canonical library. No clinical approval inferred.",
+  "candidate_count": 100,
+  "duplicate_candidate_ids": 0,
+  "prior_audit_stats": {
+    "candidate_records": 100,
+    "unique_ids": 100,
+    "duplicate_ids": [],
+    "complete_es_en_it_indication": 20,
+    "complete_es_en_it_safety": 60,
+    "has_reference_intake": 20,
+    "has_upper_limit": 20,
+    "has_specific_source_link": 20,
+    "clinically_approved": 0
+  },
+  "blocks": [
+    {
+      "block": 1,
+      "records": 25,
+      "missing_source_pointer": 5,
+      "missing_trilingual_indication": 20,
+      "missing_trilingual_safety": 20
+    },
+    {
+      "block": 2,
+      "records": 25,
+      "missing_source_pointer": 20,
+      "missing_trilingual_indication": 0,
+      "missing_trilingual_safety": 0
+    },
+    {
+      "block": 3,
+      "records": 25,
+      "missing_source_pointer": 11,
+      "missing_trilingual_indication": 0,
+      "missing_trilingual_safety": 0
+    },
+    {
+      "block": 4,
+      "records": 25,
+      "missing_source_pointer": 20,
+      "missing_trilingual_indication": 0,
+      "missing_trilingual_safety": 0
+    }
+  ],
+  "regulation": {
+    "country": "AR",
+    "checked_specific_products": 0,
+    "policy": "Unknown until actual registered product, formulation, strength and applicable RNE/RNPA or medicine status checked."
+  },
+  "integration": {
+    "recommendations_enabled": false,
+    "clinical_approvals": 0,
+    "unresolved": "Canonical ID mapping and per-claim source appraisal remain necessary."
+  },
+  "records": [
+    {
+      "index": 1,
+      "block": 1,
+      "ingredient_id": "vitamin_d",
+      "names": {
+        "es": "Vitamina D",
+        "en": "Vitamin D",
+        "it": "Vitamina D"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 2,
+      "block": 1,
+      "ingredient_id": "vitamin_b12",
+      "names": {
+        "es": "Vitamina B12",
+        "en": "Vitamin B12",
+        "it": "Vitamina B12"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 3,
+      "block": 1,
+      "ingredient_id": "iron",
+      "names": {
+        "es": "Hierro",
+        "en": "Iron",
+        "it": "Ferro"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 4,
+      "block": 1,
+      "ingredient_id": "magnesium",
+      "names": {
+        "es": "Magnesio",
+        "en": "Magnesium",
+        "it": "Magnesio"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 5,
+      "block": 1,
+      "ingredient_id": "calcium",
+      "names": {
+        "es": "Calcio",
+        "en": "Calcium",
+        "it": "Calcio"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 6,
+      "block": 1,
+      "ingredient_id": "zinc",
+      "names": {
+        "es": "Zinc",
+        "en": "Zinc",
+        "it": "Zinco"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 7,
+      "block": 1,
+      "ingredient_id": "folate",
+      "names": {
+        "es": "Folato",
+        "en": "Folate",
+        "it": "Folato"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 8,
+      "block": 1,
+      "ingredient_id": "potassium",
+      "names": {
+        "es": "Potasio",
+        "en": "Potassium",
+        "it": "Potassio"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 9,
+      "block": 1,
+      "ingredient_id": "vitamin_b6",
+      "names": {
+        "es": "Vitamina B6",
+        "en": "Vitamin B6",
+        "it": "Vitamina B6"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 10,
+      "block": 1,
+      "ingredient_id": "iodine",
+      "names": {
+        "es": "Yodo",
+        "en": "Iodine",
+        "it": "Iodio"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 11,
+      "block": 1,
+      "ingredient_id": "selenium",
+      "names": {
+        "es": "Selenio",
+        "en": "Selenium",
+        "it": "Selenio"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 12,
+      "block": 1,
+      "ingredient_id": "vitamin_c",
+      "names": {
+        "es": "Vitamina C",
+        "en": "Vitamin C",
+        "it": "Vitamina C"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 13,
+      "block": 1,
+      "ingredient_id": "vitamin_a",
+      "names": {
+        "es": "Vitamina A",
+        "en": "Vitamin A",
+        "it": "Vitamina A"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 14,
+      "block": 1,
+      "ingredient_id": "vitamin_e",
+      "names": {
+        "es": "Vitamina E",
+        "en": "Vitamin E",
+        "it": "Vitamina E"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 15,
+      "block": 1,
+      "ingredient_id": "vitamin_k",
+      "names": {
+        "es": "Vitamina K",
+        "en": "Vitamin K",
+        "it": "Vitamina K"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 16,
+      "block": 1,
+      "ingredient_id": "thiamin",
+      "names": {
+        "es": "Tiamina B1",
+        "en": "Thiamin B1",
+        "it": "Tiamina B1"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 17,
+      "block": 1,
+      "ingredient_id": "riboflavin",
+      "names": {
+        "es": "Riboflavina B2",
+        "en": "Riboflavin B2",
+        "it": "Riboflavina B2"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 18,
+      "block": 1,
+      "ingredient_id": "niacin",
+      "names": {
+        "es": "Niacina B3",
+        "en": "Niacin B3",
+        "it": "Niacina B3"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 19,
+      "block": 1,
+      "ingredient_id": "copper",
+      "names": {
+        "es": "Cobre",
+        "en": "Copper",
+        "it": "Rame"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 20,
+      "block": 1,
+      "ingredient_id": "chromium",
+      "names": {
+        "es": "Cromo",
+        "en": "Chromium",
+        "it": "Cromo"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": false,
+      "safety_trilingual_present": false,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "indication_es_en_it",
+        "safety_es_en_it",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 21,
+      "block": 1,
+      "ingredient_id": "pantothenic_acid",
+      "names": {
+        "es": "Ácido pantoténico",
+        "en": "Pantothenic acid",
+        "it": "Acido pantotenico"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 22,
+      "block": 1,
+      "ingredient_id": "biotin",
+      "names": {
+        "es": "Biotina",
+        "en": "Biotin",
+        "it": "Biotina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 23,
+      "block": 1,
+      "ingredient_id": "manganese",
+      "names": {
+        "es": "Manganeso",
+        "en": "Manganese",
+        "it": "Manganese"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 24,
+      "block": 1,
+      "ingredient_id": "phosphorus",
+      "names": {
+        "es": "Fósforo",
+        "en": "Phosphorus",
+        "it": "Fosforo"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 25,
+      "block": 1,
+      "ingredient_id": "sodium",
+      "names": {
+        "es": "Sodio",
+        "en": "Sodium",
+        "it": "Sodio"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 26,
+      "block": 2,
+      "ingredient_id": "creatine",
+      "names": {
+        "es": "Creatina",
+        "en": "Creatine",
+        "it": "Creatina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 27,
+      "block": 2,
+      "ingredient_id": "beta_alanine",
+      "names": {
+        "es": "Beta-alanina",
+        "en": "Beta-alanine",
+        "it": "Beta-alanina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 28,
+      "block": 2,
+      "ingredient_id": "caffeine",
+      "names": {
+        "es": "Cafeína",
+        "en": "Caffeine",
+        "it": "Caffeina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 29,
+      "block": 2,
+      "ingredient_id": "protein_powder",
+      "names": {
+        "es": "Proteína en polvo",
+        "en": "Protein powder",
+        "it": "Proteine in polvere"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 30,
+      "block": 2,
+      "ingredient_id": "whey_protein",
+      "names": {
+        "es": "Proteína de suero",
+        "en": "Whey protein",
+        "it": "Proteine del siero"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 31,
+      "block": 2,
+      "ingredient_id": "plant_protein",
+      "names": {
+        "es": "Proteína vegetal",
+        "en": "Plant protein",
+        "it": "Proteine vegetali"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 32,
+      "block": 2,
+      "ingredient_id": "citrulline",
+      "names": {
+        "es": "Citrulina",
+        "en": "Citrulline",
+        "it": "Citrullina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 33,
+      "block": 2,
+      "ingredient_id": "arginine",
+      "names": {
+        "es": "Arginina",
+        "en": "Arginine",
+        "it": "Arginina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 34,
+      "block": 2,
+      "ingredient_id": "bcaa",
+      "names": {
+        "es": "Aminoácidos ramificados",
+        "en": "Branched-chain amino acids",
+        "it": "Aminoacidi ramificati"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 35,
+      "block": 2,
+      "ingredient_id": "leucine",
+      "names": {
+        "es": "Leucina",
+        "en": "Leucine",
+        "it": "Leucina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 36,
+      "block": 2,
+      "ingredient_id": "taurine",
+      "names": {
+        "es": "Taurina",
+        "en": "Taurine",
+        "it": "Taurina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 37,
+      "block": 2,
+      "ingredient_id": "carnitine",
+      "names": {
+        "es": "Carnitina",
+        "en": "Carnitine",
+        "it": "Carnitina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 38,
+      "block": 2,
+      "ingredient_id": "omega3_epa_dha",
+      "names": {
+        "es": "Omega-3 EPA/DHA",
+        "en": "Omega-3 EPA/DHA",
+        "it": "Omega-3 EPA/DHA"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 39,
+      "block": 2,
+      "ingredient_id": "algal_omega3",
+      "names": {
+        "es": "Omega-3 de algas",
+        "en": "Algal omega-3",
+        "it": "Omega-3 da alghe"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 40,
+      "block": 2,
+      "ingredient_id": "psyllium",
+      "names": {
+        "es": "Psyllium",
+        "en": "Psyllium",
+        "it": "Psillio"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 41,
+      "block": 2,
+      "ingredient_id": "inulin",
+      "names": {
+        "es": "Inulina",
+        "en": "Inulin",
+        "it": "Inulina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 42,
+      "block": 2,
+      "ingredient_id": "probiotics",
+      "names": {
+        "es": "Probióticos",
+        "en": "Probiotics",
+        "it": "Probiotici"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 43,
+      "block": 2,
+      "ingredient_id": "prebiotics",
+      "names": {
+        "es": "Prebióticos",
+        "en": "Prebiotics",
+        "it": "Prebiotici"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 44,
+      "block": 2,
+      "ingredient_id": "collagen",
+      "names": {
+        "es": "Colágeno",
+        "en": "Collagen",
+        "it": "Collagene"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 45,
+      "block": 2,
+      "ingredient_id": "choline",
+      "names": {
+        "es": "Colina",
+        "en": "Choline",
+        "it": "Colina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 46,
+      "block": 2,
+      "ingredient_id": "coq10",
+      "names": {
+        "es": "Coenzima Q10",
+        "en": "Coenzyme Q10",
+        "it": "Coenzima Q10"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/coenzyme-q10",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 47,
+      "block": 2,
+      "ingredient_id": "melatonin",
+      "names": {
+        "es": "Melatonina",
+        "en": "Melatonin",
+        "it": "Melatonina"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 48,
+      "block": 2,
+      "ingredient_id": "curcumin",
+      "names": {
+        "es": "Curcumina",
+        "en": "Curcumin",
+        "it": "Curcumina"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/turmeric",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 49,
+      "block": 2,
+      "ingredient_id": "ginger",
+      "names": {
+        "es": "Jengibre",
+        "en": "Ginger",
+        "it": "Zenzero"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/ginger",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 50,
+      "block": 2,
+      "ingredient_id": "ashwagandha",
+      "names": {
+        "es": "Ashwagandha",
+        "en": "Ashwagandha",
+        "it": "Ashwagandha"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 51,
+      "block": 3,
+      "ingredient_id": "green_tea_extract",
+      "names": {
+        "es": "Extracto de té verde",
+        "en": "Green tea extract",
+        "it": "Estratto di tè verde"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/green-tea",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 52,
+      "block": 3,
+      "ingredient_id": "ginseng",
+      "names": {
+        "es": "Ginseng",
+        "en": "Ginseng",
+        "it": "Ginseng"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/asian-ginseng",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 53,
+      "block": 3,
+      "ingredient_id": "garlic_extract",
+      "names": {
+        "es": "Extracto de ajo",
+        "en": "Garlic extract",
+        "it": "Estratto di aglio"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/garlic",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 54,
+      "block": 3,
+      "ingredient_id": "turmeric",
+      "names": {
+        "es": "Cúrcuma",
+        "en": "Turmeric",
+        "it": "Curcuma"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/turmeric",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 55,
+      "block": 3,
+      "ingredient_id": "echinacea",
+      "names": {
+        "es": "Equinácea",
+        "en": "Echinacea",
+        "it": "Echinacea"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/echinacea",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 56,
+      "block": 3,
+      "ingredient_id": "st_johns_wort",
+      "names": {
+        "es": "Hierba de San Juan",
+        "en": "St John's wort",
+        "it": "Iperico"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/st-johns-wort",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 57,
+      "block": 3,
+      "ingredient_id": "berberine",
+      "names": {
+        "es": "Berberina",
+        "en": "Berberine",
+        "it": "Berberina"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 58,
+      "block": 3,
+      "ingredient_id": "alpha_lipoic_acid",
+      "names": {
+        "es": "Ácido alfa lipoico",
+        "en": "Alpha-lipoic acid",
+        "it": "Acido alfa-lipoico"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 59,
+      "block": 3,
+      "ingredient_id": "astaxanthin",
+      "names": {
+        "es": "Astaxantina",
+        "en": "Astaxanthin",
+        "it": "Astaxantina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 60,
+      "block": 3,
+      "ingredient_id": "beta_carotene",
+      "names": {
+        "es": "Betacaroteno",
+        "en": "Beta-carotene",
+        "it": "Beta-carotene"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 61,
+      "block": 3,
+      "ingredient_id": "inositol",
+      "names": {
+        "es": "Inositol",
+        "en": "Inositol",
+        "it": "Inositolo"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 62,
+      "block": 3,
+      "ingredient_id": "lycopene",
+      "names": {
+        "es": "Licopeno",
+        "en": "Lycopene",
+        "it": "Licopene"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 63,
+      "block": 3,
+      "ingredient_id": "mct_oil",
+      "names": {
+        "es": "Aceite MCT",
+        "en": "MCT oil",
+        "it": "Olio MCT"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 64,
+      "block": 3,
+      "ingredient_id": "nac",
+      "names": {
+        "es": "N-acetilcisteína",
+        "en": "N-acetylcysteine",
+        "it": "N-acetilcisteina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 65,
+      "block": 3,
+      "ingredient_id": "spirulina",
+      "names": {
+        "es": "Espirulina",
+        "en": "Spirulina",
+        "it": "Spirulina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 66,
+      "block": 3,
+      "ingredient_id": "glucosamine",
+      "names": {
+        "es": "Glucosamina",
+        "en": "Glucosamine",
+        "it": "Glucosamina"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 67,
+      "block": 3,
+      "ingredient_id": "chondroitin",
+      "names": {
+        "es": "Condroitina",
+        "en": "Chondroitin",
+        "it": "Condroitina"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 68,
+      "block": 3,
+      "ingredient_id": "msm",
+      "names": {
+        "es": "Metilsulfonilmetano",
+        "en": "Methylsulfonylmethane",
+        "it": "Metilsulfonilmetano"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 69,
+      "block": 3,
+      "ingredient_id": "l_theanine",
+      "names": {
+        "es": "L-teanina",
+        "en": "L-theanine",
+        "it": "L-teanina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 70,
+      "block": 3,
+      "ingredient_id": "quercetin",
+      "names": {
+        "es": "Quercetina",
+        "en": "Quercetin",
+        "it": "Quercetina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 71,
+      "block": 3,
+      "ingredient_id": "resveratrol",
+      "names": {
+        "es": "Resveratrol",
+        "en": "Resveratrol",
+        "it": "Resveratrolo"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/resveratrol",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 72,
+      "block": 3,
+      "ingredient_id": "elderberry",
+      "names": {
+        "es": "Saúco",
+        "en": "Elderberry",
+        "it": "Sambuco"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/elderberry",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 73,
+      "block": 3,
+      "ingredient_id": "cranberry",
+      "names": {
+        "es": "Arándano rojo",
+        "en": "Cranberry",
+        "it": "Mirtillo rosso americano"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/cranberry",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 74,
+      "block": 3,
+      "ingredient_id": "d_mannose",
+      "names": {
+        "es": "D-manosa",
+        "en": "D-mannose",
+        "it": "D-mannosio"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 75,
+      "block": 3,
+      "ingredient_id": "saw_palmetto",
+      "names": {
+        "es": "Serenoa repens",
+        "en": "Saw palmetto",
+        "it": "Serenoa repens"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/saw-palmetto",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 76,
+      "block": 4,
+      "ingredient_id": "valerian",
+      "names": {
+        "es": "Valeriana",
+        "en": "Valerian",
+        "it": "Valeriana"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/valerian",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 77,
+      "block": 4,
+      "ingredient_id": "rhodiola",
+      "names": {
+        "es": "Rodiola",
+        "en": "Rhodiola",
+        "it": "Rodiola"
+      },
+      "source_pointer": "https://www.nccih.nih.gov/health/rhodiola",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 78,
+      "block": 4,
+      "ingredient_id": "beetroot_nitrate",
+      "names": {
+        "es": "Nitratos de remolacha",
+        "en": "Beetroot nitrates",
+        "it": "Nitrati di barbabietola"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 79,
+      "block": 4,
+      "ingredient_id": "electrolytes",
+      "names": {
+        "es": "Electrolitos",
+        "en": "Electrolytes",
+        "it": "Elettroliti"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 80,
+      "block": 4,
+      "ingredient_id": "multivitamin",
+      "names": {
+        "es": "Multivitamínico",
+        "en": "Multivitamin",
+        "it": "Multivitaminico"
+      },
+      "source_pointer": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 81,
+      "block": 4,
+      "ingredient_id": "boron",
+      "names": {
+        "es": "Boro",
+        "en": "Boron",
+        "it": "Boro"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 82,
+      "block": 4,
+      "ingredient_id": "molybdenum",
+      "names": {
+        "es": "Molibdeno",
+        "en": "Molybdenum",
+        "it": "Molibdeno"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 83,
+      "block": 4,
+      "ingredient_id": "chloride",
+      "names": {
+        "es": "Cloruro",
+        "en": "Chloride",
+        "it": "Cloruro"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 84,
+      "block": 4,
+      "ingredient_id": "fluoride",
+      "names": {
+        "es": "Fluoruro",
+        "en": "Fluoride",
+        "it": "Fluoruro"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 85,
+      "block": 4,
+      "ingredient_id": "lutein",
+      "names": {
+        "es": "Luteína",
+        "en": "Lutein",
+        "it": "Luteina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 86,
+      "block": 4,
+      "ingredient_id": "zeaxanthin",
+      "names": {
+        "es": "Zeaxantina",
+        "en": "Zeaxanthin",
+        "it": "Zeaxantina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 87,
+      "block": 4,
+      "ingredient_id": "hmb",
+      "names": {
+        "es": "HMB",
+        "en": "Beta-hydroxy beta-methylbutyrate",
+        "it": "HMB"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 88,
+      "block": 4,
+      "ingredient_id": "betaine",
+      "names": {
+        "es": "Betaína",
+        "en": "Betaine",
+        "it": "Betaina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 89,
+      "block": 4,
+      "ingredient_id": "l_tryptophan",
+      "names": {
+        "es": "L-triptófano",
+        "en": "L-tryptophan",
+        "it": "L-triptofano"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 90,
+      "block": 4,
+      "ingredient_id": "5_htp",
+      "names": {
+        "es": "5-HTP",
+        "en": "5-HTP",
+        "it": "5-HTP"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 91,
+      "block": 4,
+      "ingredient_id": "bacopa",
+      "names": {
+        "es": "Bacopa monnieri",
+        "en": "Bacopa monnieri",
+        "it": "Bacopa monnieri"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 92,
+      "block": 4,
+      "ingredient_id": "milk_thistle",
+      "names": {
+        "es": "Cardo mariano",
+        "en": "Milk thistle",
+        "it": "Cardo mariano"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 93,
+      "block": 4,
+      "ingredient_id": "peppermint_oil",
+      "names": {
+        "es": "Aceite de menta",
+        "en": "Peppermint oil",
+        "it": "Olio di menta piperita"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 94,
+      "block": 4,
+      "ingredient_id": "passionflower",
+      "names": {
+        "es": "Pasiflora",
+        "en": "Passionflower",
+        "it": "Passiflora"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 95,
+      "block": 4,
+      "ingredient_id": "chamomile",
+      "names": {
+        "es": "Manzanilla",
+        "en": "Chamomile",
+        "it": "Camomilla"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 96,
+      "block": 4,
+      "ingredient_id": "licorice_root",
+      "names": {
+        "es": "Regaliz",
+        "en": "Licorice root",
+        "it": "Liquirizia"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 97,
+      "block": 4,
+      "ingredient_id": "bromelain",
+      "names": {
+        "es": "Bromelina",
+        "en": "Bromelain",
+        "it": "Bromelina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 98,
+      "block": 4,
+      "ingredient_id": "propolis",
+      "names": {
+        "es": "Propóleo",
+        "en": "Propolis",
+        "it": "Propoli"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 99,
+      "block": 4,
+      "ingredient_id": "maca",
+      "names": {
+        "es": "Maca",
+        "en": "Maca",
+        "it": "Maca"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    },
+    {
+      "index": 100,
+      "block": 4,
+      "ingredient_id": "glutamine",
+      "names": {
+        "es": "Glutamina",
+        "en": "Glutamine",
+        "it": "Glutammina"
+      },
+      "source_pointer": null,
+      "source_claim_verified": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
+      "Argentina_product_verified": false,
+      "documentary_status": "incomplete",
+      "ready_for_professional_approval": false,
+      "clinical_approved": false,
+      "missing_checks": [
+        "ingredient_specific_source",
+        "source_claim_verification",
+        "dose_form_population_verification",
+        "interaction_review",
+        "Argentina_product_registration",
+        "professional_approval"
+      ]
+    }
+  ]
+}
