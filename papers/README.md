@@ -1,3 +1,5 @@
+> **ARCHIVO DOCUMENTAL, NO FUENTE DE DATOS DEL MOTOR:** los papers y sus auditorías son materiales de trabajo editorial. No son una base científica paralela ni el estado maestro del producto. La base científica canónica es `main/phase2/library/`; la auditoría maestra es `luis-mae/vitami/AUDITORIA.md`.
+
 # VITAMI — Papers y auditorías de la biblioteca
 
 Directorio de referencia y control documental de los papers de VITAMI.
