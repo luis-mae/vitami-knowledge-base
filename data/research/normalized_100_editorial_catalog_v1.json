@@ -1,5 +1,5 @@
 {
-  "version": "2.11",
+  "version": "2.12",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -237,6 +237,14 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Confirmed deficiency and bone health; routine supplementation in healthy adults without deficiency should not be equated with disease prevention.",
+          "distinction": "Nutritional RDA is not a treatment regimen for diagnosed deficiency.",
+          "risk": "Hypercalcemia; thiazides; kidney disease.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -419,6 +427,14 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Deficiency treatment and prevention in at-risk dietary or malabsorption contexts.",
+          "distinction": "Oral and parenteral regimens depend on cause and neurologic findings; RDA is not a replacement treatment dose.",
+          "risk": "Metformin and acid suppression can contribute to low B12; neurologic signs require assessment.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -1029,6 +1045,14 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Adequate dietary calcium supports bone health; supplementation depends on total dietary intake.",
+          "distinction": "Dietary requirement and supplemental elemental calcium per dose must be distinguished.",
+          "risk": "Kidney stones, hypercalcemia and levothyroxine separation.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -1218,6 +1242,14 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Zinc deficiency; avoid general immune-boosting claims without indication-specific evidence.",
+          "distinction": "RDA does not equal therapeutic regimen; excess zinc can induce copper deficiency.",
+          "risk": "Quinolones and tetracyclines require spacing.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -1405,6 +1437,14 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Folate deficiency and periconceptional neural-tube defect prevention using pregnancy-specific guidance.",
+          "distinction": "400 mcg DFE dietary RDA is not identical to 400 mcg folic acid supplement.",
+          "risk": "High-dose folic acid may obscure hematologic B12 deficiency; review antiepileptics.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -1632,6 +1672,14 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Dietary potassium adequacy; potassium replacement only with laboratory and clinical indication.",
+          "distinction": "Adequate intake is not a supplemental potassium prescription.",
+          "risk": "Kidney impairment, ACE inhibitors, ARBs and potassium-sparing diuretics can cause hyperkalemia.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -1819,6 +1867,14 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Prevention and correction of deficiency; high-dose nonspecific use lacks default justification.",
+          "distinction": "Neuropathy risk at chronic excess; EU and US UL frameworks differ.",
+          "risk": "Aggregate B6 from multiple products.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -2009,6 +2065,14 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Adequate intake for thyroid hormone synthesis; pregnancy-specific requirements.",
+          "distinction": "Seaweed iodine content varies widely and is not interchangeable with standardized mcg doses.",
+          "risk": "Thyroid disorders and amiodarone.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -16359,6 +16423,7 @@
     "clinical_screening_rule_drafts_added": 22,
     "clinical_review_worklists_added": 25,
     "quality_control_checks_added": 25,
-    "source_audits": 25
+    "source_audits": 25,
+    "indication_specific_editorial_reviews_added": 8
   }
 }
