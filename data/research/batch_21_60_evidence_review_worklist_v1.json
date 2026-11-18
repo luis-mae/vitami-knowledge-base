@@ -1,0 +1,696 @@
+{
+  "version": "batch-21-60-v1",
+  "purpose": "40-ingredient review worklist anchored to existing editorial catalog; no clinical approval implied",
+  "source_catalog": "data/research/normalized_100_editorial_catalog_v1.json",
+  "source_catalog_commit": "65764f634690e3ad1d59619378e82ede6844ff78",
+  "scope": "ingredients 21-60",
+  "status": "research_pending",
+  "count": 40,
+  "notes": [
+    "Preserve existing trilingual content in master catalog; this file does not overwrite it.",
+    "ODS listing is a discovery starting point, not ingredient-specific evidence.",
+    "For each record verify claim-specific human evidence, dose, interactions, contraindications, Argentine product classification and clinical sign-off before activation."
+  ],
+  "records": [
+    {
+      "catalog_position": 21,
+      "ingredient_id": "pantothenic_acid",
+      "names": {
+        "es": "Ácido pantoténico",
+        "en": "Pantothenic acid",
+        "it": "Acido pantotenico"
+      },
+      "existing_indication": "Nutriente esencial para metabolismo energético; deficiencia aislada infrecuente.",
+      "existing_safety": "Revisar enfermedad renal, embarazo y duplicación con multivitamínicos.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 22,
+      "ingredient_id": "biotin",
+      "names": {
+        "es": "Biotina",
+        "en": "Biotin",
+        "it": "Biotina"
+      },
+      "existing_indication": "Nutriente esencial; la suplementación para cabello o uñas sin deficiencia carece de evidencia sólida.",
+      "existing_safety": "Puede interferir con pruebas de laboratorio, incluidas algunas cardíacas y tiroideas; informar al laboratorio.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 23,
+      "ingredient_id": "manganese",
+      "names": {
+        "es": "Manganeso",
+        "en": "Manganese",
+        "it": "Manganese"
+      },
+      "existing_indication": "Oligoelemento esencial; el exceso puede producir toxicidad neurológica.",
+      "existing_safety": "El exceso puede producir toxicidad neurológica; revisar exposición laboral y enfermedad hepática.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 24,
+      "ingredient_id": "phosphorus",
+      "names": {
+        "es": "Fósforo",
+        "en": "Phosphorus",
+        "it": "Fosforo"
+      },
+      "existing_indication": "Mineral esencial; suplementación rara vez necesaria con dieta habitual.",
+      "existing_safety": "Revisar función renal y consumo de aditivos con fosfatos antes de suplementar.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 25,
+      "ingredient_id": "sodium",
+      "names": {
+        "es": "Sodio",
+        "en": "Sodium",
+        "it": "Sodio"
+      },
+      "existing_indication": "Electrolito esencial; su reposición depende de pérdidas y salud cardiovascular.",
+      "existing_safety": "Revisar hipertensión, insuficiencia cardíaca o renal y sodio total de la dieta.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 26,
+      "ingredient_id": "creatine",
+      "names": {
+        "es": "Creatina",
+        "en": "Creatine",
+        "it": "Creatina"
+      },
+      "existing_indication": "Estudiada para fuerza y ejercicios de alta intensidad; no equivale a beneficio universal.",
+      "existing_safety": "Revisar enfermedad renal y medicamentos relevantes; interpretar cambios de creatinina con contexto clínico.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 27,
+      "ingredient_id": "beta_alanine",
+      "names": {
+        "es": "Beta-alanina",
+        "en": "Beta-alanine",
+        "it": "Beta-alanina"
+      },
+      "existing_indication": "Estudiada para esfuerzos intensos de duración específica; efecto depende del protocolo.",
+      "existing_safety": "Puede provocar parestesias; revisar tolerancia y presentación antes de considerar su uso.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 28,
+      "ingredient_id": "caffeine",
+      "names": {
+        "es": "Cafeína",
+        "en": "Caffeine",
+        "it": "Caffeina"
+      },
+      "existing_indication": "Puede mejorar rendimiento en ciertos esfuerzos; requiere evaluar dosis total y sueño.",
+      "existing_safety": "Revisar embarazo, arritmias, ansiedad, sueño y consumo total de cafeína.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 29,
+      "ingredient_id": "protein_powder",
+      "names": {
+        "es": "Proteína en polvo",
+        "en": "Protein powder",
+        "it": "Proteine in polvere"
+      },
+      "existing_indication": "Complementa una ingesta proteica insuficiente; no reemplaza alimentación variada.",
+      "existing_safety": "Revisar alergias, enfermedad renal y aporte proteico total; la composición varía por producto.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 30,
+      "ingredient_id": "whey_protein",
+      "names": {
+        "es": "Proteína de suero",
+        "en": "Whey protein",
+        "it": "Proteine del siero"
+      },
+      "existing_indication": "Fuente de proteína láctea para alcanzar objetivos dietarios cuando corresponda.",
+      "existing_safety": "Evitar si existe alergia a proteínas de leche; revisar tolerancia a lactosa según producto.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 31,
+      "ingredient_id": "plant_protein",
+      "names": {
+        "es": "Proteína vegetal",
+        "en": "Plant protein",
+        "it": "Proteine vegetali"
+      },
+      "existing_indication": "Fuente proteica vegetal; comparar composición, digestibilidad y necesidades individuales.",
+      "existing_safety": "Revisar alérgenos como soja y guisante, composición de aminoácidos y calidad del producto.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 32,
+      "ingredient_id": "citrulline",
+      "names": {
+        "es": "Citrulina",
+        "en": "Citrulline",
+        "it": "Citrullina"
+      },
+      "existing_indication": "Investigada para rendimiento físico; evidencia limitada y variable.",
+      "existing_safety": "Revisar presión arterial, fármacos vasoactivos y seguridad de la formulación.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 33,
+      "ingredient_id": "arginine",
+      "names": {
+        "es": "Arginina",
+        "en": "Arginine",
+        "it": "Arginina"
+      },
+      "existing_indication": "Investigada para flujo sanguíneo y ejercicio; beneficios clínicos no establecidos de modo general.",
+      "existing_safety": "Revisar hipotensión, antihipertensivos y uso concomitante de otros vasodilatadores.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 34,
+      "ingredient_id": "bcaa",
+      "names": {
+        "es": "Aminoácidos ramificados",
+        "en": "Branched-chain amino acids",
+        "it": "Aminoacidi ramificati"
+      },
+      "existing_indication": "No ha demostrado ventajas generales sobre proteína completa suficiente.",
+      "existing_safety": "No reemplaza proteína completa; revisar enfermedad metabólica y cantidad proteica total.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 35,
+      "ingredient_id": "leucine",
+      "names": {
+        "es": "Leucina",
+        "en": "Leucine",
+        "it": "Leucina"
+      },
+      "existing_indication": "Aminoácido esencial relevante para síntesis proteica; utilidad adicional depende de dieta.",
+      "existing_safety": "Revisar ingesta total de proteína y trastornos del metabolismo de aminoácidos.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 36,
+      "ingredient_id": "taurine",
+      "names": {
+        "es": "Taurina",
+        "en": "Taurine",
+        "it": "Taurina"
+      },
+      "existing_indication": "Investigada en rendimiento y otros desenlaces; evidencia dependiente de formulación.",
+      "existing_safety": "Revisar combinaciones con cafeína, embarazo y calidad de bebidas energéticas.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 37,
+      "ingredient_id": "carnitine",
+      "names": {
+        "es": "Carnitina",
+        "en": "Carnitine",
+        "it": "Carnitina"
+      },
+      "existing_indication": "Tiene usos médicos específicos; evidencia deportiva y de peso variable.",
+      "existing_safety": "Revisar enfermedad renal, trastornos convulsivos y posibles interacciones farmacológicas.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 38,
+      "ingredient_id": "omega3_epa_dha",
+      "names": {
+        "es": "Omega-3 EPA/DHA",
+        "en": "Omega-3 EPA/DHA",
+        "it": "Omega-3 EPA/DHA"
+      },
+      "existing_indication": "EPA y DHA son grasas omega-3; indicaciones y dosis dependen de objetivo clínico.",
+      "existing_safety": "Revisar anticoagulantes, riesgo hemorrágico y cantidad total de EPA y DHA.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 39,
+      "ingredient_id": "algal_omega3",
+      "names": {
+        "es": "Omega-3 de algas",
+        "en": "Algal omega-3",
+        "it": "Omega-3 da alghe"
+      },
+      "existing_indication": "Fuente no animal de DHA y a veces EPA; comparar contenido real por porción.",
+      "existing_safety": "Revisar anticoagulantes, dosis real de EPA/DHA y posibles alérgenos del producto.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 40,
+      "ingredient_id": "psyllium",
+      "names": {
+        "es": "Psyllium",
+        "en": "Psyllium",
+        "it": "Psillio"
+      },
+      "existing_indication": "Fibra soluble estudiada para estreñimiento y colesterol; requiere suficiente líquido.",
+      "existing_safety": "Requiere agua suficiente; evitar en disfagia u obstrucción y separar de ciertos medicamentos.",
+      "existing_use": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 41,
+      "ingredient_id": "inulin",
+      "names": {
+        "es": "Inulina",
+        "en": "Inulin",
+        "it": "Inulina"
+      },
+      "existing_indication": "Fibra fermentable estudiada para tránsito intestinal y microbiota; no implica necesidad universal.",
+      "existing_safety": "Puede causar gases y distensión; ajustar según tolerancia.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 42,
+      "ingredient_id": "probiotics",
+      "names": {
+        "es": "Probióticos",
+        "en": "Probiotics",
+        "it": "Probiotici"
+      },
+      "existing_indication": "Se investigan efectos específicos por cepa y condición; no existe una indicación general para cualquier probiótico.",
+      "existing_safety": "La evidencia depende de cepa y dosis; precaución en inmunosupresión grave.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 43,
+      "ingredient_id": "prebiotics",
+      "names": {
+        "es": "Prebióticos",
+        "en": "Prebiotics",
+        "it": "Prebiotici"
+      },
+      "existing_indication": "Sustratos seleccionados que pueden favorecer microorganismos intestinales; el efecto depende de la formulación.",
+      "existing_safety": "El efecto depende del sustrato; vigilar intolerancia digestiva.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 44,
+      "ingredient_id": "collagen",
+      "names": {
+        "es": "Colágeno",
+        "en": "Collagen",
+        "it": "Collagene"
+      },
+      "existing_indication": "Investigado para algunos resultados cutáneos y articulares; no reemplaza una ingesta proteica adecuada.",
+      "existing_safety": "La evidencia es específica por resultado; revisar alergias a origen marino o bovino.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 45,
+      "ingredient_id": "choline",
+      "names": {
+        "es": "Colina",
+        "en": "Choline",
+        "it": "Colina"
+      },
+      "existing_indication": "Nutriente esencial cuyo aporte debe evaluarse según dieta y etapa vital, especialmente embarazo.",
+      "existing_safety": "Evaluar ingesta y embarazo; dosis excesivas pueden causar hipotensión y olor corporal.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 46,
+      "ingredient_id": "coq10",
+      "names": {
+        "es": "Coenzima Q10",
+        "en": "Coenzyme Q10",
+        "it": "Coenzima Q10"
+      },
+      "existing_indication": "Estudiada en contextos clínicos específicos; no se recomienda automáticamente para fatiga inespecífica.",
+      "existing_safety": "No atribuir beneficios energéticos generales; revisar interacción con warfarina.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 47,
+      "ingredient_id": "melatonin",
+      "names": {
+        "es": "Melatonina",
+        "en": "Melatonin",
+        "it": "Melatonina"
+      },
+      "existing_indication": "Se estudia para ciertos trastornos del ritmo circadiano; no equivale a tratamiento universal del insomnio.",
+      "existing_safety": "Distinguir trastornos circadianos de insomnio crónico; revisar somnolencia y embarazo.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 48,
+      "ingredient_id": "curcumin",
+      "names": {
+        "es": "Curcumina",
+        "en": "Curcumin",
+        "it": "Curcumina"
+      },
+      "existing_indication": "Investigada en síntomas articulares y otras indicaciones; resultados dependen de preparación y contexto.",
+      "existing_safety": "Extractos concentrados pueden asociarse con lesión hepática; revisar interacciones.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 49,
+      "ingredient_id": "ginger",
+      "names": {
+        "es": "Jengibre",
+        "en": "Ginger",
+        "it": "Zenzero"
+      },
+      "existing_indication": "Investigado especialmente para náuseas en determinados contextos; distinguir alimento y extracto.",
+      "existing_safety": "Distinguir uso alimentario de extractos; revisar anticoagulantes y embarazo.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 50,
+      "ingredient_id": "ashwagandha",
+      "names": {
+        "es": "Ashwagandha",
+        "en": "Ashwagandha",
+        "it": "Ashwagandha"
+      },
+      "existing_indication": "Investigada para estrés y sueño, con limitaciones metodológicas y riesgos que exigen revisión.",
+      "existing_safety": "Precaución por reportes de lesión hepática, tiroides y embarazo.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 51,
+      "ingredient_id": "green_tea_extract",
+      "names": {
+        "es": "Extracto de té verde",
+        "en": "Green tea extract",
+        "it": "Estratto di tè verde"
+      },
+      "existing_indication": "Estudiado en distintos objetivos metabólicos; el extracto concentrado no equivale a beber té.",
+      "existing_safety": "Los extractos concentrados pueden implicar riesgo hepático; no equiparar con infusión.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 52,
+      "ingredient_id": "ginseng",
+      "names": {
+        "es": "Ginseng",
+        "en": "Ginseng",
+        "it": "Ginseng"
+      },
+      "existing_indication": "Investigado para fatiga y otros resultados; distinguir especie y extracto antes de valorar evidencia.",
+      "existing_safety": "Revisar hipoglucemia, anticoagulantes e insomnio; distinguir especies.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 53,
+      "ingredient_id": "garlic_extract",
+      "names": {
+        "es": "Extracto de ajo",
+        "en": "Garlic extract",
+        "it": "Estratto di aglio"
+      },
+      "existing_indication": "Investigado para algunos factores cardiometabólicos; no sustituye tratamiento médico.",
+      "existing_safety": "Revisar riesgo hemorrágico e interacciones antes de cirugía.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 54,
+      "ingredient_id": "turmeric",
+      "names": {
+        "es": "Cúrcuma",
+        "en": "Turmeric",
+        "it": "Curcuma"
+      },
+      "existing_indication": "Especia culinaria con usos tradicionales; no asumir eficacia clínica de extractos a partir de su consumo.",
+      "existing_safety": "No equiparar especia culinaria con extractos concentrados de curcuminoides.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 55,
+      "ingredient_id": "echinacea",
+      "names": {
+        "es": "Equinácea",
+        "en": "Echinacea",
+        "it": "Echinacea"
+      },
+      "existing_indication": "Investigada para síntomas del resfriado; evidencia heterogénea por producto y resultado.",
+      "existing_safety": "La evidencia para resfriado es heterogénea; revisar alergias a asteráceas.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 56,
+      "ingredient_id": "st_johns_wort",
+      "names": {
+        "es": "Hierba de San Juan",
+        "en": "St John's wort",
+        "it": "Iperico"
+      },
+      "existing_indication": "Investigada para síntomas depresivos, pero con interacciones importantes que requieren supervisión clínica.",
+      "existing_safety": "Interacciones graves por inducción enzimática, incluidos anticonceptivos y antidepresivos.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 57,
+      "ingredient_id": "berberine",
+      "names": {
+        "es": "Berberina",
+        "en": "Berberine",
+        "it": "Berberina"
+      },
+      "existing_indication": "Investigada en parámetros glucémicos y lipídicos; no reemplaza medicación indicada.",
+      "existing_safety": "Revisar interacciones, embarazo y variabilidad de preparados; no sustituir tratamientos.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 58,
+      "ingredient_id": "alpha_lipoic_acid",
+      "names": {
+        "es": "Ácido alfa lipoico",
+        "en": "Alpha-lipoic acid",
+        "it": "Acido alfa-lipoico"
+      },
+      "existing_indication": "Investigado para neuropatía y otros objetivos; evidencia y dosis dependen de la indicación.",
+      "existing_safety": "Vigilar hipoglucemia con fármacos antidiabéticos; evidencia según indicación.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 59,
+      "ingredient_id": "astaxanthin",
+      "names": {
+        "es": "Astaxantina",
+        "en": "Astaxanthin",
+        "it": "Astaxantina"
+      },
+      "existing_indication": "Pigmento carotenoide estudiado en resultados diversos; beneficios clínicos no establecidos de forma general.",
+      "existing_safety": "No extrapolar efectos antioxidantes de laboratorio a resultados clínicos.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    },
+    {
+      "catalog_position": 60,
+      "ingredient_id": "beta_carotene",
+      "names": {
+        "es": "Betacaroteno",
+        "en": "Beta-carotene",
+        "it": "Beta-carotene"
+      },
+      "existing_indication": "Precursor de vitamina A; las indicaciones dietarias no justifican automáticamente dosis suplementarias.",
+      "existing_safety": "Evitar suplementación de altas dosis en fumadores por riesgos demostrados.",
+      "existing_use": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+      "source_candidate": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_specific_verified": false,
+      "clinical_approved": false,
+      "regulatory_argentina_verified": false,
+      "release_gate": "blocked_pending_specific_evidence_and_clinical_review"
+    }
+  ]
+}
