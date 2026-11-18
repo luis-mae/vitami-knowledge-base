@@ -1,5 +1,5 @@
 {
-  "version": "2.6",
+  "version": "2.7",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -514,7 +514,7 @@
       "nutrient_validation_pass": {
         "phase": "BLOCK_1_25",
         "reference_source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
-        "source_verification_status": "ODS_source_opened_this_session_other_claims_pending",
+        "source_verification_status": "SOURCE_OPENED_AND_SPECIFIC_CLAIMS_CHECKED",
         "intake_reference": "8 mg varones; 18 mg mujeres 19–50",
         "upper_limit_reference": "45 mg",
         "measurement_basis": "mg elemental iron, not salt mass",
@@ -532,7 +532,17 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "source_sections_verified": [
+          "Assessing iron status",
+          "Recommended Intakes",
+          "Interactions with Medications"
+        ],
+        "verified_intake_claim_en": "RDA 19–50 male 8 mg/day female 18 mg/day, pregnancy 27 mg/day, lactation 9 mg/day",
+        "verified_safety_claim_en": "Ferritin interpretation is influenced by inflammation; supplementation for suspected anemia needs diagnostic context. Elemental iron amount differs from compound mass.",
+        "clinical_decision_gate": "REQUIRE_IRON_STATUS_AND_OVERLOAD_SCREEN",
+        "verification_date": "2026-11-18",
+        "full_clinical_validation": false
       }
     },
     {
@@ -662,7 +672,7 @@
       "nutrient_validation_pass": {
         "phase": "BLOCK_1_25",
         "reference_source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
-        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "source_verification_status": "SOURCE_OPENED_AND_SPECIFIC_CLAIMS_CHECKED",
         "intake_reference": "400–420 mg varones; 310–320 mg mujeres",
         "upper_limit_reference": "350 mg solo suplementos",
         "measurement_basis": "mg elemental magnesium; UL applies to supplemental/pharmacologic sources",
@@ -680,7 +690,17 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "source_sections_verified": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Magnesium",
+          "Interactions with Medications"
+        ],
+        "verified_intake_claim_en": "RDA 19–30 male 400 mg/day female 310 mg/day; 31+ male 420 mg/day female 320 mg/day",
+        "verified_safety_claim_en": "Supplemental/pharmacologic UL for adults 350 mg/day, excludes food and beverage magnesium; kidney impairment increases toxicity risk.",
+        "clinical_decision_gate": "BLOCK_UNSUPERVISED_RENAL_DISEASE",
+        "verification_date": "2026-11-18",
+        "full_clinical_validation": false
       }
     },
     {
@@ -3412,7 +3432,7 @@
       "nutrient_validation_pass": {
         "phase": "BLOCK_1_25",
         "reference_source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
-        "source_verification_status": "ODS_source_opened_this_session_other_claims_pending",
+        "source_verification_status": "SOURCE_OPENED_AND_SPECIFIC_CLAIMS_CHECKED",
         "intake_reference": "AI adultos 19+: 30 mcg/día; lactancia 35 mcg",
         "upper_limit_reference": "No establecido",
         "measurement_basis": "mcg biotin",
@@ -3430,7 +3450,17 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "source_sections_verified": [
+          "Recommended Intakes",
+          "Biotin and Health",
+          "Interactions with Laboratory Tests"
+        ],
+        "verified_intake_claim_en": "AI 30 mcg/day age 19+, pregnancy 30 mcg/day, lactation 35 mcg/day",
+        "verified_safety_claim_en": "High-dose biotin can interfere with immunoassays including troponin and thyroid testing; no established UL does not prove unlimited safety.",
+        "clinical_decision_gate": "REQUIRE_LAB_TEST_DISCLOSURE",
+        "verification_date": "2026-11-18",
+        "full_clinical_validation": false
       }
     },
     {
@@ -15329,12 +15359,14 @@
     "range": "1-25",
     "records_processed": 25,
     "source_pages_opened_this_session": [
-      "iron",
-      "biotin"
+      "biotin",
+      "magnesium",
+      "iron"
     ],
     "nutrient_reference_fields_populated": 25,
     "fully_scientifically_validated": 0,
     "product_regulatory_validated": 0,
-    "status": "REFERENCE_DATA_AND_RELEASE_GATES_COMPLETED; CLINICAL_VERIFICATION_OPEN"
+    "status": "REFERENCE_DATA_AND_RELEASE_GATES_COMPLETED; CLINICAL_VERIFICATION_OPEN",
+    "source_claims_directly_reviewed_this_pass": 3
   }
 }
