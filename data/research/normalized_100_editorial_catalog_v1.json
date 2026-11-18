@@ -1,5 +1,5 @@
 {
-  "version": "2.31",
+  "version": "2.32",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -4501,6 +4501,20 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Claims for glycemic control or weight loss are inconsistent; do not substitute for diabetes care.",
+        "screen": [
+          "diabetes_medications",
+          "kidney_disease",
+          "liver_disease",
+          "pregnancy"
+        ],
+        "form": "Specify chromium species (e.g. picolinate) and elemental micrograms.",
+        "decision": "Avoid automatic glucose-lowering claims and monitor potential interactions.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -7597,6 +7611,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Cardiometabolic and exercise evidence is heterogeneous; do not extrapolate from energy drinks.",
+        "screen": [
+          "hypotension",
+          "kidney_disease",
+          "pregnancy",
+          "combined_stimulants"
+        ],
+        "form": "Identify isolated taurine amount and other ingredients.",
+        "decision": "Do not infer safety of complex stimulant formulations from taurine alone.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -12253,6 +12281,19 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Observational dietary associations do not establish benefit of lycopene pills for cancer prevention.",
+        "screen": [
+          "pregnancy",
+          "concurrent_high_dose_antioxidants",
+          "medication_use"
+        ],
+        "form": "Differentiate tomato food matrix from isolated lycopene extract.",
+        "decision": "Avoid cancer prevention or treatment claims.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -16176,6 +16217,19 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Evidence for muscle outcomes depends on training status, age, dose and study design.",
+        "screen": [
+          "kidney_disease",
+          "pregnancy",
+          "concurrent_performance_supplements"
+        ],
+        "form": "Specify calcium HMB versus free-acid HMB and amount.",
+        "decision": "Do not recommend as substitute for resistance training or adequate protein.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -18435,10 +18489,10 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "copper",
-    "block_2": "leucine",
-    "block_3": "resveratrol",
-    "block_4": "bromelain",
+    "block_1": "chromium",
+    "block_2": "taurine",
+    "block_3": "lycopene",
+    "block_4": "hmb",
     "block_5": {
       "verified_products": 0,
       "pending": 100
@@ -18449,7 +18503,7 @@
       "missing_trilingual_safety": 0,
       "verified_products": 0,
       "auto_enabled": 0,
-      "clinical_case_drafts": 59
+      "clinical_case_drafts": 63
     },
     "new_editorial_cases": 4,
     "scientific_signoff_added": 0
