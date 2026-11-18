@@ -1,5 +1,5 @@
 {
-  "version": "2.5",
+  "version": "2.6",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -174,6 +174,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "15 mcg (600 UI)",
+        "upper_limit_reference": "100 mcg (4000 UI)",
+        "measurement_basis": "mcg cholecalciferol; 1 mcg=40 IU",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": true,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -292,6 +315,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "2,4 mcg",
+        "upper_limit_reference": "No establecido",
+        "measurement_basis": "mcg cobalamin",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -464,6 +510,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "source_verification_status": "ODS_source_opened_this_session_other_claims_pending",
+        "intake_reference": "8 mg varones; 18 mg mujeres 19–50",
+        "upper_limit_reference": "45 mg",
+        "measurement_basis": "mg elemental iron, not salt mass",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": true,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -589,6 +658,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "400–420 mg varones; 310–320 mg mujeres",
+        "upper_limit_reference": "350 mg solo suplementos",
+        "measurement_basis": "mg elemental magnesium; UL applies to supplemental/pharmacologic sources",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -714,6 +806,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "1000 mg (19–50 años)",
+        "upper_limit_reference": "2500 mg (19–50 años)",
+        "measurement_basis": "mg elemental calcium",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -839,6 +954,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "11 mg varones; 8 mg mujeres",
+        "upper_limit_reference": "40 mg",
+        "measurement_basis": "mg elemental zinc",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -962,6 +1100,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "400 mcg DFE",
+        "upper_limit_reference": "1000 mcg ácido fólico sintético",
+        "measurement_basis": "mcg DFE; synthetic folic acid UL distinct from natural food folate",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -1125,6 +1286,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "3400 mg varones; 2600 mg mujeres (AI)",
+        "upper_limit_reference": "No establecido",
+        "measurement_basis": "mg elemental potassium",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": true,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -1248,6 +1432,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "1,3 mg (19–50 años)",
+        "upper_limit_reference": "100 mg EE. UU.; EFSA 12 mg adultos",
+        "measurement_basis": "mg vitamin B6; multiple UL frameworks",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -1373,6 +1580,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "150 mcg",
+        "upper_limit_reference": "1100 mcg",
+        "measurement_basis": "mcg iodine",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -1496,6 +1726,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "55 mcg",
+        "upper_limit_reference": "400 mcg EE. UU.; EFSA 255 mcg",
+        "measurement_basis": "mcg selenium; geographic UL differences",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -1619,6 +1872,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "90 mg varones; 75 mg mujeres",
+        "upper_limit_reference": "2000 mg",
+        "measurement_basis": "mg ascorbic acid",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -1754,6 +2030,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "900 mcg RAE varones; 700 mcg RAE mujeres",
+        "upper_limit_reference": "3000 mcg RAE retinol preformado",
+        "measurement_basis": "mcg RAE; UL only preformed vitamin A",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -1877,6 +2176,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "15 mg alfa-tocoferol",
+        "upper_limit_reference": "1000 mg alfa-tocoferol",
+        "measurement_basis": "mg alpha-tocopherol",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -1995,6 +2317,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "120 mcg varones; 90 mcg mujeres (AI)",
+        "upper_limit_reference": "No establecido",
+        "measurement_basis": "mcg vitamin K; warfarin stability",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -2113,6 +2458,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "1,2 mg varones; 1,1 mg mujeres",
+        "upper_limit_reference": "No establecido",
+        "measurement_basis": "mg thiamin",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -2231,6 +2599,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "1,3 mg varones; 1,1 mg mujeres",
+        "upper_limit_reference": "No establecido",
+        "measurement_basis": "mg riboflavin",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -2354,6 +2745,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "16 mg NE varones; 14 mg NE mujeres",
+        "upper_limit_reference": "35 mg suplementos/fortificados",
+        "measurement_basis": "mg NE for intake; UL for synthetic forms",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -2477,6 +2891,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "900 mcg",
+        "upper_limit_reference": "10000 mcg",
+        "measurement_basis": "mcg copper",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -2595,6 +3032,29 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "35 mcg varones; 25 mcg mujeres (AI)",
+        "upper_limit_reference": "No establecido",
+        "measurement_basis": "mcg chromium",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -2621,8 +3081,8 @@
           "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
         }
       },
-      "reference_intake": null,
-      "upper_limit": null,
+      "reference_intake": "AI adultos 19+: 5 mg/día; embarazo 6 mg; lactancia 7 mg",
+      "upper_limit": "No establecido",
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
@@ -2748,6 +3208,29 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "AI adultos 19+: 5 mg/día; embarazo 6 mg; lactancia 7 mg",
+        "upper_limit_reference": "No establecido",
+        "measurement_basis": "mg pantothenic acid",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -2774,8 +3257,8 @@
           "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
         }
       },
-      "reference_intake": null,
-      "upper_limit": null,
+      "reference_intake": "AI adultos 19+: 30 mcg/día; lactancia 35 mcg",
+      "upper_limit": "No establecido",
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
@@ -2925,6 +3408,29 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+        "source_verification_status": "ODS_source_opened_this_session_other_claims_pending",
+        "intake_reference": "AI adultos 19+: 30 mcg/día; lactancia 35 mcg",
+        "upper_limit_reference": "No establecido",
+        "measurement_basis": "mcg biotin",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -2951,8 +3457,8 @@
           "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
         }
       },
-      "reference_intake": null,
-      "upper_limit": null,
+      "reference_intake": "AI varones adultos 2,3 mg/día; mujeres 1,8 mg/día",
+      "upper_limit": "11 mg/día adultos (EE. UU.)",
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
@@ -3083,6 +3589,29 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "AI varones adultos 2,3 mg/día; mujeres 1,8 mg/día",
+        "upper_limit_reference": "11 mg/día adultos (EE. UU.)",
+        "measurement_basis": "mg manganese",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -3109,8 +3638,8 @@
           "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
         }
       },
-      "reference_intake": null,
-      "upper_limit": null,
+      "reference_intake": "RDA adultos 19+: 700 mg/día",
+      "upper_limit": "4000 mg/día adultos 19–70 (EE. UU.); revisar edad y enfermedad renal",
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
@@ -3241,6 +3770,29 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "RDA adultos 19+: 700 mg/día",
+        "upper_limit_reference": "4000 mg/día adultos 19–70 (EE. UU.); revisar edad y enfermedad renal",
+        "measurement_basis": "mg phosphorus",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -3267,8 +3819,8 @@
           "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
         }
       },
-      "reference_intake": null,
-      "upper_limit": null,
+      "reference_intake": "AI adultos 19–50: 1500 mg/día; reducción de riesgo de enfermedad crónica: 2300 mg/día",
+      "upper_limit": "No existe UL convencional; 2300 mg es referencia de reducción de riesgo, no UL",
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
@@ -3394,6 +3946,29 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "nutrient_validation_pass": {
+        "phase": "BLOCK_1_25",
+        "reference_source": "https://nap.nationalacademies.org/catalog/25353/dietary-reference-intakes-for-sodium-and-potassium",
+        "source_verification_status": "prior_reference_candidate_pending_individual_claim_check",
+        "intake_reference": "AI adultos 19–50: 1500 mg/día; reducción de riesgo de enfermedad crónica: 2300 mg/día",
+        "upper_limit_reference": "No existe UL convencional; 2300 mg es referencia de reducción de riesgo, no UL",
+        "measurement_basis": "mg sodium, not salt mass",
+        "reference_values_are_not_prescriptions": true,
+        "formulation_specific_dose_verified": false,
+        "therapeutic_indication_evidence_verified": false,
+        "drug_interactions_comprehensively_verified": false,
+        "pregnancy_lactation_review_complete": false,
+        "source_claims_present": false,
+        "product_registration_argentina_verified": false,
+        "clinical_signoff": false,
+        "automatic_recommendation_allowed": false,
+        "required_next_actions": [
+          "check source Recommended Intakes and UL population-specific tables",
+          "review evidence for clinical indication and dosing regimen",
+          "validate interactions and vulnerable groups",
+          "verify actual marketed product and Argentina legal status"
+        ]
       }
     },
     {
@@ -14748,5 +15323,18 @@
     "source_verified_cautions": 0,
     "clinical_signoff": 0,
     "notes": "All 100 now have patient-facing safety wording; new EN/IT text derives from existing editorials, not certified translation or source verification."
+  },
+  "block1": {
+    "date": "2026-11-18",
+    "range": "1-25",
+    "records_processed": 25,
+    "source_pages_opened_this_session": [
+      "iron",
+      "biotin"
+    ],
+    "nutrient_reference_fields_populated": 25,
+    "fully_scientifically_validated": 0,
+    "product_regulatory_validated": 0,
+    "status": "REFERENCE_DATA_AND_RELEASE_GATES_COMPLETED; CLINICAL_VERIFICATION_OPEN"
   }
 }
