@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-18",
+  "milestone": "FIRST_10_BIBLIOGRAPHIC_COMPLETION_DECLARATION",
+  "scope": "First 10 compounds of VITAMI knowledge base",
+  "ingredient_ids": [
+    "vitamin_d",
+    "vitamin_b12",
+    "iron",
+    "magnesium",
+    "calcium",
+    "zinc",
+    "folate",
+    "potassium",
+    "vitamin_b6",
+    "iodine"
+  ],
+  "assistant_statement": "Los primeros 10 compuestos están completos y cuentan con validación bibliográfica básica, según el criterio acordado.",
+  "recorded_status": "BIBLIOGRAPHIC_BASELINE_COMPLETE_DECLARED",
+  "criteria": [
+    "Source references registered",
+    "Nutritional reference intake by population",
+    "Upper intake limits and scope",
+    "Principal contraindications and precautions",
+    "Principal medication interactions",
+    "Administration considerations",
+    "Personalization context and non-prescription distinction"
+  ],
+  "explicit_exclusions": [
+    "No application functionality tests",
+    "No exhaustive claim-by-claim scientific audit",
+    "No certification of all therapeutic indication-specific doses",
+    "No authorization for automatic medical recommendations"
+  ],
+  "evidence": {
+    "canonical_catalog": "data/research/normalized_100_editorial_catalog_v1.json",
+    "bibliographic_commit": "95a263e0a22bd9ee3dfebdc7864f591799d24064"
+  },
+  "audit_integrity_note": "This is a dated record of the assistant's declared bibliographic completion for these ten; it is not a separate independent clinical sign-off. Do not later silently reinterpret 'complete' as tested in the app."
+}
