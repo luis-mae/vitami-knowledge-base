@@ -1,5 +1,5 @@
 {
-  "version": "2.15",
+  "version": "2.16",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -60,7 +60,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -251,6 +260,15 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "parallel_work_pass": {
+        "workstream": "BLOCK_1",
+        "ingredient": "vitamin_d",
+        "clinical_editorial_rule_en": "Do not infer vitamin D deficiency from fatigue alone; separate nutritional intake from treatment of laboratory-confirmed deficiency.",
+        "decision_flag": "LAB_CONFIRMED_DEFICIENCY_REQUIRED_FOR_TREATMENT",
+        "status": "EDITORIAL_DRAFT_NOT_SOURCE_VERIFIED",
+        "automatic_recommendation_allowed": false,
+        "completed_on": "2026-11-18"
       }
     },
     {
@@ -297,7 +315,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -492,7 +519,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -731,7 +767,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -923,7 +968,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1125,7 +1179,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1327,7 +1390,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1527,7 +1599,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1767,7 +1848,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1967,7 +2057,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2170,7 +2269,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2362,7 +2470,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2561,7 +2678,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2772,7 +2898,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2971,7 +3106,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3164,7 +3308,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3358,7 +3511,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3550,7 +3712,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3750,7 +3921,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3949,7 +4129,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4143,7 +4332,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4371,7 +4569,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4622,7 +4829,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4856,7 +5072,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -5090,7 +5315,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -5320,7 +5554,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -5420,6 +5663,15 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "parallel_work_pass": {
+        "workstream": "BLOCK_2",
+        "ingredient": "creatine",
+        "clinical_editorial_rule_en": "For creatine, record exact chemical form and resistance/high-intensity exercise goal; do not extrapolate performance data to all populations.",
+        "decision_flag": "FORM_AND_SPORT_GOAL_REQUIRED",
+        "status": "EDITORIAL_DRAFT_NOT_SOURCE_VERIFIED",
+        "automatic_recommendation_allowed": false,
+        "completed_on": "2026-11-18"
       }
     },
     {
@@ -5466,7 +5718,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -5612,7 +5873,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -5782,7 +6052,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -5928,7 +6207,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -6074,7 +6362,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -6220,7 +6517,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -6366,7 +6672,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -6512,7 +6827,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -6658,7 +6982,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -6804,7 +7137,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -6957,7 +7299,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -7103,7 +7454,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -7273,7 +7633,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -7443,7 +7812,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -7620,7 +7998,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -7764,7 +8151,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -7934,7 +8330,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -8087,7 +8492,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -8240,7 +8654,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -8389,7 +8812,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -8571,7 +9003,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -8770,7 +9211,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -8936,7 +9386,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -9114,7 +9573,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -9301,7 +9769,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -9450,6 +9927,15 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "parallel_work_pass": {
+        "workstream": "BLOCK_3",
+        "ingredient": "green_tea_extract",
+        "clinical_editorial_rule_en": "For specialty ingredients, require indication-specific clinical outcomes rather than extrapolation from biomarkers or animal studies.",
+        "decision_flag": "HUMAN_CLINICAL_OUTCOME_REQUIRED",
+        "status": "EDITORIAL_DRAFT_NOT_SOURCE_VERIFIED",
+        "automatic_recommendation_allowed": false,
+        "completed_on": "2026-11-18"
       }
     },
     {
@@ -9496,7 +9982,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -9660,7 +10155,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -9842,7 +10346,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -10005,7 +10518,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -10183,7 +10705,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -10370,7 +10901,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -10536,7 +11076,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -10660,7 +11209,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -10784,7 +11342,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -10920,7 +11487,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -11044,7 +11620,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -11168,7 +11753,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -11292,7 +11886,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -11416,7 +12019,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -11540,7 +12152,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -11722,7 +12343,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -11902,7 +12532,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -12026,7 +12665,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -12150,7 +12798,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -12274,7 +12931,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -12393,7 +13059,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -12551,7 +13226,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -12710,7 +13394,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -12829,7 +13522,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -12987,7 +13689,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -13112,6 +13823,15 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "parallel_work_pass": {
+        "workstream": "BLOCK_4",
+        "ingredient": "valerian",
+        "clinical_editorial_rule_en": "For specialty botanicals, record standardized extract, part used and active constituent; generic plant name is not an equivalent formulation.",
+        "decision_flag": "STANDARDIZED_FORMULATION_REQUIRED",
+        "status": "EDITORIAL_DRAFT_NOT_SOURCE_VERIFIED",
+        "automatic_recommendation_allowed": false,
+        "completed_on": "2026-11-18"
       }
     },
     {
@@ -13158,7 +13878,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -13334,7 +14063,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -13464,7 +14202,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -13583,7 +14330,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -13765,7 +14521,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -13929,7 +14694,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -14102,7 +14876,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -14219,7 +15002,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -14394,7 +15186,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -14511,7 +15312,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -14628,7 +15438,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -14745,7 +15564,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -14862,7 +15690,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -14991,7 +15828,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -15120,7 +15966,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -15237,7 +16092,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -15423,7 +16287,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -15607,7 +16480,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -15793,7 +16675,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -15979,7 +16870,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -16113,7 +17013,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -16235,7 +17144,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -16357,7 +17275,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -16479,7 +17406,16 @@
           "warnings",
           "expiry"
         ],
-        "verified_product": false
+        "verified_product": false,
+        "assessment_scope": "PRODUCT_SPECIFIC_NOT_INGREDIENT_WIDE",
+        "decision_tree": [
+          "identify product name, formulation and dose",
+          "determine applicable ANMAT food supplement vs medicine regime",
+          "verify RNE/RNPA if marketed as food supplement or medicine authorization if applicable",
+          "verify actual label, claims and sales restrictions",
+          "do not infer nonprescription status from ingredient alone"
+        ],
+        "verification_status": "AWAITING_REAL_PRODUCT"
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -16650,5 +17586,27 @@
     "indication_specific_editorial_reviews_added": 8,
     "additional_indication_editorial_reviews": 6,
     "progress_review_count": 25
+  },
+  "parallel_six_block_progress": {
+    "date": "2026-11-18",
+    "method": "six_parallel_blocks",
+    "sampled_ingredient_ids": [
+      "vitamin_d",
+      "creatine",
+      "green_tea_extract",
+      "valerian"
+    ],
+    "block_5": {
+      "records_with_product_specific_decision_tree": 100,
+      "verified_real_products": 0
+    },
+    "block_6": {
+      "records_checked": 100,
+      "missing_ingredient_ids": 0,
+      "missing_es_en_it_names": 0,
+      "missing_es_en_it_editorial_safety": 0,
+      "automatic_recommendation_enabled": 0
+    },
+    "notes": "Editorial and rule design progress, not scientific validation or regulatory approval."
   }
 }
