@@ -1,3 +1,5 @@
+> **ARCHIVO HISTÓRICO / INSTRUCCIONES NO OPERATIVAS.** Único plan vigente de VITAMI: [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md). No seguir este documento como plan independiente ni ejecutar sus instrucciones sin contrastarlas con el plan único.
+
 # VITAMI — Plan maestro de ejecución y control
 
 Fecha de recuperación: 2026-11-13
