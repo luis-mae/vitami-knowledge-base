@@ -11,9 +11,9 @@
     "it": "Vitamina essenziale per la normale formazione delle cellule del sangue, la funzione neurologica e la sintesi del DNA."
   },
   "common_uses": {
-    "es": "Puede ser relevante en contextos específicos según dieta, objetivos y seguridad.",
-    "en": "It may be relevant in specific contexts depending on diet, goals, and safety.",
-    "it": "Può essere rilevante in contesti specifici secondo dieta, obiettivi e sicurezza."
+    "es": "Prevención de aporte insuficiente en dietas veganas o con pocas fuentes confiables; corrección de deficiencia confirmada bajo evaluación clínica.",
+    "en": "Prevention of inadequate intake in vegan diets or diets lacking reliable sources; correction of confirmed deficiency with clinical assessment.",
+    "it": "Prevenzione dell'apporto insufficiente nelle diete vegane o prive di fonti affidabili; correzione della carenza confermata dopo valutazione clinica."
   },
   "why_vitami_may_show_it": {
     "es": "Puede aparecer cuando la dieta aporta pocas fuentes fiables de B12, especialmente en dietas veganas, o cuando existen otros factores que justifican revisar el aporte.",
@@ -21,9 +21,9 @@
     "it": "Può comparire quando la dieta fornisce poche fonti affidabili di B12, soprattutto nelle diete vegane, o quando altri fattori rendono opportuno valutarne l'apporto."
   },
   "evidence_summary": {
-    "es": "Vitami utiliza evidencia específica de indicación y evita extrapolar beneficios generales.",
-    "en": "Vitami uses indication-specific evidence and avoids extrapolating broad benefits.",
-    "it": "Vitami usa evidenze specifiche per indicazione ed evita di extrapolare benefici generali."
+    "es": "Evidencia sólida para su función esencial y para corregir deficiencias. No mejora rendimiento físico ni energía si el estado de B12 es adecuado. En deficiencia, B12 oral a dosis altas puede normalizar niveles de modo similar a inyecciones en algunos contextos, pero la evidencia comparativa es de baja calidad.",
+    "en": "Strong evidence for its essential role and correcting deficiency. It does not enhance energy or athletic performance with adequate B12 status. High-dose oral B12 may normalize levels similarly to injections in some deficiency settings, but comparative evidence is low quality.",
+    "it": "Evidenze solide per il ruolo essenziale e la correzione della carenza. Non migliora energia o prestazione atletica con livelli adeguati. Dosi orali elevate possono normalizzare i livelli come le iniezioni in alcuni casi, ma le prove comparative sono di bassa qualità."
   },
   "evidence_label": "high_for_nutritional_role",
   "limits": {
@@ -32,17 +32,17 @@
     "it": "Stanchezza, debolezza o altri sintomi non dimostrano da soli una carenza. In caso di sospetto clinico o problemi di assorbimento può essere necessaria una valutazione professionale e di laboratorio."
   },
   "dose_reference": {
-    "es": "Vitami solo muestra una dosis personalizada cuando existe una regla explícita y respaldada para ese contexto; de lo contrario muestra información de referencia.",
-    "en": "Vitami shows a personalized dose only when an explicit evidence-backed rule exists for that context; otherwise it shows reference information.",
-    "it": "Vitami mostra una dose personalizzata solo quando esiste una regola esplicita supportata per quel contesto; altrimenti mostra informazioni di riferimento."
+    "es": "Ingesta de referencia: adultos 2,4 mcg/día; embarazo 2,6 mcg; lactancia 2,8 mcg. La dosis terapéutica es distinta: en estudios de deficiencia se usaron 1.000–2.000 mcg/día por vía oral bajo supervisión. No se estableció límite máximo tolerable (UL); esto no significa que dosis altas sean necesarias.",
+    "en": "Reference intake: adults 2.4 mcg/day; pregnancy 2.6 mcg; lactation 2.8 mcg. Therapeutic dosing differs: deficiency studies used 1,000–2,000 mcg/day orally under supervision. No tolerable upper intake level (UL) was established; high doses are not automatically necessary.",
+    "it": "Assunzione di riferimento: adulti 2,4 mcg/die; gravidanza 2,6 mcg; allattamento 2,8 mcg. Le dosi terapeutiche sono diverse: negli studi sulla carenza si sono usati 1.000–2.000 mcg/die per via orale sotto supervisione. Nessun limite massimo tollerabile (UL) stabilito; dosi elevate non sono automaticamente necessarie."
   },
   "common_presentations": [
     "capsule_or_tablet"
   ],
   "precautions": {
-    "es": "Las precauciones dependen del ingrediente y se aplican antes que cualquier puntuación positiva.",
-    "en": "Ingredient-specific precautions are applied before any positive scoring.",
-    "it": "Le precauzioni specifiche dell'ingrediente vengono applicate prima di qualsiasi punteggio positivo."
+    "es": "La metformina y los inhibidores de ácido gástrico pueden disminuir el estado de B12. Anemia perniciosa, cirugía gastrointestinal, malabsorción, síntomas neurológicos y lactantes de madres con déficit requieren evaluación profesional; no demorar tratamiento. La B12 tiene baja toxicidad y no tiene UL establecido.",
+    "en": "Metformin and gastric acid inhibitors can reduce B12 status. Pernicious anemia, gastrointestinal surgery, malabsorption, neurological symptoms and infants of deficient mothers require clinical assessment; do not delay treatment. B12 has low toxicity and no established UL.",
+    "it": "Metformina e inibitori dell'acidità gastrica possono ridurre la B12. Anemia perniciosa, chirurgia gastrointestinale, malassorbimento, sintomi neurologici e neonati di madri carenti richiedono valutazione clinica; non ritardare il trattamento. B12 ha bassa tossicità e nessun UL stabilito."
   },
   "when_to_consult": {
     "es": "Consultá antes de usarlo si tenés una enfermedad relevante, estás embarazada o amamantando, tomás medicamentos, tuviste una reacción previa o pensás usar dosis altas.",
@@ -53,13 +53,65 @@
     "NIH_B12_HP"
   ],
   "source_status": "reviewed_or_official_index",
-  "deep_record_status": "pending",
-  "rules_status": "draft",
+  "deep_record_status": "complete_draft_pending_checks",
+  "rules_status": "candidate_not_active",
   "library_status": "complete_user_facing_draft",
-  "review_date": "2026-08-09",
+  "review_date": "2026-11-18",
   "disclaimer": {
     "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
     "en": "Educational content. It does not replace diagnosis, treatment, or professional evaluation.",
     "it": "Contenuto educativo. Non sostituisce diagnosi, trattamento o valutazione professionale."
+  },
+  "scientific_detail": {
+    "documentary_review_date": "2026-11-18",
+    "reviewed_source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+    "reviewed_sections": [
+      "Recommended Intakes",
+      "Dietary supplements",
+      "Vitamin B12 Deficiency",
+      "Groups at Risk",
+      "Energy and endurance",
+      "Health Risks from Excessive Vitamin B12",
+      "Interactions with Medications"
+    ],
+    "evidence_quality": {
+      "essential_role": "high",
+      "deficiency_correction": "established",
+      "oral_vs_intramuscular_in_deficiency": "low_quality_comparative_evidence",
+      "energy_boost_without_deficiency": "no_demonstrated_benefit"
+    },
+    "administration": {
+      "es": "Vía oral o sublingual según presentación; no se ha demostrado ventaja de absorción de sublingual frente a oral. La vía inyectable corresponde a indicaciones médicas.",
+      "en": "Oral or sublingual according to formulation; sublingual has no demonstrated efficacy advantage over oral. Injections are for clinical indications.",
+      "it": "Via orale o sublinguale secondo formulazione; nessun vantaggio dimostrato della via sublinguale rispetto all'orale. Le iniezioni richiedono indicazione clinica."
+    },
+    "alternatives": {
+      "es": "Cianocobalamina, metilcobalamina y otras formas aportan B12; no se ha demostrado superioridad de absorción de una forma suplementaria. Oral y sublingual muestran eficacia similar; no sustituir automáticamente una inyección indicada.",
+      "en": "Cyanocobalamin, methylcobalamin and other forms provide B12; superior absorption of one supplement form is unproven. Oral and sublingual appear similarly effective; do not automatically replace prescribed injections.",
+      "it": "Cianocobalamina, metilcobalamina e altre forme forniscono B12; non è dimostrata superiorità di assorbimento. Orale e sublinguale hanno efficacia simile; non sostituire automaticamente iniezioni prescritte."
+    },
+    "adverse_effects": {
+      "es": "Baja toxicidad conocida; no existe UL establecido. Reacciones individuales y efectos de formulación requieren evaluación.",
+      "en": "Low known toxicity; no established UL. Individual reactions and formulation effects still require assessment.",
+      "it": "Bassa tossicità nota; nessun UL stabilito. Valutare reazioni individuali ed effetti della formulazione."
+    },
+    "argentina": {
+      "classification": "pending_specific_product_registry_and_label",
+      "possible_channels": [
+        "dietary_supplement",
+        "medicinal_product"
+      ],
+      "OTC_status": "unverified",
+      "registration_number": "unverified"
+    },
+    "publication_allowed": false,
+    "clinical_approval": false,
+    "documentary_status": "COMPLETA EN BORRADOR",
+    "pending": [
+      "independent second source and claim cross-check",
+      "Argentina product-specific registry and label",
+      "independent medical translation QA",
+      "professional clinical approval"
+    ]
   }
 }
