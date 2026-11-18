@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "status": "editorial_draft_not_validated",
   "counts": {
     "total": 100,
@@ -11,7 +11,8 @@
     "safety_flags_added": 19,
     "ingredients_with_targeted_safety_flags": 18,
     "product_registrations_verified": 0,
-    "individual_clinical_fiches_validated": 0
+    "individual_clinical_fiches_validated": 0,
+    "ingredients_with_source_verified_claims": 2
   },
   "records": [
     {
@@ -71,6 +72,41 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "source_verified_claims": {
+        "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        "verified_sections": [
+          "Introduction",
+          "Assessing vitamin D status",
+          "Recommended Intakes"
+        ],
+        "claims": [
+          {
+            "es": "La ingesta recomendada es 15 mcg/día entre 19 y 70 años y 20 mcg/día a partir de 71 años; no es una dosis de tratamiento.",
+            "en": "RDA is 15 mcg/day at ages 19–70 and 20 mcg/day at 71+; this is not a treatment dose.",
+            "it": "RDA di 15 mcg/die tra 19 e 70 anni e 20 mcg/die dai 71 anni; non è una dose terapeutica.",
+            "section": "Recommended Intakes"
+          },
+          {
+            "es": "La presencia de grasa en la comida mejora la absorción; también se absorbe sin grasa.",
+            "en": "Dietary fat improves absorption, although some absorption occurs without fat.",
+            "it": "I grassi del pasto migliorano l'assorbimento, che avviene anche senza grassi.",
+            "section": "Introduction"
+          },
+          {
+            "es": "La 25-hidroxivitamina D sérica es el principal indicador del estado de vitamina D; su interpretación tiene limitaciones.",
+            "en": "Serum 25-hydroxyvitamin D is the main status indicator, with interpretation limitations.",
+            "it": "La 25-idrossivitamina D sierica è il principale indicatore, con limiti interpretativi.",
+            "section": "Assessing vitamin D status"
+          }
+        ],
+        "still_unverified": [
+          "full medication interaction list",
+          "therapeutic dosing",
+          "Argentina product registration"
+        ],
+        "scope": "claim_level_only_not_full_fiche",
+        "review_date": "2026-11-18"
       }
     },
     {
@@ -196,6 +232,41 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "source_verified_claims": {
+        "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "verified_sections": [
+          "Assessing iron status",
+          "Recommended Intakes",
+          "Sources of Iron"
+        ],
+        "claims": [
+          {
+            "es": "La ingesta recomendada para adultos de 19 a 50 años es 8 mg/día en varones y 18 mg/día en mujeres; durante el embarazo es 27 mg/día.",
+            "en": "RDA ages 19–50 is 8 mg/day for men and 18 mg/day for women; pregnancy 27 mg/day.",
+            "it": "RDA tra 19 e 50 anni: 8 mg/die uomini e 18 mg/die donne; gravidanza 27 mg/die.",
+            "section": "Recommended Intakes"
+          },
+          {
+            "es": "La ferritina es útil para evaluar reservas de hierro, pero puede aumentar por inflamación.",
+            "en": "Ferritin is useful for assessing iron stores but may rise with inflammation.",
+            "it": "La ferritina è utile per valutare le riserve, ma può aumentare con l'infiammazione.",
+            "section": "Assessing iron status"
+          },
+          {
+            "es": "La vitamina C mejora la biodisponibilidad del hierro no hemo; los fitatos pueden reducirla.",
+            "en": "Vitamin C enhances nonheme iron bioavailability; phytates may reduce it.",
+            "it": "La vitamina C migliora la biodisponibilità del ferro non-eme; i fitati possono ridurla.",
+            "section": "Sources of Iron"
+          }
+        ],
+        "still_unverified": [
+          "therapeutic iron dosing",
+          "complete drug interaction list",
+          "Argentina product registration"
+        ],
+        "scope": "claim_level_only_not_full_fiche",
+        "review_date": "2026-11-18"
       }
     },
     {
