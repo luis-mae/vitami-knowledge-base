@@ -1,5 +1,5 @@
 {
-  "schema": "vitami-research-batch-1",
+  "schema": "vitami-research-batch-1.1",
   "batch_number": 1,
   "created": "2026-11-18",
   "range": "catalog positions 21-45",
@@ -319,6 +319,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "La creatina monohidrato puede mejorar el rendimiento en esfuerzos intensos repetidos; los protocolos estudiados incluyen 3–5 g/día de mantenimiento o 3–6 g/día sin carga.",
+          "en": "Creatine monohydrate may improve repeated high-intensity exercise; studied protocols include 3–5 g/day maintenance or 3–6 g/day without loading.",
+          "it": "La creatina monoidrato può migliorare sforzi intensi ripetuti; protocolli studiati includono 3–5 g/die di mantenimento o 3–6 g/die senza carico."
+        },
+        "studied_dose": "3–5 g/day maintenance; 3–6 g/day without loading",
+        "study_population_or_context": "healthy adults, exercise performance",
+        "safety_summary": "Weight gain due to water retention; gastrointestinal discomfort possible.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -371,6 +386,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "Para ejercicio intenso, algunos estudios emplearon 4–6 g/día en dosis divididas durante al menos 2–4 semanas; los resultados son heterogéneos.",
+          "en": "For intense exercise, some studies used 4–6 g/day in divided doses for at least 2–4 weeks; results vary.",
+          "it": "Per esercizio intenso, alcuni studi hanno usato 4–6 g/die in dosi divise per almeno 2–4 settimane; risultati variabili."
+        },
+        "studied_dose": "4–6 g/day divided, studied ≥2–4 weeks",
+        "study_population_or_context": "high-intensity exercise",
+        "safety_summary": "Paresthesia is dose-related; divided doses or sustained release can reduce it.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -435,6 +465,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "La cafeína puede mejorar ciertos ejercicios de resistencia; se han estudiado 2–6 mg/kg antes del ejercicio, con riesgos de insomnio y taquicardia.",
+          "en": "Caffeine may improve some endurance exercise; 2–6 mg/kg before exercise has been studied, with insomnia and tachycardia risks.",
+          "it": "La caffeina può migliorare alcuni esercizi di resistenza; studiati 2–6 mg/kg prima dell'esercizio, con rischi di insonnia e tachicardia."
+        },
+        "studied_dose": "2–6 mg/kg pre-exercise in studies",
+        "study_population_or_context": "healthy adult exercise studies",
+        "safety_summary": "Insomnia, restlessness, tachycardia, arrhythmia; total caffeine from all sources matters.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -487,6 +532,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "Los suplementos de proteína pueden ayudar a alcanzar requerimientos cuando la dieta no los cubre; no existe una dosis universal del producto.",
+          "en": "Protein supplements may help meet needs when diet falls short; there is no universal product dose.",
+          "it": "Gli integratori proteici possono aiutare a coprire il fabbisogno quando la dieta è insufficiente; nessuna dose universale."
+        },
+        "studied_dose": null,
+        "study_population_or_context": "dietary protein adequacy",
+        "safety_summary": "Consider total protein intake and kidney disease.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -539,6 +599,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "La proteína de suero aporta aminoácidos esenciales y puede ayudar a alcanzar objetivos proteicos; revisar alergia a proteínas lácteas.",
+          "en": "Whey provides essential amino acids and may help meet protein goals; check milk protein allergy.",
+          "it": "Le proteine del siero apportano aminoacidi essenziali e possono aiutare il fabbisogno; valutare allergia al latte."
+        },
+        "studied_dose": null,
+        "study_population_or_context": "dietary protein adequacy",
+        "safety_summary": "Milk protein allergy; lactose content depends on product.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -591,6 +666,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "Las proteínas vegetales pueden contribuir al aporte total; evaluar perfil de aminoácidos y cantidad total.",
+          "en": "Plant proteins can contribute to total intake; assess amino acid profile and total amount.",
+          "it": "Le proteine vegetali contribuiscono all'apporto totale; valutare profilo aminoacidico e quantità."
+        },
+        "studied_dose": null,
+        "study_population_or_context": "dietary protein adequacy",
+        "safety_summary": "Check soy/pea allergens and product formulation.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -643,6 +733,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "La evidencia de citrulina para mejorar el rendimiento es limitada y contradictoria; no hay dosis recomendada establecida.",
+          "en": "Evidence for citrulline performance benefits is limited and conflicting; no established recommended dose.",
+          "it": "Le prove sulla citrullina per le prestazioni sono limitate e contrastanti; nessuna dose raccomandata stabilita."
+        },
+        "studied_dose": null,
+        "study_population_or_context": "exercise performance",
+        "safety_summary": "Gastrointestinal discomfort reported; long-term safety uncertain.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -695,6 +800,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "Los ensayos de arginina para rendimiento físico son limitados y muestran resultados contradictorios.",
+          "en": "Arginine exercise-performance trials are limited and conflicting.",
+          "it": "Gli studi sull'arginina per le prestazioni fisiche sono limitati e contrastanti."
+        },
+        "studied_dose": null,
+        "study_population_or_context": "exercise performance",
+        "safety_summary": "Review gastrointestinal tolerance and medications; not a general performance recommendation.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -747,6 +867,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "Los BCAA no han demostrado de forma consistente beneficios adicionales frente a una ingesta suficiente de proteína completa.",
+          "en": "BCAAs have not consistently shown added benefits beyond adequate complete protein intake.",
+          "it": "I BCAA non hanno dimostrato benefici aggiuntivi costanti rispetto a un apporto adeguato di proteine complete."
+        },
+        "studied_dose": null,
+        "study_population_or_context": "exercise and muscle outcomes",
+        "safety_summary": "Short trials do not establish long-term safety.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -799,6 +934,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "La leucina participa en la síntesis proteica, pero no se ha demostrado consistentemente que suplementarla mejore el rendimiento con proteína suficiente.",
+          "en": "Leucine supports protein synthesis, but supplementation has not consistently improved performance when protein is adequate.",
+          "it": "La leucina partecipa alla sintesi proteica, ma l'integrazione non ha migliorato costantemente le prestazioni con proteine adeguate."
+        },
+        "studied_dose": null,
+        "study_population_or_context": "exercise and protein adequacy",
+        "safety_summary": "Do not infer a recommended dose from experimental upper safe intake.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -901,6 +1051,21 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "source_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_type": "NIH ODS health professional fact sheet",
+        "claim": {
+          "es": "Los estudios sobre carnitina para mejorar el rendimiento físico ofrecen resultados mixtos y no respaldan su uso rutinario.",
+          "en": "Carnitine exercise-performance studies are mixed and do not support routine use.",
+          "it": "Gli studi sulla carnitina per le prestazioni sono contrastanti e non supportano l'uso routinario."
+        },
+        "studied_dose": null,
+        "study_population_or_context": "exercise performance",
+        "safety_summary": "Formulation and interactions require individual review.",
+        "review_status": "source_supported_summary_not_full_clinical_validation",
+        "not_a_personalized_recommendation": true,
+        "requires_specific_product_review": true
       }
     },
     {
@@ -1362,6 +1527,7 @@
     "records": 25,
     "source_candidates_present": 14,
     "fully_verified": 0,
-    "public_recommendation_enabled": 0
+    "public_recommendation_enabled": 0,
+    "source_supported_entries": 11
   }
 }
