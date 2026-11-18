@@ -6743,6 +6743,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "AI 5 mg/día adultos; embarazo 6 mg; lactancia 7 mg",
+        "upper_limit_and_safety_es": "Sin UL establecido; dosis muy altas pueden causar diarrea y molestias gastrointestinales",
+        "medication_interactions_es": "No se conocen interacciones clínicamente relevantes con medicamentos",
+        "administration_es": "Oral con o sin alimentos según producto",
+        "recommendation_basis_es": "No extrapolar AI a dosis de suplemento; déficit poco frecuente.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "ORIGINAL_SOURCE_OPENED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -7061,6 +7086,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "AI 30 mcg/día adultos; embarazo 30 mcg; lactancia 35 mcg",
+        "upper_limit_and_safety_es": "Sin UL establecido; dosis altas interfieren con pruebas de laboratorio (troponina y pruebas tiroideas)",
+        "medication_interactions_es": "Interferencia analítica relevante; algunos anticonvulsivos pueden reducir biotina",
+        "administration_es": "Oral según formulación; informar al laboratorio antes de análisis",
+        "recommendation_basis_es": "No recomendar dosis altas para cabello/uñas sin indicación sustentada.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -7362,6 +7412,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "AI varones 2,3 mg/día; mujeres 1,8 mg; embarazo 2 mg; lactancia 2,6 mg",
+        "upper_limit_and_safety_es": "UL adultos 11 mg/día total; riesgo neurológico por exceso, especial cuidado en enfermedad hepática",
+        "medication_interactions_es": "Antibióticos quinolonas y tetraciclinas: posibles interacciones de absorción; revisar separación",
+        "administration_es": "Oral según etiqueta; separar de fármacos que formen quelatos",
+        "recommendation_basis_es": "No recomendar automáticamente para enfermedades metabólicas.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "ORIGINAL_SOURCE_OPENED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -7663,6 +7738,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "RDA adultos 700 mg/día; embarazo/lactancia adultos 700 mg",
+        "upper_limit_and_safety_es": "UL adultos 19–70: 4000 mg/día; 71+: 3000 mg/día; riesgo elevado en enfermedad renal",
+        "medication_interactions_es": "Antiácidos con aluminio, calcio o magnesio pueden reducir absorción de fósforo; laxantes con fosfato aportan fósforo",
+        "administration_es": "Oral según producto; no indicar suplementos de fósforo por RDA",
+        "recommendation_basis_es": "Enfermedad renal o hiperfosfatemia: bloquear recomendación automática.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "ORIGINAL_SOURCE_OPENED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -7974,6 +8074,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nationalacademies.org/read/25353/chapter/13 . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://www.nationalacademies.org/read/25353/chapter/13",
+        "source_kind": "National Academies Dietary Reference Intakes",
+        "reference_intake_or_studied_dose_es": "AI 1500 mg/día adultos; CDRR recomienda reducir ingesta si supera 2300 mg/día",
+        "upper_limit_and_safety_es": "CDRR 2300 mg/día no es UL ni dosis suplementaria",
+        "medication_interactions_es": "Diuréticos y medicamentos que alteran balance hidroelectrolítico requieren valoración individual",
+        "administration_es": "No recomendar suplementos de sodio rutinarios para alcanzar AI",
+        "recommendation_basis_es": "El sodio no se dosifica automáticamente desde AI; excepciones deportivas/clínicas requieren fuente específica.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "ORIGINAL_SOURCE_OPENED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -8208,6 +8333,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "Mantenimiento estudiado 3–5 g/día; carga opcional ~0,3 g/kg/día durante 5–7 días, repartida",
+        "upper_limit_and_safety_es": "No existe UL nutricional establecido; evidencia mayormente en adultos sanos, precaución en enfermedad renal",
+        "medication_interactions_es": "Revisar medicación potencialmente nefrotóxica y comorbilidad renal; interacciones clínicas no establecidas universalmente",
+        "administration_es": "Monohidrato de creatina diario, con o sin comidas; carga no obligatoria",
+        "recommendation_basis_es": "Aplicar únicamente en objetivos y poblaciones con evidencia; no prescribir por peso sin controlar fase y contexto.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -8438,6 +8588,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "4–6 g/día divididos, durante 2–4 semanas en estudios de rendimiento",
+        "upper_limit_and_safety_es": "Parestesias por dosis individuales elevadas; seguridad prolongada insuficientemente establecida",
+        "medication_interactions_es": "No se documentan interacciones farmacológicas bien establecidas en fuente deportiva",
+        "administration_es": "Repartir tomas pequeñas; formulaciones de liberación sostenida pueden reducir parestesias",
+        "recommendation_basis_es": "Dosis estudiada no es recomendación general para cualquier objetivo.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -8701,6 +8876,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "2–6 mg/kg antes de ejercicio en estudios; revisar exposición diaria total",
+        "upper_limit_and_safety_es": "Puede provocar ansiedad, taquicardia e insomnio; dosis altas peligrosas; embarazo requiere límite diferente",
+        "medication_interactions_es": "Estimulantes y fármacos que afectan metabolismo de cafeína; revisar interacciones específicas del medicamento",
+        "administration_es": "Habitualmente antes del ejercicio según estudio; evitar horario cercano al sueño",
+        "recommendation_basis_es": "Calcular mg/kg con tope de exposición total y exclusiones; no aplicar fórmula universal.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -8924,6 +9124,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "Objetivo proteico total deportivo 1,2–2,0 g/kg/día de todas las fuentes",
+        "upper_limit_and_safety_es": "No hay UL general establecido; evaluar enfermedad renal y alergias según fuente",
+        "medication_interactions_es": "Interacciones dependen de formulación e ingredientes agregados, no de proteína genérica",
+        "administration_es": "Repartir ingesta total según preferencias y tolerancia; suplemento solo cubre déficit dietario",
+        "recommendation_basis_es": "No confundir objetivo de proteína total con gramos de polvo o suplemento.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
@@ -9147,6 +9372,31 @@
         "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
         "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
         "updated_on": "2026-11-18"
+      },
+      "bibliographic_validation_v2": {
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_kind": "NIH ODS Health Professional Fact Sheet",
+        "reference_intake_or_studied_dose_es": "Objetivo proteico total deportivo 1,2–2,0 g/kg/día de todas las fuentes",
+        "upper_limit_and_safety_es": "Alergia a proteína de leche: evitar; intolerancia a lactosa depende de formulación",
+        "medication_interactions_es": "Revisar composición y medicación particular; no inventar interacciones genéricas",
+        "administration_es": "Según tolerancia y etiqueta; dosis suplementaria = déficit alimentario, no objetivo total",
+        "recommendation_basis_es": "No indicar en alergia a leche; separar gramos de proteína efectiva de gramos de producto.",
+        "personalization_inputs": [
+          "edad",
+          "sexo",
+          "embarazo",
+          "lactancia",
+          "objetivo",
+          "dieta",
+          "medicamentos",
+          "enfermedad renal/hepática",
+          "peso cuando corresponda",
+          "formulación"
+        ],
+        "source_review_status": "SOURCE_NOT_RETRIEVED_THIS_SESSION",
+        "bibliographic_completion": "DRAFT_REQUIRES_SOURCE_CONFIRMATION",
+        "app_functionality_not_in_scope": true,
+        "clinical_release_approved": false
       }
     },
     {
