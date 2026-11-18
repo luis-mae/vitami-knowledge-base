@@ -1,3 +1,5 @@
+> **GOBERNANZA ÚNICA VITAMI (18/11/2026):** El único plan operativo vigente es [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md), regido por [CONCEPTO_DIRECTOR_VITAMI.md](https://github.com/luis-mae/vitami/blob/main/frontend/CONCEPTO_DIRECTOR_VITAMI.md). Este archivo se conserva como referencia técnica/histórica, NO como roadmap independiente. Las tareas científicas útiles se ejecutan exclusivamente dentro de los bloques E3–E4 del plan único; no crear motores ni cuestionarios alternativos.
+
 # Vitami Knowledge Base
 
 ## Objetivo
