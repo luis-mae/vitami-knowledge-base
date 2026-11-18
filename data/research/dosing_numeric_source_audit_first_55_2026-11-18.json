@@ -1,0 +1,892 @@
+{
+  "date": "2026-11-18",
+  "purpose": "Audit 55 individual dosing structures and record actual original-source table verification without inheriting previous pass labels",
+  "total": 55,
+  "structure_pass": 55,
+  "source_tables_independently_checked_in_this_pass": 5,
+  "all_55_complete_and_functional": false,
+  "method": "Read complete 1,055,072-character Git blob SHA 3671fd7139eced93467e3a4ddc1eda62bd3d2acc; independently consulted original NIH ODS Vitamin D and Exercise Performance sections; only verified concrete numeric tables entered as source-confirmed.",
+  "note": "Five independently source-checked ingredients do not imply 5 fully validated fiches. All 55 still require claim-specific and functional safety verification. No fabricated numerical tables or false signoff.",
+  "entries": [
+    {
+      "id": "vitamin_d",
+      "structural_check": "PASS",
+      "existing_dose_text": "15 mcg (600 UI)",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": true,
+      "verified_table": {
+        "source_section": "NIH ODS Vitamin D, Recommended Intakes, Table 2",
+        "reference_table": [
+          {
+            "age_min": 19,
+            "age_max": 70,
+            "mcg_day": 15
+          },
+          {
+            "age_min": 71,
+            "age_max": null,
+            "mcg_day": 20
+          }
+        ],
+        "adult_ul_mcg_day": 100,
+        "unit": "mcg/day",
+        "type": "RDA total intake; not treatment or automatically supplemental dose",
+        "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+      },
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "vitamin_b12",
+      "structural_check": "PASS",
+      "existing_dose_text": "2,4 mcg",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "iron",
+      "structural_check": "PASS",
+      "existing_dose_text": "8 mg varones; 18 mg mujeres 19–50",
+      "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "magnesium",
+      "structural_check": "PASS",
+      "existing_dose_text": "400–420 mg varones; 310–320 mg mujeres",
+      "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "calcium",
+      "structural_check": "PASS",
+      "existing_dose_text": "1000 mg (19–50 años)",
+      "source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "zinc",
+      "structural_check": "PASS",
+      "existing_dose_text": "11 mg varones; 8 mg mujeres",
+      "source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "folate",
+      "structural_check": "PASS",
+      "existing_dose_text": "400 mcg DFE",
+      "source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "potassium",
+      "structural_check": "PASS",
+      "existing_dose_text": "3400 mg varones; 2600 mg mujeres (AI)",
+      "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "vitamin_b6",
+      "structural_check": "PASS",
+      "existing_dose_text": "1,3 mg (19–50 años)",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "iodine",
+      "structural_check": "PASS",
+      "existing_dose_text": "150 mcg",
+      "source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "selenium",
+      "structural_check": "PASS",
+      "existing_dose_text": "55 mcg",
+      "source": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "vitamin_c",
+      "structural_check": "PASS",
+      "existing_dose_text": "90 mg varones; 75 mg mujeres",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "vitamin_a",
+      "structural_check": "PASS",
+      "existing_dose_text": "900 mcg RAE varones; 700 mcg RAE mujeres",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "vitamin_e",
+      "structural_check": "PASS",
+      "existing_dose_text": "15 mg alfa-tocoferol",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "vitamin_k",
+      "structural_check": "PASS",
+      "existing_dose_text": "120 mcg varones; 90 mcg mujeres (AI)",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "thiamin",
+      "structural_check": "PASS",
+      "existing_dose_text": "1,2 mg varones; 1,1 mg mujeres",
+      "source": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "riboflavin",
+      "structural_check": "PASS",
+      "existing_dose_text": "1,3 mg varones; 1,1 mg mujeres",
+      "source": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "niacin",
+      "structural_check": "PASS",
+      "existing_dose_text": "16 mg NE varones; 14 mg NE mujeres",
+      "source": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "copper",
+      "structural_check": "PASS",
+      "existing_dose_text": "900 mcg",
+      "source": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "chromium",
+      "structural_check": "PASS",
+      "existing_dose_text": "35 mcg varones; 25 mcg mujeres (AI)",
+      "source": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "pantothenic_acid",
+      "structural_check": "PASS",
+      "existing_dose_text": "AI 5 mg/day adults; pregnancy 6 mg/day; lactation 7 mg/day",
+      "source": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "biotin",
+      "structural_check": "PASS",
+      "existing_dose_text": "AI 30 mcg/day adults; lactation 35 mcg/day",
+      "source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "manganese",
+      "structural_check": "PASS",
+      "existing_dose_text": "AI 2.3 mg/day men, 1.8 mg/day women",
+      "source": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "phosphorus",
+      "structural_check": "PASS",
+      "existing_dose_text": "RDA 700 mg/day adults",
+      "source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "sodium",
+      "structural_check": "PASS",
+      "existing_dose_text": "Adults 19+: sodium AI 1500 mg/day total intake. CDRR: reduce intakes above 2300 mg/day. Neither is a supplement dose.",
+      "source": "https://www.nationalacademies.org/read/25353/chapter/13",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "creatine",
+      "structural_check": "PASS",
+      "existing_dose_text": "3–5 g/day maintenance in studied healthy adults; optional 20 g/day split loading for 5–7 days",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": true,
+      "verified_table": {
+        "source_section": "NIH ODS Exercise and Athletic Performance, Creatine",
+        "maintenance_g_day": [
+          3,
+          5
+        ],
+        "loading_g_day": 20,
+        "loading_max_days": 7,
+        "type": "studied adult exercise regimen; not universal dose",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "beta_alanine",
+      "structural_check": "PASS",
+      "existing_dose_text": "4–6 g/day divided doses for 2–4 weeks in athletic trials",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": true,
+      "verified_table": {
+        "source_section": "NIH ODS Exercise and Athletic Performance, Beta-alanine",
+        "studied_g_day": [
+          4,
+          6
+        ],
+        "type": "studied divided dose, not universal",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "caffeine",
+      "structural_check": "PASS",
+      "existing_dose_text": "2–6 mg/kg before exercise in studies",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": true,
+      "verified_table": {
+        "source_section": "NIH ODS Exercise and Athletic Performance, Caffeine efficacy and safety",
+        "mg_per_kg_studied_min": 2,
+        "mg_per_kg_studied_max": 6,
+        "adult_daily_caffeine_total_mg_general_reference": 400,
+        "timing_before_exercise_minutes": [
+          15,
+          60
+        ],
+        "type": "studied performance range; not default recommended dose",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "protein_powder",
+      "structural_check": "PASS",
+      "existing_dose_text": "Athletic total protein intake often 1.2–2.0 g/kg/day from all sources",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": true,
+      "verified_table": {
+        "source_section": "NIH ODS Exercise and Athletic Performance, Protein",
+        "athletic_total_g_kg_day": [
+          1.2,
+          2
+        ],
+        "type": "total protein from all sources, not supplement amount",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "whey_protein",
+      "structural_check": "PASS",
+      "existing_dose_text": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "plant_protein",
+      "structural_check": "PASS",
+      "existing_dose_text": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "citrulline",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established evidence-based routine supplemental dose",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "arginine",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established effective exercise-performance dose",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "bcaa",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established added-benefit dose with adequate complete protein",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "leucine",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established universal isolated supplemental dose",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "taurine",
+      "structural_check": "PASS",
+      "existing_dose_text": "2025 meta-analysis 23 RCTs (308 participants): acute 1–6 g studied before exercise; no significant dose-response, evidence GRADE low to very low. No established universally recommended performance dose.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40852891/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "carnitine",
+      "structural_check": "PASS",
+      "existing_dose_text": "No dietary reference intake established for healthy adults",
+      "source": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "omega3_epa_dha",
+      "structural_check": "PASS",
+      "existing_dose_text": "No US RDA for EPA+DHA; dose depends on clinical indication",
+      "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "algal_omega3",
+      "structural_check": "PASS",
+      "existing_dose_text": "No US RDA for algal EPA+DHA; read label DHA and EPA content",
+      "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "psyllium",
+      "structural_check": "PASS",
+      "existing_dose_text": "MedlinePlus: psyllium usually taken 1–3 times daily according to formulation label, each powder/granules dose with 240 mL liquid; no universal gram dose across products. EMA monograph distinguishes psyllium seed from ispaghula husk.",
+      "source": "https://medlineplus.gov/druginfo/meds/a601104.html",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "inulin",
+      "structural_check": "PASS",
+      "existing_dose_text": "Health Canada 2026 monograph: inulin 5–15 g/day for prebiotic use in adults 18+. Trial: chicory native inulin 10 g/day for 5 weeks in adults 40–75 with low stool frequency; small crossover trials with mixed results.",
+      "source": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "probiotics",
+      "structural_check": "PASS",
+      "existing_dose_text": "Dose is strain-, indication-, and product-specific; expressed in CFU; no universal CFU/day.",
+      "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "prebiotics",
+      "structural_check": "PASS",
+      "existing_dose_text": "No single prebiotic-class dose. Health Canada adult 18+ monograph: inulin 5–15 g/day, acacia 10–20 g/day, FOS/scFOS 2.5–15 g/day for defined prebiotic purposes.",
+      "source": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "collagen",
+      "structural_check": "PASS",
+      "existing_dose_text": "2025 systematic review of 10 trials: oral collagen 1–10 g/day studied for skin hydration/elasticity; most common 4 g/day. Conflicting 2025 meta-analysis of 23 RCTs found no benefit in independently funded or high-quality trials; therefore no evidence-established universal recommended dose.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40826844/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "choline",
+      "structural_check": "PASS",
+      "existing_dose_text": "AI: 550 mg/day men 19+, 425 mg/day women 19+, 450 mg/day pregnancy, 550 mg/day lactation (total intake).",
+      "source": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "coq10",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established daily requirement or universal supplementation dose.",
+      "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "melatonin",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established universal dose; depends on circadian indication, timing, age and formulation.",
+      "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "curcumin",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established RDA/AI/UL or universal therapeutic dose.",
+      "source": "https://www.nccih.nih.gov/health/turmeric",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "ginger",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established RDA/AI/UL or universal supplement dose.",
+      "source": "https://www.nccih.nih.gov/health/ginger",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "ashwagandha",
+      "structural_check": "PASS",
+      "existing_dose_text": "Stress/anxiety trials: extracts 240–1250 mg/day for 6–8 weeks; several studies found greater effects at 500–600 mg/day.",
+      "source": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "green_tea_extract",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established universal supplemental dose or RDA/AI/UL for green tea extract.",
+      "source": "https://www.nccih.nih.gov/health/green-tea",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "ginseng",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established universal dose across species, extracts or indications.",
+      "source": "https://www.nccih.nih.gov/health/asian-ginseng",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "garlic_extract",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established universal dose across garlic powders, oils, aged extracts and preparations.",
+      "source": "https://www.nccih.nih.gov/health/garlic",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "turmeric",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established RDA/AI/UL or universal dose for turmeric root preparations.",
+      "source": "https://www.nccih.nih.gov/health/turmeric",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    },
+    {
+      "id": "echinacea",
+      "structural_check": "PASS",
+      "existing_dose_text": "No established universal dose; species, plant part, extraction and intended use differ.",
+      "source": "https://www.nccih.nih.gov/health/echinacea",
+      "source_specific_table_verified_in_this_pass": false,
+      "verified_table": null,
+      "automated_dose_recommendation_approved": false,
+      "remaining_checks": [
+        "full age/life-stage numeric reference and upper limit where relevant",
+        "indication and formulation-specific dose selection",
+        "interactions and contraindications linked to decision rule",
+        "test questionnaire and safety exclusions"
+      ]
+    }
+  ]
+}
