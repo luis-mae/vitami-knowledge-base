@@ -38,7 +38,17 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "May reduce warfarin anticoagulant effect"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "melatonin",
@@ -87,7 +97,18 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Sedative effects; avoid driving if drowsy",
+          "Pediatric use, pregnancy and breastfeeding require professional review"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "curcumin",
@@ -123,7 +144,18 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Concentrated high-bioavailability products have reported liver injury",
+          "Review concurrent anticoagulants"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "ginger",
@@ -156,7 +188,17 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Review anticoagulant or antiplatelet therapy before concentrated supplement use"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "ashwagandha",
@@ -205,7 +247,18 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Avoid in pregnancy",
+          "Possible liver injury; review thyroid disorders and thyroid medicines"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "green_tea_extract",
@@ -264,7 +317,18 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Concentrated extracts have been linked to liver injury",
+          "Caffeine exposure depends on formulation"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "ginseng",
@@ -299,7 +363,17 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Potential blood glucose effects and medication interactions"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "garlic_extract",
@@ -334,7 +408,17 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Potential increased bleeding with anticoagulant or antiplatelet medicines"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "turmeric",
@@ -367,7 +451,18 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "High-dose extracts differ from culinary use",
+          "Liver injury reports with some formulations"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "echinacea",
@@ -400,7 +495,17 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Review allergy to Asteraceae family and immunosuppressive therapy"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "st_johns_wort",
@@ -449,7 +554,18 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Major drug interactions: oral contraceptives, immunosuppressants, anticoagulants, antiretrovirals and others",
+          "Serotonergic drug combinations can cause serotonin toxicity"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "berberine",
@@ -485,7 +601,18 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Avoid during pregnancy, breastfeeding and in infants",
+          "Screen for medication interactions and hypoglycemia risk"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "alpha_lipoic_acid",
@@ -586,7 +713,17 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "High-dose supplements are not appropriate for smokers or former smokers due to lung cancer signal"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "inositol",
@@ -786,7 +923,17 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Review warfarin use and shellfish-derived formulations"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "chondroitin",
@@ -821,7 +968,17 @@
       "safety_screen_status": "research_leads_unverified",
       "dose_status": "not_independently_verified",
       "argentina_status": "specific_product_RNE_RNPA_pending",
-      "auto_recommendation_allowed": false
+      "auto_recommendation_allowed": false,
+      "clinical_safety_triage": {
+        "triggers": [
+          "Review warfarin use"
+        ],
+        "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+        "triage_class": "manual_review_required",
+        "source_status": "requires_individual_authoritative_source_confirmation",
+        "not_clinically_validated": true,
+        "release_allowed": false
+      }
     },
     {
       "ingredient_id": "msm",
@@ -927,6 +1084,7 @@
     "count": 25,
     "source_candidates": 15,
     "ingredient_specific_safety_screens": 12,
-    "fully_clinically_verified": 0
+    "fully_clinically_verified": 0,
+    "safety_triage_added": 15
   }
 }
