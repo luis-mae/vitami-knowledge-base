@@ -978,5 +978,9 @@
       "fully_audited": false,
       "usable_for_automated_personalized_dosing": false
     }
-  ]
+  ],
+  "governance": {
+    "document_status": "DATED_RESEARCH_EVIDENCE_NOT_MASTER_AUDIT_OR_ACTIVE_PLAN",
+    "instruction": "This file records a bounded research/audit milestone for its named ingredients and date. It is not the current consolidated VITAMI audit and must not be used to infer global completion or current status. Consult luis-mae/vitami/AUDITORIA.md and VITAMI_PLAN_MAESTRO_UNICO.md before acting."
+  }
 }
