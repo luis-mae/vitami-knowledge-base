@@ -1913,14 +1913,14 @@
         "it": "Creatina"
       },
       "indications": {
-        "es": "Estudiada para fuerza y ejercicios de alta intensidad; no equivale a beneficio universal.",
-        "en": "Studied for strength and high-intensity exercise; benefits are not universal.",
-        "it": "Studiata per forza ed esercizio intenso; benefici non universali."
+        "es": "La creatina monohidrato puede mejorar la fuerza y el rendimiento en esfuerzos intensos, breves y repetidos; su utilidad es limitada para resistencia aeróbica.",
+        "en": "Creatine monohydrate can improve strength and performance in repeated short high-intensity efforts; benefits for aerobic endurance are limited.",
+        "it": "La creatina monoidrato può migliorare forza e prestazione in sforzi brevi, intensi e ripetuti; i benefici per la resistenza aerobica sono limitati."
       },
       "safety": {
-        "es": "Revisar enfermedad renal y medicamentos relevantes; interpretar cambios de creatinina con contexto clínico.",
-        "en": "Review kidney disease and relevant medicines; interpret creatinine changes clinically.",
-        "it": "Valutare malattie renali e farmaci; interpretare variazioni di creatinina nel contesto clinico."
+        "es": "Puede aumentar el peso por retención hídrica y causar molestias gastrointestinales. La seguridad descrita corresponde principalmente a adultos sanos; evaluar enfermedades y medicamentos antes de recomendar.",
+        "en": "May increase body weight through water retention and cause gastrointestinal discomfort. Reported safety mainly concerns healthy adults; review conditions and medicines before suggesting use.",
+        "it": "Può aumentare il peso per ritenzione idrica e causare disturbi gastrointestinali. I dati di sicurezza riguardano soprattutto adulti sani; valutare patologie e farmaci prima di proporne l'uso."
       },
       "how_to_take": {
         "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1941,7 +1941,8 @@
       },
       "alternatives": {
         "equivalence_established": false,
-        "review_required": true
+        "review_required": true,
+        "source_note": "Other creatine forms have not shown superiority to monohydrate; not a declaration of therapeutic interchangeability."
       },
       "Argentina": {
         "registered_product_checked": false,
@@ -1955,8 +1956,8 @@
       },
       "documentary_status": "INCOMPLETA",
       "checks": {
-        "source_claims_verified": false,
-        "indication_specific_evidence_appraised": false,
+        "source_claims_verified": true,
+        "indication_specific_evidence_appraised": true,
         "dose_and_ul_verified": false,
         "drug_interactions_complete": false,
         "populations_and_adverse_effects_complete": false,
@@ -1965,15 +1966,26 @@
         "alternatives_equivalence_evaluated": false
       },
       "missing_checks": [
-        "source_claims_verified",
-        "indication_specific_evidence_appraised",
         "dose_and_ul_verified",
         "drug_interactions_complete",
         "populations_and_adverse_effects_complete",
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "evidence_review": {
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "source_section": "Creatine — Efficacy, Safety, Implications for use",
+        "source_accessed": "2026-11-18",
+        "specific_claims_reviewed": true,
+        "indication_grade": "multiple_trials_benefit_for_high_intensity_exercise",
+        "limitations": "Full independent drug interaction, population, product and translation review still pending."
+      },
+      "research_dose": {
+        "adult_research_protocol": "3–5 g/day maintenance; optional 20 g/day divided into four doses for 5–7 days loading",
+        "not_personalized": true,
+        "form": "creatine monohydrate"
+      }
     },
     {
       "id": "beta_alanine",
@@ -3734,14 +3746,14 @@
         "it": "Estratto di tè verde"
       },
       "indications": {
-        "es": "Estudiado en distintos objetivos metabólicos; el extracto concentrado no equivale a beber té.",
-        "en": "Studied for metabolic outcomes; concentrated extract is not equivalent to brewed tea.",
-        "it": "Studiato per esiti metabolici; l'estratto concentrato non equivale all'infuso."
+        "es": "Los efectos sobre peso y colesterol, cuando existen, son pequeños; no hay fundamento para recomendar extractos concentrados como tratamiento general.",
+        "en": "Effects on weight and cholesterol, when present, are small; concentrated extracts are not justified as general treatment.",
+        "it": "Gli effetti su peso e colesterolo, quando presenti, sono modesti; gli estratti concentrati non sono giustificati come trattamento generale."
       },
       "safety": {
-        "es": "Los extractos concentrados pueden implicar riesgo hepático; no equiparar con infusión.",
-        "en": "Concentrated extracts may pose liver risk; not equivalent to tea infusion.",
-        "it": "Gli estratti concentrati possono comportare rischio epatico; non equivalgono all'infuso."
+        "es": "Los extractos se han asociado con lesión hepática poco frecuente, náuseas, estreñimiento y aumento de presión arterial; revisar nadolol, atorvastatina y raloxifeno.",
+        "en": "Extracts have been associated with uncommon liver injury, nausea, constipation and increased blood pressure; review nadolol, atorvastatin and raloxifene.",
+        "it": "Gli estratti sono stati associati a rari danni epatici, nausea, stitichezza e aumento della pressione; verificare nadololo, atorvastatina e raloxifene."
       },
       "how_to_take": {
         "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
@@ -3764,7 +3776,8 @@
       },
       "alternatives": {
         "equivalence_established": false,
-        "review_required": true
+        "review_required": true,
+        "source_note": "Brewed tea is not equivalent to a concentrated extract; no substitute asserted."
       },
       "Argentina": {
         "registered_product_checked": false,
@@ -3778,8 +3791,8 @@
       },
       "documentary_status": "INCOMPLETA",
       "checks": {
-        "source_claims_verified": false,
-        "indication_specific_evidence_appraised": false,
+        "source_claims_verified": true,
+        "indication_specific_evidence_appraised": true,
         "dose_and_ul_verified": false,
         "drug_interactions_complete": false,
         "populations_and_adverse_effects_complete": false,
@@ -3788,15 +3801,26 @@
         "alternatives_equivalence_evaluated": false
       },
       "missing_checks": [
-        "source_claims_verified",
-        "indication_specific_evidence_appraised",
         "dose_and_ul_verified",
         "drug_interactions_complete",
         "populations_and_adverse_effects_complete",
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "evidence_review": {
+        "source_url": "https://www.nccih.nih.gov/health/green-tea",
+        "source_section": "What Have We Learned? / What Do We Know About Safety?",
+        "source_accessed": "2026-11-18",
+        "specific_claims_reviewed": true,
+        "indication_grade": "small_or_inconsistent_effects_by_outcome",
+        "limitations": "Full independent drug interaction, population, product and translation review still pending."
+      },
+      "research_dose": {
+        "adult_research_protocol": null,
+        "not_personalized": true,
+        "form": "extract composition and catechin content vary"
+      }
     },
     {
       "id": "ginseng",
@@ -5542,14 +5566,14 @@
         "it": "Valeriana"
       },
       "indications": {
-        "es": "Investigada para sueño; evidencia insuficiente para recomendarla de manera general.",
-        "en": "Studied for sleep; evidence insufficient for general recommendation.",
-        "it": "Studiata per sonno; prove insufficienti per raccomandazione generale."
+        "es": "La evidencia para el sueño es inconsistente; una guía clínica desaconseja valeriana para insomnio crónico en adultos.",
+        "en": "Evidence for sleep benefits is inconsistent; a clinical guideline recommends against valerian for chronic insomnia in adults.",
+        "it": "Le prove per il sonno sono incoerenti; una linea guida clinica sconsiglia la valeriana per l'insonnia cronica negli adulti."
       },
       "safety": {
-        "es": "Evidencia insuficiente para insomnio; precaución con sedantes y conducción.",
-        "en": "Insufficient insomnia evidence; caution with sedatives and driving.",
-        "it": "Prove insufficienti per insonnia; cautela con sedativi e guida."
+        "es": "Puede producir cefalea, molestias digestivas, embotamiento y sueños vívidos. Evitar combinar con alcohol o sedantes; seguridad prolongada y en embarazo/lactancia desconocida.",
+        "en": "May cause headache, digestive upset, mental dullness and vivid dreams. Avoid combining with alcohol or sedatives; long-term and pregnancy/lactation safety are unknown.",
+        "it": "Può causare cefalea, disturbi digestivi, ottundimento e sogni vividi. Evitare alcol o sedativi; sicurezza a lungo termine e in gravidanza/allattamento sconosciuta."
       },
       "how_to_take": {
         "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
@@ -5572,7 +5596,8 @@
       },
       "alternatives": {
         "equivalence_established": false,
-        "review_required": true
+        "review_required": true,
+        "source_note": "No evidence-backed ingredient substitution established."
       },
       "Argentina": {
         "registered_product_checked": false,
@@ -5586,8 +5611,8 @@
       },
       "documentary_status": "INCOMPLETA",
       "checks": {
-        "source_claims_verified": false,
-        "indication_specific_evidence_appraised": false,
+        "source_claims_verified": true,
+        "indication_specific_evidence_appraised": true,
         "dose_and_ul_verified": false,
         "drug_interactions_complete": false,
         "populations_and_adverse_effects_complete": false,
@@ -5596,15 +5621,26 @@
         "alternatives_equivalence_evaluated": false
       },
       "missing_checks": [
-        "source_claims_verified",
-        "indication_specific_evidence_appraised",
         "dose_and_ul_verified",
         "drug_interactions_complete",
         "populations_and_adverse_effects_complete",
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "evidence_review": {
+        "source_url": "https://www.nccih.nih.gov/health/valerian",
+        "source_section": "What Have We Learned? / What Do We Know About Safety?",
+        "source_accessed": "2026-11-18",
+        "specific_claims_reviewed": true,
+        "indication_grade": "insufficient_or_inconsistent_for_sleep",
+        "limitations": "Full independent drug interaction, population, product and translation review still pending."
+      },
+      "research_dose": {
+        "adult_research_protocol": "300–600 mg/day studied for up to 6 weeks, not an efficacy recommendation",
+        "not_personalized": true,
+        "form": "valerian preparations vary"
+      }
     },
     {
       "id": "rhodiola",
