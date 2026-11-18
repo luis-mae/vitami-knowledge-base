@@ -1,5 +1,5 @@
 {
-  "version": "2.14",
+  "version": "2.15",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -245,6 +245,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -435,6 +440,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -669,6 +679,11 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "review_progress": {
+          "indication_editorial_present": false,
+          "clinical_primary_source_check_complete": true,
+          "clinical_signoff": false
         }
       }
     },
@@ -856,6 +871,11 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "review_progress": {
+          "indication_editorial_present": false,
+          "clinical_primary_source_check_complete": true,
+          "clinical_signoff": false
         }
       }
     },
@@ -1053,6 +1073,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -1250,6 +1275,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -1445,6 +1475,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -1680,6 +1715,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -1875,6 +1915,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -2073,6 +2118,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -2260,6 +2310,11 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "review_progress": {
+          "indication_editorial_present": false,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -2454,6 +2509,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -2660,6 +2720,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -2854,6 +2919,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -3042,6 +3112,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -3231,6 +3306,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -3418,6 +3498,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -3613,6 +3698,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -3807,6 +3897,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -3996,6 +4091,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -4219,6 +4319,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": null,
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -4465,6 +4570,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": null,
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": true,
+          "clinical_signoff": false
         }
       }
     },
@@ -4694,6 +4804,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": null,
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -4923,6 +5038,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": null,
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -5148,6 +5268,11 @@
           "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
           "source_candidate": null,
           "not_a_patient_specific_recommendation": true
+        },
+        "review_progress": {
+          "indication_editorial_present": true,
+          "clinical_primary_source_check_complete": false,
+          "clinical_signoff": false
         }
       }
     },
@@ -16523,6 +16648,7 @@
     "quality_control_checks_added": 25,
     "source_audits": 25,
     "indication_specific_editorial_reviews_added": 8,
-    "additional_indication_editorial_reviews": 6
+    "additional_indication_editorial_reviews": 6,
+    "progress_review_count": 25
   }
 }
