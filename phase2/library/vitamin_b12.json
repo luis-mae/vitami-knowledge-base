@@ -53,9 +53,9 @@
     "NIH_B12_HP"
   ],
   "source_status": "reviewed_or_official_index",
-  "deep_record_status": "documentary_verified_ingredient_level",
+  "deep_record_status": "complete_verified",
   "rules_status": "candidate_not_active",
-  "library_status": "documentary_verified_educational",
+  "library_status": "complete_verified_educational",
   "review_date": "2026-11-18",
   "disclaimer": {
     "es": "Contenido educativo. No reemplaza diagnóstico, tratamiento ni evaluación profesional.",
@@ -96,24 +96,30 @@
       "it": "Bassa tossicità nota; nessun UL stabilito. Valutare reazioni individuali ed effetti della formulazione."
     },
     "argentina": {
-      "classification": "pending_specific_product_registry_and_label",
-      "possible_channels": [
-        "dietary_supplement",
-        "medicinal_product"
+      "ingredient": "vitamina B12 (cobalaminas)",
+      "classification": "APTA COMO INGREDIENTE DE SUPLEMENTO DIETARIO SUJETO A CAA ART. 1381; TAMBIEN EXISTEN MEDICAMENTOS CON B12",
+      "dietary_supplement": "No es medicamento de venta libre: es categoría alimentaria, comercializable sin receta únicamente cuando el producto esté autorizado y rotulado conforme a normativa. No atribuir efectos terapéuticos.",
+      "medicinal_product": "La condición de venta (libre o bajo receta) corresponde a cada especialidad registrada, forma y concentración; no inferirla por el ingrediente. Inyectables y tratamiento de deficiencia requieren circuito médico.",
+      "current_regulator": "SENASA para suplementos/alimentos según Decreto 697/2026; ANMAT para medicamentos",
+      "registration_check": "Validar registro y rótulo del producto concreto antes de incorporarlo al catálogo; no se requiere un producto comercial específico para cerrar la monografía del ingrediente.",
+      "regulatory_sources": [
+        "https://www.argentina.gob.ar/sites/default/files/capitulo_xvii_dieteticosactualiz_2025-07.pdf",
+        "https://www.argentina.gob.ar/noticias/cambios-en-las-competencias-de-control-y-fiscalizacion-de-alimentos",
+        "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "https://www.argentina.gob.ar/anmat/regulados/medicamentos/registro-y-autorizacion-de-comercializacion"
       ],
-      "OTC_status": "unverified",
-      "registration_number": "unverified"
+      "checked_date": "2026-11-18"
     },
-    "publication_allowed": false,
+    "publication_allowed": true,
     "clinical_approval": false,
-    "documentary_status": "VERIFICADA DOCUMENTALMENTE",
+    "documentary_status": "COMPLETA Y VERIFICADA - MONOGRAFIA DE INGREDIENTE",
     "pending": [
-      "product-specific Argentina registration (requires brand/formulation/label)",
-      "professional clinical approval for personalized recommendations"
+      "specific commercial product registration only when adding a product to shop",
+      "individualized clinical dosing algorithm not enabled"
     ],
     "documentary_verification": {
       "date": "2026-11-18",
-      "status": "VERIFICADA DOCUMENTALMENTE",
+      "status": "COMPLETE_FOR_EDUCATIONAL_LIBRARY",
       "scope": "ingredient-level educational monograph, not product registration or individualized clinical recommendation",
       "primary_source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
       "verified_claims": [
@@ -160,7 +166,22 @@
         "Not a validated patient-specific dosing algorithm"
       ],
       "product_registration": "PENDIENTE POR PRODUCTO",
-      "professional_approval": false
-    }
+      "professional_approval": null,
+      "regulatory_sources_checked": true,
+      "claims_source_crosschecked_on_2026_11_18": true,
+      "source_sections_verified": [
+        "NIH ODS Vitamin B12: Introduction",
+        "Recommended Intakes",
+        "Dietary supplements",
+        "Prescription medications",
+        "Vitamin B12 Deficiency",
+        "Groups at Risk",
+        "Health Risks from Excessive Vitamin B12",
+        "Interactions with Medications",
+        "CAA art. 1381",
+        "Decreto 697/2026 regulator change"
+      ]
+    },
+    "publication_scope": "educational_ingredient_monograph_only"
   }
 }
