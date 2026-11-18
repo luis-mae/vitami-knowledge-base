@@ -9031,6 +9031,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established universal daily dose; trial amounts depend on bowel outcome, product and tolerance.",
+        "dose_caveat": "No RDA/AI/UL for isolated inulin; do not equate dietary fiber AI with inulin supplement dose.",
+        "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "source_section_or_limitation": "NIH ODS probiotics fact sheet is not a direct inulin dosing monograph; specific trials needed.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -9232,6 +9242,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "Dose is strain-, indication-, and product-specific; expressed in CFU; no universal CFU/day.",
+        "dose_caveat": "No established RDA/AI/UL or universally effective CFU target.",
+        "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "source_section_or_limitation": "NIH ODS Probiotics: efficacy cannot be extrapolated across strains.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -9402,6 +9422,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No universal dose for the category; ingredient-specific studied amounts and tolerability required.",
+        "dose_caveat": "No RDA/AI/UL for prebiotic supplements as a class.",
+        "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "source_section_or_limitation": "NIH ODS probiotics page is background, not an ingredient-specific dosing reference.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -9572,6 +9602,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established daily requirement or universally supported supplementation dose.",
+        "dose_caveat": "Study amounts vary by peptide formulation and outcome; generic NCCIH home page is insufficient for dose attribution.",
+        "source": "https://www.nccih.nih.gov/health",
+        "source_section_or_limitation": "A specific clinical trial or systematic review is required before a numerical dose can be published.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -9738,6 +9778,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "AI: 550 mg/day men 19+, 425 mg/day women 19+, 450 mg/day pregnancy, 550 mg/day lactation (total intake).",
+        "dose_caveat": "UL: 3500 mg/day for adults, from food plus supplements; AI is not a prescribed supplement dose.",
+        "source": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+        "source_section_or_limitation": "NIH ODS Choline Health Professional, Recommended Intakes and Health Risks from Excessive Choline.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -9937,6 +9987,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established daily requirement or universal supplementation dose.",
+        "dose_caveat": "Doses vary by indication and formulation; no single default personalized dose.",
+        "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
+        "source_section_or_limitation": "NCCIH Coenzyme Q10; do not extrapolate doses from unrelated conditions.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -10167,6 +10227,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established universal dose; depends on circadian indication, timing, age and formulation.",
+        "dose_caveat": "NCCIH finds insufficient support for routine treatment of chronic insomnia; long-term safety uncertain.",
+        "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "source_section_or_limitation": "NCCIH Melatonin: What You Need To Know, insomnia and safety sections.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -10364,6 +10434,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established RDA/AI/UL or universal therapeutic dose.",
+        "dose_caveat": "Curcuminoid content and bioavailability vary substantially by extract; no interchangeability with turmeric powder.",
+        "source": "https://www.nccih.nih.gov/health/turmeric",
+        "source_section_or_limitation": "NCCIH Turmeric; numeric doses require specific preparation and trial.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -10559,6 +10639,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established RDA/AI/UL or universal supplement dose.",
+        "dose_caveat": "Indication-specific trial doses vary; powder, extract and fresh ginger are not equivalent.",
+        "source": "https://www.nccih.nih.gov/health/ginger",
+        "source_section_or_limitation": "NCCIH Ginger; verify indication and preparation before numeric dosing.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -10778,6 +10868,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "Stress/anxiety trials: extracts 240–1250 mg/day for 6–8 weeks; several studies found greater effects at 500–600 mg/day.",
+        "dose_caveat": "These are studied extract doses, NOT a universal dose; root powder is not equivalent; pregnancy, liver and thyroid concerns.",
+        "source": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+        "source_section_or_limitation": "NIH ODS Ashwagandha Health Professional, stress/anxiety trials and implications for use.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -11013,6 +11113,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established universal supplemental dose or RDA/AI/UL for green tea extract.",
+        "dose_caveat": "Catechin/EGCG concentration varies; concentrated extracts may cause liver injury; no automatic dosing.",
+        "source": "https://www.nccih.nih.gov/health/green-tea",
+        "source_section_or_limitation": "NCCIH Green Tea; assess extract EGCG content and liver safety.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -11208,6 +11318,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established universal dose across species, extracts or indications.",
+        "dose_caveat": "Panax ginseng preparations are not interchangeable; use preparation-specific monograph/trial.",
+        "source": "https://www.nccih.nih.gov/health/asian-ginseng",
+        "source_section_or_limitation": "NCCIH Asian Ginseng; EMA herbal monographs for specific medicinal preparations.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -11421,6 +11541,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established universal dose across garlic powders, oils, aged extracts and preparations.",
+        "dose_caveat": "Clinical trials use non-equivalent preparations; consider bleeding risk and anticoagulants.",
+        "source": "https://www.nccih.nih.gov/health/garlic",
+        "source_section_or_limitation": "NCCIH Garlic; EMA herbal monographs for specified medicinal preparations.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -11615,6 +11745,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established RDA/AI/UL or universal dose for turmeric root preparations.",
+        "dose_caveat": "Turmeric powder and concentrated curcumin are different formulations; concentrated products can pose liver risks.",
+        "source": "https://www.nccih.nih.gov/health/turmeric",
+        "source_section_or_limitation": "NCCIH Turmeric; formulation-specific evidence required.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -11824,6 +11964,16 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established universal dose; species, plant part, extraction and intended use differ.",
+        "dose_caveat": "Echinacea purpurea and E. angustifolia preparations are not dose-equivalent; consider allergy and immune conditions.",
+        "source": "https://www.nccih.nih.gov/health/echinacea",
+        "source_section_or_limitation": "NCCIH Echinacea; EMA monograph only for matched species and preparation.",
+        "reviewed_on": "2026-11-18",
+        "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
+        "clinical_approval": false,
+        "default_personalized_dose_allowed": false
       }
     },
     {
@@ -19213,6 +19363,12 @@
       ],
       "clinical_validation": "pending_individual_source_passage_and_claim_review",
       "product_authorization": "pending"
+    },
+    "batch_41_55": {
+      "status": "15_dose_fields_completed_with_no_unfounded_numeric_doses",
+      "count": 15,
+      "clinical_approval": false,
+      "individual_claim_verification": "not certified"
     }
   },
   "editorial_completion_policy": {
