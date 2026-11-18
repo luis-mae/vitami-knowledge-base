@@ -927,6 +927,35 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/milk-thistle",
+        "source_sections": [
+          "How Much Do We Know?",
+          "What Have We Learned?",
+          "What Do We Know About Safety?"
+        ],
+        "claims": {
+          "es": [
+            "Los ensayos en enfermedades hepáticas son contradictorios o insuficientes; no se ha demostrado un beneficio clínico fiable para tratar enfermedad hepática.",
+            "Posibles molestias gastrointestinales y alergias a asteráceas; la calidad y concentración de silimarina pueden variar entre productos."
+          ],
+          "en": [
+            "Trials in liver disease are conflicting or insufficient; reliable clinical benefit for treating liver disease has not been established.",
+            "Possible gastrointestinal effects and Asteraceae allergy; product quality and silymarin content may vary."
+          ],
+          "it": [
+            "Gli studi sulle malattie epatiche sono contrastanti o insufficienti; non è dimostrato un beneficio clinico affidabile nel trattamento.",
+            "Possibili disturbi gastrointestinali e allergia alle Asteraceae; qualità e contenuto di silimarina possono variare."
+          ]
+        },
+        "decision_rule": "DO_NOT_RECOMMEND_AS_LIVER_DISEASE_TREATMENT",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "dose_verified": false,
+        "full_interactions_verified": false,
+        "regulatory_verified": false,
+        "clinical_validation": false
       }
     },
     {
@@ -971,6 +1000,34 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/peppermint-oil",
+        "source_sections": [
+          "What Have We Learned?",
+          "What Do We Know About Safety?"
+        ],
+        "claims": {
+          "es": [
+            "Las cápsulas de aceite de menta con recubrimiento entérico pueden mejorar síntomas del síndrome de intestino irritable en adultos; evidencia limitada.",
+            "Puede causar reflujo, acidez y molestias digestivas. No extrapolar a té de menta ni a aceites esenciales sin formulación oral apropiada."
+          ],
+          "en": [
+            "Enteric-coated peppermint oil capsules may improve IBS symptoms in adults; evidence is limited.",
+            "May cause reflux, heartburn and digestive discomfort. Do not extrapolate to peppermint tea or unformulated essential oils."
+          ],
+          "it": [
+            "Le capsule gastroresistenti di olio di menta possono migliorare i sintomi della sindrome dell'intestino irritabile negli adulti; prove limitate.",
+            "Può causare reflusso, bruciore e disturbi digestivi. Non generalizzare a tisane o oli essenziali non formulati per uso orale."
+          ]
+        },
+        "decision_rule": "REQUIRE_ENTERIC_COATED_PRODUCT_AND_REFLUX_SCREEN",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "dose_verified": false,
+        "full_interactions_verified": false,
+        "regulatory_verified": false,
+        "clinical_validation": false
       }
     },
     {
@@ -1059,6 +1116,35 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/chamomile",
+        "source_sections": [
+          "How Much Do We Know?",
+          "What Have We Learned?",
+          "What Do We Know About Safety?"
+        ],
+        "claims": {
+          "es": [
+            "La evidencia para insomnio es insuficiente; existen resultados preliminares para ansiedad generalizada, sin demostrar eficacia clínica concluyente.",
+            "Puede producir alergias, especialmente en personas sensibles a otras asteráceas. Se han comunicado interacciones con warfarina; revisar sedantes y embarazo."
+          ],
+          "en": [
+            "Evidence for insomnia is insufficient; preliminary generalized-anxiety results do not establish clinical effectiveness.",
+            "Allergy is possible, especially with Asteraceae sensitivity. Warfarin interactions have been reported; screen sedatives and pregnancy."
+          ],
+          "it": [
+            "Le prove per l'insonnia sono insufficienti; i risultati preliminari sull'ansia generalizzata non dimostrano efficacia conclusiva.",
+            "Possibili allergie, specie con sensibilità alle Asteraceae. Segnalate interazioni con warfarin; valutare sedativi e gravidanza."
+          ]
+        },
+        "decision_rule": "REVIEW_ASTERACEAE_ALLERGY_WARFARIN_SEDATIVES",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "dose_verified": false,
+        "full_interactions_verified": false,
+        "regulatory_verified": false,
+        "clinical_validation": false
       }
     }
   ],
@@ -1069,6 +1155,6 @@
     "clinically_validated": 0,
     "targeted_review_sources_added": 14,
     "fully_clinically_verified": 0,
-    "source_verified_claim_entries": 4
+    "source_verified_claim_entries": 7
   }
 }
