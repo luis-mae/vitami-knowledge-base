@@ -1,5 +1,5 @@
 {
-  "schema": "vitami-research-batch-1.1",
+  "schema": "vitami-research-batch-1.2",
   "batch_number": 1,
   "created": "2026-11-18",
   "range": "catalog positions 21-45",
@@ -1130,6 +1130,18 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "independently_checked_source": {
+        "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "sections": "Introduction; Recommended Intakes",
+        "claim": {
+          "es": "EPA y DHA son omega-3 de cadena larga; no existe una ingesta recomendada (RDA) específica de EPA+DHA establecida por el FNB. No confundir con la ingesta adecuada de ALA.",
+          "en": "EPA and DHA are long-chain omega-3s; the FNB has not established an EPA+DHA-specific RDA. Do not confuse this with ALA adequate intake.",
+          "it": "EPA e DHA sono omega-3 a catena lunga; non è stata stabilita una RDA specifica EPA+DHA. Non confonderla con l'assunzione adeguata di ALA."
+        },
+        "product_or_dosing_guardrail": "Do not calculate a personalized EPA+DHA RDA from ALA values.",
+        "review_date": "2026-11-18",
+        "status": "source_checked_claim_only_not_full_fiche"
       }
     },
     {
@@ -1194,6 +1206,18 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "independently_checked_source": {
+        "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "sections": "Introduction; Sources of Omega-3s",
+        "claim": {
+          "es": "Las microalgas producen originalmente EPA y DHA en la cadena alimentaria marina; verificar EPA y DHA reales declarados en la formulación.",
+          "en": "Marine microalgae are the original producers of EPA and DHA; verify actual labeled EPA and DHA amounts in the formulation.",
+          "it": "Le microalghe marine sono i produttori originari di EPA e DHA; verificare le quantità effettive dichiarate in etichetta."
+        },
+        "product_or_dosing_guardrail": "Do not infer EPA content from a DHA-only algae oil.",
+        "review_date": "2026-11-18",
+        "status": "source_checked_claim_only_not_full_fiche"
       }
     },
     {
@@ -1306,6 +1330,18 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "independently_checked_source": {
+        "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "sections": "Introduction",
+        "claim": {
+          "es": "La inulina es un ejemplo de carbohidrato prebiótico, no un microorganismo probiótico.",
+          "en": "Inulin is an example of a prebiotic carbohydrate, not a probiotic microorganism.",
+          "it": "L'inulina è un carboidrato prebiotico, non un microrganismo probiotico."
+        },
+        "product_or_dosing_guardrail": "Clinical benefit and dose require an inulin-specific source.",
+        "review_date": "2026-11-18",
+        "status": "source_checked_claim_only_not_full_fiche"
       }
     },
     {
@@ -1370,6 +1406,18 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "independently_checked_source": {
+        "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "sections": "Identification; Probiotic Selection and Use; Sources of Probiotics",
+        "claim": {
+          "es": "La eficacia probiótica depende de la cepa y la indicación; más UFC no implica mayor eficacia. Requiere género, especie, cepa y UFC del producto.",
+          "en": "Probiotic effects depend on strain and indication; higher CFU counts do not imply greater effectiveness. Require genus, species, strain and product CFU.",
+          "it": "Gli effetti dei probiotici dipendono dal ceppo e dall'indicazione; più UFC non significa maggiore efficacia. Richiedere genere, specie, ceppo e UFC."
+        },
+        "product_or_dosing_guardrail": "No generic probiotic substitutions across strains.",
+        "review_date": "2026-11-18",
+        "status": "source_checked_claim_only_not_full_fiche"
       }
     },
     {
@@ -1420,6 +1468,18 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "independently_checked_source": {
+        "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "sections": "Introduction",
+        "claim": {
+          "es": "Los prebióticos son sustratos utilizados por microorganismos intestinales; no deben confundirse con probióticos vivos.",
+          "en": "Prebiotics are substrates used by gut microorganisms; they are not live probiotics.",
+          "it": "I prebiotici sono substrati utilizzati dai microrganismi intestinali; non sono probiotici vivi."
+        },
+        "product_or_dosing_guardrail": "Do not infer probiotic strain effects from prebiotic evidence.",
+        "review_date": "2026-11-18",
+        "status": "source_checked_claim_only_not_full_fiche"
       }
     },
     {
@@ -1520,6 +1580,18 @@
       "publication": {
         "allowed": false,
         "reason": "source claims, dosage and product authorization pending"
+      },
+      "independently_checked_source": {
+        "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+        "sections": "Recommended Intakes",
+        "claim": {
+          "es": "La ingesta adecuada de colina desde los 19 años es 550 mg/día en varones y 425 mg/día en mujeres; embarazo 450 mg/día y lactancia 550 mg/día. No equivale a una dosis de suplemento.",
+          "en": "Choline AI from age 19 is 550 mg/day for men and 425 mg/day for women; pregnancy 450 mg/day and lactation 550 mg/day. This is not a supplement dose.",
+          "it": "L'assunzione adeguata di colina dai 19 anni è 550 mg/die uomini e 425 mg/die donne; gravidanza 450 mg/die, allattamento 550 mg/die. Non è una dose di integratore."
+        },
+        "product_or_dosing_guardrail": "Never recommend supplement dose equal to AI without accounting for diet.",
+        "review_date": "2026-11-18",
+        "status": "source_checked_claim_only_not_full_fiche"
       }
     }
   ],
@@ -1528,6 +1600,7 @@
     "source_candidates_present": 14,
     "fully_verified": 0,
     "public_recommendation_enabled": 0,
-    "source_supported_entries": 11
+    "source_supported_entries": 11,
+    "independently_checked_claim_entries": 6
   }
 }
