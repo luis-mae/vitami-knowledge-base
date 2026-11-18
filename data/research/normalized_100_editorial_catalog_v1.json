@@ -1,5 +1,5 @@
 {
-  "version": "2.1",
+  "version": "2.2",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -138,6 +138,31 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "hypercalcemia_hyperparathyroidism",
+          "kidney_stones_or_renal_disease",
+          "thiazide_diuretics",
+          "total_supplement_and_fortified_food_intake"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
       }
     },
     {
@@ -221,6 +246,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "metformin_and_acid_suppressants",
+          "vegan_or_malabsorption_risk",
+          "neurologic_symptoms_medical_review"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
       }
     },
     {
@@ -357,6 +406,31 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "iron_deficiency_diagnosis_ferritin_CBC",
+          "hemochromatosis_or_iron_overload",
+          "levothyroxine_tetracycline_quinolone_spacing",
+          "child_accidental_ingestion"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
       }
     },
     {
@@ -446,6 +520,31 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "renal_impairment",
+          "tetracycline_quinolone_bisphosphonate_spacing",
+          "supplemental_UL_not_food_magnesium",
+          "diarrhea_formulation"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
       }
     },
     {
@@ -535,6 +634,31 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "kidney_stones_or_hypercalcemia",
+          "levothyroxine_antibiotic_spacing",
+          "elemental_calcium_per_dose",
+          "total_dietary_intake"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
       }
     },
     {
@@ -624,6 +748,31 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "copper_deficiency_with_excess",
+          "quinolone_tetracycline_spacing",
+          "long_term_UL",
+          "nausea"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
       }
     },
     {
@@ -712,6 +861,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "B12_deficiency_masking",
+          "pregnancy_neural_tube_defect_context",
+          "synthetic_folic_acid_UL"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
       }
     },
     {
@@ -840,6 +1013,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "renal_function_and_serum_potassium",
+          "ACE_ARB_potassium_sparing_diuretics",
+          "elemental_potassium_not_salt_mass"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
       }
     },
     {
@@ -928,6 +1125,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "peripheral_neuropathy_chronic_excess",
+          "multiple_product_cumulative_dose",
+          "UL_jurisdiction_difference"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
       }
     },
     {
@@ -1017,6 +1238,31 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "thyroid_disorder",
+          "amiodarone_antithyroid_drugs",
+          "pregnancy_thyroid_context",
+          "seaweed_variability"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
       }
     },
     {
@@ -1105,6 +1351,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "selenosis_hair_nail_changes",
+          "narrow_margin_of_excess",
+          "total_intake_brazil_nuts"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
       }
     },
     {
@@ -1193,6 +1463,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "kidney_stone_risk_high_dose",
+          "GI_intolerance",
+          "iron_overload_context"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
       }
     },
     {
@@ -1293,6 +1587,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "pregnancy_retinol_teratogenicity",
+          "retinoid_drug_combination",
+          "preformed_retinol_vs_beta_carotene"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
       }
     },
     {
@@ -1381,6 +1699,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "anticoagulants_bleeding",
+          "high_dose_supplements",
+          "no_cardiovascular_prevention_claim"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
       }
     },
     {
@@ -1464,6 +1806,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "warfarin_stable_intake",
+          "K1_vs_K2_formulation",
+          "newborn_prevention_not_equivalent_to_supplements"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
       }
     },
     {
@@ -1547,6 +1913,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "alcohol_use_disorder_or_malnutrition",
+          "Wernicke_suspicion_emergency_care",
+          "no_unqualified_energy_claim"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
       }
     },
     {
@@ -1630,6 +2020,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "migraine_prevention_specific_dose_evidence",
+          "drug_interactions_review",
+          "yellow_urine_benign"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
       }
     },
     {
@@ -1718,6 +2132,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "flushing_hepatotoxicity_high_dose",
+          "glucose_and_uric_acid",
+          "lipid_therapy_requires_medical_supervision"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/"
       }
     },
     {
@@ -1806,6 +2244,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "Wilson_disease",
+          "zinc_excess_induced_deficiency",
+          "liver_disease"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/"
       }
     },
     {
@@ -1889,6 +2351,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "renal_or_hepatic_disease",
+          "diabetes_medication_hypoglycemia",
+          "no_automatic_weight_loss_claim"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/"
       }
     },
     {
@@ -2007,6 +2493,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "dietary_reference_not_supplement_dose",
+          "no_established_UL",
+          "deficiency_risk_screen"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/"
       }
     },
     {
@@ -2149,6 +2659,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "lab_assay_interference_troponin_thyroid",
+          "inform_laboratory_and_clinician",
+          "no_routine_hair_growth_claim"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"
       }
     },
     {
@@ -2272,6 +2806,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "neurologic_toxicity_with_excess",
+          "hepatic_disease_screen",
+          "total_intake_and_UL"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/"
       }
     },
     {
@@ -2395,6 +2953,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "chronic_kidney_disease_screen",
+          "serum_phosphate_and_calcium_context",
+          "total_intake_and_UL"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/"
       }
     },
     {
@@ -2513,6 +3095,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "hypertension_heart_failure_kidney_disease_screen",
+          "avoid_routine_salt_supplement",
+          "heat_exercise_losses_context"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/"
       }
     },
     {
@@ -2624,6 +3230,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "renal_disease_medication_screen",
+          "distinguish_creatine_monohydrate_from_other_forms",
+          "exercise_goal_context"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -2735,6 +3365,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "paresthesia_dose_dependence",
+          "sport_specific_evidence",
+          "split_dose_formulation_review"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -2870,6 +3524,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "pregnancy_screen",
+          "arrhythmia_anxiety_insomnia_screen",
+          "medication_and_total_caffeine_intake"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -2981,6 +3659,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "renal_disease_screen",
+          "food_allergy_screen",
+          "total_dietary_protein_target"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -3092,6 +3794,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "milk_allergy_screen",
+          "lactose_tolerance_screen",
+          "total_protein_intake"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -3203,6 +3929,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "soy_pea_or_other_allergen_screen",
+          "amino_acid_profile_and_total_protein",
+          "contaminant_quality_check"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -3314,6 +4064,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "blood_pressure_medication_screen",
+          "limited_sport_evidence",
+          "do_not_extrapolate_to_arginine"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -3425,6 +4199,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "hypotension_drug_interaction_screen",
+          "herpes_history_screen",
+          "limited_performance_evidence"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -3536,6 +4334,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "not_equivalent_to_complete_protein",
+          "check_total_protein_and_energy",
+          "no_superiority_assumption"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -3647,6 +4469,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "not_equivalent_to_complete_protein",
+          "check_total_protein",
+          "renal_disease_screen"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -3765,6 +4611,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "limited_indication_specific_evidence",
+          "energy_drink_caffeine_coexposure",
+          "medication_screen"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -3876,6 +4746,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "do_not_claim_weight_loss_without_evidence",
+          "seizure_history_screen",
+          "kidney_disease_screen"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/"
       }
     },
     {
@@ -4011,6 +4905,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "anticoagulant_screen",
+          "atrial_fibrillation_risk_at_high_doses",
+          "distinguish_EPA_DHA_from_fish_oil_mass"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
       }
     },
     {
@@ -4146,6 +5064,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "verify_DHA_EPA_per_serving",
+          "anticoagulant_screen",
+          "do_not_assume_same_EPA_DHA_ratio"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
       }
     },
     {
@@ -4288,6 +5230,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "adequate_water_required",
+          "swallowing_difficulty_or_obstruction_screen",
+          "separate_from_medicines_if_relevant"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/DietaryFiber-HealthProfessional/"
       }
     },
     {
@@ -4397,6 +5363,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "gas_bloating_tolerance",
+          "IBS_FODMAP_screen",
+          "not_equivalent_to_probiotic"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/"
       }
     },
     {
@@ -4532,6 +5522,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "strain_specific_evidence",
+          "immunocompromised_critical_illness_screen",
+          "CFU_at_expiry_and_storage"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/"
       }
     },
     {
@@ -4650,6 +5664,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "not_equivalent_to_probiotics",
+          "gas_bloating_tolerance",
+          "ingredient_specific_dose_evidence"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/"
       }
     },
     {
@@ -4768,6 +5806,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "limited_indication_specific_evidence",
+          "animal_source_allergy_screen",
+          "not_complete_protein"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -4882,6 +5944,30 @@
         },
         "automatic_recommendation_allowed": false,
         "editorial_review_date": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "total_intake_and_UL",
+          "pregnancy_lactation_requirements",
+          "fishy_body_odor_and_hypotension_with_excess"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
       }
     },
     {
@@ -5030,6 +6116,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "warfarin_effect_reduction",
+          "blood_pressure_drugs",
+          "chemotherapy_discuss_with_oncologist"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/coenzyme-q10"
       }
     },
     {
@@ -5194,6 +6304,31 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "daytime_sedation_driving",
+          "children_long_term_safety",
+          "anticoagulants_and_sedatives",
+          "product_label_variability"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know"
       }
     },
     {
@@ -5326,6 +6461,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "liver_injury_concentrated_formulations",
+          "piperine_bioavailability_and_interactions",
+          "gallbladder_disease"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/turmeric"
       }
     },
     {
@@ -5470,6 +6629,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "anticoagulant_antiplatelet_medications",
+          "pregnancy_formulation_and_dose",
+          "GI_tolerance"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/ginger"
       }
     },
     {
@@ -5622,6 +6805,31 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "thyroid_disease_and_medication",
+          "autoimmune_disease_immunosuppressants",
+          "pregnancy",
+          "liver_injury_reports"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/ashwagandha"
       }
     },
     {
@@ -5783,6 +6991,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "hepatotoxicity_concentrated_extract",
+          "caffeine_total",
+          "fasting_high_dose"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/green-tea"
       }
     },
     {
@@ -5913,6 +7145,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "glucose_lowering_drugs",
+          "warfarin_interactions",
+          "insomnia_and_stimulants"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/asian-ginseng"
       }
     },
     {
@@ -6061,6 +7317,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "bleeding_risk_anticoagulants",
+          "surgery",
+          "GI_adverse_effects"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/garlic"
       }
     },
     {
@@ -6190,6 +7470,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "concentrated_curcumin_vs_culinary_spice",
+          "liver_injury_extract",
+          "gallbladder_disease"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/turmeric"
       }
     },
     {
@@ -6334,6 +7638,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "asteraceae_allergy",
+          "immunosuppressive_drugs",
+          "limited_cold_prevention_evidence"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/echinacea"
       }
     },
     {
@@ -6486,6 +7814,31 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "CYP_PGP_drug_interactions",
+          "oral_contraceptive_failure",
+          "serotonergic_drugs_serotonin_syndrome",
+          "transplant_and_HIV_medications"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/st-johns-wort"
       }
     },
     {
@@ -6618,6 +7971,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "pregnancy_lactation_and_infants",
+          "glucose_lowering_drugs",
+          "drug_transporters_and_metabolism"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know"
       }
     },
     {
@@ -6708,6 +8085,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "glucose_lowering_drugs",
+          "thyroid_medication",
+          "hypoglycemia_risk"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -6798,6 +8199,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "uncertain_clinical_efficacy",
+          "formulation_and_dose",
+          "pregnancy_lactation_data_gap"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -6900,6 +8325,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "smoker_former_smoker_lung_cancer_risk",
+          "vitamin_A_equivalents",
+          "do_not_substitute_for_preformed_retinol"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
       }
     },
     {
@@ -6990,6 +8439,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "PCOS_guideline_evidence_uncertainty",
+          "GI_tolerance",
+          "pregnancy_and_fertility_context"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -7080,6 +8553,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "food_intake_vs_supplement_evidence",
+          "no_prostate_cancer_prevention_claim",
+          "pregnancy_lactation_data_gap"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -7170,6 +8667,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "GI_intolerance_diarrhea",
+          "energy_density",
+          "no_unqualified_weight_loss_claim"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -7260,6 +8781,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "medication_vs_supplement_regulatory_classification",
+          "nitroglycerin_hypotension_headache",
+          "asthma_and_bronchospasm_route"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -7350,6 +8895,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "microcystin_heavy_metal_contamination",
+          "autoimmune_conditions",
+          "phenylketonuria_ingredient_check"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -7497,6 +9066,31 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "shellfish_allergy_product_source",
+          "warfarin_bleeding",
+          "glycemic_monitoring",
+          "joint_specific_evidence"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know"
       }
     },
     {
@@ -7643,6 +9237,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "warfarin_bleeding",
+          "osteoarthritis_heterogeneous_evidence",
+          "product_purity"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know"
       }
     },
     {
@@ -7733,6 +9351,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "limited_high_quality_clinical_trials",
+          "GI_side_effects",
+          "long_term_safety_unknown"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -7823,6 +9465,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "sedation_and_driving",
+          "blood_pressure_medication",
+          "caffeine_coformulation"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -7913,6 +9579,30 @@
         "publication_status": "RESEARCH_ONLY",
         "automatic_recommendation_allowed": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "kidney_disease_high_dose",
+          "drug_interaction_uncertainty",
+          "clinical_efficacy_not_established"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -7997,6 +9687,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "anticoagulant_antiplatelet_screen",
+          "no_longevity_claim",
+          "dose_formulation_unknown"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -8120,6 +9834,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "raw_unripe_plant_toxicity",
+          "respiratory_efficacy_uncertain",
+          "immunosuppression_review"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/elderberry"
       }
     },
     {
@@ -8244,6 +9982,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "not_active_UTI_treatment",
+          "warfarin_screen",
+          "recurrent_UTI_context"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/cranberry"
       }
     },
     {
@@ -8328,6 +10090,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "recurrent_UTI_prevention_evidence_uncertain",
+          "not_active_UTI_treatment",
+          "diabetes_and_glycemic_context"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -8451,6 +10237,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "BPH_symptoms_no_meaningful_efficacy",
+          "pregnancy_avoid",
+          "prostate_symptoms_medical_evaluation"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/saw-palmetto"
       }
     },
     {
@@ -8587,6 +10397,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "sedatives_and_alcohol",
+          "driving_impairment",
+          "chronic_insomnia_guideline_not_recommended"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/valerian"
       }
     },
     {
@@ -8728,6 +10562,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "losartan_possible_interaction",
+          "insomnia",
+          "pregnancy_lactation_unknown"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/rhodiola"
       }
     },
     {
@@ -8823,6 +10681,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "hypotension_medication_screen",
+          "oral_antiseptic_mouthwash_interaction",
+          "nitrate_quantity_vs_beetroot_mass"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
       }
     },
     {
@@ -8907,6 +10789,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "sodium_potassium_content",
+          "kidney_heart_failure_screen",
+          "diuretics_ACE_ARB_screen"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -9054,6 +10960,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "individual_nutrient_UL_totals",
+          "warfarin_vitamin_K",
+          "pregnancy_retinol_screen"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/"
       }
     },
     {
@@ -9183,6 +11113,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "no_RDA_or_AI",
+          "UL_and_age_review",
+          "no_deficiency_claim"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/"
       }
     },
     {
@@ -9321,6 +11275,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "AI_vs_RDA_distinction",
+          "high_dose_toxicity",
+          "dietary_intake_first"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/"
       }
     },
     {
@@ -9403,6 +11381,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "sodium_chloride_coexposure",
+          "heart_kidney_disease",
+          "AI_not_supplement_dose"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -9543,6 +11545,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "drinking_water_exposure",
+          "fluorosis_risk_children",
+          "dental_products_swallowing"
+        ],
+        "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/"
       }
     },
     {
@@ -9625,6 +11651,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "AREDS2_formula_not_single_ingredient",
+          "eye_disease_diagnosis",
+          "dose_evidence_specific"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -9707,6 +11757,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "AREDS2_combination_evidence",
+          "eye_disease_diagnosis",
+          "no_general_prevention_claim"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -9789,6 +11863,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "resistance_training_context",
+          "evidence_by_population",
+          "renal_liver_disease_screen"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -9871,6 +11969,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "TMG_vs_betaine_HCl_formulation",
+          "LDL_changes",
+          "sport_evidence_uncertain"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -9965,6 +12087,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "serotonergic_medications",
+          "sedation",
+          "eosinophilia_myalgia_historical_contamination"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -10059,6 +12205,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "serotonin_syndrome_SSRI_SNRI_MAOI",
+          "pregnancy_avoid",
+          "product_quality"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -10141,6 +12311,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "GI_adverse_effects",
+          "thyroid_medication_review",
+          "sedation"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -10292,6 +12486,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "liver_disease_not_established_treatment",
+          "asteraceae_allergy",
+          "silymarin_content_variability"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/milk-thistle"
       }
     },
     {
@@ -10441,6 +12659,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "enteric_coated_only_for_IBS_evidence",
+          "GERD_reflux_worsening",
+          "not_raw_essential_oil"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/peppermint-oil"
       }
     },
     {
@@ -10592,6 +12834,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "pregnancy_avoid",
+          "sedation_driving",
+          "surgery_sedation"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/passionflower"
       }
     },
     {
@@ -10743,6 +13009,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": true,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "asteraceae_allergy",
+          "warfarin_interaction",
+          "sedatives"
+        ],
+        "existing_evidence_reference": "https://www.nccih.nih.gov/health/chamomile"
       }
     },
     {
@@ -10842,6 +13132,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "glycyrrhizin_hypokalemia_hypertension",
+          "diuretics_corticosteroids_digoxin",
+          "pregnancy_avoid"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -10929,6 +13243,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "bleeding_anticoagulants",
+          "pineapple_allergy",
+          "surgery_screen"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -11016,6 +13354,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "bee_products_allergy",
+          "asthma_contact_dermatitis",
+          "product_composition_variability"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -11103,6 +13465,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "limited_clinical_evidence",
+          "pregnancy_lactation_unknown",
+          "endocrine_claims_unverified"
+        ],
+        "existing_evidence_reference": null
       }
     },
     {
@@ -11190,6 +13576,30 @@
         "automatic_recommendation_allowed": false,
         "clinical_validation": false,
         "updated_on": "2026-11-18"
+      },
+      "publication_readiness": {
+        "schema": "vitami_readiness_v1",
+        "source_claims_present": false,
+        "clinical_dose_verified": false,
+        "comprehensive_interactions_verified": false,
+        "contraindications_fully_verified": false,
+        "argentina_specific_product_verified": false,
+        "clinical_signoff": false,
+        "eligible_for_automated_recommendation": false,
+        "eligible_for_publication_as_validated_fiche": false,
+        "open_items": [
+          "verify_indication_specific_primary_sources",
+          "verify_clinical_dose_form_route_and_population",
+          "verify_interactions_contraindications_pregnancy_lactation",
+          "verify_argentina_product_classification_RNE_RNPA_where_applicable",
+          "clinical_signoff"
+        ],
+        "priority_safety_checks": [
+          "liver_kidney_disease_review",
+          "clinical_indication_specific_evidence",
+          "not_routine_performance_claim"
+        ],
+        "existing_evidence_reference": null
       }
     }
   ],
@@ -11242,5 +13652,13 @@
     "total_specific_packets": 100,
     "source_claims_and_doses_verified_separately": true,
     "full_clinical_signoff_count": 0
+  },
+  "publication_audit": {
+    "date": "2026-11-18",
+    "total": 100,
+    "with_source_claims": 27,
+    "fully_validated": 0,
+    "automatically_recommendable": 0,
+    "interpretation": "All 100 have normalized release readiness and a checklist; source-claim presence is not a full review."
   }
 }
