@@ -1,3 +1,5 @@
+> **REGISTRO HISTÓRICO — NO USAR COMO ESTADO ACTUAL:** última actualización registrada 13/11/2026. El porcentaje y los hitos que siguen son una fotografía de esa fecha. El estado consolidado vigente está en `luis-mae/vitami/AUDITORIA.md`; el trabajo solo sigue el `VITAMI_PLAN_MAESTRO_UNICO.md`. No inferir avance actual a partir de este archivo.
+
 # VITAMI EXPRESS — Execution Progress
 
 Last recorded update: 2026-11-13
