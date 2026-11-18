@@ -1,7 +1,7 @@
 {
   "generated_on": "2026-11-18",
   "kind": "six_stream_evidence_gap_matrix",
-  "note": "This is a presence and verification-gap audit, not an independent scientific appraisal. Candidate research list may differ from canonical library. No clinical approval inferred.",
+  "note": "Field-presence audit only. Corrected parsing of first 20 records' indication_es/en/it and safety_screen_es/safety_en/it. Completeness does not imply claim verification or clinical approval.",
   "candidate_count": 100,
   "duplicate_candidate_ids": 0,
   "prior_audit_stats": {
@@ -20,8 +20,8 @@
       "block": 1,
       "records": 25,
       "missing_source_pointer": 5,
-      "missing_trilingual_indication": 20,
-      "missing_trilingual_safety": 20
+      "missing_trilingual_indication": 0,
+      "missing_trilingual_safety": 0
     },
     {
       "block": 2,
@@ -53,7 +53,9 @@
   "integration": {
     "recommendations_enabled": false,
     "clinical_approvals": 0,
-    "unresolved": "Canonical ID mapping and per-claim source appraisal remain necessary."
+    "unresolved": "Canonical ID mapping and per-claim source appraisal remain necessary.",
+    "qa_check": "Corrected source-field normalization for 100 candidate records; all statuses remain conservative.",
+    "candidate_vs_canonical_mapping": "pending"
   },
   "records": [
     {
@@ -67,20 +69,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 2,
@@ -93,20 +94,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 3,
@@ -119,20 +119,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 4,
@@ -145,20 +144,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 5,
@@ -171,20 +169,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 6,
@@ -197,20 +194,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 7,
@@ -223,20 +219,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 8,
@@ -249,20 +244,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 9,
@@ -275,20 +269,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 10,
@@ -301,20 +294,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 11,
@@ -327,20 +319,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 12,
@@ -353,20 +344,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 13,
@@ -379,20 +369,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 14,
@@ -405,20 +394,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 15,
@@ -431,20 +419,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 16,
@@ -457,20 +444,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 17,
@@ -483,20 +469,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 18,
@@ -509,20 +494,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 19,
@@ -535,20 +519,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 20,
@@ -561,20 +544,19 @@
       },
       "source_pointer": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
       "source_claim_verified": false,
-      "indication_trilingual_present": false,
-      "safety_trilingual_present": false,
+      "indication_trilingual_present": true,
+      "safety_trilingual_present": true,
       "Argentina_product_verified": false,
       "documentary_status": "incomplete",
       "ready_for_professional_approval": false,
       "clinical_approved": false,
       "missing_checks": [
-        "indication_es_en_it",
-        "safety_es_en_it",
         "dose_form_population_verification",
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json"
     },
     {
       "index": 21,
@@ -600,7 +582,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 22,
@@ -626,7 +609,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 23,
@@ -652,7 +636,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 24,
@@ -678,7 +663,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 25,
@@ -704,7 +690,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 26,
@@ -730,7 +717,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 27,
@@ -756,7 +744,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 28,
@@ -782,7 +771,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 29,
@@ -808,7 +798,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 30,
@@ -834,7 +825,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 31,
@@ -860,7 +852,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 32,
@@ -886,7 +879,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 33,
@@ -912,7 +906,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 34,
@@ -938,7 +933,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 35,
@@ -964,7 +960,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 36,
@@ -990,7 +987,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 37,
@@ -1016,7 +1014,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 38,
@@ -1042,7 +1041,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 39,
@@ -1068,7 +1068,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 40,
@@ -1094,7 +1095,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 41,
@@ -1120,7 +1122,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 42,
@@ -1146,7 +1149,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 43,
@@ -1172,7 +1176,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 44,
@@ -1198,7 +1203,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 45,
@@ -1224,7 +1230,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_01_25_research_ready.json"
     },
     {
       "index": 46,
@@ -1249,7 +1256,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 47,
@@ -1274,7 +1282,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 48,
@@ -1299,7 +1308,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 49,
@@ -1324,7 +1334,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 50,
@@ -1349,7 +1360,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 51,
@@ -1374,7 +1386,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 52,
@@ -1399,7 +1412,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 53,
@@ -1424,7 +1438,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 54,
@@ -1449,7 +1464,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 55,
@@ -1474,7 +1490,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 56,
@@ -1499,7 +1516,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 57,
@@ -1524,7 +1542,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 58,
@@ -1550,7 +1569,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 59,
@@ -1576,7 +1596,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 60,
@@ -1601,7 +1622,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 61,
@@ -1627,7 +1649,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 62,
@@ -1653,7 +1676,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 63,
@@ -1679,7 +1703,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 64,
@@ -1705,7 +1730,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 65,
@@ -1731,7 +1757,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 66,
@@ -1756,7 +1783,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 67,
@@ -1781,7 +1809,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 68,
@@ -1807,7 +1836,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 69,
@@ -1833,7 +1863,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 70,
@@ -1859,7 +1890,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json"
     },
     {
       "index": 71,
@@ -1884,7 +1916,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 72,
@@ -1909,7 +1942,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 73,
@@ -1934,7 +1968,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 74,
@@ -1960,7 +1995,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 75,
@@ -1985,7 +2021,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 76,
@@ -2010,7 +2047,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 77,
@@ -2035,7 +2073,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 78,
@@ -2060,7 +2099,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 79,
@@ -2085,7 +2125,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 80,
@@ -2110,7 +2151,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 81,
@@ -2136,7 +2178,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 82,
@@ -2162,7 +2205,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 83,
@@ -2188,7 +2232,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 84,
@@ -2214,7 +2259,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 85,
@@ -2240,7 +2286,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 86,
@@ -2266,7 +2313,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 87,
@@ -2292,7 +2340,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 88,
@@ -2318,7 +2367,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 89,
@@ -2344,7 +2394,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 90,
@@ -2370,7 +2421,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 91,
@@ -2396,7 +2448,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 92,
@@ -2422,7 +2475,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 93,
@@ -2448,7 +2502,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 94,
@@ -2474,7 +2529,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 95,
@@ -2500,7 +2556,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_03_25_specialty_research.json"
     },
     {
       "index": 96,
@@ -2526,7 +2583,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_04_remaining_05_research.json"
     },
     {
       "index": 97,
@@ -2552,7 +2610,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_04_remaining_05_research.json"
     },
     {
       "index": 98,
@@ -2578,7 +2637,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_04_remaining_05_research.json"
     },
     {
       "index": 99,
@@ -2604,7 +2664,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_04_remaining_05_research.json"
     },
     {
       "index": 100,
@@ -2630,7 +2691,8 @@
         "interaction_review",
         "Argentina_product_registration",
         "professional_approval"
-      ]
+      ],
+      "research_file": "data/research/bulk_batch_04_remaining_05_research.json"
     }
   ]
 }
