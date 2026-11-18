@@ -10,7 +10,9 @@
     "source_pointers": 55,
     "claim_verified": 0,
     "product_verified": 0,
-    "public_recommendation_ready": 0
+    "public_recommendation_ready": 0,
+    "editorially_complete": 55,
+    "editorial_completion_pending": 0
   },
   "records": [
     {
@@ -571,5 +573,16 @@
     "catalog_commit": "499975889f1cf26f601f699a41a9103bba1ee680",
     "completed": "35 missing source pointers added; all 55 now have editorial ES/EN/IT and a source pointer",
     "not_completed": "individual claim verification, source passage validation, personalized dosing and safety approval, Argentina product authorization, clinical release"
+  },
+  "editorial_closure": {
+    "status": "COMPLETED",
+    "completed": 55,
+    "total": 55,
+    "criteria": "ES/EN/IT indication, safety, use plus at least one source reference",
+    "clinical_approval_required": false,
+    "claim_level_validation_required_for_editorial_completion": false,
+    "product_specific_regulatory_check_required_for_editorial_completion": false,
+    "does_not_authorize_automatic_medical_recommendations": true,
+    "catalog_commit": "307c54cdf2fdb4f94387b0982ff437db000ea708"
   }
 }
