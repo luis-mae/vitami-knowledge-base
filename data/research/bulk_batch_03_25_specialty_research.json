@@ -72,7 +72,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/elderberry",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "uncooked plant parts can be toxic"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "cranberry",
@@ -107,7 +118,19 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/cranberry",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "not a treatment for active UTI",
+          "review warfarin"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "d_mannose",
@@ -177,7 +200,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/saw-palmetto",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "do not infer efficacy for benign prostatic hyperplasia"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "valerian",
@@ -213,7 +247,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/valerian",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "sedation and other CNS depressants"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "rhodiola",
@@ -248,7 +293,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/rhodiola",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "limited quality evidence"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "beetroot_nitrate",
@@ -283,7 +339,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "hypotension review"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "electrolytes",
@@ -353,7 +420,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "avoid exceeding nutrient UL from multiple products"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "boron",
@@ -386,7 +464,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "no established essential nutrient RDA"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "molybdenum",
@@ -419,7 +508,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "no routine supplementation without identified need"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "chloride",
@@ -485,7 +585,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "narrow indication; excessive intake can cause fluorosis"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "lutein",
@@ -749,7 +860,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/milk-thistle",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "uncertain benefits in liver disease"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "peppermint_oil",
@@ -782,7 +904,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/peppermint-oil",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "enteric-coated formulations differ from essential oil; reflux may worsen"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "passionflower",
@@ -815,7 +948,18 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/passionflower",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "sedation; pregnancy caution"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     },
     {
       "ingredient_id": "chamomile",
@@ -848,13 +992,26 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "targeted_review": {
+        "authoritative_reference": "https://www.nccih.nih.gov/health/chamomile",
+        "reference_status": "source_identified_not_claim_by_claim_verified",
+        "priority_checks": [
+          "Asteraceae allergy and warfarin interaction reports"
+        ],
+        "clinical_dose_status": "pending",
+        "evidence_grade_status": "pending",
+        "medication_interaction_status": "pending",
+        "release_gate": "BLOCK_PENDING_VALIDATION"
+      }
     }
   ],
   "summary": {
     "count": 25,
     "source_candidates": 9,
     "safety_priorities": 10,
-    "clinically_validated": 0
+    "clinically_validated": 0,
+    "targeted_review_sources_added": 14,
+    "fully_clinically_verified": 0
   }
 }
