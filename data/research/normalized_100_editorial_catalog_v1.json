@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -65,7 +65,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -117,6 +118,26 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "hypercalcemia_hyperparathyroidism",
+          "kidney_stones_or_renal_disease",
+          "thiazide_diuretics",
+          "total_supplement_and_fortified_food_intake"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -168,7 +189,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -180,6 +202,25 @@
         "ul_category": "no_UL_established",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "metformin_and_acid_suppressants",
+          "vegan_or_malabsorption_risk",
+          "neurologic_symptoms_medical_review"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -231,7 +272,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [
@@ -295,6 +337,26 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "iron_deficiency_diagnosis_ferritin_CBC",
+          "hemochromatosis_or_iron_overload",
+          "levothyroxine_tetracycline_quinolone_spacing",
+          "child_accidental_ingestion"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -346,7 +408,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -363,6 +426,26 @@
         "ul_category": "UL_applies_to_supplemental_or_fortified_sources",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "renal_impairment",
+          "tetracycline_quinolone_bisphosphonate_spacing",
+          "supplemental_UL_not_food_magnesium",
+          "diarrhea_formulation"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -414,7 +497,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -431,6 +515,26 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "kidney_stones_or_hypercalcemia",
+          "levothyroxine_antibiotic_spacing",
+          "elemental_calcium_per_dose",
+          "total_dietary_intake"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -482,7 +586,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -499,6 +604,26 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "copper_deficiency_with_excess",
+          "quinolone_tetracycline_spacing",
+          "long_term_UL",
+          "nausea"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -550,7 +675,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -567,6 +693,25 @@
         "ul_category": "UL_applies_to_supplemental_or_fortified_sources",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "B12_deficiency_masking",
+          "pregnancy_neural_tube_defect_context",
+          "synthetic_folic_acid_UL"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -623,7 +768,8 @@
           "renal_excretion_and_medication_screen_pending",
           "serum_potassium_and_dose_context_pending",
           "product_specific_Argentina_registration_pending"
-        ]
+        ],
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [
@@ -675,6 +821,25 @@
         "status": "source_verified_claims_only",
         "clinical_validation": false,
         "product_authorization_checked": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "renal_function_and_serum_potassium",
+          "ACE_ARB_potassium_sparing_diuretics",
+          "elemental_potassium_not_salt_mass"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -726,7 +891,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -743,6 +909,25 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "peripheral_neuropathy_chronic_excess",
+          "multiple_product_cumulative_dose",
+          "UL_jurisdiction_difference"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -794,7 +979,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -811,6 +997,26 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "thyroid_disorder",
+          "amiodarone_antithyroid_drugs",
+          "pregnancy_thyroid_context",
+          "seaweed_variability"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -862,7 +1068,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -879,6 +1086,25 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "selenosis_hair_nail_changes",
+          "narrow_margin_of_excess",
+          "total_intake_brazil_nuts"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -930,7 +1156,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -947,6 +1174,25 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "kidney_stone_risk_high_dose",
+          "GI_intolerance",
+          "iron_overload_context"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -998,7 +1244,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [
@@ -1027,6 +1274,25 @@
         "ul_category": "UL_applies_to_preformed_vitamin_A_only",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "pregnancy_retinol_teratogenicity",
+          "retinoid_drug_combination",
+          "preformed_retinol_vs_beta_carotene"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1078,7 +1344,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -1095,6 +1362,25 @@
         "ul_category": "UL_applies_to_supplemental_or_fortified_sources",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "anticoagulants_bleeding",
+          "high_dose_supplements",
+          "no_cardiovascular_prevention_claim"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1146,7 +1432,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -1158,6 +1445,25 @@
         "ul_category": "no_UL_established",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "warfarin_stable_intake",
+          "K1_vs_K2_formulation",
+          "newborn_prevention_not_equivalent_to_supplements"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1209,7 +1515,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -1221,6 +1528,25 @@
         "ul_category": "no_UL_established",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "alcohol_use_disorder_or_malnutrition",
+          "Wernicke_suspicion_emergency_care",
+          "no_unqualified_energy_claim"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1272,7 +1598,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -1284,6 +1611,25 @@
         "ul_category": "no_UL_established",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "migraine_prevention_specific_dose_evidence",
+          "drug_interactions_review",
+          "yellow_urine_benign"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1335,7 +1681,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -1352,6 +1699,25 @@
         "ul_category": "UL_applies_to_supplemental_or_fortified_sources",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "flushing_hepatotoxicity_high_dose",
+          "glucose_and_uric_acid",
+          "lipid_therapy_requires_medical_supervision"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1403,7 +1769,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -1420,6 +1787,25 @@
         "ul_category": "UL_includes_total_intake",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "Wilson_disease",
+          "zinc_excess_induced_deficiency",
+          "liver_disease"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1471,7 +1857,8 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [],
@@ -1483,6 +1870,25 @@
         "ul_category": "no_UL_established",
         "review_status": "verified_against_NIH_ODS_UL_overview",
         "recommendation_allowed": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+        "reference_status": "NIH_ODS_candidate_not_all_claims_independently_verified",
+        "safety_checks": [
+          "renal_or_hepatic_disease",
+          "diabetes_medication_hypoglycemia",
+          "no_automatic_weight_loss_claim"
+        ],
+        "dose_status": "RDA_AI_UL_not_equal_to_supplement_prescription",
+        "indication_specific_evidence_grade": "pending",
+        "interactions_review": "pending_comprehensive_validation",
+        "argentina": {
+          "RNE_RNPA_product_check": "pending",
+          "OTC_vs_prescription": "product_and_formulation_specific"
+        },
+        "automatic_recommendation_allowed": false,
+        "clinical_validation": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10828,16 +11234,13 @@
   },
   "batch_completion_pass": {
     "date": "2026-11-18",
-    "range": "96-100",
-    "processed": 5,
+    "range": "1-20",
+    "processed": 20,
     "scientifically_complete": 0
   },
   "safety_review_coverage": {
-    "batch_21_45": 25,
-    "batch_46_70": 25,
-    "batch_71_95": 25,
-    "batch_96_100": 5,
-    "total_specific_packets": 80,
-    "remaining_first_20_to_audit": 20
+    "total_specific_packets": 100,
+    "source_claims_and_doses_verified_separately": true,
+    "full_clinical_signoff_count": 0
   }
 }
