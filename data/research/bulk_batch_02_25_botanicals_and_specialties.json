@@ -203,7 +203,22 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/turmeric",
+        "claim": {
+          "es": "La evidencia preliminar para síntomas de artrosis de rodilla es prometedora, pero insuficiente para conclusiones definitivas; formulaciones de alta biodisponibilidad se han vinculado con lesión hepática.",
+          "en": "Preliminary evidence for knee osteoarthritis symptoms is promising but not definitive; high-bioavailability formulations have been linked to liver injury.",
+          "it": "Le prove preliminari per i sintomi dell'artrosi del ginocchio sono promettenti ma non definitive; formulazioni ad alta biodisponibilità sono state associate a danno epatico."
+        },
+        "decision_rule": "REVIEW_LIVER_DISEASE_PREGNANCY_FORMULATION",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "ginger",
@@ -480,7 +495,22 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/asian-ginseng",
+        "claim": {
+          "es": "La mayoría de los estudios no muestra mejoras del rendimiento deportivo. La evidencia sobre glucemia es contradictoria; puede causar insomnio e interactuar con medicamentos.",
+          "en": "Most studies show no athletic performance benefit. Blood glucose evidence is conflicting; insomnia and medication interactions are concerns.",
+          "it": "La maggior parte degli studi non mostra benefici sportivi. Le prove sulla glicemia sono contrastanti; attenzione a insonnia e interazioni farmacologiche."
+        },
+        "decision_rule": "REVIEW_DIABETES_MEDICATIONS_PREGNANCY",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "garlic_extract",
@@ -593,7 +623,22 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/turmeric",
+        "claim": {
+          "es": "La cúrcuma alimentaria no equivale a extractos concentrados; los suplementos pueden causar molestias digestivas y algunas formulaciones se asocian con lesión hepática.",
+          "en": "Culinary turmeric is not equivalent to concentrated extracts; supplements may cause gastrointestinal effects and some formulations are linked to liver injury.",
+          "it": "La curcuma alimentare non equivale agli estratti concentrati; gli integratori possono causare disturbi gastrointestinali e alcune formulazioni sono associate a danno epatico."
+        },
+        "decision_rule": "REVIEW_LIVER_DISEASE_PREGNANCY_FORMULATION",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "echinacea",
@@ -784,7 +829,22 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know",
+        "claim": {
+          "es": "La evidencia para pérdida de peso no es concluyente. Puede causar síntomas gastrointestinales, interactuar con ciclosporina y ser insegura en embarazo, lactancia y lactantes.",
+          "en": "Weight-loss evidence is inconclusive. Gastrointestinal adverse effects and cyclosporine interaction are reported; avoid in pregnancy, breastfeeding and infants.",
+          "it": "Le prove sul dimagrimento non sono conclusive. Segnalati effetti gastrointestinali e interazione con ciclosporina; evitare in gravidanza, allattamento e neonati."
+        },
+        "decision_rule": "BLOCK_PREGNANCY_LACTATION_INFANTS_REVIEW_MEDICATIONS",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "alpha_lipoic_acid",
@@ -1304,6 +1364,6 @@
     "ingredient_specific_safety_screens": 12,
     "fully_clinically_verified": 0,
     "safety_triage_added": 15,
-    "source_verified_claim_entries": 10
+    "source_verified_claim_entries": 14
   }
 }
