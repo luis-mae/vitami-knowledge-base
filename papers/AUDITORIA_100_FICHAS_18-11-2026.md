@@ -1,3 +1,5 @@
+> **ALCANCE SUBORDINADO:** esta es una auditoría documental del Tercer Paper, no la auditoría maestra del producto VITAMI. Sus conteos describen exclusivamente ese archivo y no deben confundirse con la base científica canónica `main/phase2/library/` ni con la auditoría maestra `luis-mae/vitami/AUDITORIA.md`. No usarla para decidir estado de la app o habilitación BASIC.
+
 # VITAMI — Auditoría de disponibilidad documental
 
 **Fecha:** 18-11-2026  
