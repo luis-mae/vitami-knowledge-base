@@ -1257,6 +1257,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "RDA 1000 mg/day adults 19–50; women 51–70 and all 71+ 1200 mg/day. Total intake, not supplement dose.",
+        "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes; Table 1"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -5020,6 +5031,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "AI 5 mg/day adults; pregnancy 6 mg/day; lactation 7 mg/day.",
+        "url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes; Table 1"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -5296,6 +5318,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "AI 30 mcg/day adults including pregnancy; lactation 35 mcg/day.",
+        "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes; Table 1"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -5555,6 +5588,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "AI 2.3 mg/day men and 1.8 mg/day women 19+; adult UL 11 mg/day.",
+        "url": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes; Table 1; Health Risks from Excessive Manganese"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -5814,6 +5858,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "RDA 700 mg/day adults 19+ (including pregnancy/lactation).",
+        "url": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes; Table 1"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -6889,6 +6944,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "Athletes' total daily protein 1.2–2.0 g/kg from food plus supplements; this is not powder dose.",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "sections": [
+          "Introduction; Protein"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -7074,6 +7140,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "Athletes' total daily protein 1.2–2.0 g/kg from food plus supplements; not a whey-specific dose.",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "sections": [
+          "Introduction; Protein"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -7259,6 +7336,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "Athletes' total daily protein 1.2–2.0 g/kg from food plus supplements; not a plant-powder-specific dose.",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "sections": [
+          "Introduction; Protein"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -7640,6 +7728,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "2–20 g/day studied for exercise performance with little/no benefit; <=9 g/day short-term generally tolerated; no effective exercise dose established.",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "sections": [
+          "Arginine: Efficacy, Safety, Implications for use"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -8031,6 +8130,17 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "result": "DOSE_CLAIM_MATCH_WITH_QUALIFIERS",
+        "verified": "No consistently demonstrated added benefit of isolated leucine; 500 mg/kg/day reported as a tolerable intake upper estimate, NOT a recommended dose.",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "sections": [
+          "Branched-chain amino acids: Safety and Implications for use"
+        ],
+        "checked_on": "2026-11-18",
+        "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -19584,9 +19694,19 @@
         "iodine",
         "selenium",
         "citrulline",
-        "probiotics"
+        "probiotics",
+        "calcium",
+        "pantothenic_acid",
+        "biotin",
+        "manganese",
+        "phosphorus",
+        "protein_powder",
+        "whey_protein",
+        "plant_protein",
+        "arginine",
+        "leucine"
       ],
-      "dose_or_reference_checked_count": 17,
+      "dose_or_reference_checked_count": 27,
       "total": 55,
       "full_claim_validation": false
     }
