@@ -6160,6 +6160,18 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "sections": [
+          "Creatine",
+          "Implications for use"
+        ],
+        "verified": "Loading 20 g/day in four 5 g doses for 5–7 days; maintenance 3–5 g/day; nonloading 3–6 g/day for 3–4 weeks; 0.3 g/kg loading studied.",
+        "result": "MATCH",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "checked_on": "2026-11-18",
+        "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -6345,6 +6357,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "sections": [
+          "Beta-alanine",
+          "Safety",
+          "Implications for use"
+        ],
+        "verified": "4–6 g/day divided doses for 2–4 weeks studied; paresthesia possible; inconsistent performance evidence.",
+        "result": "MATCH_WITH_EVIDENCE_LIMITATION",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "checked_on": "2026-11-18",
+        "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -6567,6 +6592,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "sections": [
+          "Caffeine",
+          "Efficacy",
+          "Safety"
+        ],
+        "verified": "2–6 mg/kg before exercise; 15–60 min timing; FDA general healthy adult 400 mg/day caffeine reference.",
+        "result": "MATCH",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "checked_on": "2026-11-18",
+        "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -7687,6 +7725,19 @@
         "source_reference_is_not_claim_verification": true,
         "requires_clinical_approval_for_editorial_completion": false,
         "checked_on": "2026-11-18"
+      },
+      "source_passage_audit": {
+        "sections": [
+          "Branched-chain amino acids",
+          "Safety",
+          "Implications for use"
+        ],
+        "verified": "No consistently demonstrated added benefit; up to 20 g/day studied short-term, not a recommended dose.",
+        "result": "MATCH",
+        "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "checked_on": "2026-11-18",
+        "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -9788,6 +9839,18 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "sections": [
+          "Recommended Intakes",
+          "Health Risks from Excessive Choline"
+        ],
+        "verified": "AI adults: men 550 mg/day, women 425 mg/day, pregnancy 450 mg/day, lactation 550 mg/day; UL 3500 mg/day adults.",
+        "result": "MATCH",
+        "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+        "checked_on": "2026-11-18",
+        "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -10878,6 +10941,20 @@
         "status": "dose_field_completed_with_evidence_limits_not_full_claim_validation",
         "clinical_approval": false,
         "default_personalized_dose_allowed": false
+      },
+      "source_passage_audit": {
+        "sections": [
+          "Stress and Anxiety",
+          "Sleep",
+          "Safety",
+          "Implications for use"
+        ],
+        "verified": "Stress studies report 500–600 mg/day for 6–8 weeks; sleep trials vary by extract, 250–600 mg/day root extract or 120 mg/day root-and-leaf extract. No universal dose. Potential liver and thyroid risks.",
+        "result": "PARTIAL_MATCH_NEEDS_FORMULATION_PRECISION",
+        "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+        "checked_on": "2026-11-18",
+        "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
+        "claim_by_claim_full_audit": false
       }
     },
     {
@@ -19369,6 +19446,19 @@
       "count": 15,
       "clinical_approval": false,
       "individual_claim_verification": "not certified"
+    },
+    "source_passage_audit": {
+      "checked": 6,
+      "total": 55,
+      "full_claim_validation": false,
+      "ids": [
+        "choline",
+        "ashwagandha",
+        "creatine",
+        "beta_alanine",
+        "caffeine",
+        "bcaa"
+      ]
     }
   },
   "editorial_completion_policy": {
