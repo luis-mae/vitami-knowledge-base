@@ -137,3 +137,8 @@ La Fase 1 queda cerrada con la arquitectura completa de:
 - versionado.
 
 A partir de esta versión, la Fase 2 consiste en cargar conocimiento real por suplemento y activar reglas únicamente cuando la evidencia y las preguntas necesarias estén documentadas.
+
+
+## Qué es y qué no es la base canónica
+
+La única biblioteca científica canónica es `phase2/library/`: 100 fichas por ingrediente más archivos auxiliares de índice/QA/taxonomía. `data/supplements/` conserva registros profundos anteriores y plantillas; `phase2/pilot/` conserva catálogos/pilotos; no son bibliotecas canónicas alternativas ni deben alimentar el motor como segunda fuente. Las copias vendorizadas dentro de `luis-mae/vitami/vitami_kb/` y las ramas alternativas se conservan por compatibilidad/historia, no como autoridad. La app puede tener una proyección de ejecución derivada; sus identificadores deben reconciliarse con esta biblioteca y sus campos no sustituyen el expediente científico completo.
