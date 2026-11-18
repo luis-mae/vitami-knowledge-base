@@ -48,7 +48,31 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
+        "claims": {
+          "es": [
+            "La evidencia global no respalda coenzima Q10 para aliviar mialgias por estatinas.",
+            "Puede interactuar con warfarina e insulina; también requiere revisión en tratamientos oncológicos."
+          ],
+          "en": [
+            "Overall evidence does not support CoQ10 for statin-associated muscle pain.",
+            "May interact with warfarin and insulin; oncology treatment also requires review."
+          ],
+          "it": [
+            "Le prove complessive non supportano CoQ10 per i dolori muscolari associati alle statine.",
+            "Può interagire con warfarin e insulina; richiede revisione durante trattamenti oncologici."
+          ]
+        },
+        "decision_rule": "REVIEW_WARFARIN_INSULIN_ONCOLOGY",
+        "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "melatonin",
@@ -108,7 +132,31 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "claims": {
+          "es": [
+            "Puede ayudar en jet lag y trastorno de fase retrasada del sueño; no extrapolar a todo insomnio crónico.",
+            "La seguridad a largo plazo no está establecida; uso pediátrico y embarazo requieren evaluación específica."
+          ],
+          "en": [
+            "May help jet lag and delayed sleep-wake phase disorder; do not extrapolate to all chronic insomnia.",
+            "Long-term safety is not established; pediatric and pregnancy use need specific assessment."
+          ],
+          "it": [
+            "Può aiutare nel jet lag e nel disturbo da fase del sonno ritardata; non generalizzare a ogni insonnia cronica.",
+            "La sicurezza a lungo termine non è stabilita; uso pediatrico e gravidanza richiedono valutazione specifica."
+          ]
+        },
+        "decision_rule": "REVIEW_PEDIATRIC_PREGNANCY_LONG_TERM",
+        "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "curcumin",
@@ -454,7 +502,31 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/garlic",
+        "claims": {
+          "es": [
+            "Los suplementos de ajo pueden reducir modestamente colesterol LDL y presión arterial en algunas poblaciones.",
+            "Pueden aumentar el riesgo de sangrado; revisar anticoagulantes, aspirina, cirugía y embarazo."
+          ],
+          "en": [
+            "Garlic supplements may modestly lower LDL cholesterol and blood pressure in some populations.",
+            "May increase bleeding risk; review anticoagulants, aspirin, surgery and pregnancy."
+          ],
+          "it": [
+            "Gli integratori di aglio possono ridurre modestamente LDL e pressione arteriosa in alcune popolazioni.",
+            "Possono aumentare il rischio di sanguinamento; valutare anticoagulanti, aspirina, chirurgia e gravidanza."
+          ]
+        },
+        "decision_rule": "REVIEW_BLEEDING_MEDICATION_SURGERY",
+        "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "turmeric",
@@ -1140,6 +1212,6 @@
     "ingredient_specific_safety_screens": 12,
     "fully_clinically_verified": 0,
     "safety_triage_added": 15,
-    "source_verified_claim_entries": 3
+    "source_verified_claim_entries": 6
   }
 }
