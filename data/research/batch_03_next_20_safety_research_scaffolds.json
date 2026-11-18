@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-18-expanded",
+  "version": "2026-11-18-trilingual-safety-expanded",
   "batch": "next_20_unique_candidates",
   "count": 20,
   "disclaimer": "Multilingual indications are preliminary editorial summaries; no claim-by-claim source verification or clinical approval.",
@@ -38,7 +38,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar enfermedad renal, embarazo y duplicación con multivitamínicos.",
+        "en": "Review kidney disease, pregnancy and overlap with multivitamins.",
+        "it": "Valutare malattia renale, gravidanza e sovrapposizione con multivitaminici."
+      }
     },
     {
       "ingredient_id": "biotin",
@@ -74,7 +79,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Puede interferir con pruebas de laboratorio, incluidas algunas cardíacas y tiroideas; informar al laboratorio.",
+        "en": "May interfere with laboratory tests, including some cardiac and thyroid tests; inform the laboratory.",
+        "it": "Può interferire con esami di laboratorio, inclusi alcuni cardiaci e tiroidei; informare il laboratorio."
+      }
     },
     {
       "ingredient_id": "manganese",
@@ -110,7 +120,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "El exceso puede producir toxicidad neurológica; revisar exposición laboral y enfermedad hepática.",
+        "en": "Excess may cause neurological toxicity; review occupational exposure and liver disease.",
+        "it": "L'eccesso può causare tossicità neurologica; valutare esposizione lavorativa e malattie epatiche."
+      }
     },
     {
       "ingredient_id": "phosphorus",
@@ -146,7 +161,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar función renal y consumo de aditivos con fosfatos antes de suplementar.",
+        "en": "Review kidney function and phosphate additive intake before supplementation.",
+        "it": "Valutare funzione renale e consumo di additivi fosfatici prima dell'integrazione."
+      }
     },
     {
       "ingredient_id": "sodium",
@@ -182,7 +202,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar hipertensión, insuficiencia cardíaca o renal y sodio total de la dieta.",
+        "en": "Review hypertension, heart or kidney failure and total dietary sodium.",
+        "it": "Valutare ipertensione, insufficienza cardiaca o renale e sodio alimentare totale."
+      }
     },
     {
       "ingredient_id": "creatine",
@@ -218,7 +243,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar enfermedad renal y medicamentos relevantes; interpretar cambios de creatinina con contexto clínico.",
+        "en": "Review kidney disease and relevant medicines; interpret creatinine changes clinically.",
+        "it": "Valutare malattie renali e farmaci; interpretare variazioni di creatinina nel contesto clinico."
+      }
     },
     {
       "ingredient_id": "beta_alanine",
@@ -254,7 +284,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Puede provocar parestesias; revisar tolerancia y presentación antes de considerar su uso.",
+        "en": "May cause paresthesia; review tolerance and formulation before use.",
+        "it": "Può causare parestesie; valutare tolleranza e formulazione prima dell'uso."
+      }
     },
     {
       "ingredient_id": "caffeine",
@@ -290,7 +325,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar embarazo, arritmias, ansiedad, sueño y consumo total de cafeína.",
+        "en": "Review pregnancy, arrhythmias, anxiety, sleep and total caffeine intake.",
+        "it": "Valutare gravidanza, aritmie, ansia, sonno e consumo totale di caffeina."
+      }
     },
     {
       "ingredient_id": "protein_powder",
@@ -326,7 +366,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar alergias, enfermedad renal y aporte proteico total; la composición varía por producto.",
+        "en": "Review allergies, kidney disease and total protein intake; composition varies by product.",
+        "it": "Valutare allergie, malattie renali e apporto proteico totale; composizione variabile."
+      }
     },
     {
       "ingredient_id": "whey_protein",
@@ -362,7 +407,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Evitar si existe alergia a proteínas de leche; revisar tolerancia a lactosa según producto.",
+        "en": "Avoid with milk protein allergy; assess lactose tolerance by product.",
+        "it": "Evitare in caso di allergia alle proteine del latte; valutare tolleranza al lattosio."
+      }
     },
     {
       "ingredient_id": "plant_protein",
@@ -398,7 +448,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar alérgenos como soja y guisante, composición de aminoácidos y calidad del producto.",
+        "en": "Review soy and pea allergens, amino acid composition and product quality.",
+        "it": "Valutare allergeni come soia e pisello, composizione aminoacidica e qualità."
+      }
     },
     {
       "ingredient_id": "citrulline",
@@ -434,7 +489,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar presión arterial, fármacos vasoactivos y seguridad de la formulación.",
+        "en": "Review blood pressure, vasoactive drugs and formulation safety.",
+        "it": "Valutare pressione arteriosa, farmaci vasoattivi e sicurezza della formulazione."
+      }
     },
     {
       "ingredient_id": "arginine",
@@ -470,7 +530,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar hipotensión, antihipertensivos y uso concomitante de otros vasodilatadores.",
+        "en": "Review low blood pressure, antihypertensives and other vasodilators.",
+        "it": "Valutare ipotensione, antipertensivi e altri vasodilatatori."
+      }
     },
     {
       "ingredient_id": "bcaa",
@@ -506,7 +571,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "No reemplaza proteína completa; revisar enfermedad metabólica y cantidad proteica total.",
+        "en": "Does not replace complete protein; review metabolic disorders and total protein intake.",
+        "it": "Non sostituisce proteine complete; valutare disturbi metabolici e apporto proteico."
+      }
     },
     {
       "ingredient_id": "leucine",
@@ -542,7 +612,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar ingesta total de proteína y trastornos del metabolismo de aminoácidos.",
+        "en": "Review total protein intake and amino acid metabolism disorders.",
+        "it": "Valutare apporto proteico totale e disturbi del metabolismo degli aminoacidi."
+      }
     },
     {
       "ingredient_id": "taurine",
@@ -578,7 +653,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar combinaciones con cafeína, embarazo y calidad de bebidas energéticas.",
+        "en": "Review combinations with caffeine, pregnancy and energy drink quality.",
+        "it": "Valutare combinazioni con caffeina, gravidanza e qualità delle bevande energetiche."
+      }
     },
     {
       "ingredient_id": "carnitine",
@@ -614,7 +694,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar enfermedad renal, trastornos convulsivos y posibles interacciones farmacológicas.",
+        "en": "Review kidney disease, seizure disorders and possible drug interactions.",
+        "it": "Valutare malattie renali, disturbi convulsivi e possibili interazioni farmacologiche."
+      }
     },
     {
       "ingredient_id": "omega3_epa_dha",
@@ -650,7 +735,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar anticoagulantes, riesgo hemorrágico y cantidad total de EPA y DHA.",
+        "en": "Review anticoagulants, bleeding risk and total EPA plus DHA.",
+        "it": "Valutare anticoagulanti, rischio emorragico e quantità totale di EPA e DHA."
+      }
     },
     {
       "ingredient_id": "algal_omega3",
@@ -686,7 +776,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Revisar anticoagulantes, dosis real de EPA/DHA y posibles alérgenos del producto.",
+        "en": "Review anticoagulants, actual EPA/DHA dose and product allergens.",
+        "it": "Valutare anticoagulanti, dose effettiva di EPA/DHA e allergeni."
+      }
     },
     {
       "ingredient_id": "psyllium",
@@ -722,7 +817,12 @@
         "en": "Set formulation, dose, timing and duration only after applicable evidence and safety review.",
         "it": "Definire formulazione, dose, orario e durata solo dopo verifica delle prove e della sicurezza."
       },
-      "review_status": "multilingual_editorial_draft_pending_source_validation"
+      "review_status": "trilingual_editorial_safety_pending_individual_evidence_review",
+      "safety_focus": {
+        "es": "Requiere agua suficiente; evitar en disfagia u obstrucción y separar de ciertos medicamentos.",
+        "en": "Requires adequate water; avoid with swallowing disorders or obstruction and separate from certain drugs.",
+        "it": "Richiede acqua sufficiente; evitare con disfagia o ostruzione e distanziare da alcuni farmaci."
+      }
     }
   ]
 }
