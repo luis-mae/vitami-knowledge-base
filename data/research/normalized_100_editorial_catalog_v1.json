@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "status": "editorial_draft_not_validated",
   "counts": {
     "total": 100,
@@ -9,7 +9,9 @@
     "source_pointer": 20,
     "clinically_approved": 0,
     "safety_flags_added": 19,
-    "ingredients_with_targeted_safety_flags": 18
+    "ingredients_with_targeted_safety_flags": 18,
+    "product_registrations_verified": 0,
+    "individual_clinical_fiches_validated": 0
   },
   "records": [
     {
@@ -41,9 +43,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -51,7 +66,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "vitamin_b12",
@@ -82,9 +102,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -123,9 +156,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -145,7 +191,12 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "magnesium",
@@ -176,9 +227,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -186,7 +250,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "calcium",
@@ -217,9 +286,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -227,7 +309,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "zinc",
@@ -258,9 +345,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -268,7 +368,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "folate",
@@ -299,9 +404,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -309,7 +427,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "potassium",
@@ -340,9 +463,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -393,9 +529,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -403,7 +552,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "iodine",
@@ -434,9 +588,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -444,7 +611,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "selenium",
@@ -475,9 +647,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -485,7 +670,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "vitamin_c",
@@ -516,9 +706,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -526,7 +729,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "vitamin_a",
@@ -557,9 +765,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -579,7 +800,12 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "vitamin_e",
@@ -610,9 +836,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -620,7 +859,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "vitamin_k",
@@ -651,9 +895,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -692,9 +949,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -733,9 +1003,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -774,9 +1057,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -784,7 +1080,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "copper",
@@ -815,9 +1116,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -825,7 +1139,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "chromium",
@@ -856,9 +1175,22 @@
       "source_pointer": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -897,9 +1229,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -938,9 +1283,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -991,9 +1349,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1001,7 +1372,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "phosphorus",
@@ -1032,9 +1408,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1042,7 +1431,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "sodium",
@@ -1073,9 +1467,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1114,9 +1521,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1155,9 +1575,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1196,9 +1629,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1249,9 +1695,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1290,9 +1749,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1331,9 +1803,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1372,9 +1857,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1413,9 +1911,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1454,9 +1965,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1495,9 +2019,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1536,9 +2073,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1577,9 +2127,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1618,9 +2181,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1671,9 +2247,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1724,9 +2313,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1777,9 +2379,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1818,9 +2433,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1871,9 +2499,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1912,9 +2553,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1953,9 +2607,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -1963,7 +2630,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "coq10",
@@ -1994,9 +2666,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2035,9 +2720,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2088,9 +2786,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2129,9 +2840,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2170,9 +2894,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2223,9 +2960,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2287,9 +3037,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2328,9 +3091,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2369,9 +3145,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2410,9 +3199,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2451,9 +3253,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2504,9 +3319,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2545,9 +3373,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2586,9 +3427,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2627,9 +3481,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2668,9 +3535,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2709,9 +3589,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2750,9 +3643,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2791,9 +3697,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2832,9 +3751,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2873,9 +3805,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2914,9 +3859,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2955,9 +3913,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -2996,9 +3967,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3037,9 +4021,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3078,9 +4075,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3119,9 +4129,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3160,9 +4183,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3201,9 +4237,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3242,9 +4291,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3283,9 +4345,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3336,9 +4411,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3377,9 +4465,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3418,9 +4519,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3459,9 +4573,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3469,7 +4596,13 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "specific_evidence": [
+        {
+          "source_id": "ods_mvm",
+          "claim": "Formula and life-stage matching must be checked before recommendation."
+        }
+      ]
     },
     {
       "ingredient_id": "boron",
@@ -3500,9 +4633,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3541,9 +4687,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3551,7 +4710,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "chloride",
@@ -3582,9 +4746,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3623,9 +4800,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3633,7 +4823,12 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "ul_interpretation": {
+        "source_id": "ods_ul_scope",
+        "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
+        "therapeutic_dose_not_inferred": true
+      }
     },
     {
       "ingredient_id": "lutein",
@@ -3664,9 +4859,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3705,9 +4913,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3746,9 +4967,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3787,9 +5021,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3828,9 +5075,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3881,9 +5141,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3934,9 +5207,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -3975,9 +5261,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4016,9 +5315,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4057,9 +5369,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4110,9 +5435,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4151,9 +5489,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4204,9 +5555,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4245,9 +5609,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4286,9 +5663,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4327,9 +5717,22 @@
       "source_pointer": null,
       "source_claim_verified": false,
       "regulatory_argentina": {
-        "product_verified": false,
-        "nonprescription_status": "unknown",
-        "check_specific_product": true
+        "status": "ingredient_not_classifiable_as_otc",
+        "source_ids": [
+          "regulatory_product_specific",
+          "rnes_rnpas"
+        ],
+        "required_product_fields": [
+          "brand",
+          "formulation",
+          "strength",
+          "RNE",
+          "RNPA",
+          "label",
+          "warnings",
+          "expiry"
+        ],
+        "verified_product": false
       },
       "release_gate": {
         "automated_recommendation_allowed": false,
@@ -4340,5 +5743,35 @@
       "safety_flags": []
     }
   ],
-  "safety_rules_version": "2026-11-18"
+  "safety_rules_version": "2026-11-18",
+  "evidence_registry": {
+    "review_date": "2026-11-18",
+    "verified_scope": "Only statements explicitly stated in evidence_registry; no ingredient-specific efficacy or dosage validated",
+    "sources": [
+      {
+        "id": "regulatory_product_specific",
+        "url": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "claim": "A dietary supplement requires product registration (RNPA), labeling and warnings; ingredient name alone does not establish market authorization.",
+        "scope": "all"
+      },
+      {
+        "id": "rnes_rnpas",
+        "url": "https://www.argentina.gob.ar/anmat/anmatresponde/preguntas-frecuentes-sobre-anmat",
+        "claim": "RNE and RNPA must be checked on the specific product packaging.",
+        "scope": "all"
+      },
+      {
+        "id": "ods_ul_scope",
+        "url": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL applies to total intake for many nutrients, but for folate, magnesium, niacin and vitamin E it applies only to specified supplemental or fortified sources; vitamin A UL is form-specific.",
+        "scope": "selected_nutrients"
+      },
+      {
+        "id": "ods_mvm",
+        "url": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+        "claim": "Multivitamin composition varies; some products provide small quantities of calcium, magnesium and potassium, and products should be chosen by age/life stage.",
+        "scope": "multivitamin"
+      }
+    ]
+  }
 }
