@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-18",
+  "purpose": "Four-stream claim-level evidence update plus regulatory and integration guardrails",
+  "review_scope": "Only cited safety passages were checked. No complete clinical verification, dosage prescription or Argentine registration is asserted.",
+  "records": [
+    {
+      "ingredient_id": "magnesium",
+      "block": 1,
+      "source": {
+        "publisher": "NIH ODS",
+        "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "sections": [
+          "Health Risks from Excessive Magnesium",
+          "Interactions with Medications"
+        ]
+      },
+      "verified_safety_claims": {
+        "es": "El límite superior de 350 mg/día para adultos se refiere al magnesio de suplementos y medicamentos, no al de alimentos. Dosis altas pueden provocar diarrea y toxicidad, especialmente con insuficiencia renal. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; diuréticos e inhibidores de bomba de protones pueden modificar el estado de magnesio.",
+        "en": "The adult 350 mg/day upper limit applies to supplemental and medicinal magnesium, not food magnesium. High doses may cause diarrhea and toxicity, especially with impaired renal function. Magnesium may impair absorption of tetracyclines, quinolones and oral bisphosphonates; diuretics and proton-pump inhibitors may affect magnesium status.",
+        "it": "Il limite massimo di 350 mg/die per gli adulti riguarda il magnesio da integratori e farmaci, non dagli alimenti. Dosi elevate possono causare diarrea e tossicità, soprattutto con insufficienza renale. Il magnesio può ridurre l'assorbimento di tetracicline, chinoloni e bifosfonati orali; diuretici e inibitori di pompa protonica possono alterarne lo stato."
+      },
+      "dose_interpretation": "350 mg/day UL for supplemental/medicinal magnesium in adults; not a target or personalized dose.",
+      "screening_triggers": [
+        "renal impairment",
+        "oral bisphosphonates",
+        "tetracyclines",
+        "quinolones",
+        "diuretics",
+        "proton pump inhibitors"
+      ],
+      "evidence_quality": "authoritative_nutrient_fact_sheet_not_indication_grade",
+      "source_passage_status": "checked",
+      "full_documentary_status": "incomplete",
+      "clinical_approval": false,
+      "Argentina": {
+        "product_registration_verified": false,
+        "availability": "unknown",
+        "prescription_status": "unknown",
+        "requires": [
+          "product_name",
+          "dosage_form",
+          "strength",
+          "registered_category",
+          "official_registration_identifier",
+          "label"
+        ]
+      },
+      "integration": {
+        "automatic_recommendation_allowed": false,
+        "requires_manual_review_on_screening_trigger": true
+      }
+    },
+    {
+      "ingredient_id": "melatonin",
+      "block": 2,
+      "source": {
+        "publisher": "NCCIH",
+        "url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "sections": [
+          "Is it safe to take melatonin?",
+          "Is melatonin safe for children?"
+        ]
+      },
+      "verified_safety_claims": {
+        "es": "La seguridad del uso prolongado de melatonina no está establecida. Se requiere supervisión en personas con epilepsia o anticoagulantes; faltan datos suficientes en embarazo y lactancia. En niños debe evaluarse con un profesional, y existen problemas documentados de discrepancia entre contenido y etiqueta.",
+        "en": "Long-term melatonin safety is not established. People with epilepsy or taking anticoagulants need medical supervision; pregnancy and breastfeeding data are insufficient. Children require professional assessment, and product-label content discrepancies have been documented.",
+        "it": "La sicurezza a lungo termine della melatonina non è stabilita. Le persone con epilessia o in terapia anticoagulante richiedono supervisione medica; i dati in gravidanza e allattamento sono insufficienti. Nei bambini è necessaria una valutazione professionale e sono state documentate discrepanze tra contenuto ed etichetta."
+      },
+      "dose_interpretation": "No universal dose established by this safety review.",
+      "screening_triggers": [
+        "children",
+        "pregnancy",
+        "lactation",
+        "epilepsy",
+        "anticoagulants",
+        "product labeling"
+      ],
+      "evidence_quality": "NCCIH_safety_summary_not_indication_grade",
+      "source_passage_status": "checked",
+      "full_documentary_status": "incomplete",
+      "clinical_approval": false,
+      "Argentina": {
+        "product_registration_verified": false,
+        "availability": "unknown",
+        "prescription_status": "unknown",
+        "requires": [
+          "product_name",
+          "dosage_form",
+          "strength",
+          "registered_category",
+          "official_registration_identifier",
+          "label"
+        ]
+      },
+      "integration": {
+        "automatic_recommendation_allowed": false,
+        "requires_manual_review_on_screening_trigger": true
+      }
+    },
+    {
+      "ingredient_id": "st_johns_wort",
+      "block": 3,
+      "source": {
+        "publisher": "NCCIH",
+        "url": "https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth",
+        "sections": [
+          "What Does the Research Say About Safety?",
+          "More To Consider"
+        ]
+      },
+      "verified_safety_claims": {
+        "es": "La hierba de San Juan puede reducir la eficacia de anticonceptivos orales, ciclosporina, digoxina, warfarina y algunos medicamentos para VIH y cáncer. Combinada con ciertos antidepresivos puede provocar toxicidad serotoninérgica. No sustituye el tratamiento profesional de la depresión.",
+        "en": "St John's wort may reduce effectiveness of oral contraceptives, cyclosporine, digoxin, warfarin, and some HIV and cancer medicines. Combining it with certain antidepressants can cause serotonin toxicity. It does not replace professional depression care.",
+        "it": "L'iperico può ridurre l'efficacia di contraccettivi orali, ciclosporina, digossina, warfarin e alcuni farmaci per HIV e tumori. Associato ad alcuni antidepressivi può causare tossicità serotoninergica. Non sostituisce le cure professionali per la depressione."
+      },
+      "dose_interpretation": "No general-purpose self-medication dose authorized.",
+      "screening_triggers": [
+        "antidepressants",
+        "contraceptives",
+        "cyclosporine",
+        "digoxin",
+        "warfarin",
+        "HIV medications",
+        "cancer medications",
+        "pregnancy"
+      ],
+      "evidence_quality": "NCCIH_interaction_summary_not_indication_grade",
+      "source_passage_status": "checked",
+      "full_documentary_status": "incomplete",
+      "clinical_approval": false,
+      "Argentina": {
+        "product_registration_verified": false,
+        "availability": "unknown",
+        "prescription_status": "unknown",
+        "requires": [
+          "product_name",
+          "dosage_form",
+          "strength",
+          "registered_category",
+          "official_registration_identifier",
+          "label"
+        ]
+      },
+      "integration": {
+        "automatic_recommendation_allowed": false,
+        "requires_manual_review_on_screening_trigger": true
+      }
+    },
+    {
+      "ingredient_id": "licorice_root",
+      "block": 4,
+      "source": {
+        "publisher": "NCCIH",
+        "url": "https://www.nccih.nih.gov/health/licorice-root",
+        "sections": [
+          "What Do We Know About Safety?"
+        ]
+      },
+      "verified_safety_claims": {
+        "es": "El regaliz con glicirricina puede producir efectos cardiovasculares graves, especialmente con consumo elevado o prolongado, hipertensión, enfermedad cardíaca o renal. Se han informado interacciones con corticosteroides. El uso oral de grandes cantidades durante el embarazo es inseguro; el regaliz desglicirrizinado es una formulación distinta.",
+        "en": "Glycyrrhizin-containing licorice can cause serious cardiovascular effects, particularly with high or prolonged exposure, hypertension, heart or kidney disease. Corticosteroid interactions have been reported. High oral exposure during pregnancy is unsafe; deglycyrrhizinated licorice is a distinct formulation.",
+        "it": "La liquirizia contenente glicirrizina può causare gravi effetti cardiovascolari, soprattutto con esposizione elevata o prolungata, ipertensione o malattie cardiache o renali. Sono state segnalate interazioni con corticosteroidi. Un'elevata assunzione orale in gravidanza non è sicura; la liquirizia deglicirrizinata è una formulazione distinta."
+      },
+      "dose_interpretation": "No safe general supplemental dose inferred.",
+      "screening_triggers": [
+        "hypertension",
+        "heart disease",
+        "kidney disease",
+        "pregnancy",
+        "corticosteroids",
+        "glycyrrhizin content"
+      ],
+      "evidence_quality": "NCCIH_safety_summary_not_indication_grade",
+      "source_passage_status": "checked",
+      "full_documentary_status": "incomplete",
+      "clinical_approval": false,
+      "Argentina": {
+        "product_registration_verified": false,
+        "availability": "unknown",
+        "prescription_status": "unknown",
+        "requires": [
+          "product_name",
+          "dosage_form",
+          "strength",
+          "registered_category",
+          "official_registration_identifier",
+          "label"
+        ]
+      },
+      "integration": {
+        "automatic_recommendation_allowed": false,
+        "requires_manual_review_on_screening_trigger": true
+      }
+    }
+  ],
+  "qa": {
+    "distinct_ingredient_ids": 4,
+    "blocks_covered": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "trilingual_claims": 4,
+    "verified_argentina_products": 0,
+    "professionally_approved": 0,
+    "duplicate_ids": 0
+  }
+}
