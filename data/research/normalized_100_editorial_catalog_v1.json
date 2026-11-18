@@ -1,5 +1,5 @@
 {
-  "version": "1.7",
+  "version": "1.8",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -4601,6 +4601,29 @@
         "reviewed_date": "2026-11-18",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/coenzyme-q10",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "warfarin_effect_reduction",
+          "blood_pressure_drugs",
+          "chemotherapy_discuss_with_oncologist"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -4741,6 +4764,30 @@
         "reviewed_date": "2026-11-18",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "daytime_sedation_driving",
+          "children_long_term_safety",
+          "anticoagulants_and_sedatives",
+          "product_label_variability"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -4850,6 +4897,29 @@
         "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/turmeric",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "liver_injury_concentrated_formulations",
+          "piperine_bioavailability_and_interactions",
+          "gallbladder_disease"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -4971,6 +5041,29 @@
         "reviewed_date": "2026-11-18",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/ginger",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "anticoagulant_antiplatelet_medications",
+          "pregnancy_formulation_and_dose",
+          "GI_tolerance"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5099,6 +5192,30 @@
         "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
         "reviewed_date": "2026-11-18",
         "source_checked": true
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "thyroid_disease_and_medication",
+          "autoimmune_disease_immunosuppressants",
+          "pregnancy",
+          "liver_injury_reports"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5237,6 +5354,29 @@
         "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
         "reviewed_date": "2026-11-18",
         "source_checked": true
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/green-tea",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "hepatotoxicity_concentrated_extract",
+          "caffeine_total",
+          "fasting_high_dose"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5344,6 +5484,29 @@
         "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/asian-ginseng",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "glucose_lowering_drugs",
+          "warfarin_interactions",
+          "insomnia_and_stimulants"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5469,6 +5632,29 @@
         "reviewed_date": "2026-11-18",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/garlic",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "bleeding_risk_anticoagulants",
+          "surgery",
+          "GI_adverse_effects"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5575,6 +5761,29 @@
         "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/turmeric",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "concentrated_curcumin_vs_culinary_spice",
+          "liver_injury_extract",
+          "gallbladder_disease"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5696,6 +5905,29 @@
         "reviewed_date": "2026-11-18",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/echinacea",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "asteraceae_allergy",
+          "immunosuppressive_drugs",
+          "limited_cold_prevention_evidence"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5824,6 +6056,30 @@
         "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
         "reviewed_date": "2026-11-18",
         "source_checked": true
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/st-johns-wort",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "CYP_PGP_drug_interactions",
+          "oral_contraceptive_failure",
+          "serotonergic_drugs_serotonin_syndrome",
+          "transplant_and_HIV_medications"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5933,6 +6189,29 @@
         "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "pregnancy_lactation_and_infants",
+          "glucose_lowering_drugs",
+          "drug_transporters_and_metabolism"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6000,6 +6279,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "glucose_lowering_drugs",
+          "thyroid_medication",
+          "hypoglycemia_risk"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6067,6 +6369,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "uncertain_clinical_efficacy",
+          "formulation_and_dose",
+          "pregnancy_lactation_data_gap"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6146,6 +6471,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "smoker_former_smoker_lung_cancer_risk",
+          "vitamin_A_equivalents",
+          "do_not_substitute_for_preformed_retinol"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6213,6 +6561,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "PCOS_guideline_evidence_uncertainty",
+          "GI_tolerance",
+          "pregnancy_and_fertility_context"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6280,6 +6651,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "food_intake_vs_supplement_evidence",
+          "no_prostate_cancer_prevention_claim",
+          "pregnancy_lactation_data_gap"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6347,6 +6741,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "GI_intolerance_diarrhea",
+          "energy_density",
+          "no_unqualified_weight_loss_claim"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6414,6 +6831,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "medication_vs_supplement_regulatory_classification",
+          "nitroglycerin_hypotension_headache",
+          "asthma_and_bronchospasm_route"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6481,6 +6921,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "microcystin_heavy_metal_contamination",
+          "autoimmune_conditions",
+          "phenylketonuria_ingredient_check"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6604,6 +7067,30 @@
         "reviewed_date": "2026-11-18",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "shellfish_allergy_product_source",
+          "warfarin_bleeding",
+          "glycemic_monitoring",
+          "joint_specific_evidence"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6727,6 +7214,29 @@
         "reviewed_date": "2026-11-18",
         "dose_verified": false,
         "regulatory_verified": false
+      },
+      "clinical_review_packet": {
+        "reference": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis",
+        "reference_status": "some_source_claims_recorded_not_full_review",
+        "safety_checks": [
+          "warfarin_bleeding",
+          "osteoarthritis_heterogeneous_evidence",
+          "product_purity"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6794,6 +7304,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "limited_high_quality_clinical_trials",
+          "GI_side_effects",
+          "long_term_safety_unknown"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6861,6 +7394,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "sedation_and_driving",
+          "blood_pressure_medication",
+          "caffeine_coformulation"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6928,6 +7484,29 @@
         },
         "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
         "argentina_product_specific_registration": "PENDING"
+      },
+      "clinical_review_packet": {
+        "reference": null,
+        "reference_status": "primary_source_required",
+        "safety_checks": [
+          "kidney_disease_high_dose",
+          "drug_interaction_uncertainty",
+          "clinical_efficacy_not_established"
+        ],
+        "indication_evidence_grade": "not_yet_fully_appraised",
+        "dose": {
+          "status": "indication_and_formulation_specific_review_required",
+          "value": null,
+          "unit": null
+        },
+        "interaction_review": "mandatory_before_recommendation",
+        "argentina": {
+          "product_specific_RNE_RNPA": "pending",
+          "OTC_or_prescription": "cannot_be_inferred_from_ingredient"
+        },
+        "publication_status": "RESEARCH_ONLY",
+        "automatic_recommendation_allowed": false,
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9769,9 +10348,9 @@
   },
   "batch_completion_pass": {
     "date": "2026-11-18",
-    "range": "21-45",
+    "range": "46-70",
     "processed": 25,
     "scientifically_complete": 0,
-    "meaning": "25 explicit ingredient-specific safety review packets; all clinical and regulatory approvals still pending"
+    "meaning": "25 botanical/specialty ingredient-specific contraindication and interaction gates, without asserting clinical verification"
   }
 }
