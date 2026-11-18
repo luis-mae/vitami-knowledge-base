@@ -1,5 +1,5 @@
 {
-  "version": "2.20",
+  "version": "2.21",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -2056,6 +2056,20 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Assess actual deficiency or condition-specific indication; do not equate nutritional intake with high-dose therapy.",
+        "screen": [
+          "peripheral_neuropathy",
+          "multiple_b6_products",
+          "long_term_high_dose_use",
+          "pregnancy"
+        ],
+        "form": "Quantify total vitamin B6 across all supplements; US and EFSA UL differ.",
+        "decision": "Flag cumulative chronic dosing and neurologic symptoms for clinical review.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -8389,6 +8403,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Efficacy must be evaluated by strain, indication and population; species-level claims are insufficient.",
+        "screen": [
+          "severe_immunosuppression",
+          "critical_illness",
+          "central_venous_catheter",
+          "prematurity"
+        ],
+        "form": "Require strain identifier, CFU at expiry and studied formulation.",
+        "decision": "Do not generalize results across strains; high-risk patients need clinician assessment.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -10990,20 +11018,19 @@
         "allow_automatic_recommendation": false
       },
       "indication_safety_case": {
-        "use": "Do not offer as general mood support without clinical assessment.",
+        "use": "High-risk drug interaction screening must precede any consideration of use.",
         "screen": [
-          "antidepressants_or_serotonergic_drugs",
-          "oral_contraceptives",
-          "anticoagulants",
+          "hormonal_contraception",
           "transplant_immunosuppressants",
           "antiretrovirals",
+          "anticoagulants",
+          "antidepressants",
           "bipolar_disorder"
         ],
-        "decision": "High interaction burden via enzyme induction and serotonergic effects: hard-stop unsupervised recommendation.",
-        "form": "Extract standardization and product-drug interaction profile matter.",
-        "status": "CLINICAL_EDITORIAL_DRAFT_REQUIRES_INDEPENDENT_SOURCE_VERIFICATION",
-        "evidence_claim_approved": false,
-        "patient_specific_dosing_allowed": false,
+        "form": "Identify Hypericum perforatum standardized extract and all coingredients.",
+        "decision": "Block automated recommendation with interacting drugs or bipolar disorder.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/st-johns-wort",
         "automatic_recommendation_allowed": false
       }
     },
@@ -15320,6 +15347,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Dental caries prevention is exposure- and age-specific, not a generic oral supplement recommendation.",
+        "screen": [
+          "age_child",
+          "drinking_water_fluoride",
+          "dental_products",
+          "kidney_disease"
+        ],
+        "form": "Distinguish topical fluoride from systemic intake; verify fluoride content of local water.",
+        "decision": "Do not suggest oral fluoride supplementation without age and total-exposure assessment.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17831,21 +17872,20 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "potassium",
-    "block_2": "psyllium",
-    "block_3": "nac",
-    "block_4": "betaine",
+    "block_1": "vitamin_b6",
+    "block_2": "probiotics",
+    "block_3": "st_johns_wort",
+    "block_4": "fluoride",
     "block_5": {
-      "verified_actual_products": 0,
-      "regulatory_gate_active": true
+      "product_verification_pending": 100,
+      "product_specific_gate_preserved": true
     },
     "block_6": {
-      "missing_id": 0,
-      "duplicate_ids": 0,
-      "missing_es_en_it_indications": 0,
-      "missing_es_en_it_safety": 0,
-      "missing_es_en_it_use": 0,
-      "automatic_recommendations_enabled": 0
+      "total": 100,
+      "unique": 100,
+      "missing_trilingual_safety": 0,
+      "unverified_regulatory_products": 100,
+      "auto_enabled": 0
     },
     "new_editorial_cases": 4,
     "scientific_signoff_added": 0
