@@ -124,5 +124,10 @@
       "claim_id": "CREATINE_ENDURANCE_EVIDENCE_LIMIT_001",
       "status": "evidence_review"
     }
-  ]
+  ],
+  "governance": {
+    "document_status": "HISTORICAL_SNAPSHOT_NOT_CURRENT_PRODUCT_AUDIT",
+    "as_of": "2026-11-13",
+    "instruction": "Do not use this file as the current VITAMI product status, active work plan, or master audit. The only active plan is luis-mae/vitami/VITAMI_PLAN_MAESTRO_UNICO.md; the only consolidated audit is luis-mae/vitami/AUDITORIA.md. This file remains historical evidence for its original scope and date."
+  }
 }
