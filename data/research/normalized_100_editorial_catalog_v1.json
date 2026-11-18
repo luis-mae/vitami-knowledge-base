@@ -1,5 +1,5 @@
 {
-  "version": "2.13",
+  "version": "2.14",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -3989,6 +3989,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Chromium deficiency is rare; do not assume chromium improves glucose control or weight loss.",
+          "risk": "Diabetes medication and kidney/liver conditions warrant review.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -4205,6 +4212,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Pantothenic acid supports coenzyme A metabolism; deficiency is rare in typical diets.",
+          "risk": "Do not infer benefit from megadoses; pregnancy and lactation have separate adequate intakes.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": null,
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -4444,6 +4458,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Biotin deficiency can occur in specific conditions; hair/nail benefits without deficiency are uncertain.",
+          "risk": "Biotin may interfere with troponin and thyroid immunoassays.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": null,
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -4666,6 +4687,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Manganese is an essential trace mineral; deficiency is uncommon.",
+          "risk": "Chronic excess may cause neurotoxicity, particularly with impaired biliary excretion.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": null,
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -4888,6 +4916,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Dietary phosphorus supports bone and cellular function; deficiency is uncommon with normal intake.",
+          "risk": "Kidney disease changes phosphate handling; review dietary phosphate additives.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": null,
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -5106,6 +5141,13 @@
           "claim_verification": "pending unless explicitly marked source checked",
           "last_audit": "2026-11-18",
           "cannot_publish_as_verified": true
+        },
+        "indication_specific_editorial_review": {
+          "indication": "Sodium is essential, but typical diets may exceed recommended limits.",
+          "risk": "Assess hypertension, heart failure, kidney disease and actual losses before recommending electrolyte supplementation.",
+          "status": "DRAFT_REQUIRES_PRIMARY_SOURCE_CONFIRMATION",
+          "source_candidate": null,
+          "not_a_patient_specific_recommendation": true
         }
       }
     },
@@ -16481,6 +16523,6 @@
     "quality_control_checks_added": 25,
     "source_audits": 25,
     "indication_specific_editorial_reviews_added": 8,
-    "additional_indication_editorial_reviews": 8
+    "additional_indication_editorial_reviews": 6
   }
 }
