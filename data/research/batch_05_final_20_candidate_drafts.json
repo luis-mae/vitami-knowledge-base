@@ -1,0 +1,528 @@
+{
+  "version": "2026-11-18",
+  "count": 20,
+  "status": "research_drafts_not_clinically_validated",
+  "notice": "Candidate list. Deduplicate against canonical catalog before activation. Source registry is a starting point, not evidence for each specific claim.",
+  "records": [
+    {
+      "ingredient_id": "boron",
+      "names": {
+        "es": "Boro",
+        "en": "Boron",
+        "it": "Boro"
+      },
+      "research_note_es": "No establecer beneficios óseos sin evaluar evidencia y exposición total.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "molybdenum",
+      "names": {
+        "es": "Molibdeno",
+        "en": "Molybdenum",
+        "it": "Molibdeno"
+      },
+      "research_note_es": "La deficiencia es rara; evitar suplementación indiscriminada.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "chloride",
+      "names": {
+        "es": "Cloruro",
+        "en": "Chloride",
+        "it": "Cloruro"
+      },
+      "research_note_es": "Evaluar balance hidroelectrolítico y condiciones renales.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "fluoride",
+      "names": {
+        "es": "Fluoruro",
+        "en": "Fluoride",
+        "it": "Fluoruro"
+      },
+      "research_note_es": "Riesgo de fluorosis por exposición excesiva; verificar regulación local.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "lutein",
+      "names": {
+        "es": "Luteína",
+        "en": "Lutein",
+        "it": "Luteina"
+      },
+      "research_note_es": "La evidencia ocular depende de población y combinación específica.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "zeaxanthin",
+      "names": {
+        "es": "Zeaxantina",
+        "en": "Zeaxanthin",
+        "it": "Zeaxantina"
+      },
+      "research_note_es": "No extrapolar estudios de formulaciones combinadas a uso aislado.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "hmb",
+      "names": {
+        "es": "HMB",
+        "en": "Beta-hydroxy beta-methylbutyrate",
+        "it": "HMB"
+      },
+      "research_note_es": "Resultados de rendimiento y masa muscular dependen del contexto.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "betaine",
+      "names": {
+        "es": "Betaína",
+        "en": "Betaine",
+        "it": "Betaina"
+      },
+      "research_note_es": "Distinguir betaína anhidra de betaína HCl y usos clínicos.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "l_tryptophan",
+      "names": {
+        "es": "L-triptófano",
+        "en": "L-tryptophan",
+        "it": "L-triptofano"
+      },
+      "research_note_es": "Revisar fármacos serotoninérgicos y somnolencia.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "5_htp",
+      "names": {
+        "es": "5-HTP",
+        "en": "5-HTP",
+        "it": "5-HTP"
+      },
+      "research_note_es": "Riesgo de interacción con antidepresivos serotoninérgicos.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "bacopa",
+      "names": {
+        "es": "Bacopa monnieri",
+        "en": "Bacopa monnieri",
+        "it": "Bacopa monnieri"
+      },
+      "research_note_es": "Evidencia cognitiva limitada; revisar tolerancia e interacciones.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "milk_thistle",
+      "names": {
+        "es": "Cardo mariano",
+        "en": "Milk thistle",
+        "it": "Cardo mariano"
+      },
+      "research_note_es": "No afirmar tratamiento de enfermedad hepática sin evidencia clínica.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "peppermint_oil",
+      "names": {
+        "es": "Aceite de menta",
+        "en": "Peppermint oil",
+        "it": "Olio di menta piperita"
+      },
+      "research_note_es": "Distinguir formulaciones entéricas; puede agravar reflujo.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "passionflower",
+      "names": {
+        "es": "Pasiflora",
+        "en": "Passionflower",
+        "it": "Passiflora"
+      },
+      "research_note_es": "Precaución con sedantes y embarazo.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "chamomile",
+      "names": {
+        "es": "Manzanilla",
+        "en": "Chamomile",
+        "it": "Camomilla"
+      },
+      "research_note_es": "Revisar alergias a asteráceas e interacciones.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "licorice_root",
+      "names": {
+        "es": "Regaliz",
+        "en": "Licorice root",
+        "it": "Liquirizia"
+      },
+      "research_note_es": "Puede elevar presión y reducir potasio; precaución cardiovascular.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "bromelain",
+      "names": {
+        "es": "Bromelina",
+        "en": "Bromelain",
+        "it": "Bromelina"
+      },
+      "research_note_es": "Revisar alergia a piña e interacciones con anticoagulantes.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "propolis",
+      "names": {
+        "es": "Propóleo",
+        "en": "Propolis",
+        "it": "Propoli"
+      },
+      "research_note_es": "Revisar alergias a productos apícolas y calidad.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "maca",
+      "names": {
+        "es": "Maca",
+        "en": "Maca",
+        "it": "Maca"
+      },
+      "research_note_es": "Evidencia insuficiente para promesas hormonales o reproductivas.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    },
+    {
+      "ingredient_id": "glutamine",
+      "names": {
+        "es": "Glutamina",
+        "en": "Glutamine",
+        "it": "Glutammina"
+      },
+      "research_note_es": "Distinguir usos clínicos específicos de suplementación deportiva.",
+      "language_completion": {
+        "es": "partial",
+        "en": "name_only",
+        "it": "name_only"
+      },
+      "source_registry": "https://ods.od.nih.gov/factsheets/list-all/",
+      "source_match_status": "requires_specific_fact_sheet_or_primary_study",
+      "evidence_status": "not_verified",
+      "clinical_review_status": "pending",
+      "dose": "not_assigned",
+      "indication": "not_approved",
+      "argentina": {
+        "availability": "unverified",
+        "registration": "check_specific_product_RNE_RNPA_or_ANMAT",
+        "prescription_status": "unknown"
+      },
+      "public_recommendation_allowed": false
+    }
+  ]
+}
