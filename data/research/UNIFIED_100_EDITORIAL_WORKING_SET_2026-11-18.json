@@ -99,7 +99,39 @@
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "claim_level_evidence": {
+        "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        "previous_review_file": "data/research/verified_source_passages_2026-11-18_batch01.json",
+        "claim_records": [
+          {
+            "topic": "physiological_role",
+            "finding_es": "La vitamina D favorece la absorción intestinal de calcio y la mineralización ósea.",
+            "finding_en": "Vitamin D supports intestinal calcium absorption and bone mineralization.",
+            "finding_it": "La vitamina D favorisce l'assorbimento intestinale del calcio e la mineralizzazione ossea.",
+            "source_section": "Introduction",
+            "status": "source_passage_checked"
+          },
+          {
+            "topic": "assessment",
+            "finding_es": "La 25(OH)D sérica es el principal indicador del estado de vitamina D; la exposición solar baja no diagnostica deficiencia.",
+            "finding_en": "Serum 25(OH)D is the main status marker; low sun exposure alone does not diagnose deficiency.",
+            "finding_it": "La 25(OH)D sierica è il principale indicatore; poca esposizione solare da sola non diagnostica una carenza.",
+            "source_section": "Assessing vitamin D status",
+            "status": "source_passage_checked"
+          },
+          {
+            "topic": "adult_intake",
+            "finding_es": "Las ingestas de referencia varían según la edad; no son dosis terapéuticas.",
+            "finding_en": "Reference intakes vary by age and are not treatment doses.",
+            "finding_it": "Le assunzioni di riferimento variano con l'età e non sono dosi terapeutiche.",
+            "source_section": "Recommended Intakes",
+            "status": "source_passage_checked"
+          }
+        ],
+        "review_scope": "Only previously documented passages, not entire fiche; no independent re-verification performed in this update.",
+        "full_fiche_verified": false
+      }
     },
     {
       "id": "vitamin_b12",
@@ -176,7 +208,39 @@
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "claim_level_evidence": {
+        "source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+        "previous_review_file": "data/research/verified_source_passages_2026-11-18_batch01.json",
+        "claim_records": [
+          {
+            "topic": "physiological_role",
+            "finding_es": "La vitamina B12 participa en la función neurológica, formación de glóbulos rojos y síntesis de ADN.",
+            "finding_en": "Vitamin B12 supports neurological function, red blood cell formation and DNA synthesis.",
+            "finding_it": "La vitamina B12 contribuisce alla funzione neurologica, alla formazione dei globuli rossi e alla sintesi del DNA.",
+            "source_section": "Introduction",
+            "status": "source_passage_checked"
+          },
+          {
+            "topic": "adult_intake",
+            "finding_es": "La ingesta de referencia para adultos de 19 años o más es 2,4 mcg/día; embarazo y lactancia tienen valores diferentes.",
+            "finding_en": "The reference intake for adults aged 19+ is 2.4 mcg/day; pregnancy and lactation differ.",
+            "finding_it": "L'assunzione di riferimento per adulti dai 19 anni è 2,4 mcg/die; gravidanza e allattamento differiscono.",
+            "source_section": "Recommended Intakes Table 1",
+            "status": "source_passage_checked"
+          },
+          {
+            "topic": "dietary_source",
+            "finding_es": "Los alimentos vegetales no contienen naturalmente B12; algunos alimentos están fortificados.",
+            "finding_en": "Plant foods do not naturally contain B12; some foods are fortified.",
+            "finding_it": "Gli alimenti vegetali non contengono naturalmente B12; alcuni sono fortificati.",
+            "source_section": "Sources of Vitamin B12",
+            "status": "source_passage_checked"
+          }
+        ],
+        "review_scope": "Only previously documented passages, not entire fiche; no independent re-verification performed in this update.",
+        "full_fiche_verified": false
+      }
     },
     {
       "id": "iron",
@@ -253,7 +317,39 @@
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "claim_level_evidence": {
+        "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "previous_review_file": "data/research/verified_source_passages_2026-11-18_batch01.json",
+        "claim_records": [
+          {
+            "topic": "physiological_role",
+            "finding_es": "El hierro forma parte de la hemoglobina y participa en el transporte de oxígeno.",
+            "finding_en": "Iron is part of hemoglobin and supports oxygen transport.",
+            "finding_it": "Il ferro fa parte dell'emoglobina e contribuisce al trasporto dell'ossigeno.",
+            "source_section": "Introduction",
+            "status": "source_passage_checked"
+          },
+          {
+            "topic": "assessment",
+            "finding_es": "La ferritina sérica ayuda a evaluar reservas de hierro, pero puede aumentar con inflamación; no diagnosticar deficiencia solo por síntomas.",
+            "finding_en": "Serum ferritin helps assess iron stores but may rise with inflammation; symptoms alone do not establish deficiency.",
+            "finding_it": "La ferritina sierica aiuta a valutare le riserve ma può aumentare con l'infiammazione; i soli sintomi non diagnosticano carenza.",
+            "source_section": "Assessing iron status",
+            "status": "source_passage_checked"
+          },
+          {
+            "topic": "adult_intake",
+            "finding_es": "Las necesidades de hierro varían por edad, sexo, embarazo y patrón alimentario; no usar la ingesta de referencia como dosis de tratamiento.",
+            "finding_en": "Iron needs vary by age, sex, pregnancy and dietary pattern; reference intake is not a treatment dose.",
+            "finding_it": "Il fabbisogno di ferro varia per età, sesso, gravidanza e dieta; l'assunzione di riferimento non è una dose terapeutica.",
+            "source_section": "Recommended Intakes",
+            "status": "source_passage_checked"
+          }
+        ],
+        "review_scope": "Only previously documented passages, not entire fiche; no independent re-verification performed in this update.",
+        "full_fiche_verified": false
+      }
     },
     {
       "id": "magnesium",
@@ -271,9 +367,9 @@
         "it": "Valutare individualmente apporto insufficiente o carenza; i sintomi da soli non giustificano l'integrazione."
       },
       "safety": {
-        "es": "Insuficiencia renal; separar de bisfosfonatos y antibióticos quinolonas/tetraciclinas.",
-        "en": "Review contraindications, medicines, pregnancy and kidney/liver conditions before use. May cause diarrhea; separate by several hours from certain antibiotics and bisphosphonates.",
-        "it": "Valutare controindicazioni, farmaci, gravidanza e condizioni renali/epatiche prima dell'uso. Può causare diarrea; distanziare di diverse ore da alcuni antibiotici e bisfosfonati."
+        "es": "El límite superior de 350 mg/día para adultos se refiere al magnesio de suplementos y medicamentos, no al de alimentos. Dosis altas pueden provocar diarrea y toxicidad, especialmente con insuficiencia renal. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; diuréticos e inhibidores de bomba de protones pueden modificar el estado de magnesio.",
+        "en": "The adult 350 mg/day upper limit applies to supplemental and medicinal magnesium, not food magnesium. High doses may cause diarrhea and toxicity, especially with impaired renal function. Magnesium may impair absorption of tetracyclines, quinolones and oral bisphosphonates; diuretics and proton-pump inhibitors may affect magnesium status.",
+        "it": "Il limite massimo di 350 mg/die per gli adulti riguarda il magnesio da integratori e farmaci, non dagli alimenti. Dosi elevate possono causare diarrea e tossicità, soprattutto con insufficienza renale. Il magnesio può ridurre l'assorbimento di tetracicline, chinoloni e bifosfonati orali; diuretici e inibitori di pompa protonica possono alterarne lo stato."
       },
       "how_to_take": {
         "es": "Definir forma, dosis, frecuencia, comidas e interacciones tras evaluar contexto clínico y producto concreto.",
@@ -290,7 +386,13 @@
       "interaction_screening_leads": [
         "renal_impairment",
         "oral_bisphosphonate",
-        "quinolone_or_tetracycline_antibiotics"
+        "quinolone_or_tetracycline_antibiotics",
+        "renal impairment",
+        "oral bisphosphonates",
+        "tetracyclines",
+        "quinolones",
+        "diuretics",
+        "proton pump inhibitors"
       ],
       "evidence_quality": {
         "status": "not_independently_appraised"
@@ -329,7 +431,28 @@
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "claim_level_evidence": {
+        "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "previous_review_file": "data/research/four_stream_safety_evidence_2026-11-18_batch02.json",
+        "claim_records": [
+          {
+            "topic": "safety",
+            "trilingual": {
+              "es": "El límite superior de 350 mg/día para adultos se refiere al magnesio de suplementos y medicamentos, no al de alimentos. Dosis altas pueden provocar diarrea y toxicidad, especialmente con insuficiencia renal. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; diuréticos e inhibidores de bomba de protones pueden modificar el estado de magnesio.",
+              "en": "The adult 350 mg/day upper limit applies to supplemental and medicinal magnesium, not food magnesium. High doses may cause diarrhea and toxicity, especially with impaired renal function. Magnesium may impair absorption of tetracyclines, quinolones and oral bisphosphonates; diuretics and proton-pump inhibitors may affect magnesium status.",
+              "it": "Il limite massimo di 350 mg/die per gli adulti riguarda il magnesio da integratori e farmaci, non dagli alimenti. Dosi elevate possono causare diarrea e tossicità, soprattutto con insufficienza renale. Il magnesio può ridurre l'assorbimento di tetracicline, chinoloni e bifosfonati orali; diuretici e inibitori di pompa protonica possono alterarne lo stato."
+            },
+            "source_sections": [
+              "Health Risks from Excessive Magnesium",
+              "Interactions with Medications"
+            ]
+          }
+        ],
+        "review_scope": "Only previously documented passages, not entire fiche; no independent re-verification performed in this update.",
+        "full_fiche_verified": false
+      },
+      "dose_safety_context": "350 mg/day UL for supplemental/medicinal magnesium in adults; not a target or personalized dose."
     },
     {
       "id": "calcium",
@@ -3452,9 +3575,9 @@
         "it": "Studiata per alcuni disturbi del ritmo circadiano; non è terapia universale dell'insonnia."
       },
       "safety": {
-        "es": "Distinguir trastornos circadianos de insomnio crónico; revisar somnolencia y embarazo.",
-        "en": "Distinguish circadian conditions from chronic insomnia; review drowsiness and pregnancy.",
-        "it": "Distinguere disturbi circadiani da insonnia cronica; valutare sonnolenza e gravidanza."
+        "es": "La seguridad del uso prolongado de melatonina no está establecida. Se requiere supervisión en personas con epilepsia o anticoagulantes; faltan datos suficientes en embarazo y lactancia. En niños debe evaluarse con un profesional, y existen problemas documentados de discrepancia entre contenido y etiqueta.",
+        "en": "Long-term melatonin safety is not established. People with epilepsy or taking anticoagulants need medical supervision; pregnancy and breastfeeding data are insufficient. Children require professional assessment, and product-label content discrepancies have been documented.",
+        "it": "La sicurezza a lungo termine della melatonina non è stabilita. Le persone con epilessia o in terapia anticoagulante richiedono supervisione medica; i dati in gravidanza e allattamento sono insufficienti. Nei bambini è necessaria una valutazione professionale e sono state documentate discrepanze tra contenuto ed etichetta."
       },
       "how_to_take": {
         "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
@@ -3471,7 +3594,13 @@
       "interaction_screening_leads": [
         "sedation",
         "drug interactions",
-        "children and pregnancy require special assessment"
+        "children and pregnancy require special assessment",
+        "children",
+        "pregnancy",
+        "lactation",
+        "epilepsy",
+        "anticoagulants",
+        "product labeling"
       ],
       "evidence_quality": {
         "status": "not_independently_appraised"
@@ -3510,7 +3639,28 @@
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "claim_level_evidence": {
+        "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "previous_review_file": "data/research/four_stream_safety_evidence_2026-11-18_batch02.json",
+        "claim_records": [
+          {
+            "topic": "safety",
+            "trilingual": {
+              "es": "La seguridad del uso prolongado de melatonina no está establecida. Se requiere supervisión en personas con epilepsia o anticoagulantes; faltan datos suficientes en embarazo y lactancia. En niños debe evaluarse con un profesional, y existen problemas documentados de discrepancia entre contenido y etiqueta.",
+              "en": "Long-term melatonin safety is not established. People with epilepsy or taking anticoagulants need medical supervision; pregnancy and breastfeeding data are insufficient. Children require professional assessment, and product-label content discrepancies have been documented.",
+              "it": "La sicurezza a lungo termine della melatonina non è stabilita. Le persone con epilessia o in terapia anticoagulante richiedono supervisione medica; i dati in gravidanza e allattamento sono insufficienti. Nei bambini è necessaria una valutazione professionale e sono state documentate discrepanze tra contenuto ed etichetta."
+            },
+            "source_sections": [
+              "Is it safe to take melatonin?",
+              "Is melatonin safe for children?"
+            ]
+          }
+        ],
+        "review_scope": "Only previously documented passages, not entire fiche; no independent re-verification performed in this update.",
+        "full_fiche_verified": false
+      },
+      "dose_safety_context": "No universal dose established by this safety review."
     },
     {
       "id": "curcumin",
@@ -4130,9 +4280,9 @@
         "it": "Studiata per sintomi depressivi, ma le interazioni importanti richiedono supervisione clinica."
       },
       "safety": {
-        "es": "Interacciones graves por inducción enzimática, incluidos anticonceptivos y antidepresivos.",
-        "en": "Major enzyme-induction interactions, including contraceptives and antidepressants.",
-        "it": "Interazioni importanti per induzione enzimatica, inclusi contraccettivi e antidepressivi."
+        "es": "La hierba de San Juan puede reducir la eficacia de anticonceptivos orales, ciclosporina, digoxina, warfarina y algunos medicamentos para VIH y cáncer. Combinada con ciertos antidepresivos puede provocar toxicidad serotoninérgica. No sustituye el tratamiento profesional de la depresión.",
+        "en": "St John's wort may reduce effectiveness of oral contraceptives, cyclosporine, digoxin, warfarin, and some HIV and cancer medicines. Combining it with certain antidepressants can cause serotonin toxicity. It does not replace professional depression care.",
+        "it": "L'iperico può ridurre l'efficacia di contraccettivi orali, ciclosporina, digossina, warfarin e alcuni farmaci per HIV e tumori. Associato ad alcuni antidepressivi può causare tossicità serotoninergica. Non sostituisce le cure professionali per la depressione."
       },
       "how_to_take": {
         "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
@@ -4143,13 +4293,22 @@
       "adult_upper_limit": null,
       "dose_status": "unverified",
       "source_candidates": [
-        "https://www.nccih.nih.gov/health/st-johns-wort"
+        "https://www.nccih.nih.gov/health/st-johns-wort",
+        "https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth"
       ],
       "source_candidates_not_claim_verified": true,
       "interaction_screening_leads": [
         "strong CYP/P-glycoprotein interactions",
         "serotonergic toxicity risk",
-        "oral contraceptive interactions"
+        "oral contraceptive interactions",
+        "antidepressants",
+        "contraceptives",
+        "cyclosporine",
+        "digoxin",
+        "warfarin",
+        "HIV medications",
+        "cancer medications",
+        "pregnancy"
       ],
       "evidence_quality": {
         "status": "not_independently_appraised"
@@ -4188,7 +4347,28 @@
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "claim_level_evidence": {
+        "source": "https://www.nccih.nih.gov/health/st-johns-wort-and-depression-in-depth",
+        "previous_review_file": "data/research/four_stream_safety_evidence_2026-11-18_batch02.json",
+        "claim_records": [
+          {
+            "topic": "safety",
+            "trilingual": {
+              "es": "La hierba de San Juan puede reducir la eficacia de anticonceptivos orales, ciclosporina, digoxina, warfarina y algunos medicamentos para VIH y cáncer. Combinada con ciertos antidepresivos puede provocar toxicidad serotoninérgica. No sustituye el tratamiento profesional de la depresión.",
+              "en": "St John's wort may reduce effectiveness of oral contraceptives, cyclosporine, digoxin, warfarin, and some HIV and cancer medicines. Combining it with certain antidepressants can cause serotonin toxicity. It does not replace professional depression care.",
+              "it": "L'iperico può ridurre l'efficacia di contraccettivi orali, ciclosporina, digossina, warfarin e alcuni farmaci per HIV e tumori. Associato ad alcuni antidepressivi può causare tossicità serotoninergica. Non sostituisce le cure professionali per la depressione."
+            },
+            "source_sections": [
+              "What Does the Research Say About Safety?",
+              "More To Consider"
+            ]
+          }
+        ],
+        "review_scope": "Only previously documented passages, not entire fiche; no independent re-verification performed in this update.",
+        "full_fiche_verified": false
+      },
+      "dose_safety_context": "No general-purpose self-medication dose authorized."
     },
     {
       "id": "berberine",
@@ -7004,9 +7184,9 @@
         "it": "Non raccomandata per benessere generale per possibili effetti cardiovascolari ed elettrolitici."
       },
       "safety": {
-        "es": "Puede elevar presión y reducir potasio; precaución cardiovascular.",
-        "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
-        "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        "es": "El regaliz con glicirricina puede producir efectos cardiovasculares graves, especialmente con consumo elevado o prolongado, hipertensión, enfermedad cardíaca o renal. Se han informado interacciones con corticosteroides. El uso oral de grandes cantidades durante el embarazo es inseguro; el regaliz desglicirrizinado es una formulación distinta.",
+        "en": "Glycyrrhizin-containing licorice can cause serious cardiovascular effects, particularly with high or prolonged exposure, hypertension, heart or kidney disease. Corticosteroid interactions have been reported. High oral exposure during pregnancy is unsafe; deglycyrrhizinated licorice is a distinct formulation.",
+        "it": "La liquirizia contenente glicirrizina può causare gravi effetti cardiovascolari, soprattutto con esposizione elevata o prolungata, ipertensione o malattie cardiache o renali. Sono state segnalate interazioni con corticosteroidi. Un'elevata assunzione orale in gravidanza non è sicura; la liquirizia deglicirrizinata è una formulazione distinta."
       },
       "how_to_take": {
         "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
@@ -7016,13 +7196,21 @@
       "adult_reference_intake": null,
       "adult_upper_limit": null,
       "dose_status": "unverified",
-      "source_candidates": [],
+      "source_candidates": [
+        "https://www.nccih.nih.gov/health/licorice-root"
+      ],
       "source_candidates_not_claim_verified": true,
       "interaction_screening_leads": [
         "verify evidence by indication",
         "verify dose, formulation, and route",
         "verify drug interactions and vulnerable populations",
-        "check Argentina RNE/RNPA per actual product"
+        "check Argentina RNE/RNPA per actual product",
+        "hypertension",
+        "heart disease",
+        "kidney disease",
+        "pregnancy",
+        "corticosteroids",
+        "glycyrrhizin content"
       ],
       "evidence_quality": {
         "status": "not_independently_appraised"
@@ -7061,7 +7249,27 @@
         "translation_medical_review",
         "Argentina_product_specific_registration_verified",
         "alternatives_equivalence_evaluated"
-      ]
+      ],
+      "claim_level_evidence": {
+        "source": "https://www.nccih.nih.gov/health/licorice-root",
+        "previous_review_file": "data/research/four_stream_safety_evidence_2026-11-18_batch02.json",
+        "claim_records": [
+          {
+            "topic": "safety",
+            "trilingual": {
+              "es": "El regaliz con glicirricina puede producir efectos cardiovasculares graves, especialmente con consumo elevado o prolongado, hipertensión, enfermedad cardíaca o renal. Se han informado interacciones con corticosteroides. El uso oral de grandes cantidades durante el embarazo es inseguro; el regaliz desglicirrizinado es una formulación distinta.",
+              "en": "Glycyrrhizin-containing licorice can cause serious cardiovascular effects, particularly with high or prolonged exposure, hypertension, heart or kidney disease. Corticosteroid interactions have been reported. High oral exposure during pregnancy is unsafe; deglycyrrhizinated licorice is a distinct formulation.",
+              "it": "La liquirizia contenente glicirrizina può causare gravi effetti cardiovascolari, soprattutto con esposizione elevata o prolungata, ipertensione o malattie cardiache o renali. Sono state segnalate interazioni con corticosteroidi. Un'elevata assunzione orale in gravidanza non è sicura; la liquirizia deglicirrizinata è una formulazione distinta."
+            },
+            "source_sections": [
+              "What Do We Know About Safety?"
+            ]
+          }
+        ],
+        "review_scope": "Only previously documented passages, not entire fiche; no independent re-verification performed in this update.",
+        "full_fiche_verified": false
+      },
+      "dose_safety_context": "No safe general supplemental dose inferred."
     },
     {
       "id": "bromelain",
@@ -7363,5 +7571,23 @@
         "alternatives_equivalence_evaluated"
       ]
     }
-  ]
+  ],
+  "integration_review": {
+    "date": "2026-11-18",
+    "claim_level_evidence_integrated": 7,
+    "ids": [
+      "vitamin_d",
+      "vitamin_b12",
+      "iron",
+      "magnesium",
+      "melatonin",
+      "st_johns_wort",
+      "licorice_root"
+    ],
+    "full_fiches_verified": 0,
+    "regulatory_product_verified": 0,
+    "automatic_recommendations_enabled": 0,
+    "clinical_approval": 0,
+    "regulatory_note": "Argentina registration and OTC/Rx classification require actual product, form, dose, current registry and label; cannot infer from ingredient."
+  }
 }
