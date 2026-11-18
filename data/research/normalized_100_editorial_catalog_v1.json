@@ -1,5 +1,5 @@
 {
-  "version": "2.7",
+  "version": "2.8",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -196,7 +196,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "hypercalcemia",
+            "kidney_disease",
+            "thiazide_diuretics"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -337,7 +349,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "suspected_malabsorption",
+            "neurologic_symptoms",
+            "metformin_or_acid_suppressants"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -848,7 +872,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "hypercalcemia",
+            "kidney_stones",
+            "levothyroxine"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -996,7 +1032,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "copper_deficiency",
+            "quinolone_or_tetracycline",
+            "multiple_supplement_zinc"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -1142,7 +1190,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "possible_b12_deficiency",
+            "pregnancy_specific_guideline",
+            "methotrexate_or_antiepileptic"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -1328,7 +1388,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "kidney_disease",
+            "ace_inhibitor_or_arb",
+            "potassium_sparing_diuretic"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -1474,7 +1546,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "peripheral_neuropathy",
+            "chronic_high_dose",
+            "duplicate_b6_products"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -1622,7 +1706,20 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "thyroid_disease",
+            "amiodarone",
+            "seaweed_or_high_iodine",
+            "pregnancy"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -1768,7 +1865,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "selenosis_symptoms",
+            "multiple_selenium_sources",
+            "thyroid_treatment_claim"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -1914,7 +2023,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "recurrent_kidney_stones",
+            "iron_overload",
+            "high_dose_gi_intolerance"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -2072,7 +2193,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "pregnancy_or_planning",
+            "systemic_retinoid",
+            "preformed_retinol_high_dose"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -2218,7 +2351,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "anticoagulant",
+            "bleeding_disorder",
+            "high_dose_use"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -2359,7 +2504,18 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "warfarin",
+            "inr_monitoring"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -2500,7 +2656,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "suspected_wernicke_emergency",
+            "alcohol_use_disorder",
+            "refeeding_risk"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -2641,7 +2809,17 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "migraine_prevention_dose_distinction"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -2787,7 +2965,20 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "liver_disease",
+            "diabetes",
+            "pharmacologic_dose",
+            "statin_combination"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -2933,7 +3124,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "wilson_disease",
+            "liver_disease",
+            "high_zinc_intake"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -3074,7 +3277,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "kidney_disease",
+            "liver_disease",
+            "diabetes_medications"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/"
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -3250,7 +3465,18 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "duplicate_multivitamins",
+            "pregnancy_or_lactation"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": null
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -3641,7 +3867,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "liver_disease",
+            "occupational_exposure",
+            "neurologic_symptoms"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": null
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -3822,7 +4060,19 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "kidney_disease",
+            "phosphate_additives",
+            "high_phosphate_intake"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": null
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -3998,7 +4248,20 @@
           "review evidence for clinical indication and dosing regimen",
           "validate interactions and vulnerable groups",
           "verify actual marketed product and Argentina legal status"
-        ]
+        ],
+        "clinical_screening_rule_draft": {
+          "status": "REQUIRES_CLINICIAN_AND_SOURCE_REVIEW",
+          "flags": [
+            "hypertension",
+            "heart_failure",
+            "kidney_disease",
+            "total_dietary_sodium"
+          ],
+          "action_if_flag_present": "DO_NOT_AUTOMATICALLY_RECOMMEND; REFER_FOR_INDIVIDUAL_ASSESSMENT",
+          "scope": "Preliminary contraindication/interaction triage; not a validated diagnostic rule",
+          "source_candidate": null
+        },
+        "full_clinical_validation": false
       }
     },
     {
@@ -15366,7 +15629,8 @@
     "nutrient_reference_fields_populated": 25,
     "fully_scientifically_validated": 0,
     "product_regulatory_validated": 0,
-    "status": "REFERENCE_DATA_AND_RELEASE_GATES_COMPLETED; CLINICAL_VERIFICATION_OPEN",
-    "source_claims_directly_reviewed_this_pass": 3
+    "status": "25 REFERENCE ENTRIES + 25 PRELIMINARY SCREENING RULES; INDIVIDUAL SCIENTIFIC VERIFICATION PENDING",
+    "source_claims_directly_reviewed_this_pass": 3,
+    "clinical_screening_rule_drafts_added": 22
   }
 }
