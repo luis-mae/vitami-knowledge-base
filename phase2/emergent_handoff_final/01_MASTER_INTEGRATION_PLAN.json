@@ -98,5 +98,10 @@
         "phase2/engine/tests/runTests.js"
       ]
     }
-  ]
+  ],
+  "governance": {
+    "status": "historical_superseded",
+    "active_plan": "https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md",
+    "note": "Do not execute as an independent plan or create another recommendation engine; consult the sole master plan."
+  }
 }
