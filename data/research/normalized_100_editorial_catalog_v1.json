@@ -1,5 +1,5 @@
 {
-  "version": "2.18",
+  "version": "2.19",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -2882,6 +2882,20 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Distinguish preformed retinol from provitamin A carotenoids and pregnancy risk.",
+        "screen": [
+          "pregnancy",
+          "planning_pregnancy",
+          "isotretinoin_or_other_retinoid",
+          "liver_disease"
+        ],
+        "form": "Preformed retinol versus beta-carotene; mcg RAE not interchangeable with arbitrary IU.",
+        "decision": "Block unsupervised high-dose retinol in pregnancy or with systemic retinoids.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -9227,6 +9241,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Separate circadian timing indications from generic chronic insomnia treatment.",
+        "screen": [
+          "sedatives",
+          "pregnancy_or_lactation",
+          "driving_or_shift_work",
+          "pediatric_use"
+        ],
+        "form": "Immediate versus prolonged release and timing are indication-specific.",
+        "decision": "Do not give default dose without indication, age, formulation and medication review.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -9998,6 +10026,20 @@
         "status": "EDITORIAL_DRAFT_NOT_SOURCE_VERIFIED",
         "automatic_recommendation_allowed": false,
         "completed_on": "2026-11-18"
+      },
+      "indication_safety_case": {
+        "use": "Do not extrapolate brewed green tea safety to concentrated catechin extracts.",
+        "screen": [
+          "liver_disease",
+          "hepatotoxic_medications",
+          "fasting_high_dose",
+          "pregnancy"
+        ],
+        "form": "Quantify EGCG per serving; standardized extract matters.",
+        "decision": "Concentrated EGCG extracts need liver-risk review; do not promise weight loss.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/green-tea",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -15877,6 +15919,21 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Avoid default sleep or mood recommendations without evaluating serotonergic medication.",
+        "screen": [
+          "ssri_snri_maoi",
+          "tramadol",
+          "triptans",
+          "bipolar_disorder",
+          "pregnancy"
+        ],
+        "form": "Verify L-tryptophan amount and combination formula.",
+        "decision": "Hard-stop combinations with serotonergic agents pending clinical assessment.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -17717,21 +17774,22 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "iron",
-    "block_2": "omega3_epa_dha",
-    "block_3": "berberine",
-    "block_4": "licorice_root",
+    "blocks_1_to_4": {
+      "vitamin_a": "editorial case added",
+      "melatonin": "editorial case added",
+      "green_tea_extract": "editorial case added",
+      "l_tryptophan": "editorial case added"
+    },
     "block_5": {
-      "real_products_verified": 0,
-      "ingredient_only_legal_classification_prohibited": true
+      "products_verified": 0,
+      "remaining_product_specific_checks": 100
     },
     "block_6": {
-      "records": 100,
-      "unique_ids": 100,
-      "missing_trilingual_safety": 0,
-      "auto_recommendation_allowed": 0
+      "total": 100,
+      "unique": 100,
+      "missing_trilingual_use": 0,
+      "auto_enabled": 0
     },
-    "cases_added": 4,
-    "scientific_signoff_this_pass": 0
+    "scientific_signoffs_added": 0
   }
 }
