@@ -246,7 +246,30 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/ginger",
+        "claims": {
+          "es": [
+            "Puede ayudar con náuseas y vómitos del embarazo; la evidencia es incierta para náuseas por quimioterapia o cirugía.",
+            "Puede causar acidez, diarrea y molestias abdominales. En embarazo y con medicación requiere consulta clínica."
+          ],
+          "en": [
+            "May help pregnancy-related nausea and vomiting; benefit for chemotherapy- or surgery-related nausea is uncertain.",
+            "May cause heartburn, diarrhea and abdominal discomfort. Pregnancy and concurrent medicines warrant clinical review."
+          ],
+          "it": [
+            "Può aiutare nausea e vomito in gravidanza; benefici incerti per nausea da chemioterapia o interventi.",
+            "Può causare bruciore, diarrea e disturbi addominali. In gravidanza e con farmaci serve valutazione clinica."
+          ]
+        },
+        "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "ashwagandha",
@@ -613,7 +636,30 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/echinacea",
+        "claims": {
+          "es": [
+            "Podría reducir ligeramente la probabilidad de resfriarse; no está claro si acorta su duración.",
+            "Puede provocar alergias graves y síntomas digestivos; revisar inmunosupresores y medicamentos."
+          ],
+          "en": [
+            "May slightly reduce the chance of catching a cold; whether it shortens colds is unclear.",
+            "May cause serious allergic reactions and gastrointestinal symptoms; screen immunosuppressants and other medicines."
+          ],
+          "it": [
+            "Può ridurre lievemente la probabilità di raffreddore; non è chiaro se ne accorci la durata.",
+            "Può provocare gravi allergie e disturbi gastrointestinali; valutare immunosoppressori e altri farmaci."
+          ]
+        },
+        "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "st_johns_wort",
@@ -1059,7 +1105,30 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+        "claims": {
+          "es": [
+            "Los resultados para síntomas de artrosis de rodilla son inconsistentes y las guías clínicas discrepan.",
+            "No asumir equivalencia entre sulfato cristalino de grado farmacéutico y otras formulaciones."
+          ],
+          "en": [
+            "Results for knee osteoarthritis symptoms are inconsistent, and clinical guidelines disagree.",
+            "Do not assume equivalence between pharmaceutical-grade crystalline sulfate and other formulations."
+          ],
+          "it": [
+            "Risultati incoerenti per i sintomi dell'artrosi del ginocchio e linee guida discordanti.",
+            "Non assumere equivalenza tra solfato cristallino di grado farmaceutico e altre formulazioni."
+          ]
+        },
+        "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "chondroitin",
@@ -1104,7 +1173,30 @@
         "source_status": "requires_individual_authoritative_source_confirmation",
         "not_clinically_validated": true,
         "release_allowed": false
-      }
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+        "claims": {
+          "es": [
+            "Los resultados en artrosis de rodilla son inconsistentes; los efectos pueden variar según la formulación.",
+            "No asumir que la combinación con glucosamina es superior a cada ingrediente por separado."
+          ],
+          "en": [
+            "Knee osteoarthritis findings are inconsistent and may vary by formulation.",
+            "Do not assume combination with glucosamine is superior to either ingredient alone."
+          ],
+          "it": [
+            "Risultati incoerenti nell'artrosi del ginocchio e possibili differenze tra formulazioni.",
+            "Non assumere che l'associazione con glucosamina sia superiore ai singoli ingredienti."
+          ]
+        },
+        "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      },
+      "automatic_recommendation_allowed": false
     },
     {
       "ingredient_id": "msm",
@@ -1212,6 +1304,6 @@
     "ingredient_specific_safety_screens": 12,
     "fully_clinically_verified": 0,
     "safety_triage_added": 15,
-    "source_verified_claim_entries": 6
+    "source_verified_claim_entries": 10
   }
 }
