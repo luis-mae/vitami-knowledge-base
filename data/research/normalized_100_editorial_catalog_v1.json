@@ -1,5 +1,5 @@
 {
-  "version": "2.24",
+  "version": "2.25",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -1389,6 +1389,20 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Confirm deficiency or indication before supplementation; monitor cumulative intake.",
+        "screen": [
+          "copper_deficiency",
+          "quinolones",
+          "tetracyclines",
+          "multiple_zinc_supplements"
+        ],
+        "form": "Specify elemental zinc and salt form.",
+        "decision": "Flag chronic excessive zinc and medication separation.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -6773,6 +6787,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Exercise performance evidence is task- and formulation-specific; do not generalize.",
+        "screen": [
+          "hypotension",
+          "antihypertensives",
+          "nitrates",
+          "pregnancy"
+        ],
+        "form": "Differentiate L-citrulline from citrulline malate and report actual citrulline dose.",
+        "decision": "No default performance dose without study-specific evidence.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -10920,6 +10948,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Respiratory infection prevention or symptom claims require product-specific appraisal.",
+        "screen": [
+          "asteraceae_allergy",
+          "immunosuppressants",
+          "autoimmune_disease",
+          "pregnancy"
+        ],
+        "form": "Specify Echinacea species, plant part and extract standardization.",
+        "decision": "Avoid replacing medical care or extrapolating between preparations.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/echinacea",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -16842,6 +16884,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Irritable bowel syndrome evidence depends on enteric-coated capsules; not equivalent to peppermint tea.",
+        "screen": [
+          "gastroesophageal_reflux",
+          "bile_duct_disorders",
+          "children",
+          "pregnancy"
+        ],
+        "form": "Require enteric coating and exact peppermint oil content.",
+        "decision": "Avoid generic essential-oil oral dosing; reflux may worsen.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/peppermint-oil",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -18042,13 +18098,13 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "calcium",
-    "block_2": "beta_alanine",
-    "block_3": "garlic_extract",
-    "block_4": "passionflower",
+    "block_1": "zinc",
+    "block_2": "citrulline",
+    "block_3": "echinacea",
+    "block_4": "peppermint_oil",
     "block_5": {
       "verified_products": 0,
-      "checks_pending": 100
+      "pending": 100
     },
     "block_6": {
       "total": 100,
