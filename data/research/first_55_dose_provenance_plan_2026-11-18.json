@@ -1,0 +1,572 @@
+{
+  "version": "1.0",
+  "date": "2026-11-18",
+  "purpose": "Evidence-based dose traceability without professional certification",
+  "authorities": [
+    "NIH Office of Dietary Supplements",
+    "EFSA",
+    "NCCIH",
+    "EMA (herbal monographs)"
+  ],
+  "policy": {
+    "no_professional_validation_gate": true,
+    "dose_requires_specific_document_population_indication_form_and_duration": true,
+    "do_not_infer_dose_from_weight_unless_source_provides_formula": true,
+    "distinguish_RDA_AI_UL_from_supplement_dose": true,
+    "do_not_present_unverified_dose_as_personalized": true,
+    "retain_safety_blocks": true
+  },
+  "status": "IN_PROGRESS",
+  "records": [
+    {
+      "n": 1,
+      "id": "vitamin_d",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "reference_intake": "15 mcg (600 UI)",
+      "upper_limit": "100 mcg (4000 UI)",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 2,
+      "id": "vitamin_b12",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "reference_intake": "2,4 mcg",
+      "upper_limit": "No establecido",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 3,
+      "id": "iron",
+      "source": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "reference_intake": "8 mg varones; 18 mg mujeres 19–50",
+      "upper_limit": "45 mg",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 4,
+      "id": "magnesium",
+      "source": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+      "reference_intake": "400–420 mg varones; 310–320 mg mujeres",
+      "upper_limit": "350 mg solo suplementos",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 5,
+      "id": "calcium",
+      "source": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "reference_intake": "1000 mg (19–50 años)",
+      "upper_limit": "2500 mg (19–50 años)",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 6,
+      "id": "zinc",
+      "source": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+      "reference_intake": "11 mg varones; 8 mg mujeres",
+      "upper_limit": "40 mg",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 7,
+      "id": "folate",
+      "source": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "reference_intake": "400 mcg DFE",
+      "upper_limit": "1000 mcg ácido fólico sintético",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 8,
+      "id": "potassium",
+      "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "reference_intake": "3400 mg varones; 2600 mg mujeres (AI)",
+      "upper_limit": "No establecido",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 9,
+      "id": "vitamin_b6",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+      "reference_intake": "1,3 mg (19–50 años)",
+      "upper_limit": "100 mg EE. UU.; EFSA 12 mg adultos",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 10,
+      "id": "iodine",
+      "source": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "reference_intake": "150 mcg",
+      "upper_limit": "1100 mcg",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 11,
+      "id": "selenium",
+      "source": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+      "reference_intake": "55 mcg",
+      "upper_limit": "400 mcg EE. UU.; EFSA 255 mcg",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 12,
+      "id": "vitamin_c",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "reference_intake": "90 mg varones; 75 mg mujeres",
+      "upper_limit": "2000 mg",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 13,
+      "id": "vitamin_a",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "reference_intake": "900 mcg RAE varones; 700 mcg RAE mujeres",
+      "upper_limit": "3000 mcg RAE retinol preformado",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 14,
+      "id": "vitamin_e",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+      "reference_intake": "15 mg alfa-tocoferol",
+      "upper_limit": "1000 mg alfa-tocoferol",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 15,
+      "id": "vitamin_k",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+      "reference_intake": "120 mcg varones; 90 mcg mujeres (AI)",
+      "upper_limit": "No establecido",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 16,
+      "id": "thiamin",
+      "source": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "reference_intake": "1,2 mg varones; 1,1 mg mujeres",
+      "upper_limit": "No establecido",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 17,
+      "id": "riboflavin",
+      "source": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+      "reference_intake": "1,3 mg varones; 1,1 mg mujeres",
+      "upper_limit": "No establecido",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 18,
+      "id": "niacin",
+      "source": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+      "reference_intake": "16 mg NE varones; 14 mg NE mujeres",
+      "upper_limit": "35 mg suplementos/fortificados",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 19,
+      "id": "copper",
+      "source": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+      "reference_intake": "900 mcg",
+      "upper_limit": "10000 mcg",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 20,
+      "id": "chromium",
+      "source": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+      "reference_intake": "35 mcg varones; 25 mcg mujeres (AI)",
+      "upper_limit": "No establecido",
+      "studied_dose": null,
+      "dose_provenance_status": "reference_intake_recorded",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 21,
+      "id": "pantothenic_acid",
+      "source": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+      "reference_intake": "AI adultos 19+: 5 mg/día; embarazo 6 mg; lactancia 7 mg",
+      "upper_limit": "No establecido",
+      "studied_dose": "AI 5 mg/day adults; pregnancy 6 mg/day; lactation 7 mg/day",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 22,
+      "id": "biotin",
+      "source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+      "reference_intake": "AI adultos 19+: 30 mcg/día; lactancia 35 mcg",
+      "upper_limit": "No establecido",
+      "studied_dose": "AI 30 mcg/day adults; lactation 35 mcg/day",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 23,
+      "id": "manganese",
+      "source": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+      "reference_intake": "AI varones adultos 2,3 mg/día; mujeres 1,8 mg/día",
+      "upper_limit": "11 mg/día adultos (EE. UU.)",
+      "studied_dose": "AI 2.3 mg/day men, 1.8 mg/day women",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 24,
+      "id": "phosphorus",
+      "source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+      "reference_intake": "RDA adultos 19+: 700 mg/día",
+      "upper_limit": "4000 mg/día adultos 19–70 (EE. UU.); revisar edad y enfermedad renal",
+      "studied_dose": "RDA 700 mg/day adults",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 25,
+      "id": "sodium",
+      "source": "https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/",
+      "reference_intake": "AI adultos 19–50: 1500 mg/día; reducción de riesgo de enfermedad crónica: 2300 mg/día",
+      "upper_limit": "No existe UL convencional; 2300 mg es referencia de reducción de riesgo, no UL",
+      "studied_dose": "AI 1500 mg/day ages 19–50; CDRR 2300 mg/day",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 26,
+      "id": "creatine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "3–5 g/day maintenance in studied healthy adults; optional 20 g/day split loading for 5–7 days",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 27,
+      "id": "beta_alanine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "4–6 g/day divided doses for 2–4 weeks in athletic trials",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 28,
+      "id": "caffeine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "2–6 mg/kg before exercise in studies",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 29,
+      "id": "protein_powder",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "Athletic total protein intake often 1.2–2.0 g/kg/day from all sources",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 30,
+      "id": "whey_protein",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 31,
+      "id": "plant_protein",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 32,
+      "id": "citrulline",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No established evidence-based routine supplemental dose",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 33,
+      "id": "arginine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No established effective exercise-performance dose",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 34,
+      "id": "bcaa",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No established added-benefit dose with adequate complete protein",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 35,
+      "id": "leucine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No established universal isolated supplemental dose",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 36,
+      "id": "taurine",
+      "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No established effective or recommended exercise dose",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 37,
+      "id": "carnitine",
+      "source": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No dietary reference intake established for healthy adults",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 38,
+      "id": "omega3_epa_dha",
+      "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No US RDA for EPA+DHA; dose depends on clinical indication",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 39,
+      "id": "algal_omega3",
+      "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No US RDA for algal EPA+DHA; read label DHA and EPA content",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 40,
+      "id": "psyllium",
+      "source": "https://medlineplus.gov/druginfo/natural/866.html",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": "No universal dose across indications and products; follow product-specific directions and evidence",
+      "dose_provenance_status": "source_family_review_not_passage_verified",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 41,
+      "id": "inulin",
+      "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 42,
+      "id": "probiotics",
+      "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 43,
+      "id": "prebiotics",
+      "source": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 44,
+      "id": "collagen",
+      "source": "https://www.nccih.nih.gov/health",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 45,
+      "id": "choline",
+      "source": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 46,
+      "id": "coq10",
+      "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 47,
+      "id": "melatonin",
+      "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 48,
+      "id": "curcumin",
+      "source": "https://www.nccih.nih.gov/health/turmeric",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 49,
+      "id": "ginger",
+      "source": "https://www.nccih.nih.gov/health/ginger",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 50,
+      "id": "ashwagandha",
+      "source": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 51,
+      "id": "green_tea_extract",
+      "source": "https://www.nccih.nih.gov/health/green-tea",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 52,
+      "id": "ginseng",
+      "source": "https://www.nccih.nih.gov/health/asian-ginseng",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 53,
+      "id": "garlic_extract",
+      "source": "https://www.nccih.nih.gov/health/garlic",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 54,
+      "id": "turmeric",
+      "source": "https://www.nccih.nih.gov/health/turmeric",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    },
+    {
+      "n": 55,
+      "id": "echinacea",
+      "source": "https://www.nccih.nih.gov/health/echinacea",
+      "reference_intake": null,
+      "upper_limit": null,
+      "studied_dose": null,
+      "dose_provenance_status": "dose_unresolved",
+      "personalized_dose_supported": false
+    }
+  ]
+}
