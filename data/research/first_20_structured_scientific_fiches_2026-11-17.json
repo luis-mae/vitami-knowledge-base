@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17-revision-2",
+  "version": "2026-11-17-revision-3",
   "batch": "first_20",
   "count": 20,
   "disclaimer": "Twenty detailed multilingual editorial fiches, NOT twenty clinically validated recommendations. Reference intakes are not treatment doses. Argentina product registration cannot be established at ingredient level.",
@@ -53,6 +53,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -104,6 +120,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -155,6 +187,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -206,6 +254,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "350 mg/day UL applies to supplemental/pharmacologic magnesium only, not magnesium from food.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -257,6 +321,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -308,6 +388,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -359,6 +455,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "UL refers to synthetic folic acid, not naturally occurring food folate; 400 mcg DFE RDA differs from 400 mcg folic acid pregnancy planning advice.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -410,6 +522,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Adequate Intake is not a supplementation target. No general adult UL does not mean supplemental potassium is safe.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -461,6 +589,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "EFSA adult UL 12 mg/day; US FNB 100 mg/day. Conservative screening should use 12 mg/day; age/pregnancy nuances require review.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -512,6 +656,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -563,6 +723,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "EFSA adult UL 255 mcg/day; US FNB 400 mcg/day. Apply conservative 255 mcg/day screen.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -614,6 +790,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -665,6 +857,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "UL is for preformed retinol only, not provitamin A carotenoids.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -716,6 +924,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "US UL 1000 mg/day applies to supplemental alpha-tocopherol; lower limits may be used by other authorities.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -767,6 +991,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -818,6 +1058,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -869,6 +1125,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -920,6 +1192,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "35 mg/day UL applies to supplements/fortified foods and does not represent a pharmacologic therapeutic dose.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -971,6 +1259,22 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "Upper limit applies according to source-specific scope; no established UL does not imply unlimited safety.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     },
     {
@@ -1022,7 +1326,30 @@
         "es": "content_prepared",
         "en": "content_prepared",
         "it": "content_prepared"
+      },
+      "source_validation": {
+        "primary_reference": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+        "reference_type": "NIH ODS Health Professional fact sheet",
+        "general_rda_source": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations/",
+        "general_ul_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/",
+        "argentina_regulatory_source": "https://www.argentina.gob.ar/anmat/comunidad/que-son-los-suplementos-dietarios",
+        "source_scope": "General dietary intake and risk screening; not individual clinical dosing or product-specific regulatory approval.",
+        "verified_product_registration": false
+      },
+      "upper_limit_interpretation": "No established UL does not demonstrate safety or effectiveness; routine metabolic claims are unsupported.",
+      "recommendation_logic": {
+        "if_documented_deficiency": "Require clinical pathway; do not replace disease treatment with supplement suggestions.",
+        "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
+        "if_no_indication": "Do not recommend solely to sell a product.",
+        "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
       }
     }
-  ]
+  ],
+  "verification_summary": {
+    "fiches_structured": 20,
+    "scientific_individual_claim_validation": "pending",
+    "product_specific_argentina_validation": "pending",
+    "ready_for_automated_recommendations": 0,
+    "why": "Do not confuse RDA/AI and UL with individualized dosing; do not claim OTC status at ingredient level."
+  }
 }
