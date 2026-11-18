@@ -1,5 +1,5 @@
 {
-  "version": "2.25",
+  "version": "2.26",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -1612,6 +1612,20 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Periconceptional folic acid prevention differs from dietary folate adequacy and treatment of folate deficiency.",
+        "screen": [
+          "possible_b12_deficiency",
+          "antiepileptic_medication",
+          "methotrexate",
+          "pregnancy_planning"
+        ],
+        "form": "Distinguish mcg DFE dietary folate from mcg synthetic folic acid; account for food fortification.",
+        "decision": "Require pregnancy-specific protocol and B12 evaluation before high-dose use.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -6322,6 +6336,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Evaluate daily protein target, dietary intake, exercise goal and kidney disease before suggesting powders.",
+        "screen": [
+          "kidney_disease",
+          "milk_or_soy_allergy",
+          "pregnancy",
+          "existing_high_protein_intake"
+        ],
+        "form": "Record grams of actual protein per serving, not grams of powder; check amino acid completeness.",
+        "decision": "No default protein powder recommendation without dietary assessment.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -10384,6 +10412,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Claims for fatigue, glucose and cognition are formulation- and population-dependent.",
+        "screen": [
+          "anticoagulants",
+          "diabetes_medications",
+          "insomnia",
+          "pregnancy"
+        ],
+        "form": "Specify Panax ginseng species, root, ginsenoside standardization and preparation.",
+        "decision": "Avoid broad adaptogen claims and screen drug interactions.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/asian-ginseng",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -16496,6 +16538,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Memory and attention studies vary by extract and duration; not an established treatment for cognitive impairment.",
+        "screen": [
+          "thyroid_disease",
+          "sedatives",
+          "pregnancy",
+          "gastrointestinal_intolerance"
+        ],
+        "form": "Specify Bacopa monnieri standardized extract and bacoside content.",
+        "decision": "No automated cognitive benefit recommendation without indication-specific human evidence.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -18098,10 +18154,10 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "zinc",
-    "block_2": "citrulline",
-    "block_3": "echinacea",
-    "block_4": "peppermint_oil",
+    "block_1": "folate",
+    "block_2": "protein_powder",
+    "block_3": "ginseng",
+    "block_4": "bacopa",
     "block_5": {
       "verified_products": 0,
       "pending": 100
@@ -18111,7 +18167,8 @@
       "unique": 100,
       "missing_trilingual_safety": 0,
       "verified_products": 0,
-      "auto_enabled": 0
+      "auto_enabled": 0,
+      "clinical_case_drafts": 39
     },
     "new_editorial_cases": 4,
     "scientific_signoff_added": 0
