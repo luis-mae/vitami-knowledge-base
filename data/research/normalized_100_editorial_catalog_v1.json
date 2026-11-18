@@ -1,6 +1,6 @@
 {
-  "version": "1.5",
-  "status": "editorial_draft_not_validated",
+  "version": "1.6",
+  "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
     "tri_language_indication": 100,
@@ -1534,10 +1534,47 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+            "research_summary_en": "AI adults 19+: 5 mg/day; pregnancy 6 mg/day; lactation 7 mg/day.",
+            "critical_safety_or_interpretation_en": "AI ≠ supplement dose; no UL established.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "biotin",
@@ -1588,7 +1625,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
       "safety_flags": [
@@ -1603,7 +1643,53 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+            "research_summary_en": "AI adults 19+: 30 mcg/day; lactation 35 mcg/day.",
+            "critical_safety_or_interpretation_en": "Biotin supplements can interfere with laboratory tests including troponin and thyroid tests.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": [
+              {
+                "rule_id": "biotin_lab_interference",
+                "severity": "high",
+                "review_required": true,
+                "reason": {
+                  "es": "Puede alterar resultados de pruebas de laboratorio, incluidas algunas de troponina y función tiroidea; informar al equipo de salud.",
+                  "en": "May interfere with laboratory tests, including some troponin and thyroid assays; inform healthcare staff.",
+                  "it": "Può interferire con esami di laboratorio, inclusi alcuni test della troponina e tiroidei; informare il personale sanitario."
+                },
+                "claim_verification_status": "pending_primary_source_review"
+              }
+            ]
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "manganese",
@@ -1654,7 +1740,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
       "safety_flags": [],
@@ -1662,6 +1751,40 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+            "research_summary_en": "AI adult men 2.3 mg/day, women 1.8 mg/day; UL adults 11 mg/day.",
+            "critical_safety_or_interpretation_en": "High exposures may cause neurological toxicity; liver disease can increase risk.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
       }
     },
     {
@@ -1713,7 +1836,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
       "safety_flags": [],
@@ -1721,6 +1847,40 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+            "research_summary_en": "RDA adults 19+: 700 mg/day; UL adults 19–70: 4,000 mg/day; 71+: 3,000 mg/day.",
+            "critical_safety_or_interpretation_en": "Kidney impairment changes phosphorus handling; do not extrapolate from healthy adults.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
       }
     },
     {
@@ -1772,10 +1932,47 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://nap.nationalacademies.org/catalog/25353/dietary-reference-intakes-for-sodium-and-potassium",
+            "research_summary_en": "Sodium AI for adults 19–50 is 1,500 mg/day; chronic disease risk reduction intake 2,300 mg/day.",
+            "critical_safety_or_interpretation_en": "CDRR is not a tolerable upper intake level; distinguish dietary sodium from salt.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "creatine",
@@ -1826,10 +2023,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "beta_alanine",
@@ -1880,10 +2107,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "caffeine",
@@ -1934,7 +2191,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
       "safety_flags": [
@@ -1949,7 +2209,46 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": [
+              {
+                "rule_id": "caffeine_stimulant",
+                "severity": "moderate",
+                "review_required": true,
+                "reason": {
+                  "es": "Evaluar cafeína total, insomnio, ansiedad, embarazo y afecciones cardiovasculares.",
+                  "en": "Assess total caffeine, insomnia, anxiety, pregnancy and cardiovascular conditions.",
+                  "it": "Valutare caffeina totale, insonnia, ansia, gravidanza e condizioni cardiovascolari."
+                },
+                "claim_verification_status": "pending_primary_source_review"
+              }
+            ]
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "protein_powder",
@@ -2000,10 +2299,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "whey_protein",
@@ -2054,10 +2383,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "plant_protein",
@@ -2108,10 +2467,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "citrulline",
@@ -2162,10 +2551,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "arginine",
@@ -2216,10 +2635,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "bcaa",
@@ -2270,10 +2719,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "leucine",
@@ -2324,10 +2803,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "taurine",
@@ -2378,10 +2887,47 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+            "research_summary_en": "No established RDA or routine supplementation dose for taurine.",
+            "critical_safety_or_interpretation_en": "Insufficient ingredient-specific evidence to recommend as a performance supplement.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "carnitine",
@@ -2432,10 +2978,40 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "omega3_epa_dha",
@@ -2486,7 +3062,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
       "safety_flags": [
@@ -2501,7 +3080,46 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": [
+              {
+                "rule_id": "omega3_anticoagulant",
+                "severity": "moderate",
+                "review_required": true,
+                "reason": {
+                  "es": "Revisar anticoagulantes, dosis total de EPA/DHA y antecedentes de sangrado.",
+                  "en": "Review anticoagulants, total EPA/DHA exposure and bleeding history.",
+                  "it": "Valutare anticoagulanti, dose totale EPA/DHA e precedenti emorragici."
+                },
+                "claim_verification_status": "pending_primary_source_review"
+              }
+            ]
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "algal_omega3",
@@ -2552,7 +3170,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
       "safety_flags": [
@@ -2567,7 +3188,46 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": [
+              {
+                "rule_id": "omega3_anticoagulant",
+                "severity": "moderate",
+                "review_required": true,
+                "reason": {
+                  "es": "Revisar anticoagulantes, dosis total de EPA/DHA y antecedentes de sangrado.",
+                  "en": "Review anticoagulants, total EPA/DHA exposure and bleeding history.",
+                  "it": "Valutare anticoagulanti, dose totale EPA/DHA e precedenti emorragici."
+                },
+                "claim_verification_status": "pending_primary_source_review"
+              }
+            ]
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "psyllium",
@@ -2618,7 +3278,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_03_next_20_safety_research_scaffolds.json",
       "safety_flags": [
@@ -2633,7 +3296,53 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://medlineplus.gov/druginfo/natural/866.html",
+            "research_summary_en": "Psyllium is a bulk-forming fiber; hydration is essential.",
+            "critical_safety_or_interpretation_en": "Avoid if swallowing difficulties or bowel obstruction; separate from interacting oral medications.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": [
+              {
+                "rule_id": "psyllium_swallowing",
+                "severity": "high",
+                "review_required": true,
+                "reason": {
+                  "es": "Tomar con líquido suficiente; riesgo de obstrucción en personas con dificultades para tragar.",
+                  "en": "Take with sufficient fluid; obstruction risk in people with swallowing difficulties.",
+                  "it": "Assumere con liquidi sufficienti; rischio di ostruzione in persone con difficoltà di deglutizione."
+                },
+                "claim_verification_status": "pending_primary_source_review"
+              }
+            ]
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "inulin",
@@ -2684,10 +3393,38 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "probiotics",
@@ -2738,7 +3475,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
       "safety_flags": [
@@ -2753,7 +3493,46 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": [
+              {
+                "rule_id": "probiotics_high_risk",
+                "severity": "high",
+                "review_required": true,
+                "reason": {
+                  "es": "Requiere evaluación profesional en inmunosupresión grave o enfermedad crítica.",
+                  "en": "Requires professional assessment in severe immunosuppression or critical illness.",
+                  "it": "Richiede valutazione professionale in immunosoppressione grave o malattia critica."
+                },
+                "claim_verification_status": "pending_primary_source_review"
+              }
+            ]
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [
+            "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/"
+          ],
+          "source_status": "candidate_url_not_checked"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "prebiotics",
@@ -2804,10 +3583,47 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+            "research_summary_en": "Prebiotics are substrates, not living probiotic microorganisms.",
+            "critical_safety_or_interpretation_en": "Do not substitute a prebiotic for a strain-specific probiotic indication.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "collagen",
@@ -2858,10 +3674,47 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "research_completion_pass": {
+            "reference_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+            "research_summary_en": "Collagen is not equivalent to complete dietary protein for muscle protein synthesis.",
+            "critical_safety_or_interpretation_en": "Requires indication-specific trial review; do not transfer evidence from protein supplements.",
+            "status": "research_draft_needs_source_and_claim_validation",
+            "verified": false,
+            "auto_recommendation_allowed": false,
+            "reviewed_on": "2026-11-18"
+          },
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "choline",
@@ -2912,7 +3765,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
       "safety_flags": [],
@@ -2920,6 +3776,31 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "batch_research": {
+        "batch": 1,
+        "source_file": "data/research/bulk_batch_01_25_research_ready.json",
+        "data": {
+          "evidence_quality": {
+            "status": "not_assessed",
+            "grade": null
+          },
+          "interactions": {
+            "status": "not_comprehensively_reviewed",
+            "known_screen": []
+          },
+          "dosing": {
+            "status": "not_verified",
+            "value": null,
+            "unit": null,
+            "age_scope": null,
+            "indication": null
+          },
+          "source_candidates": [],
+          "source_status": "source_not_identified"
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
       }
     },
     {
@@ -2971,10 +3852,81 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
+            "claims": {
+              "es": [
+                "La evidencia global no respalda coenzima Q10 para aliviar mialgias por estatinas.",
+                "Puede interactuar con warfarina e insulina; también requiere revisión en tratamientos oncológicos."
+              ],
+              "en": [
+                "Overall evidence does not support CoQ10 for statin-associated muscle pain.",
+                "May interact with warfarin and insulin; oncology treatment also requires review."
+              ],
+              "it": [
+                "Le prove complessive non supportano CoQ10 per i dolori muscolari associati alle statine.",
+                "Può interagire con warfarin e insulina; richiede revisione durante trattamenti oncologici."
+              ]
+            },
+            "decision_rule": "REVIEW_WARFARIN_INSULIN_ONCOLOGY",
+            "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+            "source_checked": true,
+            "reviewed_date": "2026-11-18",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "May reduce warfarin anticoagulant effect"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/coenzyme-q10",
+          "priority_safety_screen": [
+            "warfarin interaction"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/coenzyme-q10",
+        "claims": {
+          "es": [
+            "La evidencia global no respalda coenzima Q10 para aliviar mialgias por estatinas.",
+            "Puede interactuar con warfarina e insulina; también requiere revisión en tratamientos oncológicos."
+          ],
+          "en": [
+            "Overall evidence does not support CoQ10 for statin-associated muscle pain.",
+            "May interact with warfarin and insulin; oncology treatment also requires review."
+          ],
+          "it": [
+            "Le prove complessive non supportano CoQ10 per i dolori muscolari associati alle statine.",
+            "Può interagire con warfarin e insulina; richiede revisione durante trattamenti oncologici."
+          ]
+        },
+        "decision_rule": "REVIEW_WARFARIN_INSULIN_ONCOLOGY",
+        "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "melatonin",
@@ -3025,7 +3977,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
       "safety_flags": [
@@ -3040,7 +3995,78 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+            "claims": {
+              "es": [
+                "Puede ayudar en jet lag y trastorno de fase retrasada del sueño; no extrapolar a todo insomnio crónico.",
+                "La seguridad a largo plazo no está establecida; uso pediátrico y embarazo requieren evaluación específica."
+              ],
+              "en": [
+                "May help jet lag and delayed sleep-wake phase disorder; do not extrapolate to all chronic insomnia.",
+                "Long-term safety is not established; pediatric and pregnancy use need specific assessment."
+              ],
+              "it": [
+                "Può aiutare nel jet lag e nel disturbo da fase del sonno ritardata; non generalizzare a ogni insonnia cronica.",
+                "La sicurezza a lungo termine non è stabilita; uso pediatrico e gravidanza richiedono valutazione specifica."
+              ]
+            },
+            "decision_rule": "REVIEW_PEDIATRIC_PREGNANCY_LONG_TERM",
+            "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+            "source_checked": true,
+            "reviewed_date": "2026-11-18",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Sedative effects; avoid driving if drowsy",
+              "Pediatric use, pregnancy and breastfeeding require professional review"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+          "priority_safety_screen": [
+            "sedation",
+            "drug interactions",
+            "children and pregnancy require special assessment"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "claims": {
+          "es": [
+            "Puede ayudar en jet lag y trastorno de fase retrasada del sueño; no extrapolar a todo insomnio crónico.",
+            "La seguridad a largo plazo no está establecida; uso pediátrico y embarazo requieren evaluación específica."
+          ],
+          "en": [
+            "May help jet lag and delayed sleep-wake phase disorder; do not extrapolate to all chronic insomnia.",
+            "Long-term safety is not established; pediatric and pregnancy use need specific assessment."
+          ],
+          "it": [
+            "Può aiutare nel jet lag e nel disturbo da fase del sonno ritardata; non generalizzare a ogni insonnia cronica.",
+            "La sicurezza a lungo termine non è stabilita; uso pediatrico e gravidanza richiedono valutazione specifica."
+          ]
+        },
+        "decision_rule": "REVIEW_PEDIATRIC_PREGNANCY_LONG_TERM",
+        "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "curcumin",
@@ -3091,10 +4117,65 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/turmeric",
+            "claim": {
+              "es": "La evidencia preliminar para síntomas de artrosis de rodilla es prometedora, pero insuficiente para conclusiones definitivas; formulaciones de alta biodisponibilidad se han vinculado con lesión hepática.",
+              "en": "Preliminary evidence for knee osteoarthritis symptoms is promising but not definitive; high-bioavailability formulations have been linked to liver injury.",
+              "it": "Le prove preliminari per i sintomi dell'artrosi del ginocchio sono promettenti ma non definitive; formulazioni ad alta biodisponibilità sono state associate a danno epatico."
+            },
+            "decision_rule": "REVIEW_LIVER_DISEASE_PREGNANCY_FORMULATION",
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Concentrated high-bioavailability products have reported liver injury",
+              "Review concurrent anticoagulants"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/turmeric",
+          "priority_safety_screen": [
+            "liver injury reported with some high-bioavailability products",
+            "anticoagulant/antiplatelet review"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/turmeric",
+        "claim": {
+          "es": "La evidencia preliminar para síntomas de artrosis de rodilla es prometedora, pero insuficiente para conclusiones definitivas; formulaciones de alta biodisponibilidad se han vinculado con lesión hepática.",
+          "en": "Preliminary evidence for knee osteoarthritis symptoms is promising but not definitive; high-bioavailability formulations have been linked to liver injury.",
+          "it": "Le prove preliminari per i sintomi dell'artrosi del ginocchio sono promettenti ma non definitive; formulazioni ad alta biodisponibilità sono state associate a danno epatico."
+        },
+        "decision_rule": "REVIEW_LIVER_DISEASE_PREGNANCY_FORMULATION",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "ginger",
@@ -3145,10 +4226,77 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/ginger",
+            "claims": {
+              "es": [
+                "Puede ayudar con náuseas y vómitos del embarazo; la evidencia es incierta para náuseas por quimioterapia o cirugía.",
+                "Puede causar acidez, diarrea y molestias abdominales. En embarazo y con medicación requiere consulta clínica."
+              ],
+              "en": [
+                "May help pregnancy-related nausea and vomiting; benefit for chemotherapy- or surgery-related nausea is uncertain.",
+                "May cause heartburn, diarrhea and abdominal discomfort. Pregnancy and concurrent medicines warrant clinical review."
+              ],
+              "it": [
+                "Può aiutare nausea e vomito in gravidanza; benefici incerti per nausea da chemioterapia o interventi.",
+                "Può causare bruciore, diarrea e disturbi addominali. In gravidanza e con farmaci serve valutazione clinica."
+              ]
+            },
+            "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+            "source_checked": true,
+            "reviewed_date": "2026-11-18",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Review anticoagulant or antiplatelet therapy before concentrated supplement use"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/ginger",
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/ginger",
+        "claims": {
+          "es": [
+            "Puede ayudar con náuseas y vómitos del embarazo; la evidencia es incierta para náuseas por quimioterapia o cirugía.",
+            "Puede causar acidez, diarrea y molestias abdominales. En embarazo y con medicación requiere consulta clínica."
+          ],
+          "en": [
+            "May help pregnancy-related nausea and vomiting; benefit for chemotherapy- or surgery-related nausea is uncertain.",
+            "May cause heartburn, diarrhea and abdominal discomfort. Pregnancy and concurrent medicines warrant clinical review."
+          ],
+          "it": [
+            "Può aiutare nausea e vomito in gravidanza; benefici incerti per nausea da chemioterapia o interventi.",
+            "Può causare bruciore, diarrea e disturbi addominali. In gravidanza e con farmaci serve valutazione clinica."
+          ]
+        },
+        "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "ashwagandha",
@@ -3199,7 +4347,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
       "safety_flags": [
@@ -3214,7 +4365,66 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/ashwagandha",
+            "evidence": {
+              "es": "Algunas preparaciones pueden ayudar al insomnio y al estrés; evidencia incierta para ansiedad.",
+              "en": "Some preparations may help insomnia and stress; evidence for anxiety is unclear.",
+              "it": "Alcune preparazioni possono aiutare insonnia e stress; prove incerte per l'ansia."
+            },
+            "safety": {
+              "es": "Evitar en embarazo y lactancia; se han notificado lesiones hepáticas. Revisar enfermedad tiroidea/autoinmune, cirugía y medicación.",
+              "en": "Avoid in pregnancy and breastfeeding; liver injury has been reported. Screen thyroid/autoimmune disease, surgery and medicines.",
+              "it": "Evitare in gravidanza e allattamento; segnalate lesioni epatiche. Valutare malattie tiroidee/autoimmuni, chirurgia e farmaci."
+            },
+            "decision_rule": "BLOCK_PREGNANCY_BREASTFEEDING_AND_REVIEW",
+            "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+            "reviewed_date": "2026-11-18",
+            "source_checked": true
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Avoid in pregnancy",
+              "Possible liver injury; review thyroid disorders and thyroid medicines"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+          "priority_safety_screen": [
+            "liver injury reports",
+            "pregnancy avoidance",
+            "thyroid and immunosuppressant interactions"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/ashwagandha",
+        "evidence": {
+          "es": "Algunas preparaciones pueden ayudar al insomnio y al estrés; evidencia incierta para ansiedad.",
+          "en": "Some preparations may help insomnia and stress; evidence for anxiety is unclear.",
+          "it": "Alcune preparazioni possono aiutare insonnia e stress; prove incerte per l'ansia."
+        },
+        "safety": {
+          "es": "Evitar en embarazo y lactancia; se han notificado lesiones hepáticas. Revisar enfermedad tiroidea/autoinmune, cirugía y medicación.",
+          "en": "Avoid in pregnancy and breastfeeding; liver injury has been reported. Screen thyroid/autoimmune disease, surgery and medicines.",
+          "it": "Evitare in gravidanza e allattamento; segnalate lesioni epatiche. Valutare malattie tiroidee/autoimmuni, chirurgia e farmaci."
+        },
+        "decision_rule": "BLOCK_PREGNANCY_BREASTFEEDING_AND_REVIEW",
+        "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+        "reviewed_date": "2026-11-18",
+        "source_checked": true
+      }
     },
     {
       "ingredient_id": "green_tea_extract",
@@ -3265,7 +4475,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
       "safety_flags": [
@@ -3291,7 +4504,65 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/green-tea",
+            "evidence": {
+              "es": "Los efectos sobre peso y colesterol LDL son modestos; no hay evidencia concluyente para la mayoría de los usos promocionados.",
+              "en": "Effects on weight and LDL cholesterol are modest; evidence remains inconclusive for most promoted uses.",
+              "it": "Effetti modesti su peso e colesterolo LDL; prove non conclusive per la maggior parte degli usi promossi."
+            },
+            "safety": {
+              "es": "Los extractos concentrados se han asociado infrecuentemente con lesión hepática; revisar cafeína e interacciones con nadolol, atorvastatina y raloxifeno.",
+              "en": "Concentrated extracts have rarely been linked to liver injury; check caffeine and interactions with nadolol, atorvastatin and raloxifene.",
+              "it": "Gli estratti concentrati sono stati raramente associati a danno epatico; controllare caffeina e interazioni con nadololo, atorvastatina e raloxifene."
+            },
+            "decision_rule": "BLOCK_IF_LIVER_RISK_OR_MEDICATIONS_UNREVIEWED",
+            "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+            "reviewed_date": "2026-11-18",
+            "source_checked": true
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Concentrated extracts have been linked to liver injury",
+              "Caffeine exposure depends on formulation"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/green-tea",
+          "priority_safety_screen": [
+            "liver injury risk with concentrated extracts",
+            "caffeine exposure"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/green-tea",
+        "evidence": {
+          "es": "Los efectos sobre peso y colesterol LDL son modestos; no hay evidencia concluyente para la mayoría de los usos promocionados.",
+          "en": "Effects on weight and LDL cholesterol are modest; evidence remains inconclusive for most promoted uses.",
+          "it": "Effetti modesti su peso e colesterolo LDL; prove non conclusive per la maggior parte degli usi promossi."
+        },
+        "safety": {
+          "es": "Los extractos concentrados se han asociado infrecuentemente con lesión hepática; revisar cafeína e interacciones con nadolol, atorvastatina y raloxifeno.",
+          "en": "Concentrated extracts have rarely been linked to liver injury; check caffeine and interactions with nadolol, atorvastatin and raloxifene.",
+          "it": "Gli estratti concentrati sono stati raramente associati a danno epatico; controllare caffeina e interazioni con nadololo, atorvastatina e raloxifene."
+        },
+        "decision_rule": "BLOCK_IF_LIVER_RISK_OR_MEDICATIONS_UNREVIEWED",
+        "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+        "reviewed_date": "2026-11-18",
+        "source_checked": true
+      }
     },
     {
       "ingredient_id": "ginseng",
@@ -3342,10 +4613,63 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/asian-ginseng",
+            "claim": {
+              "es": "La mayoría de los estudios no muestra mejoras del rendimiento deportivo. La evidencia sobre glucemia es contradictoria; puede causar insomnio e interactuar con medicamentos.",
+              "en": "Most studies show no athletic performance benefit. Blood glucose evidence is conflicting; insomnia and medication interactions are concerns.",
+              "it": "La maggior parte degli studi non mostra benefici sportivi. Le prove sulla glicemia sono contrastanti; attenzione a insonnia e interazioni farmacologiche."
+            },
+            "decision_rule": "REVIEW_DIABETES_MEDICATIONS_PREGNANCY",
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Potential blood glucose effects and medication interactions"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/asian-ginseng",
+          "priority_safety_screen": [
+            "hypoglycemia and drug interactions"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/asian-ginseng",
+        "claim": {
+          "es": "La mayoría de los estudios no muestra mejoras del rendimiento deportivo. La evidencia sobre glucemia es contradictoria; puede causar insomnio e interactuar con medicamentos.",
+          "en": "Most studies show no athletic performance benefit. Blood glucose evidence is conflicting; insomnia and medication interactions are concerns.",
+          "it": "La maggior parte degli studi non mostra benefici sportivi. Le prove sulla glicemia sono contrastanti; attenzione a insonnia e interazioni farmacologiche."
+        },
+        "decision_rule": "REVIEW_DIABETES_MEDICATIONS_PREGNANCY",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "garlic_extract",
@@ -3396,10 +4720,81 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/garlic",
+            "claims": {
+              "es": [
+                "Los suplementos de ajo pueden reducir modestamente colesterol LDL y presión arterial en algunas poblaciones.",
+                "Pueden aumentar el riesgo de sangrado; revisar anticoagulantes, aspirina, cirugía y embarazo."
+              ],
+              "en": [
+                "Garlic supplements may modestly lower LDL cholesterol and blood pressure in some populations.",
+                "May increase bleeding risk; review anticoagulants, aspirin, surgery and pregnancy."
+              ],
+              "it": [
+                "Gli integratori di aglio possono ridurre modestamente LDL e pressione arteriosa in alcune popolazioni.",
+                "Possono aumentare il rischio di sanguinamento; valutare anticoagulanti, aspirina, chirurgia e gravidanza."
+              ]
+            },
+            "decision_rule": "REVIEW_BLEEDING_MEDICATION_SURGERY",
+            "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+            "source_checked": true,
+            "reviewed_date": "2026-11-18",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Potential increased bleeding with anticoagulant or antiplatelet medicines"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/garlic",
+          "priority_safety_screen": [
+            "bleeding risk with anticoagulants"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/garlic",
+        "claims": {
+          "es": [
+            "Los suplementos de ajo pueden reducir modestamente colesterol LDL y presión arterial en algunas poblaciones.",
+            "Pueden aumentar el riesgo de sangrado; revisar anticoagulantes, aspirina, cirugía y embarazo."
+          ],
+          "en": [
+            "Garlic supplements may modestly lower LDL cholesterol and blood pressure in some populations.",
+            "May increase bleeding risk; review anticoagulants, aspirin, surgery and pregnancy."
+          ],
+          "it": [
+            "Gli integratori di aglio possono ridurre modestamente LDL e pressione arteriosa in alcune popolazioni.",
+            "Possono aumentare il rischio di sanguinamento; valutare anticoagulanti, aspirina, chirurgia e gravidanza."
+          ]
+        },
+        "decision_rule": "REVIEW_BLEEDING_MEDICATION_SURGERY",
+        "verification_scope": "NCCIH page specific statements only, not full ingredient validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "turmeric",
@@ -3450,10 +4845,62 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/turmeric",
+            "claim": {
+              "es": "La cúrcuma alimentaria no equivale a extractos concentrados; los suplementos pueden causar molestias digestivas y algunas formulaciones se asocian con lesión hepática.",
+              "en": "Culinary turmeric is not equivalent to concentrated extracts; supplements may cause gastrointestinal effects and some formulations are linked to liver injury.",
+              "it": "La curcuma alimentare non equivale agli estratti concentrati; gli integratori possono causare disturbi gastrointestinali e alcune formulazioni sono associate a danno epatico."
+            },
+            "decision_rule": "REVIEW_LIVER_DISEASE_PREGNANCY_FORMULATION",
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "High-dose extracts differ from culinary use",
+              "Liver injury reports with some formulations"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/turmeric",
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/turmeric",
+        "claim": {
+          "es": "La cúrcuma alimentaria no equivale a extractos concentrados; los suplementos pueden causar molestias digestivas y algunas formulaciones se asocian con lesión hepática.",
+          "en": "Culinary turmeric is not equivalent to concentrated extracts; supplements may cause gastrointestinal effects and some formulations are linked to liver injury.",
+          "it": "La curcuma alimentare non equivale agli estratti concentrati; gli integratori possono causare disturbi gastrointestinali e alcune formulazioni sono associate a danno epatico."
+        },
+        "decision_rule": "REVIEW_LIVER_DISEASE_PREGNANCY_FORMULATION",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "echinacea",
@@ -3504,10 +4951,77 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/echinacea",
+            "claims": {
+              "es": [
+                "Podría reducir ligeramente la probabilidad de resfriarse; no está claro si acorta su duración.",
+                "Puede provocar alergias graves y síntomas digestivos; revisar inmunosupresores y medicamentos."
+              ],
+              "en": [
+                "May slightly reduce the chance of catching a cold; whether it shortens colds is unclear.",
+                "May cause serious allergic reactions and gastrointestinal symptoms; screen immunosuppressants and other medicines."
+              ],
+              "it": [
+                "Può ridurre lievemente la probabilità di raffreddore; non è chiaro se ne accorci la durata.",
+                "Può provocare gravi allergie e disturbi gastrointestinali; valutare immunosoppressori e altri farmaci."
+              ]
+            },
+            "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+            "source_checked": true,
+            "reviewed_date": "2026-11-18",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Review allergy to Asteraceae family and immunosuppressive therapy"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/echinacea",
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/echinacea",
+        "claims": {
+          "es": [
+            "Podría reducir ligeramente la probabilidad de resfriarse; no está claro si acorta su duración.",
+            "Puede provocar alergias graves y síntomas digestivos; revisar inmunosupresores y medicamentos."
+          ],
+          "en": [
+            "May slightly reduce the chance of catching a cold; whether it shortens colds is unclear.",
+            "May cause serious allergic reactions and gastrointestinal symptoms; screen immunosuppressants and other medicines."
+          ],
+          "it": [
+            "Può ridurre lievemente la probabilità di raffreddore; non è chiaro se ne accorci la durata.",
+            "Può provocare gravi allergie e disturbi gastrointestinali; valutare immunosoppressori e altri farmaci."
+          ]
+        },
+        "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "st_johns_wort",
@@ -3558,7 +5072,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
       "safety_flags": [
@@ -3573,7 +5090,66 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/st-johns-wort",
+            "evidence": {
+              "es": "Puede ayudar en depresión leve o moderada; incertidumbre en depresión grave y tratamientos superiores a 12 semanas.",
+              "en": "May help mild-to-moderate depression; uncertain for severe depression or use beyond 12 weeks.",
+              "it": "Può aiutare nella depressione lieve o moderata; incerto nei casi gravi o oltre 12 settimane."
+            },
+            "safety": {
+              "es": "Interacciones potencialmente graves: anticonceptivos, ciclosporina, warfarina, antiepilépticos, antirretrovirales y fármacos serotoninérgicos.",
+              "en": "Potentially severe interactions with contraceptives, cyclosporine, warfarin, anticonvulsants, antiretrovirals and serotonergic drugs.",
+              "it": "Interazioni potenzialmente gravi con contraccettivi, ciclosporina, warfarin, antiepilettici, antiretrovirali e farmaci serotoninergici."
+            },
+            "decision_rule": "BLOCK_WHEN_MEDICATIONS_UNREVIEWED",
+            "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+            "reviewed_date": "2026-11-18",
+            "source_checked": true
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Major drug interactions: oral contraceptives, immunosuppressants, anticoagulants, antiretrovirals and others",
+              "Serotonergic drug combinations can cause serotonin toxicity"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/st-johns-wort",
+          "priority_safety_screen": [
+            "strong CYP/P-glycoprotein interactions",
+            "serotonergic toxicity risk",
+            "oral contraceptive interactions"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/st-johns-wort",
+        "evidence": {
+          "es": "Puede ayudar en depresión leve o moderada; incertidumbre en depresión grave y tratamientos superiores a 12 semanas.",
+          "en": "May help mild-to-moderate depression; uncertain for severe depression or use beyond 12 weeks.",
+          "it": "Può aiutare nella depressione lieve o moderata; incerto nei casi gravi o oltre 12 settimane."
+        },
+        "safety": {
+          "es": "Interacciones potencialmente graves: anticonceptivos, ciclosporina, warfarina, antiepilépticos, antirretrovirales y fármacos serotoninérgicos.",
+          "en": "Potentially severe interactions with contraceptives, cyclosporine, warfarin, anticonvulsants, antiretrovirals and serotonergic drugs.",
+          "it": "Interazioni potenzialmente gravi con contraccettivi, ciclosporina, warfarin, antiepilettici, antiretrovirali e farmaci serotoninergici."
+        },
+        "decision_rule": "BLOCK_WHEN_MEDICATIONS_UNREVIEWED",
+        "scope": "NCCIH summary-level claims; not a complete clinical or regulatory approval",
+        "reviewed_date": "2026-11-18",
+        "source_checked": true
+      }
     },
     {
       "ingredient_id": "berberine",
@@ -3624,10 +5200,65 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know",
+            "claim": {
+              "es": "La evidencia para pérdida de peso no es concluyente. Puede causar síntomas gastrointestinales, interactuar con ciclosporina y ser insegura en embarazo, lactancia y lactantes.",
+              "en": "Weight-loss evidence is inconclusive. Gastrointestinal adverse effects and cyclosporine interaction are reported; avoid in pregnancy, breastfeeding and infants.",
+              "it": "Le prove sul dimagrimento non sono conclusive. Segnalati effetti gastrointestinali e interazione con ciclosporina; evitare in gravidanza, allattamento e neonati."
+            },
+            "decision_rule": "BLOCK_PREGNANCY_LACTATION_INFANTS_REVIEW_MEDICATIONS",
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Avoid during pregnancy, breastfeeding and in infants",
+              "Screen for medication interactions and hypoglycemia risk"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know",
+          "priority_safety_screen": [
+            "pregnancy and breastfeeding avoidance",
+            "drug interaction screening"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know",
+        "claim": {
+          "es": "La evidencia para pérdida de peso no es concluyente. Puede causar síntomas gastrointestinales, interactuar con ciclosporina y ser insegura en embarazo, lactancia y lactantes.",
+          "en": "Weight-loss evidence is inconclusive. Gastrointestinal adverse effects and cyclosporine interaction are reported; avoid in pregnancy, breastfeeding and infants.",
+          "it": "Le prove sul dimagrimento non sono conclusive. Segnalati effetti gastrointestinali e interazione con ciclosporina; evitare in gravidanza, allattamento e neonati."
+        },
+        "decision_rule": "BLOCK_PREGNANCY_LACTATION_INFANTS_REVIEW_MEDICATIONS",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH evidence/safety claims only; not full dose or product approval",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "alpha_lipoic_acid",
@@ -3678,10 +5309,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "astaxanthin",
@@ -3732,10 +5376,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "beta_carotene",
@@ -3786,10 +5443,35 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "clinical_safety_triage": {
+            "triggers": [
+              "High-dose supplements are not appropriate for smokers or former smokers due to lung cancer signal"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+          "priority_safety_screen": [
+            "high-dose supplements increase lung cancer risk in smokers"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "inositol",
@@ -3840,10 +5522,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "lycopene",
@@ -3894,10 +5589,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "mct_oil",
@@ -3948,10 +5656,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "nac",
@@ -4002,10 +5723,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "spirulina",
@@ -4056,10 +5790,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "glucosamine",
@@ -4110,10 +5857,79 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+            "claims": {
+              "es": [
+                "Los resultados para síntomas de artrosis de rodilla son inconsistentes y las guías clínicas discrepan.",
+                "No asumir equivalencia entre sulfato cristalino de grado farmacéutico y otras formulaciones."
+              ],
+              "en": [
+                "Results for knee osteoarthritis symptoms are inconsistent, and clinical guidelines disagree.",
+                "Do not assume equivalence between pharmaceutical-grade crystalline sulfate and other formulations."
+              ],
+              "it": [
+                "Risultati incoerenti per i sintomi dell'artrosi del ginocchio e linee guida discordanti.",
+                "Non assumere equivalenza tra solfato cristallino di grado farmaceutico e altre formulazioni."
+              ]
+            },
+            "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+            "source_checked": true,
+            "reviewed_date": "2026-11-18",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Review warfarin use and shellfish-derived formulations"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis",
+          "priority_safety_screen": [
+            "warfarin interaction"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+        "claims": {
+          "es": [
+            "Los resultados para síntomas de artrosis de rodilla son inconsistentes y las guías clínicas discrepan.",
+            "No asumir equivalencia entre sulfato cristalino de grado farmacéutico y otras formulaciones."
+          ],
+          "en": [
+            "Results for knee osteoarthritis symptoms are inconsistent, and clinical guidelines disagree.",
+            "Do not assume equivalence between pharmaceutical-grade crystalline sulfate and other formulations."
+          ],
+          "it": [
+            "Risultati incoerenti per i sintomi dell'artrosi del ginocchio e linee guida discordanti.",
+            "Non assumere equivalenza tra solfato cristallino di grado farmaceutico e altre formulazioni."
+          ]
+        },
+        "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "chondroitin",
@@ -4164,10 +5980,79 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+            "claims": {
+              "es": [
+                "Los resultados en artrosis de rodilla son inconsistentes; los efectos pueden variar según la formulación.",
+                "No asumir que la combinación con glucosamina es superior a cada ingrediente por separado."
+              ],
+              "en": [
+                "Knee osteoarthritis findings are inconsistent and may vary by formulation.",
+                "Do not assume combination with glucosamine is superior to either ingredient alone."
+              ],
+              "it": [
+                "Risultati incoerenti nell'artrosi del ginocchio e possibili differenze tra formulazioni.",
+                "Non assumere che l'associazione con glucosamina sia superiore ai singoli ingredienti."
+              ]
+            },
+            "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+            "source_checked": true,
+            "reviewed_date": "2026-11-18",
+            "dose_verified": false,
+            "regulatory_verified": false
+          },
+          "clinical_safety_triage": {
+            "triggers": [
+              "Review warfarin use"
+            ],
+            "workflow": "ASK medication, pregnancy/lactation, relevant diseases, product composition and dose BEFORE suggesting; refer for professional assessment when flagged",
+            "triage_class": "manual_review_required",
+            "source_status": "requires_individual_authoritative_source_confirmation",
+            "not_clinically_validated": true,
+            "release_allowed": false
+          },
+          "research_source_candidate": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis",
+          "priority_safety_screen": [
+            "warfarin interaction"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/glucosamine-and-chondroitin-for-osteoarthritis-what-you-need-to-know",
+        "claims": {
+          "es": [
+            "Los resultados en artrosis de rodilla son inconsistentes; los efectos pueden variar según la formulación.",
+            "No asumir que la combinación con glucosamina es superior a cada ingrediente por separado."
+          ],
+          "en": [
+            "Knee osteoarthritis findings are inconsistent and may vary by formulation.",
+            "Do not assume combination with glucosamine is superior to either ingredient alone."
+          ],
+          "it": [
+            "Risultati incoerenti nell'artrosi del ginocchio e possibili differenze tra formulazioni.",
+            "Non assumere che l'associazione con glucosamina sia superiore ai singoli ingredienti."
+          ]
+        },
+        "verification_scope": "Claims matched to NCCIH article; no dose or full interaction validation",
+        "source_checked": true,
+        "reviewed_date": "2026-11-18",
+        "dose_verified": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "msm",
@@ -4218,10 +6103,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "l_theanine",
@@ -4272,10 +6170,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "quercetin",
@@ -4326,10 +6237,23 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 2,
+        "source_file": "data/research/bulk_batch_02_25_botanicals_and_specialties.json",
+        "data": {
+          "research_source_candidate": null,
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "resveratrol",
@@ -4380,10 +6304,24 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": [
+            "antiplatelet interaction screening"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "elderberry",
@@ -4434,10 +6372,63 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/elderberry",
+            "claim": {
+              "es": "La evidencia preliminar sobre síntomas respiratorios es limitada. Las bayas crudas o inmaduras, hojas y tallos contienen sustancias tóxicas; la cocción elimina esa toxina.",
+              "en": "Evidence for respiratory symptom relief is preliminary and limited. Raw/unripe berries, leaves and stems contain toxic substances; cooking eliminates this toxin.",
+              "it": "Le prove per i sintomi respiratori sono preliminari e limitate. Bacche crude o acerbe, foglie e steli contengono sostanze tossiche; la cottura elimina la tossina."
+            },
+            "decision_rule": "BLOCK_RAW_UNPROCESSED_PREPARATIONS",
+            "studied_dose_not_prescription": null,
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+            "clinical_validation": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/elderberry",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "uncooked plant parts can be toxic"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": [
+            "uncooked plant parts may be toxic"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/elderberry",
+        "claim": {
+          "es": "La evidencia preliminar sobre síntomas respiratorios es limitada. Las bayas crudas o inmaduras, hojas y tallos contienen sustancias tóxicas; la cocción elimina esa toxina.",
+          "en": "Evidence for respiratory symptom relief is preliminary and limited. Raw/unripe berries, leaves and stems contain toxic substances; cooking eliminates this toxin.",
+          "it": "Le prove per i sintomi respiratori sono preliminari e limitate. Bacche crude o acerbe, foglie e steli contengono sostanze tossiche; la cottura elimina la tossina."
+        },
+        "decision_rule": "BLOCK_RAW_UNPROCESSED_PREPARATIONS",
+        "studied_dose_not_prescription": null,
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+        "clinical_validation": false
+      }
     },
     {
       "ingredient_id": "cranberry",
@@ -4488,10 +6479,64 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/cranberry",
+            "claim": {
+              "es": "Puede reducir las infecciones urinarias sintomáticas recurrentes en algunas mujeres, pero no trata una infección urinaria activa. El procesamiento modifica el contenido de proantocianidinas.",
+              "en": "May reduce symptomatic recurrent UTIs in some women, but does not treat an active UTI. Processing can alter proanthocyanidin content.",
+              "it": "Può ridurre le infezioni urinarie sintomatiche ricorrenti in alcune donne, ma non tratta un'infezione attiva. La lavorazione può modificare le proantocianidine."
+            },
+            "decision_rule": "BLOCK_ACTIVE_UTI_AS_TREATMENT",
+            "studied_dose_not_prescription": null,
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+            "clinical_validation": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/cranberry",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "not a treatment for active UTI",
+              "review warfarin"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": [
+            "warfarin interaction reports"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/cranberry",
+        "claim": {
+          "es": "Puede reducir las infecciones urinarias sintomáticas recurrentes en algunas mujeres, pero no trata una infección urinaria activa. El procesamiento modifica el contenido de proantocianidinas.",
+          "en": "May reduce symptomatic recurrent UTIs in some women, but does not treat an active UTI. Processing can alter proanthocyanidin content.",
+          "it": "Può ridurre le infezioni urinarie sintomatiche ricorrenti in alcune donne, ma non tratta un'infezione attiva. La lavorazione può modificare le proantocianidine."
+        },
+        "decision_rule": "BLOCK_ACTIVE_UTI_AS_TREATMENT",
+        "studied_dose_not_prescription": null,
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+        "clinical_validation": false
+      }
     },
     {
       "ingredient_id": "d_mannose",
@@ -4542,10 +6587,24 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": [
+            "limited evidence for recurrent UTI prevention"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "saw_palmetto",
@@ -4596,10 +6655,63 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/saw-palmetto",
+            "claim": {
+              "es": "La evidencia indica que Serenoa repens sola produce poco o ningún beneficio para los síntomas urinarios de hiperplasia prostática benigna.",
+              "en": "Evidence indicates saw palmetto alone provides little or no benefit for urinary symptoms of benign prostatic hyperplasia.",
+              "it": "Le prove indicano che Serenoa repens da sola offre benefici scarsi o nulli per i sintomi urinari dell'iperplasia prostatica benigna."
+            },
+            "decision_rule": "DO_NOT_RECOMMEND_FOR_BPH_SYMPTOMS",
+            "studied_dose_not_prescription": null,
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+            "clinical_validation": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/saw-palmetto",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "do not infer efficacy for benign prostatic hyperplasia"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": [
+            "pregnancy avoidance"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/saw-palmetto",
+        "claim": {
+          "es": "La evidencia indica que Serenoa repens sola produce poco o ningún beneficio para los síntomas urinarios de hiperplasia prostática benigna.",
+          "en": "Evidence indicates saw palmetto alone provides little or no benefit for urinary symptoms of benign prostatic hyperplasia.",
+          "it": "Le prove indicano che Serenoa repens da sola offre benefici scarsi o nulli per i sintomi urinari dell'iperplasia prostatica benigna."
+        },
+        "decision_rule": "DO_NOT_RECOMMEND_FOR_BPH_SYMPTOMS",
+        "studied_dose_not_prescription": null,
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+        "clinical_validation": false
+      }
     },
     {
       "ingredient_id": "valerian",
@@ -4650,7 +6762,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
       "safety_flags": [
@@ -4665,7 +6780,58 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/valerian",
+            "claim": {
+              "es": "Los resultados para trastornos del sueño son inconsistentes; una guía clínica desaconseja valeriana para insomnio crónico en adultos. Se estudiaron 300–600 mg/día hasta seis semanas, sin establecer seguridad prolongada.",
+              "en": "Sleep results are inconsistent; a clinical guideline recommends against valerian for chronic insomnia in adults. Doses of 300–600 mg/day were studied for up to six weeks; long-term safety is unknown.",
+              "it": "Risultati incoerenti per il sonno; una linea guida sconsiglia la valeriana nell'insonnia cronica degli adulti. Studiati 300–600 mg/die fino a sei settimane; sicurezza a lungo termine ignota."
+            },
+            "decision_rule": "DO_NOT_RECOMMEND_FOR_CHRONIC_INSOMNIA",
+            "studied_dose_not_prescription": "300–600 mg/day studied up to six weeks; not recommended dose",
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+            "clinical_validation": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/valerian",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "sedation and other CNS depressants"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": [
+            "sedation",
+            "other sedatives"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/valerian",
+        "claim": {
+          "es": "Los resultados para trastornos del sueño son inconsistentes; una guía clínica desaconseja valeriana para insomnio crónico en adultos. Se estudiaron 300–600 mg/día hasta seis semanas, sin establecer seguridad prolongada.",
+          "en": "Sleep results are inconsistent; a clinical guideline recommends against valerian for chronic insomnia in adults. Doses of 300–600 mg/day were studied for up to six weeks; long-term safety is unknown.",
+          "it": "Risultati incoerenti per il sonno; una linea guida sconsiglia la valeriana nell'insonnia cronica degli adulti. Studiati 300–600 mg/die fino a sei settimane; sicurezza a lungo termine ignota."
+        },
+        "decision_rule": "DO_NOT_RECOMMEND_FOR_CHRONIC_INSOMNIA",
+        "studied_dose_not_prescription": "300–600 mg/day studied up to six weeks; not recommended dose",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
+        "clinical_validation": false
+      }
     },
     {
       "ingredient_id": "rhodiola",
@@ -4716,10 +6882,81 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/rhodiola",
+            "claims": {
+              "es": [
+                "No hay evidencia fiable suficiente para afirmar eficacia en fatiga, ánimo, estrés o rendimiento.",
+                "Se han comunicado mareos, cefalea, insomnio e interacción con losartán; seguridad en embarazo y lactancia desconocida."
+              ],
+              "en": [
+                "Reliable evidence is insufficient to establish efficacy for fatigue, mood, stress or performance.",
+                "Dizziness, headache, insomnia and a reported losartan interaction; pregnancy and breastfeeding safety unknown."
+              ],
+              "it": [
+                "Prove affidabili insufficienti per efficacia su stanchezza, umore, stress o prestazioni.",
+                "Segnalati vertigini, cefalea, insonnia e interazione con losartan; sicurezza in gravidanza e allattamento sconosciuta."
+              ]
+            },
+            "decision_rule": "REVIEW_LOSARTAN_AND_PREGNANCY",
+            "review_date": "2026-11-18",
+            "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+            "dose_verified": false,
+            "interactions_complete": false,
+            "product_registration_verified": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/rhodiola",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "limited quality evidence"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": [
+            "potential interactions with psychiatric medications"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/rhodiola",
+        "claims": {
+          "es": [
+            "No hay evidencia fiable suficiente para afirmar eficacia en fatiga, ánimo, estrés o rendimiento.",
+            "Se han comunicado mareos, cefalea, insomnio e interacción con losartán; seguridad en embarazo y lactancia desconocida."
+          ],
+          "en": [
+            "Reliable evidence is insufficient to establish efficacy for fatigue, mood, stress or performance.",
+            "Dizziness, headache, insomnia and a reported losartan interaction; pregnancy and breastfeeding safety unknown."
+          ],
+          "it": [
+            "Prove affidabili insufficienti per efficacia su stanchezza, umore, stress o prestazioni.",
+            "Segnalati vertigini, cefalea, insonnia e interazione con losartan; sicurezza in gravidanza e allattamento sconosciuta."
+          ]
+        },
+        "decision_rule": "REVIEW_LOSARTAN_AND_PREGNANCY",
+        "review_date": "2026-11-18",
+        "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+        "dose_verified": false,
+        "interactions_complete": false,
+        "product_registration_verified": false
+      }
     },
     {
       "ingredient_id": "beetroot_nitrate",
@@ -4770,10 +7007,35 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "targeted_review": {
+            "authoritative_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "hypotension review"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": [
+            "blood pressure lowering effects"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "electrolytes",
@@ -4824,10 +7086,24 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": [
+            "kidney disease and potassium disturbances"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "multivitamin",
@@ -4878,7 +7154,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_04_forty_multilingual_safety_drafts.json",
       "safety_flags": [],
@@ -4887,7 +7166,75 @@
           "source_id": "ods_mvm",
           "claim": "Formula and life-stage matching must be checked before recommendation."
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+            "claims": {
+              "es": [
+                "Los multivitamínicos no tienen composición uniforme: comparar cantidades reales por nutriente, edad y situación fisiológica.",
+                "Sumar nutrientes de dieta y suplementos para evitar exceder límites máximos tolerables; revisar interacciones según fórmula."
+              ],
+              "en": [
+                "Multivitamins have no uniform composition: compare actual nutrient amounts by age and physiological status.",
+                "Account for nutrients from diet and other supplements to avoid exceeding tolerable upper intake levels; screen formulation-specific interactions."
+              ],
+              "it": [
+                "I multivitaminici non hanno composizione uniforme: confrontare quantità effettive per età e condizione fisiologica.",
+                "Sommare nutrienti di dieta e integratori per evitare limiti massimi; valutare interazioni della formula."
+              ]
+            },
+            "decision_rule": "REQUIRE_FULL_PRODUCT_FORMULA_AND_UL_SUM",
+            "review_date": "2026-11-18",
+            "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+            "dose_verified": false,
+            "interactions_complete": false,
+            "product_registration_verified": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "avoid exceeding nutrient UL from multiple products"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": [
+            "duplicate nutrient intake and UL exceedance"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+        "claims": {
+          "es": [
+            "Los multivitamínicos no tienen composición uniforme: comparar cantidades reales por nutriente, edad y situación fisiológica.",
+            "Sumar nutrientes de dieta y suplementos para evitar exceder límites máximos tolerables; revisar interacciones según fórmula."
+          ],
+          "en": [
+            "Multivitamins have no uniform composition: compare actual nutrient amounts by age and physiological status.",
+            "Account for nutrients from diet and other supplements to avoid exceeding tolerable upper intake levels; screen formulation-specific interactions."
+          ],
+          "it": [
+            "I multivitaminici non hanno composizione uniforme: confrontare quantità effettive per età e condizione fisiologica.",
+            "Sommare nutrienti di dieta e integratori per evitare limiti massimi; valutare interazioni della formula."
+          ]
+        },
+        "decision_rule": "REQUIRE_FULL_PRODUCT_FORMULA_AND_UL_SUM",
+        "review_date": "2026-11-18",
+        "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+        "dose_verified": false,
+        "interactions_complete": false,
+        "product_registration_verified": false
+      }
     },
     {
       "ingredient_id": "boron",
@@ -4938,10 +7285,69 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "checked_intake": {
+            "source": "https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/",
+            "reference_values": {
+              "type": "NO_RDA_AI_EAR",
+              "adult_value": null
+            },
+            "claim": {
+              "es": "El boro no está clasificado como nutriente esencial humano y no tiene RDA ni ingesta adecuada establecida; no asignar una dosis diaria por supuesta deficiencia.",
+              "en": "Boron is not classified as an essential human nutrient and has no established RDA or AI; do not assign a daily dose for presumed deficiency.",
+              "it": "Il boro non è classificato come nutriente essenziale umano e non ha RDA o AI; non assegnare dosi per presunta carenza."
+            },
+            "decision_rule": "DO_NOT_INFER_DEFICIENCY_OR_RDA",
+            "checked_on": "2026-11-18",
+            "scope": "NIH ODS introduction and recommended intakes only",
+            "source_verified": true,
+            "full_clinical_review": false,
+            "regulatory_verified": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "no established essential nutrient RDA"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "checked_intake": {
+        "source": "https://ods.od.nih.gov/factsheets/Boron-HealthProfessional/",
+        "reference_values": {
+          "type": "NO_RDA_AI_EAR",
+          "adult_value": null
+        },
+        "claim": {
+          "es": "El boro no está clasificado como nutriente esencial humano y no tiene RDA ni ingesta adecuada establecida; no asignar una dosis diaria por supuesta deficiencia.",
+          "en": "Boron is not classified as an essential human nutrient and has no established RDA or AI; do not assign a daily dose for presumed deficiency.",
+          "it": "Il boro non è classificato come nutriente essenziale umano e non ha RDA o AI; non assegnare dosi per presunta carenza."
+        },
+        "decision_rule": "DO_NOT_INFER_DEFICIENCY_OR_RDA",
+        "checked_on": "2026-11-18",
+        "scope": "NIH ODS introduction and recommended intakes only",
+        "source_verified": true,
+        "full_clinical_review": false,
+        "regulatory_verified": false
+      }
     },
     {
       "ingredient_id": "molybdenum",
@@ -4992,7 +7398,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
       "safety_flags": [],
@@ -5000,6 +7409,66 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "checked_intake": {
+            "source": "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/",
+            "reference_values": {
+              "type": "RDA",
+              "adult_19_plus_mcg_day": 45,
+              "pregnancy_mcg_day": 50,
+              "lactation_mcg_day": 50
+            },
+            "claim": {
+              "es": "La ingesta recomendada en adultos es 45 mcg/día; en embarazo y lactancia, 50 mcg/día. La deficiencia es rara y estos valores no son dosis de suplementación.",
+              "en": "Adult RDA is 45 mcg/day; pregnancy and lactation 50 mcg/day. Deficiency is rare and these are not supplement doses.",
+              "it": "RDA adulti 45 mcg/die; gravidanza e allattamento 50 mcg/die. La carenza è rara e non sono dosi di integratori."
+            },
+            "decision_rule": "NO_ROUTINE_SUPPLEMENT_WITHOUT_IDENTIFIED_NEED",
+            "checked_on": "2026-11-18",
+            "scope": "NIH ODS introduction and recommended intakes only",
+            "source_verified": true,
+            "full_clinical_review": false,
+            "regulatory_verified": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "no routine supplementation without identified need"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "checked_intake": {
+        "source": "https://ods.od.nih.gov/factsheets/Molybdenum-HealthProfessional/",
+        "reference_values": {
+          "type": "RDA",
+          "adult_19_plus_mcg_day": 45,
+          "pregnancy_mcg_day": 50,
+          "lactation_mcg_day": 50
+        },
+        "claim": {
+          "es": "La ingesta recomendada en adultos es 45 mcg/día; en embarazo y lactancia, 50 mcg/día. La deficiencia es rara y estos valores no son dosis de suplementación.",
+          "en": "Adult RDA is 45 mcg/day; pregnancy and lactation 50 mcg/day. Deficiency is rare and these are not supplement doses.",
+          "it": "RDA adulti 45 mcg/die; gravidanza e allattamento 50 mcg/die. La carenza è rara e non sono dosi di integratori."
+        },
+        "decision_rule": "NO_ROUTINE_SUPPLEMENT_WITHOUT_IDENTIFIED_NEED",
+        "checked_on": "2026-11-18",
+        "scope": "NIH ODS introduction and recommended intakes only",
+        "source_verified": true,
+        "full_clinical_review": false,
+        "regulatory_verified": false
       }
     },
     {
@@ -5051,10 +7520,22 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "fluoride",
@@ -5105,7 +7586,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
       "safety_flags": [],
@@ -5113,6 +7597,68 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "checked_intake": {
+            "source": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/",
+            "reference_values": {
+              "type": "AI",
+              "adult_male_19_plus_mg_day": 4,
+              "adult_female_19_plus_mg_day": 3,
+              "pregnancy_mg_day": 3,
+              "lactation_mg_day": 3
+            },
+            "claim": {
+              "es": "La ingesta adecuada desde los 19 años es 4 mg/día en varones y 3 mg/día en mujeres. Considerar exposición por agua y productos dentales; no equivale a indicar un suplemento.",
+              "en": "AI at age 19+ is 4 mg/day for men and 3 mg/day for women. Account for water and dental-product exposure; this is not a supplement recommendation.",
+              "it": "AI dai 19 anni: 4 mg/die uomini e 3 mg/die donne. Considerare acqua e prodotti dentali; non è una raccomandazione di integrazione."
+            },
+            "decision_rule": "REQUIRE_WATER_DENTAL_EXPOSURE_AND_AGE_SCREEN",
+            "checked_on": "2026-11-18",
+            "scope": "NIH ODS introduction and recommended intakes only",
+            "source_verified": true,
+            "full_clinical_review": false,
+            "regulatory_verified": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "narrow indication; excessive intake can cause fluorosis"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "checked_intake": {
+        "source": "https://ods.od.nih.gov/factsheets/Fluoride-HealthProfessional/",
+        "reference_values": {
+          "type": "AI",
+          "adult_male_19_plus_mg_day": 4,
+          "adult_female_19_plus_mg_day": 3,
+          "pregnancy_mg_day": 3,
+          "lactation_mg_day": 3
+        },
+        "claim": {
+          "es": "La ingesta adecuada desde los 19 años es 4 mg/día en varones y 3 mg/día en mujeres. Considerar exposición por agua y productos dentales; no equivale a indicar un suplemento.",
+          "en": "AI at age 19+ is 4 mg/day for men and 3 mg/day for women. Account for water and dental-product exposure; this is not a supplement recommendation.",
+          "it": "AI dai 19 anni: 4 mg/die uomini e 3 mg/die donne. Considerare acqua e prodotti dentali; non è una raccomandazione di integrazione."
+        },
+        "decision_rule": "REQUIRE_WATER_DENTAL_EXPOSURE_AND_AGE_SCREEN",
+        "checked_on": "2026-11-18",
+        "scope": "NIH ODS introduction and recommended intakes only",
+        "source_verified": true,
+        "full_clinical_review": false,
+        "regulatory_verified": false
       }
     },
     {
@@ -5164,10 +7710,22 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "zeaxanthin",
@@ -5218,10 +7776,22 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "hmb",
@@ -5272,10 +7842,22 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "betaine",
@@ -5326,10 +7908,22 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "l_tryptophan",
@@ -5380,7 +7974,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
       "safety_flags": [
@@ -5395,7 +7992,16 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "5_htp",
@@ -5446,7 +8052,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
       "safety_flags": [
@@ -5461,7 +8070,16 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "bacopa",
@@ -5512,10 +8130,22 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "milk_thistle",
@@ -5566,10 +8196,91 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/milk-thistle",
+            "source_sections": [
+              "How Much Do We Know?",
+              "What Have We Learned?",
+              "What Do We Know About Safety?"
+            ],
+            "claims": {
+              "es": [
+                "Los ensayos en enfermedades hepáticas son contradictorios o insuficientes; no se ha demostrado un beneficio clínico fiable para tratar enfermedad hepática.",
+                "Posibles molestias gastrointestinales y alergias a asteráceas; la calidad y concentración de silimarina pueden variar entre productos."
+              ],
+              "en": [
+                "Trials in liver disease are conflicting or insufficient; reliable clinical benefit for treating liver disease has not been established.",
+                "Possible gastrointestinal effects and Asteraceae allergy; product quality and silymarin content may vary."
+              ],
+              "it": [
+                "Gli studi sulle malattie epatiche sono contrastanti o insufficienti; non è dimostrato un beneficio clinico affidabile nel trattamento.",
+                "Possibili disturbi gastrointestinali e allergia alle Asteraceae; qualità e contenuto di silimarina possono variare."
+              ]
+            },
+            "decision_rule": "DO_NOT_RECOMMEND_AS_LIVER_DISEASE_TREATMENT",
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "dose_verified": false,
+            "full_interactions_verified": false,
+            "regulatory_verified": false,
+            "clinical_validation": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/milk-thistle",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "uncertain benefits in liver disease"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/milk-thistle",
+        "source_sections": [
+          "How Much Do We Know?",
+          "What Have We Learned?",
+          "What Do We Know About Safety?"
+        ],
+        "claims": {
+          "es": [
+            "Los ensayos en enfermedades hepáticas son contradictorios o insuficientes; no se ha demostrado un beneficio clínico fiable para tratar enfermedad hepática.",
+            "Posibles molestias gastrointestinales y alergias a asteráceas; la calidad y concentración de silimarina pueden variar entre productos."
+          ],
+          "en": [
+            "Trials in liver disease are conflicting or insufficient; reliable clinical benefit for treating liver disease has not been established.",
+            "Possible gastrointestinal effects and Asteraceae allergy; product quality and silymarin content may vary."
+          ],
+          "it": [
+            "Gli studi sulle malattie epatiche sono contrastanti o insufficienti; non è dimostrato un beneficio clinico affidabile nel trattamento.",
+            "Possibili disturbi gastrointestinali e allergia alle Asteraceae; qualità e contenuto di silimarina possono variare."
+          ]
+        },
+        "decision_rule": "DO_NOT_RECOMMEND_AS_LIVER_DISEASE_TREATMENT",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "dose_verified": false,
+        "full_interactions_verified": false,
+        "regulatory_verified": false,
+        "clinical_validation": false
+      }
     },
     {
       "ingredient_id": "peppermint_oil",
@@ -5620,10 +8331,89 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/peppermint-oil",
+            "source_sections": [
+              "What Have We Learned?",
+              "What Do We Know About Safety?"
+            ],
+            "claims": {
+              "es": [
+                "Las cápsulas de aceite de menta con recubrimiento entérico pueden mejorar síntomas del síndrome de intestino irritable en adultos; evidencia limitada.",
+                "Puede causar reflujo, acidez y molestias digestivas. No extrapolar a té de menta ni a aceites esenciales sin formulación oral apropiada."
+              ],
+              "en": [
+                "Enteric-coated peppermint oil capsules may improve IBS symptoms in adults; evidence is limited.",
+                "May cause reflux, heartburn and digestive discomfort. Do not extrapolate to peppermint tea or unformulated essential oils."
+              ],
+              "it": [
+                "Le capsule gastroresistenti di olio di menta possono migliorare i sintomi della sindrome dell'intestino irritabile negli adulti; prove limitate.",
+                "Può causare reflusso, bruciore e disturbi digestivi. Non generalizzare a tisane o oli essenziali non formulati per uso orale."
+              ]
+            },
+            "decision_rule": "REQUIRE_ENTERIC_COATED_PRODUCT_AND_REFLUX_SCREEN",
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "dose_verified": false,
+            "full_interactions_verified": false,
+            "regulatory_verified": false,
+            "clinical_validation": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/peppermint-oil",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "enteric-coated formulations differ from essential oil; reflux may worsen"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/peppermint-oil",
+        "source_sections": [
+          "What Have We Learned?",
+          "What Do We Know About Safety?"
+        ],
+        "claims": {
+          "es": [
+            "Las cápsulas de aceite de menta con recubrimiento entérico pueden mejorar síntomas del síndrome de intestino irritable en adultos; evidencia limitada.",
+            "Puede causar reflujo, acidez y molestias digestivas. No extrapolar a té de menta ni a aceites esenciales sin formulación oral apropiada."
+          ],
+          "en": [
+            "Enteric-coated peppermint oil capsules may improve IBS symptoms in adults; evidence is limited.",
+            "May cause reflux, heartburn and digestive discomfort. Do not extrapolate to peppermint tea or unformulated essential oils."
+          ],
+          "it": [
+            "Le capsule gastroresistenti di olio di menta possono migliorare i sintomi della sindrome dell'intestino irritabile negli adulti; prove limitate.",
+            "Può causare reflusso, bruciore e disturbi digestivi. Non generalizzare a tisane o oli essenziali non formulati per uso orale."
+          ]
+        },
+        "decision_rule": "REQUIRE_ENTERIC_COATED_PRODUCT_AND_REFLUX_SCREEN",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "dose_verified": false,
+        "full_interactions_verified": false,
+        "regulatory_verified": false,
+        "clinical_validation": false
+      }
     },
     {
       "ingredient_id": "passionflower",
@@ -5674,7 +8464,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
       "safety_flags": [
@@ -5689,7 +8482,73 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/passionflower",
+            "claims": {
+              "es": [
+                "Estudios pequeños sugieren posibles beneficios para ansiedad y duración total del sueño, pero no permiten conclusiones firmes.",
+                "Evitar durante embarazo; puede causar somnolencia, mareos y confusión. Consultar si hay cirugía prevista dentro de dos semanas."
+              ],
+              "en": [
+                "Small studies suggest possible anxiety and total-sleep-time benefits, but conclusions are uncertain.",
+                "Avoid during pregnancy; may cause drowsiness, dizziness and confusion. Review if surgery is planned within two weeks."
+              ],
+              "it": [
+                "Piccoli studi suggeriscono possibili benefici per ansia e durata totale del sonno, ma le conclusioni sono incerte.",
+                "Evitare in gravidanza; possibili sonnolenza, vertigini e confusione. Valutare interventi chirurgici entro due settimane."
+              ]
+            },
+            "decision_rule": "BLOCK_PREGNANCY_REVIEW_SURGERY_SEDATIVES",
+            "review_date": "2026-11-18",
+            "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+            "dose_verified": false,
+            "interactions_complete": false,
+            "product_registration_verified": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/passionflower",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "sedation; pregnancy caution"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/passionflower",
+        "claims": {
+          "es": [
+            "Estudios pequeños sugieren posibles beneficios para ansiedad y duración total del sueño, pero no permiten conclusiones firmes.",
+            "Evitar durante embarazo; puede causar somnolencia, mareos y confusión. Consultar si hay cirugía prevista dentro de dos semanas."
+          ],
+          "en": [
+            "Small studies suggest possible anxiety and total-sleep-time benefits, but conclusions are uncertain.",
+            "Avoid during pregnancy; may cause drowsiness, dizziness and confusion. Review if surgery is planned within two weeks."
+          ],
+          "it": [
+            "Piccoli studi suggeriscono possibili benefici per ansia e durata totale del sonno, ma le conclusioni sono incerte.",
+            "Evitare in gravidanza; possibili sonnolenza, vertigini e confusione. Valutare interventi chirurgici entro due settimane."
+          ]
+        },
+        "decision_rule": "BLOCK_PREGNANCY_REVIEW_SURGERY_SEDATIVES",
+        "review_date": "2026-11-18",
+        "verification_scope": "Source-specific efficacy/safety claims, not full clinical validation",
+        "dose_verified": false,
+        "interactions_complete": false,
+        "product_registration_verified": false
+      }
     },
     {
       "ingredient_id": "chamomile",
@@ -5740,10 +8599,91 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 3,
+        "source_file": "data/research/bulk_batch_03_25_specialty_research.json",
+        "data": {
+          "source_verified_claims": {
+            "source": "https://www.nccih.nih.gov/health/chamomile",
+            "source_sections": [
+              "How Much Do We Know?",
+              "What Have We Learned?",
+              "What Do We Know About Safety?"
+            ],
+            "claims": {
+              "es": [
+                "La evidencia para insomnio es insuficiente; existen resultados preliminares para ansiedad generalizada, sin demostrar eficacia clínica concluyente.",
+                "Puede producir alergias, especialmente en personas sensibles a otras asteráceas. Se han comunicado interacciones con warfarina; revisar sedantes y embarazo."
+              ],
+              "en": [
+                "Evidence for insomnia is insufficient; preliminary generalized-anxiety results do not establish clinical effectiveness.",
+                "Allergy is possible, especially with Asteraceae sensitivity. Warfarin interactions have been reported; screen sedatives and pregnancy."
+              ],
+              "it": [
+                "Le prove per l'insonnia sono insufficienti; i risultati preliminari sull'ansia generalizzata non dimostrano efficacia conclusiva.",
+                "Possibili allergie, specie con sensibilità alle Asteraceae. Segnalate interazioni con warfarin; valutare sedativi e gravidanza."
+              ]
+            },
+            "decision_rule": "REVIEW_ASTERACEAE_ALLERGY_WARFARIN_SEDATIVES",
+            "source_checked": true,
+            "review_date": "2026-11-18",
+            "dose_verified": false,
+            "full_interactions_verified": false,
+            "regulatory_verified": false,
+            "clinical_validation": false
+          },
+          "targeted_review": {
+            "authoritative_reference": "https://www.nccih.nih.gov/health/chamomile",
+            "reference_status": "source_identified_not_claim_by_claim_verified",
+            "priority_checks": [
+              "Asteraceae allergy and warfarin interaction reports"
+            ],
+            "clinical_dose_status": "pending",
+            "evidence_grade_status": "pending",
+            "medication_interaction_status": "pending",
+            "release_gate": "BLOCK_PENDING_VALIDATION"
+          },
+          "priority_safety_screen": []
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      },
+      "source_verified_claims": {
+        "source": "https://www.nccih.nih.gov/health/chamomile",
+        "source_sections": [
+          "How Much Do We Know?",
+          "What Have We Learned?",
+          "What Do We Know About Safety?"
+        ],
+        "claims": {
+          "es": [
+            "La evidencia para insomnio es insuficiente; existen resultados preliminares para ansiedad generalizada, sin demostrar eficacia clínica concluyente.",
+            "Puede producir alergias, especialmente en personas sensibles a otras asteráceas. Se han comunicado interacciones con warfarina; revisar sedantes y embarazo."
+          ],
+          "en": [
+            "Evidence for insomnia is insufficient; preliminary generalized-anxiety results do not establish clinical effectiveness.",
+            "Allergy is possible, especially with Asteraceae sensitivity. Warfarin interactions have been reported; screen sedatives and pregnancy."
+          ],
+          "it": [
+            "Le prove per l'insonnia sono insufficienti; i risultati preliminari sull'ansia generalizzata non dimostrano efficacia conclusiva.",
+            "Possibili allergie, specie con sensibilità alle Asteraceae. Segnalate interazioni con warfarin; valutare sedativi e gravidanza."
+          ]
+        },
+        "decision_rule": "REVIEW_ASTERACEAE_ALLERGY_WARFARIN_SEDATIVES",
+        "source_checked": true,
+        "review_date": "2026-11-18",
+        "dose_verified": false,
+        "full_interactions_verified": false,
+        "regulatory_verified": false,
+        "clinical_validation": false
+      }
     },
     {
       "ingredient_id": "licorice_root",
@@ -5794,7 +8734,10 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
       "safety_flags": [
@@ -5809,7 +8752,21 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "batch_research": {
+        "batch": 4,
+        "source_file": "data/research/bulk_batch_04_remaining_05_research.json",
+        "data": {
+          "priority_review": [
+            "verify evidence by indication",
+            "verify dose, formulation, and route",
+            "verify drug interactions and vulnerable populations",
+            "check Argentina RNE/RNPA per actual product"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "bromelain",
@@ -5860,10 +8817,27 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 4,
+        "source_file": "data/research/bulk_batch_04_remaining_05_research.json",
+        "data": {
+          "priority_review": [
+            "verify evidence by indication",
+            "verify dose, formulation, and route",
+            "verify drug interactions and vulnerable populations",
+            "check Argentina RNE/RNPA per actual product"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "propolis",
@@ -5914,10 +8888,27 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 4,
+        "source_file": "data/research/bulk_batch_04_remaining_05_research.json",
+        "data": {
+          "priority_review": [
+            "verify evidence by indication",
+            "verify dose, formulation, and route",
+            "verify drug interactions and vulnerable populations",
+            "check Argentina RNE/RNPA per actual product"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "maca",
@@ -5968,10 +8959,27 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 4,
+        "source_file": "data/research/bulk_batch_04_remaining_05_research.json",
+        "data": {
+          "priority_review": [
+            "verify evidence by indication",
+            "verify dose, formulation, and route",
+            "verify drug interactions and vulnerable populations",
+            "check Argentina RNE/RNPA per actual product"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     },
     {
       "ingredient_id": "glutamine",
@@ -6022,10 +9030,27 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "automatic_recommendation_allowed": false,
+        "clinical_signoff_required": true,
+        "product_specific_regulatory_check_required": true
       },
       "source_file": "data/research/batch_05_final_20_candidate_drafts.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "batch_research": {
+        "batch": 4,
+        "source_file": "data/research/bulk_batch_04_remaining_05_research.json",
+        "data": {
+          "priority_review": [
+            "verify evidence by indication",
+            "verify dose, formulation, and route",
+            "verify drug interactions and vulnerable populations",
+            "check Argentina RNE/RNPA per actual product"
+          ]
+        },
+        "review_status": "NOT_FULLY_CLINICALLY_VALIDATED",
+        "argentina_product_specific_registration": "PENDING"
+      }
     }
   ],
   "safety_rules_version": "2026-11-18",
@@ -6058,5 +9083,13 @@
         "scope": "multivitamin"
       }
     ]
+  },
+  "reconciliation": {
+    "date": "2026-11-18",
+    "source_batches": 4,
+    "records_merged": 80,
+    "source_claim_entries_in_batches": 24,
+    "clinical_signoff_count": 0,
+    "method": "Copy structured batch research into existing canonical 100-record catalog without inventing verification"
   }
 }
