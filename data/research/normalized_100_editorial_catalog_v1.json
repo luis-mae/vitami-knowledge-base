@@ -1,5 +1,5 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -2517,6 +2517,17 @@
           "deficiency_risk_screen"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No ofrecer para cansancio inespecífico sin evaluación nutricional.",
+          "en": "Do not offer for nonspecific fatigue without nutritional assessment.",
+          "it": "Non proporre per stanchezza aspecifica senza valutazione nutrizionale."
+        },
+        "hard_review_trigger": "NO_ROUTINE_FATIGUE_CLAIM",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -2683,6 +2694,17 @@
           "no_routine_hair_growth_claim"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer crecimiento capilar sin deficiencia; advertir sobre interferencia con análisis de troponina y tiroides.",
+          "en": "Do not promise hair growth without deficiency; warn about interference with troponin and thyroid assays.",
+          "it": "Non promettere crescita dei capelli senza carenza; avvertire sulle interferenze con troponina e test tiroidei."
+        },
+        "hard_review_trigger": "LAB_TEST_INTERFERENCE",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -2830,6 +2852,17 @@
           "total_intake_and_UL"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No recomendar aporte extra si no se identifica necesidad; evaluar enfermedad hepática y exposición acumulada.",
+          "en": "Do not recommend extra intake without identified need; assess liver disease and cumulative exposure.",
+          "it": "Non raccomandare integrazione senza necessità accertata; valutare epatopatie ed esposizione totale."
+        },
+        "hard_review_trigger": "EXCESS_NEUROTOXICITY",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -2977,6 +3010,17 @@
           "total_intake_and_UL"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No sugerir suplemento de fósforo sin valorar función renal y fosfato sérico.",
+          "en": "Do not suggest phosphorus supplements without reviewing kidney function and serum phosphate.",
+          "it": "Non suggerire fosforo senza valutare funzione renale e fosfatemia."
+        },
+        "hard_review_trigger": "RENAL_SCREEN_REQUIRED",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -3119,6 +3163,17 @@
           "heat_exercise_losses_context"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No indicar sodio adicional para actividad habitual; diferenciar ejercicio prolongado con pérdidas importantes.",
+          "en": "Do not recommend extra sodium for ordinary activity; distinguish prolonged exercise with substantial losses.",
+          "it": "Non consigliare sodio aggiuntivo per attività ordinaria; distinguere esercizio prolungato con perdite elevate."
+        },
+        "hard_review_trigger": "CARDIORENAL_SCREEN_REQUIRED",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -3254,6 +3309,17 @@
           "exercise_goal_context"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Evaluar objetivo de fuerza o esfuerzos repetidos, tipo de creatina y antecedentes renales; no extrapolar a cualquier deporte.",
+          "en": "Assess strength or repeated-effort goal, creatine form and kidney history; do not generalize to every sport.",
+          "it": "Valutare obiettivo di forza o sforzi ripetuti, forma di creatina e anamnesi renale; non generalizzare."
+        },
+        "hard_review_trigger": "SPORT_SPECIFIC_REVIEW",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -3389,6 +3455,17 @@
           "split_dose_formulation_review"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Explicar que la parestesia puede depender de la dosis; no usar para cualquier tipo de ejercicio.",
+          "en": "Explain that tingling may depend on dose; do not use for every exercise type.",
+          "it": "Spiegare che le parestesie dipendono dalla dose; non usare per ogni attività."
+        },
+        "hard_review_trigger": "PARESTHESIA_SCREEN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -3548,6 +3625,17 @@
           "medication_and_total_caffeine_intake"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Sumar café, bebidas energéticas y suplementos; revisar insomnio, ansiedad, arritmias y embarazo.",
+          "en": "Add coffee, energy drinks and supplements; review insomnia, anxiety, arrhythmias and pregnancy.",
+          "it": "Sommare caffè, energy drink e integratori; valutare insonnia, ansia, aritmie e gravidanza."
+        },
+        "hard_review_trigger": "TOTAL_CAFFEINE_SCREEN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -3683,6 +3771,17 @@
           "total_dietary_protein_target"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Calcular primero la ingesta proteica total; no recomendar polvo por defecto si ya se alcanza el objetivo.",
+          "en": "Calculate total protein intake first; do not default to powder when targets are already met.",
+          "it": "Calcolare prima le proteine totali; non proporre polveri se il fabbisogno è già coperto."
+        },
+        "hard_review_trigger": "TOTAL_PROTEIN_FIRST",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -3818,6 +3917,17 @@
           "total_protein_intake"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Diferenciar alergia a proteína láctea de intolerancia a lactosa; verificar proteína por porción.",
+          "en": "Distinguish milk protein allergy from lactose intolerance; check protein per serving.",
+          "it": "Distinguere allergia alle proteine del latte da intolleranza al lattosio; verificare proteine per porzione."
+        },
+        "hard_review_trigger": "MILK_ALLERGY_SCREEN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -3953,6 +4063,17 @@
           "contaminant_quality_check"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Verificar alérgenos de soja o arveja y contenido proteico real; no asumir equivalencia por peso de polvo.",
+          "en": "Check soy or pea allergens and actual protein content; do not assume equivalence by powder weight.",
+          "it": "Verificare allergeni di soia o pisello e proteine effettive; non presumere equivalenza dal peso della polvere."
+        },
+        "hard_review_trigger": "ALLERGEN_AND_PROTEIN_CHECK",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -4088,6 +4209,17 @@
           "do_not_extrapolate_to_arginine"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No prometer mejoras de rendimiento sin evaluar disciplina, formulación y evidencia específica.",
+          "en": "Do not promise performance benefits without evaluating sport, formulation and specific evidence.",
+          "it": "Non promettere prestazioni migliori senza valutare disciplina, formulazione e prove specifiche."
+        },
+        "hard_review_trigger": "INSUFFICIENT_GENERAL_EVIDENCE",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -4223,6 +4355,17 @@
           "limited_performance_evidence"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Revisar hipotensión y fármacos vasodilatadores; no afirmar beneficio deportivo general.",
+          "en": "Screen hypotension and vasodilator drugs; do not claim universal sport benefit.",
+          "it": "Valutare ipotensione e vasodilatatori; non affermare benefici sportivi generali."
+        },
+        "hard_review_trigger": "BLOOD_PRESSURE_SCREEN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -4358,6 +4501,17 @@
           "no_superiority_assumption"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No reemplazar proteína completa por BCAA; comprobar primero ingesta proteica diaria.",
+          "en": "Do not replace complete protein with BCAAs; check daily protein intake first.",
+          "it": "Non sostituire proteine complete con BCAA; verificare prima l'apporto proteico."
+        },
+        "hard_review_trigger": "NOT_COMPLETE_PROTEIN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -4493,6 +4647,17 @@
           "renal_disease_screen"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No presentar leucina aislada como sustituto de proteínas completas o de un plan nutricional.",
+          "en": "Do not present isolated leucine as a substitute for complete proteins or a nutrition plan.",
+          "it": "Non presentare leucina isolata come sostituto di proteine complete o di un piano nutrizionale."
+        },
+        "hard_review_trigger": "NOT_COMPLETE_PROTEIN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -4635,6 +4800,17 @@
           "medication_screen"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No extrapolar efectos de bebidas energéticas a taurina aislada; controlar cafeína concomitante.",
+          "en": "Do not extrapolate energy-drink effects to isolated taurine; assess accompanying caffeine.",
+          "it": "Non estrapolare effetti degli energy drink alla taurina isolata; valutare caffeina associata."
+        },
+        "hard_review_trigger": "FORMULATION_SPECIFIC_EVIDENCE",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -4770,6 +4946,17 @@
           "kidney_disease_screen"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No indicar para bajar de peso por defecto; diferenciar indicaciones médicas de usos deportivos.",
+          "en": "Do not default to weight-loss use; distinguish medical indications from sport uses.",
+          "it": "Non indicare automaticamente per dimagrire; distinguere indicazioni mediche da usi sportivi."
+        },
+        "hard_review_trigger": "NO_AUTOMATIC_WEIGHT_LOSS_CLAIM",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -4929,6 +5116,17 @@
           "distinguish_EPA_DHA_from_fish_oil_mass"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Comparar miligramos de EPA y DHA, no miligramos de aceite; revisar anticoagulantes y dosis altas.",
+          "en": "Compare milligrams of EPA and DHA, not fish-oil mass; review anticoagulants and high doses.",
+          "it": "Confrontare mg di EPA e DHA, non la massa dell'olio; valutare anticoagulanti e dosi elevate."
+        },
+        "hard_review_trigger": "EPA_DHA_ELEMENTAL_LABEL",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -5088,6 +5286,17 @@
           "do_not_assume_same_EPA_DHA_ratio"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Verificar DHA y EPA declarados; algunos aceites de algas aportan predominantemente DHA.",
+          "en": "Check labeled DHA and EPA; some algal oils predominantly provide DHA.",
+          "it": "Verificare DHA ed EPA dichiarati; alcuni oli algali apportano soprattutto DHA."
+        },
+        "hard_review_trigger": "EPA_DHA_RATIO_CHECK",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -5254,6 +5463,17 @@
           "separate_from_medicines_if_relevant"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/DietaryFiber-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No recomendar si hay dificultad para tragar u obstrucción; explicar necesidad de agua suficiente.",
+          "en": "Do not recommend with swallowing difficulty or obstruction; explain adequate water intake.",
+          "it": "Non raccomandare con disfagia o ostruzione; spiegare l'acqua necessaria."
+        },
+        "hard_review_trigger": "SWALLOWING_OBSTRUCTION_SCREEN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -5387,6 +5607,17 @@
           "not_equivalent_to_probiotic"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Advertir gases e hinchazón, especialmente en personas sensibles a FODMAP; ajustar según tolerancia.",
+          "en": "Warn about gas and bloating, especially with FODMAP sensitivity; assess tolerance.",
+          "it": "Avvertire di gas e gonfiore, specie con sensibilità FODMAP; valutare tolleranza."
+        },
+        "hard_review_trigger": "GI_TOLERANCE_SCREEN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -5546,6 +5777,17 @@
           "CFU_at_expiry_and_storage"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Exigir cepa identificada, indicación concreta y viabilidad hasta vencimiento; precaución en inmunosupresión.",
+          "en": "Require identified strain, specific indication and viability through expiry; caution with immunosuppression.",
+          "it": "Richiedere ceppo identificato, indicazione precisa e vitalità fino a scadenza; cautela nell'immunosoppressione."
+        },
+        "hard_review_trigger": "STRAIN_SPECIFIC_EVIDENCE",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -5688,6 +5930,17 @@
           "ingredient_specific_dose_evidence"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No tratar todos los prebióticos como equivalentes; revisar sustancia, cantidad y tolerancia digestiva.",
+          "en": "Do not treat all prebiotics as interchangeable; check substance, amount and digestive tolerance.",
+          "it": "Non considerare tutti i prebiotici equivalenti; verificare sostanza, quantità e tolleranza."
+        },
+        "hard_review_trigger": "INGREDIENT_SPECIFIC_EVIDENCE",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -5830,6 +6083,17 @@
           "not_complete_protein"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "No contar colágeno como proteína completa; revisar origen animal y alergias.",
+          "en": "Do not count collagen as complete protein; review animal source and allergies.",
+          "it": "Non considerare il collagene una proteina completa; valutare origine animale e allergie."
+        },
+        "hard_review_trigger": "NOT_COMPLETE_PROTEIN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -5968,6 +6232,17 @@
           "fishy_body_odor_and_hypotension_with_excess"
         ],
         "existing_evidence_reference": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+      },
+      "recommendation_decision": {
+        "patient_facing_caution": {
+          "es": "Considerar dieta, embarazo y lactancia; no exceder límites superiores por combinación de suplementos.",
+          "en": "Consider diet, pregnancy and lactation; avoid exceeding upper limits from combined supplements.",
+          "it": "Considerare dieta, gravidanza e allattamento; evitare di superare limiti massimi sommando integratori."
+        },
+        "hard_review_trigger": "TOTAL_INTAKE_UL_SCREEN",
+        "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
+        "dose_recommendation": null,
+        "allow_automatic_recommendation": false
       }
     },
     {
@@ -13660,5 +13935,11 @@
     "fully_validated": 0,
     "automatically_recommendable": 0,
     "interpretation": "All 100 have normalized release readiness and a checklist; source-claim presence is not a full review."
+  },
+  "editorial_decision_batch": {
+    "range": "21-45",
+    "updated": 25,
+    "description": "25 ingredient-specific, trilingual, patient-facing decision cautions; not independently source-verified",
+    "date": "2026-11-18"
   }
 }
