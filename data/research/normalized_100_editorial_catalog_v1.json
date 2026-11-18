@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "status": "editorial_draft_not_validated",
   "counts": {
     "total": 100,
@@ -12,7 +12,8 @@
     "ingredients_with_targeted_safety_flags": 18,
     "product_registrations_verified": 0,
     "individual_clinical_fiches_validated": 0,
-    "ingredients_with_source_verified_claims": 2
+    "ingredients_with_source_verified_claims": 2,
+    "ingredients_with_UL_category_checked": 19
   },
   "records": [
     {
@@ -107,6 +108,15 @@
         ],
         "scope": "claim_level_only_not_full_fiche",
         "review_date": "2026-11-18"
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -161,7 +171,16 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "no_UL_established",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
+      }
     },
     {
       "ingredient_id": "iron",
@@ -267,6 +286,15 @@
         ],
         "scope": "claim_level_only_not_full_fiche",
         "review_date": "2026-11-18"
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -326,6 +354,15 @@
         "source_id": "ods_ul_scope",
         "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_applies_to_supplemental_or_fortified_sources",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -385,6 +422,15 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -444,6 +490,15 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -503,6 +558,15 @@
         "source_id": "ods_ul_scope",
         "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_applies_to_supplemental_or_fortified_sources",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -569,7 +633,16 @@
           },
           "claim_verification_status": "pending_primary_source_review"
         }
-      ]
+      ],
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "requires_individual_fact_sheet_review",
+        "review_status": "pending",
+        "recommendation_allowed": false
+      }
     },
     {
       "ingredient_id": "vitamin_b6",
@@ -628,6 +701,15 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -687,6 +769,15 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -746,6 +837,15 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -805,6 +905,15 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -876,6 +985,15 @@
         "source_id": "ods_ul_scope",
         "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_applies_to_preformed_vitamin_A_only",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -935,6 +1053,15 @@
         "source_id": "ods_ul_scope",
         "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_applies_to_supplemental_or_fortified_sources",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -989,7 +1116,16 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "no_UL_established",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
+      }
     },
     {
       "ingredient_id": "thiamin",
@@ -1043,7 +1179,16 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "no_UL_established",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
+      }
     },
     {
       "ingredient_id": "riboflavin",
@@ -1097,7 +1242,16 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "no_UL_established",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
+      }
     },
     {
       "ingredient_id": "niacin",
@@ -1156,6 +1310,15 @@
         "source_id": "ods_ul_scope",
         "note": "Upper limit is restricted to specific forms or supplemental/fortified sources; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_applies_to_supplemental_or_fortified_sources",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -1215,6 +1378,15 @@
         "source_id": "ods_ul_scope",
         "note": "UL interpretation requires age, life stage and total intake; consult nutrient fact sheet.",
         "therapeutic_dose_not_inferred": true
+      },
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "UL_includes_total_intake",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
       }
     },
     {
@@ -1269,7 +1441,16 @@
         "claim_validation_required": true
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
-      "safety_flags": []
+      "safety_flags": [],
+      "evidence_review": {
+        "batch": "essential_nutrients_20",
+        "checked_source": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx",
+        "claim": "UL classification by ingredient",
+        "source_scope": "NIH ODS FAQ general UL classification; individual nutrient-specific doses and therapeutic uses not verified",
+        "ul_category": "no_UL_established",
+        "review_status": "verified_against_NIH_ODS_UL_overview",
+        "recommendation_allowed": false
+      }
     },
     {
       "ingredient_id": "pantothenic_acid",
