@@ -4,7 +4,7 @@
   "counts": {
     "total": 100,
     "tri_language_indication": 100,
-    "tri_language_safety": 80,
+    "tri_language_safety": 100,
     "tri_language_use": 100,
     "source_pointer": 20,
     "clinically_approved": 0
@@ -824,9 +824,9 @@
           "it": "Nutriente essenziale per metabolismo energetico; carenza isolata rara."
         },
         "safety": {
-          "es": "No inferir déficit por cansancio; revisar ingesta y causas alternativas.",
-          "en": null,
-          "it": null
+          "es": "Revisar enfermedad renal, embarazo y duplicación con multivitamínicos.",
+          "en": "Review kidney disease, pregnancy and overlap with multivitamins.",
+          "it": "Valutare malattia renale, gravidanza e sovrapposizione con multivitaminici."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -864,9 +864,9 @@
           "it": "Nutriente essenziale; integrazione per capelli o unghie senza carenza priva di prove solide."
         },
         "safety": {
-          "es": "La suplementación puede interferir con análisis de laboratorio, incluidos ensayos de troponina y tiroides.",
-          "en": null,
-          "it": null
+          "es": "Puede interferir con pruebas de laboratorio, incluidas algunas cardíacas y tiroideas; informar al laboratorio.",
+          "en": "May interfere with laboratory tests, including some cardiac and thyroid tests; inform the laboratory.",
+          "it": "Può interferire con esami di laboratorio, inclusi alcuni cardiaci e tiroidei; informare il laboratorio."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -904,9 +904,9 @@
           "it": "Oligoelemento essenziale; esposizione eccessiva può causare tossicità neurologica."
         },
         "safety": {
-          "es": "Revisar exposición acumulada y enfermedad hepática; no indicar para bienestar general.",
-          "en": null,
-          "it": null
+          "es": "El exceso puede producir toxicidad neurológica; revisar exposición laboral y enfermedad hepática.",
+          "en": "Excess may cause neurological toxicity; review occupational exposure and liver disease.",
+          "it": "L'eccesso può causare tossicità neurologica; valutare esposizione lavorativa e malattie epatiche."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -944,9 +944,9 @@
           "it": "Minerale essenziale; integrazione raramente necessaria con dieta comune."
         },
         "safety": {
-          "es": "La insuficiencia dietaria aislada es poco frecuente; revisar enfermedad renal.",
-          "en": null,
-          "it": null
+          "es": "Revisar función renal y consumo de aditivos con fosfatos antes de suplementar.",
+          "en": "Review kidney function and phosphate additive intake before supplementation.",
+          "it": "Valutare funzione renale e consumo di additivi fosfatici prima dell'integrazione."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -984,9 +984,9 @@
           "it": "Elettrolita essenziale; reintegro dipende da perdite e salute cardiovascolare."
         },
         "safety": {
-          "es": "La suplementación depende de pérdidas y contexto; considerar hipertensión y enfermedad cardíaca o renal.",
-          "en": null,
-          "it": null
+          "es": "Revisar hipertensión, insuficiencia cardíaca o renal y sodio total de la dieta.",
+          "en": "Review hypertension, heart or kidney failure and total dietary sodium.",
+          "it": "Valutare ipertensione, insufficienza cardiaca o renale e sodio alimentare totale."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1024,9 +1024,9 @@
           "it": "Studiata per forza ed esercizio intenso; benefici non universali."
         },
         "safety": {
-          "es": "Distinguir evidencia para fuerza/potencia de usos no establecidos; revisar enfermedad renal.",
-          "en": null,
-          "it": null
+          "es": "Revisar enfermedad renal y medicamentos relevantes; interpretar cambios de creatinina con contexto clínico.",
+          "en": "Review kidney disease and relevant medicines; interpret creatinine changes clinically.",
+          "it": "Valutare malattie renali e farmaci; interpretare variazioni di creatinina nel contesto clinico."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1064,9 +1064,9 @@
           "it": "Studiata per sforzi intensi di durata specifica; effetti dipendono dal protocollo."
         },
         "safety": {
-          "es": "Evidencia dependiente del tipo y duración del esfuerzo; parestesias relacionadas con la dosis.",
-          "en": null,
-          "it": null
+          "es": "Puede provocar parestesias; revisar tolerancia y presentación antes de considerar su uso.",
+          "en": "May cause paresthesia; review tolerance and formulation before use.",
+          "it": "Può causare parestesie; valutare tolleranza e formulazione prima dell'uso."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1104,9 +1104,9 @@
           "it": "Può migliorare alcune prestazioni; contano esposizione totale e sonno."
         },
         "safety": {
-          "es": "Contabilizar todas las fuentes; revisar sueño, arritmias, embarazo y medicación.",
-          "en": null,
-          "it": null
+          "es": "Revisar embarazo, arritmias, ansiedad, sueño y consumo total de cafeína.",
+          "en": "Review pregnancy, arrhythmias, anxiety, sleep and total caffeine intake.",
+          "it": "Valutare gravidanza, aritmie, ansia, sonno e consumo totale di caffeina."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1144,9 +1144,9 @@
           "it": "Può integrare apporto proteico insufficiente; non sostituisce dieta varia."
         },
         "safety": {
-          "es": "La utilidad depende del déficit proteico total, no de la presentación comercial.",
-          "en": null,
-          "it": null
+          "es": "Revisar alergias, enfermedad renal y aporte proteico total; la composición varía por producto.",
+          "en": "Review allergies, kidney disease and total protein intake; composition varies by product.",
+          "it": "Valutare allergie, malattie renali e apporto proteico totale; composizione variabile."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1184,9 +1184,9 @@
           "it": "Fonte di proteine del latte per raggiungere obiettivi alimentari quando appropriato."
         },
         "safety": {
-          "es": "Revisar alergia a proteínas lácteas y objetivo proteico total.",
-          "en": null,
-          "it": null
+          "es": "Evitar si existe alergia a proteínas de leche; revisar tolerancia a lactosa según producto.",
+          "en": "Avoid with milk protein allergy; assess lactose tolerance by product.",
+          "it": "Evitare in caso di allergia alle proteine del latte; valutare tolleranza al lattosio."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1224,9 +1224,9 @@
           "it": "Fonte proteica vegetale; confrontare composizione, digeribilità e bisogni."
         },
         "safety": {
-          "es": "Evaluar perfil de aminoácidos y aporte total; no equiparar todas las mezclas.",
-          "en": null,
-          "it": null
+          "es": "Revisar alérgenos como soja y guisante, composición de aminoácidos y calidad del producto.",
+          "en": "Review soy and pea allergens, amino acid composition and product quality.",
+          "it": "Valutare allergeni come soia e pisello, composizione aminoacidica e qualità."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1264,9 +1264,9 @@
           "it": "Studiata per prestazioni fisiche; prove limitate e variabili."
         },
         "safety": {
-          "es": "Evidencia deportiva limitada/heterogénea; revisar hipotensión e interacciones.",
-          "en": null,
-          "it": null
+          "es": "Revisar presión arterial, fármacos vasoactivos y seguridad de la formulación.",
+          "en": "Review blood pressure, vasoactive drugs and formulation safety.",
+          "it": "Valutare pressione arteriosa, farmaci vasoattivi e sicurezza della formulazione."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1304,9 +1304,9 @@
           "it": "Studiata per flusso sanguigno ed esercizio; benefici clinici generali non dimostrati."
         },
         "safety": {
-          "es": "No asumir beneficio deportivo; revisar presión arterial y fármacos vasoactivos.",
-          "en": null,
-          "it": null
+          "es": "Revisar hipotensión, antihipertensivos y uso concomitante de otros vasodilatadores.",
+          "en": "Review low blood pressure, antihypertensives and other vasodilators.",
+          "it": "Valutare ipotensione, antipertensivi e altri vasodilatatori."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1344,9 +1344,9 @@
           "it": "Nessun vantaggio generale dimostrato rispetto a proteine complete adeguate."
         },
         "safety": {
-          "es": "No sustituir proteína completa; evaluar suficiencia dietaria.",
-          "en": null,
-          "it": null
+          "es": "No reemplaza proteína completa; revisar enfermedad metabólica y cantidad proteica total.",
+          "en": "Does not replace complete protein; review metabolic disorders and total protein intake.",
+          "it": "Non sostituisce proteine complete; valutare disturbi metabolici e apporto proteico."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1384,9 +1384,9 @@
           "it": "Aminoacido essenziale per sintesi proteica; beneficio aggiuntivo dipende dalla dieta."
         },
         "safety": {
-          "es": "Contextualizar dentro de ingesta proteica total; evitar promesas sobre masa muscular.",
-          "en": null,
-          "it": null
+          "es": "Revisar ingesta total de proteína y trastornos del metabolismo de aminoácidos.",
+          "en": "Review total protein intake and amino acid metabolism disorders.",
+          "it": "Valutare apporto proteico totale e disturbi del metabolismo degli aminoacidi."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1424,9 +1424,9 @@
           "it": "Studiata per prestazioni e altri esiti; prove dipendono dalla formulazione."
         },
         "safety": {
-          "es": "No extrapolar resultados de bebidas energéticas a taurina aislada.",
-          "en": null,
-          "it": null
+          "es": "Revisar combinaciones con cafeína, embarazo y calidad de bebidas energéticas.",
+          "en": "Review combinations with caffeine, pregnancy and energy drink quality.",
+          "it": "Valutare combinazioni con caffeina, gravidanza e qualità delle bevande energetiche."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1464,9 +1464,9 @@
           "it": "Ha usi medici specifici; prove per sport e peso variabili."
         },
         "safety": {
-          "es": "Diferenciar deficiencia documentada de objetivos deportivos o de peso.",
-          "en": null,
-          "it": null
+          "es": "Revisar enfermedad renal, trastornos convulsivos y posibles interacciones farmacológicas.",
+          "en": "Review kidney disease, seizure disorders and possible drug interactions.",
+          "it": "Valutare malattie renali, disturbi convulsivi e possibili interazioni farmacologiche."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1504,9 +1504,9 @@
           "it": "EPA e DHA sono grassi omega-3; indicazioni e dosi dipendono dall'obiettivo clinico."
         },
         "safety": {
-          "es": "Distinguir aporte dietario, triglicéridos y formulaciones farmacológicas; revisar anticoagulantes.",
-          "en": null,
-          "it": null
+          "es": "Revisar anticoagulantes, riesgo hemorrágico y cantidad total de EPA y DHA.",
+          "en": "Review anticoagulants, bleeding risk and total EPA plus DHA.",
+          "it": "Valutare anticoagulanti, rischio emorragico e quantità totale di EPA e DHA."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1544,9 +1544,9 @@
           "it": "Fonte non animale di DHA e talvolta EPA; confrontare quantità effettiva."
         },
         "safety": {
-          "es": "Comparar contenido real de EPA y DHA, no solo aceite total.",
-          "en": null,
-          "it": null
+          "es": "Revisar anticoagulantes, dosis real de EPA/DHA y posibles alérgenos del producto.",
+          "en": "Review anticoagulants, actual EPA/DHA dose and product allergens.",
+          "it": "Valutare anticoagulanti, dose effettiva di EPA/DHA e allergeni."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
@@ -1584,9 +1584,9 @@
           "it": "Fibra solubile studiata per stitichezza e colesterolo; richiede liquidi adeguati."
         },
         "safety": {
-          "es": "Requiere agua suficiente; revisar disfagia, obstrucción y separación de medicamentos.",
-          "en": null,
-          "it": null
+          "es": "Requiere agua suficiente; evitar en disfagia u obstrucción y separar de ciertos medicamentos.",
+          "en": "Requires adequate water; avoid with swallowing disorders or obstruction and separate from certain drugs.",
+          "it": "Richiede acqua sufficiente; evitare con disfagia o ostruzione e distanziare da alcuni farmaci."
         },
         "use": {
           "es": "Definir presentación, dosis, momento y duración solo con evidencia aplicable y revisión de seguridad.",
