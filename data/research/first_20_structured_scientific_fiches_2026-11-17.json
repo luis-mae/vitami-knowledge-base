@@ -83,6 +83,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "hypercalcemia",
+          "renal_disease",
+          "thiazide_diuretic"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -164,6 +198,41 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "suspected_malabsorption",
+          "metformin",
+          "acid_suppression",
+          "suspected_anemia"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -245,6 +314,41 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "suspected_iron_overload",
+          "hemochromatosis",
+          "levothyroxine",
+          "quinolone_or_tetracycline_antibiotics"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -355,7 +459,41 @@
         "full_documentary_status": "incomplete",
         "professional_approval": false
       },
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "renal_impairment",
+          "oral_bisphosphonate",
+          "quinolone_or_tetracycline_antibiotics"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
+      }
     },
     {
       "ingredient_id": "calcium",
@@ -436,6 +574,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "hypercalcemia",
+          "recurrent_kidney_stones",
+          "levothyroxine"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -517,6 +689,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "high_dose_or_long_term",
+          "copper_deficiency",
+          "quinolone_or_tetracycline_antibiotics"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -598,6 +804,39 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "possible_b12_deficiency",
+          "pregnancy_planning"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -679,6 +918,41 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "renal_impairment",
+          "ACE_inhibitor",
+          "ARB",
+          "potassium_sparing_diuretic"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -771,6 +1045,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "chronic_high_dose",
+          "overlapping_multivitamins",
+          "neuropathy_symptoms"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -852,6 +1160,41 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "thyroid_disease",
+          "amiodarone",
+          "kelp_high_iodine",
+          "pregnancy"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -933,6 +1276,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "multiple_selenium_sources",
+          "suspected_selenosis",
+          "thyroid_disease"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1014,6 +1391,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "iron_overload",
+          "recurrent_kidney_stones",
+          "high_dose_gastrointestinal_symptoms"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1095,6 +1506,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "pregnancy",
+          "retinoid_medication",
+          "preformed_retinol_high_dose"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1176,6 +1621,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "anticoagulants",
+          "bleeding_disorder",
+          "high_dose"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1257,6 +1736,39 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "warfarin",
+          "INR_monitoring"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1338,6 +1850,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "suspected_severe_deficiency",
+          "refeeding_risk",
+          "heavy_alcohol_use"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1419,6 +1965,38 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "migraine_treatment_intent"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1500,6 +2078,41 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "liver_disease",
+          "glucose_dysregulation",
+          "lipid_treatment_intent",
+          "pharmacologic_dose"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1581,6 +2194,40 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "Wilson_disease",
+          "liver_disease",
+          "high_zinc_intake"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     },
     {
@@ -1662,6 +2309,41 @@
         "if_inadequate_intake": "Only consider after diet, medications, age, pregnancy and contraindication screening.",
         "if_no_indication": "Do not recommend solely to sell a product.",
         "if_multiple_products": "Aggregate total nutrient exposure and check overlapping ingredients."
+      },
+      "structured_safety_triage": {
+        "status": "editorial_rules_derived_from_existing_fiche_not_independently_validated",
+        "trigger_codes": [
+          "renal_disease",
+          "liver_disease",
+          "diabetes_medication",
+          "weight_loss_claim"
+        ],
+        "action": "hold_automatic_recommendation_and_request_professional_review",
+        "message": {
+          "es": "Requiere evaluación profesional antes de sugerir suplementos si se detecta cualquiera de estos factores.",
+          "en": "Professional review is required before suggesting supplementation if any of these factors are present.",
+          "it": "È necessaria una valutazione professionale prima di proporre integratori se è presente uno di questi fattori."
+        },
+        "absence_of_triggers_does_not_establish_safety": true
+      },
+      "dose_quality_gate": {
+        "reference_intake_is_not_prescription": true,
+        "upper_limit_is_not_target": true,
+        "requires_population_age_pregnancy_and_formulation": true,
+        "requires_total_daily_exposure": true,
+        "personalized_dose_allowed": false
+      },
+      "alternative_quality_gate": {
+        "ingredient_level_equivalence_not_established": true,
+        "requires_same_indication_and_comparative_evidence": true,
+        "requires_formulation_and_elemental_dose_check": true,
+        "unverified_alternative_allowed": false
+      },
+      "regulatory_quality_gate": {
+        "country": "AR",
+        "ingredient_sale_channel": "unknown",
+        "product_registration_checked": false,
+        "requires_product_identity_strength_label_and_registration": true
       }
     }
   ],
