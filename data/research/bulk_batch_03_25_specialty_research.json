@@ -37,7 +37,23 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "antiplatelet interaction screening"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "elderberry",
@@ -97,6 +113,22 @@
         "review_date": "2026-11-18",
         "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
         "clinical_validation": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "uncooked plant parts may be toxic"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -158,6 +190,22 @@
         "review_date": "2026-11-18",
         "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
         "clinical_validation": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "warfarin interaction reports"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -193,7 +241,23 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "limited evidence for recurrent UTI prevention"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "saw_palmetto",
@@ -253,6 +317,22 @@
         "review_date": "2026-11-18",
         "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
         "clinical_validation": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "pregnancy avoidance"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -314,6 +394,23 @@
         "review_date": "2026-11-18",
         "scope": "NCCIH specific evidence and safety claims only; interactions and product regulatory status pending",
         "clinical_validation": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "sedation",
+          "other sedatives"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -383,6 +480,22 @@
         "dose_verified": false,
         "interactions_complete": false,
         "product_registration_verified": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "potential interactions with psychiatric medications"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -429,6 +542,22 @@
         "evidence_grade_status": "pending",
         "medication_interaction_status": "pending",
         "release_gate": "BLOCK_PENDING_VALIDATION"
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "blood pressure lowering effects"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -464,7 +593,23 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "kidney disease and potassium disturbances"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "multivitamin",
@@ -533,6 +678,22 @@
         "dose_verified": false,
         "interactions_complete": false,
         "product_registration_verified": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [
+          "duplicate nutrient intake and UL exceedance"
+        ],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -595,6 +756,20 @@
         "source_verified": true,
         "full_clinical_review": false,
         "regulatory_verified": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -659,6 +834,20 @@
         "source_verified": true,
         "full_clinical_review": false,
         "regulatory_verified": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -692,7 +881,21 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "fluoride",
@@ -757,6 +960,20 @@
         "source_verified": true,
         "full_clinical_review": false,
         "regulatory_verified": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -790,7 +1007,21 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "zeaxanthin",
@@ -823,7 +1054,21 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "hmb",
@@ -856,7 +1101,21 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "betaine",
@@ -889,7 +1148,21 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "l_tryptophan",
@@ -922,7 +1195,21 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "5_htp",
@@ -955,7 +1242,21 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "bacopa",
@@ -988,7 +1289,21 @@
       "evidence_status": "pending_indication_specific_review",
       "dose_status": "pending",
       "regulatory_status": "pending_product_specific_Argentina_RNE_RNPA",
-      "automatic_recommendation_allowed": false
+      "automatic_recommendation_allowed": false,
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
+      }
     },
     {
       "ingredient_id": "milk_thistle",
@@ -1061,6 +1376,20 @@
         "full_interactions_verified": false,
         "regulatory_verified": false,
         "clinical_validation": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -1133,6 +1462,20 @@
         "full_interactions_verified": false,
         "regulatory_verified": false,
         "clinical_validation": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -1200,6 +1543,20 @@
         "dose_verified": false,
         "interactions_complete": false,
         "product_registration_verified": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     },
     {
@@ -1273,6 +1630,20 @@
         "full_interactions_verified": false,
         "regulatory_verified": false,
         "clinical_validation": false
+      },
+      "six_stream_release_gate": {
+        "status": "requires_source_and_professional_review",
+        "screening_leads": [],
+        "screening_leads_are_not_validated_rules": true,
+        "missing_evidence_blocks_personalized_dose": true,
+        "unverified_equivalents_blocked": true,
+        "Argentina_product_registration_verified": false,
+        "Argentina_sale_channel": "unknown",
+        "automatic_recommendation_allowed": false,
+        "clinical_approval": false,
+        "editorial_es": "No recomendar automáticamente: comprobar indicación, interacciones, dosis y producto registrado.",
+        "editorial_en": "Do not automatically recommend: verify indication, interactions, dose and registered product.",
+        "editorial_it": "Non raccomandare automaticamente: verificare indicazione, interazioni, dose e prodotto registrato."
       }
     }
   ],
