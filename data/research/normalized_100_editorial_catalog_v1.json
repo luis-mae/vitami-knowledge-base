@@ -287,6 +287,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        "existing_dose_evidence": "15 mcg (600 UI)",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -524,6 +555,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+        "existing_dose_evidence": "2,4 mcg",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -805,6 +867,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "existing_dose_evidence": "8 mg varones; 18 mg mujeres 19–50",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1024,6 +1117,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+        "existing_dose_evidence": "400–420 mg varones; 310–320 mg mujeres",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1268,6 +1392,37 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+        "existing_dose_evidence": "1000 mg (19–50 años)",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1511,6 +1666,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "existing_dose_evidence": "11 mg varones; 8 mg mujeres",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -1752,6 +1938,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+        "existing_dose_evidence": "400 mcg DFE",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -2034,6 +2251,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+        "existing_dose_evidence": "3400 mg varones; 2600 mg mujeres (AI)",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -2277,6 +2525,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+        "existing_dose_evidence": "1,3 mg (19–50 años)",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -2521,6 +2800,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "existing_dose_evidence": "150 mcg",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -2754,6 +3064,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+        "existing_dose_evidence": "55 mcg",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -2982,6 +3323,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "existing_dose_evidence": "90 mg varones; 75 mg mujeres",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -3236,6 +3608,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "existing_dose_evidence": "900 mcg RAE varones; 700 mcg RAE mujeres",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -3464,6 +3867,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/",
+        "existing_dose_evidence": "15 mg alfa-tocoferol",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -3700,6 +4134,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "existing_dose_evidence": "120 mcg varones; 90 mcg mujeres (AI)",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -3937,6 +4402,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+        "existing_dose_evidence": "1,2 mg varones; 1,1 mg mujeres",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -4172,6 +4668,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+        "existing_dose_evidence": "1,3 mg varones; 1,1 mg mujeres",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -4416,6 +4943,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+        "existing_dose_evidence": "16 mg NE varones; 14 mg NE mujeres",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -4658,6 +5216,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/",
+        "existing_dose_evidence": "900 mcg",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Copper-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -4895,6 +5484,37 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/",
+        "existing_dose_evidence": "35 mcg varones; 25 mcg mujeres (AI)",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Chromium-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5172,6 +5792,37 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+        "existing_dose_evidence": "AI 5 mg/day adults; pregnancy 6 mg/day; lactation 7 mg/day",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5459,6 +6110,37 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+        "existing_dose_evidence": "AI 30 mcg/day adults; lactation 35 mcg/day",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5729,6 +6411,37 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+        "existing_dose_evidence": "AI 2.3 mg/day men, 1.8 mg/day women",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -5999,6 +6712,37 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+        "existing_dose_evidence": "RDA 700 mg/day adults",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6279,6 +7023,37 @@
         "scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://www.nationalacademies.org/read/25353/chapter/13",
+        "existing_dose_evidence": "Adults 19+: sodium AI 1500 mg/day total intake. CDRR: reduce intakes above 2300 mg/day. Neither is a supplement dose.",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nationalacademies.org/read/25353/chapter/13 . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6481,6 +7256,38 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "studied_range_contextual",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "3–5 g/day maintenance in studied healthy adults; optional 20 g/day split loading for 5–7 days",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+        "dose_kind": "studied_range_not_universal_prescription",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6679,6 +7486,38 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "studied_range_contextual",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "4–6 g/day divided doses for 2–4 weeks in athletic trials",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+        "dose_kind": "studied_range_not_universal_prescription",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -6914,6 +7753,34 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "weight_studied_range",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "2–6 mg/kg before exercise in studies",
+        "inputs": [
+          "body_weight_kg",
+          "goal",
+          "caffeine_from_all_sources_mg_day",
+          "medications",
+          "health_conditions",
+          "pregnancy"
+        ],
+        "decision_logic": "For supported exercise goals only, 2–6 mg/kg studied range; do not automatically choose a point or exceed population-specific safety thresholds; account for all caffeine sources and contraindications.",
+        "dose_kind": "studied_weight_based_range",
+        "calculation_ready": true,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7110,6 +7977,33 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "protein_weight_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "Athletic total protein intake often 1.2–2.0 g/kg/day from all sources",
+        "inputs": [
+          "body_weight_kg",
+          "activity_level",
+          "goal",
+          "estimated_dietary_protein_g_day",
+          "health_conditions"
+        ],
+        "decision_logic": "For exercise-related goals only, target total daily protein range 1.2–2.0 g/kg/day as source context allows; supplemental amount is only the gap after estimated dietary protein; evaluate health exclusions.",
+        "dose_kind": "total_protein_intake_not_supplement_dose",
+        "calculation_ready": true,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7306,6 +8200,33 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "protein_weight_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+        "inputs": [
+          "body_weight_kg",
+          "activity_level",
+          "goal",
+          "estimated_dietary_protein_g_day",
+          "health_conditions"
+        ],
+        "decision_logic": "For exercise-related goals only, target total daily protein range 1.2–2.0 g/kg/day as source context allows; supplemental amount is only the gap after estimated dietary protein; evaluate health exclusions.",
+        "dose_kind": "total_protein_intake_not_supplement_dose",
+        "calculation_ready": true,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7502,6 +8423,33 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "protein_weight_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+        "inputs": [
+          "body_weight_kg",
+          "activity_level",
+          "goal",
+          "estimated_dietary_protein_g_day",
+          "health_conditions"
+        ],
+        "decision_logic": "For exercise-related goals only, target total daily protein range 1.2–2.0 g/kg/day as source context allows; supplemental amount is only the gap after estimated dietary protein; evaluate health exclusions.",
+        "dose_kind": "total_protein_intake_not_supplement_dose",
+        "calculation_ready": true,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7698,6 +8646,38 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "no_established_personalized_dose",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "No established evidence-based routine supplemental dose",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -7894,6 +8874,38 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "no_established_personalized_dose",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "No established effective exercise-performance dose",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8100,6 +9112,38 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "no_established_personalized_dose",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "No established added-benefit dose with adequate complete protein",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8296,6 +9340,38 @@
         "checked_on": "2026-11-18",
         "scope": "Reference dose and stated limitations only, not full multilingual claim-by-claim review",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "no_established_personalized_dose",
+        "source_url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "existing_dose_evidence": "No established universal isolated supplemental dose",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8513,6 +9589,38 @@
         "scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "studied_range_contextual",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40852891/",
+        "existing_dose_evidence": "2025 meta-analysis 23 RCTs (308 participants): acute 1–6 g studied before exercise; no significant dose-response, evidence GRADE low to very low. No established universally recommended performance dose.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+        "dose_kind": "studied_range_not_universal_prescription",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://pubmed.ncbi.nlm.nih.gov/40852891/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8711,6 +9819,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "no_established_personalized_dose",
+        "source_url": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+        "existing_dose_evidence": "No dietary reference intake established for healthy adults",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Do not generate a numeric personalized dose from ingredient identity alone; request indication/formulation-specific published evidence.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -8934,6 +10074,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "existing_dose_evidence": "No US RDA for EPA+DHA; dose depends on clinical indication",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9142,6 +10314,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "existing_dose_evidence": "No US RDA for algal EPA+DHA; read label DHA and EPA content",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9383,6 +10587,38 @@
         "scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://medlineplus.gov/druginfo/meds/a601104.html",
+        "existing_dose_evidence": "MedlinePlus: psyllium usually taken 1–3 times daily according to formulation label, each powder/granules dose with 240 mL liquid; no universal gram dose across products. EMA monograph distinguishes psyllium seed from ispaghula husk.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://medlineplus.gov/druginfo/meds/a601104.html . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9577,6 +10813,38 @@
         "scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "studied_range_contextual",
+        "source_url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+        "existing_dose_evidence": "Health Canada 2026 monograph: inulin 5–15 g/day for prebiotic use in adults 18+. Trial: chicory native inulin 10 g/day for 5 weeks in adults 40–75 with low stool frequency; small crossover trials with mixed results.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+        "dose_kind": "studied_range_not_universal_prescription",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2 . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9799,6 +11067,38 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/reference intake and cited limitation only; NOT full indication, safety, use and translations audit",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+        "existing_dose_evidence": "Dose is strain-, indication-, and product-specific; expressed in CFU; no universal CFU/day.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -9998,6 +11298,38 @@
         "scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "studied_range_contextual",
+        "source_url": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2",
+        "existing_dose_evidence": "No single prebiotic-class dose. Health Canada adult 18+ monograph: inulin 5–15 g/day, acacia 10–20 g/day, FOS/scFOS 2.5–15 g/day for defined prebiotic purposes.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+        "dose_kind": "studied_range_not_universal_prescription",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://webprod.hc-sc.gc.ca/nhpid-bdipsn/atReq?atid=prebio2 . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10201,6 +11533,38 @@
         "scope": "Dose/source and selected safety caveats, NOT full multilingual claim-by-claim fiche verification",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "studied_range_contextual",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40826844/",
+        "existing_dose_evidence": "2025 systematic review of 10 trials: oral collagen 1–10 g/day studied for skin hydration/elasticity; most common 4 g/day. Conflicting 2025 meta-analysis of 23 RCTs found no benefit in independently funded or high-quality trials; therefore no evidence-established universal recommended dose.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+        "dose_kind": "studied_range_not_universal_prescription",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://pubmed.ncbi.nlm.nih.gov/40826844/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10389,6 +11753,37 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "nutrient_gap",
+        "source_url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+        "existing_dose_evidence": "AI: 550 mg/day men 19+, 425 mg/day women 19+, 450 mg/day pregnancy, 550 mg/day lactation (total intake).",
+        "inputs": [
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "estimated_total_dietary_intake",
+          "current_supplements",
+          "goal",
+          "medications",
+          "health_conditions"
+        ],
+        "decision_logic": "Select age/sex/life-stage RDA or AI from source tables; estimate total dietary intake and other supplements; potential gap = max(0, target total intake - estimated intake); never equate the gap to a treatment prescription; apply ingredient-specific UL, contraindications and formulation restrictions.",
+        "dose_kind": "total_intake_reference_not_supplement_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10611,6 +12006,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/coenzyme-q10",
+        "existing_dose_evidence": "No established daily requirement or universal supplementation dose.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/coenzyme-q10 . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -10864,6 +12291,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know",
+        "existing_dose_evidence": "No established universal dose; depends on circadian indication, timing, age and formulation.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -11084,6 +12543,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/turmeric",
+        "existing_dose_evidence": "No established RDA/AI/UL or universal therapeutic dose.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/turmeric . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -11302,6 +12793,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/ginger",
+        "existing_dose_evidence": "No established RDA/AI/UL or universal supplement dose.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/ginger . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -11545,6 +13068,38 @@
         "checked_on": "2026-11-18",
         "scope": "Dose/evidence/safety statements listed; not every sentence in the complete trilingual fiche",
         "claim_by_claim_full_audit": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "studied_range_contextual",
+        "source_url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/",
+        "existing_dose_evidence": "Stress/anxiety trials: extracts 240–1250 mg/day for 6–8 weeks; several studies found greater effects at 500–600 mg/day.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Use only the ingredient-specific studied dose/range recorded in evidence, matched to the same goal, formulation, population and duration; choose no personalized number if the source does not support selecting a value.",
+        "dose_kind": "studied_range_not_universal_prescription",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/ . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -11803,6 +13358,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/green-tea",
+        "existing_dose_evidence": "No established universal supplemental dose or RDA/AI/UL for green tea extract.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/green-tea . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -12021,6 +13608,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/asian-ginseng",
+        "existing_dose_evidence": "No established universal dose across species, extracts or indications.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/asian-ginseng . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -12257,6 +13876,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/garlic",
+        "existing_dose_evidence": "No established universal dose across garlic powders, oils, aged extracts and preparations.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/garlic . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -12474,6 +14125,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/turmeric",
+        "existing_dose_evidence": "No established RDA/AI/UL or universal dose for turmeric root preparations.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/turmeric . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
@@ -12706,6 +14389,38 @@
         "scope": "Dose/reference claim only; full indication/safety/interactions/translation audit NOT done",
         "claim_by_claim_full_audit": false,
         "automatic_personalized_dose_allowed": false
+      },
+      "personalized_dosing_v1": {
+        "schema": "vitami_personalized_dosing_v1",
+        "mode": "formulation_indication_specific",
+        "source_url": "https://www.nccih.nih.gov/health/echinacea",
+        "existing_dose_evidence": "No established universal dose; species, plant part, extraction and intended use differ.",
+        "inputs": [
+          "goal",
+          "age",
+          "sex",
+          "pregnancy",
+          "lactation",
+          "health_conditions",
+          "medications",
+          "product_formulation",
+          "product_strength",
+          "other_supplements"
+        ],
+        "decision_logic": "Determine indication, strain/extract/formulation, product strength and source-matched population before any dose; no universal dose can be inferred from ingredient name.",
+        "dose_kind": "no_universal_dose",
+        "calculation_ready": false,
+        "source_specific_numeric_table_verified": false,
+        "full_safety_rule_verified": false,
+        "automatic_recommendation_ready": false,
+        "missing_for_execution": [
+          "source-specific numeric dose table or range with context and population verification",
+          "contraindication/interactions and UL rules",
+          "test against questionnaire inputs and product strengths"
+        ],
+        "patient_explanation_template_es": "La cantidad depende de tus características y objetivo. Fuente: https://www.nccih.nih.gov/health/echinacea . Consultá la evidencia y las precauciones antes de utilizarla.",
+        "status": "STRUCTURED_DOSING_LOGIC_DRAFT_NOT_RELEASED",
+        "updated_on": "2026-11-18"
       }
     },
     {
