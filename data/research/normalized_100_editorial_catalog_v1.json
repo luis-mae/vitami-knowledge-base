@@ -1,5 +1,5 @@
 {
-  "version": "2.26",
+  "version": "2.27",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -3406,6 +3406,20 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Nutritional adequacy and warfarin management require different clinical decisions.",
+        "screen": [
+          "warfarin",
+          "unstable_inr",
+          "liver_disease",
+          "pregnancy"
+        ],
+        "form": "Differentiate phylloquinone K1 and menaquinones K2; do not assume equivalence.",
+        "decision": "Do not alter vitamin K supplementation in warfarin users without clinician-guided INR monitoring.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -6505,6 +6519,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Consider only after evaluating protein needs, usual intake and training context.",
+        "screen": [
+          "milk_protein_allergy",
+          "lactose_intolerance",
+          "kidney_disease",
+          "pregnancy"
+        ],
+        "form": "Quantify grams protein per serving and distinguish isolate/concentrate/hydrolysate.",
+        "decision": "Milk allergy is not equivalent to lactose intolerance; assess actual label.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -10803,6 +10831,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Distinguish culinary turmeric from concentrated curcuminoid supplements.",
+        "screen": [
+          "liver_disease",
+          "gallstones",
+          "anticoagulants",
+          "pregnancy"
+        ],
+        "form": "Record turmeric powder versus standardized extract, curcuminoids and piperine.",
+        "decision": "Do not generalize safety of food use to high-dose extracts.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/turmeric",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -16747,6 +16789,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Do not replace diagnosis or treatment of liver disease with milk thistle.",
+        "screen": [
+          "liver_disease",
+          "asteraceae_allergy",
+          "diabetes_medications",
+          "pregnancy"
+        ],
+        "form": "Specify Silybum marianum standardized silymarin and preparation.",
+        "decision": "Do not promise liver detoxification or treatment without clinical evidence.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://www.nccih.nih.gov/health/milk-thistle",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -18154,10 +18210,10 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "folate",
-    "block_2": "protein_powder",
-    "block_3": "ginseng",
-    "block_4": "bacopa",
+    "block_1": "vitamin_k",
+    "block_2": "whey_protein",
+    "block_3": "turmeric",
+    "block_4": "milk_thistle",
     "block_5": {
       "verified_products": 0,
       "pending": 100
@@ -18168,7 +18224,7 @@
       "missing_trilingual_safety": 0,
       "verified_products": 0,
       "auto_enabled": 0,
-      "clinical_case_drafts": 39
+      "clinical_case_drafts": 43
     },
     "new_editorial_cases": 4,
     "scientific_signoff_added": 0
