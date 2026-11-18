@@ -35,5 +35,10 @@
     "No scoring threshold is yet evidence-validated",
     "No personalized dose formula is yet active",
     "No marketing claim is treated as scientific evidence"
-  ]
+  ],
+  "governance": {
+    "document_status": "HISTORICAL_SNAPSHOT_NOT_CURRENT_PRODUCT_AUDIT",
+    "as_of": "2026-08-09",
+    "instruction": "Do not use this file as the current VITAMI product status, active work plan, or master audit. The only active plan is luis-mae/vitami/VITAMI_PLAN_MAESTRO_UNICO.md; the only consolidated audit is luis-mae/vitami/AUDITORIA.md. This file remains historical evidence for its original scope and date."
+  }
 }
