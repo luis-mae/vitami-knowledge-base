@@ -4609,5 +4609,9 @@
       }
     }
   ],
-  "exit_rule": "Open and verify each source and section, assess exact support for each claim and its qualifiers, log URL/DOI, section, date, evidence level, conflicts and correction; PASS only when all claims verified or explicitly removed/qualified."
+  "exit_rule": "Open and verify each source and section, assess exact support for each claim and its qualifiers, log URL/DOI, section, date, evidence level, conflicts and correction; PASS only when all claims verified or explicitly removed/qualified.",
+  "governance": {
+    "document_status": "DATED_RESEARCH_EVIDENCE_NOT_MASTER_AUDIT_OR_ACTIVE_PLAN",
+    "instruction": "This file records a bounded research/audit milestone for its named ingredients and date. It is not the current consolidated VITAMI audit and must not be used to infer global completion or current status. Consult luis-mae/vitami/AUDITORIA.md and VITAMI_PLAN_MAESTRO_UNICO.md before acting."
+  }
 }
