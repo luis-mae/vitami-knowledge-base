@@ -1,0 +1,34 @@
+{
+  "milestone": "AUDIT_HITO_55_FICHAS_DECLARADAS_COMPLETAS_SIN_VALIDACION_INTEGRAL",
+  "date": "2026-11-18",
+  "project": "VITAMI",
+  "severity": "CRITICAL",
+  "status": "OPEN_BLOCKER",
+  "user_request": "Registrar expresamente la contradicción entre haber declarado las 55 fichas completas y comprobar después que faltan validaciones científicas, tablas de dosis, seguridad y funcionamiento.",
+  "facts": {
+    "records_present": 55,
+    "structural_dosing_fields_present": 55,
+    "full_original_source_claim_by_claim_validation_proven": false,
+    "all_55_numeric_reference_tables_validated": false,
+    "all_55_safety_rules_validated": false,
+    "all_55_personalized_dosing_engine_tests_passed": false,
+    "release_ready": false
+  },
+  "contradiction": "Se comunicó reiteradamente que las 55 fichas estaban completas. Revisiones posteriores demostraron que 'completas' significaba únicamente presencia de estructura editorial, fuentes y descripciones de dosis; no incluía validación independiente de tablas numéricas, reglas personalizadas, contraindicaciones, interacciones ni pruebas funcionales. Las declaraciones de cierre fueron prematuras.",
+  "root_cause": "Se confundieron completitud estructural/editorial, revisión de citas y preparación científica/funcional. Se usaron banderas heredadas y resultados de auditoría parcial como sustitutos de verificación independiente.",
+  "required_actions": [
+    "Revisar individualmente las 55 fichas contra las fuentes originales para cada afirmación clínica y cada dosis.",
+    "Incorporar tablas de referencia numéricas por edad/sexo/etapa de vida y rangos según objetivo y formulación cuando estén respaldados; diferenciar ingesta total de suplemento.",
+    "Verificar límites superiores, contraindicaciones, interacciones, duración, condiciones especiales y ausencia de evidencia cuando corresponda.",
+    "Probar cada regla personalizada con casos representativos, casos límite y exclusiones.",
+    "Registrar por ficha evidencia, fecha, URL, fragmento/sección, resultado, pendiente y pruebas.",
+    "Prohibir declarar 55/55 completas hasta que las 55 superen los criterios de salida; no modificar los flags de aprobación sin evidencia."
+  ],
+  "exit_criteria": "55 fichas con validación científica individual trazable y reglas seguras y verificadas; cuando la evidencia no permite dosis individual, consignar explícitamente esa limitación y no calcular dosis ficticias. No confundir editorial completo con listo para recomendaciones automáticas.",
+  "prior_audits": [
+    "data/research/independent_reaudit_first_55_2026-11-18.json",
+    "data/research/dosing_numeric_source_audit_first_55_2026-11-18.json",
+    "data/research/all_55_dosing_evidence_gap_audit_2026-11-18.json"
+  ],
+  "note": "Este registro documenta un incumplimiento de criterio de cierre; no acredita que las 55 fichas hayan sido validadas."
+}
