@@ -4766,7 +4766,15 @@
         "source_candidate": null,
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "AI 5 mg/day adults; pregnancy 6 mg/day; lactation 7 mg/day",
+        "dose_caveat": "No established UL; AI is not a supplemental prescription.",
+        "source": "https://ods.od.nih.gov/factsheets/PantothenicAcid-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "biotin",
@@ -5027,7 +5035,15 @@
           "clinical_signoff": false
         }
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "AI 30 mcg/day adults; lactation 35 mcg/day",
+        "dose_caveat": "No established UL; supplements can interfere with laboratory immunoassays.",
+        "source": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "manganese",
@@ -5271,7 +5287,15 @@
           "clinical_signoff": false
         }
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "AI 2.3 mg/day men, 1.8 mg/day women",
+        "dose_caveat": "UL 11 mg/day adults; liver disease increases concern.",
+        "source": "https://ods.od.nih.gov/factsheets/Manganese-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "phosphorus",
@@ -5515,7 +5539,15 @@
           "clinical_signoff": false
         }
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "RDA 700 mg/day adults",
+        "dose_caveat": "Adult UL varies by age; kidney disease requires individualized assessment.",
+        "source": "https://ods.od.nih.gov/factsheets/Phosphorus-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "sodium",
@@ -5755,7 +5787,15 @@
           "clinical_signoff": false
         }
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "AI 1500 mg/day ages 19–50; CDRR 2300 mg/day",
+        "dose_caveat": "CDRR is not a UL or a supplementation target.",
+        "source": "https://ods.od.nih.gov/factsheets/Sodium-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "creatine",
@@ -5930,6 +5970,14 @@
         "review_date": "2026-11-18",
         "scope": "Specific claim and studied adult dose only; not full monograph clinical validation",
         "status": "targeted_claim_and_dose_crosschecked"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "3–5 g/day maintenance in studied healthy adults; optional 20 g/day split loading for 5–7 days",
+        "dose_caveat": "No established UL; studied protocol is not universal advice.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
       }
     },
     {
@@ -6100,7 +6148,15 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "4–6 g/day divided doses for 2–4 weeks in athletic trials",
+        "dose_caveat": "No established UL; paresthesia common with large single doses.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "caffeine",
@@ -6307,6 +6363,14 @@
         "review_date": "2026-11-18",
         "scope": "Specific claim and studied adult dose only; not full monograph clinical validation",
         "status": "targeted_claim_and_dose_crosschecked"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "2–6 mg/kg before exercise in studies",
+        "dose_caveat": "400 mg/day total is a general safety reference for healthy adults, not an individual target.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
       }
     },
     {
@@ -6477,7 +6541,15 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "Athletic total protein intake often 1.2–2.0 g/kg/day from all sources",
+        "dose_caveat": "Powder amount equals dietary gap, not fixed universal dose.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "whey_protein",
@@ -6647,7 +6719,15 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+        "dose_caveat": "No ingredient-specific UL; milk-protein allergy contraindication.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "plant_protein",
@@ -6817,7 +6897,15 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "Total athletic protein target often 1.2–2.0 g/kg/day; supplement only dietary gap",
+        "dose_caveat": "Protein quality and allergen profile vary by product.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "citrulline",
@@ -6987,7 +7075,15 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established evidence-based routine supplemental dose",
+        "dose_caveat": "Trials heterogeneous; do not infer a standard dose.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "arginine",
@@ -7157,7 +7253,15 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established effective exercise-performance dose",
+        "dose_caveat": "No established UL; evidence does not support universal use.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "bcaa",
@@ -7337,6 +7441,14 @@
         "review_date": "2026-11-18",
         "scope": "Specific claim and studied adult dose only; not full monograph clinical validation",
         "status": "targeted_claim_and_dose_crosschecked"
+      },
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established added-benefit dose with adequate complete protein",
+        "dose_caveat": "No established UL; study doses are not recommendations.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
       }
     },
     {
@@ -7507,7 +7619,15 @@
         "source_candidate": null,
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established universal isolated supplemental dose",
+        "dose_caveat": "Evaluate whole-protein adequacy and individual conditions.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "taurine",
@@ -7684,7 +7804,15 @@
         "source_candidate": null,
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No established effective or recommended exercise dose",
+        "dose_caveat": "Safety depends on population and multi-ingredient formulations.",
+        "source": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "carnitine",
@@ -7854,7 +7982,15 @@
         "source_candidate": null,
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No dietary reference intake established for healthy adults",
+        "dose_caveat": "Medical deficiency treatment is distinct from general supplementation.",
+        "source": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "omega3_epa_dha",
@@ -8049,7 +8185,15 @@
         "patient_specific_dosing_allowed": false,
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No US RDA for EPA+DHA; dose depends on clinical indication",
+        "dose_caveat": "Do not substitute ALA AI for EPA+DHA dosing; high doses require clinical review.",
+        "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "algal_omega3",
@@ -8229,7 +8373,15 @@
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No US RDA for algal EPA+DHA; read label DHA and EPA content",
+        "dose_caveat": "Formulation varies; avoid assuming all algae oils contain EPA.",
+        "source": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "psyllium",
@@ -8430,7 +8582,15 @@
         "source_candidate": "https://ods.od.nih.gov/factsheets/DietaryFiber-HealthProfessional/",
         "automatic_recommendation_allowed": false
       },
-      "source_pointer_status": "candidate_reference_not_claim_verified"
+      "source_pointer_status": "candidate_reference_not_claim_verified",
+      "dose_evidence_review": {
+        "adult_reference_or_studied_dose": "No universal dose across indications and products; follow product-specific directions and evidence",
+        "dose_caveat": "Adequate water required; contraindicated in swallowing difficulties/obstruction.",
+        "source": "https://medlineplus.gov/druginfo/natural/866.html",
+        "reviewed_on": "2026-11-18",
+        "status": "editorial_dose_crosscheck_with_source_family_not_claim_by_claim_approved",
+        "clinical_approval": false
+      }
     },
     {
       "ingredient_id": "inulin",
@@ -18641,6 +18801,33 @@
       "caffeine",
       "bcaa"
     ],
-    "targeted_claim_dose_review_count": 3
+    "targeted_claim_dose_review_count": 3,
+    "batch_21_40": {
+      "status": "20_dose_fields_reviewed_and_recorded",
+      "ingredient_ids": [
+        "pantothenic_acid",
+        "biotin",
+        "manganese",
+        "phosphorus",
+        "sodium",
+        "creatine",
+        "beta_alanine",
+        "caffeine",
+        "protein_powder",
+        "whey_protein",
+        "plant_protein",
+        "citrulline",
+        "arginine",
+        "bcaa",
+        "leucine",
+        "taurine",
+        "carnitine",
+        "omega3_epa_dha",
+        "algal_omega3",
+        "psyllium"
+      ],
+      "clinical_validation": "pending_individual_source_passage_and_claim_review",
+      "product_authorization": "pending"
+    }
   }
 }
