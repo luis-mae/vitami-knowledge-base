@@ -1,5 +1,5 @@
 {
-  "version": "2.29",
+  "version": "2.30",
   "status": "RESEARCH_CONSOLIDATED_NOT_APPROVED_FOR_AUTOMATIC_CLINICAL_RECOMMENDATIONS",
   "counts": {
     "total": 100,
@@ -4061,6 +4061,21 @@
           "clinical_primary_source_check_complete": false,
           "clinical_signoff": false
         }
+      },
+      "indication_safety_case": {
+        "use": "Separate nutritional niacin from high-dose pharmacologic lipid management; routine supplementation is not lipid therapy.",
+        "screen": [
+          "liver_disease",
+          "diabetes",
+          "gout",
+          "statins",
+          "pregnancy"
+        ],
+        "form": "Differentiate nicotinic acid from nicotinamide and extended-release forms; report mg and total intake.",
+        "decision": "Do not recommend high-dose niacin for cholesterol without medical supervision.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -7223,6 +7238,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Compare with adequate total protein and complete essential amino acid intake before isolated BCAA use.",
+        "screen": [
+          "kidney_disease",
+          "pregnancy",
+          "inadequate_total_protein",
+          "metabolic_disorders"
+        ],
+        "form": "Identify leucine:isoleucine:valine ratio and grams per serving.",
+        "decision": "Do not imply isolated BCAA outperform adequate complete protein.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -13430,6 +13459,20 @@
         "rule_status": "editorial_clinical_safety_draft_pending_independent_validation",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Human evidence for anti-inflammatory or immune benefits is heterogeneous and not sufficient for broad disease claims.",
+        "screen": [
+          "kidney_disease",
+          "pregnancy",
+          "multiple_medications",
+          "chemotherapy"
+        ],
+        "form": "Identify quercetin form, amount, bioavailability enhancers and combination ingredients.",
+        "decision": "Do not automatically recommend for infections or chronic disease.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     },
     {
@@ -18224,6 +18267,20 @@
         "rule_status": "editorial_draft_not_source_verified",
         "dose_recommendation": null,
         "allow_automatic_recommendation": false
+      },
+      "indication_safety_case": {
+        "use": "Routine muscle recovery supplementation is distinct from clinical nutrition under specialist supervision.",
+        "screen": [
+          "liver_disease",
+          "kidney_disease",
+          "pregnancy",
+          "critical_illness"
+        ],
+        "form": "Document free L-glutamine versus peptide-bound glutamine and exact dose.",
+        "decision": "Do not extrapolate hospital nutrition protocols to consumer supplementation.",
+        "status": "EDITORIAL_DRAFT_NOT_CLINICALLY_VERIFIED",
+        "source_candidate": null,
+        "automatic_recommendation_allowed": false
       }
     }
   ],
@@ -18322,10 +18379,10 @@
   },
   "parallel_six_block_progress": {
     "date": "2026-11-18",
-    "block_1": "riboflavin",
-    "block_2": "arginine",
-    "block_3": "msm",
-    "block_4": "maca",
+    "block_1": "niacin",
+    "block_2": "bcaa",
+    "block_3": "quercetin",
+    "block_4": "glutamine",
     "block_5": {
       "verified_products": 0,
       "pending": 100
@@ -18336,7 +18393,7 @@
       "missing_trilingual_safety": 0,
       "verified_products": 0,
       "auto_enabled": 0,
-      "clinical_case_drafts": 51
+      "clinical_case_drafts": 55
     },
     "new_editorial_cases": 4,
     "scientific_signoff_added": 0
