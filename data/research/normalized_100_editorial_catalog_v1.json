@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "status": "editorial_draft_not_validated",
   "counts": {
     "total": 100,
@@ -618,7 +618,12 @@
       "release_gate": {
         "automated_recommendation_allowed": false,
         "clinical_review_required": true,
-        "claim_validation_required": true
+        "claim_validation_required": true,
+        "block_reasons": [
+          "renal_excretion_and_medication_screen_pending",
+          "serum_potassium_and_dose_context_pending",
+          "product_specific_Argentina_registration_pending"
+        ]
       },
       "source_file": "data/research/first_20_structured_scientific_fiches_2026-11-17.json",
       "safety_flags": [
@@ -642,6 +647,34 @@
         "ul_category": "requires_individual_fact_sheet_review",
         "review_status": "pending",
         "recommendation_allowed": false
+      },
+      "source_verified_claims": {
+        "source": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+        "sections": [
+          "Recommended Intakes",
+          "Sources of Potassium"
+        ],
+        "reviewed_on": "2026-11-18",
+        "claims": {
+          "es": [
+            "Ingesta adecuada de potasio: hombres adultos 3.400 mg/día y mujeres adultas 2.600 mg/día; embarazo 2.900 mg/día y lactancia 2.800 mg/día (19–50 años).",
+            "Estos valores se refieren a ingesta total y NO a dosis de suplemento; no se aplican a personas con eliminación renal alterada o medicamentos que dificultan eliminar potasio.",
+            "El etiquetado estadounidense declara potasio elemental, no la masa de la sal; el límite frecuente de 99 mg por suplemento en EE. UU. no constituye una norma argentina."
+          ],
+          "en": [
+            "Potassium AI: adult men 3,400 mg/day and women 2,600 mg/day; pregnancy 2,900 mg/day and lactation 2,800 mg/day (ages 19–50).",
+            "These are total intake reference values, NOT supplement doses; they do not apply to people with impaired potassium excretion or medications that impair excretion.",
+            "US supplement labels list elemental potassium rather than salt mass; the common US 99 mg supplement amount is not an Argentine regulatory rule."
+          ],
+          "it": [
+            "AI del potassio: uomini adulti 3.400 mg/die e donne 2.600 mg/die; gravidanza 2.900 mg/die e allattamento 2.800 mg/die (19–50 anni).",
+            "Sono valori di assunzione totale, NON dosi di integratore; non valgono in caso di ridotta escrezione renale o farmaci che la compromettono.",
+            "Le etichette USA indicano il potassio elementare, non la massa del sale; i comuni 99 mg negli integratori USA non sono una norma argentina."
+          ]
+        },
+        "status": "source_verified_claims_only",
+        "clinical_validation": false,
+        "product_authorization_checked": false
       }
     },
     {
