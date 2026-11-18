@@ -1,8 +1,8 @@
 {
-  "version": "2026-11-18",
+  "version": "2026-11-18-expanded",
   "count": 40,
   "kind": "multilingual_safety_research_drafts",
-  "disclaimer": "Editorial research drafts, not clinically reviewed, not authorized for automated recommendations. No product availability or regulatory category inferred from ingredient alone.",
+  "disclaimer": "40 multilingual indication, safety and administration drafts; NOT source-validated, clinically reviewed, or approved for recommendation.",
   "records": [
     {
       "ingredient_id": "inulin",
@@ -16,7 +16,7 @@
         "en": "May cause gas and bloating; adjust to tolerance.",
         "it": "Può causare gas e gonfiore; adattare alla tolleranza."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -33,7 +33,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Fibra fermentable estudiada para tránsito intestinal y microbiota; no implica necesidad universal.",
+        "en": "Fermentable fiber studied for bowel function and microbiota; not universally needed.",
+        "it": "Fibra fermentabile studiata per transito intestinale e microbiota; non necessaria per tutti."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "probiotics",
@@ -47,7 +57,7 @@
         "en": "Evidence depends on strain and dose; caution in severe immunosuppression.",
         "it": "Le prove dipendono da ceppo e dose; cautela nell'immunosoppressione grave."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -64,7 +74,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Se investigan efectos específicos por cepa y condición; no existe una indicación general para cualquier probiótico.",
+        "en": "Effects are investigated by strain and condition; no universal indication applies to all probiotics.",
+        "it": "Gli effetti si studiano per ceppo e condizione; non esiste indicazione universale."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "prebiotics",
@@ -78,7 +98,7 @@
         "en": "Effects depend on substrate; monitor digestive intolerance.",
         "it": "Gli effetti dipendono dal substrato; monitorare l'intolleranza digestiva."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -95,7 +115,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Sustratos seleccionados que pueden favorecer microorganismos intestinales; el efecto depende de la formulación.",
+        "en": "Selected substrates may support gut microorganisms; effects depend on formulation.",
+        "it": "Substrati selezionati possono favorire microrganismi intestinali; effetto dipendente dalla formulazione."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "collagen",
@@ -109,7 +139,7 @@
         "en": "Evidence is outcome-specific; review marine or bovine allergies.",
         "it": "Le prove dipendono dall'esito; valutare allergie marine o bovine."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -126,7 +156,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado para algunos resultados cutáneos y articulares; no reemplaza una ingesta proteica adecuada.",
+        "en": "Studied for selected skin and joint outcomes; does not replace adequate protein intake.",
+        "it": "Studiato per alcuni esiti cutanei e articolari; non sostituisce un apporto proteico adeguato."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "choline",
@@ -140,7 +180,7 @@
         "en": "Assess intake and pregnancy; excessive doses can cause hypotension and body odor.",
         "it": "Valutare apporto e gravidanza; dosi eccessive possono causare ipotensione e odore corporeo."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -157,7 +197,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Nutriente esencial cuyo aporte debe evaluarse según dieta y etapa vital, especialmente embarazo.",
+        "en": "Essential nutrient assessed against diet and life stage, especially pregnancy.",
+        "it": "Nutriente essenziale da valutare secondo dieta e fase della vita, specialmente gravidanza."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "coq10",
@@ -171,7 +221,7 @@
         "en": "Do not assume general energy benefits; review warfarin interaction.",
         "it": "Non presumere benefici energetici generali; valutare interazione con warfarin."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -188,7 +238,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Estudiada en contextos clínicos específicos; no se recomienda automáticamente para fatiga inespecífica.",
+        "en": "Studied in specific clinical contexts; not routinely indicated for nonspecific fatigue.",
+        "it": "Studiato in contesti clinici specifici; non indicato automaticamente per stanchezza aspecifica."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "melatonin",
@@ -202,7 +262,7 @@
         "en": "Distinguish circadian conditions from chronic insomnia; review drowsiness and pregnancy.",
         "it": "Distinguere disturbi circadiani da insonnia cronica; valutare sonnolenza e gravidanza."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -219,7 +279,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Se estudia para ciertos trastornos del ritmo circadiano; no equivale a tratamiento universal del insomnio.",
+        "en": "Studied for certain circadian rhythm conditions; not a universal insomnia treatment.",
+        "it": "Studiata per alcuni disturbi del ritmo circadiano; non è terapia universale dell'insonnia."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "curcumin",
@@ -233,7 +303,7 @@
         "en": "Concentrated extracts may be associated with liver injury; review interactions.",
         "it": "Estratti concentrati possono associarsi a danno epatico; valutare interazioni."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -250,7 +320,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada en síntomas articulares y otras indicaciones; resultados dependen de preparación y contexto.",
+        "en": "Investigated for joint symptoms and other indications; results depend on preparation and context.",
+        "it": "Studiata per sintomi articolari e altri usi; risultati dipendono da preparazione e contesto."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "ginger",
@@ -264,7 +344,7 @@
         "en": "Distinguish food use from extracts; review anticoagulants and pregnancy.",
         "it": "Distinguere uso alimentare dagli estratti; valutare anticoagulanti e gravidanza."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -281,7 +361,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado especialmente para náuseas en determinados contextos; distinguir alimento y extracto.",
+        "en": "Studied particularly for nausea in certain settings; distinguish food and extracts.",
+        "it": "Studiato soprattutto per nausea in alcuni contesti; distinguere alimento ed estratti."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "ashwagandha",
@@ -295,7 +385,7 @@
         "en": "Caution due to liver injury reports, thyroid effects and pregnancy.",
         "it": "Cautela per segnalazioni di danno epatico, effetti tiroidei e gravidanza."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -312,7 +402,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para estrés y sueño, con limitaciones metodológicas y riesgos que exigen revisión.",
+        "en": "Studied for stress and sleep, with methodological limitations and safety concerns.",
+        "it": "Studiata per stress e sonno, con limiti metodologici e rischi da valutare."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "green_tea_extract",
@@ -326,7 +426,7 @@
         "en": "Concentrated extracts may pose liver risk; not equivalent to tea infusion.",
         "it": "Gli estratti concentrati possono comportare rischio epatico; non equivalgono all'infuso."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -343,7 +443,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Estudiado en distintos objetivos metabólicos; el extracto concentrado no equivale a beber té.",
+        "en": "Studied for metabolic outcomes; concentrated extract is not equivalent to brewed tea.",
+        "it": "Studiato per esiti metabolici; l'estratto concentrato non equivale all'infuso."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "ginseng",
@@ -357,7 +467,7 @@
         "en": "Review hypoglycemia, anticoagulants and insomnia; distinguish species.",
         "it": "Valutare ipoglicemia, anticoagulanti e insonnia; distinguere le specie."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -374,7 +484,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado para fatiga y otros resultados; distinguir especie y extracto antes de valorar evidencia.",
+        "en": "Studied for fatigue and other outcomes; identify species and extract first.",
+        "it": "Studiato per stanchezza e altri esiti; identificare specie ed estratto."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "garlic_extract",
@@ -388,7 +508,7 @@
         "en": "Review bleeding risk and interactions before surgery.",
         "it": "Valutare rischio emorragico e interazioni prima di interventi."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -405,7 +525,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado para algunos factores cardiometabólicos; no sustituye tratamiento médico.",
+        "en": "Studied for some cardiometabolic markers; does not replace medical treatment.",
+        "it": "Studiato per alcuni marcatori cardiometabolici; non sostituisce terapie."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "turmeric",
@@ -419,7 +549,7 @@
         "en": "Do not equate culinary spice with concentrated curcuminoid extracts.",
         "it": "Non equiparare spezia culinaria a estratti concentrati di curcuminoidi."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -436,7 +566,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Especia culinaria con usos tradicionales; no asumir eficacia clínica de extractos a partir de su consumo.",
+        "en": "Culinary spice with traditional uses; do not infer extract efficacy from food use.",
+        "it": "Spezia culinaria tradizionale; non dedurre efficacia degli estratti dall'uso alimentare."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "echinacea",
@@ -450,7 +590,7 @@
         "en": "Cold evidence is heterogeneous; review Asteraceae allergies.",
         "it": "Le prove sul raffreddore sono eterogenee; valutare allergie alle Asteraceae."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -467,7 +607,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para síntomas del resfriado; evidencia heterogénea por producto y resultado.",
+        "en": "Studied for cold symptoms; evidence varies by product and outcome.",
+        "it": "Studiata per sintomi del raffreddore; prove variabili per prodotto ed esito."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "st_johns_wort",
@@ -481,7 +631,7 @@
         "en": "Major enzyme-induction interactions, including contraceptives and antidepressants.",
         "it": "Interazioni importanti per induzione enzimatica, inclusi contraccettivi e antidepressivi."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -498,7 +648,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para síntomas depresivos, pero con interacciones importantes que requieren supervisión clínica.",
+        "en": "Studied for depressive symptoms, but major interactions require clinical supervision.",
+        "it": "Studiata per sintomi depressivi, ma le interazioni importanti richiedono supervisione clinica."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "berberine",
@@ -512,7 +672,7 @@
         "en": "Review interactions, pregnancy and preparation variability; do not replace treatment.",
         "it": "Valutare interazioni, gravidanza e variabilità dei preparati; non sostituire terapie."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -529,7 +689,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada en parámetros glucémicos y lipídicos; no reemplaza medicación indicada.",
+        "en": "Studied for glucose and lipid markers; not a substitute for prescribed medicines.",
+        "it": "Studiata per parametri glicemici e lipidici; non sostituisce farmaci prescritti."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "alpha_lipoic_acid",
@@ -543,7 +713,7 @@
         "en": "Monitor hypoglycemia with diabetes drugs; evidence varies by indication.",
         "it": "Monitorare ipoglicemia con antidiabetici; prove variabili per indicazione."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -560,7 +730,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado para neuropatía y otros objetivos; evidencia y dosis dependen de la indicación.",
+        "en": "Studied for neuropathy and other outcomes; evidence and doses depend on indication.",
+        "it": "Studiato per neuropatia e altri esiti; prove e dosi dipendono dall'indicazione."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "astaxanthin",
@@ -574,7 +754,7 @@
         "en": "Do not extrapolate laboratory antioxidant effects to clinical outcomes.",
         "it": "Non estrapolare effetti antiossidanti di laboratorio a esiti clinici."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -591,7 +771,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Pigmento carotenoide estudiado en resultados diversos; beneficios clínicos no establecidos de forma general.",
+        "en": "Carotenoid studied for varied outcomes; general clinical benefit is unproven.",
+        "it": "Carotenoide studiato per vari esiti; benefici clinici generali non dimostrati."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "beta_carotene",
@@ -605,7 +795,7 @@
         "en": "Avoid high-dose supplementation in smokers due to established risks.",
         "it": "Evitare alte dosi nei fumatori per rischi documentati."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -622,7 +812,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Precursor de vitamina A; las indicaciones dietarias no justifican automáticamente dosis suplementarias.",
+        "en": "Vitamin A precursor; dietary roles do not automatically justify supplement doses.",
+        "it": "Precursore della vitamina A; il ruolo alimentare non giustifica automaticamente integratori."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "inositol",
@@ -636,7 +836,7 @@
         "en": "In PCOS, evidence and formulations vary; do not replace clinical care.",
         "it": "Nella PCOS, prove e formulazioni variano; non sostituire l'assistenza clinica."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -653,7 +853,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado en síndrome de ovario poliquístico; decisiones dependen de formulación y evidencia específica.",
+        "en": "Studied in PCOS; decisions depend on formulation and specific evidence.",
+        "it": "Studiato nella PCOS; decisioni dipendono da formulazione e prove specifiche."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "lycopene",
@@ -667,7 +877,7 @@
         "en": "Dietary association does not establish capsule benefit for disease prevention.",
         "it": "L'associazione alimentare non dimostra benefici delle capsule nella prevenzione."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -684,7 +894,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Carotenoide dietario investigado para varios desenlaces; asociaciones no prueban eficacia de cápsulas.",
+        "en": "Dietary carotenoid studied for multiple outcomes; associations do not prove capsule efficacy.",
+        "it": "Carotenoide alimentare studiato per vari esiti; associazioni non provano efficacia delle capsule."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "mct_oil",
@@ -698,7 +918,7 @@
         "en": "May cause diarrhea and gastrointestinal symptoms; avoid weight-loss claims.",
         "it": "Può causare diarrea e disturbi gastrointestinali; evitare promesse dimagranti."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -715,7 +935,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Fuente concentrada de grasas de cadena media; utilidad depende del contexto nutricional.",
+        "en": "Concentrated medium-chain fat source; usefulness depends on nutrition context.",
+        "it": "Fonte concentrata di grassi a catena media; utilità dipende dal contesto nutrizionale."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "nac",
@@ -729,7 +959,7 @@
         "en": "Distinguish medical uses from supplementation; review interactions and regulation.",
         "it": "Distinguere usi farmacologici dall'integrazione; valutare interazioni e normativa."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -746,7 +976,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Compuesto con usos farmacológicos específicos; la indicación médica no equivale a suplementación general.",
+        "en": "Compound with specific medical uses; medical indications do not imply routine supplementation.",
+        "it": "Composto con usi farmacologici specifici; non implica integrazione generale."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "spirulina",
@@ -760,7 +1000,7 @@
         "en": "Check quality and microcystin/heavy-metal contamination; not a reliable B12 substitute.",
         "it": "Controllare qualità e contaminazione da microcistine/metalli; non sostituisce B12."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -777,7 +1017,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Biomasa de cianobacterias usada como alimento; no constituye fuente fiable de vitamina B12 activa.",
+        "en": "Cyanobacterial biomass used as food; not a reliable source of active vitamin B12.",
+        "it": "Biomassa di cianobatteri usata come alimento; non è fonte affidabile di vitamina B12 attiva."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "glucosamine",
@@ -791,7 +1041,7 @@
         "en": "Variable osteoarthritis evidence; review warfarin and shellfish source.",
         "it": "Prove variabili nell'artrosi; valutare warfarin e origine da crostacei."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -808,7 +1058,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para síntomas de artrosis; efecto depende de formulación y resultado evaluado.",
+        "en": "Studied for osteoarthritis symptoms; effects depend on formulation and outcome.",
+        "it": "Studiata per sintomi dell'artrosi; effetti dipendono da formulazione ed esito."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "chondroitin",
@@ -822,7 +1082,7 @@
         "en": "Evidence varies by formulation; review anticoagulants.",
         "it": "Prove variabili per formulazione; valutare anticoagulanti."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -839,7 +1099,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada en artrosis; la evidencia no es uniforme entre productos.",
+        "en": "Studied in osteoarthritis; evidence is not uniform across products.",
+        "it": "Studiata nell'artrosi; le prove variano tra prodotti."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "msm",
@@ -853,7 +1123,7 @@
         "en": "Limited clinical data for joint pain and long-term safety.",
         "it": "Dati clinici limitati per dolore articolare e sicurezza a lungo termine."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -870,7 +1140,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado para molestias articulares; ensayos limitados y seguridad prolongada incierta.",
+        "en": "Studied for joint discomfort; trials limited and long-term safety uncertain.",
+        "it": "Studiato per disturbi articolari; studi limitati e sicurezza a lungo termine incerta."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "l_theanine",
@@ -884,7 +1164,7 @@
         "en": "Limited evidence for sleep and anxiety; review sedatives.",
         "it": "Prove limitate per sonno e ansia; valutare sedativi."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -901,7 +1181,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para atención, estrés y sueño; evidencia clínica todavía limitada.",
+        "en": "Studied for attention, stress and sleep; clinical evidence remains limited.",
+        "it": "Studiata per attenzione, stress e sonno; prove cliniche ancora limitate."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "quercetin",
@@ -915,7 +1205,7 @@
         "en": "Do not assume infection prevention; review interactions and high doses.",
         "it": "Non presumere prevenzione delle infezioni; valutare interazioni e alte dosi."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -932,7 +1222,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Flavonoide investigado para distintos resultados; no hay indicación preventiva general establecida.",
+        "en": "Flavonoid studied for several outcomes; no general preventive indication established.",
+        "it": "Flavonoide studiato per vari esiti; nessuna indicazione preventiva generale stabilita."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "resveratrol",
@@ -946,7 +1246,7 @@
         "en": "Clinical longevity benefits unproven; review anticoagulants.",
         "it": "Benefici clinici per longevità non dimostrati; valutare anticoagulanti."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -963,7 +1263,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Polifenol investigado en envejecimiento y metabolismo; no está demostrado que prolongue la vida.",
+        "en": "Polyphenol studied in aging and metabolism; lifespan extension is unproven.",
+        "it": "Polifenolo studiato per invecchiamento e metabolismo; prolungamento della vita non dimostrato."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "elderberry",
@@ -977,7 +1287,7 @@
         "en": "Limited infection evidence; avoid homemade preparations from toxic raw plant parts.",
         "it": "Prove limitate nelle infezioni; evitare preparati da parti crude tossiche."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -994,7 +1304,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado para síntomas respiratorios; evidencia limitada y heterogénea.",
+        "en": "Studied for respiratory symptoms; evidence is limited and heterogeneous.",
+        "it": "Studiato per sintomi respiratori; prove limitate ed eterogenee."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "cranberry",
@@ -1008,7 +1328,7 @@
         "en": "UTI prevention in some groups does not treat an active infection.",
         "it": "La prevenzione delle IVU in alcuni gruppi non tratta infezioni attive."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -1025,7 +1345,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigado para prevención de infecciones urinarias recurrentes en grupos seleccionados, no tratamiento activo.",
+        "en": "Studied for prevention of recurrent UTIs in selected groups, not active treatment.",
+        "it": "Studiato per prevenzione di IVU ricorrenti in gruppi selezionati, non trattamento attivo."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "d_mannose",
@@ -1039,7 +1369,7 @@
         "en": "Recent evidence does not support routine recurrent-UTI prevention.",
         "it": "Prove recenti non supportano la prevenzione routinaria delle IVU ricorrenti."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -1056,7 +1386,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para prevención de infección urinaria recurrente; evidencia actual no justifica uso rutinario.",
+        "en": "Studied for recurrent UTI prevention; current evidence does not support routine use.",
+        "it": "Studiato per prevenzione di IVU ricorrenti; prove attuali non supportano uso routinario."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "saw_palmetto",
@@ -1070,7 +1410,7 @@
         "en": "Inconsistent urinary benefit; assess prostate symptoms professionally.",
         "it": "Benefici urinari incostanti; valutare sintomi prostatici con professionista."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -1087,7 +1427,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para síntomas urinarios masculinos; beneficios inconsistentes.",
+        "en": "Studied for male urinary symptoms; benefits are inconsistent.",
+        "it": "Studiata per sintomi urinari maschili; benefici incostanti."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "valerian",
@@ -1101,7 +1451,7 @@
         "en": "Insufficient insomnia evidence; caution with sedatives and driving.",
         "it": "Prove insufficienti per insonnia; cautela con sedativi e guida."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -1118,7 +1468,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para sueño; evidencia insuficiente para recomendarla de manera general.",
+        "en": "Studied for sleep; evidence insufficient for general recommendation.",
+        "it": "Studiata per sonno; prove insufficienti per raccomandazione generale."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "rhodiola",
@@ -1132,7 +1492,7 @@
         "en": "Small heterogeneous studies; review interactions and extract quality.",
         "it": "Studi piccoli ed eterogenei; valutare interazioni e qualità dell'estratto."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -1149,7 +1509,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Investigada para fatiga y estrés; ensayos pequeños y formulaciones variables.",
+        "en": "Studied for fatigue and stress; small trials and variable preparations.",
+        "it": "Studiata per fatica e stress; studi piccoli e preparati variabili."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "beetroot_nitrate",
@@ -1163,7 +1533,7 @@
         "en": "Benefits depend on sport and dose; review hypotension and mouthwash effects.",
         "it": "Benefici dipendono da sport e dose; valutare ipotensione e collutori."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -1180,7 +1550,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Fuente dietaria de nitratos estudiada para rendimiento en algunos ejercicios; depende de protocolo.",
+        "en": "Dietary nitrate source studied for performance in some exercise types; protocol-dependent.",
+        "it": "Fonte di nitrati alimentari studiata per prestazioni in alcuni esercizi; dipende dal protocollo."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "electrolytes",
@@ -1194,7 +1574,7 @@
         "en": "Not routinely needed for short exercise; review sodium, potassium and kidney disease.",
         "it": "Non necessari di routine per esercizio breve; valutare sodio, potassio e reni."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -1211,7 +1591,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Mezclas para reposición de pérdidas en condiciones específicas; no necesarias en todo ejercicio.",
+        "en": "Mixtures for replacing losses in specific settings; not needed for all exercise.",
+        "it": "Miscele per reintegrare perdite in contesti specifici; non necessarie per ogni esercizio."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     },
     {
       "ingredient_id": "multivitamin",
@@ -1225,7 +1615,7 @@
         "en": "Review duplication, pregnancy retinol and each nutrient's upper limit.",
         "it": "Valutare duplicazioni, retinolo in gravidanza e limiti di ogni nutriente."
       },
-      "editorial_status": "draft_not_verified",
+      "editorial_status": "multilingual_indication_and_safety_draft_pending_evidence_review",
       "public_recommendation_allowed": false,
       "dose": "not_established_pending_indication_specific_source_review",
       "evidence": "requires_indication_specific_appraisal",
@@ -1242,7 +1632,17 @@
         "clinical_indication",
         "argentina_product_registration",
         "professional_review"
-      ]
+      ],
+      "indication": {
+        "es": "Combinación de micronutrientes a valorar según dieta y necesidades; no garantiza prevención de enfermedades.",
+        "en": "Micronutrient combination assessed against diet and needs; does not guarantee disease prevention.",
+        "it": "Combinazione di micronutrienti da valutare secondo dieta e bisogni; non garantisce prevenzione."
+      },
+      "how_to_take": {
+        "es": "No definir dosis ni horario hasta verificar indicación, presentación, interacciones y fuente clínica específica.",
+        "en": "Do not set dose or timing until indication, formulation, interactions and indication-specific clinical source are checked.",
+        "it": "Non definire dose o orario prima di verificare indicazione, formulazione, interazioni e fonte clinica specifica."
+      }
     }
   ]
 }
