@@ -1,0 +1,183 @@
+{
+  "schema": "vitami-research-batch-4",
+  "date": "2026-11-18",
+  "source_catalog": "data/research/normalized_100_editorial_catalog_v1.json",
+  "range": "positions 96-100",
+  "records": [
+    {
+      "ingredient_id": "licorice_root",
+      "names": {
+        "es": "Regaliz",
+        "en": "Licorice root",
+        "it": "Liquirizia"
+      },
+      "editorial": {
+        "indication": {
+          "es": "No recomendar para bienestar general por posibles efectos cardiovasculares y electrolíticos.",
+          "en": "Not recommended for general wellness due to possible cardiovascular and electrolyte effects.",
+          "it": "Non raccomandata per benessere generale per possibili effetti cardiovascolari ed elettrolitici."
+        },
+        "safety": {
+          "es": "Puede elevar presión y reducir potasio; precaución cardiovascular.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_pointer": null,
+      "priority_review": [
+        "verify evidence by indication",
+        "verify dose, formulation, and route",
+        "verify drug interactions and vulnerable populations",
+        "check Argentina RNE/RNPA per actual product"
+      ],
+      "regulatory_status": "pending_specific_product",
+      "recommendation_enabled": false
+    },
+    {
+      "ingredient_id": "bromelain",
+      "names": {
+        "es": "Bromelina",
+        "en": "Bromelain",
+        "it": "Bromelina"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Enzimas de piña investigadas para inflamación y otros objetivos; evidencia específica limitada.",
+          "en": "Pineapple enzymes studied for inflammation and other outcomes; indication-specific evidence is limited.",
+          "it": "Enzimi dell'ananas studiati per infiammazione e altri esiti; prove specifiche limitate."
+        },
+        "safety": {
+          "es": "Revisar alergia a piña e interacciones con anticoagulantes.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_pointer": null,
+      "priority_review": [
+        "verify evidence by indication",
+        "verify dose, formulation, and route",
+        "verify drug interactions and vulnerable populations",
+        "check Argentina RNE/RNPA per actual product"
+      ],
+      "regulatory_status": "pending_specific_product",
+      "recommendation_enabled": false
+    },
+    {
+      "ingredient_id": "propolis",
+      "names": {
+        "es": "Propóleo",
+        "en": "Propolis",
+        "it": "Propoli"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Producto apícola estudiado para diversos usos; evidencia y calidad variables.",
+          "en": "Bee product studied for several uses; evidence and quality vary.",
+          "it": "Prodotto apistico studiato per vari usi; prove e qualità variabili."
+        },
+        "safety": {
+          "es": "Revisar alergias a productos apícolas y calidad.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_pointer": null,
+      "priority_review": [
+        "verify evidence by indication",
+        "verify dose, formulation, and route",
+        "verify drug interactions and vulnerable populations",
+        "check Argentina RNE/RNPA per actual product"
+      ],
+      "regulatory_status": "pending_specific_product",
+      "recommendation_enabled": false
+    },
+    {
+      "ingredient_id": "maca",
+      "names": {
+        "es": "Maca",
+        "en": "Maca",
+        "it": "Maca"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Raíz investigada para síntomas sexuales y bienestar; no asumir efecto hormonal clínico.",
+          "en": "Root studied for sexual symptoms and wellness; do not assume clinical hormonal effects.",
+          "it": "Radice studiata per sintomi sessuali e benessere; non presumere effetti ormonali clinici."
+        },
+        "safety": {
+          "es": "Evidencia insuficiente para promesas hormonales o reproductivas.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_pointer": null,
+      "priority_review": [
+        "verify evidence by indication",
+        "verify dose, formulation, and route",
+        "verify drug interactions and vulnerable populations",
+        "check Argentina RNE/RNPA per actual product"
+      ],
+      "regulatory_status": "pending_specific_product",
+      "recommendation_enabled": false
+    },
+    {
+      "ingredient_id": "glutamine",
+      "names": {
+        "es": "Glutamina",
+        "en": "Glutamine",
+        "it": "Glutammina"
+      },
+      "editorial": {
+        "indication": {
+          "es": "Aminoácido investigado en nutrición clínica y ejercicio; indicación depende de contexto.",
+          "en": "Amino acid studied in clinical nutrition and exercise; indication depends on context.",
+          "it": "Aminoacido studiato in nutrizione clinica ed esercizio; indicazione dipende dal contesto."
+        },
+        "safety": {
+          "es": "Distinguir usos clínicos específicos de suplementación deportiva.",
+          "en": "Review medicine interactions, pregnancy, underlying disease, formulation and product quality before any use.",
+          "it": "Valutare interazioni farmacologiche, gravidanza, patologie, formulazione e qualità del prodotto prima dell'uso."
+        },
+        "use": {
+          "es": "No establecer dosis, horario ni equivalencias hasta revisar evidencia específica y producto registrado.",
+          "en": "Do not set dose, schedule or equivalence without indication-specific evidence and registered product review.",
+          "it": "Non definire dose, orario o equivalenza senza prove specifiche e verifica del prodotto registrato."
+        }
+      },
+      "source_pointer": null,
+      "priority_review": [
+        "verify evidence by indication",
+        "verify dose, formulation, and route",
+        "verify drug interactions and vulnerable populations",
+        "check Argentina RNE/RNPA per actual product"
+      ],
+      "regulatory_status": "pending_specific_product",
+      "recommendation_enabled": false
+    }
+  ],
+  "summary": {
+    "count": 5,
+    "clinically_verified": 0,
+    "note": "Remaining five catalog entries; 100 total now allocated across research batches."
+  }
+}
