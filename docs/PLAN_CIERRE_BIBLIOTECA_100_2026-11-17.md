@@ -1,3 +1,5 @@
+> **HISTÓRICO / NO EJECUTAR COMO PLAN MAESTRO.** Es un plan de cierre de biblioteca fechado y acotado. El único plan operativo vigente para todo VITAMI está en [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md). Este archivo se conserva como registro histórico; sus métricas no representan el estado actual.
+
 > **GOBERNANZA ÚNICA VITAMI (18/11/2026):** El único plan operativo vigente es [VITAMI_PLAN_MAESTRO_UNICO.md](https://github.com/luis-mae/vitami/blob/main/VITAMI_PLAN_MAESTRO_UNICO.md), regido por [CONCEPTO_DIRECTOR_VITAMI.md](https://github.com/luis-mae/vitami/blob/main/frontend/CONCEPTO_DIRECTOR_VITAMI.md). Este archivo se conserva como referencia técnica/histórica, NO como roadmap independiente. Las tareas científicas útiles se ejecutan exclusivamente dentro de los bloques E3–E4 del plan único; no crear motores ni cuestionarios alternativos.
 
 # Biblioteca VITAMI — cierre de 100 fichas (2026-11-17)
