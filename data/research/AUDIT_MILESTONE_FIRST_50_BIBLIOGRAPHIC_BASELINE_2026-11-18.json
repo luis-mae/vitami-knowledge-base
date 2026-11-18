@@ -13,5 +13,9 @@
   "canonical_catalog_commit": "dad82b1bb784a80d409c8e2c6b80d700107946b2",
   "next": "51-100 remain pending bibliographic baseline",
   "latest_confirmation": "31-50 have bibliographic_validation_v2 fields in canonical catalog; 50/100 baseline complete under agreed criteria",
-  "source_integrity": "No primary sources newly opened in this turn; preexisting audits reused; not independent full verification"
+  "source_integrity": "No primary sources newly opened in this turn; preexisting audits reused; not independent full verification",
+  "governance": {
+    "document_status": "DATED_RESEARCH_EVIDENCE_NOT_MASTER_AUDIT_OR_ACTIVE_PLAN",
+    "instruction": "This file records a bounded research/audit milestone for its named ingredients and date. It is not the current consolidated VITAMI audit and must not be used to infer global completion or current status. Consult luis-mae/vitami/AUDITORIA.md and VITAMI_PLAN_MAESTRO_UNICO.md before acting."
+  }
 }
